@@ -1,0 +1,631 @@
+{
+  "a_records": {
+    "badge-ctl-01.meridianfoods.net": "10.40.12.10",
+    "cam-dvr-hall3-01.meridianfoods.net": "10.40.31.28",
+    "conveyor-plc-gw-01.meridianfoods.net": "10.40.12.6",
+    "core-sw-01.meridianfoods.net": "10.40.8.2",
+    "core-sw-02.meridianfoods.net": "10.40.8.3",
+    "dock-scale-01.meridianfoods.net": "10.40.12.7",
+    "edge-lb-01.meridianfoods.net": "10.40.8.40",
+    "edge-rtr-01.meridianfoods.net": "10.40.8.4",
+    "edge-rtr-02.meridianfoods.net": "10.40.8.5",
+    "freezer-mon-01.meridianfoods.net": "10.40.12.8",
+    "hvac-ctl-01.meridianfoods.net": "10.40.12.5",
+    "mfg-batchprint-01.meridianfoods.net": "10.40.11.63",
+    "mfg-payrelay-01.meridianfoods.net": "10.40.11.61",
+    "mfg-scalehub-01.meridianfoods.net": "10.41.11.13",
+    "mfg-timeclock-01.meridianfoods.net": "10.40.11.65",
+    "oob-mgmt-01.meridianfoods.net": "10.40.8.10",
+    "sprinkler-panel-01.meridianfoods.net": "10.40.12.9",
+    "srv-ad-dc-01.meridianfoods.net": "10.41.11.15",
+    "srv-ad-dc-02.meridianfoods.net": "10.41.11.16",
+    "srv-backup-proxy-01.meridianfoods.net": "10.41.11.17",
+    "srv-bi-etl-01.meridianfoods.net": "10.40.31.22",
+    "srv-bi-portal-01.meridianfoods.net": "10.41.11.18",
+    "srv-checkout-01.meridianfoods.net": "10.41.11.19",
+    "srv-checkout-02.meridianfoods.net": "10.41.11.20",
+    "srv-dhcp-01.meridianfoods.net": "10.41.11.21",
+    "srv-dw-proxy-01.meridianfoods.net": "10.40.31.27",
+    "srv-erp-app-01.meridianfoods.net": "10.41.11.22",
+    "srv-erp-db-01.meridianfoods.net": "10.41.11.23",
+    "srv-grocery-api-01.meridianfoods.net": "10.41.11.24",
+    "srv-grocery-api-02.meridianfoods.net": "10.41.11.25",
+    "srv-jump-01.meridianfoods.net": "10.40.31.33",
+    "srv-kiosk-gw-03.meridianfoods.net": "10.40.31.26",
+    "srv-label-print-01.meridianfoods.net": "10.41.11.26",
+    "srv-monitor-01.meridianfoods.net": "10.41.11.27",
+    "srv-mq-relay-01.meridianfoods.net": "10.41.11.28",
+    "srv-patch-repo-01.meridianfoods.net": "10.40.31.32",
+    "srv-print-01.meridianfoods.net": "10.41.11.29",
+    "srv-print-hall3-01.meridianfoods.net": "10.40.31.35",
+    "srv-scale-ctl-01.meridianfoods.net": "10.40.31.25",
+    "srv-storefront-01.meridianfoods.net": "10.41.11.30",
+    "srv-storefront-02.meridianfoods.net": "10.41.11.31",
+    "srv-ups-mon-01.meridianfoods.net": "10.40.31.29",
+    "srv-voice-ivr-01.meridianfoods.net": "10.41.11.32",
+    "srv-wh-ctl-01.meridianfoods.net": "10.41.11.33",
+    "srv-wifi-ctl-01.meridianfoods.net": "10.40.31.24"
+  },
+  "assigned_ips": [
+    "10.40.12.10|badge-ctl-01",
+    "10.40.12.5|hvac-ctl-01",
+    "10.40.12.6|conveyor-plc-gw-01",
+    "10.40.12.7|dock-scale-01",
+    "10.40.12.8|freezer-mon-01",
+    "10.40.12.9|sprinkler-panel-01",
+    "10.40.31.22|srv-bi-etl-01",
+    "10.40.31.24|srv-wifi-ctl-01",
+    "10.40.31.25|srv-scale-ctl-01",
+    "10.40.31.26|srv-kiosk-gw-03",
+    "10.40.31.27|srv-dw-proxy-01",
+    "10.40.31.28|cam-dvr-hall3-01",
+    "10.40.31.29|srv-ups-mon-01",
+    "10.40.31.32|srv-patch-repo-01",
+    "10.40.31.33|srv-jump-01",
+    "10.40.31.35|srv-print-hall3-01",
+    "10.40.8.10|oob-mgmt-01",
+    "10.40.8.2|core-sw-01",
+    "10.40.8.3|core-sw-02",
+    "10.40.8.40|edge-lb-01",
+    "10.40.8.4|edge-rtr-01",
+    "10.40.8.5|edge-rtr-02",
+    "10.41.11.10|mfg-batchprint-01",
+    "10.41.11.11|mfg-coldvault-gw-01",
+    "10.41.11.12|mfg-payrelay-01",
+    "10.41.11.13|mfg-scalehub-01",
+    "10.41.11.14|mfg-timeclock-01",
+    "10.41.11.15|srv-ad-dc-01",
+    "10.41.11.16|srv-ad-dc-02",
+    "10.41.11.17|srv-backup-proxy-01",
+    "10.41.11.18|srv-bi-portal-01",
+    "10.41.11.19|srv-checkout-01",
+    "10.41.11.20|srv-checkout-02",
+    "10.41.11.21|srv-dhcp-01",
+    "10.41.11.22|srv-erp-app-01",
+    "10.41.11.23|srv-erp-db-01",
+    "10.41.11.24|srv-grocery-api-01",
+    "10.41.11.25|srv-grocery-api-02",
+    "10.41.11.26|srv-label-print-01",
+    "10.41.11.27|srv-monitor-01",
+    "10.41.11.28|srv-mq-relay-01",
+    "10.41.11.29|srv-print-01",
+    "10.41.11.30|srv-storefront-01",
+    "10.41.11.31|srv-storefront-02",
+    "10.41.11.32|srv-voice-ivr-01",
+    "10.41.11.33|srv-wh-ctl-01"
+  ],
+  "backend_servers": {
+    "be_bi_portal": [
+      [
+        "bi-portal-01",
+        "10.41.11.18"
+      ]
+    ],
+    "be_bi_reports": [
+      [
+        "bi-etl-01",
+        "10.40.31.22"
+      ]
+    ],
+    "be_checkout": [
+      [
+        "checkout-01",
+        "10.41.11.19"
+      ],
+      [
+        "checkout-02",
+        "10.40.11.52"
+      ]
+    ],
+    "be_dw_proxy": [
+      [
+        "dw-proxy-01",
+        "10.40.31.27"
+      ]
+    ],
+    "be_erp_app": [
+      [
+        "erp-app-01",
+        "10.40.11.23"
+      ]
+    ],
+    "be_grocery_api": [
+      [
+        "grocery-api-01",
+        "10.41.11.24"
+      ],
+      [
+        "grocery-api-02",
+        "10.41.11.25"
+      ]
+    ],
+    "be_label_api": [
+      [
+        "label-print-01",
+        "10.41.11.26"
+      ]
+    ],
+    "be_patch_repo": [
+      [
+        "patch-repo-01",
+        "10.40.31.32"
+      ]
+    ],
+    "be_payrelay": [
+      [
+        "payrelay-01",
+        "10.40.11.61"
+      ]
+    ],
+    "be_storefront_web": [
+      [
+        "storefront-01",
+        "10.41.11.30"
+      ],
+      [
+        "storefront-02",
+        "10.41.11.31"
+      ]
+    ],
+    "be_wh_ctl_api": [
+      [
+        "wh-ctl-01",
+        "10.41.11.33"
+      ]
+    ]
+  },
+  "cname_names": [
+    "checkout.meridianfoods.net",
+    "clock.meridianfoods.net",
+    "dw.meridianfoods.net",
+    "erp.meridianfoods.net",
+    "helpdesk.meridianfoods.net",
+    "registry.meridianfoods.net",
+    "reports.meridianfoods.net",
+    "shop.meridianfoods.net"
+  ],
+  "cr_states": {
+    "CHG0038102": {
+      "closed_at": "",
+      "state": "3"
+    },
+    "CHG0039812": {
+      "closed_at": "",
+      "state": "3"
+    },
+    "CHG0041101": {
+      "closed_at": "",
+      "state": "3"
+    },
+    "CHG0041260": {
+      "closed_at": "",
+      "state": "3"
+    },
+    "CHG0041500": {
+      "closed_at": "",
+      "state": "2"
+    },
+    "CHG0041521": {
+      "closed_at": "2026-03-24 22:19:02",
+      "state": "3"
+    },
+    "CHG0041534": {
+      "closed_at": "2026-03-31 22:47:11",
+      "state": "3"
+    },
+    "CHG0041580": {
+      "closed_at": "2026-05-11 22:31:44",
+      "state": "3"
+    }
+  },
+  "device_state": {
+    "badge-ctl-01": {
+      "in_service": true
+    },
+    "cam-dvr-hall3-01": {
+      "in_service": true
+    },
+    "conveyor-plc-gw-01": {
+      "in_service": true
+    },
+    "core-sw-01": {
+      "in_service": true
+    },
+    "core-sw-02": {
+      "in_service": true
+    },
+    "dock-scale-01": {
+      "in_service": true
+    },
+    "edge-lb-01": {
+      "in_service": true
+    },
+    "edge-rtr-01": {
+      "in_service": true
+    },
+    "edge-rtr-02": {
+      "in_service": true
+    },
+    "freezer-mon-01": {
+      "in_service": true
+    },
+    "hvac-ctl-01": {
+      "in_service": true
+    },
+    "mfg-batchprint-01": {
+      "in_service": true
+    },
+    "mfg-coldvault-gw-01": {
+      "in_service": true
+    },
+    "mfg-payrelay-01": {
+      "in_service": true
+    },
+    "mfg-scalehub-01": {
+      "in_service": true
+    },
+    "mfg-timeclock-01": {
+      "in_service": true
+    },
+    "oob-mgmt-01": {
+      "in_service": true
+    },
+    "sprinkler-panel-01": {
+      "in_service": true
+    },
+    "srv-ad-dc-01": {
+      "in_service": true
+    },
+    "srv-ad-dc-02": {
+      "in_service": true
+    },
+    "srv-backup-proxy-01": {
+      "in_service": true
+    },
+    "srv-bi-etl-01": {
+      "in_service": true
+    },
+    "srv-bi-portal-01": {
+      "in_service": true
+    },
+    "srv-checkout-01": {
+      "in_service": true
+    },
+    "srv-checkout-02": {
+      "in_service": true
+    },
+    "srv-dhcp-01": {
+      "in_service": true
+    },
+    "srv-dw-proxy-01": {
+      "in_service": true
+    },
+    "srv-erp-app-01": {
+      "in_service": true
+    },
+    "srv-erp-db-01": {
+      "in_service": true
+    },
+    "srv-grocery-api-01": {
+      "in_service": true
+    },
+    "srv-grocery-api-02": {
+      "in_service": true
+    },
+    "srv-jump-01": {
+      "in_service": true
+    },
+    "srv-kiosk-gw-03": {
+      "in_service": true
+    },
+    "srv-label-print-01": {
+      "in_service": true
+    },
+    "srv-monitor-01": {
+      "in_service": true
+    },
+    "srv-mq-relay-01": {
+      "in_service": true
+    },
+    "srv-patch-repo-01": {
+      "in_service": true
+    },
+    "srv-print-01": {
+      "in_service": true
+    },
+    "srv-print-hall3-01": {
+      "in_service": true
+    },
+    "srv-scale-ctl-01": {
+      "in_service": true
+    },
+    "srv-storefront-01": {
+      "in_service": true
+    },
+    "srv-storefront-02": {
+      "in_service": true
+    },
+    "srv-ups-mon-01": {
+      "in_service": true
+    },
+    "srv-voice-ivr-01": {
+      "in_service": true
+    },
+    "srv-wh-ctl-01": {
+      "in_service": true
+    },
+    "srv-wifi-ctl-01": {
+      "in_service": true
+    }
+  },
+  "noise_incident_states": {
+    "INC0052734": "7",
+    "INC0052741": "7",
+    "INC0052755": "7",
+    "INC0052768": "6",
+    "INC0052771": "7",
+    "INC0052780": "7",
+    "INC0052793": "2",
+    "INC0052807": "6",
+    "INC0052815": "7",
+    "INC0052822": "2",
+    "INC0052829": "1",
+    "INC0052836": "2"
+  },
+  "runtime_rows": {
+    "be_bi_portal": [
+      [
+        "bi-portal-01",
+        "10.40.11.26"
+      ]
+    ],
+    "be_bi_reports": [
+      [
+        "bi-etl-01",
+        "10.40.31.22"
+      ]
+    ],
+    "be_checkout": [
+      [
+        "checkout-01",
+        "10.40.11.51"
+      ],
+      [
+        "checkout-02",
+        "10.40.11.52"
+      ]
+    ],
+    "be_dw_proxy": [
+      [
+        "dw-proxy-01",
+        "10.40.31.27"
+      ]
+    ],
+    "be_erp_app": [
+      [
+        "erp-app-01",
+        "10.40.11.23"
+      ]
+    ],
+    "be_grocery_api": [
+      [
+        "grocery-api-01",
+        "10.40.11.30"
+      ],
+      [
+        "grocery-api-02",
+        "10.40.11.31"
+      ]
+    ],
+    "be_label_api": [
+      [
+        "label-print-01",
+        "10.41.11.26"
+      ]
+    ],
+    "be_patch_repo": [
+      [
+        "patch-repo-01",
+        "10.40.31.32"
+      ]
+    ],
+    "be_payrelay": [
+      [
+        "payrelay-01",
+        "10.40.11.61"
+      ]
+    ],
+    "be_storefront_web": [
+      [
+        "storefront-01",
+        "10.41.11.30"
+      ],
+      [
+        "storefront-02",
+        "10.41.11.31"
+      ]
+    ],
+    "be_wh_ctl_api": [
+      [
+        "wh-ctl-01",
+        "10.41.11.33"
+      ]
+    ]
+  },
+  "sg_ingress": {
+    "sg-02b7e6f4a91c3d508": [
+      "{\"cidrs\": [\"0.0.0.0/0\"], \"from\": 443, \"proto\": \"tcp\", \"sgs\": [], \"to\": 443}"
+    ],
+    "sg-0a30b5c6d17f8e234": [
+      "{\"cidrs\": [\"10.41.11.17/32\"], \"from\": 8200, \"proto\": \"tcp\", \"sgs\": [], \"to\": 8200}",
+      "{\"cidrs\": [], \"from\": 443, \"proto\": \"tcp\", \"sgs\": [\"sg-02b7e6f4a91c3d508\"], \"to\": 443}"
+    ],
+    "sg-0c3f9e12d8a57b401": [
+      "{\"cidrs\": [], \"from\": 5432, \"proto\": \"tcp\", \"sgs\": [\"sg-02b7e6f4a91c3d508\"], \"to\": 5432}"
+    ],
+    "sg-0d41e7f2a83c5b901": [
+      "{\"cidrs\": [\"10.40.11.35/32\"], \"from\": 5439, \"proto\": \"tcp\", \"sgs\": [], \"to\": 5439}",
+      "{\"cidrs\": [], \"from\": 443, \"proto\": \"tcp\", \"sgs\": [\"sg-02b7e6f4a91c3d508\"], \"to\": 443}"
+    ],
+    "sg-0d81c5a2f7e94b306": [
+      "{\"cidrs\": [\"10.100.0.0/16\"], \"from\": 22, \"proto\": \"tcp\", \"sgs\": [], \"to\": 22}"
+    ],
+    "sg-0e52f8a3b94d6c012": [
+      "{\"cidrs\": [\"10.40.11.61/32\"], \"from\": 8443, \"proto\": \"tcp\", \"sgs\": [], \"to\": 8443}",
+      "{\"cidrs\": [], \"from\": 443, \"proto\": \"tcp\", \"sgs\": [\"sg-02b7e6f4a91c3d508\"], \"to\": 443}"
+    ],
+    "sg-0e5a7c31f2d98b604": [
+      "{\"cidrs\": [\"10.40.12.5/32\"], \"from\": 4840, \"proto\": \"tcp\", \"sgs\": [], \"to\": 4840}"
+    ],
+    "sg-0f63a9b4c05e7d123": [
+      "{\"cidrs\": [\"10.40.11.64/32\"], \"from\": 9443, \"proto\": \"tcp\", \"sgs\": [], \"to\": 9443}",
+      "{\"cidrs\": [], \"from\": 443, \"proto\": \"tcp\", \"sgs\": [\"sg-02b7e6f4a91c3d508\"], \"to\": 443}"
+    ]
+  },
+  "zia_groups": {
+    "grp-corp-office": [
+      "10.100.0.0/16"
+    ],
+    "grp-dcw-h1-ot": [
+      "10.40.12.0/24"
+    ],
+    "grp-dcw-hall1": [
+      "10.40.11.0/24"
+    ],
+    "grp-dcw-hall3": [
+      "10.40.31.0/24"
+    ],
+    "grp-dcw-mgmt": [
+      "10.40.8.0/24"
+    ],
+    "grp-stores-east": [
+      "172.20.0.0/16"
+    ],
+    "grp-stores-west": [
+      "172.21.0.0/16"
+    ],
+    "grp-wifi-guests": [
+      "172.30.0.0/16"
+    ]
+  },
+  "zia_rule_states": {
+    "allow-coldvault-telemetry": "ENABLED",
+    "allow-hall1-updates-10": "ENABLED",
+    "allow-hall1-updates-106": "ENABLED",
+    "allow-hall1-updates-114": "ENABLED",
+    "allow-hall1-updates-18": "ENABLED",
+    "allow-hall1-updates-2": "ENABLED",
+    "allow-hall1-updates-26": "DISABLED",
+    "allow-hall1-updates-34": "ENABLED",
+    "allow-hall1-updates-42": "ENABLED",
+    "allow-hall1-updates-50": "ENABLED",
+    "allow-hall1-updates-58": "ENABLED",
+    "allow-hall1-updates-66": "ENABLED",
+    "allow-hall1-updates-74": "ENABLED",
+    "allow-hall1-updates-82": "ENABLED",
+    "allow-hall1-updates-90": "ENABLED",
+    "allow-hall1-updates-98": "ENABLED",
+    "allow-hall3-updates-11": "ENABLED",
+    "allow-hall3-updates-115": "ENABLED",
+    "allow-hall3-updates-19": "ENABLED",
+    "allow-hall3-updates-27": "ENABLED",
+    "allow-hall3-updates-3": "ENABLED",
+    "allow-hall3-updates-35": "ENABLED",
+    "allow-hall3-updates-43": "ENABLED",
+    "allow-hall3-updates-51": "ENABLED",
+    "allow-hall3-updates-59": "ENABLED",
+    "allow-hall3-updates-67": "ENABLED",
+    "allow-hall3-updates-75": "ENABLED",
+    "allow-hall3-updates-83": "ENABLED",
+    "allow-hall3-updates-91": "DISABLED",
+    "allow-hall3-updates-99": "ENABLED",
+    "allow-mgmt-monitoring-100": "ENABLED",
+    "allow-mgmt-monitoring-108": "ENABLED",
+    "allow-mgmt-monitoring-116": "ENABLED",
+    "allow-mgmt-monitoring-12": "ENABLED",
+    "allow-mgmt-monitoring-20": "ENABLED",
+    "allow-mgmt-monitoring-28": "ENABLED",
+    "allow-mgmt-monitoring-36": "ENABLED",
+    "allow-mgmt-monitoring-4": "ENABLED",
+    "allow-mgmt-monitoring-44": "ENABLED",
+    "allow-mgmt-monitoring-52": "DISABLED",
+    "allow-mgmt-monitoring-60": "ENABLED",
+    "allow-mgmt-monitoring-68": "ENABLED",
+    "allow-mgmt-monitoring-76": "ENABLED",
+    "allow-mgmt-monitoring-84": "ENABLED",
+    "allow-mgmt-monitoring-92": "ENABLED",
+    "allow-office-saas-102": "ENABLED",
+    "allow-office-saas-110": "ENABLED",
+    "allow-office-saas-118": "ENABLED",
+    "allow-office-saas-14": "ENABLED",
+    "allow-office-saas-22": "ENABLED",
+    "allow-office-saas-30": "ENABLED",
+    "allow-office-saas-38": "ENABLED",
+    "allow-office-saas-46": "ENABLED",
+    "allow-office-saas-54": "ENABLED",
+    "allow-office-saas-6": "ENABLED",
+    "allow-office-saas-62": "ENABLED",
+    "allow-office-saas-70": "ENABLED",
+    "allow-office-saas-78": "DISABLED",
+    "allow-office-saas-86": "ENABLED",
+    "allow-office-saas-94": "ENABLED",
+    "allow-ot-scada-103": "ENABLED",
+    "allow-ot-scada-111": "ENABLED",
+    "allow-ot-scada-15": "ENABLED",
+    "allow-ot-scada-23": "ENABLED",
+    "allow-ot-scada-31": "ENABLED",
+    "allow-ot-scada-39": "DISABLED",
+    "allow-ot-scada-47": "ENABLED",
+    "allow-ot-scada-55": "ENABLED",
+    "allow-ot-scada-63": "ENABLED",
+    "allow-ot-scada-7": "ENABLED",
+    "allow-ot-scada-71": "ENABLED",
+    "allow-ot-scada-79": "ENABLED",
+    "allow-ot-scada-87": "ENABLED",
+    "allow-ot-scada-95": "ENABLED",
+    "allow-scalehub-metrics": "ENABLED",
+    "allow-stores-1-payments": "ENABLED",
+    "allow-stores-104-saas": "DISABLED",
+    "allow-stores-105-payments": "ENABLED",
+    "allow-stores-112-saas": "ENABLED",
+    "allow-stores-16-saas": "ENABLED",
+    "allow-stores-17-payments": "ENABLED",
+    "allow-stores-24-saas": "ENABLED",
+    "allow-stores-25-payments": "ENABLED",
+    "allow-stores-32-saas": "ENABLED",
+    "allow-stores-33-payments": "ENABLED",
+    "allow-stores-40-saas": "ENABLED",
+    "allow-stores-41-payments": "ENABLED",
+    "allow-stores-48-saas": "ENABLED",
+    "allow-stores-49-payments": "ENABLED",
+    "allow-stores-56-saas": "ENABLED",
+    "allow-stores-57-payments": "ENABLED",
+    "allow-stores-64-saas": "ENABLED",
+    "allow-stores-65-payments": "DISABLED",
+    "allow-stores-72-saas": "ENABLED",
+    "allow-stores-73-payments": "ENABLED",
+    "allow-stores-8-saas": "ENABLED",
+    "allow-stores-80-saas": "ENABLED",
+    "allow-stores-81-payments": "ENABLED",
+    "allow-stores-88-saas": "ENABLED",
+    "allow-stores-89-payments": "ENABLED",
+    "allow-stores-9-payments": "ENABLED",
+    "allow-stores-96-saas": "ENABLED",
+    "allow-stores-97-payments": "ENABLED",
+    "block-guests-101": "ENABLED",
+    "block-guests-109": "ENABLED",
+    "block-guests-117": "DISABLED",
+    "block-guests-13": "DISABLED",
+    "block-guests-21": "ENABLED",
+    "block-guests-29": "ENABLED",
+    "block-guests-37": "ENABLED",
+    "block-guests-45": "ENABLED",
+    "block-guests-5": "ENABLED",
+    "block-guests-53": "ENABLED",
+    "block-guests-61": "ENABLED",
+    "block-guests-69": "ENABLED",
+    "block-guests-77": "ENABLED",
+    "block-guests-85": "ENABLED",
+    "block-guests-93": "ENABLED"
+  }
+}

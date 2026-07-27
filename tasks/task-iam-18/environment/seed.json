@@ -1,0 +1,719 @@
+{
+ "_now": "2026-07-18T09:00:00Z",
+ "entra-id": {
+  "groups": [
+   {
+    "createdDateTime": "2023-02-01T00:00:00Z",
+    "description": "External / guest collaborators.",
+    "displayName": "External Collaborators",
+    "groupTypes": [],
+    "id": "g86b9e03d1ea5c6f9",
+    "mailEnabled": false,
+    "mailNickname": "external-collaborators",
+    "members": [
+     "ub5be7a98609cb25b",
+     "u977380df33674da4",
+     "u49a737c2978d238b",
+     "u5ec9b036c8e922b7"
+    ],
+    "securityEnabled": true
+   },
+   {
+    "createdDateTime": "2023-02-01T00:00:00Z",
+    "description": "Project Helios working group.",
+    "displayName": "Project Helios",
+    "groupTypes": [],
+    "id": "g467206a752e457eb",
+    "mailEnabled": false,
+    "mailNickname": "project-helios",
+    "members": [
+     "ud27b80013bc26564",
+     "ua41868b4651fdbd9",
+     "u8bab9ed023aca17a",
+     "u5c8e7d0792a23473"
+    ],
+    "securityEnabled": true
+   },
+   {
+    "createdDateTime": "2023-02-01T00:00:00Z",
+    "description": "All Halyard employees (baseline).",
+    "displayName": "All Staff",
+    "groupTypes": [],
+    "id": "g82f02f4e831ca928",
+    "mailEnabled": false,
+    "mailNickname": "all-staff",
+    "members": [
+     "u845c012b6f9ab207",
+     "u8bab9ed023aca17a",
+     "u5c8e7d0792a23473",
+     "ufbb6dc68c8c8c3fa",
+     "u6ade78a42ac8c932"
+    ],
+    "securityEnabled": true
+   }
+  ],
+  "users": [
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "Platform",
+    "displayName": "Anna Schmidt",
+    "id": "u845c012b6f9ab207",
+    "mail": "anna.schmidt@halyard.example",
+    "userPrincipalName": "anna.schmidt@halyard.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "Data",
+    "displayName": "Carlos Ruiz",
+    "id": "u8bab9ed023aca17a",
+    "mail": "carlos.ruiz@halyard.example",
+    "userPrincipalName": "carlos.ruiz@halyard.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": false,
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "Product",
+    "displayName": "Dan Weber",
+    "id": "ucb4286b2473348ac",
+    "mail": "dan.weber@halyard.example",
+    "userPrincipalName": "dan.weber@halyard.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "Security",
+    "displayName": "Eva Novak",
+    "id": "u5c8e7d0792a23473",
+    "mail": "eva.novak@halyard.example",
+    "userPrincipalName": "eva.novak@halyard.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "Platform",
+    "displayName": "Priya Raman",
+    "id": "ufbb6dc68c8c8c3fa",
+    "mail": "priya.raman@halyard.example",
+    "userPrincipalName": "priya.raman@halyard.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "Reliability",
+    "displayName": "Tomas Berg",
+    "id": "u6ade78a42ac8c932",
+    "mail": "tomas.berg@halyard.example",
+    "userPrincipalName": "tomas.berg@halyard.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "accountExpires": "2026-12-31",
+    "companyName": "",
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "",
+    "displayName": "Bruno Costa",
+    "id": "u977380df33674da4",
+    "mail": "bruno.costa@cobalt-consulting.example",
+    "sponsor": "dan.weber@halyard.example",
+    "userPrincipalName": "bruno.costa@cobalt-consulting.example",
+    "userType": "Guest"
+   },
+   {
+    "accountEnabled": true,
+    "accountExpires": "2026-03-31",
+    "companyName": "",
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "",
+    "displayName": "Elena Fischer",
+    "id": "ub5be7a98609cb25b",
+    "mail": "elena.fischer@brightpath-partners.example",
+    "sponsor": "anna.schmidt@halyard.example",
+    "userPrincipalName": "elena.fischer@brightpath-partners.example",
+    "userType": "Guest"
+   },
+   {
+    "accountEnabled": true,
+    "accountExpires": "2026-11-30",
+    "companyName": "",
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "",
+    "displayName": "Ivan Sokolov",
+    "id": "ua41868b4651fdbd9",
+    "mail": "ivan.sokolov@meridian-labs.example",
+    "sponsor": "carlos.ruiz@halyard.example",
+    "userPrincipalName": "ivan.sokolov@meridian-labs.example",
+    "userType": "Guest"
+   },
+   {
+    "accountEnabled": true,
+    "accountExpires": "2027-01-31",
+    "companyName": "",
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "",
+    "displayName": "Marco Bianchi",
+    "id": "u5ec9b036c8e922b7",
+    "mail": "marco.bianchi@northwind-systems.example",
+    "sponsor": "eva.novak@halyard.example",
+    "userPrincipalName": "marco.bianchi@northwind-systems.example",
+    "userType": "Guest"
+   },
+   {
+    "accountEnabled": true,
+    "accountExpires": "2026-12-31",
+    "companyName": "",
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "",
+    "displayName": "Nadia Petrova",
+    "id": "ud27b80013bc26564",
+    "mail": "nadia.petrova@meridian-labs.example",
+    "sponsor": "carlos.ruiz@halyard.example",
+    "userPrincipalName": "nadia.petrova@meridian-labs.example",
+    "userType": "Guest"
+   },
+   {
+    "accountEnabled": true,
+    "accountExpires": "2026-12-31",
+    "companyName": "",
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "",
+    "displayName": "Priya Raman",
+    "id": "u49a737c2978d238b",
+    "mail": "priya.raman@brightpath-partners.example",
+    "sponsor": "anna.schmidt@halyard.example",
+    "userPrincipalName": "priya.raman@brightpath-partners.example",
+    "userType": "Guest"
+   },
+   {
+    "accountEnabled": true,
+    "accountExpires": "2027-02-28",
+    "companyName": "",
+    "createdDateTime": "2024-01-10T00:00:00Z",
+    "department": "",
+    "displayName": "Sofia Marino",
+    "id": "u6152142743718373",
+    "mail": "sofia.marino@cobalt-consulting.example",
+    "sponsor": "carlos.ruiz@halyard.example",
+    "userPrincipalName": "sofia.marino@cobalt-consulting.example",
+    "userType": "Guest"
+   }
+  ]
+ },
+ "github": {
+  "members": [
+   {
+    "id": 9000,
+    "login": "anna-schmidt",
+    "node_id": "MEMBERS_9000",
+    "org": "halyard-cloud",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9001,
+    "login": "carlos-ruiz",
+    "node_id": "MEMBERS_9001",
+    "org": "halyard-cloud",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9002,
+    "login": "eva-novak",
+    "node_id": "MEMBERS_9002",
+    "org": "halyard-cloud",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9003,
+    "login": "priya-raman",
+    "node_id": "MEMBERS_9003",
+    "org": "halyard-cloud",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9004,
+    "login": "tomas-berg",
+    "node_id": "MEMBERS_9004",
+    "org": "halyard-cloud",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   }
+  ],
+  "orgs": [
+   {
+    "description": "Halyard Cloud engineering org",
+    "id": 1,
+    "login": "halyard-cloud",
+    "node_id": "ORG_1",
+    "type": "Organization"
+   }
+  ],
+  "outside_collaborators": [
+   {
+    "id": 4100,
+    "login": "elena-fischer",
+    "node_id": "OC_4100",
+    "org": "halyard-cloud",
+    "type": "User"
+   },
+   {
+    "id": 4101,
+    "login": "bruno-costa",
+    "node_id": "OC_4101",
+    "org": "halyard-cloud",
+    "type": "User"
+   },
+   {
+    "id": 4102,
+    "login": "nadia-petrova",
+    "node_id": "OC_4102",
+    "org": "halyard-cloud",
+    "type": "User"
+   },
+   {
+    "id": 4103,
+    "login": "ivan-sokolov",
+    "node_id": "OC_4103",
+    "org": "halyard-cloud",
+    "type": "User"
+   },
+   {
+    "id": 4104,
+    "login": "priya-raman",
+    "node_id": "OC_4104",
+    "org": "halyard-cloud",
+    "type": "User"
+   },
+   {
+    "id": 4105,
+    "login": "marco-bianchi",
+    "node_id": "OC_4105",
+    "org": "halyard-cloud",
+    "type": "User"
+   }
+  ],
+  "repos": [
+   {
+    "default_branch": "main",
+    "description": "Core platform services",
+    "full_name": "halyard-cloud/core-platform",
+    "id": 4000,
+    "name": "core-platform",
+    "node_id": "REPO_4000",
+    "org": "halyard-cloud",
+    "owner": {
+     "login": "halyard-cloud",
+     "type": "Organization"
+    },
+    "private": true
+   },
+   {
+    "default_branch": "main",
+    "description": "Data ingestion pipeline",
+    "full_name": "halyard-cloud/data-pipeline",
+    "id": 4001,
+    "name": "data-pipeline",
+    "node_id": "REPO_4001",
+    "org": "halyard-cloud",
+    "owner": {
+     "login": "halyard-cloud",
+     "type": "Organization"
+    },
+    "private": true
+   },
+   {
+    "default_branch": "main",
+    "description": "Customer web application",
+    "full_name": "halyard-cloud/web-app",
+    "id": 4002,
+    "name": "web-app",
+    "node_id": "REPO_4002",
+    "org": "halyard-cloud",
+    "owner": {
+     "login": "halyard-cloud",
+     "type": "Organization"
+    },
+    "private": true
+   }
+  ]
+ },
+ "servicenow": {
+  "sc_request": [
+   {
+    "description": "Periodic external-identity access review for the corporate directory. External and guest identities accumulate across the connected systems (the corporate directory, the source-control organization, and the messaging workspace) and must be reviewed each cycle. Review the full guest / external-identity estate, determine which external identities are no longer legitimately needed, and bring the environment to a correct and least-privilege state: remove the standing access of the external identities that should no longer have it across every system where it is held, while preserving the external identities that are still legitimately active. Leave each system consistent and close this request when the estate has been brought into a correct state.",
+    "number": "REQ0090012",
+    "opened_at": "2026-07-18 09:00:00",
+    "opened_by": "eva-novak",
+    "priority": "2",
+    "request_state": "in_process",
+    "requested_for": "eva-novak",
+    "short_description": "Periodic external-identity (guest) access review",
+    "state": "2",
+    "sys_created_on": "2026-07-18 09:00:00",
+    "sys_id": "8ec8b191916ff8e10d94c55a58d8968c",
+    "sys_updated_on": "2026-07-18 09:00:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "request_state",
+    "label": "In Process",
+    "name": "sc_request",
+    "value": "in_process"
+   },
+   {
+    "element": "request_state",
+    "label": "Closed Complete",
+    "name": "sc_request",
+    "value": "closed_complete"
+   }
+  ],
+  "sys_user": [
+   {
+    "active": "true",
+    "department": "Platform",
+    "email": "anna.schmidt@halyard.example",
+    "name": "Anna Schmidt",
+    "sys_id": "8f72575a2fc95559cb8e2585f2838b9e",
+    "title": "Engineering Manager",
+    "user_name": "anna-schmidt"
+   },
+   {
+    "active": "true",
+    "department": "Data",
+    "email": "carlos.ruiz@halyard.example",
+    "name": "Carlos Ruiz",
+    "sys_id": "6100a741db94f04d8db3d046a0fb94f2",
+    "title": "Staff Engineer",
+    "user_name": "carlos-ruiz"
+   },
+   {
+    "active": "false",
+    "department": "Product",
+    "email": "dan.weber@halyard.example",
+    "name": "Dan Weber",
+    "sys_id": "1d65027927023609f1c3b6a9c85e9be2",
+    "title": "Product Manager",
+    "user_name": "dan-weber"
+   },
+   {
+    "active": "true",
+    "department": "Security",
+    "email": "eva.novak@halyard.example",
+    "name": "Eva Novak",
+    "sys_id": "bf92168c05867df385d47f6e8c770bc9",
+    "title": "Security Engineer",
+    "user_name": "eva-novak"
+   },
+   {
+    "active": "true",
+    "department": "Platform",
+    "email": "priya.raman@halyard.example",
+    "name": "Priya Raman",
+    "sys_id": "1ce1dbc1b336518ef390ae6ee4374f2b",
+    "title": "Senior Engineer",
+    "user_name": "priya-raman"
+   },
+   {
+    "active": "true",
+    "department": "Reliability",
+    "email": "tomas.berg@halyard.example",
+    "name": "Tomas Berg",
+    "sys_id": "954278c0a0827c51ee39bac504103085",
+    "title": "SRE",
+    "user_name": "tomas-berg"
+   }
+  ],
+  "u_identity_conversion": [
+   {
+    "sys_id": "7d963eb35facdb220ded2cc828926281",
+    "u_converted_on": "2024-01-10",
+    "u_employee_user": "priya-raman",
+    "u_guest_status": "superseded",
+    "u_guest_upn": "priya.raman@brightpath-partners.example"
+   }
+  ],
+  "u_partner_org": [
+   {
+    "name": "Brightpath Partners",
+    "sys_id": "aca3c34cabb13e2c820931b003a57c0b",
+    "u_domain": "brightpath-partners.example",
+    "u_status": "active"
+   },
+   {
+    "name": "Cobalt Consulting",
+    "sys_id": "591b74987b46dedb8d00b426f8a45550",
+    "u_domain": "cobalt-consulting.example",
+    "u_status": "active"
+   },
+   {
+    "name": "Meridian Labs",
+    "sys_id": "cc22aff600425018151d9cf0a909ff60",
+    "u_domain": "meridian-labs.example",
+    "u_status": "decommissioned"
+   },
+   {
+    "name": "Northwind Systems",
+    "sys_id": "ae165c87f52b38fa3fa73ca320895691",
+    "u_domain": "northwind-systems.example",
+    "u_status": "active"
+   }
+  ]
+ },
+ "slack": {
+  "channels": [
+   {
+    "creator": "UD1A1BA70",
+    "id": "C0AF90E22",
+    "is_archived": false,
+    "is_channel": true,
+    "is_private": true,
+    "members": [
+     "U96DE7FF7",
+     "U3A5C9659",
+     "U96E370A1",
+     "U3083B06C",
+     "UD1A1BA70"
+    ],
+    "name": "external-collab",
+    "num_members": 5
+   },
+   {
+    "creator": "UD1A1BA70",
+    "id": "C0352D909",
+    "is_archived": false,
+    "is_channel": true,
+    "is_private": false,
+    "members": [
+     "UD1A1BA70",
+     "U511AAEED",
+     "U5609A994",
+     "UAE63043C",
+     "U3DFE49B2",
+     "U3083B06C",
+     "UA4F1AEEB"
+    ],
+    "name": "general",
+    "num_members": 7
+   },
+   {
+    "creator": "UD1A1BA70",
+    "id": "C0BE76077",
+    "is_archived": false,
+    "is_channel": true,
+    "is_private": true,
+    "members": [
+     "U254FCDC9",
+     "U5609A994",
+     "U511AAEED"
+    ],
+    "name": "project-helios",
+    "num_members": 3
+   }
+  ],
+  "users": [
+   {
+    "deleted": false,
+    "id": "U3A5C9659",
+    "is_admin": false,
+    "is_bot": false,
+    "is_owner": false,
+    "is_restricted": true,
+    "is_ultra_restricted": false,
+    "name": "bruno.costa",
+    "profile": {
+     "display_name": "Bruno",
+     "email": "bruno.costa@cobalt-consulting.example",
+     "real_name": "Bruno Costa"
+    },
+    "real_name": "Bruno Costa",
+    "team_id": "T000001"
+   },
+   {
+    "deleted": false,
+    "id": "U96DE7FF7",
+    "is_admin": false,
+    "is_bot": false,
+    "is_owner": false,
+    "is_restricted": true,
+    "is_ultra_restricted": false,
+    "name": "elena.fischer",
+    "profile": {
+     "display_name": "Elena",
+     "email": "elena.fischer@brightpath-partners.example",
+     "real_name": "Elena Fischer"
+    },
+    "real_name": "Elena Fischer",
+    "team_id": "T000001"
+   },
+   {
+    "deleted": false,
+    "id": "U3083B06C",
+    "is_admin": false,
+    "is_bot": false,
+    "is_owner": false,
+    "is_restricted": true,
+    "is_ultra_restricted": false,
+    "name": "marco.bianchi",
+    "profile": {
+     "display_name": "Marco",
+     "email": "marco.bianchi@northwind-systems.example",
+     "real_name": "Marco Bianchi"
+    },
+    "real_name": "Marco Bianchi",
+    "team_id": "T000001"
+   },
+   {
+    "deleted": false,
+    "id": "U254FCDC9",
+    "is_admin": false,
+    "is_bot": false,
+    "is_owner": false,
+    "is_restricted": false,
+    "is_ultra_restricted": true,
+    "name": "nadia.petrova",
+    "profile": {
+     "display_name": "Nadia",
+     "email": "nadia.petrova@meridian-labs.example",
+     "real_name": "Nadia Petrova"
+    },
+    "real_name": "Nadia Petrova",
+    "team_id": "T000001"
+   },
+   {
+    "deleted": false,
+    "id": "U96E370A1",
+    "is_admin": false,
+    "is_bot": false,
+    "is_owner": false,
+    "is_restricted": true,
+    "is_ultra_restricted": false,
+    "name": "priya.raman",
+    "profile": {
+     "display_name": "Priya",
+     "email": "priya.raman@brightpath-partners.example",
+     "real_name": "Priya Raman"
+    },
+    "real_name": "Priya Raman",
+    "team_id": "T000001"
+   },
+   {
+    "deleted": false,
+    "id": "UA4F1AEEB",
+    "is_admin": false,
+    "is_bot": false,
+    "is_owner": false,
+    "is_restricted": false,
+    "is_ultra_restricted": true,
+    "name": "sofia.marino",
+    "profile": {
+     "display_name": "Sofia",
+     "email": "sofia.marino@cobalt-consulting.example",
+     "real_name": "Sofia Marino"
+    },
+    "real_name": "Sofia Marino",
+    "team_id": "T000001"
+   },
+   {
+    "deleted": false,
+    "id": "UD1A1BA70",
+    "is_admin": false,
+    "is_bot": false,
+    "is_owner": false,
+    "is_restricted": false,
+    "is_ultra_restricted": false,
+    "name": "anna.schmidt",
+    "profile": {
+     "display_name": "Anna",
+     "email": "anna.schmidt@halyard.example",
+     "real_name": "Anna Schmidt"
+    },
+    "real_name": "Anna Schmidt",
+    "team_id": "T000001"
+   },
+   {
+    "deleted": false,
+    "id": "U511AAEED",
+    "is_admin": false,
+    "is_bot": false,
+    "is_owner": false,
+    "is_restricted": false,
+    "is_ultra_restricted": false,
+    "name": "carlos.ruiz",
+    "profile": {
+     "display_name": "Carlos",
+     "email": "carlos.ruiz@halyard.example",
+     "real_name": "Carlos Ruiz"
+    },
+    "real_name": "Carlos Ruiz",
+    "team_id": "T000001"
+   },
+   {
+    "deleted": false,
+    "id": "U5609A994",
+    "is_admin": false,
+    "is_bot": false,
+    "is_owner": false,
+    "is_restricted": false,
+    "is_ultra_restricted": false,
+    "name": "eva.novak",
+    "profile": {
+     "display_name": "Eva",
+     "email": "eva.novak@halyard.example",
+     "real_name": "Eva Novak"
+    },
+    "real_name": "Eva Novak",
+    "team_id": "T000001"
+   },
+   {
+    "deleted": false,
+    "id": "UAE63043C",
+    "is_admin": false,
+    "is_bot": false,
+    "is_owner": false,
+    "is_restricted": false,
+    "is_ultra_restricted": false,
+    "name": "priya.raman",
+    "profile": {
+     "display_name": "Priya",
+     "email": "priya.raman@halyard.example",
+     "real_name": "Priya Raman"
+    },
+    "real_name": "Priya Raman",
+    "team_id": "T000001"
+   },
+   {
+    "deleted": false,
+    "id": "U3DFE49B2",
+    "is_admin": false,
+    "is_bot": false,
+    "is_owner": false,
+    "is_restricted": false,
+    "is_ultra_restricted": false,
+    "name": "tomas.berg",
+    "profile": {
+     "display_name": "Tomas",
+     "email": "tomas.berg@halyard.example",
+     "real_name": "Tomas Berg"
+    },
+    "real_name": "Tomas Berg",
+    "team_id": "T000001"
+   }
+  ]
+ }
+}

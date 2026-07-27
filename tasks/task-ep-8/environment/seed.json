@@ -1,0 +1,4855 @@
+{
+  "_now": "2026-01-05T09:00:00Z",
+  "aws-vpc": {
+    "addresses": [
+      {
+        "AllocationId": "eipalloc-18b8918b40d49894d",
+        "AssociationId": "eipassoc-8634ad29a28f45808",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-eeb62bebfac602a09",
+        "PrivateIpAddress": "10.0.11.21",
+        "PublicIp": "203.0.113.41",
+        "TagSet": []
+      },
+      {
+        "AllocationId": "eipalloc-ee9835ded16920ad4",
+        "AssociationId": "eipassoc-084ba73df5eafe585",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-aafd661ec35de768f",
+        "PrivateIpAddress": "10.0.11.22",
+        "PublicIp": "203.0.113.42",
+        "TagSet": []
+      },
+      {
+        "AllocationId": "eipalloc-89ff95bb3ba6ea363",
+        "AssociationId": "eipassoc-49a5e46f6e4d7bb84",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-5ff707c2fed850a44",
+        "PrivateIpAddress": "10.0.12.31",
+        "PublicIp": "203.0.113.43",
+        "TagSet": []
+      },
+      {
+        "AllocationId": "eipalloc-033fb3c448d9e149a",
+        "AssociationId": "eipassoc-42c5053584e8de888",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-7e424e04c10e1fe4c",
+        "PrivateIpAddress": "10.0.13.41",
+        "PublicIp": "203.0.113.44",
+        "TagSet": []
+      },
+      {
+        "AllocationId": "eipalloc-02434464f39f71bdd",
+        "AssociationId": "eipassoc-76f883dec8c1b8efc",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-16bc9e8db7c5d0768",
+        "PrivateIpAddress": "10.0.14.51",
+        "PublicIp": "203.0.113.45",
+        "TagSet": []
+      },
+      {
+        "AllocationId": "eipalloc-9b995ddd15e160190",
+        "AssociationId": "eipassoc-de1f4ae0fd035a344",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-3af1c45e696c1397c",
+        "PrivateIpAddress": "10.0.1.40",
+        "PublicIp": "203.0.113.46",
+        "TagSet": []
+      },
+      {
+        "AllocationId": "eipalloc-16a6422b7751a2396",
+        "AssociationId": "eipassoc-db3cf51b1e0246ef3",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-7ec17f1e45fb2e503",
+        "PrivateIpAddress": "10.0.1.50",
+        "PublicIp": "203.0.113.47",
+        "TagSet": []
+      },
+      {
+        "AllocationId": "eipalloc-8e1b0176a7bbe4486",
+        "AssociationId": "eipassoc-5179984fcf76ec851",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-1b527404a788c0dbb",
+        "PrivateIpAddress": "10.0.1.60",
+        "PublicIp": "203.0.113.48",
+        "TagSet": []
+      },
+      {
+        "AllocationId": "eipalloc-0f7c8e10a647094b9",
+        "AssociationId": "eipassoc-9d5cf316c459c790f",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-ae10698129e54e91e",
+        "PrivateIpAddress": "10.0.1.61",
+        "PublicIp": "203.0.113.49",
+        "TagSet": []
+      },
+      {
+        "AllocationId": "eipalloc-4ce2764b5d701a857",
+        "AssociationId": "eipassoc-0c6ef01d4643b89e0",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-51aeefa59e0046e8a",
+        "PrivateIpAddress": "10.0.1.10",
+        "PublicIp": "203.0.113.10",
+        "TagSet": []
+      },
+      {
+        "AllocationId": "eipalloc-5047b2fb9c74cda33",
+        "AssociationId": "eipassoc-3775ebfd9f65e344c",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-f8b4ea5e4df1979ae",
+        "PrivateIpAddress": "10.0.1.20",
+        "PublicIp": "203.0.113.20",
+        "TagSet": []
+      },
+      {
+        "AllocationId": "eipalloc-322c110d6fc2cda66",
+        "AssociationId": "eipassoc-682f87b532c29091f",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-2978de23c26e7d020",
+        "PrivateIpAddress": "10.0.1.21",
+        "PublicIp": "203.0.113.22",
+        "TagSet": []
+      },
+      {
+        "AllocationId": "eipalloc-1cafd88aef5652ba9",
+        "AssociationId": "eipassoc-51402ebc541135313",
+        "Domain": "vpc",
+        "NetworkBorderGroup": "us-east-1",
+        "NetworkInterfaceId": "eni-99c11986365657a02",
+        "PrivateIpAddress": "10.0.1.30",
+        "PublicIp": "203.0.113.30",
+        "TagSet": []
+      }
+    ],
+    "networkAcls": [],
+    "networkInterfaces": [
+      {
+        "Description": "records-db-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-38b07f5c61e03ad4e"
+          }
+        ],
+        "NetworkInterfaceId": "eni-eeb62bebfac602a09",
+        "PrivateIpAddress": "10.0.11.21",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.11.21"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-e4f603f7fd2c9ddd6",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "records-db-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "session-cache-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-d40bc9e926f90790e"
+          },
+          {
+            "GroupId": "sg-11de982b51977d05c"
+          }
+        ],
+        "NetworkInterfaceId": "eni-aafd661ec35de768f",
+        "PrivateIpAddress": "10.0.11.22",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.11.22"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-e4f603f7fd2c9ddd6",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "session-cache-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "search-idx-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-2ded866d6972d8a98"
+          }
+        ],
+        "NetworkInterfaceId": "eni-5ff707c2fed850a44",
+        "PrivateIpAddress": "10.0.12.31",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.12.31"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-9ac51d7bc80ce6710",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "search-idx-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "etl-staging-db",
+        "GroupSet": [
+          {
+            "GroupId": "sg-25ddd4674a3b15ce2"
+          }
+        ],
+        "NetworkInterfaceId": "eni-7e424e04c10e1fe4c",
+        "PrivateIpAddress": "10.0.13.41",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.13.41"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-37f272ef2a003fd79",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "etl-staging-db"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "legacy-billing-db",
+        "GroupSet": [
+          {
+            "GroupId": "sg-ffdeab132887f11be"
+          }
+        ],
+        "NetworkInterfaceId": "eni-16bc9e8db7c5d0768",
+        "PrivateIpAddress": "10.0.14.51",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.14.51"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-4a63855f14625da35",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "legacy-billing-db"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "ops-admin-console",
+        "GroupSet": [
+          {
+            "GroupId": "sg-13e08a4eaa9c759d7"
+          }
+        ],
+        "NetworkInterfaceId": "eni-3af1c45e696c1397c",
+        "PrivateIpAddress": "10.0.1.40",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.1.40"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-326def43334d46ed5",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "ops-admin-console"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "metrics-frontend-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-f27ad2a6b98a63de4"
+          }
+        ],
+        "NetworkInterfaceId": "eni-7ec17f1e45fb2e503",
+        "PrivateIpAddress": "10.0.1.50",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.1.50"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-326def43334d46ed5",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "metrics-frontend-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "legacy-portal-lb",
+        "GroupSet": [
+          {
+            "GroupId": "sg-aa24a692659d42c60"
+          }
+        ],
+        "NetworkInterfaceId": "eni-1b527404a788c0dbb",
+        "PrivateIpAddress": "10.0.1.60",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.1.60"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-326def43334d46ed5",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "legacy-portal-lb"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "partner-preview-lb",
+        "GroupSet": [
+          {
+            "GroupId": "sg-f2cfdfdf76e47146c"
+          }
+        ],
+        "NetworkInterfaceId": "eni-ae10698129e54e91e",
+        "PrivateIpAddress": "10.0.1.61",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.1.61"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-326def43334d46ed5",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "partner-preview-lb"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "www-public-lb",
+        "GroupSet": [
+          {
+            "GroupId": "sg-6b5a7a9a9056d8a46"
+          }
+        ],
+        "NetworkInterfaceId": "eni-51aeefa59e0046e8a",
+        "PrivateIpAddress": "10.0.1.10",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.1.10"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-326def43334d46ed5",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "www-public-lb"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "reporting-db-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-2fe56755721578a78"
+          }
+        ],
+        "NetworkInterfaceId": "eni-6b8eae6a886d6f34a",
+        "PrivateIpAddress": "10.0.11.29",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.11.29"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-e4f603f7fd2c9ddd6",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "reporting-db-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "cdn-edge-lb",
+        "GroupSet": [
+          {
+            "GroupId": "sg-5954ef36b6d1a254a"
+          }
+        ],
+        "NetworkInterfaceId": "eni-f8b4ea5e4df1979ae",
+        "PrivateIpAddress": "10.0.1.20",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.1.20"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-326def43334d46ed5",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "cdn-edge-lb"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "api-gateway-lb",
+        "GroupSet": [
+          {
+            "GroupId": "sg-2bd8d4bcbf3a9de6d"
+          }
+        ],
+        "NetworkInterfaceId": "eni-2978de23c26e7d020",
+        "PrivateIpAddress": "10.0.1.21",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.1.21"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-326def43334d46ed5",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "api-gateway-lb"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "ops-bastion",
+        "GroupSet": [
+          {
+            "GroupId": "sg-738d90c8e0d8cde8f"
+          }
+        ],
+        "NetworkInterfaceId": "eni-99c11986365657a02",
+        "PrivateIpAddress": "10.0.1.30",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.1.30"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-326def43334d46ed5",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "ops-bastion"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "orders-db-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-9e429926592a53ce6"
+          }
+        ],
+        "NetworkInterfaceId": "eni-716ab8c47a53b3b8a",
+        "PrivateIpAddress": "10.0.21.11",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.21.11"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-17e7a35f57acea567",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "orders-db-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "inventory-db-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-3a94ff759b52a560a"
+          }
+        ],
+        "NetworkInterfaceId": "eni-dfa9b698de306c6e1",
+        "PrivateIpAddress": "10.0.21.12",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.21.12"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-17e7a35f57acea567",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "inventory-db-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "audit-log-db-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-4fa7c55454803f693"
+          }
+        ],
+        "NetworkInterfaceId": "eni-5a15199e3022f845a",
+        "PrivateIpAddress": "10.0.21.13",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.21.13"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-17e7a35f57acea567",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "audit-log-db-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "metrics-tsdb-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-5d448f9d47a7b6379"
+          }
+        ],
+        "NetworkInterfaceId": "eni-8cb1f1bc09f780607",
+        "PrivateIpAddress": "10.0.21.14",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.21.14"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-17e7a35f57acea567",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "metrics-tsdb-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "feature-cache-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-e236dbb868e4d8741"
+          }
+        ],
+        "NetworkInterfaceId": "eni-e9c0d0e4de771e65d",
+        "PrivateIpAddress": "10.0.21.15",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.21.15"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-17e7a35f57acea567",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "feature-cache-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "graph-db-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-a639a8e408dfec22c"
+          }
+        ],
+        "NetworkInterfaceId": "eni-97b738fba7b9abe04",
+        "PrivateIpAddress": "10.0.22.11",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.22.11"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-c7f78acf210dec4a8",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "graph-db-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "queue-broker-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-5ea29efccc9b4b875"
+          }
+        ],
+        "NetworkInterfaceId": "eni-cd8beb4b0c7dc28d7",
+        "PrivateIpAddress": "10.0.22.12",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.22.12"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-c7f78acf210dec4a8",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "queue-broker-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "ml-registry-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-f4a8eba674e7e2fb9"
+          }
+        ],
+        "NetworkInterfaceId": "eni-b876e12511f93e9f6",
+        "PrivateIpAddress": "10.0.22.13",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.22.13"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-c7f78acf210dec4a8",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "ml-registry-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "billing-db-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-ea174a0a8fa143868"
+          }
+        ],
+        "NetworkInterfaceId": "eni-16fb27568690ec4dc",
+        "PrivateIpAddress": "10.0.22.14",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.22.14"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-c7f78acf210dec4a8",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "billing-db-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "notif-db-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-e0e6c8120dcd5bc0b"
+          }
+        ],
+        "NetworkInterfaceId": "eni-8e2093eb9947ffcb0",
+        "PrivateIpAddress": "10.0.21.16",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.21.16"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-17e7a35f57acea567",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "notif-db-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "session-store-staging",
+        "GroupSet": [
+          {
+            "GroupId": "sg-7d2e1ba70d6ed2f59"
+          }
+        ],
+        "NetworkInterfaceId": "eni-d8d487d20e870ef17",
+        "PrivateIpAddress": "10.0.22.15",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.22.15"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-c7f78acf210dec4a8",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "session-store-staging"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "catalog-db-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-e61b9dde4a902fdec"
+          }
+        ],
+        "NetworkInterfaceId": "eni-30b29ace896296407",
+        "PrivateIpAddress": "10.0.21.17",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.21.17"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-17e7a35f57acea567",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "catalog-db-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "geo-db-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-8af9895bab656a083"
+          }
+        ],
+        "NetworkInterfaceId": "eni-d0b7e14d19f3d8392",
+        "PrivateIpAddress": "10.0.22.16",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.22.16"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-c7f78acf210dec4a8",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "geo-db-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "reporting-cache-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-c91a4f7021fb38add"
+          }
+        ],
+        "NetworkInterfaceId": "eni-b0738bdbc8b1059cf",
+        "PrivateIpAddress": "10.0.21.18",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.21.18"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-17e7a35f57acea567",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "reporting-cache-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "archive-db-prod",
+        "GroupSet": [
+          {
+            "GroupId": "sg-d89bf38bff8bc1b0c"
+          }
+        ],
+        "NetworkInterfaceId": "eni-1315b2fe67f94475c",
+        "PrivateIpAddress": "10.0.22.17",
+        "PrivateIpAddressesSet": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": "10.0.22.17"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-c7f78acf210dec4a8",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "archive-db-prod"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      }
+    ],
+    "routeTables": [
+      {
+        "AssociationSet": [
+          {
+            "RouteTableId": "rtb-f08c5602573438a68",
+            "SubnetId": "subnet-326def43334d46ed5"
+          },
+          {
+            "RouteTableId": "rtb-f08c5602573438a68",
+            "SubnetId": "subnet-e4f603f7fd2c9ddd6"
+          },
+          {
+            "RouteTableId": "rtb-f08c5602573438a68",
+            "SubnetId": "subnet-9ac51d7bc80ce6710"
+          },
+          {
+            "RouteTableId": "rtb-f08c5602573438a68",
+            "SubnetId": "subnet-37f272ef2a003fd79"
+          },
+          {
+            "RouteTableId": "rtb-f08c5602573438a68",
+            "SubnetId": "subnet-4a63855f14625da35"
+          }
+        ],
+        "RouteSet": [
+          {
+            "DestinationCidrBlock": "10.0.0.0/16",
+            "GatewayId": "local",
+            "Origin": "CreateRouteTable",
+            "State": "active"
+          },
+          {
+            "DestinationCidrBlock": "0.0.0.0/0",
+            "GatewayId": "igw-0abc1234def567890",
+            "Origin": "CreateRoute",
+            "State": "active"
+          }
+        ],
+        "RouteTableId": "rtb-f08c5602573438a68",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "public-rt"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      }
+    ],
+    "securityGroups": [
+      {
+        "Description": "acquired billing db",
+        "GroupId": "sg-ffdeab132887f11be",
+        "GroupName": "acq-billing-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 3306,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 3306,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "public api gateway",
+        "GroupId": "sg-2bd8d4bcbf3a9de6d",
+        "GroupName": "api-gateway-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "postgres private",
+        "GroupId": "sg-d89bf38bff8bc1b0c",
+        "GroupName": "archive-db-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "postgres private",
+        "GroupId": "sg-4fa7c55454803f693",
+        "GroupName": "audit-log-db-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "ops bastion ssh corp-only",
+        "GroupId": "sg-738d90c8e0d8cde8f",
+        "GroupName": "bastion-ssh-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 22,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "198.51.100.0/24"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 22,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "postgres private",
+        "GroupId": "sg-ea174a0a8fa143868",
+        "GroupName": "billing-db-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "postgres private",
+        "GroupId": "sg-e61b9dde4a902fdec",
+        "GroupName": "catalog-db-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "cdn edge",
+        "GroupId": "sg-5954ef36b6d1a254a",
+        "GroupName": "cdn-edge-lb-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": []
+          },
+          {
+            "FromPort": 80,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 80,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "pipeline staging",
+        "GroupId": "sg-25ddd4674a3b15ce2",
+        "GroupName": "data-pipeline-shared-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "redis private",
+        "GroupId": "sg-e236dbb868e4d8741",
+        "GroupName": "feature-cache-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 6379,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 6379,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "postgres private",
+        "GroupId": "sg-8af9895bab656a083",
+        "GroupName": "geo-db-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "neo4j private",
+        "GroupId": "sg-a639a8e408dfec22c",
+        "GroupName": "graph-db-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 7687,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 7687,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "postgres private",
+        "GroupId": "sg-3a94ff759b52a560a",
+        "GroupName": "inventory-db-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "legacy portal alb",
+        "GroupId": "sg-aa24a692659d42c60",
+        "GroupName": "legacy-portal-lb-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": []
+          },
+          {
+            "FromPort": 80,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 80,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "metrics store",
+        "GroupId": "sg-f27ad2a6b98a63de4",
+        "GroupName": "metrics-frontend-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "influx private",
+        "GroupId": "sg-5d448f9d47a7b6379",
+        "GroupName": "metrics-tsdb-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 8086,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 8086,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "postgres private",
+        "GroupId": "sg-f4a8eba674e7e2fb9",
+        "GroupName": "ml-registry-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "mysql private",
+        "GroupId": "sg-e0e6c8120dcd5bc0b",
+        "GroupName": "notif-db-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 3306,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 3306,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "internal admin console",
+        "GroupId": "sg-13e08a4eaa9c759d7",
+        "GroupName": "ops-admin-console-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "postgres private",
+        "GroupId": "sg-9e429926592a53ce6",
+        "GroupName": "orders-db-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "partner preview alb",
+        "GroupId": "sg-f2cfdfdf76e47146c",
+        "GroupName": "partner-preview-lb-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "rabbitmq private",
+        "GroupId": "sg-5ea29efccc9b4b875",
+        "GroupName": "queue-broker-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5672,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5672,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "records postgres",
+        "GroupId": "sg-38b07f5c61e03ad4e",
+        "GroupName": "records-db-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "redis private",
+        "GroupId": "sg-c91a4f7021fb38add",
+        "GroupName": "reporting-cache-prod-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 6379,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 6379,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "reporting db private",
+        "GroupId": "sg-2fe56755721578a78",
+        "GroupName": "reporting-db-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "search cluster",
+        "GroupId": "sg-2ded866d6972d8a98",
+        "GroupName": "search-idx-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 9200,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 9200,
+            "UserIdGroupPairs": []
+          },
+          {
+            "FromPort": 9300,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 9300,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "legacy redis default",
+        "GroupId": "sg-11de982b51977d05c",
+        "GroupName": "session-cache-legacy-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 6379,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 6379,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "redis private",
+        "GroupId": "sg-d40bc9e926f90790e",
+        "GroupName": "session-cache-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 6379,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 6379,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "redis private",
+        "GroupId": "sg-7d2e1ba70d6ed2f59",
+        "GroupName": "session-store-staging-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 6379,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 6379,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "Description": "public web alb",
+        "GroupId": "sg-6b5a7a9a9056d8a46",
+        "GroupName": "www-lb-sg",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": []
+          },
+          {
+            "FromPort": 80,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 80,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      }
+    ],
+    "subnets": [
+      {
+        "AssignIpv6AddressOnCreation": false,
+        "AvailabilityZone": "us-east-1a",
+        "AvailableIpAddressCount": 200,
+        "CidrBlock": "10.0.1.0/24",
+        "MapPublicIpOnLaunch": true,
+        "State": "available",
+        "SubnetId": "subnet-326def43334d46ed5",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "public-dmz"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "AssignIpv6AddressOnCreation": false,
+        "AvailabilityZone": "us-east-1a",
+        "AvailableIpAddressCount": 200,
+        "CidrBlock": "10.0.11.0/24",
+        "MapPublicIpOnLaunch": true,
+        "State": "available",
+        "SubnetId": "subnet-e4f603f7fd2c9ddd6",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "data-a"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "AssignIpv6AddressOnCreation": false,
+        "AvailabilityZone": "us-east-1b",
+        "AvailableIpAddressCount": 200,
+        "CidrBlock": "10.0.12.0/24",
+        "MapPublicIpOnLaunch": true,
+        "State": "available",
+        "SubnetId": "subnet-9ac51d7bc80ce6710",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "data-b"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "AssignIpv6AddressOnCreation": false,
+        "AvailabilityZone": "us-east-1c",
+        "AvailableIpAddressCount": 200,
+        "CidrBlock": "10.0.13.0/24",
+        "MapPublicIpOnLaunch": true,
+        "State": "available",
+        "SubnetId": "subnet-37f272ef2a003fd79",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "data-c"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "AssignIpv6AddressOnCreation": false,
+        "AvailabilityZone": "us-east-1a",
+        "AvailableIpAddressCount": 200,
+        "CidrBlock": "10.0.14.0/24",
+        "MapPublicIpOnLaunch": true,
+        "State": "available",
+        "SubnetId": "subnet-4a63855f14625da35",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "data-d"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "AssignIpv6AddressOnCreation": false,
+        "AvailabilityZone": "us-east-1a",
+        "AvailableIpAddressCount": 200,
+        "CidrBlock": "10.0.21.0/24",
+        "MapPublicIpOnLaunch": false,
+        "State": "available",
+        "SubnetId": "subnet-17e7a35f57acea567",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "app-a"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      },
+      {
+        "AssignIpv6AddressOnCreation": false,
+        "AvailabilityZone": "us-east-1b",
+        "AvailableIpAddressCount": 200,
+        "CidrBlock": "10.0.22.0/24",
+        "MapPublicIpOnLaunch": false,
+        "State": "available",
+        "SubnetId": "subnet-c7f78acf210dec4a8",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "app-b"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      }
+    ],
+    "vpcs": [
+      {
+        "CidrBlock": "10.0.0.0/16",
+        "EnableDnsHostnames": true,
+        "EnableDnsSupport": true,
+        "InstanceTenancy": "default",
+        "IsDefault": false,
+        "State": "available",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "prod-vpc"
+          }
+        ],
+        "VpcId": "vpc-0a1b2c3d4e5f60718"
+      }
+    ]
+  },
+  "device42": {
+    "devices": [
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4100,
+        "environment": "prod",
+        "id": 4100,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "session-store-staging",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-d167172842b3525cc",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4101,
+        "environment": "prod",
+        "id": 4101,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "graph-db-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-12d7efb5ee2b4741a",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4102,
+        "environment": "prod",
+        "id": 4102,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "reporting-db-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2025-06-17",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2025-06-17T02:20:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-e9b2c4e4d5cd08f47",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4103,
+        "environment": "prod",
+        "id": 4103,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "catalog-db-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-ba7117a8db707e0a1",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4104,
+        "environment": "prod",
+        "id": 4104,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "audit-log-db-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-a0ab9296ae0d0cb4a",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4105,
+        "environment": "prod",
+        "id": 4105,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "search-idx-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2025-06-17",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2025-06-17T03:05:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-d4ebb20eba15f9a63",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "web-frontend"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4106,
+        "environment": "prod",
+        "id": 4106,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "metrics-frontend-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2025-06-17",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2025-06-17T02:41:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-ea4654163ee77f717",
+        "service_role": "web-frontend",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4107,
+        "environment": "prod",
+        "id": 4107,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "records-db-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2025-06-17",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2025-06-17T02:20:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-9bd93ae6c364ac23d",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4108,
+        "environment": "prod",
+        "id": 4108,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "queue-broker-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-0943fafbaeff50438",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "public-web"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "web-frontend"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "web-team"
+          }
+        ],
+        "device_id": 4109,
+        "environment": "prod",
+        "id": 4109,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "cdn-edge-lb",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "AWS-managed",
+        "owner": "web-team",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-e6afc8cc5232631c7",
+        "service_role": "web-frontend",
+        "tags": [
+          "production"
+        ],
+        "tier": "public-web",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4110,
+        "environment": "prod",
+        "id": 4110,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "inventory-db-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-be7ea62be69af7d5a",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4111,
+        "environment": "prod-acq",
+        "id": 4111,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "legacy-billing-db",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2025-03-11",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2025-03-11T00:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-1dd83cddfc320a7d7",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "acquired"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4112,
+        "environment": "prod",
+        "id": 4112,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "orders-db-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-f1c88e65dcd244607",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4113,
+        "environment": "prod",
+        "id": 4113,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "metrics-tsdb-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-e7bab885f4ce1167b",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4114,
+        "environment": "prod",
+        "id": 4114,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "session-cache-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2025-06-17",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2025-06-17T02:41:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-12aedc50d03dc89e0",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4115,
+        "environment": "prod",
+        "id": 4115,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "feature-cache-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-4cb399e303fd66b83",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "public-web"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "web-frontend"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "web-team"
+          }
+        ],
+        "device_id": 4116,
+        "environment": "staging",
+        "id": 4116,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "legacy-portal-lb",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2025-06-17",
+        "os": "AWS-managed",
+        "owner": "web-team",
+        "provisioned_date": "2025-06-17T02:41:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-b5bb13a809802d04d",
+        "service_role": "web-frontend",
+        "tags": [
+          "nonprod"
+        ],
+        "tier": "public-web",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4117,
+        "environment": "prod",
+        "id": 4117,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "archive-db-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-ee0c5a28d5f72a4ca",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "public-web"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "web-frontend"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "web-team"
+          }
+        ],
+        "device_id": 4118,
+        "environment": "prod",
+        "id": 4118,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "www-public-lb",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2024-02-20",
+        "os": "AWS-managed",
+        "owner": "web-team",
+        "provisioned_date": "2024-02-20T00:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-e555768970e9b7ffa",
+        "service_role": "web-frontend",
+        "tags": [
+          "production"
+        ],
+        "tier": "public-web",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4119,
+        "environment": "prod",
+        "id": 4119,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "billing-db-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-d4b28ea0a789c7a21",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4120,
+        "environment": "prod",
+        "id": 4120,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "etl-staging-db",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2025-11-28",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2025-11-28T04:30:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-1bcb851d31af6b3da",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "internal-admin"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "platform"
+          }
+        ],
+        "device_id": 4121,
+        "environment": "prod",
+        "id": 4121,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "ops-admin-console",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2025-06-17",
+        "os": "Ubuntu 22.04",
+        "owner": "platform",
+        "provisioned_date": "2025-06-17T03:05:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-d92925026a6a0de89",
+        "service_role": "internal-admin",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4122,
+        "environment": "prod",
+        "id": 4122,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "notif-db-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-e88b451767bd9ae5c",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "infra"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "bastion"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "platform"
+          }
+        ],
+        "device_id": 4123,
+        "environment": "prod",
+        "id": 4123,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "ops-bastion",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Amazon Linux",
+        "owner": "platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-10c768e6ac97da5de",
+        "service_role": "bastion",
+        "tags": [
+          "production"
+        ],
+        "tier": "infra",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4124,
+        "environment": "prod",
+        "id": 4124,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "reporting-cache-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-310b661abab6a9465",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4125,
+        "environment": "prod",
+        "id": 4125,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "geo-db-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-3693951b64307309d",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "internal-data"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "database"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "data-platform"
+          }
+        ],
+        "device_id": 4126,
+        "environment": "prod",
+        "id": 4126,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "ml-registry-prod",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "Ubuntu 22.04",
+        "owner": "data-platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-c57914e7533c346ad",
+        "service_role": "database",
+        "tags": [
+          "production",
+          "pci"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "public-web"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "web-frontend"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "platform"
+          }
+        ],
+        "device_id": 4127,
+        "environment": "prod",
+        "id": 4127,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "api-gateway-lb",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2026-01-05",
+        "os": "AWS-managed",
+        "owner": "platform",
+        "provisioned_date": "2026-01-05T09:00:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-0601d24d7bf31a607",
+        "service_role": "web-frontend",
+        "tags": [
+          "production"
+        ],
+        "tier": "public-web",
+        "type": "virtual"
+      },
+      {
+        "aws_vpc_id": "vpc-0a1b2c3d4e5f60718",
+        "cloud_provider": "aws",
+        "custom_fields": [
+          {
+            "key": "tier",
+            "notes": "",
+            "value": "public-web"
+          },
+          {
+            "key": "service_role",
+            "notes": "",
+            "value": "web-frontend"
+          },
+          {
+            "key": "owner",
+            "notes": "",
+            "value": "web-team"
+          }
+        ],
+        "device_id": 4128,
+        "environment": "staging",
+        "id": 4128,
+        "in_service": true,
+        "last_seen": "2026-01-05T09:00:00Z",
+        "name": "partner-preview-lb",
+        "notes": "aws vpc vpc-0a1b2c3d4e5f60718; provisioned 2025-06-17",
+        "os": "AWS-managed",
+        "owner": "web-team",
+        "provisioned_date": "2025-06-17T03:05:00Z",
+        "region": "us-east-1",
+        "serial_no": "i-b5812002f3c691c11",
+        "service_role": "web-frontend",
+        "tags": [
+          "nonprod"
+        ],
+        "tier": "public-web",
+        "type": "virtual"
+      },
+      {
+        "cloud_provider": "aws",
+        "custom_fields": [],
+        "device_id": 4600,
+        "environment": "retired",
+        "id": 4600,
+        "in_service": false,
+        "last_seen": "2025-01-10T00:00:00Z",
+        "name": "old-analytics-db",
+        "notes": "decommissioned",
+        "os": "Ubuntu 20.04",
+        "owner": "data-platform",
+        "region": "us-east-1",
+        "serial_no": "i-dec000",
+        "service_role": "database",
+        "tags": [
+          "decommissioned"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "cloud_provider": "aws",
+        "custom_fields": [],
+        "device_id": 4601,
+        "environment": "retired",
+        "id": 4601,
+        "in_service": false,
+        "last_seen": "2025-01-10T00:00:00Z",
+        "name": "legacy-crm-db",
+        "notes": "decommissioned",
+        "os": "Ubuntu 20.04",
+        "owner": "data-platform",
+        "region": "us-east-1",
+        "serial_no": "i-dec001",
+        "service_role": "database",
+        "tags": [
+          "decommissioned"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "cloud_provider": "aws",
+        "custom_fields": [],
+        "device_id": 4602,
+        "environment": "retired",
+        "id": 4602,
+        "in_service": false,
+        "last_seen": "2025-01-10T00:00:00Z",
+        "name": "test-scratch-db",
+        "notes": "decommissioned",
+        "os": "Ubuntu 20.04",
+        "owner": "data-platform",
+        "region": "us-east-1",
+        "serial_no": "i-dec002",
+        "service_role": "database",
+        "tags": [
+          "decommissioned"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      },
+      {
+        "cloud_provider": "aws",
+        "custom_fields": [],
+        "device_id": 4603,
+        "environment": "retired",
+        "id": 4603,
+        "in_service": false,
+        "last_seen": "2025-01-10T00:00:00Z",
+        "name": "dev-sandbox-cache",
+        "notes": "decommissioned",
+        "os": "Ubuntu 20.04",
+        "owner": "data-platform",
+        "region": "us-east-1",
+        "serial_no": "i-dec003",
+        "service_role": "database",
+        "tags": [
+          "decommissioned"
+        ],
+        "tier": "internal-data",
+        "type": "virtual"
+      }
+    ],
+    "ips": [
+      {
+        "device": "session-store-staging",
+        "device_id": 4100,
+        "id": 9000,
+        "ip": "10.0.22.15",
+        "label": "session-store-staging",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "graph-db-prod",
+        "device_id": 4101,
+        "id": 9002,
+        "ip": "10.0.22.11",
+        "label": "graph-db-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "reporting-db-prod",
+        "device_id": 4102,
+        "id": 9004,
+        "ip": "10.0.11.29",
+        "label": "reporting-db-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "catalog-db-prod",
+        "device_id": 4103,
+        "id": 9006,
+        "ip": "10.0.21.17",
+        "label": "catalog-db-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "audit-log-db-prod",
+        "device_id": 4104,
+        "id": 9008,
+        "ip": "10.0.21.13",
+        "label": "audit-log-db-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "search-idx-prod",
+        "device_id": 4105,
+        "id": 9010,
+        "ip": "10.0.12.31",
+        "label": "search-idx-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "search-idx-prod",
+        "device_id": 4105,
+        "id": 9011,
+        "ip": "203.0.113.43",
+        "label": "search-idx-prod (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      },
+      {
+        "device": "metrics-frontend-prod",
+        "device_id": 4106,
+        "id": 9012,
+        "ip": "10.0.1.50",
+        "label": "metrics-frontend-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "metrics-frontend-prod",
+        "device_id": 4106,
+        "id": 9013,
+        "ip": "203.0.113.47",
+        "label": "metrics-frontend-prod (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      },
+      {
+        "device": "records-db-prod",
+        "device_id": 4107,
+        "id": 9014,
+        "ip": "10.0.11.21",
+        "label": "records-db-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "records-db-prod",
+        "device_id": 4107,
+        "id": 9015,
+        "ip": "203.0.113.41",
+        "label": "records-db-prod (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      },
+      {
+        "device": "queue-broker-prod",
+        "device_id": 4108,
+        "id": 9016,
+        "ip": "10.0.22.12",
+        "label": "queue-broker-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "cdn-edge-lb",
+        "device_id": 4109,
+        "id": 9018,
+        "ip": "10.0.1.20",
+        "label": "cdn-edge-lb",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "cdn-edge-lb",
+        "device_id": 4109,
+        "id": 9019,
+        "ip": "203.0.113.20",
+        "label": "cdn-edge-lb (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      },
+      {
+        "device": "inventory-db-prod",
+        "device_id": 4110,
+        "id": 9020,
+        "ip": "10.0.21.12",
+        "label": "inventory-db-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "legacy-billing-db",
+        "device_id": 4111,
+        "id": 9022,
+        "ip": "10.0.14.51",
+        "label": "legacy-billing-db",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "legacy-billing-db",
+        "device_id": 4111,
+        "id": 9023,
+        "ip": "203.0.113.45",
+        "label": "legacy-billing-db (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      },
+      {
+        "device": "orders-db-prod",
+        "device_id": 4112,
+        "id": 9024,
+        "ip": "10.0.21.11",
+        "label": "orders-db-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "metrics-tsdb-prod",
+        "device_id": 4113,
+        "id": 9026,
+        "ip": "10.0.21.14",
+        "label": "metrics-tsdb-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "session-cache-prod",
+        "device_id": 4114,
+        "id": 9028,
+        "ip": "10.0.11.22",
+        "label": "session-cache-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "session-cache-prod",
+        "device_id": 4114,
+        "id": 9029,
+        "ip": "203.0.113.42",
+        "label": "session-cache-prod (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      },
+      {
+        "device": "feature-cache-prod",
+        "device_id": 4115,
+        "id": 9030,
+        "ip": "10.0.21.15",
+        "label": "feature-cache-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "legacy-portal-lb",
+        "device_id": 4116,
+        "id": 9032,
+        "ip": "10.0.1.60",
+        "label": "legacy-portal-lb",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "legacy-portal-lb",
+        "device_id": 4116,
+        "id": 9033,
+        "ip": "203.0.113.48",
+        "label": "legacy-portal-lb (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      },
+      {
+        "device": "archive-db-prod",
+        "device_id": 4117,
+        "id": 9034,
+        "ip": "10.0.22.17",
+        "label": "archive-db-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "www-public-lb",
+        "device_id": 4118,
+        "id": 9036,
+        "ip": "10.0.1.10",
+        "label": "www-public-lb",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "www-public-lb",
+        "device_id": 4118,
+        "id": 9037,
+        "ip": "203.0.113.10",
+        "label": "www-public-lb (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      },
+      {
+        "device": "billing-db-prod",
+        "device_id": 4119,
+        "id": 9038,
+        "ip": "10.0.22.14",
+        "label": "billing-db-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "etl-staging-db",
+        "device_id": 4120,
+        "id": 9040,
+        "ip": "10.0.13.41",
+        "label": "etl-staging-db",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "etl-staging-db",
+        "device_id": 4120,
+        "id": 9041,
+        "ip": "203.0.113.44",
+        "label": "etl-staging-db (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      },
+      {
+        "device": "ops-admin-console",
+        "device_id": 4121,
+        "id": 9042,
+        "ip": "10.0.1.40",
+        "label": "ops-admin-console",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "ops-admin-console",
+        "device_id": 4121,
+        "id": 9043,
+        "ip": "203.0.113.46",
+        "label": "ops-admin-console (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      },
+      {
+        "device": "notif-db-prod",
+        "device_id": 4122,
+        "id": 9044,
+        "ip": "10.0.21.16",
+        "label": "notif-db-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "ops-bastion",
+        "device_id": 4123,
+        "id": 9046,
+        "ip": "10.0.1.30",
+        "label": "ops-bastion",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "ops-bastion",
+        "device_id": 4123,
+        "id": 9047,
+        "ip": "203.0.113.30",
+        "label": "ops-bastion (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      },
+      {
+        "device": "reporting-cache-prod",
+        "device_id": 4124,
+        "id": 9048,
+        "ip": "10.0.21.18",
+        "label": "reporting-cache-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "geo-db-prod",
+        "device_id": 4125,
+        "id": 9050,
+        "ip": "10.0.22.16",
+        "label": "geo-db-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "ml-registry-prod",
+        "device_id": 4126,
+        "id": 9052,
+        "ip": "10.0.22.13",
+        "label": "ml-registry-prod",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "api-gateway-lb",
+        "device_id": 4127,
+        "id": 9054,
+        "ip": "10.0.1.21",
+        "label": "api-gateway-lb",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "api-gateway-lb",
+        "device_id": 4127,
+        "id": 9055,
+        "ip": "203.0.113.22",
+        "label": "api-gateway-lb (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      },
+      {
+        "device": "partner-preview-lb",
+        "device_id": 4128,
+        "id": 9056,
+        "ip": "10.0.1.61",
+        "label": "partner-preview-lb",
+        "subnet_id": null,
+        "type": "static"
+      },
+      {
+        "device": "partner-preview-lb",
+        "device_id": 4128,
+        "id": 9057,
+        "ip": "203.0.113.49",
+        "label": "partner-preview-lb (public)",
+        "subnet_id": null,
+        "type": "elastic"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "production"
+      },
+      {
+        "id": 2,
+        "name": "pci"
+      },
+      {
+        "id": 3,
+        "name": "acquired"
+      }
+    ]
+  },
+  "jira-service-management": {
+    "comments": [],
+    "customers": [],
+    "organizations": [],
+    "queues": [],
+    "requestTypes": [
+      {
+        "id": "100",
+        "name": "Security incident",
+        "serviceDeskId": "10"
+      }
+    ],
+    "requests": [
+      {
+        "comments": [],
+        "createdDate": "2026-01-05T09:00:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "NEW"
+        },
+        "id": "40001",
+        "issueId": "40001",
+        "issueKey": "SECOPS-4471",
+        "reporter": "external-asm@corp.example.com",
+        "requestFieldValues": {
+          "description": "External attack-surface monitoring flagged that 203.0.113.10 is reachable from the public internet and looks like exposed production data. Confirm what is actually exposed across our production AWS account, lock down anything that should not be publicly reachable, and get to the bottom of how this happened.",
+          "summary": "Public internet exposure flagged across production AWS account"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Public internet exposure flagged across production AWS account",
+        "updatedDate": "2026-01-05T09:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-05-01T12:00:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "NEW"
+        },
+        "id": "40200",
+        "issueId": "40200",
+        "issueKey": "ITSD-7000",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: Password reset for contractor",
+          "summary": "Password reset for contractor"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Password reset for contractor",
+        "updatedDate": "2025-05-01T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-05-08T12:00:00Z",
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "id": "40207",
+        "issueId": "40207",
+        "issueKey": "ITSD-7007",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: Certificate renewal reminder",
+          "summary": "Certificate renewal reminder"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Certificate renewal reminder",
+        "updatedDate": "2025-05-08T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-05-15T12:00:00Z",
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "id": "40214",
+        "issueId": "40214",
+        "issueKey": "ITSD-7014",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: Update on-call rotation",
+          "summary": "Update on-call rotation"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Update on-call rotation",
+        "updatedDate": "2025-05-15T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-06-02T12:00:00Z",
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "id": "40201",
+        "issueId": "40201",
+        "issueKey": "ITSD-7001",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: VPN latency in eu-west",
+          "summary": "VPN latency in eu-west"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "VPN latency in eu-west",
+        "updatedDate": "2025-06-02T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-06-09T12:00:00Z",
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "id": "40208",
+        "issueId": "40208",
+        "issueKey": "ITSD-7008",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: Slack channel archival",
+          "summary": "Slack channel archival"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Slack channel archival",
+        "updatedDate": "2025-06-09T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-06-17T02:00:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "40100",
+        "issueId": "40100",
+        "issueKey": "CHG-6000",
+        "reporter": "m.okafor@corp.example.com",
+        "requestFieldValues": {
+          "description": "Emergency change during the Sev1 data-plane outage: temporarily opened public inbound and attached a public address for host records-db-prod (10.0.11.21) to restore access. Revert once the change window opens.",
+          "summary": "Emergency change: temporary public access for records-db-prod"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Emergency change: temporary public access for records-db-prod",
+        "updatedDate": "2025-06-17T02:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-06-17T02:20:00Z",
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "id": "40107",
+        "issueId": "40107",
+        "issueKey": "CHG-6007",
+        "reporter": "m.okafor@corp.example.com",
+        "requestFieldValues": {
+          "description": "Emergency change during the Sev1 data-plane outage: temporarily opened public inbound and attached a public address for host reporting-db-prod (10.0.11.29) to restore access. Revert once the change window opens.",
+          "summary": "Emergency change: temporary public access for reporting-db-prod"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Emergency change: temporary public access for reporting-db-prod",
+        "updatedDate": "2025-06-17T02:20:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-06-17T02:41:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "40101",
+        "issueId": "40101",
+        "issueKey": "CHG-6001",
+        "reporter": "m.okafor@corp.example.com",
+        "requestFieldValues": {
+          "description": "Emergency change during the Sev1 data-plane outage: temporarily opened public inbound and attached a public address for host session-cache-prod (10.0.11.22) to restore access. Revert once the change window opens.",
+          "summary": "Emergency change: temporary public access for session-cache-prod"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Emergency change: temporary public access for session-cache-prod",
+        "updatedDate": "2025-06-17T02:41:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-06-17T02:41:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "40104",
+        "issueId": "40104",
+        "issueKey": "CHG-6004",
+        "reporter": "m.okafor@corp.example.com",
+        "requestFieldValues": {
+          "description": "Emergency change during the Sev1 data-plane outage: temporarily opened public inbound and attached a public address for host metrics-frontend-prod (10.0.1.50) to restore access. Revert once the change window opens.",
+          "summary": "Emergency change: temporary public access for metrics-frontend-prod"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Emergency change: temporary public access for metrics-frontend-prod",
+        "updatedDate": "2025-06-17T02:41:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-06-17T02:41:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "40105",
+        "issueId": "40105",
+        "issueKey": "CHG-6005",
+        "reporter": "m.okafor@corp.example.com",
+        "requestFieldValues": {
+          "description": "Emergency change during the Sev1 data-plane outage: temporarily opened public inbound and attached a public address for host legacy-portal-lb (10.0.1.60) to restore access. Revert once the change window opens.",
+          "summary": "Emergency change: temporary public access for legacy-portal-lb"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Emergency change: temporary public access for legacy-portal-lb",
+        "updatedDate": "2025-06-17T02:41:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-06-17T03:05:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "40102",
+        "issueId": "40102",
+        "issueKey": "CHG-6002",
+        "reporter": "m.okafor@corp.example.com",
+        "requestFieldValues": {
+          "description": "Emergency change during the Sev1 data-plane outage: temporarily opened public inbound and attached a public address for host search-idx-prod (10.0.12.31) to restore access. Revert once the change window opens.",
+          "summary": "Emergency change: temporary public access for search-idx-prod"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Emergency change: temporary public access for search-idx-prod",
+        "updatedDate": "2025-06-17T03:05:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-06-17T03:05:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "40103",
+        "issueId": "40103",
+        "issueKey": "CHG-6003",
+        "reporter": "m.okafor@corp.example.com",
+        "requestFieldValues": {
+          "description": "Emergency change during the Sev1 data-plane outage: temporarily opened public inbound and attached a public address for host ops-admin-console (10.0.1.40) to restore access. Revert once the change window opens.",
+          "summary": "Emergency change: temporary public access for ops-admin-console"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Emergency change: temporary public access for ops-admin-console",
+        "updatedDate": "2025-06-17T03:05:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-06-17T03:05:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "40106",
+        "issueId": "40106",
+        "issueKey": "CHG-6006",
+        "reporter": "m.okafor@corp.example.com",
+        "requestFieldValues": {
+          "description": "Emergency change during the Sev1 data-plane outage: temporarily opened public inbound and attached a public address for host partner-preview-lb (10.0.1.61) to restore access. Revert once the change window opens.",
+          "summary": "Emergency change: temporary public access for partner-preview-lb"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Emergency change: temporary public access for partner-preview-lb",
+        "updatedDate": "2025-06-17T03:05:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-07-03T12:00:00Z",
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "id": "40202",
+        "issueId": "40202",
+        "issueKey": "ITSD-7002",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: Laptop replacement",
+          "summary": "Laptop replacement"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Laptop replacement",
+        "updatedDate": "2025-07-03T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-07-10T12:00:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "NEW"
+        },
+        "id": "40209",
+        "issueId": "40209",
+        "issueKey": "ITSD-7009",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: Grafana dashboard access",
+          "summary": "Grafana dashboard access"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Grafana dashboard access",
+        "updatedDate": "2025-07-10T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-08-04T12:00:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "NEW"
+        },
+        "id": "40203",
+        "issueId": "40203",
+        "issueKey": "ITSD-7003",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: SSO group membership request",
+          "summary": "SSO group membership request"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "SSO group membership request",
+        "updatedDate": "2025-08-04T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-08-11T12:00:00Z",
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "id": "40210",
+        "issueId": "40210",
+        "issueKey": "ITSD-7010",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: Renew PagerDuty schedule",
+          "summary": "Renew PagerDuty schedule"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Renew PagerDuty schedule",
+        "updatedDate": "2025-08-11T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-09-05T12:00:00Z",
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "id": "40204",
+        "issueId": "40204",
+        "issueKey": "ITSD-7004",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: Printer offline 3rd floor",
+          "summary": "Printer offline 3rd floor"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Printer offline 3rd floor",
+        "updatedDate": "2025-09-05T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-09-12T12:00:00Z",
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "id": "40211",
+        "issueId": "40211",
+        "issueKey": "ITSD-7011",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: MFA re-enrollment",
+          "summary": "MFA re-enrollment"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "MFA re-enrollment",
+        "updatedDate": "2025-09-12T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-10-06T12:00:00Z",
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "id": "40205",
+        "issueId": "40205",
+        "issueKey": "ITSD-7005",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: Increase RDS storage alarm threshold",
+          "summary": "Increase RDS storage alarm threshold"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Increase RDS storage alarm threshold",
+        "updatedDate": "2025-10-06T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-10-13T12:00:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "NEW"
+        },
+        "id": "40212",
+        "issueId": "40212",
+        "issueKey": "ITSD-7012",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: Quota bump for CI runners",
+          "summary": "Quota bump for CI runners"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Quota bump for CI runners",
+        "updatedDate": "2025-10-13T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-11-07T12:00:00Z",
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "NEW"
+        },
+        "id": "40206",
+        "issueId": "40206",
+        "issueKey": "ITSD-7006",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: Onboard new analyst",
+          "summary": "Onboard new analyst"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Onboard new analyst",
+        "updatedDate": "2025-11-07T12:00:00Z"
+      },
+      {
+        "comments": [],
+        "createdDate": "2025-11-14T12:00:00Z",
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "id": "40213",
+        "issueId": "40213",
+        "issueKey": "ITSD-7013",
+        "reporter": "helpdesk@corp.example.com",
+        "requestFieldValues": {
+          "description": "Routine request: Deprecate old API key",
+          "summary": "Deprecate old API key"
+        },
+        "requestTypeId": "100",
+        "serviceDeskId": "10",
+        "statusHistory": [],
+        "summary": "Deprecate old API key",
+        "updatedDate": "2025-11-14T12:00:00Z"
+      }
+    ],
+    "serviceDesks": [
+      {
+        "customerAccountIds": [],
+        "id": "10",
+        "key": "SECOPS",
+        "name": "Security Operations",
+        "organizationIds": [],
+        "projectId": "1",
+        "projectKey": "SECOPS",
+        "projectName": "Security Operations"
+      }
+    ]
+  },
+  "microsoft-defender": {
+    "alerts": [
+      {
+        "category": "InitialAccess",
+        "comments": [],
+        "createdDateTime": "2025-06-17T02:20:00Z",
+        "description": "Public inbound exposure detected on 203.0.113.41 (ports 5432).",
+        "detectionSource": "cloudSecurityPosture",
+        "evidence": [
+          {
+            "@odata.type": "#microsoft.graph.security.ipEvidence",
+            "deviceName": "records-db-prod",
+            "ipAddress": "203.0.113.41",
+            "remediationStatus": "none",
+            "roles": [
+              "impacted"
+            ]
+          }
+        ],
+        "firstActivityDateTime": "2025-06-17T02:20:00Z",
+        "id": "da-11a9d01dd057",
+        "incidentId": "di-001",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "serviceSource": "microsoftDefenderForCloud",
+        "severity": "high",
+        "status": "new",
+        "title": "Publicly reachable database"
+      },
+      {
+        "category": "InitialAccess",
+        "classification": "truePositive",
+        "comments": [],
+        "createdDateTime": "2025-06-17T02:41:00Z",
+        "description": "Public inbound exposure detected on 203.0.113.42 (ports 6379).",
+        "detectionSource": "cloudSecurityPosture",
+        "determination": "other",
+        "evidence": [
+          {
+            "@odata.type": "#microsoft.graph.security.ipEvidence",
+            "deviceName": "session-cache-prod",
+            "ipAddress": "203.0.113.42",
+            "remediationStatus": "none",
+            "roles": [
+              "impacted"
+            ]
+          }
+        ],
+        "firstActivityDateTime": "2025-06-17T02:41:00Z",
+        "id": "da-a79cddbcb3e3",
+        "incidentId": "di-001",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "resolvedDateTime": "2025-06-25T00:00:00Z",
+        "serviceSource": "microsoftDefenderForCloud",
+        "severity": "high",
+        "status": "resolved",
+        "title": "Publicly reachable cache"
+      },
+      {
+        "category": "InitialAccess",
+        "comments": [],
+        "createdDateTime": "2025-06-17T03:05:00Z",
+        "description": "Public inbound exposure detected on 203.0.113.43 (ports 9200).",
+        "detectionSource": "cloudSecurityPosture",
+        "evidence": [
+          {
+            "@odata.type": "#microsoft.graph.security.ipEvidence",
+            "deviceName": "search-idx-prod",
+            "ipAddress": "203.0.113.43",
+            "remediationStatus": "none",
+            "roles": [
+              "impacted"
+            ]
+          }
+        ],
+        "firstActivityDateTime": "2025-06-17T03:05:00Z",
+        "id": "da-339094fc1a9c",
+        "incidentId": "di-001",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "serviceSource": "microsoftDefenderForCloud",
+        "severity": "high",
+        "status": "new",
+        "title": "Publicly reachable service"
+      },
+      {
+        "assignedTo": "networking-team",
+        "category": "InitialAccess",
+        "comments": [],
+        "createdDateTime": "2025-03-11T00:00:00Z",
+        "description": "Public inbound exposure detected on 203.0.113.45 (ports 3306).",
+        "detectionSource": "cloudSecurityPosture",
+        "evidence": [
+          {
+            "@odata.type": "#microsoft.graph.security.ipEvidence",
+            "deviceName": "legacy-billing-db",
+            "ipAddress": "203.0.113.45",
+            "remediationStatus": "none",
+            "roles": [
+              "impacted"
+            ]
+          }
+        ],
+        "firstActivityDateTime": "2025-03-11T00:00:00Z",
+        "id": "da-4fe30e79d903",
+        "incidentId": "di-001",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "serviceSource": "microsoftDefenderForCloud",
+        "severity": "medium",
+        "status": "new",
+        "title": "Publicly reachable database"
+      },
+      {
+        "category": "InitialAccess",
+        "classification": "falsePositive",
+        "comments": [],
+        "createdDateTime": "2024-02-20T00:00:00Z",
+        "description": "Public inbound exposure detected on 203.0.113.10 (ports 443,80).",
+        "detectionSource": "cloudSecurityPosture",
+        "determination": "notMalicious",
+        "evidence": [
+          {
+            "@odata.type": "#microsoft.graph.security.ipEvidence",
+            "deviceName": "www-public-lb",
+            "ipAddress": "203.0.113.10",
+            "remediationStatus": "none",
+            "roles": [
+              "impacted"
+            ]
+          }
+        ],
+        "firstActivityDateTime": "2024-02-20T00:00:00Z",
+        "id": "da-fdcd46b5e639",
+        "incidentId": "di-001",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "resolvedDateTime": "2025-06-25T00:00:00Z",
+        "serviceSource": "microsoftDefenderForCloud",
+        "severity": "informational",
+        "status": "resolved",
+        "title": "Internet-facing endpoint (expected)"
+      },
+      {
+        "category": "InitialAccess",
+        "classification": "truePositive",
+        "comments": [],
+        "createdDateTime": "2025-06-17T02:20:00Z",
+        "description": "Public inbound exposure detected on 10.0.11.29 (ports 5432).",
+        "detectionSource": "cloudSecurityPosture",
+        "determination": "other",
+        "evidence": [
+          {
+            "@odata.type": "#microsoft.graph.security.ipEvidence",
+            "deviceName": "reporting-db-prod",
+            "ipAddress": "10.0.11.29",
+            "remediationStatus": "none",
+            "roles": [
+              "impacted"
+            ]
+          }
+        ],
+        "firstActivityDateTime": "2025-06-17T02:20:00Z",
+        "id": "da-f7f9cb921b2d",
+        "incidentId": "di-001",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "resolvedDateTime": "2025-06-25T00:00:00Z",
+        "serviceSource": "microsoftDefenderForCloud",
+        "severity": "high",
+        "status": "resolved",
+        "title": "Publicly reachable database"
+      },
+      {
+        "category": "CredentialAccess",
+        "comments": [],
+        "createdDateTime": "2025-12-01T00:00:00Z",
+        "description": "identity anomaly",
+        "detectionSource": "identity",
+        "evidence": [],
+        "firstActivityDateTime": "2025-12-01T00:00:00Z",
+        "id": "da-noise00",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "serviceSource": "microsoftDefenderForIdentity",
+        "severity": "low",
+        "status": "new",
+        "title": "Suspicious sign-in"
+      },
+      {
+        "category": "CredentialAccess",
+        "comments": [],
+        "createdDateTime": "2025-12-02T00:00:00Z",
+        "description": "identity anomaly",
+        "detectionSource": "identity",
+        "evidence": [],
+        "firstActivityDateTime": "2025-12-02T00:00:00Z",
+        "id": "da-noise01",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "serviceSource": "microsoftDefenderForIdentity",
+        "severity": "medium",
+        "status": "resolved",
+        "title": "Suspicious sign-in"
+      },
+      {
+        "category": "CredentialAccess",
+        "comments": [],
+        "createdDateTime": "2025-12-03T00:00:00Z",
+        "description": "identity anomaly",
+        "detectionSource": "identity",
+        "evidence": [],
+        "firstActivityDateTime": "2025-12-03T00:00:00Z",
+        "id": "da-noise02",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "serviceSource": "microsoftDefenderForIdentity",
+        "severity": "informational",
+        "status": "inProgress",
+        "title": "Suspicious sign-in"
+      },
+      {
+        "category": "CredentialAccess",
+        "comments": [],
+        "createdDateTime": "2025-12-04T00:00:00Z",
+        "description": "identity anomaly",
+        "detectionSource": "identity",
+        "evidence": [],
+        "firstActivityDateTime": "2025-12-04T00:00:00Z",
+        "id": "da-noise03",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "serviceSource": "microsoftDefenderForIdentity",
+        "severity": "low",
+        "status": "new",
+        "title": "Suspicious sign-in"
+      },
+      {
+        "category": "CredentialAccess",
+        "comments": [],
+        "createdDateTime": "2025-12-05T00:00:00Z",
+        "description": "identity anomaly",
+        "detectionSource": "identity",
+        "evidence": [],
+        "firstActivityDateTime": "2025-12-05T00:00:00Z",
+        "id": "da-noise04",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "serviceSource": "microsoftDefenderForIdentity",
+        "severity": "medium",
+        "status": "resolved",
+        "title": "Suspicious sign-in"
+      },
+      {
+        "category": "CredentialAccess",
+        "comments": [],
+        "createdDateTime": "2025-12-06T00:00:00Z",
+        "description": "identity anomaly",
+        "detectionSource": "identity",
+        "evidence": [],
+        "firstActivityDateTime": "2025-12-06T00:00:00Z",
+        "id": "da-noise05",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "serviceSource": "microsoftDefenderForIdentity",
+        "severity": "informational",
+        "status": "inProgress",
+        "title": "Suspicious sign-in"
+      },
+      {
+        "category": "CredentialAccess",
+        "comments": [],
+        "createdDateTime": "2025-12-07T00:00:00Z",
+        "description": "identity anomaly",
+        "detectionSource": "identity",
+        "evidence": [],
+        "firstActivityDateTime": "2025-12-07T00:00:00Z",
+        "id": "da-noise06",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "serviceSource": "microsoftDefenderForIdentity",
+        "severity": "low",
+        "status": "new",
+        "title": "Suspicious sign-in"
+      },
+      {
+        "category": "CredentialAccess",
+        "comments": [],
+        "createdDateTime": "2025-12-08T00:00:00Z",
+        "description": "identity anomaly",
+        "detectionSource": "identity",
+        "evidence": [],
+        "firstActivityDateTime": "2025-12-08T00:00:00Z",
+        "id": "da-noise07",
+        "lastActivityDateTime": "2026-01-05T09:00:00Z",
+        "serviceSource": "microsoftDefenderForIdentity",
+        "severity": "medium",
+        "status": "resolved",
+        "title": "Suspicious sign-in"
+      }
+    ],
+    "incidents": [
+      {
+        "comments": [],
+        "createdDateTime": "2025-06-17T00:00:00Z",
+        "customTags": [],
+        "displayName": "Cloud posture exposures",
+        "id": "di-001",
+        "lastUpdateDateTime": "2026-01-05T09:00:00Z",
+        "severity": "high",
+        "status": "active",
+        "systemTags": []
+      }
+    ],
+    "secureScoreControlProfiles": [],
+    "secureScores": [
+      {
+        "createdDateTime": "2026-01-05T09:00:00Z",
+        "currentScore": 312,
+        "id": "ss-1",
+        "maxScore": 600
+      }
+    ]
+  },
+  "microsoft-sentinel": {
+    "alerts": [],
+    "bookmarks": [],
+    "comments": [
+      {
+        "incidentId": "inc-bg-2025-0617",
+        "name": "cmt-bg-1",
+        "properties": {
+          "author": {
+            "email": "m.okafor@corp.example.com",
+            "name": "m.okafor"
+          },
+          "createdTimeUtc": "2025-06-17T02:00:00Z",
+          "message": "Break-glass: opened public inbound + attached elastic IP to restore access for the records-db-prod (203.0.113.41), session-cache-prod (203.0.113.42), search-idx-prod (203.0.113.43), metrics-frontend-prod (203.0.113.47) datastores, the ops-admin-console (203.0.113.46) management UI, and the legacy-portal-lb (203.0.113.48) / partner-preview-lb (203.0.113.49) temporary front-ends, plus reporting-db-prod. None of these were approved as internet-facing; revert them all once the change window opens."
+        }
+      },
+      {
+        "incidentId": "inc-bg-2025-0617",
+        "name": "cmt-bg-2",
+        "properties": {
+          "author": {
+            "email": "m.okafor@corp.example.com",
+            "name": "m.okafor"
+          },
+          "createdTimeUtc": "2025-06-25T00:00:00Z",
+          "message": "Service restored. Reverted emergency openings for reporting-db-prod (revoked 0.0.0.0/0, released EIP). TODO revert the remaining hosts once change window opens."
+        }
+      },
+      {
+        "incidentId": "inc-pipe-2025-1128",
+        "name": "cmt-pipe-1",
+        "properties": {
+          "author": {
+            "email": "svc-dataflow@corp.example.com",
+            "name": "svc-dataflow"
+          },
+          "createdTimeUtc": "2025-11-28T04:30:00Z",
+          "message": "svc-dataflow provisioned etl-staging-db (203.0.113.44); security group cloned from a break-glass-era template (0.0.0.0/0)."
+        }
+      }
+    ],
+    "currentUser": {
+      "email": "soc@corp.example.com",
+      "name": "soc",
+      "objectId": "u-1",
+      "userPrincipalName": "soc@corp.example.com"
+    },
+    "entities": [
+      {
+        "incidentIds": [
+          "inc-bg-2025-0617"
+        ],
+        "kind": "Ip",
+        "name": "ent-bg-ip1",
+        "properties": {
+          "address": "203.0.113.41",
+          "hostName": "records-db-prod"
+        }
+      },
+      {
+        "incidentIds": [
+          "inc-bg-2025-0617"
+        ],
+        "kind": "Ip",
+        "name": "ent-bg-ip2",
+        "properties": {
+          "address": "203.0.113.42",
+          "hostName": "session-cache-prod"
+        }
+      },
+      {
+        "incidentIds": [
+          "inc-bg-2025-0617"
+        ],
+        "kind": "Ip",
+        "name": "ent-bg-ip3",
+        "properties": {
+          "address": "203.0.113.43",
+          "hostName": "search-idx-prod"
+        }
+      },
+      {
+        "incidentIds": [
+          "inc-bg-2025-0617"
+        ],
+        "kind": "Ip",
+        "name": "ent-bg-ip6",
+        "properties": {
+          "address": "203.0.113.46",
+          "hostName": "ops-admin-console"
+        }
+      },
+      {
+        "incidentIds": [
+          "inc-bg-2025-0617"
+        ],
+        "kind": "Ip",
+        "name": "ent-bg-ip7",
+        "properties": {
+          "address": "203.0.113.47",
+          "hostName": "metrics-frontend-prod"
+        }
+      },
+      {
+        "incidentIds": [
+          "inc-bg-2025-0617"
+        ],
+        "kind": "Ip",
+        "name": "ent-bg-ip8",
+        "properties": {
+          "address": "203.0.113.48",
+          "hostName": "legacy-portal-lb"
+        }
+      },
+      {
+        "incidentIds": [
+          "inc-bg-2025-0617"
+        ],
+        "kind": "Ip",
+        "name": "ent-bg-ip9",
+        "properties": {
+          "address": "203.0.113.49",
+          "hostName": "partner-preview-lb"
+        }
+      },
+      {
+        "incidentIds": [
+          "inc-acq-2025-0311"
+        ],
+        "kind": "Ip",
+        "name": "ent-acq-ip",
+        "properties": {
+          "address": "203.0.113.45",
+          "hostName": "legacy-billing-db"
+        }
+      },
+      {
+        "incidentIds": [
+          "inc-pipe-2025-1128"
+        ],
+        "kind": "Ip",
+        "name": "ent-pipe-ip",
+        "properties": {
+          "address": "203.0.113.44",
+          "hostName": "etl-staging-db"
+        }
+      },
+      {
+        "incidentIds": [
+          "inc-web-baseline"
+        ],
+        "kind": "Ip",
+        "name": "ent-web-ip",
+        "properties": {
+          "address": "203.0.113.10",
+          "hostName": "www-public-lb"
+        }
+      }
+    ],
+    "incidents": [
+      {
+        "name": "inc-bg-2025-0617",
+        "properties": {
+          "createdTimeUtc": "2025-06-17T02:00:00Z",
+          "description": "Emergency access opened to restore service during the data-plane outage.",
+          "incidentNumber": 1001,
+          "lastActivityTimeUtc": "2025-06-17T02:00:00Z",
+          "providerName": "Azure Sentinel",
+          "severity": "High",
+          "status": "Closed",
+          "title": "Sev1: production data plane outage — emergency access"
+        }
+      },
+      {
+        "name": "inc-acq-2025-0311",
+        "properties": {
+          "createdTimeUtc": "2025-03-11T00:00:00Z",
+          "description": "Imported acquired cloud estate; legacy-billing-db (203.0.113.45) retained flat public posture pending hardening.",
+          "incidentNumber": 1002,
+          "lastActivityTimeUtc": "2025-03-11T00:00:00Z",
+          "providerName": "Azure Sentinel",
+          "severity": "Medium",
+          "status": "Active",
+          "title": "Acquired estate imported — posture review pending"
+        }
+      },
+      {
+        "name": "inc-pipe-2025-1128",
+        "properties": {
+          "createdTimeUtc": "2025-11-28T04:30:00Z",
+          "description": "Data pipeline auto-created etl-staging-db (203.0.113.44) using a copied legacy security group with public inbound.",
+          "incidentNumber": 1003,
+          "lastActivityTimeUtc": "2025-11-28T04:30:00Z",
+          "providerName": "Azure Sentinel",
+          "severity": "Low",
+          "status": "Active",
+          "title": "Automated resource provisioning — data pipeline"
+        }
+      },
+      {
+        "name": "inc-web-baseline",
+        "properties": {
+          "createdTimeUtc": "2024-02-20T00:00:00Z",
+          "description": "www-public-lb (203.0.113.10) is the public marketing/web ALB, provisioned 2024-02, steady inbound 80/443 traffic; intentionally internet-facing.",
+          "incidentNumber": 1004,
+          "lastActivityTimeUtc": "2024-02-20T00:00:00Z",
+          "providerName": "Azure Sentinel",
+          "severity": "Informational",
+          "status": "Closed",
+          "title": "Public web endpoint — baseline traffic"
+        }
+      },
+      {
+        "name": "inc-noise-00",
+        "properties": {
+          "createdTimeUtc": "2025-12-05T00:00:00Z",
+          "description": "unrelated identity noise",
+          "incidentNumber": 1005,
+          "lastActivityTimeUtc": "2025-12-05T00:00:00Z",
+          "providerName": "Azure Sentinel",
+          "severity": "Low",
+          "status": "Closed",
+          "title": "Phishing campaign triage"
+        }
+      },
+      {
+        "name": "inc-noise-01",
+        "properties": {
+          "createdTimeUtc": "2025-12-06T00:00:00Z",
+          "description": "unrelated identity noise",
+          "incidentNumber": 1006,
+          "lastActivityTimeUtc": "2025-12-06T00:00:00Z",
+          "providerName": "Azure Sentinel",
+          "severity": "Low",
+          "status": "Closed",
+          "title": "Phishing campaign triage"
+        }
+      },
+      {
+        "name": "inc-noise-02",
+        "properties": {
+          "createdTimeUtc": "2025-12-07T00:00:00Z",
+          "description": "unrelated identity noise",
+          "incidentNumber": 1007,
+          "lastActivityTimeUtc": "2025-12-07T00:00:00Z",
+          "providerName": "Azure Sentinel",
+          "severity": "Low",
+          "status": "Closed",
+          "title": "Phishing campaign triage"
+        }
+      }
+    ],
+    "relations": [],
+    "scope": {
+      "resourceGroupName": "secops-rg",
+      "subscriptionId": "00000000-1111-2222-3333-444444444444",
+      "workspaceName": "sentinel-ws"
+    },
+    "tasks": []
+  }
+}

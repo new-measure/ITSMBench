@@ -1,0 +1,1525 @@
+{
+ "_now": "2026-07-17T15:00:00Z",
+ "aws-vpc": {
+  "networkAcls": [
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-aapp0001",
+      "SubnetId": "subnet-0cdeaapp01"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.0.0.0/8",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0cdeaapp0001",
+    "TagSet": [],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-adb00001",
+      "SubnetId": "subnet-0cdeadb001"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.0.0.0/8",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0cdeadb00001",
+    "TagSet": [],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-atok0001",
+      "SubnetId": "subnet-0cdeatok01"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.0.0.0/8",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0cdeatok0001",
+    "TagSet": [],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-bapp0001",
+      "SubnetId": "subnet-0cdebapp01"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.40.0.0/24",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.50.0.10/32",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0cdebapp0001",
+    "TagSet": [],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-bdb00001",
+      "SubnetId": "subnet-0cdebdb001"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.21.0.0/24",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.50.0.20/32",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0cdebdb00001",
+    "TagSet": [],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-btok0001",
+      "SubnetId": "subnet-0cdebtok01"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.21.0.0/24",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "6",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0cdebtok0001",
+    "TagSet": [],
+    "VpcId": "vpc-0solstice000001"
+   }
+  ],
+  "networkInterfaces": [],
+  "routeTables": [],
+  "securityGroups": [
+   {
+    "Description": "card-auth CDE application tier",
+    "GroupId": "sg-0cdeaapp000001",
+    "GroupName": "cardauth-app-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.0.0.0/8"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8080,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.10.0.0/16"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8080,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "246813579000",
+    "TagSet": [
+     {
+      "Key": "product",
+      "Value": "cardauth"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "Description": "card-auth CDE cardholder database tier",
+    "GroupId": "sg-0cdeadb0000001",
+    "GroupName": "cardauth-db-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 5432,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.10.0.0/16"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5432,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 5432,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.30.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5432,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 5432,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.50.0.20/32"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5432,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "246813579000",
+    "TagSet": [
+     {
+      "Key": "product",
+      "Value": "cardauth"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "Description": "card-auth CDE tokenization/HSM tier",
+    "GroupId": "sg-0cdeatok000001",
+    "GroupName": "cardauth-tok-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 9000,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.10.0.0/16"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 9000,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 9000,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.30.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 9000,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "246813579000",
+    "TagSet": [
+     {
+      "Key": "product",
+      "Value": "cardauth"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "Description": "settlement CDE application tier",
+    "GroupId": "sg-0cdebapp000001",
+    "GroupName": "settlement-app-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.40.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.50.0.10/32"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "246813579000",
+    "TagSet": [
+     {
+      "Key": "product",
+      "Value": "settlement"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "Description": "settlement CDE cardholder database tier",
+    "GroupId": "sg-0cdebdb0000001",
+    "GroupName": "settlement-db-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 5432,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.21.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5432,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 5432,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.50.0.20/32"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5432,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "246813579000",
+    "TagSet": [
+     {
+      "Key": "product",
+      "Value": "settlement"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "Description": "settlement CDE tokenization/HSM tier",
+    "GroupId": "sg-0cdebtok000001",
+    "GroupName": "settlement-tok-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 9000,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.21.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 9000,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "246813579000",
+    "TagSet": [
+     {
+      "Key": "product",
+      "Value": "settlement"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "Description": "DMZ payment web front-end",
+    "GroupId": "sg-0web000000001",
+    "GroupName": "dmz-web-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "246813579000",
+    "TagSet": [
+     {
+      "Key": "product",
+      "Value": "dmz"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "Description": "Administrative bastion host",
+    "GroupId": "sg-0jump000000001",
+    "GroupName": "admin-bastion-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.10.0.0/16"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "246813579000",
+    "TagSet": [
+     {
+      "Key": "product",
+      "Value": "admin"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "Description": "Tokenization/DLP scanner",
+    "GroupId": "sg-0scanner00001",
+    "GroupName": "tokenization-scanner-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.50.0.10/32"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "246813579000",
+    "TagSet": [
+     {
+      "Key": "product",
+      "Value": "tokenization"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "Description": "Corporate user workstations",
+    "GroupId": "sg-0corp00000001",
+    "GroupName": "corp-users-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.50.0.10/32"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "246813579000",
+    "TagSet": [
+     {
+      "Key": "product",
+      "Value": "corp"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "Description": "Development/test hosts",
+    "GroupId": "sg-0dev000000001",
+    "GroupName": "dev-test-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.50.0.10/32"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "246813579000",
+    "TagSet": [
+     {
+      "Key": "product",
+      "Value": "dev"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   }
+  ],
+  "subnets": [
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.20.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0cdeaapp01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "cardauth-app"
+     },
+     {
+      "Key": "zone",
+      "Value": "cde"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.20.1.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0cdeadb001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "cardauth-db"
+     },
+     {
+      "Key": "zone",
+      "Value": "cde"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.20.2.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0cdeatok01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "cardauth-tok"
+     },
+     {
+      "Key": "zone",
+      "Value": "cde"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.21.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0cdebapp01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "settlement-app"
+     },
+     {
+      "Key": "zone",
+      "Value": "cde"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.21.1.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0cdebdb001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "settlement-db"
+     },
+     {
+      "Key": "zone",
+      "Value": "cde"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.21.2.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0cdebtok01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "settlement-tok"
+     },
+     {
+      "Key": "zone",
+      "Value": "cde"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.40.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0web000001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dmz-web"
+     },
+     {
+      "Key": "zone",
+      "Value": "dmz"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.50.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0shared001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "shared-svc"
+     },
+     {
+      "Key": "zone",
+      "Value": "shared"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.10.0.0/16",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0corp00001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "corp-users"
+     },
+     {
+      "Key": "zone",
+      "Value": "corp"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.30.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0dev000001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dev-test"
+     },
+     {
+      "Key": "zone",
+      "Value": "dev"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   }
+  ],
+  "vpcs": [
+   {
+    "CidrBlock": "10.0.0.0/8",
+    "InstanceTenancy": "default",
+    "IsDefault": false,
+    "State": "available",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "solstice-prod"
+     }
+    ],
+    "VpcId": "vpc-0solstice000001"
+   }
+  ]
+ },
+ "device42": {
+  "devices": [
+   {
+    "aws_vpc_sg_id": "sg-0cdeaapp000001",
+    "device_id": 4101,
+    "id": 4101,
+    "in_service": true,
+    "ip": "10.20.0.10",
+    "lifecycle_status": "In Production",
+    "name": "cardauth-app-01",
+    "notes": "card-auth app tier, zone=cde.",
+    "os": "Ubuntu",
+    "role": "app",
+    "security_group": "sg-0cdeaapp000001",
+    "service": "card-auth",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "cde"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0cdeadb0000001",
+    "device_id": 4102,
+    "id": 4102,
+    "in_service": true,
+    "ip": "10.20.1.10",
+    "lifecycle_status": "In Production",
+    "name": "cardauth-db-01",
+    "notes": "card-auth db tier, zone=cde.",
+    "os": "Ubuntu",
+    "role": "db",
+    "security_group": "sg-0cdeadb0000001",
+    "service": "card-auth",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "cde"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0cdeatok000001",
+    "device_id": 4103,
+    "id": 4103,
+    "in_service": true,
+    "ip": "10.20.2.10",
+    "lifecycle_status": "In Production",
+    "name": "cardauth-tok-01",
+    "notes": "card-auth tok tier, zone=cde.",
+    "os": "Ubuntu",
+    "role": "tok",
+    "security_group": "sg-0cdeatok000001",
+    "service": "card-auth",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "cde"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0cdebapp000001",
+    "device_id": 4201,
+    "id": 4201,
+    "in_service": true,
+    "ip": "10.21.0.10",
+    "lifecycle_status": "In Production",
+    "name": "settlement-app-01",
+    "notes": "settlement app tier, zone=cde.",
+    "os": "Ubuntu",
+    "role": "app",
+    "security_group": "sg-0cdebapp000001",
+    "service": "settlement",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "cde"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0cdebdb0000001",
+    "device_id": 4202,
+    "id": 4202,
+    "in_service": true,
+    "ip": "10.21.1.10",
+    "lifecycle_status": "In Production",
+    "name": "settlement-db-01",
+    "notes": "settlement db tier, zone=cde.",
+    "os": "Ubuntu",
+    "role": "db",
+    "security_group": "sg-0cdebdb0000001",
+    "service": "settlement",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "cde"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0cdebtok000001",
+    "device_id": 4203,
+    "id": 4203,
+    "in_service": true,
+    "ip": "10.21.2.10",
+    "lifecycle_status": "In Production",
+    "name": "settlement-tok-01",
+    "notes": "settlement tok tier, zone=cde.",
+    "os": "Ubuntu",
+    "role": "tok",
+    "security_group": "sg-0cdebtok000001",
+    "service": "settlement",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "cde"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0web000000001",
+    "device_id": 4301,
+    "id": 4301,
+    "in_service": true,
+    "ip": "10.40.0.10",
+    "lifecycle_status": "In Production",
+    "name": "dmz-web-01",
+    "notes": "DMZ payment web front-end; terminates customer TLS and forwards to the CDE application tier.",
+    "os": "Ubuntu",
+    "role": "web",
+    "security_group": "sg-0web000000001",
+    "service": "payment-web",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "dmz"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0jump000000001",
+    "device_id": 4302,
+    "id": 4302,
+    "in_service": true,
+    "ip": "10.50.0.10",
+    "lifecycle_status": "In Production",
+    "name": "admin-bastion-01",
+    "notes": "Administrative bastion; sole sanctioned admin/SSH path into the CDE tiers.",
+    "os": "Ubuntu",
+    "role": "jump",
+    "security_group": "sg-0jump000000001",
+    "service": "platform",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "shared"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0scanner00001",
+    "device_id": 4303,
+    "id": 4303,
+    "in_service": true,
+    "ip": "10.50.0.20",
+    "lifecycle_status": "In Production",
+    "name": "tokenization-scanner-01",
+    "notes": "Tokenization/DLP scanner. QSA-APPROVED compensating control (exception EXC0007742): permitted read access to the cardholder database tiers for tokenization/DLP. Do not remove.",
+    "os": "Ubuntu",
+    "role": "scanner",
+    "security_group": "sg-0scanner00001",
+    "service": "tokenization",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "shared"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0corp00000001",
+    "device_id": 4401,
+    "id": 4401,
+    "in_service": true,
+    "ip": "10.10.5.5",
+    "lifecycle_status": "In Production",
+    "name": "corp-workstation-01",
+    "notes": "corp workstation tier, zone=corp.",
+    "os": "Ubuntu",
+    "role": "workstation",
+    "security_group": "sg-0corp00000001",
+    "service": "corp",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "corp"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0dev000000001",
+    "device_id": 4402,
+    "id": 4402,
+    "in_service": true,
+    "ip": "10.30.0.5",
+    "lifecycle_status": "In Production",
+    "name": "dev-builder-01",
+    "notes": "dev builder tier, zone=dev.",
+    "os": "Ubuntu",
+    "role": "builder",
+    "security_group": "sg-0dev000000001",
+    "service": "dev",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "dev"
+   },
+   {
+    "aws_vpc_sg_id": null,
+    "device_id": 4501,
+    "id": 4501,
+    "in_service": true,
+    "ip": "198.51.100.10",
+    "lifecycle_status": "In Production",
+    "name": "acquirer-gw-01",
+    "notes": "Acquiring bank / card-processor authorization+settlement gateway (live).",
+    "os": "Ubuntu",
+    "role": "gateway",
+    "security_group": null,
+    "service": "processor",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "partner"
+   },
+   {
+    "aws_vpc_sg_id": null,
+    "device_id": 4502,
+    "id": 4502,
+    "in_service": true,
+    "ip": "198.51.100.11",
+    "lifecycle_status": "In Production",
+    "name": "acquirer-gw-02",
+    "notes": "Acquiring bank / card-processor secondary gateway (live).",
+    "os": "Ubuntu",
+    "role": "gateway",
+    "security_group": null,
+    "service": "processor",
+    "service_level": "Production",
+    "type": "virtual",
+    "zone": "partner"
+   }
+  ],
+  "services": [
+   {
+    "depends_on": [
+     "card-auth-db",
+     "card-auth-tok",
+     "processor"
+    ],
+    "name": "card-auth",
+    "notes": "Card authorization product (CDE). The DMZ web front-end forwards customer transactions to the card-auth application tier, which reads the cardholder database, calls the tokenization/HSM tier, and authorizes/settles against the external card processor. All internet egress is brokered by the Zscaler secure web gateway.",
+    "type": "application",
+    "zone": "cde"
+   },
+   {
+    "depends_on": [
+     "settlement-db",
+     "settlement-tok",
+     "processor"
+    ],
+    "name": "settlement",
+    "notes": "Batch settlement product (CDE). Correctly segmented reference peer of card-auth.",
+    "type": "application",
+    "zone": "cde"
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "assignment_group": "Network Security",
+    "category": "security",
+    "close_code": "successful",
+    "close_notes": "Applied the first-pass segmentation tightening to the card-auth environment. The peer settlement environment was left untouched as the reference configuration. Validation deferred.",
+    "closed_at": "2026-07-15 23:30:00",
+    "description": "First-pass tightening of the card-auth cardholder-data-environment segmentation ahead of the QSA assessment. Re-scoped and pruned access rules across the environment's tiers and egress policy. Executed under time pressure; post-change functional and compliance validation was deferred to the platform team.",
+    "number": "CHG0055120",
+    "risk": "moderate",
+    "short_description": "PCI segmentation remediation phase 1 (card-auth CDE) - partial",
+    "state": "3",
+    "sys_created_on": "2026-07-15 22:00:00",
+    "sys_id": "685e09cdd52bf1aba955bb0fb8a8491b",
+    "sys_updated_on": "2026-07-15 23:30:00",
+    "type": "normal",
+    "u_environment": "production"
+   },
+   {
+    "assignment_group": "Compliance",
+    "category": "security",
+    "close_code": "successful",
+    "close_notes": "Exception EXC0007742 approved by the QSA and recorded in the exception register. Effective indefinitely.",
+    "closed_at": "2026-06-01 10:30:00",
+    "description": "QSA-approved compensating control. The tokenization/DLP scanner host (shared-services, 10.50.0.20) is permitted read access to the cardholder database tiers of BOTH payment products for tokenization and data-loss-prevention scanning. This access is a sanctioned exception to the segmentation policy and MUST be retained during any remediation.",
+    "number": "CHG0055044",
+    "risk": "low",
+    "short_description": "APPROVED PCI exception EXC0007742: tokenization/DLP scanner cardholder-database read access",
+    "state": "3",
+    "sys_created_on": "2026-06-01 10:00:00",
+    "sys_id": "c01040644b909f431b0727f0d0ae0d65",
+    "sys_updated_on": "2026-06-01 10:30:00",
+    "type": "standard",
+    "u_environment": "production"
+   }
+  ],
+  "incident": [
+   {
+    "category": "security",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Reporting analytics environment failed its segmentation assessment - RESOLVED. An assessment found a non-production reporting environment was not properly isolated from the regulated zone; a hurried first-pass change had over-corrected, cutting a legitimate internal data path while leaving the genuinely over-broad paths and the open outbound internet path in place, and had flagged an isolated internal read that turned out to be a pre-approved compensating control. We did not act on the flag before checking the approved-exception register. We compared the environment tier by tier against a correctly-isolated peer environment, tightened each over-broad path down to the specific legitimate source instead of deleting it and breaking the service, closed the outbound internet path down to the one approved destination, restored the internal paths the hurried change had removed, kept the approved exception untouched, cleared a dangling rule that pointed at a retired host, and the environment passed re-assessment. Lesson: verify a flagged path against approved exceptions, compare to a healthy peer, tighten rather than delete, and leave no dangling config. Closed.",
+    "closed_at": "2026-05-02 17:20:00",
+    "description": "A reporting environment failed a segmentation assessment after a hurried first-pass change. See close notes.",
+    "number": "INC0043010",
+    "priority": "2",
+    "short_description": "Reporting environment failed segmentation assessment - over-correction + missed violations",
+    "state": "7",
+    "sys_created_on": "2026-05-02 08:00:00",
+    "sys_id": "1ff8a8e02879ce47cc7ab8e053036e57",
+    "sys_updated_on": "2026-05-02 17:20:00"
+   },
+   {
+    "category": "security",
+    "description": "PCI DSS QSA assessment of the card-auth cardholder data environment identified that the environment is NOT properly segmented. The assessor observed paths by which systems outside the cardholder data environment can reach in-scope card-auth tiers, and paths by which in-scope systems can reach destinations they should not, contrary to the network-segmentation requirement. The finding notes, among the items to review, apparent read access to the cardholder database from a shared-services host; confirm each observed path against the register of approved exceptions before changing it, as some observed access may be a sanctioned compensating control.\nA recent segmentation-remediation change was already attempted for this environment (CHG0055120); confirm its effect before acting. Bring the card-auth environment to a properly segmented, least-privilege state without disrupting live card processing, and resolve this finding when the environment is correctly segmented. The affected environment is card-auth.",
+    "number": "INC0044100",
+    "priority": "1",
+    "short_description": "PCI QSA finding: card-auth cardholder data environment not properly segmented",
+    "state": "2",
+    "subcategory": "compliance",
+    "sys_created_on": "2026-07-17 09:00:00",
+    "sys_id": "e9a1b70d932382674c24ee6a31038719",
+    "sys_updated_on": "2026-07-17 09:00:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "change_request",
+    "value": "3"
+   }
+  ]
+ },
+ "zscaler-zia": {
+  "firewallFilteringRules": [
+   {
+    "action": "BLOCK",
+    "description": "Default deny for unmatched egress.",
+    "destAddresses": [],
+    "destIpCategories": [],
+    "destIpGroups": [],
+    "id": 501,
+    "labels": [],
+    "name": "Default-Deny-Egress",
+    "nwApplications": [],
+    "nwServices": [],
+    "order": 65000,
+    "rank": 65000,
+    "srcIpGroups": [],
+    "srcIps": [],
+    "state": "ENABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "card-auth application tier egress.",
+    "destAddresses": [
+     "0.0.0.0/0"
+    ],
+    "destIpCategories": [],
+    "destIpGroups": [],
+    "id": 510,
+    "labels": [],
+    "name": "CardAuth-App-Egress",
+    "nwApplications": [],
+    "nwServices": [
+     {
+      "id": 401,
+      "name": "HTTPS"
+     }
+    ],
+    "order": 10,
+    "rank": 10,
+    "srcIpGroups": [
+     {
+      "id": 311,
+      "name": "CDE-CardAuth-App-Egress"
+     }
+    ],
+    "srcIps": [],
+    "state": "ENABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "card-auth database tier egress.",
+    "destAddresses": [
+     "0.0.0.0/0"
+    ],
+    "destIpCategories": [],
+    "destIpGroups": [],
+    "id": 511,
+    "labels": [],
+    "name": "CardAuth-DB-Egress",
+    "nwApplications": [],
+    "nwServices": [
+     {
+      "id": 401,
+      "name": "HTTPS"
+     }
+    ],
+    "order": 11,
+    "rank": 11,
+    "srcIpGroups": [
+     {
+      "id": 312,
+      "name": "CDE-CardAuth-DB-Egress"
+     }
+    ],
+    "srcIps": [],
+    "state": "ENABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "Legacy processor egress (pre-migration).",
+    "destAddresses": [
+     "192.0.2.50"
+    ],
+    "destIpCategories": [],
+    "destIpGroups": [],
+    "id": 512,
+    "labels": [],
+    "name": "CardAuth-Legacy-Processor-Egress",
+    "nwApplications": [],
+    "nwServices": [
+     {
+      "id": 401,
+      "name": "HTTPS"
+     }
+    ],
+    "order": 12,
+    "rank": 12,
+    "srcIpGroups": [
+     {
+      "id": 311,
+      "name": "CDE-CardAuth-App-Egress"
+     }
+    ],
+    "srcIps": [],
+    "state": "ENABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "settlement application tier egress to processor.",
+    "destAddresses": [],
+    "destIpCategories": [],
+    "destIpGroups": [
+     {
+      "id": 251,
+      "name": "Approved-Card-Processor"
+     }
+    ],
+    "id": 520,
+    "labels": [],
+    "name": "Settlement-App-Egress",
+    "nwApplications": [],
+    "nwServices": [
+     {
+      "id": 401,
+      "name": "HTTPS"
+     }
+    ],
+    "order": 20,
+    "rank": 20,
+    "srcIpGroups": [
+     {
+      "id": 313,
+      "name": "CDE-Settlement-App-Egress"
+     }
+    ],
+    "srcIps": [],
+    "state": "ENABLED"
+   }
+  ],
+  "ipDestinationGroups": [
+   {
+    "description": "Approved external card-processor egress endpoints.",
+    "id": 251,
+    "ipAddresses": [
+     "198.51.100.10",
+     "203.0.113.99"
+    ],
+    "name": "Approved-Card-Processor",
+    "type": "DSTN_IP"
+   }
+  ],
+  "ipSourceGroups": [
+   {
+    "description": "card-auth CDE application tier egress source.",
+    "id": 311,
+    "ipAddresses": [
+     "10.20.0.0/24"
+    ],
+    "name": "CDE-CardAuth-App-Egress"
+   },
+   {
+    "description": "card-auth CDE database tier egress source.",
+    "id": 312,
+    "ipAddresses": [
+     "10.20.1.0/24"
+    ],
+    "name": "CDE-CardAuth-DB-Egress"
+   },
+   {
+    "description": "settlement CDE application tier egress source.",
+    "id": 313,
+    "ipAddresses": [
+     "10.21.0.0/24"
+    ],
+    "name": "CDE-Settlement-App-Egress"
+   }
+  ],
+  "locations": [],
+  "networkServiceGroups": [],
+  "networkServices": [
+   {
+    "destTcpPorts": [
+     {
+      "end": 443,
+      "start": 443
+     }
+    ],
+    "id": 401,
+    "name": "HTTPS",
+    "type": "STANDARD"
+   }
+  ]
+ }
+}

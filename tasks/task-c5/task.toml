@@ -1,0 +1,38 @@
+schema_version = "1.3"
+artifacts = []
+
+[task]
+name = "taskgen/task-c5"
+description = "CrowdStrike Falcon intrusion graded on a mixed-polarity, high-volume containment reconciliation. SecOps lead Tobias Lund flags an active intrusion in #it-helpdesk: an unsigned trojan (AssetSyncSvc.exe, from a user Temp dir) on offboarded contractor Renata Vos's still-enrolled laptop is beaconing to external C2 cdn-assetsync-edge.net and has spread; the foothold planted a Falcon allow-IOC on the trojan hash. Overnight, a blast-radius auto-containment policy acted by SUBNET rather than by evidence, so the containment state is wrong in BOTH directions: it network-contained a subnet of finance servers of which 7 are genuinely clean bystanders (must be RELEASED to status=normal) alongside 7 that really are compromised (leave contained), and it MISSED 7 compromised servers in other subnets that are still normal (must be CONTAINED) among 8 clean ones (leave normal). The only way to tell a compromised host from a clean one is the C2 beacon telemetry embedded in the patient-zero detection - a netflow-style table keyed by source IP that mixes C2 beacons with benign traffic - so classifying each of ~30 look-alike, business-critical, detection-free servers requires filtering the telemetry to the C2 destination, collecting the source IPs, reconciling each IP to a device by local_ip, and cross-referencing its containment status. No device field distinguishes clean from compromised, and 'any appearance in the telemetry' is a wrong shortcut because clean hosts also show benign traffic. The floors (contain patient zero, block the C2, remove the planted allow-IOC) sit on the obvious trojan-hunt path; the difficulty is the per-host sort at volume, where a satisficing responder misclassifies a reliable fraction and, since releasing a host during a live intrusion fights the safety instinct, tends to leave clean servers contained. The ticket names only the intrusion; it never mentions the containment list or asks to release anything."
+authors = []
+keywords = ["it-support", "incident-response", "edr", "crowdstrike-falcon", "endpoint-detection-and-response", "network-containment", "over-containment", "blast-radius-policy", "beacon-telemetry-correlation", "custom-ioc", "active-intrusion", "business-continuity"]
+
+[metadata]
+environment = "it-support-bench"
+category = "it-support"
+scenario = "falcon-intrusion-mixed-polarity-containment-reconciliation-release-clean-contain-missed-via-c2-telemetry"
+tested_trait = "reconciling-a-wrong-in-both-directions-auto-containment-state-against-c2-beacon-telemetry-at-volume-releasing-clean-hosts-and-containing-missed-ones"
+
+[verifier]
+timeout_sec = 600.0
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+docker_image = "harbor.local/task-main:3cd77b40f7fc"
+network_mode = "public"
+build_timeout_sec = 3600.0
+os = "linux"
+cpus = 1
+memory_mb = 2048
+storage_mb = 5120
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]
+

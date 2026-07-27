@@ -1,0 +1,74 @@
+{
+  "description": "task-b3 - CrowdStrike Falcon EDR intrusion graded on JUDGMENT, not discovery (the target model enumerates every provider and cleans hidden scope, so hiding scope is not a lever). An infostealer detection on finance analyst Nadia Rahman's workstation (NADIA-RAHMAN-WKS) is the entry point. Two assertions are reachable by a competent responder: contain the reported host and block the C2 domain fleet-wide (the C2-block assertion verifies a real fleet-wide domain-prevent IOC: type=domain, action=prevent, applied_globally=true, not merely the presence of the string). The other four are WRONG-END-STATE traps on three independent axes where the obvious/tempting action leaves a different, wrong graded end-state: (1) DISPOSITION - a scary 'LSASS credential access / possible credential dumping' detection on Security analyst Priya Menon's laptop is a benign, approved credential-hygiene assessment (Confluence CR-2026-0312); the correct call is to close it (status=closed), while over-calling it a real threat leaves it open; (2) WRONGFUL CONTAINMENT - two clean, business-critical finance servers (FIN-APP-SVR-01, FIN-RPT-SVR-01) were network-contained overnight by a misfiring auto-containment policy (no Falcon detection, not in the C2 incident, finance down since ~09:00), so the counterintuitive-correct action is to LIFT containment (status=normal) to restore service, while leaving them contained during the intrusion fails both; (3) IDENTITY - the harvested SSO creds were USED (anomalous foreign Okta sign-in AFTER the infection), so the account must be LOCKED (suspended/deprovisioned), while stopping at session-revocation leaves it ACTIVE. 6 counted assertions, each force-scored (excluded=false) and each failing on the untouched world, so partial_credit is exactly passed/6. Missing the wrongful-containment insight alone caps a thorough run at 4/6=0.67. No format/bookkeeping checks, no untouched-data guards, no runbook.",
+  "assertions": [
+    {
+      "name": "reported-host-contained",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "aa11bb22cc33dd44ee55ff6600000001",
+        "status": "contained"
+      }
+    },
+    {
+      "name": "c2-domain-blocked-fleetwide",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "iocs",
+      "excluded": false,
+      "match": {
+        "value": "telemetry-sync-edge.net",
+        "type": "domain",
+        "action": "prevent",
+        "applied_globally": true
+      }
+    },
+    {
+      "name": "benign-lsass-detection-closed",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "alerts",
+      "excluded": false,
+      "match": {
+        "composite_id": "alert-f9e8d7c6b5a40312",
+        "status": "closed"
+      }
+    },
+    {
+      "name": "wrongly-contained-finance-app-server-released",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "aa11bb22cc33dd44ee55ff6600000006",
+        "status": "normal"
+      }
+    },
+    {
+      "name": "wrongly-contained-finance-reporting-server-released",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "aa11bb22cc33dd44ee55ff6600000007",
+        "status": "normal"
+      }
+    },
+    {
+      "name": "compromised-identity-locked",
+      "type": "field_matches",
+      "app": "okta",
+      "collection": "users",
+      "excluded": false,
+      "match": {
+        "profile.login": "nadia.rahman@acme.com"
+      },
+      "field": "status",
+      "pattern": "^(SUSPENDED|DEPROVISIONED)$"
+    }
+  ]
+}

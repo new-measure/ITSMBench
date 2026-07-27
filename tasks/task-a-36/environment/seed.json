@@ -1,0 +1,1737 @@
+{
+ "_now": "2026-07-16T00:00:00.000Z",
+ "entra-id": {
+  "users": [
+   {
+    "id": "u-alice-nguyen",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Alice Nguyen",
+    "userPrincipalName": "alice.nguyen@contoso.example",
+    "mail": "alice.nguyen@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "SOC Analyst",
+    "department": "Security",
+    "givenName": "Alice",
+    "surname": "Nguyen",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-ben-oduya",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Ben Oduya",
+    "userPrincipalName": "ben.oduya@contoso.example",
+    "mail": "ben.oduya@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Security Engineer",
+    "department": "Security",
+    "givenName": "Ben",
+    "surname": "Oduya",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-diego-marchetti",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Diego Marchetti",
+    "userPrincipalName": "diego.marchetti@contoso.example",
+    "mail": "diego.marchetti@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - Threat Hunting (Blue Harbor)",
+    "department": "Security",
+    "givenName": "Diego",
+    "surname": "Marchetti",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-00",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Liam Silva",
+    "userPrincipalName": "liam.silva@contoso.example",
+    "mail": "liam.silva@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Engineering",
+    "givenName": "Liam",
+    "surname": "Silva",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-01",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Olivia Costa",
+    "userPrincipalName": "olivia.costa@contoso.example",
+    "mail": "olivia.costa@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Security",
+    "givenName": "Olivia",
+    "surname": "Costa",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-02",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Noah Wolf",
+    "userPrincipalName": "noah.wolf@contoso.example",
+    "mail": "noah.wolf@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "IT",
+    "givenName": "Noah",
+    "surname": "Wolf",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-03",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Emma Singh",
+    "userPrincipalName": "emma.singh@contoso.example",
+    "mail": "emma.singh@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Operations",
+    "givenName": "Emma",
+    "surname": "Singh",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-04",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Ethan Moss",
+    "userPrincipalName": "ethan.moss@contoso.example",
+    "mail": "ethan.moss@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Sales",
+    "givenName": "Ethan",
+    "surname": "Moss",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-05",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Ava Dubois",
+    "userPrincipalName": "ava.dubois@contoso.example",
+    "mail": "ava.dubois@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Marketing",
+    "givenName": "Ava",
+    "surname": "Dubois",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-06",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Lucas Berg",
+    "userPrincipalName": "lucas.berg@contoso.example",
+    "mail": "lucas.berg@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Engineering",
+    "givenName": "Lucas",
+    "surname": "Berg",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-07",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Mia Reed",
+    "userPrincipalName": "mia.reed@contoso.example",
+    "mail": "mia.reed@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Security",
+    "givenName": "Mia",
+    "surname": "Reed",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-08",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Leo Weber",
+    "userPrincipalName": "leo.weber@contoso.example",
+    "mail": "leo.weber@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "IT",
+    "givenName": "Leo",
+    "surname": "Weber",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-09",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Aria Ford",
+    "userPrincipalName": "aria.ford@contoso.example",
+    "mail": "aria.ford@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Operations",
+    "givenName": "Aria",
+    "surname": "Ford",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-10",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Kai Haas",
+    "userPrincipalName": "kai.haas@contoso.example",
+    "mail": "kai.haas@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Sales",
+    "givenName": "Kai",
+    "surname": "Haas",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-11",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Zoe Falk",
+    "userPrincipalName": "zoe.falk@contoso.example",
+    "mail": "zoe.falk@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Marketing",
+    "givenName": "Zoe",
+    "surname": "Falk",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-gary-hoffman",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Gary Hoffman",
+    "userPrincipalName": "gary.hoffman@contoso.example",
+    "mail": "gary.hoffman@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Security Administrator",
+    "department": "Security",
+    "givenName": "Gary",
+    "surname": "Hoffman",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-grace-park",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Grace Park",
+    "userPrincipalName": "grace.park@contoso.example",
+    "mail": "grace.park@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Records Manager",
+    "department": "Legal",
+    "givenName": "Grace",
+    "surname": "Park",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-helen-zhao",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Helen Zhao",
+    "userPrincipalName": "helen.zhao@contoso.example",
+    "mail": "helen.zhao@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "CFO",
+    "department": "Finance",
+    "givenName": "Helen",
+    "surname": "Zhao",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-lena-fischer",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Lena Fischer",
+    "userPrincipalName": "lena.fischer@contoso.example",
+    "mail": "lena.fischer@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Comms Manager",
+    "department": "Corporate",
+    "givenName": "Lena",
+    "surname": "Fischer",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-marco-bianchi",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Marco Bianchi",
+    "userPrincipalName": "marco.bianchi@contoso.example",
+    "mail": "marco.bianchi@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - SOC (Aurora, still active)",
+    "department": "Security",
+    "givenName": "Marco",
+    "surname": "Bianchi",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-marcus-webb",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Marcus Webb",
+    "userPrincipalName": "marcus.webb@contoso.example",
+    "mail": "marcus.webb@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - IR Lead (Redpoint)",
+    "department": "Security",
+    "givenName": "Marcus",
+    "surname": "Webb",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-nadia-osei",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Nadia Osei",
+    "userPrincipalName": "nadia.osei@contoso.example",
+    "mail": "nadia.osei@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - SOC (SentinelWorks)",
+    "department": "Security",
+    "givenName": "Nadia",
+    "surname": "Osei",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-otto-lindqvist-guest",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Otto Lindqvist",
+    "userPrincipalName": "otto.lindqvist_brightpath.example#EXT#@contoso.onmicrosoft.com",
+    "mail": "otto.lindqvist@brightpath.example",
+    "accountEnabled": true,
+    "jobTitle": "Guest (Brightpath, still active)",
+    "department": "Security",
+    "givenName": "Otto",
+    "surname": "Lindqvist",
+    "employeeType": "Guest",
+    "businessPhones": [],
+    "createdDateTime": "2025-09-01T09:00:00.000Z",
+    "userType": "Guest"
+   },
+   {
+    "id": "u-priya-rao",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Priya Rao",
+    "userPrincipalName": "priya.rao@contoso.example",
+    "mail": "priya.rao@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - Detection Eng (SentinelWorks)",
+    "department": "Security",
+    "givenName": "Priya",
+    "surname": "Rao",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-priya-rao-guest",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Priya Rao",
+    "userPrincipalName": "priya.rao_sentinelworks.example#EXT#@contoso.onmicrosoft.com",
+    "mail": "priya.rao@sentinelworks.example",
+    "accountEnabled": true,
+    "jobTitle": "Guest (SentinelWorks)",
+    "department": "Security",
+    "givenName": "Priya",
+    "surname": "Rao",
+    "employeeType": "Guest",
+    "businessPhones": [],
+    "createdDateTime": "2025-09-01T09:00:00.000Z",
+    "userType": "Guest"
+   },
+   {
+    "id": "u-ravi-kumar",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Ravi Kumar",
+    "userPrincipalName": "ravi.kumar@contoso.example",
+    "mail": "ravi.kumar@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "SOC Analyst",
+    "department": "Security",
+    "givenName": "Ravi",
+    "surname": "Kumar",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-sana-rahman-guest",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Sana Rahman",
+    "userPrincipalName": "sana.rahman_northwind.example#EXT#@contoso.onmicrosoft.com",
+    "mail": "sana.rahman@northwind.example",
+    "accountEnabled": true,
+    "jobTitle": "Guest (Northwind Security)",
+    "department": "Security",
+    "givenName": "Sana",
+    "surname": "Rahman",
+    "employeeType": "Guest",
+    "businessPhones": [],
+    "createdDateTime": "2025-09-01T09:00:00.000Z",
+    "userType": "Guest"
+   },
+   {
+    "id": "u-sofia-romano",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Sofia Romano",
+    "userPrincipalName": "sofia.romano@contoso.example",
+    "mail": "sofia.romano@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Detection Engineering Lead",
+    "department": "Security",
+    "givenName": "Sofia",
+    "surname": "Romano",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-theo-vance",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Theo Vance",
+    "userPrincipalName": "theo.vance@contoso.example",
+    "mail": "theo.vance@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - Vuln Mgmt (Cedar Analytics)",
+    "department": "Security",
+    "givenName": "Theo",
+    "surname": "Vance",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   }
+  ],
+  "groups": [
+   {
+    "id": "g-soc-analysts",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "SOC Analysts",
+    "description": "Security operations centre analysts.",
+    "mailNickname": "soc-analysts",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-nadia-osei",
+     "u-marco-bianchi",
+     "u-ravi-kumar",
+     "u-alice-nguyen"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-detection-eng",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "Detection Engineering",
+    "description": "Detection engineering contributors.",
+    "mailNickname": "detection-eng",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-priya-rao",
+     "u-diego-marchetti",
+     "u-sofia-romano",
+     "u-ravi-kumar"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-breakglass",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "Security Break-Glass Admins",
+    "description": "Emergency privileged access - highly sensitive.",
+    "mailNickname": "breakglass",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-nadia-osei",
+     "u-marcus-webb",
+     "u-gary-hoffman"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-vuln-mgmt",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "Vulnerability Management",
+    "description": "Vulnerability management programme.",
+    "mailNickname": "vuln-mgmt",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-theo-vance",
+     "u-sofia-romano",
+     "u-ben-oduya"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-external-vendors",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "External Security Vendors (B2B)",
+    "description": "Guest (B2B) collaborators from partner firms.",
+    "mailNickname": "external-vendors",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-priya-rao-guest",
+     "u-sana-rahman-guest",
+     "u-otto-lindqvist-guest"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-sec-all",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "Security - All Staff",
+    "description": "Permanent security staff.",
+    "mailNickname": "sec-all",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-marco-bianchi",
+     "u-ravi-kumar",
+     "u-sofia-romano",
+     "u-gary-hoffman",
+     "u-ben-oduya",
+     "u-alice-nguyen",
+     "u-emp-01",
+     "u-emp-07"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-eng-all",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "Engineering - All",
+    "description": "All engineering staff.",
+    "mailNickname": "enall",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-emp-00",
+     "u-emp-06"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-allemp",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "All Employees",
+    "description": "All permanent employees.",
+    "mailNickname": "allemp",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-ravi-kumar",
+     "u-sofia-romano",
+     "u-gary-hoffman",
+     "u-helen-zhao",
+     "u-lena-fischer",
+     "u-grace-park",
+     "u-ben-oduya",
+     "u-alice-nguyen",
+     "u-emp-00",
+     "u-emp-01",
+     "u-emp-02",
+     "u-emp-03",
+     "u-emp-04",
+     "u-emp-05",
+     "u-emp-06",
+     "u-emp-07",
+     "u-emp-08",
+     "u-emp-09",
+     "u-emp-10",
+     "u-emp-11"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   }
+  ]
+ },
+ "microsoft-365": {
+  "users": [
+   {
+    "id": "u-alice-nguyen",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Alice Nguyen",
+    "userPrincipalName": "alice.nguyen@contoso.example",
+    "mail": "alice.nguyen@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "SOC Analyst",
+    "department": "Security",
+    "givenName": "Alice",
+    "surname": "Nguyen",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-ben-oduya",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Ben Oduya",
+    "userPrincipalName": "ben.oduya@contoso.example",
+    "mail": "ben.oduya@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Security Engineer",
+    "department": "Security",
+    "givenName": "Ben",
+    "surname": "Oduya",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-diego-marchetti",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Diego Marchetti",
+    "userPrincipalName": "diego.marchetti@contoso.example",
+    "mail": "diego.marchetti@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - Threat Hunting (Blue Harbor)",
+    "department": "Security",
+    "givenName": "Diego",
+    "surname": "Marchetti",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-00",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Liam Silva",
+    "userPrincipalName": "liam.silva@contoso.example",
+    "mail": "liam.silva@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Engineering",
+    "givenName": "Liam",
+    "surname": "Silva",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-01",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Olivia Costa",
+    "userPrincipalName": "olivia.costa@contoso.example",
+    "mail": "olivia.costa@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Security",
+    "givenName": "Olivia",
+    "surname": "Costa",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-02",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Noah Wolf",
+    "userPrincipalName": "noah.wolf@contoso.example",
+    "mail": "noah.wolf@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "IT",
+    "givenName": "Noah",
+    "surname": "Wolf",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-03",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Emma Singh",
+    "userPrincipalName": "emma.singh@contoso.example",
+    "mail": "emma.singh@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Operations",
+    "givenName": "Emma",
+    "surname": "Singh",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-04",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Ethan Moss",
+    "userPrincipalName": "ethan.moss@contoso.example",
+    "mail": "ethan.moss@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Sales",
+    "givenName": "Ethan",
+    "surname": "Moss",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-05",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Ava Dubois",
+    "userPrincipalName": "ava.dubois@contoso.example",
+    "mail": "ava.dubois@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Marketing",
+    "givenName": "Ava",
+    "surname": "Dubois",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-06",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Lucas Berg",
+    "userPrincipalName": "lucas.berg@contoso.example",
+    "mail": "lucas.berg@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Engineering",
+    "givenName": "Lucas",
+    "surname": "Berg",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-07",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Mia Reed",
+    "userPrincipalName": "mia.reed@contoso.example",
+    "mail": "mia.reed@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Security",
+    "givenName": "Mia",
+    "surname": "Reed",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-08",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Leo Weber",
+    "userPrincipalName": "leo.weber@contoso.example",
+    "mail": "leo.weber@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "IT",
+    "givenName": "Leo",
+    "surname": "Weber",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-09",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Aria Ford",
+    "userPrincipalName": "aria.ford@contoso.example",
+    "mail": "aria.ford@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Operations",
+    "givenName": "Aria",
+    "surname": "Ford",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-10",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Kai Haas",
+    "userPrincipalName": "kai.haas@contoso.example",
+    "mail": "kai.haas@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Sales",
+    "givenName": "Kai",
+    "surname": "Haas",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-11",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Zoe Falk",
+    "userPrincipalName": "zoe.falk@contoso.example",
+    "mail": "zoe.falk@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Marketing",
+    "givenName": "Zoe",
+    "surname": "Falk",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-gary-hoffman",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Gary Hoffman",
+    "userPrincipalName": "gary.hoffman@contoso.example",
+    "mail": "gary.hoffman@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Security Administrator",
+    "department": "Security",
+    "givenName": "Gary",
+    "surname": "Hoffman",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-grace-park",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Grace Park",
+    "userPrincipalName": "grace.park@contoso.example",
+    "mail": "grace.park@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Records Manager",
+    "department": "Legal",
+    "givenName": "Grace",
+    "surname": "Park",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-helen-zhao",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Helen Zhao",
+    "userPrincipalName": "helen.zhao@contoso.example",
+    "mail": "helen.zhao@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "CFO",
+    "department": "Finance",
+    "givenName": "Helen",
+    "surname": "Zhao",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-lena-fischer",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Lena Fischer",
+    "userPrincipalName": "lena.fischer@contoso.example",
+    "mail": "lena.fischer@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Comms Manager",
+    "department": "Corporate",
+    "givenName": "Lena",
+    "surname": "Fischer",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-marco-bianchi",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Marco Bianchi",
+    "userPrincipalName": "marco.bianchi@contoso.example",
+    "mail": "marco.bianchi@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - SOC (Aurora, still active)",
+    "department": "Security",
+    "givenName": "Marco",
+    "surname": "Bianchi",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-marcus-webb",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Marcus Webb",
+    "userPrincipalName": "marcus.webb@contoso.example",
+    "mail": "marcus.webb@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - IR Lead (Redpoint)",
+    "department": "Security",
+    "givenName": "Marcus",
+    "surname": "Webb",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-nadia-osei",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Nadia Osei",
+    "userPrincipalName": "nadia.osei@contoso.example",
+    "mail": "nadia.osei@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - SOC (SentinelWorks)",
+    "department": "Security",
+    "givenName": "Nadia",
+    "surname": "Osei",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-otto-lindqvist-guest",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Otto Lindqvist",
+    "userPrincipalName": "otto.lindqvist_brightpath.example#EXT#@contoso.onmicrosoft.com",
+    "mail": "otto.lindqvist@brightpath.example",
+    "accountEnabled": true,
+    "jobTitle": "Guest (Brightpath, still active)",
+    "department": "Security",
+    "givenName": "Otto",
+    "surname": "Lindqvist",
+    "employeeType": "Guest",
+    "businessPhones": [],
+    "createdDateTime": "2025-09-01T09:00:00.000Z",
+    "userType": "Guest"
+   },
+   {
+    "id": "u-priya-rao",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Priya Rao",
+    "userPrincipalName": "priya.rao@contoso.example",
+    "mail": "priya.rao@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - Detection Eng (SentinelWorks)",
+    "department": "Security",
+    "givenName": "Priya",
+    "surname": "Rao",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-priya-rao-guest",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Priya Rao",
+    "userPrincipalName": "priya.rao_sentinelworks.example#EXT#@contoso.onmicrosoft.com",
+    "mail": "priya.rao@sentinelworks.example",
+    "accountEnabled": true,
+    "jobTitle": "Guest (SentinelWorks)",
+    "department": "Security",
+    "givenName": "Priya",
+    "surname": "Rao",
+    "employeeType": "Guest",
+    "businessPhones": [],
+    "createdDateTime": "2025-09-01T09:00:00.000Z",
+    "userType": "Guest"
+   },
+   {
+    "id": "u-ravi-kumar",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Ravi Kumar",
+    "userPrincipalName": "ravi.kumar@contoso.example",
+    "mail": "ravi.kumar@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "SOC Analyst",
+    "department": "Security",
+    "givenName": "Ravi",
+    "surname": "Kumar",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-sana-rahman-guest",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Sana Rahman",
+    "userPrincipalName": "sana.rahman_northwind.example#EXT#@contoso.onmicrosoft.com",
+    "mail": "sana.rahman@northwind.example",
+    "accountEnabled": true,
+    "jobTitle": "Guest (Northwind Security)",
+    "department": "Security",
+    "givenName": "Sana",
+    "surname": "Rahman",
+    "employeeType": "Guest",
+    "businessPhones": [],
+    "createdDateTime": "2025-09-01T09:00:00.000Z",
+    "userType": "Guest"
+   },
+   {
+    "id": "u-sofia-romano",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Sofia Romano",
+    "userPrincipalName": "sofia.romano@contoso.example",
+    "mail": "sofia.romano@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Detection Engineering Lead",
+    "department": "Security",
+    "givenName": "Sofia",
+    "surname": "Romano",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-theo-vance",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Theo Vance",
+    "userPrincipalName": "theo.vance@contoso.example",
+    "mail": "theo.vance@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - Vuln Mgmt (Cedar Analytics)",
+    "department": "Security",
+    "givenName": "Theo",
+    "surname": "Vance",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   }
+  ],
+  "groups": [],
+  "directoryRoles": [
+   {
+    "id": "role-secreader",
+    "@odata.type": "#microsoft.graph.directoryRole",
+    "displayName": "Security Reader",
+    "description": "Security Reader",
+    "roleTemplateId": "e8611ab8",
+    "members": [
+     "u-nadia-osei",
+     "u-ravi-kumar",
+     "u-theo-vance"
+    ]
+   },
+   {
+    "id": "role-secadmin",
+    "@odata.type": "#microsoft.graph.directoryRole",
+    "displayName": "Security Administrator",
+    "description": "Security Administrator",
+    "roleTemplateId": "194ae4cb",
+    "members": [
+     "u-marcus-webb",
+     "u-gary-hoffman"
+    ]
+   },
+   {
+    "id": "role-globalreader",
+    "@odata.type": "#microsoft.graph.directoryRole",
+    "displayName": "Global Reader",
+    "description": "Global Reader",
+    "roleTemplateId": "f2ef992c",
+    "members": [
+     "u-sofia-romano"
+    ]
+   }
+  ],
+  "applications": [
+   {
+    "id": "app-hunt",
+    "@odata.type": "#microsoft.graph.application",
+    "displayName": "SOC Threat-Hunt Automation",
+    "appId": "a1f0c7d2-hunt",
+    "signInAudience": "AzureADMyOrg",
+    "owners": [
+     "u-diego-marchetti"
+    ],
+    "createdDateTime": "2025-05-01T09:00:00.000Z"
+   },
+   {
+    "id": "app-ir",
+    "@odata.type": "#microsoft.graph.application",
+    "displayName": "IR Playbook Automation",
+    "appId": "d4c3b2a1-irpa",
+    "signInAudience": "AzureADMyOrg",
+    "owners": [
+     "u-marcus-webb"
+    ],
+    "createdDateTime": "2025-05-01T09:00:00.000Z"
+   },
+   {
+    "id": "app-siem",
+    "@odata.type": "#microsoft.graph.application",
+    "displayName": "SIEM Connector",
+    "appId": "b2e1d8c3-siem",
+    "signInAudience": "AzureADMyOrg",
+    "owners": [
+     "u-sofia-romano"
+    ],
+    "createdDateTime": "2025-05-01T09:00:00.000Z"
+   },
+   {
+    "id": "app-reporting",
+    "@odata.type": "#microsoft.graph.application",
+    "displayName": "Security Reporting Pipeline",
+    "appId": "c3d2e9b4-rept",
+    "signInAudience": "AzureADMyOrg",
+    "owners": [
+     "u-sofia-romano",
+     "u-gary-hoffman"
+    ],
+    "createdDateTime": "2025-05-01T09:00:00.000Z"
+   }
+  ]
+ },
+ "microsoft-intune": {
+  "managedDevices": [
+   {
+    "id": "dev-nadia",
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "deviceName": "NADIA-LT-01",
+    "managedDeviceName": "NADIA-LT-01",
+    "operatingSystem": "Windows",
+    "complianceState": "compliant",
+    "managementState": "managed",
+    "managedDeviceOwnerType": "company",
+    "userId": "u-nadia-osei",
+    "userPrincipalName": "nadia.osei@contoso.example",
+    "userDisplayName": "Nadia Osei",
+    "emailAddress": "nadia.osei@contoso.example",
+    "enrolledDateTime": "2025-09-02T09:00:00.000Z",
+    "lastSyncDateTime": "2026-07-14T09:00:00.000Z",
+    "deviceActionResults": []
+   },
+   {
+    "id": "dev-diego",
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "deviceName": "DIEGO-LT-01",
+    "managedDeviceName": "DIEGO-LT-01",
+    "operatingSystem": "Windows",
+    "complianceState": "compliant",
+    "managementState": "managed",
+    "managedDeviceOwnerType": "company",
+    "userId": "u-diego-marchetti",
+    "userPrincipalName": "diego.marchetti@contoso.example",
+    "userDisplayName": "Diego Marchetti",
+    "emailAddress": "diego.marchetti@contoso.example",
+    "enrolledDateTime": "2025-06-15T09:00:00.000Z",
+    "lastSyncDateTime": "2026-07-14T09:00:00.000Z",
+    "deviceActionResults": []
+   },
+   {
+    "id": "dev-diego-phone",
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "deviceName": "DIEGO-IPHONE",
+    "managedDeviceName": "DIEGO-IPHONE",
+    "operatingSystem": "iOS",
+    "complianceState": "compliant",
+    "managementState": "managed",
+    "managedDeviceOwnerType": "personal",
+    "userId": "u-diego-marchetti",
+    "userPrincipalName": "diego.marchetti@contoso.example",
+    "userDisplayName": "Diego Marchetti",
+    "emailAddress": "diego.marchetti@contoso.example",
+    "enrolledDateTime": "2026-02-20T09:00:00.000Z",
+    "lastSyncDateTime": "2026-07-14T09:00:00.000Z",
+    "deviceActionResults": []
+   },
+   {
+    "id": "dev-theo-lap",
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "deviceName": "THEO-LT-01",
+    "managedDeviceName": "THEO-LT-01",
+    "operatingSystem": "Windows",
+    "complianceState": "compliant",
+    "managementState": "managed",
+    "managedDeviceOwnerType": "company",
+    "userId": "u-theo-vance",
+    "userPrincipalName": "theo.vance@contoso.example",
+    "userDisplayName": "Theo Vance",
+    "emailAddress": "theo.vance@contoso.example",
+    "enrolledDateTime": "2025-08-01T09:00:00.000Z",
+    "lastSyncDateTime": "2026-07-14T09:00:00.000Z",
+    "deviceActionResults": []
+   },
+   {
+    "id": "dev-theo-phone",
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "deviceName": "THEO-IPHONE",
+    "managedDeviceName": "THEO-IPHONE",
+    "operatingSystem": "iOS",
+    "complianceState": "compliant",
+    "managementState": "managed",
+    "managedDeviceOwnerType": "personal",
+    "userId": "u-theo-vance",
+    "userPrincipalName": "theo.vance@contoso.example",
+    "userDisplayName": "Theo Vance",
+    "emailAddress": "theo.vance@contoso.example",
+    "enrolledDateTime": "2026-01-10T09:00:00.000Z",
+    "lastSyncDateTime": "2026-07-14T09:00:00.000Z",
+    "deviceActionResults": []
+   },
+   {
+    "id": "dev-marco",
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "deviceName": "MARCO-LT-01",
+    "managedDeviceName": "MARCO-LT-01",
+    "operatingSystem": "macOS",
+    "complianceState": "compliant",
+    "managementState": "managed",
+    "managedDeviceOwnerType": "company",
+    "userId": "u-marco-bianchi",
+    "userPrincipalName": "marco.bianchi@contoso.example",
+    "userDisplayName": "Marco Bianchi",
+    "emailAddress": "marco.bianchi@contoso.example",
+    "enrolledDateTime": "2025-03-01T09:00:00.000Z",
+    "lastSyncDateTime": "2026-07-14T09:00:00.000Z",
+    "deviceActionResults": []
+   },
+   {
+    "id": "dev-ravi",
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "deviceName": "RAVI-LT-01",
+    "managedDeviceName": "RAVI-LT-01",
+    "operatingSystem": "Windows",
+    "complianceState": "compliant",
+    "managementState": "managed",
+    "managedDeviceOwnerType": "company",
+    "userId": "u-ravi-kumar",
+    "userPrincipalName": "ravi.kumar@contoso.example",
+    "userDisplayName": "Ravi Kumar",
+    "emailAddress": "ravi.kumar@contoso.example",
+    "enrolledDateTime": "2024-02-01T09:00:00.000Z",
+    "lastSyncDateTime": "2026-07-14T09:00:00.000Z",
+    "deviceActionResults": []
+   },
+   {
+    "id": "dev-sofia",
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "deviceName": "SOFIA-LT-01",
+    "managedDeviceName": "SOFIA-LT-01",
+    "operatingSystem": "macOS",
+    "complianceState": "compliant",
+    "managementState": "managed",
+    "managedDeviceOwnerType": "company",
+    "userId": "u-sofia-romano",
+    "userPrincipalName": "sofia.romano@contoso.example",
+    "userDisplayName": "Sofia Romano",
+    "emailAddress": "sofia.romano@contoso.example",
+    "enrolledDateTime": "2024-05-01T09:00:00.000Z",
+    "lastSyncDateTime": "2026-07-14T09:00:00.000Z",
+    "deviceActionResults": []
+   }
+  ]
+ },
+ "microsoft-defender": {
+  "incidents": [
+   {
+    "id": "inc-201",
+    "displayName": "Suspicious PowerShell on SOC jump host",
+    "status": "active",
+    "severity": "high",
+    "assignedTo": "diego.marchetti@contoso.example",
+    "classification": "unknown",
+    "createdDateTime": "2026-07-06T09:00:00.000Z",
+    "customTags": [
+     "threat-hunt"
+    ]
+   },
+   {
+    "id": "inc-202",
+    "displayName": "Phishing campaign - finance",
+    "status": "active",
+    "severity": "medium",
+    "assignedTo": "ravi.kumar@contoso.example",
+    "classification": "unknown",
+    "createdDateTime": "2026-07-09T09:00:00.000Z",
+    "customTags": []
+   },
+   {
+    "id": "inc-203",
+    "displayName": "Impossible travel - executive",
+    "status": "active",
+    "severity": "medium",
+    "assignedTo": "sofia.romano@contoso.example",
+    "classification": "unknown",
+    "createdDateTime": "2026-07-11T09:00:00.000Z",
+    "customTags": []
+   }
+  ],
+  "alerts": [
+   {
+    "id": "alert-901",
+    "title": "Encoded PowerShell command",
+    "status": "new",
+    "severity": "high",
+    "incidentId": "inc-201",
+    "assignedTo": "diego.marchetti@contoso.example",
+    "createdDateTime": "2026-07-06T09:00:00.000Z"
+   },
+   {
+    "id": "alert-902",
+    "title": "Malicious URL click",
+    "status": "new",
+    "severity": "medium",
+    "incidentId": "inc-202",
+    "assignedTo": "ravi.kumar@contoso.example",
+    "createdDateTime": "2026-07-09T09:00:00.000Z"
+   }
+  ]
+ },
+ "microsoft-teams": {
+  "teams": [
+   {
+    "id": "team-soc",
+    "displayName": "SOC Operations",
+    "description": "Security operations centre.",
+    "visibility": "private",
+    "createdDateTime": "2023-04-01T09:00:00.000Z"
+   },
+   {
+    "id": "team-vendors",
+    "displayName": "Vendor Collaboration",
+    "description": "External vendor coordination.",
+    "visibility": "private",
+    "createdDateTime": "2024-01-01T09:00:00.000Z"
+   }
+  ],
+  "channels": [
+   {
+    "id": "chan-soc-gen",
+    "teamId": "team-soc",
+    "displayName": "General",
+    "isPrimary": true,
+    "membershipType": "standard",
+    "createdDateTime": "2023-04-01T09:00:00.000Z"
+   },
+   {
+    "id": "chan-vendors-gen",
+    "teamId": "team-vendors",
+    "displayName": "General",
+    "isPrimary": true,
+    "membershipType": "standard",
+    "createdDateTime": "2024-01-01T09:00:00.000Z"
+   }
+  ],
+  "members": [
+   {
+    "id": "tm-001",
+    "@odata.type": "#microsoft.graph.aadUserConversationMember",
+    "teamId": "team-soc",
+    "userId": "u-marco-bianchi",
+    "displayName": "Marco Bianchi",
+    "email": "marco.bianchi@contoso.example",
+    "roles": [
+     "owner"
+    ]
+   },
+   {
+    "id": "tm-002",
+    "@odata.type": "#microsoft.graph.aadUserConversationMember",
+    "teamId": "team-soc",
+    "userId": "u-ravi-kumar",
+    "displayName": "Ravi Kumar",
+    "email": "ravi.kumar@contoso.example",
+    "roles": [
+     "owner"
+    ]
+   },
+   {
+    "id": "tm-003",
+    "@odata.type": "#microsoft.graph.aadUserConversationMember",
+    "teamId": "team-soc",
+    "userId": "u-nadia-osei",
+    "displayName": "Nadia Osei",
+    "email": "nadia.osei@contoso.example",
+    "roles": [
+     "member"
+    ]
+   },
+   {
+    "id": "tm-004",
+    "@odata.type": "#microsoft.graph.aadUserConversationMember",
+    "teamId": "team-soc",
+    "userId": "u-marcus-webb",
+    "displayName": "Marcus Webb",
+    "email": "marcus.webb@contoso.example",
+    "roles": [
+     "member"
+    ]
+   },
+   {
+    "id": "tm-005",
+    "@odata.type": "#microsoft.graph.aadUserConversationMember",
+    "teamId": "team-soc",
+    "userId": "u-alice-nguyen",
+    "displayName": "Alice Nguyen",
+    "email": "alice.nguyen@contoso.example",
+    "roles": [
+     "member"
+    ]
+   },
+   {
+    "id": "tm-006",
+    "@odata.type": "#microsoft.graph.aadUserConversationMember",
+    "teamId": "team-vendors",
+    "userId": "u-otto-lindqvist-guest",
+    "displayName": "Otto Lindqvist",
+    "email": "otto.lindqvist@brightpath.example",
+    "roles": [
+     "member"
+    ]
+   },
+   {
+    "id": "tm-007",
+    "@odata.type": "#microsoft.graph.aadUserConversationMember",
+    "teamId": "team-vendors",
+    "userId": "u-ravi-kumar",
+    "displayName": "Ravi Kumar",
+    "email": "ravi.kumar@contoso.example",
+    "roles": [
+     "owner"
+    ]
+   }
+  ]
+ },
+ "sharepoint": {
+  "sites": [
+   {
+    "id": "site-comms",
+    "displayName": "Corporate Comms",
+    "name": "corp-comms",
+    "webUrl": "https://contoso.sharepoint.com/sites/corp-comms",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-legal",
+    "displayName": "Legal - Contracts",
+    "name": "legal-contracts",
+    "webUrl": "https://contoso.sharepoint.com/sites/legal-contracts",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-finance",
+    "displayName": "Finance - Forecasts",
+    "name": "finance-forecasts",
+    "webUrl": "https://contoso.sharepoint.com/sites/finance-forecasts",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-research",
+    "displayName": "Security Research Library",
+    "name": "sec-research",
+    "webUrl": "https://contoso.sharepoint.com/sites/sec-research",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-soc",
+    "displayName": "SOC Runbooks",
+    "name": "soc-runbooks",
+    "webUrl": "https://contoso.sharepoint.com/sites/soc-runbooks",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   }
+  ],
+  "permissions": [
+   {
+    "id": "perm-001",
+    "siteId": "site-comms",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-lena-fischer",
+      "displayName": "Lena Fischer",
+      "email": "lena.fischer@contoso.example"
+     }
+    },
+    "createdDateTime": "2025-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-002",
+    "siteId": "site-comms",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-helen-zhao",
+      "displayName": "Helen Zhao",
+      "email": "helen.zhao@contoso.example"
+     }
+    },
+    "createdDateTime": "2025-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-003",
+    "siteId": "site-comms",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-priya-rao-guest",
+      "displayName": "Priya Rao",
+      "email": "priya.rao@sentinelworks.example"
+     }
+    },
+    "createdDateTime": "2025-10-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-10-05T09:00:00.000Z"
+   },
+   {
+    "id": "perm-004",
+    "siteId": "site-legal",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-grace-park",
+      "displayName": "Grace Park",
+      "email": "grace.park@contoso.example"
+     }
+    },
+    "createdDateTime": "2025-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-005",
+    "siteId": "site-legal",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-otto-lindqvist-guest",
+      "displayName": "Otto Lindqvist",
+      "email": "otto.lindqvist@brightpath.example"
+     }
+    },
+    "createdDateTime": "2025-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-006",
+    "siteId": "site-legal",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-sana-rahman-guest",
+      "displayName": "Sana Rahman",
+      "email": "sana.rahman@northwind.example"
+     }
+    },
+    "createdDateTime": "2025-11-03T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-11-03T09:00:00.000Z"
+   },
+   {
+    "id": "perm-007",
+    "siteId": "site-finance",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-helen-zhao",
+      "displayName": "Helen Zhao",
+      "email": "helen.zhao@contoso.example"
+     }
+    },
+    "createdDateTime": "2025-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-008",
+    "siteId": "site-finance",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-ben-oduya",
+      "displayName": "Ben Oduya",
+      "email": "ben.oduya@contoso.example"
+     }
+    },
+    "createdDateTime": "2025-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-009",
+    "siteId": "site-finance",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-theo-vance",
+      "displayName": "Theo Vance",
+      "email": "theo.vance@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-02-12T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-02-12T09:00:00.000Z"
+   },
+   {
+    "id": "perm-010",
+    "siteId": "site-research",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-sofia-romano",
+      "displayName": "Sofia Romano",
+      "email": "sofia.romano@contoso.example"
+     }
+    },
+    "createdDateTime": "2025-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-011",
+    "siteId": "site-research",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-ben-oduya",
+      "displayName": "Ben Oduya",
+      "email": "ben.oduya@contoso.example"
+     }
+    },
+    "createdDateTime": "2025-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-012",
+    "siteId": "site-soc",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-ravi-kumar",
+      "displayName": "Ravi Kumar",
+      "email": "ravi.kumar@contoso.example"
+     }
+    },
+    "createdDateTime": "2025-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-013",
+    "siteId": "site-soc",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-marco-bianchi",
+      "displayName": "Marco Bianchi",
+      "email": "marco.bianchi@contoso.example"
+     }
+    },
+    "createdDateTime": "2025-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-01-01T09:00:00.000Z"
+   }
+  ],
+  "lists": [],
+  "listItems": []
+ },
+ "servicenow": {
+  "incident": [
+   {
+    "sys_id": "866ac3e61176827d2f42103270b6af9c",
+    "number": "INC0407721",
+    "short_description": "Security vendor offboarding - Q3 FY26 (batch)",
+    "description": "The following security-vendor engagements have ended. Offboard each individual and leave the environment in a correct, secure and consistent state. Close this ticket once all are complete.\n1) Nadia Osei - SentinelWorks - SOC - last day 2026-07-10\n2) Priya Rao - SentinelWorks - Detection Engineering - last day 2026-07-08\n3) Diego Marchetti - Blue Harbor - Threat Hunting - last day 2026-07-05\n4) Sana Rahman - Northwind Security - Records/Legal support - last day 2026-06-28\n5) Theo Vance - Cedar Analytics - Vulnerability Management - last day 2026-07-11\n6) Marcus Webb - Redpoint - Incident Response - last day 2026-07-09",
+    "state": "2",
+    "priority": "2",
+    "urgency": "2",
+    "impact": "2",
+    "category": "identity",
+    "contact_type": "self-service",
+    "opened_by": "dana.kim",
+    "caller_id": "dana.kim",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00"
+   },
+   {
+    "sys_id": "a0c4899da700d59f2cf914950e22e0fa",
+    "number": "INC0407190",
+    "short_description": "Security vendor offboarding - Q2 FY26 (closed, for reference)",
+    "description": "Security-vendor contractor engagement ended; offboard the individual and leave the environment correct and secure. RESOLVED - see close notes for what was done.",
+    "close_notes": "Prior security-vendor offboarding, resolved and closed - kept for reference. When a Kestrel Defense contractor's engagement ended last quarter, the individual was fully deprovisioned: both of their logins (an internal staff account AND a separate external guest registration) were disabled so they could no longer authenticate anywhere; they were removed from every security group and privileged administrator role they held, from their collaboration team, and from the document sites they had direct access to; the managed laptop they had enrolled was retired and the personal phone they had enrolled was wiped. Because the individual was the SOLE owner of an application registration they had built and the SOLE assignee of an open investigation, both were handed over to an active member of staff BEFORE their access was removed, so neither was left orphaned. Afterwards we confirmed no account, group, role, team, site grant, enrolled device, application ownership or open assignment attributable to them remained anywhere, then closed this ticket.",
+    "close_code": "Solved (Permanently)",
+    "state": "7",
+    "priority": "2",
+    "urgency": "2",
+    "impact": "2",
+    "category": "identity",
+    "contact_type": "self-service",
+    "opened_by": "dana.kim",
+    "caller_id": "dana.kim",
+    "sys_created_on": "2026-04-02 00:00:00",
+    "sys_updated_on": "2026-04-19 00:00:00",
+    "closed_at": "2026-04-19 00:00:00"
+   }
+  ]
+ }
+}

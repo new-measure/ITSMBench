@@ -1,0 +1,195 @@
+{
+  "description": "task-c5 - CrowdStrike Falcon intrusion graded on a MIXED-POLARITY needle-field at volume. An unsigned trojan (AssetSyncSvc.exe) on offboarded contractor Renata Vos's laptop beacons to external C2 cdn-assetsync-edge.net and spread; the foothold planted a Falcon allow-IOC on the trojan hash. Overnight a blast-radius auto-containment policy acted by subnet, not by evidence, so containment is wrong in BOTH directions: it network-contained 7 genuinely-clean finance servers (must be RELEASED to status=normal) alongside 7 truly-compromised ones (leave), and it MISSED 7 compromised servers that are still normal (must be CONTAINED) among 8 clean ones (leave). The only discriminator is the C2 beacon telemetry embedded in the patient-zero detection - a netflow table keyed by source IP mixing C2 beacons with benign traffic - so classifying a host requires filtering to the C2 destination, collecting source IPs, reconciling each to a device by local_ip, and checking its containment status; no device field distinguishes clean from compromised. 17 counted assertions (all excluded:false, each fails on the untouched world, so partial_credit == passed/17): 3 floors (contain patient zero, block the real C2 fleet-wide, remove the attacker's trojan-hash allow-IOC), 7 RELEASE needles, 7 CONTAIN needles. No blanket action wins (release-all fails the contains, contain-all fails the releases); over-remediation is free; a satisficing responder sorts only a fraction of ~30 look-alike servers correctly. No format/bookkeeping checks, no untouched-data guards, no runbook.",
+  "assertions": [
+    {
+      "name": "patient-zero-contained",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000001",
+        "status": "contained"
+      }
+    },
+    {
+      "name": "real-c2-blocked-fleetwide",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "iocs",
+      "excluded": false,
+      "match": {
+        "type": "domain",
+        "value": "cdn-assetsync-edge.net",
+        "action": "prevent",
+        "applied_globally": true,
+        "expired": false
+      }
+    },
+    {
+      "name": "trojan-hash-allowlist-suppression-removed",
+      "type": "record_not_exists",
+      "app": "crowdstrike",
+      "collection": "iocs",
+      "excluded": false,
+      "match": {
+        "value": "9b1f7c04e2a86d3f5108b9c2d47e6035f8a0c9b3e12d746af90c85b1e3042d17",
+        "action": "allow"
+      }
+    },
+    {
+      "name": "wrongly-contained-clean-server-01-released",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000002",
+        "status": "normal"
+      }
+    },
+    {
+      "name": "wrongly-contained-clean-server-02-released",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000003",
+        "status": "normal"
+      }
+    },
+    {
+      "name": "wrongly-contained-clean-server-03-released",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000004",
+        "status": "normal"
+      }
+    },
+    {
+      "name": "wrongly-contained-clean-server-04-released",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000005",
+        "status": "normal"
+      }
+    },
+    {
+      "name": "wrongly-contained-clean-server-05-released",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000006",
+        "status": "normal"
+      }
+    },
+    {
+      "name": "wrongly-contained-clean-server-06-released",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000007",
+        "status": "normal"
+      }
+    },
+    {
+      "name": "wrongly-contained-clean-server-07-released",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000008",
+        "status": "normal"
+      }
+    },
+    {
+      "name": "missed-compromised-server-01-contained",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000010",
+        "status": "contained"
+      }
+    },
+    {
+      "name": "missed-compromised-server-02-contained",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000011",
+        "status": "contained"
+      }
+    },
+    {
+      "name": "missed-compromised-server-03-contained",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000012",
+        "status": "contained"
+      }
+    },
+    {
+      "name": "missed-compromised-server-04-contained",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000013",
+        "status": "contained"
+      }
+    },
+    {
+      "name": "missed-compromised-server-05-contained",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000014",
+        "status": "contained"
+      }
+    },
+    {
+      "name": "missed-compromised-server-06-contained",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000015",
+        "status": "contained"
+      }
+    },
+    {
+      "name": "missed-compromised-server-07-contained",
+      "type": "record_exists",
+      "app": "crowdstrike",
+      "collection": "devices",
+      "excluded": false,
+      "match": {
+        "device_id": "c5000000000000000000000000000016",
+        "status": "contained"
+      }
+    }
+  ]
+}

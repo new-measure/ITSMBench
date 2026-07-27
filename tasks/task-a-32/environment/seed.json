@@ -1,0 +1,5498 @@
+{
+ "_now": "2026-07-15T00:00:00.000Z",
+ "okta": {
+  "users": [
+   {
+    "id": "00u9c47b2f0ae17cd581",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Aarav",
+     "lastName": "Kapoor",
+     "email": "aarav.kapoor@northcape.example",
+     "login": "aarav.kapoor@northcape.example",
+     "department": "IT",
+     "title": "CISO"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra1b5a5d57832eb534e1",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opf83b01d4b0b2dd21ee",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ucb665a7161f2a999c",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Lena",
+     "lastName": "Stein",
+     "email": "lena.stein@northcape.example",
+     "login": "lena.stein@northcape.example",
+     "department": "Security",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf34f409970adce26e0",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u5e1f418464ccb12ca",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Sofia",
+     "lastName": "Marin",
+     "email": "sofia.marin@northcape.example",
+     "login": "sofia.marin@northcape.example",
+     "department": "Security",
+     "title": "Director, Identity & Access"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra1e30e55becd757bf3a",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opf9a3b50e253daa672a",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u0f08c072b41e61d95",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Liam",
+     "lastName": "Reed",
+     "email": "liam.reed@northcape.example",
+     "login": "liam.reed@northcape.example",
+     "department": "Data",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opfe8f8ff3fdff097c9b",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u29c10fb16baf2ddcb",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Mia",
+     "lastName": "Diaz",
+     "email": "mia.diaz@northcape.example",
+     "login": "mia.diaz@northcape.example",
+     "department": "Operations",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf642a6a7f5a28ea62d",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ue29d3be541fdad6b4",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Elena",
+     "lastName": "Vasquez",
+     "email": "elena.vasquez@northcape.example",
+     "login": "elena.vasquez@northcape.example",
+     "department": "Security",
+     "title": "IAM Engineer"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra1a915d6616eb98816f",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opfb9435ce3fd512c7ff",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ucd228a180734b2772",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Frank",
+     "lastName": "Osei",
+     "email": "frank.osei@northcape.example",
+     "login": "frank.osei@northcape.example",
+     "department": "Security",
+     "title": "IAM Engineer"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra1b1940dca9454ebdf5",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opf5a16c37e3256ca5ab",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u0bac0ab2789bafc7a",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Grace",
+     "lastName": "Lund",
+     "email": "grace.lund@northcape.example",
+     "login": "grace.lund@northcape.example",
+     "department": "IT",
+     "title": "Directory Engineer"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra1f5a5831e7a959ef9f",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opf9791dedadefb1e893",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ud4b62efc93ab8c029",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Hana",
+     "lastName": "Ito",
+     "email": "hana.ito@northcape.example",
+     "login": "hana.ito@northcape.example",
+     "department": "IT",
+     "title": "Directory Engineer"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra11373fb43d532396d4",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opfc7b5d1526b1e52a7c",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ub0e2d98efdb0a3681",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Ivan",
+     "lastName": "Petrov",
+     "email": "ivan.petrov@northcape.example",
+     "login": "ivan.petrov@northcape.example",
+     "department": "Security",
+     "title": "Access Analyst"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra15c08a60b243b36550",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opf399bca3ec37d4fa43",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ue3139b77211f6f406",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Milo",
+     "lastName": "Costa",
+     "email": "milo.costa@northcape.example",
+     "login": "milo.costa@northcape.example",
+     "department": "IT",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf67650be5ceed4579b",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ue9bd69eeb69b73d44",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Liam",
+     "lastName": "Bauer",
+     "email": "liam.bauer@northcape.example",
+     "login": "liam.bauer@northcape.example",
+     "department": "Data",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opfe387d78ff5c0bbcb9",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00uae1bfdfdc69b9f466",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Mia",
+     "lastName": "Silva",
+     "email": "mia.silva@northcape.example",
+     "login": "mia.silva@northcape.example",
+     "department": "Operations",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf9a3217601fc9bbaa9",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ud4dbaab74b282d012",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Lena",
+     "lastName": "Ford",
+     "email": "lena.ford@northcape.example",
+     "login": "lena.ford@northcape.example",
+     "department": "Sales",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opffc2cdbfa33073e283",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ueae7d565b5902534a",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Milo",
+     "lastName": "Adler",
+     "email": "milo.adler@northcape.example",
+     "login": "milo.adler@northcape.example",
+     "department": "Marketing",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf8238c00d2cf8d214c",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u0d94579879c1723db",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Liam",
+     "lastName": "Weber",
+     "email": "liam.weber@northcape.example",
+     "login": "liam.weber@northcape.example",
+     "department": "Engineering",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf9c9ee1d35a3a69d06",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u3de98f1c02f06abc9",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Mia",
+     "lastName": "Vance",
+     "email": "mia.vance@northcape.example",
+     "login": "mia.vance@northcape.example",
+     "department": "Finance",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf11791ca6a4e727281",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u613645da237a7c737",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Lena",
+     "lastName": "Kim",
+     "email": "lena.kim@northcape.example",
+     "login": "lena.kim@northcape.example",
+     "department": "Security",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf408291e61215b2f3a",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ue3cd008017a7f45b4",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Milo",
+     "lastName": "Moss",
+     "email": "milo.moss@northcape.example",
+     "login": "milo.moss@northcape.example",
+     "department": "IT",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opfdcb83f38232ac3789",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u4a8d79ad626b4c422",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Liam",
+     "lastName": "Klein",
+     "email": "liam.klein@northcape.example",
+     "login": "liam.klein@northcape.example",
+     "department": "Data",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opff7e5239c8dade176f",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u05e4cf79814874b6a",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Mia",
+     "lastName": "Singh",
+     "email": "mia.singh@northcape.example",
+     "login": "mia.singh@northcape.example",
+     "department": "Operations",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opfc90d54eabdd7ad90a",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u734706024f0af34ef",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Lena",
+     "lastName": "Hale",
+     "email": "lena.hale@northcape.example",
+     "login": "lena.hale@northcape.example",
+     "department": "Sales",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf25edb028ee4700880",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ud38372dd05a4d4ef5",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Milo",
+     "lastName": "Reyes",
+     "email": "milo.reyes@northcape.example",
+     "login": "milo.reyes@northcape.example",
+     "department": "Marketing",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opfecfa8f531c1faf5ec",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u80e5579735932aaf6",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Liam",
+     "lastName": "Lund",
+     "email": "liam.lund@northcape.example",
+     "login": "liam.lund@northcape.example",
+     "department": "Engineering",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf73c0e7763eb1a1c1e",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u297d280cd2a80769b",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Mia",
+     "lastName": "Voss",
+     "email": "mia.voss@northcape.example",
+     "login": "mia.voss@northcape.example",
+     "department": "Finance",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf4e85ecd59f853a692",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u4f02408bc6b0ac052",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Lena",
+     "lastName": "Novak",
+     "email": "lena.novak@northcape.example",
+     "login": "lena.novak@northcape.example",
+     "department": "Security",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf23a9bc0b12fe05b37",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u3d10029a27f87e0ef",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Milo",
+     "lastName": "Frost",
+     "email": "milo.frost@northcape.example",
+     "login": "milo.frost@northcape.example",
+     "department": "IT",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opfbf789ce49b400afc5",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u712ad4daffce06744",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Liam",
+     "lastName": "Nguyen",
+     "email": "liam.nguyen@northcape.example",
+     "login": "liam.nguyen@northcape.example",
+     "department": "Data",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf7f660997d34a3ebab",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u6959a21542e924de8",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Mia",
+     "lastName": "Falk",
+     "email": "mia.falk@northcape.example",
+     "login": "mia.falk@northcape.example",
+     "department": "Operations",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf2d06843cc4ba37f7a",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u23f3ec9c15e16a07c",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Lena",
+     "lastName": "Stein",
+     "email": "lena.stein@northcape.example",
+     "login": "lena.stein@northcape.example",
+     "department": "Sales",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opfc3463527a803f75fa",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00uffc5b5d357b25786a",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Milo",
+     "lastName": "Haas",
+     "email": "milo.haas@northcape.example",
+     "login": "milo.haas@northcape.example",
+     "department": "Marketing",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf7b94b373112449452",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u35dc0e238de6395db",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Liam",
+     "lastName": "Reed",
+     "email": "liam.reed@northcape.example",
+     "login": "liam.reed@northcape.example",
+     "department": "Engineering",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf72685aa84b81d3c9c",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00uf90868f8b2b2320e6",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Mia",
+     "lastName": "Diaz",
+     "email": "mia.diaz@northcape.example",
+     "login": "mia.diaz@northcape.example",
+     "department": "Finance",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf2b58e5f41da0d40d6",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ua7e99bd90ff63756d",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Lena",
+     "lastName": "Berg",
+     "email": "lena.berg@northcape.example",
+     "login": "lena.berg@northcape.example",
+     "department": "Security",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf5bb54bcaf557b1291",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u12bbb69de666aad84",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Milo",
+     "lastName": "Roth",
+     "email": "milo.roth@northcape.example",
+     "login": "milo.roth@northcape.example",
+     "department": "IT",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opfee5ebb9b007bcada5",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u6a7f94c4ed7c7f1ca",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Liam",
+     "lastName": "Dubois",
+     "email": "liam.dubois@northcape.example",
+     "login": "liam.dubois@northcape.example",
+     "department": "Data",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opfc4adab1b37f07c9e5",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u48d829f03d672b22e",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Mia",
+     "lastName": "Wolf",
+     "email": "mia.wolf@northcape.example",
+     "login": "mia.wolf@northcape.example",
+     "department": "Operations",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf7af8f57b8e931e994",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u3d3a70df2ef0f311a",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Lena",
+     "lastName": "Braun",
+     "email": "lena.braun@northcape.example",
+     "login": "lena.braun@northcape.example",
+     "department": "Sales",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf6a49202fb13424630",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u2b77bacb28ea570ae",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Milo",
+     "lastName": "Costa",
+     "email": "milo.costa@northcape.example",
+     "login": "milo.costa@northcape.example",
+     "department": "Marketing",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opf44dec5611c397e62e",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u2c764cb1da27d1305",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Liam",
+     "lastName": "Bauer",
+     "email": "liam.bauer@northcape.example",
+     "login": "liam.bauer@northcape.example",
+     "department": "Engineering",
+     "title": "Employee"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opfb973dfda13c0d797e",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ub7655356fdaeb4c5f",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Viktor",
+     "lastName": "Kessler",
+     "email": "viktor.kessler@northcape.example",
+     "login": "viktor.kessler@northcape.example",
+     "department": "Engineering",
+     "title": "Platform Engineer"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra192324f5996d659180",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opf3b10f5e2aad9349aa",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ubf6c5bdeec8c55f5c",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Bianca",
+     "lastName": "Rossi",
+     "email": "bianca.rossi@northcape.example",
+     "login": "bianca.rossi@northcape.example",
+     "department": "Engineering",
+     "title": "SRE"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra1c6d6c999e70baf22f",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opfa6484b5c9bee2882f",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u4ece0d925647503d6",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Boris",
+     "lastName": "Novak",
+     "email": "boris.novak@northcape.example",
+     "login": "boris.novak@northcape.example",
+     "department": "Data",
+     "title": "Data Engineer"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra1ac158b4ffc03be069",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opfa4c2c258a099efbf4",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ucc6a6473c688b68d6",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Cora",
+     "lastName": "Diaz",
+     "email": "cora.diaz@northcape.example",
+     "login": "cora.diaz@northcape.example",
+     "department": "Engineering",
+     "title": "SRE"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra115e1b0639166a650d",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opf79e0587675370fe76",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u9643af8e5959d1563",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Colin",
+     "lastName": "Frost",
+     "email": "colin.frost@northcape.example",
+     "login": "colin.frost@northcape.example",
+     "department": "Operations",
+     "title": "Ops Engineer"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra13e814e7d4bd089669",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opfb740b4c2ba4485822",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u5f2bfa6fd33f1ba8a",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Dane",
+     "lastName": "Weber",
+     "email": "dane.weber@northcape.example",
+     "login": "dane.weber@northcape.example",
+     "department": "Data",
+     "title": "Data Engineer"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra183458971ec513a359",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opfdb31b2356e4a5a152",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00u1fe96cfe3cee6faba",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Dana",
+     "lastName": "Reyes",
+     "email": "dana.reyes@northcape.example",
+     "login": "dana.reyes@northcape.example",
+     "department": "Engineering",
+     "title": "Engineer"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra1df6892fe4086b3293",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2024-01-01T09:00:00.000Z",
+      "lastUpdated": "2024-01-01T09:00:00.000Z"
+     }
+    ],
+    "factors": [
+     {
+      "id": "opfbd1c75fae52671962",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ue23987fe936de2073",
+    "status": "ACTIVE",
+    "created": "2022-01-10T09:00:00.000Z",
+    "activated": "2022-01-10T09:00:00.000Z",
+    "statusChanged": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Dorian",
+     "lastName": "Vale",
+     "email": "dorian.vale@northcape.example",
+     "login": "dorian.vale@northcape.example",
+     "department": "IT",
+     "title": "Systems Admin (former)"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [],
+    "factors": [
+     {
+      "id": "opffeb285340b9d2fbaf",
+      "factorType": "push",
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "created": "2022-01-10T09:00:00.000Z",
+      "lastUpdated": "2022-01-10T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "id": "00ud59d308865aab2c07",
+    "status": "ACTIVE",
+    "created": "2025-09-15T09:00:00.000Z",
+    "activated": "2025-09-15T09:00:00.000Z",
+    "statusChanged": "2025-09-15T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Service",
+     "lastName": "svc-directory-sync",
+     "email": "svc-directory-sync@northcape.example",
+     "login": "svc-directory-sync@northcape.example",
+     "department": "IT",
+     "title": "Service Account"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra1e2cab053f205a2018",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2025-09-15T09:00:00.000Z",
+      "lastUpdated": "2025-09-15T09:00:00.000Z"
+     }
+    ],
+    "factors": []
+   },
+   {
+    "id": "00ub8d03bdef90bdead5",
+    "status": "ACTIVE",
+    "created": "2026-02-20T09:00:00.000Z",
+    "activated": "2026-02-20T09:00:00.000Z",
+    "statusChanged": "2026-02-20T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Service",
+     "lastName": "svc-scim-bridge",
+     "email": "svc-scim-bridge@northcape.example",
+     "login": "svc-scim-bridge@northcape.example",
+     "department": "IT",
+     "title": "Service Account"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra10413cf54cbd56389a",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2026-02-20T09:00:00.000Z",
+      "lastUpdated": "2026-02-20T09:00:00.000Z"
+     }
+    ],
+    "factors": []
+   },
+   {
+    "id": "00u617c3b2223f1526f0",
+    "status": "ACTIVE",
+    "created": "2022-04-01T09:00:00.000Z",
+    "activated": "2022-04-01T09:00:00.000Z",
+    "statusChanged": "2022-04-01T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Service",
+     "lastName": "svc-okta-provisioning",
+     "email": "svc-okta-provisioning@northcape.example",
+     "login": "svc-okta-provisioning@northcape.example",
+     "department": "IT",
+     "title": "Service Account"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    },
+    "roleAssignments": [
+     {
+      "id": "ra17cb12fbdd3404bf0c",
+      "type": "USER_ADMIN",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "assignmentType": "USER",
+      "created": "2022-04-01T09:00:00.000Z",
+      "lastUpdated": "2022-04-01T09:00:00.000Z"
+     }
+    ],
+    "factors": []
+   }
+  ],
+  "groups": [
+   {
+    "id": "00g304f8687d757b8e9a",
+    "type": "OKTA_GROUP",
+    "created": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "lastMembershipUpdated": "2026-05-15T09:00:00.000Z",
+    "profile": {
+     "name": "Identity Administrators",
+     "description": "Grants delegated identity-administration (user & group management) rights."
+    },
+    "members": [
+     "00u9c47b2f0ae17cd581",
+     "00u5e1f418464ccb12ca",
+     "00ue29d3be541fdad6b4",
+     "00ucd228a180734b2772",
+     "00u0bac0ab2789bafc7a",
+     "00ud4b62efc93ab8c029",
+     "00ub0e2d98efdb0a3681",
+     "00ub7655356fdaeb4c5f",
+     "00ubf6c5bdeec8c55f5c",
+     "00u4ece0d925647503d6",
+     "00ucc6a6473c688b68d6",
+     "00u9643af8e5959d1563",
+     "00u5f2bfa6fd33f1ba8a",
+     "00u1fe96cfe3cee6faba"
+    ]
+   },
+   {
+    "id": "00g0545d6764d7d2a0da",
+    "type": "OKTA_GROUP",
+    "created": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-05-01T09:00:00.000Z",
+    "lastMembershipUpdated": "2026-05-01T09:00:00.000Z",
+    "profile": {
+     "name": "Everyone",
+     "description": "Everyone"
+    },
+    "members": [
+     "00u9c47b2f0ae17cd581",
+     "00ucb665a7161f2a999c",
+     "00u5e1f418464ccb12ca",
+     "00u0f08c072b41e61d95",
+     "00u29c10fb16baf2ddcb",
+     "00ue29d3be541fdad6b4",
+     "00ucd228a180734b2772",
+     "00u0bac0ab2789bafc7a",
+     "00ud4b62efc93ab8c029",
+     "00ub0e2d98efdb0a3681",
+     "00ue3139b77211f6f406",
+     "00ue9bd69eeb69b73d44",
+     "00uae1bfdfdc69b9f466",
+     "00ud4dbaab74b282d012",
+     "00ueae7d565b5902534a",
+     "00u0d94579879c1723db",
+     "00u3de98f1c02f06abc9",
+     "00u613645da237a7c737",
+     "00ue3cd008017a7f45b4",
+     "00u4a8d79ad626b4c422",
+     "00u05e4cf79814874b6a",
+     "00u734706024f0af34ef",
+     "00ud38372dd05a4d4ef5",
+     "00u80e5579735932aaf6",
+     "00u297d280cd2a80769b",
+     "00u4f02408bc6b0ac052",
+     "00u3d10029a27f87e0ef",
+     "00u712ad4daffce06744",
+     "00u6959a21542e924de8",
+     "00u23f3ec9c15e16a07c",
+     "00uffc5b5d357b25786a",
+     "00u35dc0e238de6395db",
+     "00uf90868f8b2b2320e6",
+     "00ua7e99bd90ff63756d",
+     "00u12bbb69de666aad84",
+     "00u6a7f94c4ed7c7f1ca",
+     "00u48d829f03d672b22e",
+     "00u3d3a70df2ef0f311a",
+     "00u2b77bacb28ea570ae",
+     "00u2c764cb1da27d1305",
+     "00ub7655356fdaeb4c5f",
+     "00ubf6c5bdeec8c55f5c",
+     "00u4ece0d925647503d6",
+     "00ucc6a6473c688b68d6",
+     "00u9643af8e5959d1563",
+     "00u5f2bfa6fd33f1ba8a",
+     "00u1fe96cfe3cee6faba",
+     "00ue23987fe936de2073"
+    ]
+   },
+   {
+    "id": "00ga2fbe1d2523c00fa3",
+    "type": "OKTA_GROUP",
+    "created": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-05-01T09:00:00.000Z",
+    "lastMembershipUpdated": "2026-05-01T09:00:00.000Z",
+    "profile": {
+     "name": "Engineering - All",
+     "description": "Engineering - All"
+    },
+    "members": [
+     "00u0d94579879c1723db",
+     "00u80e5579735932aaf6",
+     "00u35dc0e238de6395db",
+     "00u2c764cb1da27d1305",
+     "00ub7655356fdaeb4c5f",
+     "00ubf6c5bdeec8c55f5c",
+     "00ucc6a6473c688b68d6",
+     "00u1fe96cfe3cee6faba"
+    ]
+   },
+   {
+    "id": "00gef3e3190fa0d015a5",
+    "type": "OKTA_GROUP",
+    "created": "2022-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-05-01T09:00:00.000Z",
+    "lastMembershipUpdated": "2026-05-01T09:00:00.000Z",
+    "profile": {
+     "name": "Security - All",
+     "description": "Security - All"
+    },
+    "members": [
+     "00ucb665a7161f2a999c",
+     "00u5e1f418464ccb12ca",
+     "00ue29d3be541fdad6b4",
+     "00ucd228a180734b2772",
+     "00ub0e2d98efdb0a3681",
+     "00u613645da237a7c737",
+     "00u4f02408bc6b0ac052",
+     "00ua7e99bd90ff63756d"
+    ]
+   },
+   {
+    "id": "00g0001327ffd521d693",
+    "type": "OKTA_GROUP",
+    "created": "2026-02-10T09:00:00.000Z",
+    "lastUpdated": "2026-02-10T09:00:00.000Z",
+    "lastMembershipUpdated": "2026-02-10T09:00:00.000Z",
+    "profile": {
+     "name": "Directory Operators",
+     "description": "Delegated directory-operations rights (user & group administration)."
+    },
+    "members": [
+     "00u4ece0d925647503d6",
+     "00u4a8d79ad626b4c422",
+     "00u05e4cf79814874b6a"
+    ]
+   }
+  ],
+  "apps": [
+   {
+    "id": "0oa6404b2ce2949f878e",
+    "name": "oidc_client",
+    "label": "Directory Bulk Sync",
+    "signOnMode": "OPENID_CONNECT",
+    "status": "ACTIVE",
+    "created": "2026-01-20T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "settings": {},
+    "users": [],
+    "groups": [
+     {
+      "id": "00g304f8687d757b8e9a",
+      "priority": 0,
+      "profile": {}
+     }
+    ]
+   },
+   {
+    "id": "0oa47c9c65672f31fa27",
+    "name": "oidc_client",
+    "label": "Okta Provisioning Agent",
+    "signOnMode": "OPENID_CONNECT",
+    "status": "ACTIVE",
+    "created": "2022-04-02T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "settings": {},
+    "users": [],
+    "groups": [
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "priority": 0,
+      "profile": {}
+     }
+    ]
+   }
+  ],
+  "logs": [
+   {
+    "uuid": "evt-grant-001",
+    "published": "2022-03-01T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00u9c47b2f0ae17cd581",
+     "type": "User",
+     "alternateId": "aarav.kapoor@northcape.example",
+     "displayName": "Aarav Kapoor"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u5e1f418464ccb12ca",
+      "type": "User",
+      "alternateId": "sofia.marin@northcape.example",
+      "displayName": "Sofia Marin"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-grant-002",
+    "published": "2023-01-10T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ue29d3be541fdad6b4",
+      "type": "User",
+      "alternateId": "elena.vasquez@northcape.example",
+      "displayName": "Elena Vasquez"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-grant-003",
+    "published": "2023-02-04T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ucd228a180734b2772",
+      "type": "User",
+      "alternateId": "frank.osei@northcape.example",
+      "displayName": "Frank Osei"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-grant-004",
+    "published": "2023-06-01T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u0bac0ab2789bafc7a",
+      "type": "User",
+      "alternateId": "grace.lund@northcape.example",
+      "displayName": "Grace Lund"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-grant-005",
+    "published": "2024-01-08T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ud4b62efc93ab8c029",
+      "type": "User",
+      "alternateId": "hana.ito@northcape.example",
+      "displayName": "Hana Ito"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-grant-006",
+    "published": "2024-05-02T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00ue29d3be541fdad6b4",
+     "type": "User",
+     "alternateId": "elena.vasquez@northcape.example",
+     "displayName": "Elena Vasquez"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ub0e2d98efdb0a3681",
+      "type": "User",
+      "alternateId": "ivan.petrov@northcape.example",
+      "displayName": "Ivan Petrov"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-grant-007",
+    "published": "2025-11-03T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00ue23987fe936de2073",
+     "type": "User",
+     "alternateId": "dorian.vale@northcape.example",
+     "displayName": "Dorian Vale"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ub7655356fdaeb4c5f",
+      "type": "User",
+      "alternateId": "viktor.kessler@northcape.example",
+      "displayName": "Viktor Kessler"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-grant-008",
+    "published": "2026-01-12T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00ub7655356fdaeb4c5f",
+     "type": "User",
+     "alternateId": "viktor.kessler@northcape.example",
+     "displayName": "Viktor Kessler"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ubf6c5bdeec8c55f5c",
+      "type": "User",
+      "alternateId": "bianca.rossi@northcape.example",
+      "displayName": "Bianca Rossi"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-grant-009",
+    "published": "2026-02-02T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00ub7655356fdaeb4c5f",
+     "type": "User",
+     "alternateId": "viktor.kessler@northcape.example",
+     "displayName": "Viktor Kessler"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u4ece0d925647503d6",
+      "type": "User",
+      "alternateId": "boris.novak@northcape.example",
+      "displayName": "Boris Novak"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-grant-010",
+    "published": "2026-03-09T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00ubf6c5bdeec8c55f5c",
+     "type": "User",
+     "alternateId": "bianca.rossi@northcape.example",
+     "displayName": "Bianca Rossi"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ucc6a6473c688b68d6",
+      "type": "User",
+      "alternateId": "cora.diaz@northcape.example",
+      "displayName": "Cora Diaz"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-grant-011",
+    "published": "2026-04-01T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00ubf6c5bdeec8c55f5c",
+     "type": "User",
+     "alternateId": "bianca.rossi@northcape.example",
+     "displayName": "Bianca Rossi"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u9643af8e5959d1563",
+      "type": "User",
+      "alternateId": "colin.frost@northcape.example",
+      "displayName": "Colin Frost"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-grant-012",
+    "published": "2026-04-20T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00u4ece0d925647503d6",
+     "type": "User",
+     "alternateId": "boris.novak@northcape.example",
+     "displayName": "Boris Novak"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u5f2bfa6fd33f1ba8a",
+      "type": "User",
+      "alternateId": "dane.weber@northcape.example",
+      "displayName": "Dane Weber"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-grant-013",
+    "published": "2026-05-15T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00ucc6a6473c688b68d6",
+     "type": "User",
+     "alternateId": "cora.diaz@northcape.example",
+     "displayName": "Cora Diaz"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u1fe96cfe3cee6faba",
+      "type": "User",
+      "alternateId": "dana.reyes@northcape.example",
+      "displayName": "Dana Reyes"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-bootstrap-ciso",
+    "published": "2022-01-05T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Bootstrap: initial Identity Administrator provisioned",
+    "actor": {
+     "id": "00u9c47b2f0ae17cd581",
+     "type": "User",
+     "alternateId": "aarav.kapoor@northcape.example",
+     "displayName": "Aarav Kapoor"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u9c47b2f0ae17cd581",
+      "type": "User",
+      "alternateId": "aarav.kapoor@northcape.example",
+      "displayName": "Aarav Kapoor"
+     },
+     {
+      "id": "00g304f8687d757b8e9a",
+      "type": "UserGroup",
+      "alternateId": "Identity Administrators",
+      "displayName": "Identity Administrators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-001",
+    "published": "2026-07-02T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00u9c47b2f0ae17cd581",
+     "type": "User",
+     "alternateId": "aarav.kapoor@northcape.example",
+     "displayName": "Aarav Kapoor"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u9c47b2f0ae17cd581",
+      "type": "User",
+      "alternateId": "aarav.kapoor@northcape.example",
+      "displayName": "Aarav Kapoor"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-002",
+    "published": "2026-07-03T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u5e1f418464ccb12ca",
+      "type": "User",
+      "alternateId": "sofia.marin@northcape.example",
+      "displayName": "Sofia Marin"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-003",
+    "published": "2026-07-04T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00ue29d3be541fdad6b4",
+     "type": "User",
+     "alternateId": "elena.vasquez@northcape.example",
+     "displayName": "Elena Vasquez"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ue29d3be541fdad6b4",
+      "type": "User",
+      "alternateId": "elena.vasquez@northcape.example",
+      "displayName": "Elena Vasquez"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-004",
+    "published": "2026-07-05T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00ucd228a180734b2772",
+     "type": "User",
+     "alternateId": "frank.osei@northcape.example",
+     "displayName": "Frank Osei"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ucd228a180734b2772",
+      "type": "User",
+      "alternateId": "frank.osei@northcape.example",
+      "displayName": "Frank Osei"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-005",
+    "published": "2026-07-06T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00u0bac0ab2789bafc7a",
+     "type": "User",
+     "alternateId": "grace.lund@northcape.example",
+     "displayName": "Grace Lund"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u0bac0ab2789bafc7a",
+      "type": "User",
+      "alternateId": "grace.lund@northcape.example",
+      "displayName": "Grace Lund"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-006",
+    "published": "2026-07-07T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00ud4b62efc93ab8c029",
+     "type": "User",
+     "alternateId": "hana.ito@northcape.example",
+     "displayName": "Hana Ito"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ud4b62efc93ab8c029",
+      "type": "User",
+      "alternateId": "hana.ito@northcape.example",
+      "displayName": "Hana Ito"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-007",
+    "published": "2026-07-08T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00ub0e2d98efdb0a3681",
+     "type": "User",
+     "alternateId": "ivan.petrov@northcape.example",
+     "displayName": "Ivan Petrov"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ub0e2d98efdb0a3681",
+      "type": "User",
+      "alternateId": "ivan.petrov@northcape.example",
+      "displayName": "Ivan Petrov"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-008",
+    "published": "2026-07-09T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00ub7655356fdaeb4c5f",
+     "type": "User",
+     "alternateId": "viktor.kessler@northcape.example",
+     "displayName": "Viktor Kessler"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ub7655356fdaeb4c5f",
+      "type": "User",
+      "alternateId": "viktor.kessler@northcape.example",
+      "displayName": "Viktor Kessler"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-009",
+    "published": "2026-07-10T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00ubf6c5bdeec8c55f5c",
+     "type": "User",
+     "alternateId": "bianca.rossi@northcape.example",
+     "displayName": "Bianca Rossi"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ubf6c5bdeec8c55f5c",
+      "type": "User",
+      "alternateId": "bianca.rossi@northcape.example",
+      "displayName": "Bianca Rossi"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-010",
+    "published": "2026-07-01T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00u4ece0d925647503d6",
+     "type": "User",
+     "alternateId": "boris.novak@northcape.example",
+     "displayName": "Boris Novak"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u4ece0d925647503d6",
+      "type": "User",
+      "alternateId": "boris.novak@northcape.example",
+      "displayName": "Boris Novak"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-011",
+    "published": "2026-07-02T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00ucc6a6473c688b68d6",
+     "type": "User",
+     "alternateId": "cora.diaz@northcape.example",
+     "displayName": "Cora Diaz"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ucc6a6473c688b68d6",
+      "type": "User",
+      "alternateId": "cora.diaz@northcape.example",
+      "displayName": "Cora Diaz"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-012",
+    "published": "2026-07-03T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00u9643af8e5959d1563",
+     "type": "User",
+     "alternateId": "colin.frost@northcape.example",
+     "displayName": "Colin Frost"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u9643af8e5959d1563",
+      "type": "User",
+      "alternateId": "colin.frost@northcape.example",
+      "displayName": "Colin Frost"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-013",
+    "published": "2026-07-04T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00u5f2bfa6fd33f1ba8a",
+     "type": "User",
+     "alternateId": "dane.weber@northcape.example",
+     "displayName": "Dane Weber"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u5f2bfa6fd33f1ba8a",
+      "type": "User",
+      "alternateId": "dane.weber@northcape.example",
+      "displayName": "Dane Weber"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-014",
+    "published": "2026-07-05T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00u1fe96cfe3cee6faba",
+     "type": "User",
+     "alternateId": "dana.reyes@northcape.example",
+     "displayName": "Dana Reyes"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u1fe96cfe3cee6faba",
+      "type": "User",
+      "alternateId": "dana.reyes@northcape.example",
+      "displayName": "Dana Reyes"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-sess-015",
+    "published": "2026-07-06T09:00:00.000Z",
+    "eventType": "user.session.start",
+    "severity": "INFO",
+    "displayMessage": "User login",
+    "actor": {
+     "id": "00ue23987fe936de2073",
+     "type": "User",
+     "alternateId": "dorian.vale@northcape.example",
+     "displayName": "Dorian Vale"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ue23987fe936de2073",
+      "type": "User",
+      "alternateId": "dorian.vale@northcape.example",
+      "displayName": "Dorian Vale"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-001",
+    "published": "2024-02-02T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u9c47b2f0ae17cd581",
+      "type": "User",
+      "alternateId": "aarav.kapoor@northcape.example",
+      "displayName": "Aarav Kapoor"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-002",
+    "published": "2025-03-03T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ucb665a7161f2a999c",
+      "type": "User",
+      "alternateId": "lena.stein@northcape.example",
+      "displayName": "Lena Stein"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-003",
+    "published": "2023-04-04T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u5e1f418464ccb12ca",
+      "type": "User",
+      "alternateId": "sofia.marin@northcape.example",
+      "displayName": "Sofia Marin"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-004",
+    "published": "2024-05-05T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u0f08c072b41e61d95",
+      "type": "User",
+      "alternateId": "liam.reed@northcape.example",
+      "displayName": "Liam Reed"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-005",
+    "published": "2025-06-06T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u29c10fb16baf2ddcb",
+      "type": "User",
+      "alternateId": "mia.diaz@northcape.example",
+      "displayName": "Mia Diaz"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-006",
+    "published": "2023-07-07T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ue29d3be541fdad6b4",
+      "type": "User",
+      "alternateId": "elena.vasquez@northcape.example",
+      "displayName": "Elena Vasquez"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-007",
+    "published": "2024-08-08T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ucd228a180734b2772",
+      "type": "User",
+      "alternateId": "frank.osei@northcape.example",
+      "displayName": "Frank Osei"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-008",
+    "published": "2025-09-09T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u0bac0ab2789bafc7a",
+      "type": "User",
+      "alternateId": "grace.lund@northcape.example",
+      "displayName": "Grace Lund"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-009",
+    "published": "2023-10-10T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ud4b62efc93ab8c029",
+      "type": "User",
+      "alternateId": "hana.ito@northcape.example",
+      "displayName": "Hana Ito"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-010",
+    "published": "2024-11-11T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ub0e2d98efdb0a3681",
+      "type": "User",
+      "alternateId": "ivan.petrov@northcape.example",
+      "displayName": "Ivan Petrov"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-011",
+    "published": "2025-12-12T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ue3139b77211f6f406",
+      "type": "User",
+      "alternateId": "milo.costa@northcape.example",
+      "displayName": "Milo Costa"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-012",
+    "published": "2023-01-13T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ue9bd69eeb69b73d44",
+      "type": "User",
+      "alternateId": "liam.bauer@northcape.example",
+      "displayName": "Liam Bauer"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-013",
+    "published": "2024-02-14T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00uae1bfdfdc69b9f466",
+      "type": "User",
+      "alternateId": "mia.silva@northcape.example",
+      "displayName": "Mia Silva"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-014",
+    "published": "2025-03-15T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ud4dbaab74b282d012",
+      "type": "User",
+      "alternateId": "lena.ford@northcape.example",
+      "displayName": "Lena Ford"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-015",
+    "published": "2023-04-16T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ueae7d565b5902534a",
+      "type": "User",
+      "alternateId": "milo.adler@northcape.example",
+      "displayName": "Milo Adler"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-016",
+    "published": "2024-05-17T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u0d94579879c1723db",
+      "type": "User",
+      "alternateId": "liam.weber@northcape.example",
+      "displayName": "Liam Weber"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-017",
+    "published": "2025-06-18T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u3de98f1c02f06abc9",
+      "type": "User",
+      "alternateId": "mia.vance@northcape.example",
+      "displayName": "Mia Vance"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-018",
+    "published": "2023-07-19T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u613645da237a7c737",
+      "type": "User",
+      "alternateId": "lena.kim@northcape.example",
+      "displayName": "Lena Kim"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-019",
+    "published": "2024-08-20T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ue3cd008017a7f45b4",
+      "type": "User",
+      "alternateId": "milo.moss@northcape.example",
+      "displayName": "Milo Moss"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-020",
+    "published": "2025-09-21T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u4a8d79ad626b4c422",
+      "type": "User",
+      "alternateId": "liam.klein@northcape.example",
+      "displayName": "Liam Klein"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-021",
+    "published": "2023-10-22T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u05e4cf79814874b6a",
+      "type": "User",
+      "alternateId": "mia.singh@northcape.example",
+      "displayName": "Mia Singh"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-022",
+    "published": "2024-11-23T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u734706024f0af34ef",
+      "type": "User",
+      "alternateId": "lena.hale@northcape.example",
+      "displayName": "Lena Hale"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-023",
+    "published": "2025-12-24T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ud38372dd05a4d4ef5",
+      "type": "User",
+      "alternateId": "milo.reyes@northcape.example",
+      "displayName": "Milo Reyes"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-024",
+    "published": "2023-01-25T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u80e5579735932aaf6",
+      "type": "User",
+      "alternateId": "liam.lund@northcape.example",
+      "displayName": "Liam Lund"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-025",
+    "published": "2024-02-26T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u297d280cd2a80769b",
+      "type": "User",
+      "alternateId": "mia.voss@northcape.example",
+      "displayName": "Mia Voss"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-026",
+    "published": "2025-03-27T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u4f02408bc6b0ac052",
+      "type": "User",
+      "alternateId": "lena.novak@northcape.example",
+      "displayName": "Lena Novak"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-027",
+    "published": "2023-04-01T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u3d10029a27f87e0ef",
+      "type": "User",
+      "alternateId": "milo.frost@northcape.example",
+      "displayName": "Milo Frost"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-noise-028",
+    "published": "2024-05-02T09:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "noise",
+    "actor": {
+     "id": "00u5e1f418464ccb12ca",
+     "type": "User",
+     "alternateId": "sofia.marin@northcape.example",
+     "displayName": "Sofia Marin"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u712ad4daffce06744",
+      "type": "User",
+      "alternateId": "liam.nguyen@northcape.example",
+      "displayName": "Liam Nguyen"
+     },
+     {
+      "id": "00g0545d6764d7d2a0da",
+      "type": "UserGroup",
+      "alternateId": "Everyone",
+      "displayName": "Everyone"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-create-svc-001",
+    "published": "2025-09-15T09:00:00.000Z",
+    "eventType": "user.lifecycle.create",
+    "severity": "INFO",
+    "displayMessage": "Create okta user",
+    "actor": {
+     "id": "00ue23987fe936de2073",
+     "type": "User",
+     "alternateId": "dorian.vale@northcape.example",
+     "displayName": "Dorian Vale"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ud59d308865aab2c07",
+      "type": "User",
+      "alternateId": "svc-directory-sync@northcape.example",
+      "displayName": "svc-directory-sync"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-create-svc-002",
+    "published": "2026-02-20T09:00:00.000Z",
+    "eventType": "user.lifecycle.create",
+    "severity": "INFO",
+    "displayMessage": "Create okta user",
+    "actor": {
+     "id": "00ubf6c5bdeec8c55f5c",
+     "type": "User",
+     "alternateId": "bianca.rossi@northcape.example",
+     "displayName": "Bianca Rossi"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00ub8d03bdef90bdead5",
+      "type": "User",
+      "alternateId": "svc-scim-bridge@northcape.example",
+      "displayName": "svc-scim-bridge"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-create-svc-003",
+    "published": "2022-04-01T09:00:00.000Z",
+    "eventType": "user.lifecycle.create",
+    "severity": "INFO",
+    "displayMessage": "Create okta user",
+    "actor": {
+     "id": "00u9c47b2f0ae17cd581",
+     "type": "User",
+     "alternateId": "aarav.kapoor@northcape.example",
+     "displayName": "Aarav Kapoor"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u617c3b2223f1526f0",
+      "type": "User",
+      "alternateId": "svc-okta-provisioning@northcape.example",
+      "displayName": "svc-okta-provisioning"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-create-app-001",
+    "published": "2026-01-20T09:00:00.000Z",
+    "eventType": "application.lifecycle.create",
+    "severity": "INFO",
+    "displayMessage": "Add app instance",
+    "actor": {
+     "id": "00ub7655356fdaeb4c5f",
+     "type": "User",
+     "alternateId": "viktor.kessler@northcape.example",
+     "displayName": "Viktor Kessler"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "0oa6404b2ce2949f878e",
+      "type": "AppInstance",
+      "alternateId": "Directory Bulk Sync",
+      "displayName": "Directory Bulk Sync"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-create-app-002",
+    "published": "2022-04-02T09:00:00.000Z",
+    "eventType": "application.lifecycle.create",
+    "severity": "INFO",
+    "displayMessage": "Add app instance",
+    "actor": {
+     "id": "00u9c47b2f0ae17cd581",
+     "type": "User",
+     "alternateId": "aarav.kapoor@northcape.example",
+     "displayName": "Aarav Kapoor"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "0oa47c9c65672f31fa27",
+      "type": "AppInstance",
+      "alternateId": "Okta Provisioning Agent",
+      "displayName": "Okta Provisioning Agent"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-create-group-diroperators",
+    "published": "2026-02-10T09:00:00.000Z",
+    "eventType": "group.lifecycle.create",
+    "severity": "INFO",
+    "displayMessage": "Group created",
+    "actor": {
+     "id": "00u4ece0d925647503d6",
+     "type": "User",
+     "alternateId": "boris.novak@northcape.example",
+     "displayName": "Boris Novak"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00g0001327ffd521d693",
+      "type": "UserGroup",
+      "alternateId": "Directory Operators",
+      "displayName": "Directory Operators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-dirops-add-001",
+    "published": "2026-02-10T10:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00u4ece0d925647503d6",
+     "type": "User",
+     "alternateId": "boris.novak@northcape.example",
+     "displayName": "Boris Novak"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u4ece0d925647503d6",
+      "type": "User",
+      "alternateId": "boris.novak@northcape.example",
+      "displayName": "Boris Novak"
+     },
+     {
+      "id": "00g0001327ffd521d693",
+      "type": "UserGroup",
+      "alternateId": "Directory Operators",
+      "displayName": "Directory Operators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-dirops-add-002",
+    "published": "2026-02-10T10:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00u4ece0d925647503d6",
+     "type": "User",
+     "alternateId": "boris.novak@northcape.example",
+     "displayName": "Boris Novak"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u4a8d79ad626b4c422",
+      "type": "User",
+      "alternateId": "liam.klein@northcape.example",
+      "displayName": "Liam Klein"
+     },
+     {
+      "id": "00g0001327ffd521d693",
+      "type": "UserGroup",
+      "alternateId": "Directory Operators",
+      "displayName": "Directory Operators"
+     }
+    ]
+   },
+   {
+    "uuid": "evt-dirops-add-003",
+    "published": "2026-02-10T10:00:00.000Z",
+    "eventType": "group.user_membership.add",
+    "severity": "INFO",
+    "displayMessage": "Add user to group membership",
+    "actor": {
+     "id": "00u4ece0d925647503d6",
+     "type": "User",
+     "alternateId": "boris.novak@northcape.example",
+     "displayName": "Boris Novak"
+    },
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "target": [
+     {
+      "id": "00u05e4cf79814874b6a",
+      "type": "User",
+      "alternateId": "mia.singh@northcape.example",
+      "displayName": "Mia Singh"
+     },
+     {
+      "id": "00g0001327ffd521d693",
+      "type": "UserGroup",
+      "alternateId": "Directory Operators",
+      "displayName": "Directory Operators"
+     }
+    ]
+   }
+  ]
+ },
+ "keka": {
+  "employees": [
+   {
+    "id": "emp-p001",
+    "employeeId": "emp-p001",
+    "employeeNumber": "E001",
+    "firstName": "Aarav",
+    "lastName": "Kapoor",
+    "displayName": "Aarav Kapoor",
+    "email": "aarav.kapoor@northcape.example",
+    "department": "IT",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "CISO"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p002",
+    "employeeId": "emp-p002",
+    "employeeNumber": "E002",
+    "firstName": "Lena",
+    "lastName": "Stein",
+    "displayName": "Lena Stein",
+    "email": "lena.stein@northcape.example",
+    "department": "Security",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p003",
+    "employeeId": "emp-p003",
+    "employeeNumber": "E003",
+    "firstName": "Sofia",
+    "lastName": "Marin",
+    "displayName": "Sofia Marin",
+    "email": "sofia.marin@northcape.example",
+    "department": "Security",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Director, Identity & Access"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p004",
+    "employeeId": "emp-p004",
+    "employeeNumber": "E004",
+    "firstName": "Liam",
+    "lastName": "Reed",
+    "displayName": "Liam Reed",
+    "email": "liam.reed@northcape.example",
+    "department": "Data",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p005",
+    "employeeId": "emp-p005",
+    "employeeNumber": "E005",
+    "firstName": "Mia",
+    "lastName": "Diaz",
+    "displayName": "Mia Diaz",
+    "email": "mia.diaz@northcape.example",
+    "department": "Operations",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p006",
+    "employeeId": "emp-p006",
+    "employeeNumber": "E006",
+    "firstName": "Elena",
+    "lastName": "Vasquez",
+    "displayName": "Elena Vasquez",
+    "email": "elena.vasquez@northcape.example",
+    "department": "Security",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "IAM Engineer"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p007",
+    "employeeId": "emp-p007",
+    "employeeNumber": "E007",
+    "firstName": "Frank",
+    "lastName": "Osei",
+    "displayName": "Frank Osei",
+    "email": "frank.osei@northcape.example",
+    "department": "Security",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "IAM Engineer"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p008",
+    "employeeId": "emp-p008",
+    "employeeNumber": "E008",
+    "firstName": "Grace",
+    "lastName": "Lund",
+    "displayName": "Grace Lund",
+    "email": "grace.lund@northcape.example",
+    "department": "IT",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Directory Engineer"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p009",
+    "employeeId": "emp-p009",
+    "employeeNumber": "E009",
+    "firstName": "Hana",
+    "lastName": "Ito",
+    "displayName": "Hana Ito",
+    "email": "hana.ito@northcape.example",
+    "department": "IT",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Directory Engineer"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p010",
+    "employeeId": "emp-p010",
+    "employeeNumber": "E010",
+    "firstName": "Ivan",
+    "lastName": "Petrov",
+    "displayName": "Ivan Petrov",
+    "email": "ivan.petrov@northcape.example",
+    "department": "Security",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Access Analyst"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p011",
+    "employeeId": "emp-p011",
+    "employeeNumber": "E011",
+    "firstName": "Milo",
+    "lastName": "Costa",
+    "displayName": "Milo Costa",
+    "email": "milo.costa@northcape.example",
+    "department": "IT",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p012",
+    "employeeId": "emp-p012",
+    "employeeNumber": "E012",
+    "firstName": "Liam",
+    "lastName": "Bauer",
+    "displayName": "Liam Bauer",
+    "email": "liam.bauer@northcape.example",
+    "department": "Data",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p013",
+    "employeeId": "emp-p013",
+    "employeeNumber": "E013",
+    "firstName": "Mia",
+    "lastName": "Silva",
+    "displayName": "Mia Silva",
+    "email": "mia.silva@northcape.example",
+    "department": "Operations",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p014",
+    "employeeId": "emp-p014",
+    "employeeNumber": "E014",
+    "firstName": "Lena",
+    "lastName": "Ford",
+    "displayName": "Lena Ford",
+    "email": "lena.ford@northcape.example",
+    "department": "Sales",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p015",
+    "employeeId": "emp-p015",
+    "employeeNumber": "E015",
+    "firstName": "Milo",
+    "lastName": "Adler",
+    "displayName": "Milo Adler",
+    "email": "milo.adler@northcape.example",
+    "department": "Marketing",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p016",
+    "employeeId": "emp-p016",
+    "employeeNumber": "E016",
+    "firstName": "Liam",
+    "lastName": "Weber",
+    "displayName": "Liam Weber",
+    "email": "liam.weber@northcape.example",
+    "department": "Engineering",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p017",
+    "employeeId": "emp-p017",
+    "employeeNumber": "E017",
+    "firstName": "Mia",
+    "lastName": "Vance",
+    "displayName": "Mia Vance",
+    "email": "mia.vance@northcape.example",
+    "department": "Finance",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p018",
+    "employeeId": "emp-p018",
+    "employeeNumber": "E018",
+    "firstName": "Lena",
+    "lastName": "Kim",
+    "displayName": "Lena Kim",
+    "email": "lena.kim@northcape.example",
+    "department": "Security",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p019",
+    "employeeId": "emp-p019",
+    "employeeNumber": "E019",
+    "firstName": "Milo",
+    "lastName": "Moss",
+    "displayName": "Milo Moss",
+    "email": "milo.moss@northcape.example",
+    "department": "IT",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p020",
+    "employeeId": "emp-p020",
+    "employeeNumber": "E020",
+    "firstName": "Liam",
+    "lastName": "Klein",
+    "displayName": "Liam Klein",
+    "email": "liam.klein@northcape.example",
+    "department": "Data",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p021",
+    "employeeId": "emp-p021",
+    "employeeNumber": "E021",
+    "firstName": "Mia",
+    "lastName": "Singh",
+    "displayName": "Mia Singh",
+    "email": "mia.singh@northcape.example",
+    "department": "Operations",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p022",
+    "employeeId": "emp-p022",
+    "employeeNumber": "E022",
+    "firstName": "Lena",
+    "lastName": "Hale",
+    "displayName": "Lena Hale",
+    "email": "lena.hale@northcape.example",
+    "department": "Sales",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p023",
+    "employeeId": "emp-p023",
+    "employeeNumber": "E023",
+    "firstName": "Milo",
+    "lastName": "Reyes",
+    "displayName": "Milo Reyes",
+    "email": "milo.reyes@northcape.example",
+    "department": "Marketing",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p024",
+    "employeeId": "emp-p024",
+    "employeeNumber": "E024",
+    "firstName": "Liam",
+    "lastName": "Lund",
+    "displayName": "Liam Lund",
+    "email": "liam.lund@northcape.example",
+    "department": "Engineering",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p025",
+    "employeeId": "emp-p025",
+    "employeeNumber": "E025",
+    "firstName": "Mia",
+    "lastName": "Voss",
+    "displayName": "Mia Voss",
+    "email": "mia.voss@northcape.example",
+    "department": "Finance",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p026",
+    "employeeId": "emp-p026",
+    "employeeNumber": "E026",
+    "firstName": "Lena",
+    "lastName": "Novak",
+    "displayName": "Lena Novak",
+    "email": "lena.novak@northcape.example",
+    "department": "Security",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p027",
+    "employeeId": "emp-p027",
+    "employeeNumber": "E027",
+    "firstName": "Milo",
+    "lastName": "Frost",
+    "displayName": "Milo Frost",
+    "email": "milo.frost@northcape.example",
+    "department": "IT",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p028",
+    "employeeId": "emp-p028",
+    "employeeNumber": "E028",
+    "firstName": "Liam",
+    "lastName": "Nguyen",
+    "displayName": "Liam Nguyen",
+    "email": "liam.nguyen@northcape.example",
+    "department": "Data",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p029",
+    "employeeId": "emp-p029",
+    "employeeNumber": "E029",
+    "firstName": "Mia",
+    "lastName": "Falk",
+    "displayName": "Mia Falk",
+    "email": "mia.falk@northcape.example",
+    "department": "Operations",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p030",
+    "employeeId": "emp-p030",
+    "employeeNumber": "E030",
+    "firstName": "Lena",
+    "lastName": "Stein",
+    "displayName": "Lena Stein",
+    "email": "lena.stein@northcape.example",
+    "department": "Sales",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p031",
+    "employeeId": "emp-p031",
+    "employeeNumber": "E031",
+    "firstName": "Milo",
+    "lastName": "Haas",
+    "displayName": "Milo Haas",
+    "email": "milo.haas@northcape.example",
+    "department": "Marketing",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p032",
+    "employeeId": "emp-p032",
+    "employeeNumber": "E032",
+    "firstName": "Liam",
+    "lastName": "Reed",
+    "displayName": "Liam Reed",
+    "email": "liam.reed@northcape.example",
+    "department": "Engineering",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p033",
+    "employeeId": "emp-p033",
+    "employeeNumber": "E033",
+    "firstName": "Mia",
+    "lastName": "Diaz",
+    "displayName": "Mia Diaz",
+    "email": "mia.diaz@northcape.example",
+    "department": "Finance",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p034",
+    "employeeId": "emp-p034",
+    "employeeNumber": "E034",
+    "firstName": "Lena",
+    "lastName": "Berg",
+    "displayName": "Lena Berg",
+    "email": "lena.berg@northcape.example",
+    "department": "Security",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p035",
+    "employeeId": "emp-p035",
+    "employeeNumber": "E035",
+    "firstName": "Milo",
+    "lastName": "Roth",
+    "displayName": "Milo Roth",
+    "email": "milo.roth@northcape.example",
+    "department": "IT",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p036",
+    "employeeId": "emp-p036",
+    "employeeNumber": "E036",
+    "firstName": "Liam",
+    "lastName": "Dubois",
+    "displayName": "Liam Dubois",
+    "email": "liam.dubois@northcape.example",
+    "department": "Data",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p037",
+    "employeeId": "emp-p037",
+    "employeeNumber": "E037",
+    "firstName": "Mia",
+    "lastName": "Wolf",
+    "displayName": "Mia Wolf",
+    "email": "mia.wolf@northcape.example",
+    "department": "Operations",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p038",
+    "employeeId": "emp-p038",
+    "employeeNumber": "E038",
+    "firstName": "Lena",
+    "lastName": "Braun",
+    "displayName": "Lena Braun",
+    "email": "lena.braun@northcape.example",
+    "department": "Sales",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p039",
+    "employeeId": "emp-p039",
+    "employeeNumber": "E039",
+    "firstName": "Milo",
+    "lastName": "Costa",
+    "displayName": "Milo Costa",
+    "email": "milo.costa@northcape.example",
+    "department": "Marketing",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p040",
+    "employeeId": "emp-p040",
+    "employeeNumber": "E040",
+    "firstName": "Liam",
+    "lastName": "Bauer",
+    "displayName": "Liam Bauer",
+    "email": "liam.bauer@northcape.example",
+    "department": "Engineering",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Employee"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p090",
+    "employeeId": "emp-p090",
+    "employeeNumber": "E090",
+    "firstName": "Viktor",
+    "lastName": "Kessler",
+    "displayName": "Viktor Kessler",
+    "email": "viktor.kessler@northcape.example",
+    "department": "Engineering",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Platform Engineer"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p091",
+    "employeeId": "emp-p091",
+    "employeeNumber": "E091",
+    "firstName": "Bianca",
+    "lastName": "Rossi",
+    "displayName": "Bianca Rossi",
+    "email": "bianca.rossi@northcape.example",
+    "department": "Engineering",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "SRE"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p092",
+    "employeeId": "emp-p092",
+    "employeeNumber": "E092",
+    "firstName": "Boris",
+    "lastName": "Novak",
+    "displayName": "Boris Novak",
+    "email": "boris.novak@northcape.example",
+    "department": "Data",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Data Engineer"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p093",
+    "employeeId": "emp-p093",
+    "employeeNumber": "E093",
+    "firstName": "Cora",
+    "lastName": "Diaz",
+    "displayName": "Cora Diaz",
+    "email": "cora.diaz@northcape.example",
+    "department": "Engineering",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "SRE"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p094",
+    "employeeId": "emp-p094",
+    "employeeNumber": "E094",
+    "firstName": "Colin",
+    "lastName": "Frost",
+    "displayName": "Colin Frost",
+    "email": "colin.frost@northcape.example",
+    "department": "Operations",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Ops Engineer"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p095",
+    "employeeId": "emp-p095",
+    "employeeNumber": "E095",
+    "firstName": "Dane",
+    "lastName": "Weber",
+    "displayName": "Dane Weber",
+    "email": "dane.weber@northcape.example",
+    "department": "Data",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Data Engineer"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p096",
+    "employeeId": "emp-p096",
+    "employeeNumber": "E096",
+    "firstName": "Dana",
+    "lastName": "Reyes",
+    "displayName": "Dana Reyes",
+    "email": "dana.reyes@northcape.example",
+    "department": "Engineering",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Engineer"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2026-06-01T09:00:00.000Z",
+    "employmentStatus": "Working"
+   },
+   {
+    "id": "emp-p099",
+    "employeeId": "emp-p099",
+    "employeeNumber": "E099",
+    "firstName": "Dorian",
+    "lastName": "Vale",
+    "displayName": "Dorian Vale",
+    "email": "dorian.vale@northcape.example",
+    "department": "IT",
+    "jobTitle": {
+     "identifier": "jt",
+     "title": "Systems Admin (former)"
+    },
+    "employmentType": "FullTime",
+    "joiningDate": "2021-06-01T09:00:00.000Z",
+    "createdOn": "2021-06-01T09:00:00.000Z",
+    "modifiedOn": "2025-10-30T09:00:00.000Z",
+    "employmentStatus": "Relieved",
+    "exitDate": "2025-10-30T09:00:00.000Z",
+    "exitReason": "Resigned"
+   }
+  ]
+ },
+ "servicenow": {
+  "sys_user": [
+   {
+    "sys_id": "2f4f60b21ea657d8330fdccd56ff0331",
+    "user_name": "aarav.kapoor",
+    "name": "Aarav Kapoor",
+    "email": "aarav.kapoor@northcape.example",
+    "department": "IT",
+    "title": "CISO",
+    "active": "true"
+   },
+   {
+    "sys_id": "a96c778a4a1d701fa8419b45b82dd24e",
+    "user_name": "lena.stein",
+    "name": "Lena Stein",
+    "email": "lena.stein@northcape.example",
+    "department": "Security",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "e352137e7171ad6b3a505b3269fc386e",
+    "user_name": "sofia.marin",
+    "name": "Sofia Marin",
+    "email": "sofia.marin@northcape.example",
+    "department": "Security",
+    "title": "Director, Identity & Access",
+    "active": "true"
+   },
+   {
+    "sys_id": "b3622c18d4499f8a6798ffbf325e82bf",
+    "user_name": "liam.reed",
+    "name": "Liam Reed",
+    "email": "liam.reed@northcape.example",
+    "department": "Data",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "9044568620d289083945a19725287e00",
+    "user_name": "mia.diaz",
+    "name": "Mia Diaz",
+    "email": "mia.diaz@northcape.example",
+    "department": "Operations",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "25155a5b7c8e2238c6700c7161767b31",
+    "user_name": "elena.vasquez",
+    "name": "Elena Vasquez",
+    "email": "elena.vasquez@northcape.example",
+    "department": "Security",
+    "title": "IAM Engineer",
+    "active": "true"
+   },
+   {
+    "sys_id": "4627841313939574e586d95ca3dd82e8",
+    "user_name": "frank.osei",
+    "name": "Frank Osei",
+    "email": "frank.osei@northcape.example",
+    "department": "Security",
+    "title": "IAM Engineer",
+    "active": "true"
+   },
+   {
+    "sys_id": "d6c15e0bfc4c074d479c55ac2ecd007e",
+    "user_name": "grace.lund",
+    "name": "Grace Lund",
+    "email": "grace.lund@northcape.example",
+    "department": "IT",
+    "title": "Directory Engineer",
+    "active": "true"
+   },
+   {
+    "sys_id": "298a76fb19cd95ba6be1aa467be8d55c",
+    "user_name": "hana.ito",
+    "name": "Hana Ito",
+    "email": "hana.ito@northcape.example",
+    "department": "IT",
+    "title": "Directory Engineer",
+    "active": "true"
+   },
+   {
+    "sys_id": "2e8b868616711fb5e85063ca8ef9443c",
+    "user_name": "ivan.petrov",
+    "name": "Ivan Petrov",
+    "email": "ivan.petrov@northcape.example",
+    "department": "Security",
+    "title": "Access Analyst",
+    "active": "true"
+   },
+   {
+    "sys_id": "123f2bc287dc85eb51954f27081aa80d",
+    "user_name": "milo.costa",
+    "name": "Milo Costa",
+    "email": "milo.costa@northcape.example",
+    "department": "IT",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "f64808e1dc4e0b757360e1d828b799e2",
+    "user_name": "liam.bauer",
+    "name": "Liam Bauer",
+    "email": "liam.bauer@northcape.example",
+    "department": "Data",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "1062425e72dfd0aabf5bf96f902b58ae",
+    "user_name": "mia.silva",
+    "name": "Mia Silva",
+    "email": "mia.silva@northcape.example",
+    "department": "Operations",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "90ee93b4016477167f07081615f13f6a",
+    "user_name": "lena.ford",
+    "name": "Lena Ford",
+    "email": "lena.ford@northcape.example",
+    "department": "Sales",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "2a3821b4b261e03f363bc33302109d5a",
+    "user_name": "milo.adler",
+    "name": "Milo Adler",
+    "email": "milo.adler@northcape.example",
+    "department": "Marketing",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "09c79256ef6e5e12ec7cfb260476afeb",
+    "user_name": "liam.weber",
+    "name": "Liam Weber",
+    "email": "liam.weber@northcape.example",
+    "department": "Engineering",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "aa572a49522d6b3bd0138ec5653f4e57",
+    "user_name": "mia.vance",
+    "name": "Mia Vance",
+    "email": "mia.vance@northcape.example",
+    "department": "Finance",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "59411e73870fe6455554e2f6a7d80f9a",
+    "user_name": "lena.kim",
+    "name": "Lena Kim",
+    "email": "lena.kim@northcape.example",
+    "department": "Security",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "816dcac675736a79ea7aff73f417cb64",
+    "user_name": "milo.moss",
+    "name": "Milo Moss",
+    "email": "milo.moss@northcape.example",
+    "department": "IT",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "ff2ebf61dcfadb05b0f80f98b86e973a",
+    "user_name": "liam.klein",
+    "name": "Liam Klein",
+    "email": "liam.klein@northcape.example",
+    "department": "Data",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "f471a6199d509f729790a2932070b68b",
+    "user_name": "mia.singh",
+    "name": "Mia Singh",
+    "email": "mia.singh@northcape.example",
+    "department": "Operations",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "b34b11052f3d9fbba175b82ac11c3f56",
+    "user_name": "lena.hale",
+    "name": "Lena Hale",
+    "email": "lena.hale@northcape.example",
+    "department": "Sales",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "669cb0a2e0cefe1ebb7f2f7479376c7b",
+    "user_name": "milo.reyes",
+    "name": "Milo Reyes",
+    "email": "milo.reyes@northcape.example",
+    "department": "Marketing",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "7670513f25ee395cd76220a7318639fe",
+    "user_name": "liam.lund",
+    "name": "Liam Lund",
+    "email": "liam.lund@northcape.example",
+    "department": "Engineering",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "94741db3d6ece6e3e6b0a675d0156d72",
+    "user_name": "mia.voss",
+    "name": "Mia Voss",
+    "email": "mia.voss@northcape.example",
+    "department": "Finance",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "3a44a999c924f81b267e7bb3d57b26eb",
+    "user_name": "lena.novak",
+    "name": "Lena Novak",
+    "email": "lena.novak@northcape.example",
+    "department": "Security",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "5950800acd5113e077fee273a8890cd6",
+    "user_name": "milo.frost",
+    "name": "Milo Frost",
+    "email": "milo.frost@northcape.example",
+    "department": "IT",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "5205048f414975952ff73efb11b2a25d",
+    "user_name": "liam.nguyen",
+    "name": "Liam Nguyen",
+    "email": "liam.nguyen@northcape.example",
+    "department": "Data",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "e6409f74c75842282a50409ef8af4185",
+    "user_name": "mia.falk",
+    "name": "Mia Falk",
+    "email": "mia.falk@northcape.example",
+    "department": "Operations",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "e561ce03c07e244b6632058d81b47d31",
+    "user_name": "lena.stein",
+    "name": "Lena Stein",
+    "email": "lena.stein@northcape.example",
+    "department": "Sales",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "04e4e054faa3c7f37e0a41ef67b500be",
+    "user_name": "milo.haas",
+    "name": "Milo Haas",
+    "email": "milo.haas@northcape.example",
+    "department": "Marketing",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "58358773ac643fe61c25471f8a987233",
+    "user_name": "liam.reed",
+    "name": "Liam Reed",
+    "email": "liam.reed@northcape.example",
+    "department": "Engineering",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "8fda1355281bb96446bb97c4826b20c4",
+    "user_name": "mia.diaz",
+    "name": "Mia Diaz",
+    "email": "mia.diaz@northcape.example",
+    "department": "Finance",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "17c60966d77fdbdc3df13d4dc8e3eba4",
+    "user_name": "lena.berg",
+    "name": "Lena Berg",
+    "email": "lena.berg@northcape.example",
+    "department": "Security",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "573b196600211c7a3137572c174464e4",
+    "user_name": "milo.roth",
+    "name": "Milo Roth",
+    "email": "milo.roth@northcape.example",
+    "department": "IT",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "34a9182288f9caf06951b37c212d9c74",
+    "user_name": "liam.dubois",
+    "name": "Liam Dubois",
+    "email": "liam.dubois@northcape.example",
+    "department": "Data",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "08594428d6d401e40bf7c59373257c77",
+    "user_name": "mia.wolf",
+    "name": "Mia Wolf",
+    "email": "mia.wolf@northcape.example",
+    "department": "Operations",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "e3b58c8499cd6336311252c36c5afd98",
+    "user_name": "lena.braun",
+    "name": "Lena Braun",
+    "email": "lena.braun@northcape.example",
+    "department": "Sales",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "e3060e640c73b39fc429394d20b94915",
+    "user_name": "milo.costa",
+    "name": "Milo Costa",
+    "email": "milo.costa@northcape.example",
+    "department": "Marketing",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "6ba1e0ad1c9443190030f5ae8a645877",
+    "user_name": "liam.bauer",
+    "name": "Liam Bauer",
+    "email": "liam.bauer@northcape.example",
+    "department": "Engineering",
+    "title": "Employee",
+    "active": "true"
+   },
+   {
+    "sys_id": "caf4a0553a379cb3e3aaed773e97cbb6",
+    "user_name": "viktor.kessler",
+    "name": "Viktor Kessler",
+    "email": "viktor.kessler@northcape.example",
+    "department": "Engineering",
+    "title": "Platform Engineer",
+    "active": "true"
+   },
+   {
+    "sys_id": "0558ad11a9211bfbc3fd3bf6964556fc",
+    "user_name": "bianca.rossi",
+    "name": "Bianca Rossi",
+    "email": "bianca.rossi@northcape.example",
+    "department": "Engineering",
+    "title": "SRE",
+    "active": "true"
+   },
+   {
+    "sys_id": "64d430dd90af2ce02056b73951491a79",
+    "user_name": "boris.novak",
+    "name": "Boris Novak",
+    "email": "boris.novak@northcape.example",
+    "department": "Data",
+    "title": "Data Engineer",
+    "active": "true"
+   },
+   {
+    "sys_id": "4d79b86b5f346e179bb23ea7bb4e8e61",
+    "user_name": "cora.diaz",
+    "name": "Cora Diaz",
+    "email": "cora.diaz@northcape.example",
+    "department": "Engineering",
+    "title": "SRE",
+    "active": "true"
+   },
+   {
+    "sys_id": "feaccf47bfca5550666138d7a62a9834",
+    "user_name": "colin.frost",
+    "name": "Colin Frost",
+    "email": "colin.frost@northcape.example",
+    "department": "Operations",
+    "title": "Ops Engineer",
+    "active": "true"
+   },
+   {
+    "sys_id": "e7b64075379b0976f9e149eda74645a4",
+    "user_name": "dane.weber",
+    "name": "Dane Weber",
+    "email": "dane.weber@northcape.example",
+    "department": "Data",
+    "title": "Data Engineer",
+    "active": "true"
+   },
+   {
+    "sys_id": "c60886b3330c6c9eeef0bd7609abf876",
+    "user_name": "dana.reyes",
+    "name": "Dana Reyes",
+    "email": "dana.reyes@northcape.example",
+    "department": "Engineering",
+    "title": "Engineer",
+    "active": "true"
+   },
+   {
+    "sys_id": "62a9a5e10b3ef5063c7e4b34425045a7",
+    "user_name": "dorian.vale",
+    "name": "Dorian Vale",
+    "email": "dorian.vale@northcape.example",
+    "department": "IT",
+    "title": "Systems Admin (former)",
+    "active": "true"
+   }
+  ],
+  "sys_user_group": [
+   {
+    "sys_id": "e7dbb177327c6eefc68775539d34d8a7",
+    "name": "Identity & Access Management",
+    "type": "itil",
+    "active": "true",
+    "manager": "e352137e7171ad6b3a505b3269fc386e",
+    "sys_created_on": "2022-01-01 09:00:00",
+    "sys_updated_on": "2026-01-01 09:00:00"
+   }
+  ],
+  "incident": [
+   {
+    "sys_id": "107ca982de62e3de35904b916afee6c7",
+    "number": "INC0032001",
+    "short_description": "Identity Administrators access audit",
+    "description": "Delegated Identity Administrator access has grown. Audit every member of the Identity Administrators group and remove any admin access that is not legitimately authorized. Record decisions and close this ticket.",
+    "caller_id": "2f4f60b21ea657d8330fdccd56ff0331",
+    "opened_by": "2f4f60b21ea657d8330fdccd56ff0331",
+    "assignment_group": "e7dbb177327c6eefc68775539d34d8a7",
+    "assigned_to": "e352137e7171ad6b3a505b3269fc386e",
+    "state": "2",
+    "active": "true",
+    "priority": "2",
+    "category": "inquiry",
+    "close_code": "",
+    "close_notes": "",
+    "opened_at": "2026-07-14 09:00:00",
+    "sys_created_on": "2026-07-14 09:00:00",
+    "sys_updated_on": "2026-07-14 09:00:00",
+    "sys_created_by": "admin",
+    "sys_mod_count": "0"
+   },
+   {
+    "sys_id": "16dc941d908b5e8178baf474ec3b2542",
+    "number": "INC0028014",
+    "short_description": "Identity Administrators access audit - unauthorized delegation remediation",
+    "description": "Delegated Identity Administrator access grew unexpectedly last spring; audited the Identity Administrators group and remediated the unauthorized access that was found.",
+    "close_notes": "Audit of Identity Administrators. Reconstructed how each member obtained the group grant from the Okta System Log (group.user_membership.add, actor = the granting admin) and followed each chain back to its origin. Nils Haas's grant traced up through Marcus Reed to Priya Osei - a contractor whose own membership was never conferred by the bootstrap administrator on record in the admin-root register, i.e. her access did not originate from the root of trust. Every grant below Priya Osei was therefore invalid regardless of the approvals on file. Removed Priya Osei, Marcus Reed and Nils Haas from Identity Administrators; the members whose chains did trace to the root of trust were retained.\nAn administrator can also exercise rights by CREATING access-granting objects, so reviewed what these accounts had created (Okta System Log *.lifecycle.create events, actor = creator). Deactivated the service account svc-legacy-import (created by Marcus Reed) and the OAuth app 'Legacy Directory Connector' (created by Priya Osei), and deleted the 'Legacy Ops' group Marcus Reed had created and populated - only the group and its memberships were removed, the ordinary member accounts stayed active. Priya Osei's Okta account was deactivated (she had already exited per HR). None of these created objects had a provisioning approval on the access register, unlike the sanctioned service identities. Decisions recorded; ticket closed.",
+    "caller_id": "e352137e7171ad6b3a505b3269fc386e",
+    "opened_by": "e352137e7171ad6b3a505b3269fc386e",
+    "assignment_group": "e7dbb177327c6eefc68775539d34d8a7",
+    "assigned_to": "25155a5b7c8e2238c6700c7161767b31",
+    "state": "7",
+    "active": "false",
+    "priority": "2",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "opened_at": "2025-04-07 09:00:00",
+    "closed_at": "2025-04-22 09:00:00",
+    "sys_created_on": "2025-04-07 09:00:00",
+    "sys_updated_on": "2025-04-22 09:00:00",
+    "sys_created_by": "admin",
+    "sys_mod_count": "5"
+   }
+  ],
+  "u_admin_root": [
+   {
+    "sys_id": "c98129dbb3427356c9b2e7b83446a63e",
+    "number": "BOOT0032001",
+    "u_role": "Identity Administrator (root of trust)",
+    "u_account": "aarav.kapoor@northcape.example",
+    "u_account_okta_id": "00u9c47b2f0ae17cd581",
+    "u_note": "Bootstrap administrator. This account's Identity Administrator access is the origin of trust and was not delegated by any prior administrator.",
+    "sys_created_on": "2022-01-05 09:00:00",
+    "sys_updated_on": "2022-01-05 09:00:00"
+   }
+  ],
+  "u_access_approval": [
+   {
+    "sys_id": "76174d9419e8f2581bb6bd624e8534b5",
+    "u_user_email": "aarav.kapoor@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "46797311fbbcba27fd2c921143064bac",
+    "u_user_email": "sofia.marin@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "160853d4120545e9e0a0c9683cdb76c8",
+    "u_user_email": "elena.vasquez@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "b27a7bc89237ead7b7fbb0a46c12bc4e",
+    "u_user_email": "frank.osei@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "a656ff8763f4d167672d0a09f17dd2cf",
+    "u_user_email": "grace.lund@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "4b235e35f1a48f1c2c4aa2d3e6db20cf",
+    "u_user_email": "hana.ito@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "600c648e3bee850ff0f1c1b4d57e0c07",
+    "u_user_email": "ivan.petrov@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "1214b4a9e0e653cbb63e6aa5661fd6cc",
+    "u_user_email": "viktor.kessler@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "822e58b62a5c023b91f5859326c140b7",
+    "u_user_email": "bianca.rossi@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "12d7a54f4e72b7b80b04c9250342a632",
+    "u_user_email": "boris.novak@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "f7b4ad1c150c41f126bb3b26fd311646",
+    "u_user_email": "cora.diaz@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "550dd0aa76179cc53ad6d228cd0efb78",
+    "u_user_email": "colin.frost@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "e87c8d70cfc9d1578e91d8d9097e5f5d",
+    "u_user_email": "dane.weber@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "1ebfd7281a3fecdc5d86df6ab10ebafe",
+    "u_user_email": "dana.reyes@northcape.example",
+    "u_group": "Identity Administrators",
+    "u_status": "approved",
+    "u_valid_from": "2024-01-01",
+    "u_valid_to": "2026-12-31",
+    "sys_created_on": "2024-01-01 09:00:00",
+    "sys_updated_on": "2024-01-01 09:00:00"
+   },
+   {
+    "sys_id": "36e542bda73fd811755e6061e4394240",
+    "u_object": "svc-okta-provisioning@northcape.example",
+    "u_type": "service_account",
+    "u_group": "",
+    "u_status": "approved",
+    "u_valid_from": "2022-04-01",
+    "u_valid_to": "2027-12-31",
+    "u_note": "Standing provisioning service identity; registration approved by the CISO.",
+    "sys_created_on": "2022-04-01 09:00:00",
+    "sys_updated_on": "2022-04-01 09:00:00"
+   },
+   {
+    "sys_id": "1981b5fc0f5fbf463819d791f102a576",
+    "u_object": "Okta Provisioning Agent",
+    "u_type": "application",
+    "u_group": "",
+    "u_status": "approved",
+    "u_valid_from": "2022-04-02",
+    "u_valid_to": "2027-12-31",
+    "u_note": "OAuth application registration approved by the CISO.",
+    "sys_created_on": "2022-04-02 09:00:00",
+    "sys_updated_on": "2022-04-02 09:00:00"
+   }
+  ],
+  "u_access_recert_decision": []
+ },
+ "confluence": {
+  "spaces": [
+   {
+    "id": "500001",
+    "key": "SEC",
+    "name": "Security & Compliance",
+    "type": "global",
+    "status": "current"
+   }
+  ],
+  "pages": [
+   {
+    "id": "100200",
+    "status": "current",
+    "title": "Identity & Access Management",
+    "spaceId": "500001",
+    "authorId": "557058:sofia",
+    "version": {
+     "number": 7,
+     "createdAt": "2026-06-01T09:00:00.000Z"
+    },
+    "body": {
+     "storage": {
+      "representation": "storage",
+      "value": "<h1>Identity &amp; Access Management</h1>\n<p>Home page for the IAM team. This space holds team logistics only.</p>\n<h2>Team</h2>\n<p>Director, Identity &amp; Access: Sofia Marin. Engineers: Elena Vasquez, Frank Osei, Grace Lund,\nHana Ito. Access Analyst: Ivan Petrov. Escalation to the CISO (Aarav Kapoor).</p>\n<h2>On-call &amp; contacts</h2>\n<p>IAM on-call rotation is published in the team calendar. For access requests and audits, raise a\nticket with the Identity &amp; Access Management assignment group in ServiceNow; access approvals and\nservice-identity registrations are tracked on the access register.</p>\n<h2>Systems of record</h2>\n<p>Directory and sign-in: Okta (users, groups, applications, and the System Log). Employment and\njoiner/leaver status: Keka. Tickets, approvals, and the admin-root register: ServiceNow.</p>\n"
+     }
+    },
+    "_links": {
+     "webui": "/spaces/SEC/pages/100200",
+     "self": "http://confluence.local.mock:8080/wiki/api/v2/pages/100200"
+    }
+   }
+  ]
+ }
+}

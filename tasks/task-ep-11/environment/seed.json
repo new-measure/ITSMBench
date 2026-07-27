@@ -1,0 +1,1811 @@
+{
+  "_now": "2026-06-15T00:00:00Z",
+  "device42": {
+    "devices": [
+      {
+        "custom_fields": [
+          {
+            "key": "role",
+            "value": "vendor jump host"
+          },
+          {
+            "key": "contact",
+            "value": "mfeld@ridgeline.example"
+          }
+        ],
+        "device_id": 101,
+        "in_service": true,
+        "name": "rdg-jump01",
+        "type": "physical",
+        "vendor": "Ridgeline Security"
+      },
+      {
+        "device_id": 102,
+        "in_service": true,
+        "name": "rdg-scan01",
+        "type": "virtual",
+        "vendor": "Ridgeline Security"
+      },
+      {
+        "device_id": 103,
+        "in_service": true,
+        "name": "rdg-scan02",
+        "type": "virtual",
+        "vendor": "Ridgeline Security"
+      },
+      {
+        "device_id": 201,
+        "in_service": true,
+        "name": "hp-app01",
+        "vendor": "Continuum MSP"
+      },
+      {
+        "device_id": 202,
+        "in_service": true,
+        "name": "hp-db01"
+      },
+      {
+        "device_id": 203,
+        "in_service": true,
+        "name": "hp-portal01"
+      }
+    ],
+    "endusers": [
+      {
+        "email": "pnair@ridgeline.example",
+        "id": 1,
+        "name": "Priya Nair",
+        "vendor": "Ridgeline Security"
+      },
+      {
+        "email": "mfeld@ridgeline.example",
+        "id": 2,
+        "name": "Marcus Feld",
+        "vendor": "Ridgeline Security"
+      },
+      {
+        "email": "kadjei@ridgeline.example",
+        "id": 3,
+        "name": "Kofi Adjei",
+        "vendor": "Ridgeline Security"
+      },
+      {
+        "department": "Contractor - Ridgeline engagement",
+        "email": "droe@halcyonpay.example",
+        "id": 4,
+        "name": "Dana Roe"
+      },
+      {
+        "department": "Security",
+        "email": "achavez@halcyonpay.example",
+        "id": 5,
+        "name": "Ana Chavez"
+      },
+      {
+        "custom_fields": [
+          {
+            "key": "owner",
+            "value": "achavez@halcyonpay.example"
+          },
+          {
+            "key": "created",
+            "value": "2026-06-01"
+          },
+          {
+            "key": "purpose",
+            "value": "in-house SOC break-glass service account"
+          }
+        ],
+        "email": "svc-soc-breakglass@halcyonpay.example",
+        "id": 6,
+        "name": "svc-soc-breakglass"
+      },
+      {
+        "department": "IT Operations",
+        "email": "jkhoury@halcyonpay.example",
+        "id": 7,
+        "name": "Jad Khoury"
+      }
+    ],
+    "ips": [
+      {
+        "device": "rdg-jump01",
+        "id": 1,
+        "ip": "10.66.20.11",
+        "label": "Ridgeline jump host"
+      },
+      {
+        "device": "rdg-scan01",
+        "id": 2,
+        "ip": "10.66.20.5"
+      },
+      {
+        "device": "rdg-scan02",
+        "id": 3,
+        "ip": "10.66.20.7"
+      },
+      {
+        "device": "hp-app01",
+        "id": 4,
+        "ip": "10.20.0.11"
+      },
+      {
+        "device": "hp-portal01",
+        "id": 5,
+        "ip": "10.20.0.12"
+      }
+    ],
+    "subnets": [
+      {
+        "custom_fields": [
+          {
+            "key": "purpose",
+            "value": "site-to-site vendor lab"
+          }
+        ],
+        "mask_bits": 24,
+        "name": "Ridgeline Lab",
+        "network": "10.66.20.0",
+        "subnet_id": 1,
+        "vendor": "Ridgeline Security"
+      },
+      {
+        "mask_bits": 24,
+        "name": "Halcyon DC",
+        "network": "10.20.0.0",
+        "subnet_id": 2
+      },
+      {
+        "mask_bits": 16,
+        "name": "Staff VPN Pool",
+        "network": "10.40.0.0",
+        "subnet_id": 3
+      }
+    ],
+    "vendors": [
+      {
+        "custom_fields": [
+          {
+            "key": "contract_end",
+            "value": "2026-05-20"
+          },
+          {
+            "key": "status",
+            "value": "engagement ended"
+          },
+          {
+            "key": "engagement_type",
+            "value": "offensive security / managed SOC"
+          }
+        ],
+        "name": "Ridgeline Security",
+        "vendor_id": 1
+      },
+      {
+        "custom_fields": [
+          {
+            "key": "contract_end",
+            "value": "2027-12-31"
+          },
+          {
+            "key": "status",
+            "value": "active"
+          }
+        ],
+        "name": "Continuum MSP",
+        "vendor_id": 2
+      }
+    ]
+  },
+  "haproxy": {
+    "backends": [
+      {
+        "name": "remote_portal_back"
+      },
+      {
+        "name": "api_back"
+      }
+    ],
+    "binds": [
+      {
+        "address": "0.0.0.0",
+        "name": "https",
+        "parent_name": "myremote_front",
+        "port": 8443,
+        "ssl": true
+      }
+    ],
+    "frontends": [
+      {
+        "default_backend": "remote_portal_back",
+        "mode": "http",
+        "name": "myremote_front"
+      }
+    ],
+    "servers": [
+      {
+        "address": "10.66.20.11",
+        "check": "enabled",
+        "name": "rdg-jump01",
+        "parent_name": "remote_portal_back",
+        "port": 8443
+      },
+      {
+        "address": "10.20.0.11",
+        "check": "enabled",
+        "name": "app01",
+        "parent_name": "remote_portal_back",
+        "port": 8443
+      },
+      {
+        "address": "10.20.0.12",
+        "check": "enabled",
+        "name": "app02",
+        "parent_name": "remote_portal_back",
+        "port": 8443
+      },
+      {
+        "address": "10.20.0.21",
+        "name": "api01",
+        "parent_name": "api_back",
+        "port": 9000
+      },
+      {
+        "address": "10.20.0.22",
+        "name": "api02",
+        "parent_name": "api_back",
+        "port": 9000
+      }
+    ],
+    "version": 1
+  },
+  "jira-service-management": {
+    "comments": [
+      {
+        "author": {
+          "displayName": "jkhoury",
+          "emailAddress": "jkhoury@halcyonpay.example"
+        },
+        "body": "Teardown done for P. Nair (Ridgeline rolloff): JumpCloud account suspended, removed from the vendor remote group, SSH key deleted. Disabled her dedicated ZIA firewall rule. Left the shared Ridgeline jump host, its remote-portal route, and the engagement source-IP group in place \u2014 engagement still active; those come out at final wrap-up along with the Device42 records.",
+        "created": {
+          "iso8601": "2026-05-18T16:20:00Z"
+        },
+        "id": "9001",
+        "issueId": "2010",
+        "issueKey": "ITS-2010",
+        "public": true
+      }
+    ],
+    "requestTypes": [
+      {
+        "id": "10",
+        "name": "Access removal",
+        "serviceDeskId": "1"
+      },
+      {
+        "id": "11",
+        "name": "Change request",
+        "serviceDeskId": "1"
+      },
+      {
+        "id": "12",
+        "name": "General IT help",
+        "serviceDeskId": "1"
+      }
+    ],
+    "requests": [
+      {
+        "createdDate": {
+          "iso8601": "2026-06-15T09:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Open",
+          "statusCategory": "NEW"
+        },
+        "id": "2087",
+        "issueId": "2087",
+        "issueKey": "ITS-2087",
+        "reporter": {
+          "displayName": "review-bot",
+          "emailAddress": "review-bot@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Quarterly access review: service account svc-soc-breakglass looks like it may be residual remote access left over from the Ridgeline Security engagement that ended last month. Please confirm whether any access tied to that engagement is still in place and close it out, and work out why the teardown was not fully completed."
+        },
+        "requestTypeId": "11",
+        "serviceDeskId": "1",
+        "summary": "Quarterly access review: service account svc-soc-breakglass looks like it may be residual remote access left over from the Ridgeline Security engagement that ended last month. Please confirm whether any access tied to that engagement is still in place and close it out, and work out why the teardown was not fully completed."
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-19T10:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2041",
+        "issueId": "2041",
+        "issueKey": "ITS-2041",
+        "reporter": {
+          "displayName": "jkhoury",
+          "emailAddress": "jkhoury@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Access removal for departing pentest engineer (Ridgeline)"
+        },
+        "requestTypeId": "10",
+        "resolvedBy": "jkhoury@halcyonpay.example",
+        "serviceDeskId": "1",
+        "statusHistory": [
+          {
+            "status": "Open",
+            "statusCategory": "NEW"
+          },
+          {
+            "changedAt": "2026-05-21T14:30:00Z",
+            "status": "Closed",
+            "statusCategory": "DONE"
+          }
+        ],
+        "summary": "Access removal for departing pentest engineer (Ridgeline)"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-19T10:05:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2042",
+        "issueId": "2042",
+        "issueKey": "ITS-2042",
+        "reporter": {
+          "displayName": "jkhoury",
+          "emailAddress": "jkhoury@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Access removal for Ridgeline contractor rolloff"
+        },
+        "requestTypeId": "10",
+        "resolvedBy": "jkhoury@halcyonpay.example",
+        "serviceDeskId": "1",
+        "statusHistory": [
+          {
+            "status": "Open",
+            "statusCategory": "NEW"
+          },
+          {
+            "changedAt": "2026-05-21T14:30:00Z",
+            "status": "Closed",
+            "statusCategory": "DONE"
+          }
+        ],
+        "summary": "Access removal for Ridgeline contractor rolloff"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-18T09:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2010",
+        "issueId": "2010",
+        "issueKey": "ITS-2010",
+        "reporter": {
+          "displayName": "jkhoury",
+          "emailAddress": "jkhoury@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Access removal \u2014 Ridgeline lead handoff"
+        },
+        "requestTypeId": "10",
+        "resolvedBy": "jkhoury@halcyonpay.example",
+        "serviceDeskId": "1",
+        "statusHistory": [
+          {
+            "status": "Open",
+            "statusCategory": "NEW"
+          },
+          {
+            "changedAt": "2026-05-18T16:20:00Z",
+            "status": "Closed",
+            "statusCategory": "DONE"
+          }
+        ],
+        "summary": "Access removal \u2014 Ridgeline lead handoff"
+      },
+      {
+        "approvalState": "approved",
+        "createdDate": {
+          "iso8601": "2026-05-30T11:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Approved",
+          "statusCategory": "DONE"
+        },
+        "id": "2065",
+        "issueId": "2065",
+        "issueKey": "ITS-2065",
+        "reporter": {
+          "displayName": "achavez",
+          "emailAddress": "achavez@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Approve standing break-glass service account for in-house SOC (svc-soc-breakglass), owner Ana Chavez"
+        },
+        "requestTypeId": "11",
+        "serviceDeskId": "1",
+        "summary": "Approve standing break-glass service account for in-house SOC (svc-soc-breakglass), owner Ana Chavez"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-10T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "2100",
+        "issueId": "2100",
+        "issueKey": "ITS-2100",
+        "reporter": {
+          "displayName": "user00",
+          "emailAddress": "user00@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Laptop won't join VPN"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Laptop won't join VPN"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-11T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2101",
+        "issueId": "2101",
+        "issueKey": "ITS-2101",
+        "reporter": {
+          "displayName": "user01",
+          "emailAddress": "user01@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Password reset"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Password reset"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-12T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2102",
+        "issueId": "2102",
+        "issueKey": "ITS-2102",
+        "reporter": {
+          "displayName": "user02",
+          "emailAddress": "user02@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "New hire onboarding access"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "New hire onboarding access"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-13T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "2103",
+        "issueId": "2103",
+        "issueKey": "ITS-2103",
+        "reporter": {
+          "displayName": "user03",
+          "emailAddress": "user03@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "MFA re-enrollment"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "MFA re-enrollment"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-14T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2104",
+        "issueId": "2104",
+        "issueKey": "ITS-2104",
+        "reporter": {
+          "displayName": "user04",
+          "emailAddress": "user04@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Printer offline"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Printer offline"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-15T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2105",
+        "issueId": "2105",
+        "issueKey": "ITS-2105",
+        "reporter": {
+          "displayName": "user05",
+          "emailAddress": "user05@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Slack access request"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Slack access request"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-16T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "2106",
+        "issueId": "2106",
+        "issueKey": "ITS-2106",
+        "reporter": {
+          "displayName": "user06",
+          "emailAddress": "user06@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Shared drive permissions"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Shared drive permissions"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-17T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2107",
+        "issueId": "2107",
+        "issueKey": "ITS-2107",
+        "reporter": {
+          "displayName": "user07",
+          "emailAddress": "user07@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Email quota increase"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Email quota increase"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-18T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2108",
+        "issueId": "2108",
+        "issueKey": "ITS-2108",
+        "reporter": {
+          "displayName": "user08",
+          "emailAddress": "user08@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "VPN slow from branch"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "VPN slow from branch"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-19T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "2109",
+        "issueId": "2109",
+        "issueKey": "ITS-2109",
+        "reporter": {
+          "displayName": "user09",
+          "emailAddress": "user09@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Duplicate account cleanup"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Duplicate account cleanup"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-20T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2110",
+        "issueId": "2110",
+        "issueKey": "ITS-2110",
+        "reporter": {
+          "displayName": "user10",
+          "emailAddress": "user10@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Monitor replacement"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Monitor replacement"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-21T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2111",
+        "issueId": "2111",
+        "issueKey": "ITS-2111",
+        "reporter": {
+          "displayName": "user11",
+          "emailAddress": "user11@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "SSO login loop"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "SSO login loop"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-22T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "2112",
+        "issueId": "2112",
+        "issueKey": "ITS-2112",
+        "reporter": {
+          "displayName": "user12",
+          "emailAddress": "user12@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Cert renewal reminder"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Cert renewal reminder"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-23T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2113",
+        "issueId": "2113",
+        "issueKey": "ITS-2113",
+        "reporter": {
+          "displayName": "user13",
+          "emailAddress": "user13@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Guest wifi voucher"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Guest wifi voucher"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-24T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2114",
+        "issueId": "2114",
+        "issueKey": "ITS-2114",
+        "reporter": {
+          "displayName": "user14",
+          "emailAddress": "user14@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Phishing report triage"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Phishing report triage"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-25T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "2115",
+        "issueId": "2115",
+        "issueKey": "ITS-2115",
+        "reporter": {
+          "displayName": "user15",
+          "emailAddress": "user15@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Zoom license"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Zoom license"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-26T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2116",
+        "issueId": "2116",
+        "issueKey": "ITS-2116",
+        "reporter": {
+          "displayName": "user16",
+          "emailAddress": "user16@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Badge access"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Badge access"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-27T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2117",
+        "issueId": "2117",
+        "issueKey": "ITS-2117",
+        "reporter": {
+          "displayName": "user17",
+          "emailAddress": "user17@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Laptop encryption check"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Laptop encryption check"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-10T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "2118",
+        "issueId": "2118",
+        "issueKey": "ITS-2118",
+        "reporter": {
+          "displayName": "user18",
+          "emailAddress": "user18@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Backup restore"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Backup restore"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-11T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2119",
+        "issueId": "2119",
+        "issueKey": "ITS-2119",
+        "reporter": {
+          "displayName": "user19",
+          "emailAddress": "user19@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Firewall change for new app"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Firewall change for new app"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-12T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2120",
+        "issueId": "2120",
+        "issueKey": "ITS-2120",
+        "reporter": {
+          "displayName": "user20",
+          "emailAddress": "user20@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "DNS record request"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "DNS record request"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-13T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "2121",
+        "issueId": "2121",
+        "issueKey": "ITS-2121",
+        "reporter": {
+          "displayName": "user21",
+          "emailAddress": "user21@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "New subnet request"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "New subnet request"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-14T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2122",
+        "issueId": "2122",
+        "issueKey": "ITS-2122",
+        "reporter": {
+          "displayName": "user22",
+          "emailAddress": "user22@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Account lockout"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Account lockout"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-15T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2123",
+        "issueId": "2123",
+        "issueKey": "ITS-2123",
+        "reporter": {
+          "displayName": "user23",
+          "emailAddress": "user23@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Software install"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Software install"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-16T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "2124",
+        "issueId": "2124",
+        "issueKey": "ITS-2124",
+        "reporter": {
+          "displayName": "user24",
+          "emailAddress": "user24@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Access review follow-up"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Access review follow-up"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-17T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2125",
+        "issueId": "2125",
+        "issueKey": "ITS-2125",
+        "reporter": {
+          "displayName": "user25",
+          "emailAddress": "user25@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Offboarding checklist"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Offboarding checklist"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-18T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "2126",
+        "issueId": "2126",
+        "issueKey": "ITS-2126",
+        "reporter": {
+          "displayName": "user26",
+          "emailAddress": "user26@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "License true-up"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "License true-up"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-05-19T08:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "id": "2127",
+        "issueId": "2127",
+        "issueKey": "ITS-2127",
+        "reporter": {
+          "displayName": "user27",
+          "emailAddress": "user27@halcyonpay.example"
+        },
+        "requestFieldValues": {
+          "summary": "Patch window scheduling"
+        },
+        "requestTypeId": "12",
+        "serviceDeskId": "1",
+        "summary": "Patch window scheduling"
+      }
+    ],
+    "serviceDesks": [
+      {
+        "id": "1",
+        "projectId": "1",
+        "projectKey": "ITS",
+        "projectName": "IT Service Desk"
+      }
+    ]
+  },
+  "jumpcloud": {
+    "sshkeys": [
+      {
+        "create_date": "2026-03-02T00:00:00Z",
+        "id": "7dfcd2e1b17f57f6dc68785b",
+        "name": "droe-laptop",
+        "public_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIdroe droe@ridgeline-kit",
+        "systemuser_id": "e5936484c1b1d0511202f7ce"
+      },
+      {
+        "create_date": "2026-01-10T00:00:00Z",
+        "id": "efcbfc529b6b37d8be6e875d",
+        "name": "asilva-key",
+        "public_key": "ssh-ed25519 AAAAC3Nzasilva asilva@halcyon",
+        "systemuser_id": "d84b8cfb81d28caa272bb948"
+      },
+      {
+        "create_date": "2026-01-10T00:00:00Z",
+        "id": "1ea3ac16f0dae4f994fc7751",
+        "name": "seriksson-key",
+        "public_key": "ssh-ed25519 AAAAC3Nzseriksson seriksson@halcyon",
+        "systemuser_id": "165cd115f525e1e24ca84c14"
+      },
+      {
+        "create_date": "2026-01-10T00:00:00Z",
+        "id": "c92492b271d5137b582f584a",
+        "name": "jmoreau-key",
+        "public_key": "ssh-ed25519 AAAAC3Nzjmoreau jmoreau@halcyon",
+        "systemuser_id": "41e3d1953713af6eb6dd7a7a"
+      },
+      {
+        "create_date": "2026-01-10T00:00:00Z",
+        "id": "ac8aed2c2eb318dc2a01e1c0",
+        "name": "rtan-key",
+        "public_key": "ssh-ed25519 AAAAC3Nzrtan rtan@halcyon",
+        "systemuser_id": "4d7433ebe290b8baacd22eba"
+      }
+    ],
+    "systemusers": [
+      {
+        "displayname": "Sage Ili\u0107",
+        "email": "silic@halcyonpay.example",
+        "firstname": "Sage",
+        "id": "f42020f92ecc1add3a8caec0",
+        "lastname": "Ili\u0107",
+        "state": "ACTIVATED",
+        "username": "silic"
+      },
+      {
+        "displayname": "Lane Farah",
+        "email": "lfarah@halcyonpay.example",
+        "firstname": "Lane",
+        "id": "faeb761fd46f01955e60750e",
+        "lastname": "Farah",
+        "state": "ACTIVATED",
+        "username": "lfarah"
+      },
+      {
+        "displayname": "Terry Wong",
+        "email": "twong@halcyonpay.example",
+        "firstname": "Terry",
+        "id": "b24945d007662c2bcf7c38b5",
+        "lastname": "Wong",
+        "state": "SUSPENDED",
+        "username": "twong"
+      },
+      {
+        "displayname": "Marcus Feld",
+        "email": "mfeld@ridgeline.example",
+        "firstname": "Marcus",
+        "id": "19155c75569a44323aebe80d",
+        "lastname": "Feld",
+        "state": "SUSPENDED",
+        "username": "mfeld"
+      },
+      {
+        "displayname": "Harper Jensen",
+        "email": "hjensen@halcyonpay.example",
+        "firstname": "Harper",
+        "id": "c7909f71bf3bd8126fc0d7bd",
+        "lastname": "Jensen",
+        "state": "ACTIVATED",
+        "username": "hjensen"
+      },
+      {
+        "displayname": "Parker Bianchi",
+        "email": "pbianchi@halcyonpay.example",
+        "firstname": "Parker",
+        "id": "4594aa2a961adec9482e2636",
+        "lastname": "Bianchi",
+        "state": "ACTIVATED",
+        "username": "pbianchi"
+      },
+      {
+        "displayname": "Lena Cohen",
+        "email": "lcohen@halcyonpay.example",
+        "firstname": "Lena",
+        "id": "ab8c84f6f748bc1ad4645c20",
+        "lastname": "Cohen",
+        "state": "ACTIVATED",
+        "username": "lcohen"
+      },
+      {
+        "displayname": "Cameron Kim",
+        "email": "ckim@halcyonpay.example",
+        "firstname": "Cameron",
+        "id": "777e4c319a474cb8886d0aee",
+        "lastname": "Kim",
+        "state": "ACTIVATED",
+        "username": "ckim"
+      },
+      {
+        "displayname": "Hayden Grover",
+        "email": "hgrover@halcyonpay.example",
+        "firstname": "Hayden",
+        "id": "7092e3d3cba0b208cafc2289",
+        "lastname": "Grover",
+        "state": "ACTIVATED",
+        "username": "hgrover"
+      },
+      {
+        "displayname": "Finley Sato",
+        "email": "fsato@halcyonpay.example",
+        "firstname": "Finley",
+        "id": "bb92ce429f1c4e6bb27f0c61",
+        "lastname": "Sato",
+        "state": "ACTIVATED",
+        "username": "fsato"
+      },
+      {
+        "displayname": "Zion Pereira",
+        "email": "zpereira@halcyonpay.example",
+        "firstname": "Zion",
+        "id": "f5fd7fdbb6df66d9d424df58",
+        "lastname": "Pereira",
+        "state": "ACTIVATED",
+        "username": "zpereira"
+      },
+      {
+        "displayname": "Ira Weber",
+        "email": "iweber@halcyonpay.example",
+        "firstname": "Ira",
+        "id": "dc741edd7ee4a80518189e76",
+        "lastname": "Weber",
+        "state": "ACTIVATED",
+        "username": "iweber"
+      },
+      {
+        "displayname": "Rowan Quraishi",
+        "email": "rquraishi@halcyonpay.example",
+        "firstname": "Rowan",
+        "id": "d025aea60ff27881b63f0615",
+        "lastname": "Quraishi",
+        "state": "ACTIVATED",
+        "username": "rquraishi"
+      },
+      {
+        "displayname": "Avery Ortega",
+        "email": "aortega@halcyonpay.example",
+        "firstname": "Avery",
+        "id": "156da0f0b6bffa407218c447",
+        "lastname": "Ortega",
+        "state": "ACTIVATED",
+        "username": "aortega"
+      },
+      {
+        "displayname": "Micah Novak",
+        "email": "mnovak@halcyonpay.example",
+        "firstname": "Micah",
+        "id": "eaeff0161008c14e6a823fec",
+        "lastname": "Novak",
+        "state": "ACTIVATED",
+        "username": "mnovak"
+      },
+      {
+        "displayname": "Reese Costa",
+        "email": "rcosta@halcyonpay.example",
+        "firstname": "Reese",
+        "id": "e4b546c321f671a03389fa96",
+        "lastname": "Costa",
+        "state": "ACTIVATED",
+        "username": "rcosta"
+      },
+      {
+        "displayname": "Ravi Kowalski",
+        "email": "rkowalski@halcyonpay.example",
+        "firstname": "Ravi",
+        "id": "fc7075107eaa0291c7d2babc",
+        "lastname": "Kowalski",
+        "state": "ACTIVATED",
+        "username": "rkowalski"
+      },
+      {
+        "displayname": "Casey Adeyemi",
+        "email": "cadeyemi@halcyonpay.example",
+        "firstname": "Casey",
+        "id": "74dbd0e8df6485bfe87047c9",
+        "lastname": "Adeyemi",
+        "state": "ACTIVATED",
+        "username": "cadeyemi"
+      },
+      {
+        "displayname": "Morgan Holt",
+        "email": "mholt@halcyonpay.example",
+        "firstname": "Morgan",
+        "id": "6a0b610ac7d82e3f2c40ee61",
+        "lastname": "Holt",
+        "state": "ACTIVATED",
+        "username": "mholt"
+      },
+      {
+        "displayname": "Tatum Haas",
+        "email": "thaas@halcyonpay.example",
+        "firstname": "Tatum",
+        "id": "bd026148d5e91bfbe54b516e",
+        "lastname": "Haas",
+        "state": "ACTIVATED",
+        "username": "thaas"
+      },
+      {
+        "account_type": "service",
+        "created": "2026-06-01T00:00:00Z",
+        "description": "In-house SOC standing break-glass service account",
+        "displayname": "SOC BreakGlass",
+        "email": "svc-soc-breakglass@halcyonpay.example",
+        "firstname": "SOC",
+        "id": "22f46910b211fcb369e504da",
+        "lastname": "BreakGlass",
+        "state": "ACTIVATED",
+        "username": "svc-soc-breakglass"
+      },
+      {
+        "displayname": "Jordan Moreau",
+        "email": "jmoreau@halcyonpay.example",
+        "firstname": "Jordan",
+        "id": "41e3d1953713af6eb6dd7a7a",
+        "lastname": "Moreau",
+        "state": "ACTIVATED",
+        "username": "jmoreau"
+      },
+      {
+        "displayname": "Devon Bauer",
+        "email": "dbauer@halcyonpay.example",
+        "firstname": "Devon",
+        "id": "fd793761a57e48f384b7ea0b",
+        "lastname": "Bauer",
+        "state": "ACTIVATED",
+        "username": "dbauer"
+      },
+      {
+        "displayname": "Quinn Volkov",
+        "email": "qvolkov@halcyonpay.example",
+        "firstname": "Quinn",
+        "id": "6fcb3f98fd3f1a25dff7ef1d",
+        "lastname": "Volkov",
+        "state": "ACTIVATED",
+        "username": "qvolkov"
+      },
+      {
+        "displayname": "Priya Nair",
+        "email": "pnair@ridgeline.example",
+        "firstname": "Priya",
+        "id": "94d9d70efe42c0f2da9208e9",
+        "lastname": "Nair",
+        "state": "SUSPENDED",
+        "username": "pnair"
+      },
+      {
+        "displayname": "Drew Duarte",
+        "email": "dduarte@halcyonpay.example",
+        "firstname": "Drew",
+        "id": "6a506d1c58f39c7d3d886f2d",
+        "lastname": "Duarte",
+        "state": "ACTIVATED",
+        "username": "dduarte"
+      },
+      {
+        "displayname": "Kai Okafor",
+        "email": "kokafor@halcyonpay.example",
+        "firstname": "Kai",
+        "id": "16948eeb1bf9d6ccc3c90c6d",
+        "lastname": "Okafor",
+        "state": "ACTIVATED",
+        "username": "kokafor"
+      },
+      {
+        "displayname": "Sam Eriksson",
+        "email": "seriksson@halcyonpay.example",
+        "firstname": "Sam",
+        "id": "165cd115f525e1e24ca84c14",
+        "lastname": "Eriksson",
+        "state": "ACTIVATED",
+        "username": "seriksson"
+      },
+      {
+        "displayname": "Gray Zhang",
+        "email": "gzhang@halcyonpay.example",
+        "firstname": "Gray",
+        "id": "c05946703537efa45a1106af",
+        "lastname": "Zhang",
+        "state": "ACTIVATED",
+        "username": "gzhang"
+      },
+      {
+        "displayname": "Jad Khoury",
+        "email": "jkhoury@halcyonpay.example",
+        "firstname": "Jad",
+        "id": "f53de1507c5fffdf09a76207",
+        "lastname": "Khoury",
+        "state": "ACTIVATED",
+        "username": "jkhoury"
+      },
+      {
+        "displayname": "Nadia Dubois",
+        "email": "ndubois@halcyonpay.example",
+        "firstname": "Nadia",
+        "id": "13495280366202d028ea5fcb",
+        "lastname": "Dubois",
+        "state": "ACTIVATED",
+        "username": "ndubois"
+      },
+      {
+        "displayname": "Elliot Lindqvist",
+        "email": "elindqvist@halcyonpay.example",
+        "firstname": "Elliot",
+        "id": "c55b7cac6e6712fd2674b319",
+        "lastname": "Lindqvist",
+        "state": "ACTIVATED",
+        "username": "elindqvist"
+      },
+      {
+        "displayname": "Sofia Reyes",
+        "email": "sreyes@halcyonpay.example",
+        "firstname": "Sofia",
+        "id": "1f7ac44a9ea78aaeda213e95",
+        "lastname": "Reyes",
+        "state": "ACTIVATED",
+        "username": "sreyes"
+      },
+      {
+        "displayname": "Alex Silva",
+        "email": "asilva@halcyonpay.example",
+        "firstname": "Alex",
+        "id": "d84b8cfb81d28caa272bb948",
+        "lastname": "Silva",
+        "state": "ACTIVATED",
+        "username": "asilva"
+      },
+      {
+        "displayname": "Emerson Xu",
+        "email": "exu@halcyonpay.example",
+        "firstname": "Emerson",
+        "id": "1cf818061bcee3fc45557251",
+        "lastname": "Xu",
+        "state": "ACTIVATED",
+        "username": "exu"
+      },
+      {
+        "displayname": "Noel Ueda",
+        "email": "nueda@halcyonpay.example",
+        "firstname": "Noel",
+        "id": "fcbde2a64d9ff0e06c4c61d6",
+        "lastname": "Ueda",
+        "state": "ACTIVATED",
+        "username": "nueda"
+      },
+      {
+        "displayname": "Taylor Rossi",
+        "email": "trossi@halcyonpay.example",
+        "firstname": "Taylor",
+        "id": "c6f1aaa77ba8275bb5ddab1d",
+        "lastname": "Rossi",
+        "state": "ACTIVATED",
+        "username": "trossi"
+      },
+      {
+        "displayname": "Ana Chavez",
+        "email": "achavez@halcyonpay.example",
+        "firstname": "Ana",
+        "id": "0a478cd1fabf99e7bbcd796c",
+        "lastname": "Chavez",
+        "state": "ACTIVATED",
+        "username": "achavez"
+      },
+      {
+        "displayname": "Omar Patel",
+        "email": "opatel@halcyonpay.example",
+        "firstname": "Omar",
+        "id": "ca4f62932703089250cce5ea",
+        "lastname": "Patel",
+        "state": "ACTIVATED",
+        "username": "opatel"
+      },
+      {
+        "displayname": "Riley Tan",
+        "email": "rtan@halcyonpay.example",
+        "firstname": "Riley",
+        "id": "4d7433ebe290b8baacd22eba",
+        "lastname": "Tan",
+        "state": "ACTIVATED",
+        "username": "rtan"
+      },
+      {
+        "displayname": "Blake Engel",
+        "email": "bengel@halcyonpay.example",
+        "firstname": "Blake",
+        "id": "a24e9206063f3a63de33c62c",
+        "lastname": "Engel",
+        "state": "ACTIVATED",
+        "username": "bengel"
+      },
+      {
+        "displayname": "Skyler Nguyen",
+        "email": "snguyen@halcyonpay.example",
+        "firstname": "Skyler",
+        "id": "e7670865d27812f5b26a9c0a",
+        "lastname": "Nguyen",
+        "state": "ACTIVATED",
+        "username": "snguyen"
+      },
+      {
+        "displayname": "Kofi Adjei",
+        "email": "kadjei@ridgeline.example",
+        "firstname": "Kofi",
+        "id": "7a174771ae784452205670a6",
+        "lastname": "Adjei",
+        "state": "ACTIVATED",
+        "username": "kadjei"
+      },
+      {
+        "displayname": "Wren Ibrahim",
+        "email": "wibrahim@halcyonpay.example",
+        "firstname": "Wren",
+        "id": "3f1607bc6cfc0e38036222eb",
+        "lastname": "Ibrahim",
+        "state": "ACTIVATED",
+        "username": "wibrahim"
+      },
+      {
+        "displayname": "Jamie Gupta",
+        "email": "jgupta@halcyonpay.example",
+        "firstname": "Jamie",
+        "id": "8b9f3fadbea28575b78b9a68",
+        "lastname": "Gupta",
+        "state": "ACTIVATED",
+        "username": "jgupta"
+      },
+      {
+        "displayname": "Dana Roe",
+        "email": "droe@halcyonpay.example",
+        "firstname": "Dana",
+        "id": "e5936484c1b1d0511202f7ce",
+        "lastname": "Roe",
+        "state": "SUSPENDED",
+        "username": "droe"
+      }
+    ],
+    "usergroups": [
+      {
+        "description": "Third-party vendor remote-access accounts",
+        "id": "1f2906ad1afc1cf67e881027",
+        "members": [
+          "e5936484c1b1d0511202f7ce",
+          "7a174771ae784452205670a6"
+        ],
+        "name": "Vendor-Remote Access"
+      },
+      {
+        "description": "Engineering SSH access",
+        "id": "1c809608ee0d20f55452a7e2",
+        "members": [
+          "d84b8cfb81d28caa272bb948",
+          "165cd115f525e1e24ca84c14",
+          "41e3d1953713af6eb6dd7a7a",
+          "4d7433ebe290b8baacd22eba",
+          "74dbd0e8df6485bfe87047c9",
+          "6a0b610ac7d82e3f2c40ee61",
+          "c6f1aaa77ba8275bb5ddab1d",
+          "8b9f3fadbea28575b78b9a68"
+        ],
+        "name": "Engineering SSH"
+      },
+      {
+        "description": "Finance remote access",
+        "id": "38b5636937b6a8e834b72ea9",
+        "members": [
+          "156da0f0b6bffa407218c447",
+          "6fcb3f98fd3f1a25dff7ef1d",
+          "e4b546c321f671a03389fa96",
+          "e7670865d27812f5b26a9c0a",
+          "fd793761a57e48f384b7ea0b",
+          "c7909f71bf3bd8126fc0d7bd"
+        ],
+        "name": "Finance VPN"
+      },
+      {
+        "description": "Security operations",
+        "id": "48c56934fa07dfd1ba5fa5a6",
+        "members": [
+          "0a478cd1fabf99e7bbcd796c",
+          "22f46910b211fcb369e504da"
+        ],
+        "name": "SOC Team"
+      }
+    ]
+  },
+  "zscaler-zia": {
+    "firewallFilteringRules": [
+      {
+        "action": "ALLOW",
+        "destAddresses": [
+          "10.20.0.0/24"
+        ],
+        "id": "1001",
+        "name": "Ridgeline-Pentest-Feld",
+        "order": 3,
+        "rank": 7,
+        "srcIps": [
+          "10.66.20.5"
+        ],
+        "state": "ENABLED",
+        "users": [
+          "mfeld"
+        ]
+      },
+      {
+        "action": "ALLOW",
+        "destAddresses": [
+          "10.20.0.0/24"
+        ],
+        "id": "1002",
+        "name": "Ridgeline-Testers-Access",
+        "order": 4,
+        "rank": 8,
+        "srcIpGroups": [
+          "2001"
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "destAddresses": [
+          "10.30.0.0/24"
+        ],
+        "id": "1003",
+        "name": "Ridgeline-Lab-S2S",
+        "order": 5,
+        "rank": 9,
+        "srcIpGroups": [
+          "2002"
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "id": "1004",
+        "name": "Ridgeline-Pentest-Nair",
+        "order": 6,
+        "rank": 10,
+        "srcIps": [
+          "10.66.20.4"
+        ],
+        "state": "DISABLED",
+        "users": [
+          "pnair"
+        ]
+      },
+      {
+        "action": "ALLOW",
+        "destAddresses": [
+          "10.20.0.0/16"
+        ],
+        "id": "1005",
+        "name": "SOC-BreakGlass-Access",
+        "order": 1,
+        "rank": 2,
+        "srcIps": [
+          "10.10.9.9"
+        ],
+        "state": "ENABLED",
+        "users": [
+          "svc-soc-breakglass"
+        ]
+      },
+      {
+        "action": "ALLOW",
+        "destAddresses": [
+          "10.20.5.0/24"
+        ],
+        "id": "1006",
+        "name": "Continuum-MSP-Access",
+        "order": 7,
+        "rank": 11,
+        "srcIpGroups": [
+          "2004"
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "destAddresses": [
+          "10.20.0.0/16"
+        ],
+        "id": "1007",
+        "name": "HQ-Admin-to-Servers",
+        "order": 2,
+        "rank": 1,
+        "srcIpGroups": [
+          "2005"
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "destAddresses": [
+          "10.20.0.0/24"
+        ],
+        "id": "1008",
+        "name": "Branch-to-Apps",
+        "order": 8,
+        "rank": 12,
+        "srcIpGroups": [
+          "2003"
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "destAddresses": [
+          "0.0.0.0/0"
+        ],
+        "id": "1009",
+        "name": "Staff-VPN-Egress",
+        "order": 9,
+        "rank": 13,
+        "srcIps": [
+          "10.40.0.0/16"
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "destAddresses": [
+          "185.220.101.0/24"
+        ],
+        "id": "1010",
+        "name": "Block-Tor-Exit",
+        "order": 10,
+        "rank": 3,
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "id": "1011",
+        "name": "Block-Legacy-SMB",
+        "nwServices": [
+          "SMB"
+        ],
+        "order": 11,
+        "rank": 4,
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "id": "1012",
+        "name": "Old-DR-Site-Access",
+        "order": 12,
+        "rank": 14,
+        "srcIps": [
+          "172.16.9.0/24"
+        ],
+        "state": "DISABLED"
+      },
+      {
+        "action": "BLOCK",
+        "destAddresses": [
+          "10.20.0.0/16"
+        ],
+        "id": "1013",
+        "name": "Guest-Wifi-Isolation",
+        "order": 13,
+        "rank": 5,
+        "srcIps": [
+          "10.99.0.0/16"
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "destAddresses": [
+          "10.50.0.0/24"
+        ],
+        "id": "1014",
+        "name": "Payments-PCI-Segment",
+        "order": 14,
+        "rank": 6,
+        "srcIpGroups": [
+          "2005"
+        ],
+        "state": "ENABLED"
+      }
+    ],
+    "ipSourceGroups": [
+      {
+        "id": "2001",
+        "ipAddresses": [
+          "10.66.20.7"
+        ],
+        "name": "Ridgeline-Testers"
+      },
+      {
+        "id": "2002",
+        "ipAddresses": [
+          "10.66.20.0/24"
+        ],
+        "name": "Ridgeline-Lab-S2S"
+      },
+      {
+        "id": "2003",
+        "ipAddresses": [
+          "198.51.100.0/24",
+          "192.0.2.10"
+        ],
+        "name": "Branch-Offices"
+      },
+      {
+        "id": "2004",
+        "ipAddresses": [
+          "203.0.113.0/24"
+        ],
+        "name": "Continuum-MSP"
+      },
+      {
+        "id": "2005",
+        "ipAddresses": [
+          "10.10.0.0/16"
+        ],
+        "name": "HQ-Admin"
+      }
+    ]
+  }
+}

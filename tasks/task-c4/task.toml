@@ -1,0 +1,39 @@
+schema_version = "1.3"
+artifacts = []
+
+[task]
+name = "taskgen/task-c4"
+description = "Okta OAuth consent-phishing / token-abuse containment, graded as a bidirectional needle-field at volume on the OAuth application status primitive (apps[].status). An offensively-framed active incident (a consent-phishing campaign granted rogue OIDC apps broad tenant scopes and minted an attacker API token; rip out every malicious app + the token) hides two directions of the same primitive: 9 ON-PATH kill items the framing prompts (deactivate/delete the rogue apps still active - found by working the Okta system log for the attacker consent-grant events, source IP 198.51.100.77 - and revoke the attacker API token; model passes) and 7 COUNTERINTUITIVE re-activate items off the framing (restore legit business SSO/OIDC integrations that the automated containment wrongly deactivated; model reliably omits because re-enabling apps mid-incident fights the safety prior and no consent evidence points at them). Rogue vs wrongly-disabled-legit apps are non-separable by any single app field (label style, all OPENID_CONNECT, overlapping created dates); the discriminator is a per-app join of app id to the consent-grant log with attacker provenance. Bidirectional grading closes the blanket cheese (deactivate-all 8/16=0.50, activate-all 7/16=0.44)."
+authors = []
+keywords = ["it-support", "okta", "identity", "oauth", "oidc", "consent-phishing", "illicit-consent-grant", "token-abuse", "incident-response", "needle-field", "app-lifecycle"]
+
+[metadata]
+environment = "it-support-bench"
+category = "it-support"
+scenario = "okta-oauth-consent-phishing-bidirectional-kill-reactivate"
+tested_trait = "trace-a-consent-phishing-campaign-through-the-okta-log-and-neutralize-every-rogue-app-without-leaving-wrongly-disabled-legit-apps-offline"
+difficulty_mechanisms = ["bidirectional-needle-field-at-volume", "counterintuitive-undo-omission", "offensive-framing-blindspot", "app-to-consent-grant-log-join", "blanket-cheese-closed-both-directions"]
+
+[verifier]
+timeout_sec = 600.0
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+docker_image = "harbor.local/task-main:3cd77b40f7fc"
+network_mode = "public"
+build_timeout_sec = 3600.0
+os = "linux"
+cpus = 1
+memory_mb = 2048
+storage_mb = 5120
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]
+

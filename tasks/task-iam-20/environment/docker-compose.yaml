@@ -1,0 +1,23 @@
+services:
+  main:
+    depends_on:
+      - mock-api
+
+  mock-api:
+    image: harbor.local/taskgen-emulator:a3dc8a1f0c35
+    pull_policy: never
+    environment:
+      EMULATOR_TOOLS: "gmail,google-workspace,servicenow,slack"
+      MOCK_SEED_PATH: /task/seed.json
+    volumes:
+      - ./seed.json:/task/seed.json:ro
+    expose:
+      - "8080"
+    networks:
+      default:
+        aliases:
+          - gmail.local.mock
+          - google-workspace.local.mock
+          - servicenow.local.mock
+          - slack.local.mock
+          - search.local.mock

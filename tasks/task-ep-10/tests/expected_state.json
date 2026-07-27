@@ -1,0 +1,1109 @@
+{
+  "claimed": [
+    "RLY-2183",
+    "RLY-2188",
+    "RLY-2190",
+    "RLY-2199",
+    "RLY-2201",
+    "RLY-2205",
+    "RLY-2214",
+    "RLY-2218"
+  ],
+  "correction_markers": [
+    "not",
+    "correction",
+    "errat",
+    "remov",
+    "pending",
+    "revert",
+    "4.7.1"
+  ],
+  "disputed": "RLY-2214",
+  "eng_space_id": "300",
+  "exception_keys": [
+    "RLY-2172",
+    "RLY-2190",
+    "RLY-2205",
+    "RLY-2214",
+    "RLY-2218",
+    "RLY-2301"
+  ],
+  "fix_fv_target": [
+    "RLY-2172"
+  ],
+  "merge_pr": {
+    "number": 455,
+    "repo": "relay-server"
+  },
+  "no_touch": [
+    "RLY-2183",
+    "RLY-2188",
+    "RLY-2199",
+    "RLY-2201"
+  ],
+  "notes_page_id": "3160",
+  "now": "2026-06-18T09:00:00.000Z",
+  "ops_project_id": "10420",
+  "org": "orbitware",
+  "patch_tag_regex": "^v?4\\.7\\.[1-9][0-9]*$",
+  "patch_ver_regex": "^4\\.7\\.[1-9][0-9]*$",
+  "preserved_pages": {
+    "3100": 1,
+    "3105": 2,
+    "3120": 2,
+    "3131": 1
+  },
+  "project_id": "10400",
+  "project_key": "RLY",
+  "publish_470": "2026-06-11T15:04:00.000Z",
+  "reland_pr": {
+    "number": 461,
+    "repo": "relay-server"
+  },
+  "release_repo": "relay-server",
+  "reopen_strip": [
+    "RLY-2190",
+    "RLY-2218"
+  ],
+  "repos": [
+    "relay-server",
+    "relay-console",
+    "ops-tools"
+  ],
+  "retarget": [
+    "RLY-2205",
+    "RLY-2214"
+  ],
+  "revert_pr": {
+    "number": 452,
+    "repo": "relay-server"
+  },
+  "reverted_orig_pr": {
+    "number": 444,
+    "repo": "relay-server"
+  },
+  "seeded_issue_state": {
+    "OPS-310": {
+      "fv": [],
+      "status": "Done"
+    },
+    "OPS-311": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "OPS-312": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "OPS-313": {
+      "fv": [],
+      "status": "Done"
+    },
+    "OPS-314": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "OPS-315": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "OPS-316": {
+      "fv": [],
+      "status": "Done"
+    },
+    "OPS-317": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "OPS-318": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "OPS-319": {
+      "fv": [],
+      "status": "Done"
+    },
+    "OPS-320": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "OPS-321": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "OPS-322": {
+      "fv": [],
+      "status": "Done"
+    },
+    "OPS-323": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "OPS-324": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "OPS-325": {
+      "fv": [],
+      "status": "Done"
+    },
+    "OPS-326": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "OPS-327": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "OPS-328": {
+      "fv": [],
+      "status": "Done"
+    },
+    "OPS-329": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "OPS-330": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "OPS-331": {
+      "fv": [],
+      "status": "Done"
+    },
+    "OPS-332": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "OPS-333": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "OPS-334": {
+      "fv": [],
+      "status": "Done"
+    },
+    "OPS-335": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "OPS-336": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "OPS-337": {
+      "fv": [],
+      "status": "Done"
+    },
+    "OPS-338": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "OPS-339": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "RLY-2100": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2101": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2104": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2107": {
+      "fv": [],
+      "status": "Done"
+    },
+    "RLY-2108": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "In Progress"
+    },
+    "RLY-2111": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "RLY-2114": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2115": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "RLY-2118": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2121": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2122": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2125": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2128": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2129": {
+      "fv": [],
+      "status": "Done"
+    },
+    "RLY-2132": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "In Progress"
+    },
+    "RLY-2135": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "RLY-2136": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2139": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "RLY-2142": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2143": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2145": {
+      "fv": [
+        "4.6.1"
+      ],
+      "status": "Done"
+    },
+    "RLY-2146": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2149": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2150": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2151": {
+      "fv": [
+        "4.6.1"
+      ],
+      "status": "Done"
+    },
+    "RLY-2153": {
+      "fv": [],
+      "status": "Done"
+    },
+    "RLY-2156": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "In Progress"
+    },
+    "RLY-2157": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "RLY-2160": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2163": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "RLY-2164": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2167": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2170": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2172": {
+      "fv": [
+        "4.7"
+      ],
+      "status": "Done"
+    },
+    "RLY-2174": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2177": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2181": {
+      "fv": [],
+      "status": "Done"
+    },
+    "RLY-2183": {
+      "fv": [
+        "4.7.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2184": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "In Progress"
+    },
+    "RLY-2188": {
+      "fv": [
+        "4.7.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2190": {
+      "fv": [
+        "4.7.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2191": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "RLY-2195": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2196": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "In Progress"
+    },
+    "RLY-2198": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "RLY-2199": {
+      "fv": [
+        "4.7.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2201": {
+      "fv": [
+        "4.7.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2202": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2205": {
+      "fv": [
+        "4.7.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2209": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2212": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2214": {
+      "fv": [
+        "4.7.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2216": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2218": {
+      "fv": [
+        "4.7.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2219": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2223": {
+      "fv": [],
+      "status": "Done"
+    },
+    "RLY-2226": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "In Progress"
+    },
+    "RLY-2230": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "RLY-2233": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2237": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "RLY-2240": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2244": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2247": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2251": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2254": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2258": {
+      "fv": [],
+      "status": "Done"
+    },
+    "RLY-2261": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "In Progress"
+    },
+    "RLY-2265": {
+      "fv": [],
+      "status": "To Do"
+    },
+    "RLY-2268": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2272": {
+      "fv": [],
+      "status": "In Progress"
+    },
+    "RLY-2275": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2279": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2282": {
+      "fv": [
+        "4.6.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2286": {
+      "fv": [
+        "4.5.0"
+      ],
+      "status": "Done"
+    },
+    "RLY-2289": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "To Do"
+    },
+    "RLY-2293": {
+      "fv": [],
+      "status": "Done"
+    },
+    "RLY-2296": {
+      "fv": [
+        "4.8.0"
+      ],
+      "status": "In Progress"
+    },
+    "RLY-2301": {
+      "fv": [],
+      "status": "To Do"
+    }
+  },
+  "seeded_pr_state": {
+    "ops-tools": {
+      "21": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-07T15:00:00.000Z"
+      },
+      "22": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-10T15:00:00.000Z"
+      },
+      "23": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-13T15:00:00.000Z"
+      },
+      "24": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-16T15:00:00.000Z"
+      },
+      "25": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-19T15:00:00.000Z"
+      },
+      "26": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-22T15:00:00.000Z"
+      },
+      "27": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-25T15:00:00.000Z"
+      },
+      "28": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-28T15:00:00.000Z"
+      },
+      "30": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-10T09:00:00.000Z"
+      },
+      "31": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-11T09:00:00.000Z"
+      }
+    },
+    "relay-console": {
+      "170": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-16T13:00:00.000Z"
+      },
+      "171": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-17T13:00:00.000Z"
+      },
+      "172": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-18T13:00:00.000Z"
+      },
+      "173": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-19T13:00:00.000Z"
+      },
+      "174": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-20T13:00:00.000Z"
+      },
+      "175": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-21T13:00:00.000Z"
+      },
+      "176": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-22T13:00:00.000Z"
+      },
+      "177": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-23T13:00:00.000Z"
+      },
+      "186": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-11T10:00:00.000Z"
+      },
+      "189": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-12T09:30:00.000Z"
+      },
+      "190": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-04T12:00:00.000Z"
+      },
+      "191": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-05T12:00:00.000Z"
+      },
+      "192": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-06T12:00:00.000Z"
+      },
+      "193": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-07T12:00:00.000Z"
+      },
+      "194": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-08T12:00:00.000Z"
+      },
+      "195": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-09T12:00:00.000Z"
+      },
+      "196": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-10T12:00:00.000Z"
+      },
+      "197": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-11T12:00:00.000Z"
+      },
+      "198": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-12T12:00:00.000Z"
+      },
+      "199": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-13T12:00:00.000Z"
+      },
+      "200": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-14T12:00:00.000Z"
+      },
+      "201": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-15T12:00:00.000Z"
+      },
+      "202": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-16T12:00:00.000Z"
+      },
+      "203": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-17T12:00:00.000Z"
+      },
+      "204": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-08T15:30:00.000Z"
+      },
+      "208": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-03T14:00:00.000Z"
+      },
+      "209": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-05T14:00:00.000Z"
+      },
+      "210": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-10T14:00:00.000Z"
+      },
+      "215": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-09T17:45:00.000Z"
+      },
+      "219": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-13T10:00:00.000Z"
+      },
+      "220": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-14T10:00:00.000Z"
+      },
+      "221": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-15T10:00:00.000Z"
+      },
+      "222": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-16T10:00:00.000Z"
+      }
+    },
+    "relay-server": {
+      "401": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-05T10:00:00.000Z"
+      },
+      "402": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-06T11:13:00.000Z"
+      },
+      "403": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-07T12:26:00.000Z"
+      },
+      "404": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-08T13:39:00.000Z"
+      },
+      "405": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-09T14:52:00.000Z"
+      },
+      "406": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-10T15:05:00.000Z"
+      },
+      "407": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-11T10:18:00.000Z"
+      },
+      "408": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-12T11:31:00.000Z"
+      },
+      "409": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-13T12:44:00.000Z"
+      },
+      "410": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-14T13:57:00.000Z"
+      },
+      "411": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-04T15:00:00.000Z"
+      },
+      "412": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-06T15:00:00.000Z"
+      },
+      "413": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-08T15:00:00.000Z"
+      },
+      "414": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-10T15:00:00.000Z"
+      },
+      "415": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-12T15:00:00.000Z"
+      },
+      "416": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-14T15:00:00.000Z"
+      },
+      "417": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-16T15:00:00.000Z"
+      },
+      "418": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-18T15:00:00.000Z"
+      },
+      "419": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-20T15:00:00.000Z"
+      },
+      "420": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-22T15:00:00.000Z"
+      },
+      "421": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-24T15:00:00.000Z"
+      },
+      "422": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-04-26T15:00:00.000Z"
+      },
+      "427": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-26T12:10:00.000Z"
+      },
+      "429": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-05-27T14:45:00.000Z"
+      },
+      "431": {
+        "merged": false,
+        "state": "closed",
+        "updated_at": "2026-05-15T09:00:00.000Z"
+      },
+      "433": {
+        "merged": false,
+        "state": "closed",
+        "updated_at": "2026-05-16T09:00:00.000Z"
+      },
+      "435": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-04T11:20:00.000Z"
+      },
+      "436": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-02T12:00:00.000Z"
+      },
+      "438": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-04T13:00:00.000Z"
+      },
+      "440": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-06T14:00:00.000Z"
+      },
+      "441": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-05T09:40:00.000Z"
+      },
+      "442": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-09T15:00:00.000Z"
+      },
+      "444": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-08T13:05:00.000Z"
+      },
+      "447": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-10T10:30:00.000Z"
+      },
+      "449": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-12T10:15:00.000Z"
+      },
+      "452": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-09T03:12:00.000Z"
+      },
+      "455": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-10T16:40:00.000Z"
+      },
+      "458": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-13T11:30:00.000Z"
+      },
+      "459": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-14T11:30:00.000Z"
+      },
+      "460": {
+        "merged": true,
+        "state": "closed",
+        "updated_at": "2026-06-15T11:30:00.000Z"
+      },
+      "461": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-10T18:05:00.000Z"
+      },
+      "464": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-12T09:00:00.000Z"
+      },
+      "465": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-13T10:00:00.000Z"
+      },
+      "466": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-14T11:00:00.000Z"
+      },
+      "467": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-15T12:00:00.000Z"
+      },
+      "468": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-16T13:00:00.000Z"
+      },
+      "469": {
+        "merged": false,
+        "state": "open",
+        "updated_at": "2026-06-12T14:00:00.000Z"
+      }
+    }
+  },
+  "seeded_releases": [
+    "v4.5.0",
+    "v4.6.0",
+    "v4.6.1",
+    "v4.7.0"
+  ],
+  "seeded_versions": {
+    "4.5.0": true,
+    "4.6.0": true,
+    "4.6.1": true,
+    "4.7": false,
+    "4.7.0": true,
+    "4.8.0": false
+  },
+  "target_ver": "4.7.0",
+  "trigger": "RLY-2301"
+}

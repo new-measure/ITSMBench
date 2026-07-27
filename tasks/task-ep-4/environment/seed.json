@@ -1,0 +1,1507 @@
+{
+  "_now": "2026-07-20T00:00:00Z",
+  "device42": {
+    "devices": [
+      {
+        "device_id": 5000,
+        "in_service": true,
+        "name": "lb-edge-00",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5001,
+        "in_service": true,
+        "name": "lb-edge-01",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5002,
+        "in_service": true,
+        "name": "lb-edge-02",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5003,
+        "in_service": true,
+        "name": "lb-edge-03",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5004,
+        "in_service": true,
+        "name": "lb-edge-04",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5005,
+        "in_service": true,
+        "name": "lb-edge-05",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5006,
+        "in_service": true,
+        "name": "lb-edge-06",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5007,
+        "in_service": true,
+        "name": "lb-edge-07",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5008,
+        "in_service": true,
+        "name": "lb-edge-08",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5009,
+        "in_service": true,
+        "name": "lb-edge-09",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5010,
+        "in_service": true,
+        "name": "lb-edge-10",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5011,
+        "in_service": true,
+        "name": "lb-edge-11",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5012,
+        "in_service": true,
+        "name": "lb-edge-12",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5013,
+        "in_service": true,
+        "name": "lb-edge-13",
+        "type": "virtual"
+      },
+      {
+        "device_id": 5014,
+        "in_service": true,
+        "name": "lb-edge-14",
+        "type": "virtual"
+      }
+    ],
+    "ips": [
+      {
+        "device": "lb-edge-00",
+        "id": 6000,
+        "ip": "10.30.0.11",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-01",
+        "id": 6001,
+        "ip": "10.30.0.12",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-02",
+        "id": 6002,
+        "ip": "10.30.0.13",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-03",
+        "id": 6003,
+        "ip": "10.30.0.14",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-04",
+        "id": 6004,
+        "ip": "10.30.0.15",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-05",
+        "id": 6005,
+        "ip": "10.30.0.16",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-06",
+        "id": 6006,
+        "ip": "10.30.0.17",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-07",
+        "id": 6007,
+        "ip": "10.30.0.18",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-08",
+        "id": 6008,
+        "ip": "10.30.0.19",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-09",
+        "id": 6009,
+        "ip": "10.30.0.20",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-10",
+        "id": 6010,
+        "ip": "10.30.0.21",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-11",
+        "id": 6011,
+        "ip": "10.30.0.22",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-12",
+        "id": 6012,
+        "ip": "10.30.0.23",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-13",
+        "id": 6013,
+        "ip": "10.30.0.24",
+        "label": "vip"
+      },
+      {
+        "device": "lb-edge-14",
+        "id": 6014,
+        "ip": "10.30.0.25",
+        "label": "vip"
+      }
+    ],
+    "service_listener_ports": [
+      {
+        "displayname": "portal.example.com:443",
+        "id": 4500,
+        "port": 443,
+        "protocol": "tcp",
+        "service_name": "portal.example.com"
+      },
+      {
+        "displayname": "dash.example.com:443",
+        "id": 4501,
+        "port": 443,
+        "protocol": "tcp",
+        "service_name": "dash.example.com"
+      },
+      {
+        "displayname": "auth.example.com:443",
+        "id": 4502,
+        "port": 443,
+        "protocol": "tcp",
+        "service_name": "auth.example.com"
+      },
+      {
+        "displayname": "billing.example.com:443",
+        "id": 4503,
+        "port": 443,
+        "protocol": "tcp",
+        "service_name": "billing.example.com"
+      },
+      {
+        "displayname": "metrics.example.com:443",
+        "id": 4504,
+        "port": 443,
+        "protocol": "tcp",
+        "service_name": "metrics.example.com"
+      },
+      {
+        "displayname": "shop.example.com:443",
+        "id": 4505,
+        "port": 443,
+        "protocol": "tcp",
+        "service_name": "shop.example.com"
+      },
+      {
+        "displayname": "sec.example.com:443",
+        "id": 4506,
+        "port": 443,
+        "protocol": "tcp",
+        "service_name": "sec.example.com"
+      }
+    ],
+    "services": [
+      {
+        "displayname": "portal.example.com",
+        "id": 4000,
+        "name": "portal.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "dash.example.com",
+        "id": 4001,
+        "name": "dash.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "auth.example.com",
+        "id": 4002,
+        "name": "auth.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "billing.example.com",
+        "id": 4003,
+        "name": "billing.example.com",
+        "notes": "PCI cardholder-data-environment; externally-facing payment API; production",
+        "service_level": "production",
+        "tags": "pci,production,external"
+      },
+      {
+        "displayname": "metrics.example.com",
+        "id": 4004,
+        "name": "metrics.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "shop.example.com",
+        "id": 4005,
+        "name": "shop.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "sec.example.com",
+        "id": 4006,
+        "name": "sec.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "analytics.example.com",
+        "id": 4007,
+        "name": "analytics.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "web.example.com",
+        "id": 4008,
+        "name": "web.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "blog.example.com",
+        "id": 4009,
+        "name": "blog.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "status.example.com",
+        "id": 4010,
+        "name": "status.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "docs.example.com",
+        "id": 4011,
+        "name": "docs.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "vault.example.com",
+        "id": 4012,
+        "name": "vault.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "git.example.com",
+        "id": 4013,
+        "name": "git.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      },
+      {
+        "displayname": "wiki.example.com",
+        "id": 4014,
+        "name": "wiki.example.com",
+        "notes": "externally-facing HTTPS service",
+        "service_level": "production"
+      }
+    ]
+  },
+  "haproxy": {
+    "backends": [
+      {
+        "mode": "http",
+        "name": "be_portal"
+      },
+      {
+        "mode": "http",
+        "name": "be_dash"
+      },
+      {
+        "mode": "http",
+        "name": "be_auth"
+      },
+      {
+        "mode": "http",
+        "name": "be_shop"
+      },
+      {
+        "mode": "http",
+        "name": "be_sec"
+      },
+      {
+        "mode": "http",
+        "name": "be_web"
+      }
+    ],
+    "binds": [
+      {
+        "address": "10.30.0.11",
+        "name": "https",
+        "parent_name": "fe_portal",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.12",
+        "name": "https",
+        "parent_name": "fe_dash",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.13",
+        "name": "https",
+        "parent_name": "fe_auth",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.14",
+        "name": "https",
+        "parent_name": "fe_ing_01",
+        "port": 443,
+        "ssl": true,
+        "ssl_certificate": "/etc/haproxy/ssl/corp-wildcard-2024.pem"
+      },
+      {
+        "address": "10.30.0.15",
+        "name": "https",
+        "parent_name": "fe_metrics",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.16",
+        "name": "https",
+        "parent_name": "fe_shop",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.17",
+        "name": "https",
+        "parent_name": "fe_sec",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.18",
+        "name": "https",
+        "parent_name": "fe_analytics",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.19",
+        "name": "https",
+        "parent_name": "fe_web",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.20",
+        "name": "https",
+        "parent_name": "fe_blog",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.21",
+        "name": "https",
+        "parent_name": "fe_status",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.22",
+        "name": "https",
+        "parent_name": "fe_docs",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.23",
+        "name": "https",
+        "parent_name": "fe_vault",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.24",
+        "name": "https",
+        "parent_name": "fe_git",
+        "port": 443,
+        "ssl": true
+      },
+      {
+        "address": "10.30.0.25",
+        "name": "https",
+        "parent_name": "fe_wiki",
+        "port": 443,
+        "ssl": true
+      }
+    ],
+    "frontends": [
+      {
+        "mode": "http",
+        "name": "fe_portal"
+      },
+      {
+        "mode": "http",
+        "name": "fe_dash"
+      },
+      {
+        "mode": "http",
+        "name": "fe_auth"
+      },
+      {
+        "mode": "http",
+        "name": "fe_ing_01"
+      },
+      {
+        "mode": "http",
+        "name": "fe_metrics"
+      },
+      {
+        "mode": "http",
+        "name": "fe_shop"
+      },
+      {
+        "mode": "http",
+        "name": "fe_sec"
+      },
+      {
+        "mode": "http",
+        "name": "fe_analytics"
+      },
+      {
+        "mode": "http",
+        "name": "fe_web"
+      },
+      {
+        "mode": "http",
+        "name": "fe_blog"
+      },
+      {
+        "mode": "http",
+        "name": "fe_status"
+      },
+      {
+        "mode": "http",
+        "name": "fe_docs"
+      },
+      {
+        "mode": "http",
+        "name": "fe_vault"
+      },
+      {
+        "mode": "http",
+        "name": "fe_git"
+      },
+      {
+        "mode": "http",
+        "name": "fe_wiki"
+      }
+    ],
+    "servers": [
+      {
+        "address": "10.31.0.11",
+        "name": "portal1",
+        "parent_name": "be_portal",
+        "port": 8443
+      },
+      {
+        "address": "10.31.0.12",
+        "name": "portal2",
+        "parent_name": "be_portal",
+        "port": 8443
+      },
+      {
+        "address": "10.31.0.11",
+        "name": "dash1",
+        "parent_name": "be_dash",
+        "port": 8443
+      },
+      {
+        "address": "10.31.0.12",
+        "name": "dash2",
+        "parent_name": "be_dash",
+        "port": 8443
+      },
+      {
+        "address": "10.31.0.11",
+        "name": "auth1",
+        "parent_name": "be_auth",
+        "port": 8443
+      },
+      {
+        "address": "10.31.0.12",
+        "name": "auth2",
+        "parent_name": "be_auth",
+        "port": 8443
+      },
+      {
+        "address": "10.31.0.11",
+        "name": "shop1",
+        "parent_name": "be_shop",
+        "port": 8443
+      },
+      {
+        "address": "10.31.0.12",
+        "name": "shop2",
+        "parent_name": "be_shop",
+        "port": 8443
+      },
+      {
+        "address": "10.31.0.11",
+        "name": "sec1",
+        "parent_name": "be_sec",
+        "port": 8443
+      },
+      {
+        "address": "10.31.0.12",
+        "name": "sec2",
+        "parent_name": "be_sec",
+        "port": 8443
+      },
+      {
+        "address": "10.31.0.11",
+        "name": "web1",
+        "parent_name": "be_web",
+        "port": 8443
+      },
+      {
+        "address": "10.31.0.12",
+        "name": "web2",
+        "parent_name": "be_web",
+        "port": 8443
+      }
+    ],
+    "sslCertificates": [
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/corp-wildcard-2024.pem",
+        "name": "/etc/haproxy/ssl/corp-wildcard-2024.pem",
+        "storage_name": "/etc/haproxy/ssl/corp-wildcard-2024.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/portal-example-2026.pem",
+        "name": "/etc/haproxy/ssl/portal-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/portal-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/dash-example-2026.pem",
+        "name": "/etc/haproxy/ssl/dash-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/dash-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/auth-example-2026.pem",
+        "name": "/etc/haproxy/ssl/auth-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/auth-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/billing-example-2026.pem",
+        "name": "/etc/haproxy/ssl/billing-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/billing-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/metrics-example-2026.pem",
+        "name": "/etc/haproxy/ssl/metrics-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/metrics-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/shop-example-2026.pem",
+        "name": "/etc/haproxy/ssl/shop-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/shop-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/sec-example-2026.pem",
+        "name": "/etc/haproxy/ssl/sec-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/sec-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/analytics-example-2026.pem",
+        "name": "/etc/haproxy/ssl/analytics-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/analytics-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/web-example-2026.pem",
+        "name": "/etc/haproxy/ssl/web-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/web-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/blog-example-2026.pem",
+        "name": "/etc/haproxy/ssl/blog-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/blog-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/status-example-2026.pem",
+        "name": "/etc/haproxy/ssl/status-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/status-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/docs-example-2026.pem",
+        "name": "/etc/haproxy/ssl/docs-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/docs-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/vault-example-2026.pem",
+        "name": "/etc/haproxy/ssl/vault-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/vault-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/git-example-2026.pem",
+        "name": "/etc/haproxy/ssl/git-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/git-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/wiki-example-2026.pem",
+        "name": "/etc/haproxy/ssl/wiki-example-2026.pem",
+        "storage_name": "/etc/haproxy/ssl/wiki-example-2026.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/auth-example-2026-r2.pem",
+        "name": "/etc/haproxy/ssl/auth-example-2026-r2.pem",
+        "storage_name": "/etc/haproxy/ssl/auth-example-2026-r2.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/legacy-shop-2022.pem",
+        "name": "/etc/haproxy/ssl/legacy-shop-2022.pem",
+        "storage_name": "/etc/haproxy/ssl/legacy-shop-2022.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/old-vpn-2021.pem",
+        "name": "/etc/haproxy/ssl/old-vpn-2021.pem",
+        "storage_name": "/etc/haproxy/ssl/old-vpn-2021.pem"
+      },
+      {
+        "description": "SSL certificate /etc/haproxy/ssl/star-internal-2023.pem",
+        "name": "/etc/haproxy/ssl/star-internal-2023.pem",
+        "storage_name": "/etc/haproxy/ssl/star-internal-2023.pem"
+      }
+    ],
+    "sslFrontUses": [
+      {
+        "certificate": "/etc/haproxy/ssl/corp-wildcard-2024.pem",
+        "index": 0,
+        "parent_name": "fe_portal"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/dash-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_dash"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/corp-wildcard-2024.pem",
+        "index": 1,
+        "parent_name": "fe_dash"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/auth-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_auth"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/analytics-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_metrics"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/shop-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_shop"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/sec-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_sec"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/analytics-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_analytics"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/web-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_web"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/blog-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_blog"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/status-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_status"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/docs-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_docs"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/vault-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_vault"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/git-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_git"
+      },
+      {
+        "certificate": "/etc/haproxy/ssl/wiki-example-2026.pem",
+        "index": 0,
+        "parent_name": "fe_wiki"
+      }
+    ],
+    "version": 1
+  },
+  "infoblox-nios": {
+    "a_records": [
+      {
+        "ipv4addr": "10.30.0.11",
+        "name": "portal.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.12",
+        "name": "dash.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.13",
+        "name": "auth.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.14",
+        "name": "billing.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.15",
+        "name": "metrics.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.16",
+        "name": "shop.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.17",
+        "name": "sec.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.18",
+        "name": "analytics.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.19",
+        "name": "web.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.20",
+        "name": "blog.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.21",
+        "name": "status.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.22",
+        "name": "docs.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.23",
+        "name": "vault.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.24",
+        "name": "git.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.30.0.25",
+        "name": "wiki.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.32.0.20",
+        "name": "ldap.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.32.0.21",
+        "name": "smtp.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.32.0.22",
+        "name": "ntp.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.32.0.23",
+        "name": "backup.example.com",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.32.0.24",
+        "name": "jump.example.com",
+        "view": "default"
+      }
+    ],
+    "cname_records": [
+      {
+        "canonical": "portal.example.com",
+        "name": "www.example.com"
+      },
+      {
+        "canonical": "metrics.example.com",
+        "name": "grafana.example.com"
+      },
+      {
+        "canonical": "billing.example.com",
+        "name": "pay.example.com"
+      }
+    ],
+    "zones": [
+      {
+        "fqdn": "example.com",
+        "view": "default"
+      }
+    ]
+  },
+  "pagerduty": {
+    "incidents": [
+      {
+        "created_at": "2026-04-10T02:00:00Z",
+        "id": "P38BD65",
+        "incident_number": 5501,
+        "service": {
+          "summary": "sec.example.com"
+        },
+        "status": "triggered",
+        "title": "TLS certificate expiring: sec.example.com",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-07-17T02:00:00Z",
+        "id": "PD410CD",
+        "incident_number": 5540,
+        "service": {
+          "summary": "portal.example.com"
+        },
+        "status": "triggered",
+        "title": "TLS certificate expiring: portal.example.com",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-07-19T06:12:00Z",
+        "id": "P13D578",
+        "incident_number": 5541,
+        "service": {
+          "summary": "db-03"
+        },
+        "status": "triggered",
+        "title": "db-03 disk usage 92%",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-05-02T03:00:00Z",
+        "id": "P89EA14",
+        "incident_number": 5502,
+        "service": {
+          "summary": "jump-01"
+        },
+        "status": "resolved",
+        "title": "ntp drift on jump-01",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-07-10T09:00:00Z",
+        "id": "PD98B45",
+        "incident_number": 5539,
+        "service": {
+          "summary": "web.example.com"
+        },
+        "status": "resolved",
+        "title": "elevated 5xx on web.example.com",
+        "urgency": "high"
+      }
+    ],
+    "services": [
+      {
+        "id": "P865A56",
+        "name": "edge-tls",
+        "status": "critical"
+      }
+    ],
+    "users": [
+      {
+        "description": "",
+        "email": "c.okafor@example.com",
+        "id": "P70E3D9",
+        "job_title": "Network Engineer",
+        "name": "Chidi Okafor",
+        "role": "user",
+        "summary": "Chidi Okafor",
+        "teams": [],
+        "time_zone": "America/Chicago",
+        "type": "user"
+      },
+      {
+        "description": "",
+        "email": "m.reyes@example.com",
+        "id": "PB45E71",
+        "job_title": "Systems Engineer",
+        "name": "Marisol Reyes",
+        "role": "user",
+        "summary": "Marisol Reyes",
+        "teams": [],
+        "time_zone": "America/Chicago",
+        "type": "user"
+      },
+      {
+        "description": "",
+        "email": "s.patel@example.com",
+        "id": "P9EE42B",
+        "job_title": "Infrastructure Lead",
+        "name": "Sanjay Patel",
+        "role": "admin",
+        "summary": "Sanjay Patel",
+        "teams": [],
+        "time_zone": "America/New_York",
+        "type": "user"
+      },
+      {
+        "description": "",
+        "email": "d.whitmore@example.com",
+        "id": "P246BF8",
+        "job_title": "NOC Analyst",
+        "name": "Dana Whitmore",
+        "role": "user",
+        "summary": "Dana Whitmore",
+        "teams": [],
+        "time_zone": "America/Chicago",
+        "type": "user"
+      },
+      {
+        "description": "",
+        "email": "j.lindqvist@example.com",
+        "id": "P569C67",
+        "job_title": "Site Reliability Engineer",
+        "name": "Johan Lindqvist",
+        "role": "user",
+        "summary": "Johan Lindqvist",
+        "teams": [],
+        "time_zone": "Europe/Stockholm",
+        "type": "user"
+      },
+      {
+        "description": "",
+        "email": "a.nakamura@example.com",
+        "id": "P97E329",
+        "job_title": "Site Reliability Engineer",
+        "name": "Aiko Nakamura",
+        "role": "user",
+        "summary": "Aiko Nakamura",
+        "teams": [],
+        "time_zone": "America/Los_Angeles",
+        "type": "user"
+      },
+      {
+        "description": "",
+        "email": "t.boateng@example.com",
+        "id": "P91D3E6",
+        "job_title": "NOC Analyst",
+        "name": "Theo Boateng",
+        "role": "limited_user",
+        "summary": "Theo Boateng",
+        "teams": [],
+        "time_zone": "America/New_York",
+        "type": "user"
+      },
+      {
+        "description": "",
+        "email": "r.castellanos@example.com",
+        "id": "P01EB29",
+        "job_title": "Network Engineer",
+        "name": "Rocio Castellanos",
+        "role": "user",
+        "summary": "Rocio Castellanos",
+        "teams": [],
+        "time_zone": "America/Chicago",
+        "type": "user"
+      },
+      {
+        "description": "",
+        "email": "k.olsen@example.com",
+        "id": "PBEF609",
+        "job_title": "Systems Engineer",
+        "name": "Kirsten Olsen",
+        "role": "user",
+        "summary": "Kirsten Olsen",
+        "teams": [],
+        "time_zone": "Europe/Copenhagen",
+        "type": "user"
+      },
+      {
+        "description": "",
+        "email": "b.aziz@example.com",
+        "id": "PE4B27A",
+        "job_title": "Service Desk Analyst",
+        "name": "Bilal Aziz",
+        "role": "limited_user",
+        "summary": "Bilal Aziz",
+        "teams": [],
+        "time_zone": "America/Chicago",
+        "type": "user"
+      },
+      {
+        "description": "",
+        "email": "e.tran@example.com",
+        "id": "P44BD8E",
+        "job_title": "Site Reliability Engineer",
+        "name": "Emily Tran",
+        "role": "user",
+        "summary": "Emily Tran",
+        "teams": [],
+        "time_zone": "America/Los_Angeles",
+        "type": "user"
+      },
+      {
+        "description": "",
+        "email": "g.moretti@example.com",
+        "id": "P81B3D4",
+        "job_title": "Engineering Manager",
+        "name": "Giulia Moretti",
+        "role": "observer",
+        "summary": "Giulia Moretti",
+        "teams": [],
+        "time_zone": "Europe/Rome",
+        "type": "user"
+      }
+    ]
+  },
+  "servicenow": {
+    "change_request": [
+      {
+        "assigned_to": "c.okafor",
+        "category": "Network",
+        "close_code": "",
+        "closed_at": "",
+        "closed_by": "",
+        "number": "CHG0044101",
+        "opened_at": "2026-04-13T09:00:00Z",
+        "short_description": "Migrate portal.example.com from corp wildcard to per-service certificate",
+        "state": "-1",
+        "sys_id": "da2405f71951d8450fe5599b563fd1c2",
+        "type": "standard"
+      },
+      {
+        "assigned_to": "c.okafor",
+        "category": "Network",
+        "close_code": "successful",
+        "closed_at": "2026-04-15T17:20:00Z",
+        "closed_by": "c.okafor",
+        "number": "CHG0044102",
+        "opened_at": "2026-04-13T09:00:00Z",
+        "short_description": "Migrate dash.example.com from corp wildcard to per-service certificate",
+        "state": "3",
+        "sys_id": "a815c2b60b6510447782709a8438b3d8",
+        "type": "standard"
+      },
+      {
+        "assigned_to": "c.okafor",
+        "category": "Network",
+        "close_code": "successful",
+        "closed_at": "2026-04-14T16:10:00Z",
+        "closed_by": "c.okafor",
+        "number": "CHG0044103",
+        "opened_at": "2026-04-13T09:00:00Z",
+        "short_description": "Migrate auth.example.com from corp wildcard to per-service certificate",
+        "state": "3",
+        "sys_id": "38196e4bb957137e12cdcce0b19c3654",
+        "type": "standard"
+      },
+      {
+        "assigned_to": "c.okafor",
+        "category": "Network",
+        "close_code": "",
+        "closed_at": "",
+        "closed_by": "",
+        "number": "CHG0044111",
+        "opened_at": "2026-04-20T11:00:00Z",
+        "short_description": "Re-issue auth.example.com certificate - first 2026 cert was minted with a 30-day validity by mistake",
+        "state": "-1",
+        "sys_id": "f7b6d195ed72b9cdbc375ee0ae0594ac",
+        "type": "standard"
+      },
+      {
+        "assigned_to": "c.okafor",
+        "category": "Network",
+        "close_code": "successful",
+        "closed_at": "2026-04-16T15:00:00Z",
+        "closed_by": "c.okafor",
+        "number": "CHG0044104",
+        "opened_at": "2026-04-13T09:00:00Z",
+        "short_description": "Migrate metrics.example.com from corp wildcard to per-service certificate",
+        "state": "3",
+        "sys_id": "b82e87e296cd4d3193ed3da8f9bdb9cc",
+        "type": "standard"
+      },
+      {
+        "assigned_to": "c.okafor",
+        "category": "Network",
+        "close_code": "successful",
+        "closed_at": "2026-04-13T15:30:00Z",
+        "closed_by": "c.okafor",
+        "number": "CHG0044105",
+        "opened_at": "2026-04-13T09:00:00Z",
+        "short_description": "Migrate shop.example.com from corp wildcard to per-service certificate",
+        "state": "3",
+        "sys_id": "09fac15b4b3ad945de2533231db2468a",
+        "type": "standard"
+      },
+      {
+        "assigned_to": "c.okafor",
+        "category": "Network",
+        "close_code": "successful",
+        "closed_at": "2026-04-16T18:40:00Z",
+        "closed_by": "c.okafor",
+        "number": "CHG0044106",
+        "opened_at": "2026-04-13T09:00:00Z",
+        "short_description": "Migrate sec.example.com from corp wildcard to per-service certificate",
+        "state": "3",
+        "sys_id": "07cbae285ab6c46192ec530f2a4e9015",
+        "type": "standard"
+      },
+      {
+        "assigned_to": "s.patel",
+        "category": "Network",
+        "close_code": "successful",
+        "closed_at": "2026-02-02T12:00:00Z",
+        "closed_by": "s.patel",
+        "number": "CHG0043980",
+        "opened_at": "2026-02-01T09:00:00Z",
+        "short_description": "Increase connection limit on edge load balancers",
+        "state": "3",
+        "sys_id": "6cd8c51eba51b2e78774e033a9600667",
+        "type": "standard"
+      },
+      {
+        "assigned_to": "m.reyes",
+        "category": "Network",
+        "close_code": "successful",
+        "closed_at": "2026-06-11T12:00:00Z",
+        "closed_by": "m.reyes",
+        "number": "CHG0044210",
+        "opened_at": "2026-06-10T09:00:00Z",
+        "short_description": "Rotate DNS forwarders in datacenter B",
+        "state": "3",
+        "sys_id": "810f502d9aedcdd2d8cd47bcd269d4d0",
+        "type": "standard"
+      },
+      {
+        "assigned_to": "s.patel",
+        "category": "Network",
+        "close_code": "",
+        "closed_at": "",
+        "closed_by": "",
+        "number": "CHG0044255",
+        "opened_at": "2026-07-01T09:00:00Z",
+        "short_description": "Decommission legacy internal wildcard *.internal.example.com",
+        "state": "-1",
+        "sys_id": "bea1360a8312b938d78a27d91b73073c",
+        "type": "standard"
+      }
+    ],
+    "cmdb_ci_certificate": [
+      {
+        "install_status": "1",
+        "name": "analytics.example.com",
+        "serial_number": "5b2b7f28b333404f",
+        "subject": "analytics.example.com",
+        "sys_id": "9ab993d24cdd8fea7169d52c75651d60",
+        "u_deployed_path": "/etc/haproxy/ssl/analytics-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "analytics.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "auth.example.com",
+        "serial_number": "adb11fe006c5a5c8",
+        "subject": "auth.example.com",
+        "sys_id": "9516c0a0fd737ccf9317ddbce18374d2",
+        "u_deployed_path": "/etc/haproxy/ssl/auth-example-2026-r2.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "auth.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "auth.example.com",
+        "serial_number": "7dfe7355f8ad727c",
+        "subject": "auth.example.com",
+        "sys_id": "4a3d3def52aeac7c4f965f0adac6a80e",
+        "u_deployed_path": "/etc/haproxy/ssl/auth-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "auth.example.com",
+        "valid_to": "2026-08-10T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "billing.example.com",
+        "serial_number": "ccd090397cd76ae7",
+        "subject": "billing.example.com",
+        "sys_id": "0ab91b065efa1a1d46c461c75bd9870c",
+        "u_deployed_path": "/etc/haproxy/ssl/billing-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "billing.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "blog.example.com",
+        "serial_number": "0b16a34b1f88f770",
+        "subject": "blog.example.com",
+        "sys_id": "f335b673ca8b5163ed8f1a982474fd4f",
+        "u_deployed_path": "/etc/haproxy/ssl/blog-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "blog.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "*.example.com",
+        "serial_number": "a428818035d00a24",
+        "subject": "*.example.com",
+        "sys_id": "7f00837ea6b853d48aba9aae601e651c",
+        "u_deployed_path": "/etc/haproxy/ssl/corp-wildcard-2024.pem",
+        "u_issuer": "Northwind Legacy Root CA",
+        "u_san": "*.example.com",
+        "valid_to": "2026-08-05T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "dash.example.com",
+        "serial_number": "8d008732ee7baf0b",
+        "subject": "dash.example.com",
+        "sys_id": "60bb75dd316e7da99764cc5b0a2155b3",
+        "u_deployed_path": "/etc/haproxy/ssl/dash-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "dash.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "docs.example.com",
+        "serial_number": "ff68288507fe7b44",
+        "subject": "docs.example.com",
+        "sys_id": "9c48c0ec8155b5647ace147afe4abce6",
+        "u_deployed_path": "/etc/haproxy/ssl/docs-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "docs.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "git.example.com",
+        "serial_number": "b8f0b71da875853a",
+        "subject": "git.example.com",
+        "sys_id": "1c7fd346f2bcadd00c648bf240e82f25",
+        "u_deployed_path": "/etc/haproxy/ssl/git-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "git.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "shop.example.com",
+        "serial_number": "a5c608ab3146d641",
+        "subject": "shop.example.com",
+        "sys_id": "57d29d8f37f6d2f7ffee871feaf3730c",
+        "u_deployed_path": "/etc/haproxy/ssl/legacy-shop-2022.pem",
+        "u_issuer": "Northwind Legacy Root CA",
+        "u_san": "shop.example.com",
+        "valid_to": "2023-09-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "metrics.example.com",
+        "serial_number": "7e0836320319befe",
+        "subject": "metrics.example.com",
+        "sys_id": "55e02754106aca9fee7c7ba7757a94ce",
+        "u_deployed_path": "/etc/haproxy/ssl/metrics-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "metrics.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "vpn.example.com",
+        "serial_number": "863a3b06110dddb0",
+        "subject": "vpn.example.com",
+        "sys_id": "33ff251f8768ca55ac0285c7d55f40f7",
+        "u_deployed_path": "/etc/haproxy/ssl/old-vpn-2021.pem",
+        "u_issuer": "Northwind Legacy Root CA",
+        "u_san": "vpn.example.com",
+        "valid_to": "2022-06-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "portal.example.com",
+        "serial_number": "160a4199dfd2b47e",
+        "subject": "portal.example.com",
+        "sys_id": "9e5b6d5b29a6149c5bc3951b887db461",
+        "u_deployed_path": "/etc/haproxy/ssl/portal-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "portal.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "sec.example.com",
+        "serial_number": "6d8f8c97094f5de7",
+        "subject": "sec.example.com",
+        "sys_id": "6f53e86d3d24c00a9f36e93d713f098d",
+        "u_deployed_path": "/etc/haproxy/ssl/sec-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "sec.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "shop.example.com",
+        "serial_number": "dd4d5e0d17b6c776",
+        "subject": "shop.example.com",
+        "sys_id": "dc760a5c0062ac9a252aa101c0f395bd",
+        "u_deployed_path": "/etc/haproxy/ssl/shop-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "shop.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "*.internal.example.com",
+        "serial_number": "9e4dee785ac5c397",
+        "subject": "*.internal.example.com",
+        "sys_id": "8cc9377c61cd4be38dbfd3225b212f45",
+        "u_deployed_path": "/etc/haproxy/ssl/star-internal-2023.pem",
+        "u_issuer": "Northwind Legacy Root CA",
+        "u_san": "*.internal.example.com",
+        "valid_to": "2024-03-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "status.example.com",
+        "serial_number": "d01737f3c424c2bc",
+        "subject": "status.example.com",
+        "sys_id": "cfe7b175e296599abbda609e41c04599",
+        "u_deployed_path": "/etc/haproxy/ssl/status-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "status.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "vault.example.com",
+        "serial_number": "719726ee9ec6d285",
+        "subject": "vault.example.com",
+        "sys_id": "9285081fa99171bf17b29a9efe444224",
+        "u_deployed_path": "/etc/haproxy/ssl/vault-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "vault.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "web.example.com",
+        "serial_number": "de8f851c3f88eef7",
+        "subject": "web.example.com",
+        "sys_id": "83516ffbc19e7cd36e6be98883ca60e0",
+        "u_deployed_path": "/etc/haproxy/ssl/web-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "web.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      },
+      {
+        "install_status": "1",
+        "name": "wiki.example.com",
+        "serial_number": "626093f4b9524e98",
+        "subject": "wiki.example.com",
+        "sys_id": "2d833af47574c6ddc4e65537645cb22a",
+        "u_deployed_path": "/etc/haproxy/ssl/wiki-example-2026.pem",
+        "u_issuer": "Northwind Issuing CA 2",
+        "u_san": "wiki.example.com",
+        "valid_to": "2027-08-01T00:00:00Z"
+      }
+    ],
+    "incident": [
+      {
+        "assigned_to": "",
+        "category": "network",
+        "description": "On-call was paged that sec.example.com is still on the old wildcard certificate and will fail within days. Confirm we are not about to take a TLS outage, and get to the bottom of why this slipped through - the wildcard was meant to be retired last quarter.",
+        "number": "INC0107731",
+        "opened_at": "2026-07-18T14:02:00Z",
+        "opened_by": "pagerduty.integration",
+        "priority": "1",
+        "short_description": "Monitoring flagged sec.example.com serving a soon-to-expire certificate",
+        "state": "2",
+        "sys_created_on": "2026-07-18T14:02:00Z",
+        "sys_id": "3251dfacf35f68db2e9a81fd943602ed"
+      }
+    ]
+  }
+}

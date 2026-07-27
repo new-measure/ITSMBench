@@ -1,0 +1,819 @@
+{
+ "_now": "2026-07-20T09:00:00.000Z",
+ "servicenow": {
+  "change_request": [],
+  "incident": [
+   {
+    "category": "compliance",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Prior-year external-sharing review - CLOSED. Lesson written down: a workspace being 'locked down' at the top level is NOT proof the data inside it is safe. Last cycle we flipped tenant/site sharing settings and removed a few guest accounts and called it done - but the individual share links people had already created kept right on working, and outside reviewers still reached the files. The rule we learned: check the real exposure on every layer for a sensitive workspace - the site setting, who has access, the links on the actual documents, and the library defaults - and judge each against how the workspace is classified and whether the sharing was ever formally approved. Only trust what you have verified end to end.",
+    "closed_at": "2025-04-22 17:00:00",
+    "description": "Prior-year data-oversharing cleanup. See close notes for lessons learned.",
+    "number": "INC0027655",
+    "priority": "3",
+    "short_description": "External-sharing / oversharing review (prior year) - lessons learned",
+    "state": "7",
+    "sys_created_on": "2025-04-01 08:00:00",
+    "sys_id": "e2333e5edba121c471614ab60ff29e07",
+    "sys_updated_on": "2025-04-22 17:00:00"
+   },
+   {
+    "category": "compliance",
+    "description": "We are days out from our SOC 2 + privacy review and our compliance monitor is failing two data-protection checks: sensitive workspaces are open to external sharing, and classified documents are reachable through anonymous links. This is the fallout of a year of unmanaged site sprawl and an external-sharing lockdown that was started but never finished.\n\nAs the data-protection analyst, please make the ACTUAL exposure state of our collaboration estate correct: go workspace by workspace and stop the real oversharing of sensitive data, wherever it actually lives, while leaving alone anything that is legitimately open or has been formally signed off. Do not assume a workspace is fine just because part of it was already cleaned up. Our workspace classifications and any signed-off sharing arrangements are tracked in our ServiceNow registers.\n\nThe Marketing Brand Kit is our intentionally public workspace and is already approved to be shared externally, so that one is fine as-is. When the real exposure is genuinely cleaned up, close this ticket.",
+    "number": "INC0030001",
+    "priority": "1",
+    "short_description": "Data-oversharing cleanup - make actual exposure state correct before SOC 2 / privacy review",
+    "state": "2",
+    "sys_created_on": "2026-07-20 09:00:00",
+    "sys_id": "166b8ffefcc97588f3d7f1bbfd87338c",
+    "sys_updated_on": "2026-07-20 09:00:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   }
+  ],
+  "u_data_exception": [
+   {
+    "sys_created_on": "2026-05-02 10:00:00",
+    "sys_id": "24812112a3dfdee3640f47f428250f27",
+    "sys_updated_on": "2026-05-02 10:00:00",
+    "u_approved_by": "privacy.office@acme.example",
+    "u_note": "Approval covers this specific grant only; it does not exempt the workspace itself from least-privilege sharing posture.",
+    "u_number": "DEX0001001",
+    "u_scope": "external co-funding partner (write)",
+    "u_site": "site-sales",
+    "u_state": "approved",
+    "u_target": "perm-sales-exc",
+    "u_target_type": "permission",
+    "u_valid_to": "2027-03-31"
+   },
+   {
+    "sys_created_on": "2026-05-02 10:05:00",
+    "sys_id": "4a15905c5ac3045563adcd810113807d",
+    "sys_updated_on": "2026-05-02 10:05:00",
+    "u_approved_by": "privacy.office@acme.example",
+    "u_note": "Approval covers this specific link only; it does not exempt the workspace itself from least-privilege sharing posture.",
+    "u_number": "DEX0001002",
+    "u_scope": "partner one-pager, anonymous view",
+    "u_site": "site-sales",
+    "u_state": "approved",
+    "u_target": "item-sales-exc",
+    "u_target_type": "driveItem",
+    "u_valid_to": "2027-06-30"
+   },
+   {
+    "sys_created_on": "2026-06-11 14:00:00",
+    "sys_id": "d41265ab2f32425db6e6bf2e7f3863e3",
+    "sys_updated_on": "2026-06-12 09:00:00",
+    "u_approved_by": "privacy.office@acme.example",
+    "u_number": "DEX0001003",
+    "u_scope": "customer PII export, anonymous",
+    "u_site": "site-sales",
+    "u_state": "rejected",
+    "u_target": "item-sales-rej",
+    "u_target_type": "driveItem",
+    "u_valid_to": "2027-01-15"
+   },
+   {
+    "sys_created_on": "2025-11-01 09:00:00",
+    "sys_id": "b2358ddc7906b16706154ba2b6b46bbf",
+    "sys_updated_on": "2025-11-01 09:00:00",
+    "u_approved_by": "privacy.office@acme.example",
+    "u_number": "DEX0001004",
+    "u_scope": "payroll file for prior-year audit, anonymous",
+    "u_site": "site-hr",
+    "u_state": "approved",
+    "u_target": "item-hr-1",
+    "u_target_type": "driveItem",
+    "u_valid_to": "2026-03-31"
+   }
+  ],
+  "u_site": [
+   {
+    "sys_created_on": "2025-02-01 08:00:00",
+    "sys_id": "1ab318c1a335edf7d649e6f4f659929a",
+    "sys_updated_on": "2026-07-20 09:00:00",
+    "u_classification": "Public",
+    "u_key": "site-brand",
+    "u_name": "Marketing Brand Kit",
+    "u_status": "active",
+    "u_url": "https://acme.sharepoint.com/sites/brand"
+   },
+   {
+    "sys_created_on": "2025-02-01 08:00:00",
+    "sys_id": "a80863a1a825bccc5dd77c7d485231e3",
+    "sys_updated_on": "2026-07-20 09:00:00",
+    "u_classification": "Confidential",
+    "u_key": "site-fin",
+    "u_name": "Finance Close FY26",
+    "u_status": "active",
+    "u_url": "https://acme.sharepoint.com/sites/fin"
+   },
+   {
+    "sys_created_on": "2025-02-01 08:00:00",
+    "sys_id": "99815b9693423a1b45057a8b12756718",
+    "sys_updated_on": "2026-07-20 09:00:00",
+    "u_classification": "Restricted",
+    "u_key": "site-hr",
+    "u_name": "People & Payroll",
+    "u_status": "active",
+    "u_url": "https://acme.sharepoint.com/sites/hr"
+   },
+   {
+    "sys_created_on": "2025-02-01 08:00:00",
+    "sys_id": "715892148611871730d84ca07d3eca1e",
+    "sys_updated_on": "2026-07-20 09:00:00",
+    "u_classification": "Confidential",
+    "u_key": "site-legal",
+    "u_name": "Legal Matters",
+    "u_status": "active",
+    "u_url": "https://acme.sharepoint.com/sites/legal"
+   },
+   {
+    "sys_created_on": "2025-02-01 08:00:00",
+    "sys_id": "def2a6b985992c2780d831f8d48bb338",
+    "sys_updated_on": "2026-07-20 09:00:00",
+    "u_classification": "Confidential",
+    "u_key": "site-sales",
+    "u_name": "Sales Deal Room",
+    "u_status": "active",
+    "u_url": "https://acme.sharepoint.com/sites/sales"
+   },
+   {
+    "sys_created_on": "2025-02-01 08:00:00",
+    "sys_id": "1eb6aa0cf8f0164b5cf8fbd2c41d0cfa",
+    "sys_updated_on": "2026-07-20 09:00:00",
+    "u_classification": "Confidential",
+    "u_key": "site-ops",
+    "u_name": "Ops Runbooks",
+    "u_status": "active",
+    "u_url": "https://acme.sharepoint.com/sites/ops"
+   },
+   {
+    "sys_created_on": "2025-02-01 08:00:00",
+    "sys_id": "a78fb16cab3135ab922819e1616b125c",
+    "sys_updated_on": "2026-07-20 09:00:00",
+    "u_classification": "Internal",
+    "u_key": "site-eng",
+    "u_name": "Engineering Wiki",
+    "u_status": "active",
+    "u_url": "https://acme.sharepoint.com/sites/eng"
+   },
+   {
+    "sys_created_on": "2025-02-01 08:00:00",
+    "sys_id": "1f6567d2ac7cb66670244d0860acb99a",
+    "sys_updated_on": "2026-07-20 09:00:00",
+    "u_classification": "Confidential",
+    "u_key": "site-old",
+    "u_name": "Project Zephyr (retired)",
+    "u_status": "retired",
+    "u_url": "https://acme.sharepoint.com/sites/old"
+   }
+  ]
+ },
+ "sharepoint": {
+  "columns": [],
+  "contentTypes": [],
+  "driveItems": [
+   {
+    "driveId": "drive-fin",
+    "file": {
+     "mimeType": "application/octet-stream"
+    },
+    "id": "item-fin-1",
+    "link": {
+     "scope": "anonymous",
+     "type": "edit"
+    },
+    "name": "FY26_close_model.xlsx",
+    "parentReference": {
+     "driveId": "drive-fin",
+     "id": "root",
+     "siteId": "site-fin"
+    },
+    "siteId": "site-fin",
+    "size": 2048
+   },
+   {
+    "driveId": "drive-hr",
+    "file": {
+     "mimeType": "application/octet-stream"
+    },
+    "id": "item-hr-1",
+    "link": {
+     "scope": "anonymous",
+     "type": "view"
+    },
+    "name": "payroll_run_march.csv",
+    "parentReference": {
+     "driveId": "drive-hr",
+     "id": "root",
+     "siteId": "site-hr"
+    },
+    "siteId": "site-hr",
+    "size": 2048
+   },
+   {
+    "driveId": "drive-legal",
+    "file": {
+     "mimeType": "application/octet-stream"
+    },
+    "id": "item-legal-1",
+    "link": {
+     "scope": "anonymous",
+     "type": "edit"
+    },
+    "name": "settlement_draft.docx",
+    "parentReference": {
+     "driveId": "drive-legal",
+     "id": "root",
+     "siteId": "site-legal"
+    },
+    "siteId": "site-legal",
+    "size": 2048
+   },
+   {
+    "driveId": "drive-legal",
+    "file": {
+     "mimeType": "application/octet-stream"
+    },
+    "id": "item-legal-2",
+    "link": {
+     "scope": "anonymous",
+     "type": "view"
+    },
+    "name": "nda_matrix.xlsx",
+    "parentReference": {
+     "driveId": "drive-legal",
+     "id": "root",
+     "siteId": "site-legal"
+    },
+    "siteId": "site-legal",
+    "size": 2048
+   },
+   {
+    "driveId": "drive-sales",
+    "file": {
+     "mimeType": "application/octet-stream"
+    },
+    "id": "item-sales-1",
+    "link": {
+     "scope": "anonymous",
+     "type": "edit"
+    },
+    "name": "pipeline_master.xlsx",
+    "parentReference": {
+     "driveId": "drive-sales",
+     "id": "root",
+     "siteId": "site-sales"
+    },
+    "siteId": "site-sales",
+    "size": 2048
+   },
+   {
+    "driveId": "drive-sales",
+    "file": {
+     "mimeType": "application/octet-stream"
+    },
+    "id": "item-sales-rej",
+    "link": {
+     "scope": "anonymous",
+     "type": "view"
+    },
+    "name": "customer_pii_export.csv",
+    "parentReference": {
+     "driveId": "drive-sales",
+     "id": "root",
+     "siteId": "site-sales"
+    },
+    "siteId": "site-sales",
+    "size": 2048
+   },
+   {
+    "driveId": "drive-brand",
+    "file": {
+     "mimeType": "application/octet-stream"
+    },
+    "id": "item-brand-1",
+    "link": {
+     "scope": "anonymous",
+     "type": "view"
+    },
+    "name": "logo_pack.zip",
+    "parentReference": {
+     "driveId": "drive-brand",
+     "id": "root",
+     "siteId": "site-brand"
+    },
+    "siteId": "site-brand",
+    "size": 2048
+   },
+   {
+    "driveId": "drive-fin",
+    "file": {
+     "mimeType": "application/octet-stream"
+    },
+    "id": "item-fin-org",
+    "link": {
+     "scope": "organization",
+     "type": "view"
+    },
+    "name": "close_calendar.pdf",
+    "parentReference": {
+     "driveId": "drive-fin",
+     "id": "root",
+     "siteId": "site-fin"
+    },
+    "siteId": "site-fin",
+    "size": 2048
+   },
+   {
+    "driveId": "drive-sales",
+    "file": {
+     "mimeType": "application/octet-stream"
+    },
+    "id": "item-sales-exc",
+    "link": {
+     "scope": "anonymous",
+     "type": "view"
+    },
+    "name": "partner_onepager.pdf",
+    "parentReference": {
+     "driveId": "drive-sales",
+     "id": "root",
+     "siteId": "site-sales"
+    },
+    "siteId": "site-sales",
+    "size": 2048
+   },
+   {
+    "driveId": "drive-eng",
+    "file": {
+     "mimeType": "application/octet-stream"
+    },
+    "id": "item-eng-org",
+    "link": {
+     "scope": "organization",
+     "type": "edit"
+    },
+    "name": "arch_diagram.png",
+    "parentReference": {
+     "driveId": "drive-eng",
+     "id": "root",
+     "siteId": "site-eng"
+    },
+    "siteId": "site-eng",
+    "size": 2048
+   },
+   {
+    "driveId": "drive-fin",
+    "file": {
+     "mimeType": "application/octet-stream"
+    },
+    "id": "item-fin-exp",
+    "link": {
+     "expirationDateTime": "2026-01-05T00:00:00Z",
+     "scope": "anonymous",
+     "type": "view"
+    },
+    "name": "old_forecast.xlsx",
+    "parentReference": {
+     "driveId": "drive-fin",
+     "id": "root",
+     "siteId": "site-fin"
+    },
+    "siteId": "site-fin",
+    "size": 2048
+   }
+  ],
+  "drives": [
+   {
+    "default": true,
+    "driveType": "documentLibrary",
+    "id": "drive-brand",
+    "name": "Documents",
+    "siteId": "site-brand"
+   },
+   {
+    "default": true,
+    "driveType": "documentLibrary",
+    "id": "drive-fin",
+    "name": "Documents",
+    "siteId": "site-fin"
+   },
+   {
+    "default": true,
+    "driveType": "documentLibrary",
+    "id": "drive-hr",
+    "name": "Documents",
+    "siteId": "site-hr"
+   },
+   {
+    "default": true,
+    "driveType": "documentLibrary",
+    "id": "drive-legal",
+    "name": "Documents",
+    "siteId": "site-legal"
+   },
+   {
+    "default": true,
+    "driveType": "documentLibrary",
+    "id": "drive-sales",
+    "name": "Documents",
+    "siteId": "site-sales"
+   },
+   {
+    "default": true,
+    "driveType": "documentLibrary",
+    "id": "drive-ops",
+    "name": "Documents",
+    "siteId": "site-ops"
+   },
+   {
+    "default": true,
+    "driveType": "documentLibrary",
+    "id": "drive-eng",
+    "name": "Documents",
+    "siteId": "site-eng"
+   },
+   {
+    "default": true,
+    "driveType": "documentLibrary",
+    "id": "drive-old",
+    "name": "Documents",
+    "siteId": "site-old"
+   }
+  ],
+  "listItems": [],
+  "lists": [
+   {
+    "defaultLinkScope": "anonymous",
+    "displayName": "Documents",
+    "id": "list-fin",
+    "list": {
+     "template": "documentLibrary"
+    },
+    "siteId": "site-fin",
+    "template": "documentLibrary"
+   },
+   {
+    "defaultLinkScope": "anonymous",
+    "displayName": "Documents",
+    "id": "list-hr",
+    "list": {
+     "template": "documentLibrary"
+    },
+    "siteId": "site-hr",
+    "template": "documentLibrary"
+   },
+   {
+    "defaultLinkScope": "anonymous",
+    "displayName": "Documents",
+    "id": "list-sales",
+    "list": {
+     "template": "documentLibrary"
+    },
+    "siteId": "site-sales",
+    "template": "documentLibrary"
+   },
+   {
+    "defaultLinkScope": "anonymous",
+    "displayName": "Documents",
+    "id": "list-brand",
+    "list": {
+     "template": "documentLibrary"
+    },
+    "siteId": "site-brand",
+    "template": "documentLibrary"
+   },
+   {
+    "defaultLinkScope": "organization",
+    "displayName": "Documents",
+    "id": "list-ops",
+    "list": {
+     "template": "documentLibrary"
+    },
+    "siteId": "site-ops",
+    "template": "documentLibrary"
+   },
+   {
+    "defaultLinkScope": "organization",
+    "displayName": "Documents",
+    "id": "list-legal",
+    "list": {
+     "template": "documentLibrary"
+    },
+    "siteId": "site-legal",
+    "template": "documentLibrary"
+   },
+   {
+    "displayName": "list-fin-generic",
+    "id": "list-fin-generic",
+    "list": {
+     "template": "genericList"
+    },
+    "siteId": "site-fin",
+    "template": "genericList"
+   }
+  ],
+  "permissions": [
+   {
+    "grantedToV2": {
+     "user": {
+      "displayName": "alex.vendor",
+      "email": "alex.vendor@partner-external.example"
+     }
+    },
+    "id": "perm-fin-ext",
+    "roles": [
+     "write"
+    ],
+    "siteId": "site-fin"
+   },
+   {
+    "grantedToV2": {
+     "user": {
+      "displayName": "claims",
+      "email": "claims@partner-external.example"
+     }
+    },
+    "id": "perm-hr-ext1",
+    "roles": [
+     "write"
+    ],
+    "siteId": "site-hr"
+   },
+   {
+    "grantedToV2": {
+     "user": {
+      "displayName": "auditor",
+      "email": "auditor@partner-external.example"
+     }
+    },
+    "id": "perm-hr-ext2",
+    "roles": [
+     "owner"
+    ],
+    "siteId": "site-hr"
+   },
+   {
+    "grantedToV2": {
+     "user": {
+      "displayName": "deal.temp",
+      "email": "deal.temp@partner-external.example"
+     }
+    },
+    "id": "perm-sales-ext",
+    "roles": [
+     "write"
+    ],
+    "siteId": "site-sales"
+   },
+   {
+    "grantedToV2": {
+     "user": {
+      "displayName": "cofund",
+      "email": "cofund@partner-external.example"
+     }
+    },
+    "id": "perm-sales-exc",
+    "roles": [
+     "write"
+    ],
+    "siteId": "site-sales"
+   },
+   {
+    "grantedToV2": {
+     "user": {
+      "displayName": "jordan.lee",
+      "email": "jordan.lee@acme.example"
+     }
+    },
+    "id": "perm-fin-int",
+    "roles": [
+     "write"
+    ],
+    "siteId": "site-fin"
+   },
+   {
+    "grantedToV2": {
+     "group": {
+      "displayName": "Acme-HR-Admins"
+     }
+    },
+    "id": "perm-hr-intgrp",
+    "roles": [
+     "write"
+    ],
+    "siteId": "site-hr"
+   },
+   {
+    "grantedToV2": {
+     "user": {
+      "displayName": "agency",
+      "email": "agency@partner-external.example"
+     }
+    },
+    "id": "perm-brand-ext",
+    "roles": [
+     "write"
+    ],
+    "siteId": "site-brand"
+   },
+   {
+    "grantedToV2": {
+     "user": {
+      "displayName": "reviewer",
+      "email": "reviewer@partner-external.example"
+     }
+    },
+    "id": "perm-fin-read",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-fin"
+   }
+  ],
+  "settings": {},
+  "sites": [
+   {
+    "displayName": "Marketing Brand Kit",
+    "id": "site-brand",
+    "name": "site-brand",
+    "sharingCapability": "externalUserAndGuestSharing",
+    "webUrl": "https://acme.sharepoint.com/sites/brand"
+   },
+   {
+    "displayName": "Finance Close FY26",
+    "id": "site-fin",
+    "name": "site-fin",
+    "sharingCapability": "externalUserAndGuestSharing",
+    "webUrl": "https://acme.sharepoint.com/sites/fin"
+   },
+   {
+    "displayName": "People & Payroll",
+    "id": "site-hr",
+    "name": "site-hr",
+    "sharingCapability": "externalUserAndGuestSharing",
+    "webUrl": "https://acme.sharepoint.com/sites/hr"
+   },
+   {
+    "displayName": "Legal Matters",
+    "id": "site-legal",
+    "name": "site-legal",
+    "sharingCapability": "disabled",
+    "webUrl": "https://acme.sharepoint.com/sites/legal"
+   },
+   {
+    "displayName": "Sales Deal Room",
+    "id": "site-sales",
+    "name": "site-sales",
+    "sharingCapability": "externalUserAndGuestSharing",
+    "webUrl": "https://acme.sharepoint.com/sites/sales"
+   },
+   {
+    "displayName": "Ops Runbooks",
+    "id": "site-ops",
+    "name": "site-ops",
+    "sharingCapability": "existingExternalUserSharingOnly",
+    "webUrl": "https://acme.sharepoint.com/sites/ops"
+   },
+   {
+    "displayName": "Engineering Wiki",
+    "id": "site-eng",
+    "name": "site-eng",
+    "sharingCapability": "existingExternalUserSharingOnly",
+    "webUrl": "https://acme.sharepoint.com/sites/eng"
+   },
+   {
+    "archived": true,
+    "displayName": "Project Zephyr (retired)",
+    "id": "site-old",
+    "isArchived": true,
+    "name": "site-old",
+    "sharingCapability": "disabled",
+    "webUrl": "https://acme.sharepoint.com/sites/old"
+   }
+  ]
+ },
+ "vanta": {
+  "__relations": {
+   "controlDocuments": {},
+   "controlTests": {
+    "ctl-dlp-anon": [
+     "test-anon-links"
+    ],
+    "ctl-dlp-ext": [
+     "test-ext-sharing"
+    ]
+   },
+   "documentFiles": {},
+   "frameworkControls": {
+    "fw-soc2": [
+     "ctl-dlp-ext",
+     "ctl-dlp-anon"
+    ]
+   },
+   "testEntities": {}
+  },
+  "computers": [],
+  "controls": [
+   {
+    "description": "Confidential and Restricted workspaces do not permit external or anonymous sharing.",
+    "domains": [
+     "Data Protection"
+    ],
+    "id": "ctl-dlp-ext",
+    "name": "External sharing restricted on confidential data",
+    "owner": {
+     "displayName": "",
+     "emailAddress": "",
+     "id": "person-dpo"
+    }
+   },
+   {
+    "description": "Documents in classified workspaces are not reachable via anonymous 'anyone' links.",
+    "domains": [
+     "Data Protection"
+    ],
+    "id": "ctl-dlp-anon",
+    "name": "No anonymous links on classified content",
+    "owner": {
+     "displayName": "",
+     "emailAddress": "",
+     "id": "person-dpo"
+    }
+   }
+  ],
+  "documents": [],
+  "frameworks": [
+   {
+    "id": "fw-soc2",
+    "name": "SOC 2"
+   }
+  ],
+  "integrations": [],
+  "libraryControls": [],
+  "people": [
+   {
+    "email": "robin.sato@acme.example",
+    "emailAddress": "robin.sato@acme.example",
+    "firstName": "Robin",
+    "id": "person-dpo",
+    "lastName": "Sato"
+   }
+  ],
+  "riskControls": [],
+  "riskScenarios": [],
+  "testEntities": [],
+  "tests": [
+   {
+    "id": "test-ext-sharing",
+    "latestFlagged": [
+     "site-fin",
+     "site-hr",
+     "site-sales"
+    ],
+    "name": "External sharing disabled on classified sites",
+    "status": "NEEDS_ATTENTION"
+   },
+   {
+    "id": "test-anon-links",
+    "latestFlagged": [
+     "item-fin-1",
+     "item-legal-1",
+     "item-sales-1"
+    ],
+    "name": "No anonymous links on classified docs",
+    "status": "NEEDS_ATTENTION"
+   }
+  ],
+  "vendorAssessments": [],
+  "vendorDocuments": [],
+  "vendorFindings": [],
+  "vendors": []
+ }
+}

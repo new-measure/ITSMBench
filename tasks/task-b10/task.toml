@@ -1,0 +1,38 @@
+schema_version = "1.3"
+artifacts = []
+
+[task]
+name = "taskgen/task-b10"
+description = "Vanta third-party-vendor compromise containment, graded as a bidirectional needle-field at volume on the vendor `status` field. An offensively-framed active incident (a threat actor stole SaaS vendors' integration tokens and is exfiltrating Acme data through the vendors' monitored integration connections; cut off every confirmed-compromised vendor by marking it offboarded so downstream deprovisioning revokes its access) hides two directions of the same per-entity set-status primitive: 7 ON-PATH items the framing prompts (confirmed-compromised vendors the overnight volume-based auto-containment missed are still MANAGED - archive them, model passes) and 7 COUNTERINTUITIVE items off the framing (clean, business-critical vendors the volume-based auto-rule wrongly ARCHIVED must be restored to MANAGED - model reliably omits, because it never audits the archived inventory during a compromise hunt). Needles vs ungraded keepers are non-separable by any single field; the ARCHIVED bucket holds both the 4 compromised keepers and the 7 clean needles with the same auto-archive reason, and the discriminator is a per-vendor join to the Sentinel confirmed-compromised list plus the per-vendor Vanta credential-compromise finding the clean vendors lack. Bidirectional grading closes the blanket cheese (archive-all 0.50, restore-all 0.50)."
+authors = []
+keywords = ["it-support", "vanta", "grc", "third-party-risk", "vendor-management", "supply-chain-compromise", "token-abuse", "incident-response", "vendor-offboarding", "needle-field", "bidirectional"]
+
+[metadata]
+environment = "it-support-bench"
+category = "it-support"
+scenario = "vanta-vendor-compromise-bidirectional-cutoff-restore"
+difficulty_mechanisms = ["bidirectional-needle-field-at-volume", "counterintuitive-undo-omission", "offensive-framing-blindspot", "vendor-to-compromised-list-join", "blanket-cheese-closed-both-directions"]
+
+[verifier]
+timeout_sec = 600.0
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+docker_image = "harbor.local/task-main:435d8ebda6fc"
+network_mode = "public"
+build_timeout_sec = 3600.0
+os = "linux"
+cpus = 1
+memory_mb = 2048
+storage_mb = 5120
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]
+

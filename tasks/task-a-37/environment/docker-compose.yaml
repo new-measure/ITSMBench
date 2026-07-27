@@ -1,0 +1,24 @@
+services:
+  main:
+    depends_on:
+      - mock-api
+  mock-api:
+    image: harbor.local/taskgen-emulator:a3dc8a1f0c35
+    pull_policy: never
+    environment:
+      EMULATOR_TOOLS: "slack,notion,notion-admin,google-workspace,github,zohodesk"
+      MOCK_SEED_PATH: /task/seed.json
+    volumes:
+      - ./seed.json:/task/seed.json:ro
+    expose:
+      - "8080"
+    networks:
+      default:
+        aliases:
+          - slack.local.mock
+          - notion.local.mock
+          - notion-admin.local.mock
+          - google-workspace.local.mock
+          - github.local.mock
+          - zohodesk.local.mock
+          - search.local.mock

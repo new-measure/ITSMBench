@@ -1,0 +1,39 @@
+services:
+  main:
+    depends_on:
+      - mock-api
+
+  mock-api:
+    image: harbor.local/taskgen-emulator:a3dc8a1f0c35
+    pull_policy: never
+    environment:
+      EMULATOR_TOOLS: "aws-vpc,confluence,crowdstrike,device42,gmail,haproxy,infoblox-nios,jira-service-management,mercury,microsoft-intune,microsoft-sentinel,okta,outlook-calendar,pagerduty,salesforce,sharepoint,slack,vanta,workday,zscaler-zia"
+      MOCK_SEED_PATH: /task/seed.json
+    volumes:
+      - ./seed.json:/task/seed.json:ro
+    expose:
+      - "8080"
+    networks:
+      default:
+        aliases:
+          - aws-vpc.local.mock
+          - confluence.local.mock
+          - crowdstrike.local.mock
+          - device42.local.mock
+          - gmail.local.mock
+          - haproxy.local.mock
+          - infoblox-nios.local.mock
+          - jira-service-management.local.mock
+          - mercury.local.mock
+          - microsoft-intune.local.mock
+          - microsoft-sentinel.local.mock
+          - okta.local.mock
+          - outlook-calendar.local.mock
+          - pagerduty.local.mock
+          - salesforce.local.mock
+          - sharepoint.local.mock
+          - slack.local.mock
+          - vanta.local.mock
+          - workday.local.mock
+          - zscaler-zia.local.mock
+          - search.local.mock

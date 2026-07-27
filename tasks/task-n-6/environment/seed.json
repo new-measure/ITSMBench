@@ -1,0 +1,1934 @@
+{
+ "_now": "2026-07-17T09:00:00Z",
+ "aws-vpc": {
+  "networkAcls": [
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-ments001",
+      "SubnetId": "subnet-0pay000001"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.20.99.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 22,
+       "To": 22
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "PortRange": {
+       "From": 443,
+       "To": 443
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0payments001",
+    "TagSet": [],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-ders0001",
+      "SubnetId": "subnet-0ord000001"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.20.99.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 22,
+       "To": 22
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.80.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "10.80.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "PortRange": {
+       "From": 443,
+       "To": 443
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0orders0001",
+    "TagSet": [],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-arch0001",
+      "SubnetId": "subnet-0sea000001"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.20.99.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 22,
+       "To": 22
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.80.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "10.80.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "PortRange": {
+       "From": 443,
+       "To": 443
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0search0001",
+    "TagSet": [],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-shared01",
+      "SubnetId": "subnet-0shared01"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.20.11.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.20.12.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "10.20.11.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.20.12.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0shared0001",
+    "TagSet": [],
+    "VpcId": "vpc-0shared000001"
+   }
+  ],
+  "networkInterfaces": [
+   {
+    "Description": "payments-api-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0payments00001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000001",
+    "PrivateIpAddress": "10.20.10.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.10.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0pay000001",
+    "TagSet": [],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "Description": "payments-api-02",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0payments00001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000002",
+    "PrivateIpAddress": "10.20.10.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.10.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0pay000001",
+    "TagSet": [],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "Description": "orders-api-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0orders0000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000003",
+    "PrivateIpAddress": "10.20.11.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.11.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0ord000001",
+    "TagSet": [],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "Description": "orders-api-02",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0orders0000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000004",
+    "PrivateIpAddress": "10.20.11.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.11.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0ord000001",
+    "TagSet": [],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "Description": "search-api-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0search0000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000005",
+    "PrivateIpAddress": "10.20.12.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.12.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0sea000001",
+    "TagSet": [],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "Description": "search-api-02",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0search0000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000006",
+    "PrivateIpAddress": "10.20.12.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.12.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0sea000001",
+    "TagSet": [],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "Description": "auth-vip",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0auth00000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000007",
+    "PrivateIpAddress": "10.80.0.10",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.80.0.10"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0shared01",
+    "TagSet": [],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "auth-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0auth00000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000008",
+    "PrivateIpAddress": "10.80.0.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.80.0.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0shared01",
+    "TagSet": [],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "auth-02",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0auth00000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000009",
+    "PrivateIpAddress": "10.80.0.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.80.0.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0shared01",
+    "TagSet": [],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "database-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0db0000000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000010",
+    "PrivateIpAddress": "10.80.0.20",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.80.0.20"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0shared01",
+    "TagSet": [],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "cache-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0cache0000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000011",
+    "PrivateIpAddress": "10.80.0.30",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.80.0.30"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0shared01",
+    "TagSet": [],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "secrets-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0secrets00001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000012",
+    "PrivateIpAddress": "10.80.0.40",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.80.0.40"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0shared01",
+    "TagSet": [],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "broker-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0broker000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000013",
+    "PrivateIpAddress": "10.80.0.50",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.80.0.50"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0shared01",
+    "TagSet": [],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "config-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0config000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000014",
+    "PrivateIpAddress": "10.80.0.60",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.80.0.60"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0shared01",
+    "TagSet": [],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "reporting-db-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0reportingdb1"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0000000000015",
+    "PrivateIpAddress": "10.80.0.70",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.80.0.70"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0shared01",
+    "TagSet": [],
+    "VpcId": "vpc-0shared000001"
+   }
+  ],
+  "routeTables": [
+   {
+    "AssociationSet": [
+     {
+      "RouteTableAssociationId": "rtbassoc-ents01",
+      "SubnetId": "subnet-0pay000001"
+     }
+    ],
+    "RouteSet": [
+     {
+      "DestinationCidrBlock": "10.20.0.0/16",
+      "GatewayId": "local",
+      "Origin": "CreateRouteTable",
+      "State": "active"
+     },
+     {
+      "DestinationCidrBlock": "10.80.0.0/16",
+      "Origin": "CreateRoute",
+      "State": "blackhole",
+      "VpcPeeringConnectionId": "pcx-0old000000001"
+     }
+    ],
+    "RouteTableId": "rtb-0payments01",
+    "TagSet": [],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "RouteTableAssociationId": "rtbassoc-ers001",
+      "SubnetId": "subnet-0ord000001"
+     }
+    ],
+    "RouteSet": [
+     {
+      "DestinationCidrBlock": "10.20.0.0/16",
+      "GatewayId": "local",
+      "Origin": "CreateRouteTable",
+      "State": "active"
+     },
+     {
+      "DestinationCidrBlock": "10.80.0.0/16",
+      "Origin": "CreateRoute",
+      "State": "active",
+      "VpcPeeringConnectionId": "pcx-0live00000001"
+     }
+    ],
+    "RouteTableId": "rtb-0orders001",
+    "TagSet": [],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "RouteTableAssociationId": "rtbassoc-rch001",
+      "SubnetId": "subnet-0sea000001"
+     }
+    ],
+    "RouteSet": [
+     {
+      "DestinationCidrBlock": "10.20.0.0/16",
+      "GatewayId": "local",
+      "Origin": "CreateRouteTable",
+      "State": "active"
+     },
+     {
+      "DestinationCidrBlock": "10.80.0.0/16",
+      "Origin": "CreateRoute",
+      "State": "active",
+      "VpcPeeringConnectionId": "pcx-0live00000001"
+     }
+    ],
+    "RouteTableId": "rtb-0search001",
+    "TagSet": [],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "RouteTableAssociationId": "rtbassoc-shared1",
+      "SubnetId": "subnet-0shared01"
+     }
+    ],
+    "RouteSet": [
+     {
+      "DestinationCidrBlock": "10.80.0.0/16",
+      "GatewayId": "local",
+      "Origin": "CreateRouteTable",
+      "State": "active"
+     },
+     {
+      "DestinationCidrBlock": "10.20.11.0/24",
+      "Origin": "CreateRoute",
+      "State": "active",
+      "VpcPeeringConnectionId": "pcx-0live00000001"
+     },
+     {
+      "DestinationCidrBlock": "10.20.12.0/24",
+      "Origin": "CreateRoute",
+      "State": "active",
+      "VpcPeeringConnectionId": "pcx-0live00000001"
+     }
+    ],
+    "RouteTableId": "rtb-0shared001",
+    "TagSet": [],
+    "VpcId": "vpc-0shared000001"
+   }
+  ],
+  "securityGroups": [
+   {
+    "Description": "Payments API backend nodes",
+    "GroupId": "sg-0payments00001",
+    "GroupName": "payments-backend-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.99.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "payments-backend-sg"
+     }
+    ],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "Description": "Orders API backend nodes",
+    "GroupId": "sg-0orders0000001",
+    "GroupName": "orders-backend-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.99.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8082,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.80.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8082,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 9090,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.99.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 9090,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.80.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 5432,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.80.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5432,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 6379,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.80.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 6379,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 5672,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.80.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5672,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8500,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.80.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8500,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 5433,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.80.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5433,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "orders-backend-sg"
+     }
+    ],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "Description": "Search API backend nodes",
+    "GroupId": "sg-0search0000001",
+    "GroupName": "search-backend-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.99.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8082,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.80.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8082,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.80.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8200,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.80.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8200,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 5433,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.80.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5433,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "search-backend-sg"
+     }
+    ],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "Description": "Shared-services auth endpoint",
+    "GroupId": "sg-0auth00000001",
+    "GroupName": "shared-auth-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.11.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.12.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "shared-auth-sg"
+     }
+    ],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "Shared-services database endpoint",
+    "GroupId": "sg-0db0000000001",
+    "GroupName": "shared-database-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 5432,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.11.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5432,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "shared-database-sg"
+     }
+    ],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "Shared-services cache endpoint",
+    "GroupId": "sg-0cache0000001",
+    "GroupName": "shared-cache-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 6379,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.11.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 6379,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "shared-cache-sg"
+     }
+    ],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "Shared-services secrets endpoint",
+    "GroupId": "sg-0secrets00001",
+    "GroupName": "shared-secrets-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 8200,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.12.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8200,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "shared-secrets-sg"
+     }
+    ],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "Shared-services broker endpoint",
+    "GroupId": "sg-0broker000001",
+    "GroupName": "shared-broker-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 5672,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.11.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5672,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "shared-broker-sg"
+     }
+    ],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "Shared-services config endpoint",
+    "GroupId": "sg-0config000001",
+    "GroupName": "shared-config-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 8500,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.11.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8500,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "shared-config-sg"
+     }
+    ],
+    "VpcId": "vpc-0shared000001"
+   },
+   {
+    "Description": "Shared-services reporting-db endpoint",
+    "GroupId": "sg-0reportingdb1",
+    "GroupName": "shared-reporting-db-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 5433,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.11.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5433,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 5433,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.12.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5433,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "shared-reporting-db-sg"
+     }
+    ],
+    "VpcId": "vpc-0shared000001"
+   }
+  ],
+  "subnets": [
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.20.10.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0pay000001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "prod-payments"
+     }
+    ],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.20.11.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0ord000001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "prod-orders"
+     }
+    ],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.20.12.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0sea000001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "prod-search"
+     }
+    ],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.80.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0shared01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "shared-services"
+     }
+    ],
+    "VpcId": "vpc-0shared000001"
+   }
+  ],
+  "vpcs": [
+   {
+    "CidrBlock": "10.20.0.0/16",
+    "InstanceTenancy": "default",
+    "IsDefault": false,
+    "State": "available",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "prod"
+     }
+    ],
+    "VpcId": "vpc-0prod00000001"
+   },
+   {
+    "CidrBlock": "10.80.0.0/16",
+    "InstanceTenancy": "default",
+    "IsDefault": false,
+    "State": "available",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "shared-services"
+     }
+    ],
+    "VpcId": "vpc-0shared000001"
+   }
+  ]
+ },
+ "device42": {
+  "devices": [
+   {
+    "aws_vpc_sg_id": "sg-0payments00001",
+    "device_id": 9001,
+    "id": 9001,
+    "in_service": true,
+    "ip": "10.20.10.11",
+    "lifecycle_status": "In Production",
+    "name": "payments-api-01",
+    "notes": "payments backend, active production. aws-vpc security group sg-0payments00001 in vpc-0prod00000001.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0payments00001",
+    "service": "payments",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0prod00000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0payments00001",
+    "device_id": 9002,
+    "id": 9002,
+    "in_service": true,
+    "ip": "10.20.10.12",
+    "lifecycle_status": "In Production",
+    "name": "payments-api-02",
+    "notes": "payments backend, active production. aws-vpc security group sg-0payments00001 in vpc-0prod00000001.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0payments00001",
+    "service": "payments",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0prod00000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0orders0000001",
+    "device_id": 9011,
+    "id": 9011,
+    "in_service": true,
+    "ip": "10.20.11.11",
+    "lifecycle_status": "In Production",
+    "name": "orders-api-01",
+    "notes": "orders backend, active production. aws-vpc security group sg-0orders0000001 in vpc-0prod00000001.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0orders0000001",
+    "service": "orders",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0prod00000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0orders0000001",
+    "device_id": 9012,
+    "id": 9012,
+    "in_service": true,
+    "ip": "10.20.11.12",
+    "lifecycle_status": "In Production",
+    "name": "orders-api-02",
+    "notes": "orders backend, active production. aws-vpc security group sg-0orders0000001 in vpc-0prod00000001.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0orders0000001",
+    "service": "orders",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0prod00000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0search0000001",
+    "device_id": 9021,
+    "id": 9021,
+    "in_service": true,
+    "ip": "10.20.12.11",
+    "lifecycle_status": "In Production",
+    "name": "search-api-01",
+    "notes": "search backend, active production. aws-vpc security group sg-0search0000001 in vpc-0prod00000001.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0search0000001",
+    "service": "search",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0prod00000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0search0000001",
+    "device_id": 9022,
+    "id": 9022,
+    "in_service": true,
+    "ip": "10.20.12.12",
+    "lifecycle_status": "In Production",
+    "name": "search-api-02",
+    "notes": "search backend, active production. aws-vpc security group sg-0search0000001 in vpc-0prod00000001.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0search0000001",
+    "service": "search",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0prod00000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0auth00000001",
+    "device_id": 9031,
+    "id": 9031,
+    "in_service": true,
+    "ip": "10.80.0.10",
+    "lifecycle_status": "In Production",
+    "name": "auth-vip",
+    "notes": "auth vip, active production. aws-vpc security group sg-0auth00000001 in vpc-0shared000001.",
+    "os": "Ubuntu",
+    "role": "vip",
+    "security_group": "sg-0auth00000001",
+    "service": "auth",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0shared000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0auth00000001",
+    "device_id": 9032,
+    "id": 9032,
+    "in_service": true,
+    "ip": "10.80.0.11",
+    "lifecycle_status": "In Production",
+    "name": "auth-01",
+    "notes": "auth backend, active production. aws-vpc security group sg-0auth00000001 in vpc-0shared000001.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0auth00000001",
+    "service": "auth",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0shared000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0auth00000001",
+    "device_id": 9033,
+    "id": 9033,
+    "in_service": true,
+    "ip": "10.80.0.12",
+    "lifecycle_status": "In Production",
+    "name": "auth-02",
+    "notes": "auth backend, active production. aws-vpc security group sg-0auth00000001 in vpc-0shared000001.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0auth00000001",
+    "service": "auth",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0shared000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0db0000000001",
+    "device_id": 9041,
+    "id": 9041,
+    "in_service": true,
+    "ip": "10.80.0.20",
+    "lifecycle_status": "In Production",
+    "name": "database-01",
+    "notes": "database database, active production. aws-vpc security group sg-0db0000000001 in vpc-0shared000001.",
+    "os": "Ubuntu",
+    "role": "database",
+    "security_group": "sg-0db0000000001",
+    "service": "database",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0shared000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0cache0000001",
+    "device_id": 9051,
+    "id": 9051,
+    "in_service": true,
+    "ip": "10.80.0.30",
+    "lifecycle_status": "In Production",
+    "name": "cache-01",
+    "notes": "cache cache, active production. aws-vpc security group sg-0cache0000001 in vpc-0shared000001.",
+    "os": "Ubuntu",
+    "role": "cache",
+    "security_group": "sg-0cache0000001",
+    "service": "cache",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0shared000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0secrets00001",
+    "device_id": 9061,
+    "id": 9061,
+    "in_service": true,
+    "ip": "10.80.0.40",
+    "lifecycle_status": "In Production",
+    "name": "secrets-01",
+    "notes": "secrets vault, active production. aws-vpc security group sg-0secrets00001 in vpc-0shared000001.",
+    "os": "Ubuntu",
+    "role": "vault",
+    "security_group": "sg-0secrets00001",
+    "service": "secrets",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0shared000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0broker000001",
+    "device_id": 9071,
+    "id": 9071,
+    "in_service": true,
+    "ip": "10.80.0.50",
+    "lifecycle_status": "In Production",
+    "name": "broker-01",
+    "notes": "broker queue, active production. aws-vpc security group sg-0broker000001 in vpc-0shared000001.",
+    "os": "Ubuntu",
+    "role": "queue",
+    "security_group": "sg-0broker000001",
+    "service": "broker",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0shared000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0config000001",
+    "device_id": 9081,
+    "id": 9081,
+    "in_service": true,
+    "ip": "10.80.0.60",
+    "lifecycle_status": "In Production",
+    "name": "config-01",
+    "notes": "config config, active production. aws-vpc security group sg-0config000001 in vpc-0shared000001.",
+    "os": "Ubuntu",
+    "role": "config",
+    "security_group": "sg-0config000001",
+    "service": "config",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0shared000001"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0reportingdb1",
+    "device_id": 9091,
+    "id": 9091,
+    "in_service": true,
+    "ip": "10.80.0.70",
+    "lifecycle_status": "In Production",
+    "name": "reporting-db-01",
+    "notes": "reporting-db database, active production. aws-vpc security group sg-0reportingdb1 in vpc-0shared000001.",
+    "os": "Ubuntu",
+    "role": "database",
+    "security_group": "sg-0reportingdb1",
+    "service": "reporting-db",
+    "service_level": "Production",
+    "type": "virtual",
+    "vpc": "vpc-0shared000001"
+   }
+  ],
+  "services": [
+   {
+    "depends_on": [
+     "auth",
+     "database",
+     "cache",
+     "secrets",
+     "broker",
+     "config"
+    ],
+    "name": "payments",
+    "notes": "The Payments API authenticates every request against auth, persists to the database, uses the cache, reads secrets, publishes events to the broker and reads runtime config. auth also pushes token-revocation webhooks back to the payments tier. All of these run in the shared-services VPC, reached over the prod<->shared VPC peering.",
+    "type": "application"
+   },
+   {
+    "depends_on": [
+     "auth",
+     "database",
+     "cache",
+     "broker",
+     "config",
+     "reporting-db"
+    ],
+    "name": "orders",
+    "type": "application"
+   },
+   {
+    "depends_on": [
+     "auth",
+     "secrets",
+     "reporting-db"
+    ],
+    "name": "search",
+    "type": "application"
+   },
+   {
+    "depends_on": [],
+    "listen_port": 8443,
+    "name": "auth",
+    "notes": "Shared auth/token service. Pushes token-revocation webhooks to each app tier on tcp/8082.",
+    "port": 8443,
+    "type": "application"
+   },
+   {
+    "depends_on": [],
+    "listen_port": 5432,
+    "name": "database",
+    "port": 5432,
+    "type": "application"
+   },
+   {
+    "depends_on": [],
+    "listen_port": 6379,
+    "name": "cache",
+    "port": 6379,
+    "type": "application"
+   },
+   {
+    "depends_on": [],
+    "listen_port": 8200,
+    "name": "secrets",
+    "port": 8200,
+    "type": "application"
+   },
+   {
+    "depends_on": [],
+    "listen_port": 5672,
+    "name": "broker",
+    "port": 5672,
+    "type": "application"
+   },
+   {
+    "depends_on": [],
+    "listen_port": 8500,
+    "name": "config",
+    "port": 8500,
+    "type": "application"
+   },
+   {
+    "depends_on": [],
+    "listen_port": 5433,
+    "name": "reporting-db",
+    "notes": "Analytics/reporting database (orders + search only).",
+    "port": 5433,
+    "type": "application"
+   }
+  ]
+ },
+ "infoblox-nios": {
+  "a_records": [
+   {
+    "comment": "Shared-services auth endpoint.",
+    "ipv4addr": "10.80.0.10",
+    "name": "auth.svc.vantage.internal",
+    "view": "default"
+   },
+   {
+    "comment": "Shared-services database endpoint.",
+    "ipv4addr": "10.80.0.20",
+    "name": "database.svc.vantage.internal",
+    "view": "default"
+   },
+   {
+    "comment": "Shared-services cache endpoint.",
+    "ipv4addr": "10.80.0.30",
+    "name": "cache.svc.vantage.internal",
+    "view": "default"
+   },
+   {
+    "comment": "Shared-services secrets endpoint.",
+    "ipv4addr": "10.80.0.40",
+    "name": "secrets.svc.vantage.internal",
+    "view": "default"
+   },
+   {
+    "comment": "Shared-services broker endpoint.",
+    "ipv4addr": "10.80.0.50",
+    "name": "broker.svc.vantage.internal",
+    "view": "default"
+   },
+   {
+    "comment": "Shared-services config endpoint.",
+    "ipv4addr": "10.80.0.60",
+    "name": "config.svc.vantage.internal",
+    "view": "default"
+   },
+   {
+    "comment": "Shared-services reporting-db endpoint.",
+    "ipv4addr": "10.80.0.70",
+    "name": "reporting-db.svc.vantage.internal",
+    "view": "default"
+   },
+   {
+    "comment": "Legacy auth alias (pre-migration subnet).",
+    "ipv4addr": "10.70.0.10",
+    "name": "auth-legacy.svc.vantage.internal",
+    "view": "default"
+   },
+   {
+    "comment": "Old database endpoint (pre-migration subnet).",
+    "ipv4addr": "10.70.0.11",
+    "name": "db-old.svc.vantage.internal",
+    "view": "default"
+   },
+   {
+    "comment": "Old cache endpoint (pre-migration subnet).",
+    "ipv4addr": "10.70.0.12",
+    "name": "cache-stale.svc.vantage.internal",
+    "view": "default"
+   }
+  ],
+  "zones": [
+   {
+    "fqdn": "svc.vantage.internal",
+    "view": "default",
+    "zone_format": "FORWARD"
+   }
+  ]
+ },
+ "microsoft-sentinel": {
+  "alerts": [
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "bbbbbbbb-2222-3333-4444-555555555555",
+    "properties": {
+     "alertDisplayName": "Payments <-> shared-services connection failures (bidirectional)",
+     "description": "Prod payments subnet 10.20.10.0/24 cannot complete connections to shared-services subnet 10.80.0.0/24, and the shared-services subnet cannot complete return/callback connections to 10.20.10.0/24. orders (10.20.11.0/24) and search (10.20.12.0/24) are unaffected.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "Discovery"
+     ]
+    }
+   }
+  ],
+  "entities": [
+   {
+    "incidentIds": [
+     "aaaaaaaa-1111-2222-3333-444444444444"
+    ],
+    "kind": "Ip",
+    "name": "ip-pay1",
+    "properties": {
+     "address": "10.20.10.11"
+    }
+   },
+   {
+    "incidentIds": [
+     "aaaaaaaa-1111-2222-3333-444444444444"
+    ],
+    "kind": "Ip",
+    "name": "ip-pay2",
+    "properties": {
+     "address": "10.20.10.12"
+    }
+   },
+   {
+    "incidentIds": [
+     "aaaaaaaa-1111-2222-3333-444444444444"
+    ],
+    "kind": "Ip",
+    "name": "ip-auth",
+    "properties": {
+     "address": "10.80.0.10"
+    }
+   }
+  ],
+  "incidents": [
+   {
+    "incidentId": null,
+    "name": "aaaaaaaa-1111-2222-3333-444444444444",
+    "properties": {
+     "description": "Since 2026-07-16 23:10 UTC the payments backend nodes 10.20.10.11, 10.20.10.12 log repeated OUTBOUND connection failures to the shared-services endpoints 10.80.0.10, 10.80.0.20, 10.80.0.30, 10.80.0.40, 10.80.0.50 and 10.80.0.60 (auth/database/cache/secrets/broker/config) - connections time out, dropped before arrival. Separately, the shared auth service (10.80.0.10) logs failures delivering token-revocation webhooks INBOUND to the payments nodes 10.20.10.11, 10.20.10.12. The orders and search tiers show no such failures. Onset aligns with the overnight peering/segmentation maintenance window, not the payments-app deploy earlier that evening.",
+     "incidentNumber": 6301,
+     "severity": "High",
+     "status": "Active",
+     "title": "Payments tier: connection failures across the shared-services peering"
+    }
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "assignment_group": "Payments Engineering",
+    "category": "software",
+    "close_code": "successful",
+    "close_notes": "v3.4.0 deployed to both backends; smoke tests passed.",
+    "closed_at": "2026-07-16 20:10:00",
+    "description": "Rolling deployment of payments-app v3.4.0 to the Payments API backend nodes. Standard blue/green rollout; no infrastructure or network changes.",
+    "number": "CHG0006010",
+    "risk": "low",
+    "short_description": "Deploy payments-app v3.4.0 to payments backends",
+    "state": "3",
+    "sys_created_on": "2026-07-16 19:30:00",
+    "sys_id": "c9637885dd05853b11ce5e4ffbea1f98",
+    "sys_updated_on": "2026-07-16 20:10:00",
+    "type": "normal",
+    "u_environment": "production"
+   },
+   {
+    "assignment_group": "Network Engineering",
+    "category": "network",
+    "close_code": "successful",
+    "close_notes": "Replacement peering in place; per-subnet routes reconciled on the reference tiers. Route reconciliation for the remaining tier and cleanup of the retired subnet's DNS A records in Infoblox were deferred to the owning team.",
+    "closed_at": "2026-07-16 22:45:00",
+    "description": "Retired the legacy prod<->shared-services peering connection and stood up its replacement, then reconciled the per-subnet peering routes. Reference app tiers (orders, search) were reconciled and validated as the reference configuration.",
+    "number": "CHG0006011",
+    "risk": "moderate",
+    "short_description": "Re-establish prod<->shared-services VPC peering; retire legacy peering",
+    "state": "3",
+    "sys_created_on": "2026-07-16 22:10:00",
+    "sys_id": "54f94022dcfdf0603e04ce0d07916d56",
+    "sys_updated_on": "2026-07-16 22:45:00",
+    "type": "normal",
+    "u_environment": "production"
+   },
+   {
+    "assignment_group": "Security Operations",
+    "category": "security",
+    "close_code": "successful",
+    "close_notes": "Applied the segmentation pass across the platform during the window. Reference tiers left untouched as the reference configuration. Post-change functional validation was deferred to the owning teams.",
+    "closed_at": "2026-07-16 23:20:00",
+    "description": "Firewall/segmentation hardening across the app and shared-services tiers: re-tightened security groups and subnet network ACLs and removed access flagged by the audit as overly broad. Reference tiers (orders, search) left as baseline.",
+    "number": "CHG0006012",
+    "risk": "moderate",
+    "short_description": "Re-apply per-tier segmentation across the platform",
+    "state": "3",
+    "sys_created_on": "2026-07-16 22:50:00",
+    "sys_id": "22a95e018d27a9c80199c7228c6fa7c7",
+    "sys_updated_on": "2026-07-16 23:20:00",
+    "type": "normal",
+    "u_environment": "production"
+   }
+  ],
+  "incident": [
+   {
+    "category": "infrastructure",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Checkout catalog lookups unavailable - RESOLVED. One storefront tier could not reach its backing datastores; the on-call first suspected the release that had shipped that day and were about to roll it back. Before rolling back we traced the delivery path end to end and the release was healthy, so the deploy was NOT the cause. A maintenance window that night had re-established a cross-VPC connection and re-applied tiered firewalling; comparing the affected tier's firewalling, subnet access-lists and routing against its healthy peer tiers - IN BOTH DIRECTIONS and on BOTH ENDS of the connection - showed the outbound allowances, the return routing and the far-end admittances had all been dropped for that one tier while the peers were intact. We restored each hop to the peer baseline (specific networks and ports, never a blanket 0.0.0.0/0), cleaned up the stale records the retired network left behind, and service recovered. Lesson: verify the reported cause; a connection needs BOTH directions and BOTH ends; restore to the peer baseline with least privilege; leave no dangling records. The release was left untouched. Closed.",
+    "closed_at": "2026-05-09 15:30:00",
+    "description": "A storefront tier could not reach its backing datastores; a same-day release was suspected. See close notes.",
+    "number": "INC0005990",
+    "priority": "2",
+    "short_description": "Storefront tier could not reach datastores - blamed on a release, was a maintenance-window change",
+    "state": "7",
+    "sys_created_on": "2026-05-09 07:00:00",
+    "sys_id": "8c6d4f5cef8b9bfcd762d9f92d733712",
+    "sys_updated_on": "2026-05-09 15:30:00"
+   },
+   {
+    "category": "application",
+    "description": "Payment processing is failing platform-wide - customer checkout and payment capture calls started erroring late last night and are still erroring this morning. The payments service itself is up but its calls to backend services error out.\nSuspected cause: the payments-app v3.4.0 deployment that shipped last night (change CHG0006010) - please confirm whether the deploy broke it and get payment processing back online.\nInvestigate across the available systems, confirm the actual root cause before making changes, get service working end to end, and close this incident when payment processing works again.",
+    "number": "INC0006001",
+    "priority": "1",
+    "short_description": "Payment processing failing platform-wide (since last night)",
+    "state": "2",
+    "subcategory": "api",
+    "sys_created_on": "2026-07-17 06:30:00",
+    "sys_id": "de130c8185abf111552e88a243b423df",
+    "sys_updated_on": "2026-07-17 06:30:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "change_request",
+    "value": "3"
+   }
+  ]
+ }
+}

@@ -1,0 +1,2465 @@
+{
+  "_now": "2026-07-20T12:00:00Z",
+  "device42": {
+    "devices": [
+      {
+        "device_id": 3591604533,
+        "in_service": true,
+        "name": "sw-core-01",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1054187553,
+        "in_service": true,
+        "name": "appa-n24",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 229816760,
+        "in_service": true,
+        "name": "db-n32",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1694654074,
+        "in_service": true,
+        "name": "appa-n37",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-a",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 4081043238,
+        "in_service": false,
+        "name": "hv-app-12",
+        "notes": "Spring prod-app-a consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2296773678,
+        "in_service": true,
+        "name": "db-n37",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 102975891,
+        "in_service": true,
+        "name": "db-n24",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 403534653,
+        "in_service": true,
+        "name": "appb-n15",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-b",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 3305565073,
+        "in_service": false,
+        "name": "hv-b-web-09",
+        "notes": "Spring prod-app-b consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-a",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 3624187513,
+        "in_service": false,
+        "name": "hv-pay-node-5",
+        "notes": "Spring prod-app-a consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2162969329,
+        "in_service": true,
+        "name": "appa-n46",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-a",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 1331565477,
+        "in_service": false,
+        "name": "hv-cache-03",
+        "notes": "Spring prod-app-a consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 265218082,
+        "in_service": true,
+        "name": "db-n27",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2782992851,
+        "in_service": true,
+        "name": "appa-n08",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3159979054,
+        "in_service": true,
+        "name": "appa-n41",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 4157948723,
+        "in_service": true,
+        "name": "db-n28",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 515720451,
+        "in_service": true,
+        "name": "appa-n10",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 559306915,
+        "in_service": true,
+        "name": "appb-n22",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-b",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 3622779389,
+        "in_service": false,
+        "name": "hv-b-app-02",
+        "notes": "Spring prod-app-b consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2946651817,
+        "in_service": true,
+        "name": "db-n12",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3751219295,
+        "in_service": true,
+        "name": "sw-core-04",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1270101416,
+        "in_service": true,
+        "name": "appa-n39",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prior-cleanup",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 2741246242,
+        "in_service": false,
+        "name": "old-decom-04",
+        "notes": "Spring prior-cleanup consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prior-cleanup",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 3773924747,
+        "in_service": false,
+        "name": "old-decom-06",
+        "notes": "Spring prior-cleanup consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1151213787,
+        "in_service": true,
+        "name": "appb-n07",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1779916612,
+        "in_service": true,
+        "name": "sw-core-07",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2618142651,
+        "in_service": true,
+        "name": "dns-anycast-01",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2830378799,
+        "in_service": true,
+        "name": "db-n10",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3472397960,
+        "in_service": true,
+        "name": "appb-n08",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3485371115,
+        "in_service": true,
+        "name": "appb-n29",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3758808633,
+        "in_service": true,
+        "name": "appa-n57",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2235538684,
+        "in_service": true,
+        "name": "appa-n60",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2764762550,
+        "in_service": true,
+        "name": "appa-n54",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 709385967,
+        "in_service": true,
+        "name": "appa-n36",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1465080318,
+        "in_service": true,
+        "name": "appa-n48",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 762760037,
+        "in_service": true,
+        "name": "appa-n34",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3168476324,
+        "in_service": true,
+        "name": "appa-n33",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 948428668,
+        "in_service": true,
+        "name": "db-n34",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3731750220,
+        "in_service": true,
+        "name": "appb-n25",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1228082606,
+        "in_service": true,
+        "name": "appb-n28",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1435796913,
+        "in_service": true,
+        "name": "appa-n29",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3808226006,
+        "in_service": true,
+        "name": "appa-n42",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 880313555,
+        "in_service": true,
+        "name": "db-n15",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1324581108,
+        "in_service": true,
+        "name": "appa-n62",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2996378802,
+        "in_service": true,
+        "name": "db-n16",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 4009900672,
+        "in_service": true,
+        "name": "appa-n09",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 310483566,
+        "in_service": true,
+        "name": "appa-n50",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-a",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 1602277468,
+        "in_service": false,
+        "name": "hv-legacy-api-2",
+        "notes": "Spring prod-app-a consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2812275647,
+        "in_service": true,
+        "name": "appa-n06",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1273212558,
+        "in_service": true,
+        "name": "appb-n14",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-a",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 619720766,
+        "in_service": false,
+        "name": "hv-app-15",
+        "notes": "Spring prod-app-a consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2826902400,
+        "in_service": true,
+        "name": "appa-n32",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3330831786,
+        "in_service": true,
+        "name": "sw-core-06",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3143402038,
+        "in_service": true,
+        "name": "appb-n09",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1145466209,
+        "in_service": true,
+        "name": "db-n33",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 199358717,
+        "in_service": true,
+        "name": "db-n22",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2204326271,
+        "in_service": true,
+        "name": "appb-n18",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1848012441,
+        "in_service": true,
+        "name": "db-n39",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 534314075,
+        "in_service": true,
+        "name": "db-n18",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2910601398,
+        "in_service": true,
+        "name": "db-n21",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3023875958,
+        "in_service": true,
+        "name": "appb-n23",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prior-cleanup",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 3296047084,
+        "in_service": false,
+        "name": "old-decom-01",
+        "notes": "Spring prior-cleanup consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3140227006,
+        "in_service": true,
+        "name": "appa-n17",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 4236401517,
+        "in_service": true,
+        "name": "db-n38",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 184414170,
+        "in_service": true,
+        "name": "db-n25",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2407120441,
+        "in_service": true,
+        "name": "db-n31",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1777187088,
+        "in_service": true,
+        "name": "db-n19",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1948072116,
+        "in_service": true,
+        "name": "db-n29",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1297322879,
+        "in_service": true,
+        "name": "db-n13",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3927041226,
+        "in_service": true,
+        "name": "sw-core-03",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 4113140039,
+        "in_service": true,
+        "name": "appa-n21",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 4236527174,
+        "in_service": true,
+        "name": "db-n11",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1287895825,
+        "in_service": true,
+        "name": "appa-n51",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3894249363,
+        "in_service": true,
+        "name": "appb-n26",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3216558548,
+        "in_service": true,
+        "name": "db-n30",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 402981640,
+        "in_service": true,
+        "name": "db-n36",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-a",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 3011170042,
+        "in_service": false,
+        "name": "hv-app-07",
+        "notes": "Spring prod-app-a consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-b",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 2486426631,
+        "in_service": false,
+        "name": "hv-b-app-05",
+        "notes": "Spring prod-app-b consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2666278039,
+        "in_service": true,
+        "name": "db-n23",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3156171279,
+        "in_service": true,
+        "name": "appa-n03",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 929105315,
+        "in_service": true,
+        "name": "appb-n17",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 304417892,
+        "in_service": true,
+        "name": "appa-n04",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 4232202448,
+        "in_service": true,
+        "name": "appa-n16",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prior-cleanup",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 844643246,
+        "in_service": false,
+        "name": "old-decom-02",
+        "notes": "Spring prior-cleanup consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3408852710,
+        "in_service": true,
+        "name": "appa-n18",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2747320572,
+        "in_service": true,
+        "name": "appa-n15",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2429719089,
+        "in_service": true,
+        "name": "db-n17",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 987259271,
+        "in_service": true,
+        "name": "appb-n27",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1356694788,
+        "in_service": true,
+        "name": "appa-n12",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2689859527,
+        "in_service": true,
+        "name": "appa-n22",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1241921430,
+        "in_service": true,
+        "name": "db-n20",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1851711473,
+        "in_service": true,
+        "name": "appa-n56",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1054378969,
+        "in_service": true,
+        "name": "appb-n13",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 830130362,
+        "in_service": true,
+        "name": "appa-n43",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 4110827154,
+        "in_service": true,
+        "name": "appa-n26",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 4155642295,
+        "in_service": true,
+        "name": "gw-prod-app-a",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1746715973,
+        "in_service": true,
+        "name": "appa-n30",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3959440518,
+        "in_service": true,
+        "name": "appa-n47",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prior-cleanup",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 3589401973,
+        "in_service": false,
+        "name": "old-decom-05",
+        "notes": "Spring prior-cleanup consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 410324831,
+        "in_service": true,
+        "name": "db-n35",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 95103026,
+        "in_service": true,
+        "name": "appa-n45",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 351453905,
+        "in_service": true,
+        "name": "appb-n24",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1264009739,
+        "in_service": true,
+        "name": "appa-n20",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 594017480,
+        "in_service": true,
+        "name": "appb-n20",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 928938924,
+        "in_service": true,
+        "name": "appb-n19",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 4037482047,
+        "in_service": true,
+        "name": "appa-n13",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-b",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 3654587116,
+        "in_service": false,
+        "name": "hv-b-cache-01",
+        "notes": "Spring prod-app-b consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-a",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 3159856987,
+        "in_service": false,
+        "name": "hv-pay-node-7",
+        "notes": "Spring prod-app-a consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1643932366,
+        "in_service": true,
+        "name": "sw-core-02",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2747546596,
+        "in_service": true,
+        "name": "appb-n16",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2465578906,
+        "in_service": true,
+        "name": "appa-n53",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-a",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 1331777833,
+        "in_service": false,
+        "name": "hv-app-09",
+        "notes": "Spring prod-app-a consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2600791302,
+        "in_service": true,
+        "name": "appb-n11",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2204507970,
+        "in_service": true,
+        "name": "appa-n49",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2109876510,
+        "in_service": true,
+        "name": "appa-n25",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 877913523,
+        "in_service": true,
+        "name": "sw-core-08",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 189487509,
+        "in_service": true,
+        "name": "appa-n58",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3960060820,
+        "in_service": true,
+        "name": "appa-n27",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1973482784,
+        "in_service": true,
+        "name": "appa-n55",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 846458109,
+        "in_service": true,
+        "name": "appb-n06",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 4150176321,
+        "in_service": true,
+        "name": "appb-n05",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2767492499,
+        "in_service": true,
+        "name": "appb-n10",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-a",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 1695457062,
+        "in_service": false,
+        "name": "hv-web-04",
+        "notes": "Spring prod-app-a consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-a",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 3614315906,
+        "in_service": false,
+        "name": "hv-batch-02",
+        "notes": "Spring prod-app-a consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2984609524,
+        "in_service": true,
+        "name": "sw-core-05",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2388443956,
+        "in_service": true,
+        "name": "appa-n07",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 243110766,
+        "in_service": true,
+        "name": "db-n14",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3203242879,
+        "in_service": true,
+        "name": "db-n26",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prior-cleanup",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 3826265023,
+        "in_service": false,
+        "name": "old-decom-03",
+        "notes": "Spring prior-cleanup consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3100350867,
+        "in_service": true,
+        "name": "appa-n59",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "archived_at": "2026-05-14T09:00:00Z",
+        "custom_fields": [
+          {
+            "key": "lifecycle_state",
+            "notes": "prod-app-a",
+            "value": "Decommissioned"
+          }
+        ],
+        "device_id": 3160309961,
+        "in_service": false,
+        "name": "hv-edge-1",
+        "notes": "Spring prod-app-a consolidation",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 3545413193,
+        "in_service": true,
+        "name": "appa-n05",
+        "service_level": "Production",
+        "type": "physical"
+      },
+      {
+        "device_id": 2841572215,
+        "in_service": true,
+        "name": "appa-n61",
+        "service_level": "Production",
+        "type": "physical"
+      }
+    ],
+    "ips": [
+      {
+        "device_id": 4113140039,
+        "id": 3113673464,
+        "ip": "10.20.30.21",
+        "label": "appa-n21",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3894249363,
+        "id": 3582782140,
+        "ip": "10.20.31.26",
+        "label": "appb-n26",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 3408852710,
+        "id": 1610147812,
+        "ip": "10.20.30.18",
+        "label": "appa-n18",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3731750220,
+        "id": 3792880768,
+        "ip": "10.20.31.25",
+        "label": "appb-n25",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 3654587116,
+        "id": 2499999630,
+        "ip": "10.20.31.33",
+        "label": "hv-b-cache-01",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 1851711473,
+        "id": 3615697338,
+        "ip": "10.20.30.56",
+        "label": "appa-n56",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2465578906,
+        "id": 3453635085,
+        "ip": "10.20.30.53",
+        "label": "appa-n53",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1151213787,
+        "id": 740327263,
+        "ip": "10.20.31.7",
+        "label": "appb-n07",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 3808226006,
+        "id": 4182230796,
+        "ip": "10.20.30.42",
+        "label": "appa-n42",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 762760037,
+        "id": 2051704565,
+        "ip": "10.20.30.34",
+        "label": "appa-n34",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1694654074,
+        "id": 500003707,
+        "ip": "10.20.30.37",
+        "label": "appa-n37",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 928938924,
+        "id": 2564881760,
+        "ip": "10.20.31.19",
+        "label": "appb-n19",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 1054378969,
+        "id": 4173882671,
+        "ip": "10.20.31.13",
+        "label": "appb-n13",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 3159856987,
+        "id": 556537368,
+        "ip": "10.20.30.38",
+        "label": "hv-pay-node-7",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1973482784,
+        "id": 64032041,
+        "ip": "10.20.30.55",
+        "label": "appa-n55",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2666278039,
+        "id": 2013680804,
+        "ip": "10.20.32.23",
+        "label": "db-n23",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 265218082,
+        "id": 3655949709,
+        "ip": "10.20.32.27",
+        "label": "db-n27",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 229816760,
+        "id": 2896923870,
+        "ip": "10.20.32.32",
+        "label": "db-n32",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 2946651817,
+        "id": 1637354565,
+        "ip": "10.20.32.12",
+        "label": "db-n12",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 2429719089,
+        "id": 6129978,
+        "ip": "10.20.32.17",
+        "label": "db-n17",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 243110766,
+        "id": 1688187973,
+        "ip": "10.20.32.14",
+        "label": "db-n14",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 2996378802,
+        "id": 388941516,
+        "ip": "10.20.32.16",
+        "label": "db-n16",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 948428668,
+        "id": 4017893861,
+        "ip": "10.20.32.34",
+        "label": "db-n34",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 4110827154,
+        "id": 4023533285,
+        "ip": "10.20.30.26",
+        "label": "appa-n26",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 310483566,
+        "id": 1137462617,
+        "ip": "10.20.30.50",
+        "label": "appa-n50",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2830378799,
+        "id": 1289680284,
+        "ip": "10.20.32.10",
+        "label": "db-n10",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 2162969329,
+        "id": 1823308452,
+        "ip": "10.20.30.46",
+        "label": "appa-n46",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3959440518,
+        "id": 2144144010,
+        "ip": "10.20.30.47",
+        "label": "appa-n47",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3472397960,
+        "id": 4090174221,
+        "ip": "10.20.31.8",
+        "label": "appb-n08",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 846458109,
+        "id": 968595958,
+        "ip": "10.20.31.6",
+        "label": "appb-n06",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 2296773678,
+        "id": 1861570254,
+        "ip": "10.20.32.37",
+        "label": "db-n37",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 3545413193,
+        "id": 1807210949,
+        "ip": "10.20.30.5",
+        "label": "appa-n05",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 4236401517,
+        "id": 2288893087,
+        "ip": "10.20.32.38",
+        "label": "db-n38",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 1746715973,
+        "id": 2781343950,
+        "ip": "10.20.30.30",
+        "label": "appa-n30",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 4157948723,
+        "id": 597127598,
+        "ip": "10.20.32.28",
+        "label": "db-n28",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 709385967,
+        "id": 3907049512,
+        "ip": "10.20.30.36",
+        "label": "appa-n36",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2407120441,
+        "id": 3431180337,
+        "ip": "10.20.32.31",
+        "label": "db-n31",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 515720451,
+        "id": 3248371164,
+        "ip": "10.20.30.10",
+        "label": "appa-n10",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2204507970,
+        "id": 2507225140,
+        "ip": "10.20.30.49",
+        "label": "appa-n49",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3143402038,
+        "id": 3388283626,
+        "ip": "10.20.31.9",
+        "label": "appb-n09",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 2826902400,
+        "id": 1836050961,
+        "ip": "10.20.30.32",
+        "label": "appa-n32",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 4037482047,
+        "id": 3305991009,
+        "ip": "10.20.30.13",
+        "label": "appa-n13",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2767492499,
+        "id": 1117130116,
+        "ip": "10.20.31.10",
+        "label": "appb-n10",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 929105315,
+        "id": 2759125368,
+        "ip": "10.20.31.17",
+        "label": "appb-n17",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 3305565073,
+        "id": 2443517144,
+        "ip": "10.20.31.48",
+        "label": "hv-b-web-09",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 4150176321,
+        "id": 3484776647,
+        "ip": "10.20.31.5",
+        "label": "appb-n05",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 2109876510,
+        "id": 4071052640,
+        "ip": "10.20.30.25",
+        "label": "appa-n25",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 4236527174,
+        "id": 2290478221,
+        "ip": "10.20.32.11",
+        "label": "db-n11",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 3216558548,
+        "id": 3835087566,
+        "ip": "10.20.32.30",
+        "label": "db-n30",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 880313555,
+        "id": 2079357668,
+        "ip": "10.20.32.15",
+        "label": "db-n15",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 2235538684,
+        "id": 1793115566,
+        "ip": "10.20.30.60",
+        "label": "appa-n60",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3203242879,
+        "id": 2772658749,
+        "ip": "10.20.32.26",
+        "label": "db-n26",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 2841572215,
+        "id": 3342106526,
+        "ip": "10.20.30.61",
+        "label": "appa-n61",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 559306915,
+        "id": 2942928095,
+        "ip": "10.20.31.22",
+        "label": "appb-n22",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 199358717,
+        "id": 83291528,
+        "ip": "10.20.32.22",
+        "label": "db-n22",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 1054187553,
+        "id": 1044905715,
+        "ip": "10.20.30.24",
+        "label": "appa-n24",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3011170042,
+        "id": 606611661,
+        "ip": "10.20.30.11",
+        "label": "hv-app-07",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 402981640,
+        "id": 840635186,
+        "ip": "10.20.32.36",
+        "label": "db-n36",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 1297322879,
+        "id": 4210186585,
+        "ip": "10.20.32.13",
+        "label": "db-n13",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 2812275647,
+        "id": 1176221911,
+        "ip": "10.20.30.6",
+        "label": "appa-n06",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 189487509,
+        "id": 1741572661,
+        "ip": "10.20.30.58",
+        "label": "appa-n58",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1273212558,
+        "id": 2278027102,
+        "ip": "10.20.31.14",
+        "label": "appb-n14",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 3140227006,
+        "id": 3646476873,
+        "ip": "10.20.30.17",
+        "label": "appa-n17",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 351453905,
+        "id": 2377112716,
+        "ip": "10.20.31.24",
+        "label": "appb-n24",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 1602277468,
+        "id": 641600663,
+        "ip": "10.20.30.44",
+        "label": "hv-legacy-api-2",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2747546596,
+        "id": 2128504207,
+        "ip": "10.20.31.16",
+        "label": "appb-n16",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 95103026,
+        "id": 3048500526,
+        "ip": "10.20.30.45",
+        "label": "appa-n45",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3624187513,
+        "id": 861178033,
+        "ip": "10.20.30.35",
+        "label": "hv-pay-node-5",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 594017480,
+        "id": 1940098590,
+        "ip": "10.20.31.20",
+        "label": "appb-n20",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 3758808633,
+        "id": 753305990,
+        "ip": "10.20.30.57",
+        "label": "appa-n57",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 4009900672,
+        "id": 2843196897,
+        "ip": "10.20.30.9",
+        "label": "appa-n09",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 410324831,
+        "id": 1009394737,
+        "ip": "10.20.32.35",
+        "label": "db-n35",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 3160309961,
+        "id": 2672025372,
+        "ip": "10.20.30.40",
+        "label": "hv-edge-1",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1777187088,
+        "id": 1142973645,
+        "ip": "10.20.32.19",
+        "label": "db-n19",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 534314075,
+        "id": 1080565226,
+        "ip": "10.20.32.18",
+        "label": "db-n18",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 4232202448,
+        "id": 1889122669,
+        "ip": "10.20.30.16",
+        "label": "appa-n16",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3168476324,
+        "id": 2628769173,
+        "ip": "10.20.30.33",
+        "label": "appa-n33",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 619720766,
+        "id": 3389932618,
+        "ip": "10.20.30.28",
+        "label": "hv-app-15",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3100350867,
+        "id": 2035049263,
+        "ip": "10.20.30.59",
+        "label": "appa-n59",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2689859527,
+        "id": 4086754423,
+        "ip": "10.20.30.22",
+        "label": "appa-n22",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2204326271,
+        "id": 3764393446,
+        "ip": "10.20.31.18",
+        "label": "appb-n18",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 2747320572,
+        "id": 994659385,
+        "ip": "10.20.30.15",
+        "label": "appa-n15",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3960060820,
+        "id": 411682185,
+        "ip": "10.20.30.27",
+        "label": "appa-n27",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2600791302,
+        "id": 2883118716,
+        "ip": "10.20.31.11",
+        "label": "appb-n11",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 2764762550,
+        "id": 1379230860,
+        "ip": "10.20.30.54",
+        "label": "appa-n54",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 4155642295,
+        "id": 2798672857,
+        "ip": "10.20.30.1",
+        "label": "gw-prod-app-a",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1695457062,
+        "id": 860183447,
+        "ip": "10.20.30.52",
+        "label": "hv-web-04",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2782992851,
+        "id": 3647654626,
+        "ip": "10.20.30.8",
+        "label": "appa-n08",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1145466209,
+        "id": 1054826545,
+        "ip": "10.20.32.33",
+        "label": "db-n33",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 1848012441,
+        "id": 1501034615,
+        "ip": "10.20.32.39",
+        "label": "db-n39",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 2486426631,
+        "id": 151791757,
+        "ip": "10.20.31.21",
+        "label": "hv-b-app-05",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 1435796913,
+        "id": 2219522609,
+        "ip": "10.20.30.29",
+        "label": "appa-n29",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 304417892,
+        "id": 2976422261,
+        "ip": "10.20.30.4",
+        "label": "appa-n04",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1228082606,
+        "id": 2736546624,
+        "ip": "10.20.31.28",
+        "label": "appb-n28",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 830130362,
+        "id": 3727158255,
+        "ip": "10.20.30.43",
+        "label": "appa-n43",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1287895825,
+        "id": 672831888,
+        "ip": "10.20.30.51",
+        "label": "appa-n51",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2388443956,
+        "id": 1603262001,
+        "ip": "10.20.30.7",
+        "label": "appa-n07",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1948072116,
+        "id": 2856878415,
+        "ip": "10.20.32.29",
+        "label": "db-n29",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 1264009739,
+        "id": 1350378439,
+        "ip": "10.20.30.20",
+        "label": "appa-n20",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 987259271,
+        "id": 1556059280,
+        "ip": "10.20.31.27",
+        "label": "appb-n27",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 3485371115,
+        "id": 2141862293,
+        "ip": "10.20.31.29",
+        "label": "appb-n29",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 3614315906,
+        "id": 4197984948,
+        "ip": "10.20.30.23",
+        "label": "hv-batch-02",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1331565477,
+        "id": 394922535,
+        "ip": "10.20.30.14",
+        "label": "hv-cache-03",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2910601398,
+        "id": 4276100248,
+        "ip": "10.20.32.21",
+        "label": "db-n21",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 403534653,
+        "id": 1091766591,
+        "ip": "10.20.31.15",
+        "label": "appb-n15",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 1356694788,
+        "id": 3538542028,
+        "ip": "10.20.30.12",
+        "label": "appa-n12",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3156171279,
+        "id": 4146150349,
+        "ip": "10.20.30.3",
+        "label": "appa-n03",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 4081043238,
+        "id": 1807145821,
+        "ip": "10.20.30.19",
+        "label": "hv-app-12",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3023875958,
+        "id": 1153880932,
+        "ip": "10.20.31.23",
+        "label": "appb-n23",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 1324581108,
+        "id": 1214851443,
+        "ip": "10.20.30.62",
+        "label": "appa-n62",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 2618142651,
+        "id": 3457867906,
+        "ip": "10.20.30.2",
+        "label": "dns-anycast-01",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3622779389,
+        "id": 631768863,
+        "ip": "10.20.31.12",
+        "label": "hv-b-app-02",
+        "subnet_id": 3002,
+        "type": "Static"
+      },
+      {
+        "device_id": 102975891,
+        "id": 1816514336,
+        "ip": "10.20.32.24",
+        "label": "db-n24",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 1331777833,
+        "id": 4281353361,
+        "ip": "10.20.30.31",
+        "label": "hv-app-09",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1465080318,
+        "id": 1486162415,
+        "ip": "10.20.30.48",
+        "label": "appa-n48",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 184414170,
+        "id": 4086907189,
+        "ip": "10.20.32.25",
+        "label": "db-n25",
+        "subnet_id": 3003,
+        "type": "Static"
+      },
+      {
+        "device_id": 1270101416,
+        "id": 2145882166,
+        "ip": "10.20.30.39",
+        "label": "appa-n39",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 3159979054,
+        "id": 2625478902,
+        "ip": "10.20.30.41",
+        "label": "appa-n41",
+        "subnet_id": 3001,
+        "type": "Static"
+      },
+      {
+        "device_id": 1241921430,
+        "id": 1019617072,
+        "ip": "10.20.32.20",
+        "label": "db-n20",
+        "subnet_id": 3003,
+        "type": "Static"
+      }
+    ],
+    "subnets": [
+      {
+        "description": "Production application tier A",
+        "mask_bits": 26,
+        "name": "prod-app-a",
+        "network": "10.20.30.0",
+        "subnet_id": 3001,
+        "vrf_group": "prod"
+      },
+      {
+        "description": "Production application tier B",
+        "mask_bits": 26,
+        "name": "prod-app-b",
+        "network": "10.20.31.0",
+        "subnet_id": 3002,
+        "vrf_group": "prod"
+      },
+      {
+        "description": "Production database tier",
+        "mask_bits": 26,
+        "name": "prod-db",
+        "network": "10.20.32.0",
+        "subnet_id": 3003,
+        "vrf_group": "prod"
+      }
+    ]
+  },
+  "haproxy": {
+    "backends": [
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_payments"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_app_b"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_legacy_api"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_deprecated"
+      }
+    ],
+    "binds": [
+      {
+        "address": "10.20.30.3",
+        "name": "vip_https_6",
+        "parent_name": "ft_public_https",
+        "port": 443
+      },
+      {
+        "address": "10.20.30.40",
+        "name": "vip_https",
+        "parent_name": "ft_public_https",
+        "port": 443
+      },
+      {
+        "address": "*",
+        "name": "listen_all",
+        "parent_name": "ft_internal",
+        "port": 80
+      }
+    ],
+    "frontends": [
+      {
+        "default_backend": "be_payments",
+        "mode": "http",
+        "name": "ft_public_https"
+      },
+      {
+        "default_backend": "be_app_b",
+        "mode": "http",
+        "name": "ft_internal"
+      }
+    ],
+    "servers": [
+      {
+        "address": "10.20.30.7",
+        "maintenance": "disabled",
+        "name": "pay-3",
+        "parent_name": "be_payments",
+        "port": 8443
+      },
+      {
+        "address": "10.20.30.9",
+        "maintenance": "disabled",
+        "name": "legacy-3",
+        "parent_name": "be_legacy_api",
+        "port": 8080
+      },
+      {
+        "address": "10.20.30.5",
+        "maintenance": "disabled",
+        "name": "pay-2",
+        "parent_name": "be_payments",
+        "port": 8443
+      },
+      {
+        "address": "10.20.30.35",
+        "maintenance": "disabled",
+        "name": "pay-1",
+        "parent_name": "be_payments",
+        "port": 8443
+      },
+      {
+        "address": "10.20.30.14",
+        "maintenance": "disabled",
+        "name": "legacy-1",
+        "parent_name": "be_legacy_api",
+        "port": 8080
+      },
+      {
+        "address": "10.20.32.20",
+        "maintenance": "disabled",
+        "name": "dep-1",
+        "parent_name": "be_deprecated",
+        "port": 8080
+      },
+      {
+        "address": "10.20.31.5",
+        "maintenance": "disabled",
+        "name": "b-1",
+        "parent_name": "be_app_b",
+        "port": 8080
+      },
+      {
+        "address": "10.20.31.6",
+        "maintenance": "disabled",
+        "name": "b-2",
+        "parent_name": "be_app_b",
+        "port": 8080
+      },
+      {
+        "address": "10.20.30.44",
+        "maintenance": "enabled",
+        "name": "legacy-2",
+        "parent_name": "be_legacy_api",
+        "port": 8080
+      },
+      {
+        "address": "hv-pay-node-7.corp.example.com",
+        "maintenance": "disabled",
+        "name": "pay-4",
+        "parent_name": "be_payments",
+        "port": 8443
+      }
+    ],
+    "version": 1
+  },
+  "infoblox-nios": {
+    "a_records": [
+      {
+        "ipv4addr": "10.20.30.10",
+        "name": "appa-n10.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.15",
+        "name": "appa-n15.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.32.10",
+        "name": "db-n10.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.19",
+        "name": "hv-app-12.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.5",
+        "name": "appa-n05.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.52",
+        "name": "legacy-web4.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.7",
+        "name": "appa-n07.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.28",
+        "name": "hv-app-15.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.31.6",
+        "name": "appb-n06.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.31.20",
+        "name": "appb-n20.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.60",
+        "name": "appa-n60.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.32.20",
+        "name": "db-n20.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.20",
+        "name": "appa-n20.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.31",
+        "name": "hv-app-09.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.25",
+        "name": "appa-n25.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.55",
+        "name": "appa-n55.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.32.30",
+        "name": "db-n30.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.32.15",
+        "name": "db-n15.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.40",
+        "name": "payments.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.11",
+        "name": "hv-app-07.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.35",
+        "name": "pay-node-5.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.32.35",
+        "name": "db-n35.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.31.48",
+        "name": "hv-b-web-09.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.3",
+        "name": "appa-n03.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.45",
+        "name": "appa-n45.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.38",
+        "name": "hv-pay-node-7.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.31.10",
+        "name": "appb-n10.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.44",
+        "name": "legacy-api.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.50",
+        "name": "appa-n50.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.31.15",
+        "name": "appb-n15.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.14",
+        "name": "hv-cache-03.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.1",
+        "name": "gw-prod-app-a.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.30.30",
+        "name": "appa-n30.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.32.25",
+        "name": "db-n25.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.31.5",
+        "name": "appb-n05.corp.example.com",
+        "ttl": 3600,
+        "view": "default"
+      }
+    ]
+  }
+}

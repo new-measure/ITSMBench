@@ -1,0 +1,2166 @@
+{
+ "_now": "2026-07-17T09:00:00.000Z",
+ "microsoft-365": {
+  "subscribedSkus": [
+   {
+    "consumedUnits": 11,
+    "id": "pbipro00-0000-0000-0000-00000000pbi1",
+    "prepaidUnits": {
+     "enabled": 200,
+     "suspended": 0,
+     "warning": 0
+    },
+    "servicePlans": [
+     {
+      "appliesTo": "User",
+      "provisioningStatus": "Success",
+      "servicePlanId": "pbi-plan-0001",
+      "servicePlanName": "BI_AZURE_P2"
+     }
+    ],
+    "skuId": "pbipro00-0000-0000-0000-00000000pbi1",
+    "skuPartNumber": "POWER_BI_PRO"
+   },
+   {
+    "consumedUnits": 26,
+    "id": "e3pack00-0000-0000-0000-000000000e31",
+    "prepaidUnits": {
+     "enabled": 500,
+     "suspended": 0,
+     "warning": 0
+    },
+    "servicePlans": [],
+    "skuId": "e3pack00-0000-0000-0000-000000000e31",
+    "skuPartNumber": "ENTERPRISEPACK"
+   }
+  ],
+  "users": [
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     },
+     {
+      "disabledPlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Ava Morgan",
+    "id": "00u1ce13c3a56cc",
+    "licenseDetails": [
+     {
+      "id": "00u1ce13c3a56cc-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     },
+     {
+      "id": "00u1ce13c3a56cc-license-pbipro00-0000-0000-0000-00000000pbi1",
+      "servicePlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1",
+      "skuPartNumber": "POWER_BI_PRO"
+     }
+    ],
+    "mail": "ava.morgan@halcyon.example",
+    "userPrincipalName": "ava.morgan@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Ben Cole",
+    "id": "00u1ecae70140bc",
+    "licenseDetails": [
+     {
+      "id": "00u1ecae70140bc-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "ben.cole@halcyon.example",
+    "userPrincipalName": "ben.cole@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     },
+     {
+      "disabledPlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Cara Diaz",
+    "id": "00u0b8027abcca2",
+    "licenseDetails": [
+     {
+      "id": "00u0b8027abcca2-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     },
+     {
+      "id": "00u0b8027abcca2-license-pbipro00-0000-0000-0000-00000000pbi1",
+      "servicePlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1",
+      "skuPartNumber": "POWER_BI_PRO"
+     }
+    ],
+    "mail": "cara.diaz@halcyon.example",
+    "userPrincipalName": "cara.diaz@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     },
+     {
+      "disabledPlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Dev Shah",
+    "id": "00ud813ca5596e6",
+    "licenseDetails": [
+     {
+      "id": "00ud813ca5596e6-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     },
+     {
+      "id": "00ud813ca5596e6-license-pbipro00-0000-0000-0000-00000000pbi1",
+      "servicePlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1",
+      "skuPartNumber": "POWER_BI_PRO"
+     }
+    ],
+    "mail": "dev.shah@halcyon.example",
+    "userPrincipalName": "dev.shah@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     },
+     {
+      "disabledPlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Ella Fox",
+    "id": "00ua22629ef7505",
+    "licenseDetails": [
+     {
+      "id": "00ua22629ef7505-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     },
+     {
+      "id": "00ua22629ef7505-license-pbipro00-0000-0000-0000-00000000pbi1",
+      "servicePlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1",
+      "skuPartNumber": "POWER_BI_PRO"
+     }
+    ],
+    "mail": "ella.fox@halcyon.example",
+    "userPrincipalName": "ella.fox@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     },
+     {
+      "disabledPlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Finn Reed",
+    "id": "00uf57c5acd2985",
+    "licenseDetails": [
+     {
+      "id": "00uf57c5acd2985-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     },
+     {
+      "id": "00uf57c5acd2985-license-pbipro00-0000-0000-0000-00000000pbi1",
+      "servicePlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1",
+      "skuPartNumber": "POWER_BI_PRO"
+     }
+    ],
+    "mail": "finn.reed@halcyon.example",
+    "userPrincipalName": "finn.reed@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     },
+     {
+      "disabledPlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Gia Park",
+    "id": "00u57c24b68fa8c",
+    "licenseDetails": [
+     {
+      "id": "00u57c24b68fa8c-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     },
+     {
+      "id": "00u57c24b68fa8c-license-pbipro00-0000-0000-0000-00000000pbi1",
+      "servicePlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1",
+      "skuPartNumber": "POWER_BI_PRO"
+     }
+    ],
+    "mail": "gia.park@halcyon.example",
+    "userPrincipalName": "gia.park@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     },
+     {
+      "disabledPlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Hugo Lane",
+    "id": "00u96711fa90d27",
+    "licenseDetails": [
+     {
+      "id": "00u96711fa90d27-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     },
+     {
+      "id": "00u96711fa90d27-license-pbipro00-0000-0000-0000-00000000pbi1",
+      "servicePlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1",
+      "skuPartNumber": "POWER_BI_PRO"
+     }
+    ],
+    "mail": "hugo.lane@halcyon.example",
+    "userPrincipalName": "hugo.lane@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     },
+     {
+      "disabledPlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Iris Shaw",
+    "id": "00u17ce624b392f",
+    "licenseDetails": [
+     {
+      "id": "00u17ce624b392f-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     },
+     {
+      "id": "00u17ce624b392f-license-pbipro00-0000-0000-0000-00000000pbi1",
+      "servicePlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1",
+      "skuPartNumber": "POWER_BI_PRO"
+     }
+    ],
+    "mail": "iris.shaw@halcyon.example",
+    "userPrincipalName": "iris.shaw@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     },
+     {
+      "disabledPlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Jonah Kim",
+    "id": "00uf60ff069dca0",
+    "licenseDetails": [
+     {
+      "id": "00uf60ff069dca0-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     },
+     {
+      "id": "00uf60ff069dca0-license-pbipro00-0000-0000-0000-00000000pbi1",
+      "servicePlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1",
+      "skuPartNumber": "POWER_BI_PRO"
+     }
+    ],
+    "mail": "jonah.kim@halcyon.example",
+    "userPrincipalName": "jonah.kim@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Kira Bell",
+    "id": "00u449cf8639db4",
+    "licenseDetails": [
+     {
+      "id": "00u449cf8639db4-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "kira.bell@halcyon.example",
+    "userPrincipalName": "kira.bell@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Leo Vance",
+    "id": "00u5a8be0b390c5",
+    "licenseDetails": [
+     {
+      "id": "00u5a8be0b390c5-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "leo.vance@halcyon.example",
+    "userPrincipalName": "leo.vance@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     },
+     {
+      "disabledPlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Mona Reyes",
+    "id": "00ua1aa7da7c0ad",
+    "licenseDetails": [
+     {
+      "id": "00ua1aa7da7c0ad-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     },
+     {
+      "id": "00ua1aa7da7c0ad-license-pbipro00-0000-0000-0000-00000000pbi1",
+      "servicePlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1",
+      "skuPartNumber": "POWER_BI_PRO"
+     }
+    ],
+    "mail": "mona.reyes@halcyon.example",
+    "userPrincipalName": "mona.reyes@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     },
+     {
+      "disabledPlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Nils Berg",
+    "id": "00ube11e5a6528a",
+    "licenseDetails": [
+     {
+      "id": "00ube11e5a6528a-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     },
+     {
+      "id": "00ube11e5a6528a-license-pbipro00-0000-0000-0000-00000000pbi1",
+      "servicePlans": [],
+      "skuId": "pbipro00-0000-0000-0000-00000000pbi1",
+      "skuPartNumber": "POWER_BI_PRO"
+     }
+    ],
+    "mail": "nils.berg@halcyon.example",
+    "userPrincipalName": "nils.berg@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": false,
+    "assignedLicenses": [],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Otis Crane",
+    "id": "00uf86b7e29aa4c",
+    "licenseDetails": [],
+    "mail": "otis.crane@halcyon.example",
+    "userPrincipalName": "otis.crane@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": false,
+    "assignedLicenses": [],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Analytics",
+    "displayName": "Pia Holt",
+    "id": "00ue8aa6e45026b",
+    "licenseDetails": [],
+    "mail": "pia.holt@halcyon.example",
+    "userPrincipalName": "pia.holt@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Sales",
+    "displayName": "Quinn Abbott",
+    "id": "00uea719652a9e6",
+    "licenseDetails": [
+     {
+      "id": "00uea719652a9e6-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "quinn.abbott@halcyon.example",
+    "userPrincipalName": "quinn.abbott@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Sales",
+    "displayName": "Ruby Nash",
+    "id": "00ua8439cd48fbd",
+    "licenseDetails": [
+     {
+      "id": "00ua8439cd48fbd-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "ruby.nash@halcyon.example",
+    "userPrincipalName": "ruby.nash@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Sales",
+    "displayName": "Sam Ono",
+    "id": "00u965be7d7c6a5",
+    "licenseDetails": [
+     {
+      "id": "00u965be7d7c6a5-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "sam.ono@halcyon.example",
+    "userPrincipalName": "sam.ono@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Sales",
+    "displayName": "Tess Vogel",
+    "id": "00u52bb947c0669",
+    "licenseDetails": [
+     {
+      "id": "00u52bb947c0669-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "tess.vogel@halcyon.example",
+    "userPrincipalName": "tess.vogel@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Sales",
+    "displayName": "Uma Rao",
+    "id": "00u485637080117",
+    "licenseDetails": [
+     {
+      "id": "00u485637080117-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "uma.rao@halcyon.example",
+    "userPrincipalName": "uma.rao@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Sales",
+    "displayName": "Vik Sood",
+    "id": "00u2bdf56abf7c6",
+    "licenseDetails": [
+     {
+      "id": "00u2bdf56abf7c6-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "vik.sood@halcyon.example",
+    "userPrincipalName": "vik.sood@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Engineering",
+    "displayName": "Wade Ellis",
+    "id": "00udc06776cf02d",
+    "licenseDetails": [
+     {
+      "id": "00udc06776cf02d-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "wade.ellis@halcyon.example",
+    "userPrincipalName": "wade.ellis@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Engineering",
+    "displayName": "Xena Ford",
+    "id": "00uceb3775361a5",
+    "licenseDetails": [
+     {
+      "id": "00uceb3775361a5-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "xena.ford@halcyon.example",
+    "userPrincipalName": "xena.ford@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Legal",
+    "displayName": "Yara Gill",
+    "id": "00u709b027ca4e2",
+    "licenseDetails": [
+     {
+      "id": "00u709b027ca4e2-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "yara.gill@halcyon.example",
+    "userPrincipalName": "yara.gill@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "IT",
+    "displayName": "Zane Hall",
+    "id": "00u8c153d3bc607",
+    "licenseDetails": [
+     {
+      "id": "00u8c153d3bc607-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "zane.hall@halcyon.example",
+    "userPrincipalName": "zane.hall@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "HR",
+    "displayName": "Anya Ives",
+    "id": "00u9df5898f0caa",
+    "licenseDetails": [
+     {
+      "id": "00u9df5898f0caa-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "anya.ives@halcyon.example",
+    "userPrincipalName": "anya.ives@halcyon.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "assignedLicenses": [
+     {
+      "disabledPlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31"
+     }
+    ],
+    "createdDateTime": "2023-06-01T09:00:00.000Z",
+    "department": "Operations",
+    "displayName": "Bram Jung",
+    "id": "00u6ce3a347705f",
+    "licenseDetails": [
+     {
+      "id": "00u6ce3a347705f-license-e3pack00-0000-0000-0000-000000000e31",
+      "servicePlans": [],
+      "skuId": "e3pack00-0000-0000-0000-000000000e31",
+      "skuPartNumber": "ENTERPRISEPACK"
+     }
+    ],
+    "mail": "bram.jung@halcyon.example",
+    "userPrincipalName": "bram.jung@halcyon.example"
+   }
+  ]
+ },
+ "okta": {
+  "apps": [
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "groups": [],
+    "id": "0oapowerbi000000001",
+    "label": "Power BI",
+    "name": "power_bi",
+    "signOnMode": "SAML_2_0",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "id": "00ua1aa7da7c0ad",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     },
+     {
+      "id": "00ube11e5a6528a",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     }
+    ]
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "groups": [
+     {
+      "id": "00gsalesteam000001",
+      "priority": 0
+     }
+    ],
+    "id": "0oasalesforce00001",
+    "label": "Salesforce",
+    "name": "salesforce",
+    "signOnMode": "SAML_2_0",
+    "status": "ACTIVE",
+    "users": []
+   }
+  ],
+  "groups": [
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "id": "00gbianalysts00001",
+    "members": [
+     "00ua22629ef7505",
+     "00uf57c5acd2985",
+     "00u57c24b68fa8c",
+     "00u96711fa90d27",
+     "00u17ce624b392f",
+     "00uf60ff069dca0",
+     "00u449cf8639db4",
+     "00u5a8be0b390c5"
+    ],
+    "profile": {
+     "description": "Analytics team - Power BI dashboard access.",
+     "name": "BI Analysts"
+    },
+    "type": "OKTA_GROUP"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "id": "00gsalesteam000001",
+    "members": [
+     "00uea719652a9e6",
+     "00ua8439cd48fbd",
+     "00u965be7d7c6a5",
+     "00u52bb947c0669",
+     "00u485637080117",
+     "00u2bdf56abf7c6"
+    ],
+    "profile": {
+     "description": "Sales org - Salesforce access.",
+     "name": "Sales Team"
+    },
+    "type": "OKTA_GROUP"
+   },
+   {
+    "created": "2023-01-01T09:00:00.000Z",
+    "id": "00gallemployees001",
+    "members": [
+     "00u1ce13c3a56cc",
+     "00u1ecae70140bc",
+     "00u0b8027abcca2",
+     "00ud813ca5596e6",
+     "00ua22629ef7505",
+     "00uf57c5acd2985",
+     "00u57c24b68fa8c",
+     "00u96711fa90d27",
+     "00u17ce624b392f",
+     "00uf60ff069dca0",
+     "00u449cf8639db4",
+     "00u5a8be0b390c5",
+     "00ua1aa7da7c0ad",
+     "00ube11e5a6528a",
+     "00uea719652a9e6",
+     "00ua8439cd48fbd",
+     "00u965be7d7c6a5",
+     "00u52bb947c0669",
+     "00u485637080117",
+     "00u2bdf56abf7c6",
+     "00udc06776cf02d",
+     "00uceb3775361a5",
+     "00u709b027ca4e2",
+     "00u8c153d3bc607",
+     "00u9df5898f0caa",
+     "00u6ce3a347705f"
+    ],
+    "profile": {
+     "description": "Every active employee.",
+     "name": "All Employees"
+    },
+    "type": "OKTA_GROUP"
+   }
+  ],
+  "logs": [
+   {
+    "actor": {
+     "alternateId": "quinn.abbott@halcyon.example",
+     "id": "00uea719652a9e6",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "203.0.113.10"
+    },
+    "eventType": "user.session.start",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T08:10:00.000Z",
+    "target": [
+     {
+      "alternateId": "quinn.abbott@halcyon.example",
+      "id": "00uea719652a9e6",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-001"
+   },
+   {
+    "actor": {
+     "alternateId": "ruby.nash@halcyon.example",
+     "id": "00ua8439cd48fbd",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "203.0.113.11"
+    },
+    "eventType": "user.session.start",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T08:11:00.000Z",
+    "target": [
+     {
+      "alternateId": "ruby.nash@halcyon.example",
+      "id": "00ua8439cd48fbd",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-002"
+   },
+   {
+    "actor": {
+     "alternateId": "sam.ono@halcyon.example",
+     "id": "00u965be7d7c6a5",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "203.0.113.12"
+    },
+    "eventType": "user.session.start",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T08:12:00.000Z",
+    "target": [
+     {
+      "alternateId": "sam.ono@halcyon.example",
+      "id": "00u965be7d7c6a5",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-003"
+   },
+   {
+    "actor": {
+     "alternateId": "mona.reyes@halcyon.example",
+     "id": "00ua1aa7da7c0ad",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "203.0.113.13"
+    },
+    "eventType": "user.session.start",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T08:13:00.000Z",
+    "target": [
+     {
+      "alternateId": "mona.reyes@halcyon.example",
+      "id": "00ua1aa7da7c0ad",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-004"
+   },
+   {
+    "actor": {
+     "alternateId": "nils.berg@halcyon.example",
+     "id": "00ube11e5a6528a",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "203.0.113.14"
+    },
+    "eventType": "user.session.start",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T08:14:00.000Z",
+    "target": [
+     {
+      "alternateId": "nils.berg@halcyon.example",
+      "id": "00ube11e5a6528a",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-005"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "application.group_assignment.remove",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:05:00.000Z",
+    "target": [
+     {
+      "displayName": "Power BI",
+      "id": "0oapowerbi000000001",
+      "type": "AppInstance"
+     },
+     {
+      "displayName": "BI Analysts",
+      "id": "00gbianalysts00001",
+      "type": "UserGroup"
+     }
+    ],
+    "uuid": "log-006"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "group.user_membership.remove",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:10:00.000Z",
+    "target": [
+     {
+      "displayName": "BI Analysts",
+      "id": "00gbianalysts00001",
+      "type": "UserGroup"
+     },
+     {
+      "alternateId": "ava.morgan@halcyon.example",
+      "id": "00u1ce13c3a56cc",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-007"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "group.user_membership.remove",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:11:00.000Z",
+    "target": [
+     {
+      "displayName": "BI Analysts",
+      "id": "00gbianalysts00001",
+      "type": "UserGroup"
+     },
+     {
+      "alternateId": "ben.cole@halcyon.example",
+      "id": "00u1ecae70140bc",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-008"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "group.user_membership.remove",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:12:00.000Z",
+    "target": [
+     {
+      "displayName": "BI Analysts",
+      "id": "00gbianalysts00001",
+      "type": "UserGroup"
+     },
+     {
+      "alternateId": "cara.diaz@halcyon.example",
+      "id": "00u0b8027abcca2",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-009"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "group.user_membership.remove",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:13:00.000Z",
+    "target": [
+     {
+      "displayName": "BI Analysts",
+      "id": "00gbianalysts00001",
+      "type": "UserGroup"
+     },
+     {
+      "alternateId": "dev.shah@halcyon.example",
+      "id": "00ud813ca5596e6",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-010"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "user.lifecycle.suspend",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:20:00.000Z",
+    "target": [
+     {
+      "alternateId": "ella.fox@halcyon.example",
+      "id": "00ua22629ef7505",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-011"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "user.lifecycle.suspend",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:21:00.000Z",
+    "target": [
+     {
+      "alternateId": "finn.reed@halcyon.example",
+      "id": "00uf57c5acd2985",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-012"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "user.lifecycle.suspend",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:22:00.000Z",
+    "target": [
+     {
+      "alternateId": "gia.park@halcyon.example",
+      "id": "00u57c24b68fa8c",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-013"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "user.mfa.factor.reset_all",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:30:00.000Z",
+    "target": [
+     {
+      "alternateId": "hugo.lane@halcyon.example",
+      "id": "00u96711fa90d27",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-014"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "user.mfa.factor.reset_all",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:31:00.000Z",
+    "target": [
+     {
+      "alternateId": "iris.shaw@halcyon.example",
+      "id": "00u17ce624b392f",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-015"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "user.mfa.factor.reset_all",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:32:00.000Z",
+    "target": [
+     {
+      "alternateId": "jonah.kim@halcyon.example",
+      "id": "00uf60ff069dca0",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-016"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "user.lifecycle.deactivate",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:40:00.000Z",
+    "target": [
+     {
+      "alternateId": "otis.crane@halcyon.example",
+      "id": "00uf86b7e29aa4c",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-017"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "user.lifecycle.deactivate",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:41:00.000Z",
+    "target": [
+     {
+      "alternateId": "pia.holt@halcyon.example",
+      "id": "00ue8aa6e45026b",
+      "type": "User"
+     }
+    ],
+    "uuid": "log-018"
+   },
+   {
+    "actor": {
+     "alternateId": "svc-access-review@halcyon.example",
+     "id": "00usvcaccessrev001",
+     "type": "User"
+    },
+    "client": {
+     "ipAddress": "198.51.100.20"
+    },
+    "eventType": "application.lifecycle.update",
+    "outcome": {
+     "result": "SUCCESS"
+    },
+    "published": "2026-07-16T23:50:00.000Z",
+    "target": [
+     {
+      "displayName": "Salesforce",
+      "id": "0oasalesforce00001",
+      "type": "AppInstance"
+     }
+    ],
+    "uuid": "log-019"
+   }
+  ],
+  "users": [
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms1ce13c3a56cc",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-8673"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u1ce13c3a56cc",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "ava.morgan@halcyon.example",
+     "firstName": "Ava",
+     "lastName": "Morgan",
+     "login": "ava.morgan@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms1ecae70140bc",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-5096"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u1ecae70140bc",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "ben.cole@halcyon.example",
+     "firstName": "Ben",
+     "lastName": "Cole",
+     "login": "ben.cole@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms0b8027abcca2",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-0048"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u0b8027abcca2",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "cara.diaz@halcyon.example",
+     "firstName": "Cara",
+     "lastName": "Diaz",
+     "login": "cara.diaz@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "smsd813ca5596e6",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-5819"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00ud813ca5596e6",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "dev.shah@halcyon.example",
+     "firstName": "Dev",
+     "lastName": "Shah",
+     "login": "dev.shah@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "smsa22629ef7505",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-1325"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00ua22629ef7505",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "ella.fox@halcyon.example",
+     "firstName": "Ella",
+     "lastName": "Fox",
+     "login": "ella.fox@halcyon.example"
+    },
+    "status": "SUSPENDED"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "smsf57c5acd2985",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-0400"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00uf57c5acd2985",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "finn.reed@halcyon.example",
+     "firstName": "Finn",
+     "lastName": "Reed",
+     "login": "finn.reed@halcyon.example"
+    },
+    "status": "SUSPENDED"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms57c24b68fa8c",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-6244"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u57c24b68fa8c",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "gia.park@halcyon.example",
+     "firstName": "Gia",
+     "lastName": "Park",
+     "login": "gia.park@halcyon.example"
+    },
+    "status": "SUSPENDED"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [],
+    "id": "00u96711fa90d27",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "hugo.lane@halcyon.example",
+     "firstName": "Hugo",
+     "lastName": "Lane",
+     "login": "hugo.lane@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [],
+    "id": "00u17ce624b392f",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "iris.shaw@halcyon.example",
+     "firstName": "Iris",
+     "lastName": "Shaw",
+     "login": "iris.shaw@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [],
+    "id": "00uf60ff069dca0",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "jonah.kim@halcyon.example",
+     "firstName": "Jonah",
+     "lastName": "Kim",
+     "login": "jonah.kim@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms449cf8639db4",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-9691"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u449cf8639db4",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "kira.bell@halcyon.example",
+     "firstName": "Kira",
+     "lastName": "Bell",
+     "login": "kira.bell@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms5a8be0b390c5",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-0722"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u5a8be0b390c5",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "leo.vance@halcyon.example",
+     "firstName": "Leo",
+     "lastName": "Vance",
+     "login": "leo.vance@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "smsa1aa7da7c0ad",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-9634"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00ua1aa7da7c0ad",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "mona.reyes@halcyon.example",
+     "firstName": "Mona",
+     "lastName": "Reyes",
+     "login": "mona.reyes@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "smsbe11e5a6528a",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-6416"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00ube11e5a6528a",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "nils.berg@halcyon.example",
+     "firstName": "Nils",
+     "lastName": "Berg",
+     "login": "nils.berg@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [],
+    "id": "00uf86b7e29aa4c",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "otis.crane@halcyon.example",
+     "firstName": "Otis",
+     "lastName": "Crane",
+     "login": "otis.crane@halcyon.example"
+    },
+    "status": "DEPROVISIONED"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [],
+    "id": "00ue8aa6e45026b",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Analytics",
+     "email": "pia.holt@halcyon.example",
+     "firstName": "Pia",
+     "lastName": "Holt",
+     "login": "pia.holt@halcyon.example"
+    },
+    "status": "DEPROVISIONED"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "smsea719652a9e6",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-8390"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00uea719652a9e6",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Sales",
+     "email": "quinn.abbott@halcyon.example",
+     "firstName": "Quinn",
+     "lastName": "Abbott",
+     "login": "quinn.abbott@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "smsa8439cd48fbd",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-5857"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00ua8439cd48fbd",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Sales",
+     "email": "ruby.nash@halcyon.example",
+     "firstName": "Ruby",
+     "lastName": "Nash",
+     "login": "ruby.nash@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms965be7d7c6a5",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-2451"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u965be7d7c6a5",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Sales",
+     "email": "sam.ono@halcyon.example",
+     "firstName": "Sam",
+     "lastName": "Ono",
+     "login": "sam.ono@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms52bb947c0669",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-4159"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u52bb947c0669",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Sales",
+     "email": "tess.vogel@halcyon.example",
+     "firstName": "Tess",
+     "lastName": "Vogel",
+     "login": "tess.vogel@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms485637080117",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-3659"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u485637080117",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Sales",
+     "email": "uma.rao@halcyon.example",
+     "firstName": "Uma",
+     "lastName": "Rao",
+     "login": "uma.rao@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms2bdf56abf7c6",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-7668"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u2bdf56abf7c6",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Sales",
+     "email": "vik.sood@halcyon.example",
+     "firstName": "Vik",
+     "lastName": "Sood",
+     "login": "vik.sood@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "smsdc06776cf02d",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-8747"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00udc06776cf02d",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Engineering",
+     "email": "wade.ellis@halcyon.example",
+     "firstName": "Wade",
+     "lastName": "Ellis",
+     "login": "wade.ellis@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "smsceb3775361a5",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-8248"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00uceb3775361a5",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Engineering",
+     "email": "xena.ford@halcyon.example",
+     "firstName": "Xena",
+     "lastName": "Ford",
+     "login": "xena.ford@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms709b027ca4e2",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-7450"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u709b027ca4e2",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Legal",
+     "email": "yara.gill@halcyon.example",
+     "firstName": "Yara",
+     "lastName": "Gill",
+     "login": "yara.gill@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms8c153d3bc607",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-2132"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u8c153d3bc607",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "IT",
+     "email": "zane.hall@halcyon.example",
+     "firstName": "Zane",
+     "lastName": "Hall",
+     "login": "zane.hall@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms9df5898f0caa",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-9372"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u9df5898f0caa",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "HR",
+     "email": "anya.ives@halcyon.example",
+     "firstName": "Anya",
+     "lastName": "Ives",
+     "login": "anya.ives@halcyon.example"
+    },
+    "status": "ACTIVE"
+   },
+   {
+    "created": "2023-06-01T09:00:00.000Z",
+    "factors": [
+     {
+      "created": "2024-02-01T09:00:00.000Z",
+      "factorType": "sms",
+      "id": "sms6ce3a347705f",
+      "lastUpdated": "2024-02-01T09:00:00.000Z",
+      "profile": {
+       "phoneNumber": "+1 XXX-XXX-6830"
+      },
+      "provider": "OKTA",
+      "status": "ACTIVE",
+      "vendorName": "OKTA"
+     }
+    ],
+    "id": "00u6ce3a347705f",
+    "lastUpdated": "2026-07-15T09:00:00.000Z",
+    "profile": {
+     "department": "Operations",
+     "email": "bram.jung@halcyon.example",
+     "firstName": "Bram",
+     "lastName": "Jung",
+     "login": "bram.jung@halcyon.example"
+    },
+    "status": "ACTIVE"
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "assignment_group": "Identity Engineering",
+    "category": "software",
+    "close_code": "successful",
+    "close_notes": "Certificate rotated and metadata reloaded; SSO smoke test passed.",
+    "closed_at": "2026-07-16 20:30:00",
+    "description": "Refreshed the Power BI SAML signing certificate and updated the SSO app metadata for the Power BI application. No changes to user or group entitlements.",
+    "number": "CHG0044001",
+    "risk": "low",
+    "short_description": "Update Power BI SAML connector / SSO app metadata",
+    "state": "3",
+    "sys_created_on": "2026-07-16 20:00:00",
+    "sys_id": "480cb27df89b2661f28bfacc1ec66686",
+    "sys_updated_on": "2026-07-16 20:30:00",
+    "type": "normal"
+   },
+   {
+    "assignment_group": "Identity Governance",
+    "category": "security",
+    "close_code": "successful",
+    "close_notes": "Access-review remediation applied to the analytics entitlements overnight. Healthy peer orgs and their apps were left as the reference configuration. Owning team to validate post-change.",
+    "closed_at": "2026-07-16 23:55:00",
+    "description": "Automated Q3 access-review remediation across the analytics entitlements: removed app and group access flagged by the review as stale or unused, reclaimed unused Microsoft 365 licenses, and deprovisioned contractor accounts whose engagements had ended. Post-review functional validation was deferred to the owning team.",
+    "number": "CHG0044002",
+    "risk": "moderate",
+    "short_description": "Q3 quarterly access review - entitlement cleanup",
+    "state": "3",
+    "sys_created_on": "2026-07-16 22:45:00",
+    "sys_id": "835081dc2cafda0e79b25f03d462db51",
+    "sys_updated_on": "2026-07-16 23:55:00",
+    "type": "standard"
+   }
+  ],
+  "incident": [
+   {
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Design team locked out of the Lucidchart app - RESOLVED. The design org reported they could no longer open Lucidchart through the SSO tile, though it kept working for one lead who had been set up individually. The same-day diagramming-connector patch was suspected and nearly rolled back; on inspection the app itself was healthy and still served that one directly-entitled lead, so the patch was NOT the cause. A quarterly access review the night before had over-reached on the design org's entitlements: it had removed the design group's assignment from the app, dropped several designers out of that group, put a few active designers into a suspended state, cleared some people's MFA enrollment, and reclaimed a batch of the app's paid licenses as 'unused'. We compared the design org against a healthy peer app and its group, then restored each layer for exactly the affected people - re-attached the group to the app and re-added the dropped members (never opening the app to everyone), reactivated the wrongly-suspended accounts, restored their sign-in factor, and re-granted the specific paid license the rest of the entitled group still held. Contractors the review had genuinely offboarded were left deactivated. The suspected connector patch was left untouched. Lesson: verify the reported cause, don't trust a 'works for one person' spot-check, restore the WHOLE entitlement chain for the intended cohort only, least privilege, and don't resurrect deactivated leavers. Closed.",
+    "closed_at": "2026-04-13 16:00:00",
+    "description": "Design org could not open Lucidchart via SSO; a same-day connector patch was suspected. See close notes.",
+    "number": "INC0043001",
+    "priority": "2",
+    "short_description": "Design team locked out of Lucidchart - blamed on a connector patch, was an access-review over-reach",
+    "state": "7",
+    "sys_created_on": "2026-04-13 07:00:00",
+    "sys_id": "c74dc2ef378d5f40f4b8cce1a6b1fde2",
+    "sys_updated_on": "2026-04-13 16:00:00"
+   },
+   {
+    "category": "inquiry",
+    "description": "Since first thing this morning our analytics team cannot open their Power BI dashboards - the SSO tile either errors out or the reports fail to load. It is affecting the team broadly, though a couple of people say it still works for them. A few of the affected people also report that after their password they are now stuck at the extra sign-in verification - the prompt never reaches their phone, and the portal gives them no way to set that back up themselves, so IT will have to sort that out for them as part of this.\nSuspected cause: the Power BI SAML connector update that was pushed last night (change CHG0044001). Please confirm whether that update broke it and get the analytics team back into Power BI.\nInvestigate across the available systems, confirm the actual root cause before making changes, restore access for the correct people, and close this incident once the analytics team can get into Power BI again.",
+    "number": "INC0044010",
+    "priority": "1",
+    "short_description": "Analytics team cannot access Power BI (since this morning)",
+    "state": "2",
+    "subcategory": "access",
+    "sys_created_on": "2026-07-17 07:15:00",
+    "sys_id": "2e31b68847d76a4d2e68c219abab4e2a",
+    "sys_updated_on": "2026-07-17 07:15:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "change_request",
+    "value": "3"
+   }
+  ]
+ }
+}

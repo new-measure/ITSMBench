@@ -1,0 +1,687 @@
+{
+ "_now": "2026-07-20T09:00:00.000Z",
+ "github": {
+  "collaborators": [
+   {
+    "id": "acme-cloud/billing-api/dparker",
+    "login": "dparker",
+    "owner": "acme-cloud",
+    "permissions": {
+     "admin": true,
+     "maintain": true,
+     "pull": true,
+     "push": true,
+     "triage": true
+    },
+    "repo": "billing-api",
+    "role_name": "admin"
+   },
+   {
+    "id": "acme-cloud/auth-service/rfoster",
+    "login": "rfoster",
+    "owner": "acme-cloud",
+    "permissions": {
+     "admin": false,
+     "maintain": false,
+     "pull": true,
+     "push": true,
+     "triage": true
+    },
+    "repo": "auth-service",
+    "role_name": "push"
+   },
+   {
+    "id": "acme-cloud/payments-ledger/twong",
+    "login": "twong",
+    "owner": "acme-cloud",
+    "permissions": {
+     "admin": true,
+     "maintain": true,
+     "pull": true,
+     "push": true,
+     "triage": true
+    },
+    "repo": "payments-ledger",
+    "role_name": "admin"
+   },
+   {
+    "id": "acme-cloud/checkout-web/lgomez",
+    "login": "lgomez",
+    "owner": "acme-cloud",
+    "permissions": {
+     "admin": false,
+     "maintain": false,
+     "pull": true,
+     "push": true,
+     "triage": true
+    },
+    "repo": "checkout-web",
+    "role_name": "push"
+   },
+   {
+    "id": "acme-cloud/orders-api/agarcia",
+    "login": "agarcia",
+    "owner": "acme-cloud",
+    "permissions": {
+     "admin": true,
+     "maintain": true,
+     "pull": true,
+     "push": true,
+     "triage": true
+    },
+    "repo": "orders-api",
+    "role_name": "admin"
+   },
+   {
+    "id": "acme-cloud/payments-ledger/oncall-sam",
+    "login": "oncall-sam",
+    "owner": "acme-cloud",
+    "permissions": {
+     "admin": true,
+     "maintain": true,
+     "pull": true,
+     "push": true,
+     "triage": true
+    },
+    "repo": "payments-ledger",
+    "role_name": "admin"
+   },
+   {
+    "id": "acme-cloud/orders-api/bob",
+    "login": "bob",
+    "owner": "acme-cloud",
+    "permissions": {
+     "admin": false,
+     "maintain": false,
+     "pull": true,
+     "push": true,
+     "triage": true
+    },
+    "repo": "orders-api",
+    "role_name": "push"
+   }
+  ],
+  "keys": [
+   {
+    "added_by": "dparker",
+    "id": 6001,
+    "key": "ssh-ed25519 AAAAC3Nz71119bf12f10708dad28",
+    "owner": "acme-cloud",
+    "read_only": false,
+    "repo": "billing-api",
+    "title": "dparker-laptop",
+    "verified": true
+   },
+   {
+    "added_by": "rfoster",
+    "id": 6002,
+    "key": "ssh-ed25519 AAAAC3Nz16eabe0a17a9a3e67fa2",
+    "owner": "acme-cloud",
+    "read_only": false,
+    "repo": "checkout-web",
+    "title": "rfoster-ci-test",
+    "verified": true
+   },
+   {
+    "added_by": "former-intern",
+    "id": 6003,
+    "key": "ssh-ed25519 AAAAC3Nz9080f95f95fd3e1ae6e6",
+    "owner": "acme-cloud",
+    "read_only": false,
+    "repo": "payments-ledger",
+    "title": "intern-sandbox",
+    "verified": true
+   },
+   {
+    "added_by": "twong",
+    "id": 6004,
+    "key": "ssh-ed25519 AAAAC3Nz5cad9423b9ec3d130d79",
+    "owner": "acme-cloud",
+    "read_only": false,
+    "repo": "orders-ingest",
+    "title": "twong-macbook",
+    "verified": true
+   },
+   {
+    "added_by": "svc-ci-bot",
+    "id": 6100,
+    "key": "ssh-ed25519 AAAAC3Nze439b454d0ed853b5f4f",
+    "owner": "acme-cloud",
+    "read_only": false,
+    "repo": "auth-service",
+    "title": "ci-deployer",
+    "verified": true
+   }
+  ],
+  "members": [
+   {
+    "id": 7000,
+    "login": "alice",
+    "org": "acme-cloud",
+    "site_admin": false,
+    "type": "User"
+   },
+   {
+    "id": 7001,
+    "login": "bob",
+    "org": "acme-cloud",
+    "site_admin": false,
+    "type": "User"
+   },
+   {
+    "id": 7002,
+    "login": "carol",
+    "org": "acme-cloud",
+    "site_admin": false,
+    "type": "User"
+   },
+   {
+    "id": 7003,
+    "login": "dan",
+    "org": "acme-cloud",
+    "site_admin": false,
+    "type": "User"
+   },
+   {
+    "id": 7004,
+    "login": "agarcia",
+    "org": "acme-cloud",
+    "site_admin": false,
+    "type": "User"
+   }
+  ],
+  "orgs": [
+   {
+    "description": "Acme Cloud engineering org",
+    "id": "acme-cloud",
+    "login": "acme-cloud"
+   }
+  ],
+  "outside_collaborators": [
+   {
+    "id": 8000,
+    "login": "contractor-al",
+    "org": "acme-cloud",
+    "site_admin": false,
+    "type": "User"
+   },
+   {
+    "id": 8001,
+    "login": "ext-audit",
+    "org": "acme-cloud",
+    "site_admin": false,
+    "type": "User"
+   },
+   {
+    "id": 8002,
+    "login": "freelance-kim",
+    "org": "acme-cloud",
+    "site_admin": false,
+    "type": "User"
+   },
+   {
+    "id": 8003,
+    "login": "pentest-guest",
+    "org": "acme-cloud",
+    "site_admin": false,
+    "type": "User"
+   },
+   {
+    "id": 8004,
+    "login": "partner-jo",
+    "org": "acme-cloud",
+    "site_admin": false,
+    "type": "User"
+   }
+  ],
+  "protection": [
+   {
+    "branch": "trunk",
+    "enabled": true,
+    "enforce_admins": {
+     "enabled": true
+    },
+    "id": "trunk",
+    "owner": "acme-cloud",
+    "repo": "auth-service",
+    "required_pull_request_reviews": {
+     "dismiss_stale_reviews": true,
+     "required_approving_review_count": 0
+    },
+    "required_status_checks": null,
+    "restrictions": null,
+    "url": "http://github.local.mock:8080/repos/acme-cloud/auth-service/branches/trunk/protection"
+   },
+   {
+    "branch": "production",
+    "enabled": true,
+    "enforce_admins": {
+     "enabled": true
+    },
+    "id": "production",
+    "owner": "acme-cloud",
+    "repo": "orders-api",
+    "required_pull_request_reviews": {
+     "dismiss_stale_reviews": true,
+     "required_approving_review_count": 2
+    },
+    "required_status_checks": null,
+    "restrictions": null,
+    "url": "http://github.local.mock:8080/repos/acme-cloud/orders-api/branches/production/protection"
+   }
+  ],
+  "repos": [
+   {
+    "archived": false,
+    "default_branch": "main",
+    "full_name": "acme-cloud/billing-api",
+    "html_url": "http://github.local.mock:8080/acme-cloud/billing-api",
+    "id": "acme-cloud/billing-api",
+    "name": "billing-api",
+    "org": "acme-cloud",
+    "owner": "acme-cloud",
+    "private": true
+   },
+   {
+    "archived": false,
+    "default_branch": "release",
+    "full_name": "acme-cloud/payments-ledger",
+    "html_url": "http://github.local.mock:8080/acme-cloud/payments-ledger",
+    "id": "acme-cloud/payments-ledger",
+    "name": "payments-ledger",
+    "org": "acme-cloud",
+    "owner": "acme-cloud",
+    "private": true
+   },
+   {
+    "archived": false,
+    "default_branch": "mainline",
+    "full_name": "acme-cloud/checkout-web",
+    "html_url": "http://github.local.mock:8080/acme-cloud/checkout-web",
+    "id": "acme-cloud/checkout-web",
+    "name": "checkout-web",
+    "org": "acme-cloud",
+    "owner": "acme-cloud",
+    "private": true
+   },
+   {
+    "archived": false,
+    "default_branch": "develop",
+    "full_name": "acme-cloud/orders-ingest",
+    "html_url": "http://github.local.mock:8080/acme-cloud/orders-ingest",
+    "id": "acme-cloud/orders-ingest",
+    "name": "orders-ingest",
+    "org": "acme-cloud",
+    "owner": "acme-cloud",
+    "private": true
+   },
+   {
+    "archived": false,
+    "default_branch": "trunk",
+    "full_name": "acme-cloud/auth-service",
+    "html_url": "http://github.local.mock:8080/acme-cloud/auth-service",
+    "id": "acme-cloud/auth-service",
+    "name": "auth-service",
+    "org": "acme-cloud",
+    "owner": "acme-cloud",
+    "private": true
+   },
+   {
+    "archived": false,
+    "default_branch": "production",
+    "full_name": "acme-cloud/orders-api",
+    "html_url": "http://github.local.mock:8080/acme-cloud/orders-api",
+    "id": "acme-cloud/orders-api",
+    "name": "orders-api",
+    "org": "acme-cloud",
+    "owner": "acme-cloud",
+    "private": true
+   },
+   {
+    "archived": false,
+    "default_branch": "master",
+    "full_name": "acme-cloud/internal-wiki",
+    "html_url": "http://github.local.mock:8080/acme-cloud/internal-wiki",
+    "id": "acme-cloud/internal-wiki",
+    "name": "internal-wiki",
+    "org": "acme-cloud",
+    "owner": "acme-cloud",
+    "private": true
+   },
+   {
+    "archived": true,
+    "default_branch": "stable",
+    "full_name": "acme-cloud/legacy-report",
+    "html_url": "http://github.local.mock:8080/acme-cloud/legacy-report",
+    "id": "acme-cloud/legacy-report",
+    "name": "legacy-report",
+    "org": "acme-cloud",
+    "owner": "acme-cloud",
+    "private": true
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [],
+  "incident": [
+   {
+    "category": "software",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Prior offboarding-hygiene review (closed). Lesson we wrote down: when someone leaves or a short-term engagement ends, pulling them from the org is NOT the whole job -- direct repository access, deploy keys they added, and outside-collaborator seats survive the org removal and quietly keep working. A green org-membership view hides them. The only reliable check is to reconcile every live access path against who is actually still an authorized member and against the approved-grant and service-account registers, then remove whatever no current, approved, or automated owner stands behind. Trust the registers, not the dashboard.",
+    "closed_at": "2026-04-18 17:00:00",
+    "description": "Prior access-hygiene review. See close notes for the lessons learned.",
+    "number": "INC0027744",
+    "priority": "3",
+    "short_description": "Offboarding access-hygiene review (prior) - lessons learned",
+    "state": "7",
+    "sys_created_on": "2026-04-02 08:00:00",
+    "sys_id": "9a9e5efdc88ac980973a698d322248ad",
+    "sys_updated_on": "2026-04-18 17:00:00"
+   },
+   {
+    "category": "software",
+    "description": "Coming out of last quarter's release crunch we're tightening up our software-delivery controls before the SOC 2 audit. Our compliance monitor is red on two change-management / access controls for source control, and spot checks show the state on GitHub drifted while everyone was shipping.\n\nPlease make the SDLC control state genuinely correct on GitHub: our production repositories must be properly protected so changes can't land without review; access that no one should still have must be taken away; and stale machine credentials left over from the crunch must be cleared. Anything that is legitimately granted or documented as approved should be left exactly as it is -- don't create churn on things that are already correct.\n\nThe source of truth for how each repository is classified, which access grants are approved, and which automation accounts are authorized lives in our ServiceNow registers. Reconcile GitHub to what is actually true and approved, leave the rest alone, and close this ticket when the control state is genuinely clean.\n\nNote: the 'orders-api' production repo was already hardened last week during the review kickoff -- that one is known-good, no need to revisit it.",
+    "number": "INC0030001",
+    "priority": "1",
+    "short_description": "SDLC control cleanup after release crunch - make source-control state genuinely correct",
+    "state": "2",
+    "sys_created_on": "2026-07-20 09:00:00",
+    "sys_id": "512d99eb2eedcad49beac2ff75a0ceec",
+    "sys_updated_on": "2026-07-20 09:00:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   }
+  ],
+  "u_access_exception": [
+   {
+    "sys_id": "230dbf98a3917ea74c38b70bebf06785",
+    "u_expires_on": "2026-12-31",
+    "u_grantee": "oncall-sam",
+    "u_scope": "payments-ledger",
+    "u_short_description": "break_glass access grant for oncall-sam",
+    "u_state": "approved",
+    "u_type": "break_glass"
+   },
+   {
+    "sys_id": "8993ae17845d864a430849c0cd8ff5f1",
+    "u_expires_on": "2027-01-31",
+    "u_grantee": "agarcia",
+    "u_scope": "orders-api",
+    "u_short_description": "standing access grant for agarcia",
+    "u_state": "approved",
+    "u_type": "standing"
+   },
+   {
+    "sys_id": "307d9a37a5453bcb8180609356256329",
+    "u_expires_on": "2026-10-15",
+    "u_grantee": "partner-jo",
+    "u_scope": "org",
+    "u_short_description": "outside_collab access grant for partner-jo",
+    "u_state": "approved",
+    "u_type": "outside_collab"
+   },
+   {
+    "sys_id": "55e04cd9d243d1c7e675b95803ea7c61",
+    "u_expires_on": "2025-03-01",
+    "u_grantee": "ex-vendor-zed",
+    "u_scope": "org",
+    "u_short_description": "outside_collab access grant for ex-vendor-zed",
+    "u_state": "approved",
+    "u_type": "outside_collab"
+   }
+  ],
+  "u_repo": [
+   {
+    "sys_id": "c55f006a43d7e4717f6501490110df94",
+    "u_github_full_name": "acme-cloud/billing-api",
+    "u_name": "billing-api",
+    "u_tier": "production"
+   },
+   {
+    "sys_id": "b85dfa1ff893f5fb681a4811358149a8",
+    "u_github_full_name": "acme-cloud/payments-ledger",
+    "u_name": "payments-ledger",
+    "u_tier": "production"
+   },
+   {
+    "sys_id": "cf3ad9daf7b814f488941f210f6b02fb",
+    "u_github_full_name": "acme-cloud/checkout-web",
+    "u_name": "checkout-web",
+    "u_tier": "production"
+   },
+   {
+    "sys_id": "35e3abbb052e9cf600a0f566ed24ba79",
+    "u_github_full_name": "acme-cloud/orders-ingest",
+    "u_name": "orders-ingest",
+    "u_tier": "production"
+   },
+   {
+    "sys_id": "5bf32363c382ac95cbef87804422c89f",
+    "u_github_full_name": "acme-cloud/auth-service",
+    "u_name": "auth-service",
+    "u_tier": "production"
+   },
+   {
+    "sys_id": "ee7d753943cac1965028ca3c6b97bf9f",
+    "u_github_full_name": "acme-cloud/orders-api",
+    "u_name": "orders-api",
+    "u_tier": "production"
+   },
+   {
+    "sys_id": "be9e864f993aee16b9290268e0f96b3b",
+    "u_github_full_name": "acme-cloud/internal-wiki",
+    "u_name": "internal-wiki",
+    "u_tier": "internal"
+   },
+   {
+    "sys_id": "d39234f65bfd935207ebeeedc8545df1",
+    "u_github_full_name": "acme-cloud/legacy-report",
+    "u_name": "legacy-report",
+    "u_tier": "archived"
+   },
+   {
+    "sys_id": "22ced0b290a41b3bcd857b0d8725043a",
+    "u_github_full_name": "acme-cloud/biling-api",
+    "u_name": "biling-api",
+    "u_tier": "production"
+   },
+   {
+    "sys_id": "e34ef8ba11a3ca4b30e999594d7fa063",
+    "u_github_full_name": "acme-cloud/payments-ledgr",
+    "u_name": "payments-ledgr",
+    "u_tier": "production"
+   }
+  ],
+  "u_service_account": [
+   {
+    "sys_id": "9b4bb45bc66a71b7b3b3e22d058ee22e",
+    "u_key_title": "ci-deployer",
+    "u_login": "svc-ci-bot",
+    "u_repo": "auth-service",
+    "u_state": "active"
+   },
+   {
+    "sys_id": "7d46d4a7c899a5fb1fe2bd2d5f8260fd",
+    "u_key_title": "",
+    "u_login": "svc-metrics-bot",
+    "u_repo": "",
+    "u_state": "active"
+   }
+  ]
+ },
+ "vanta": {
+  "__relations": {
+   "controlDocuments": {},
+   "controlTests": {
+    "ctl-cc61-lp": [
+     "test-repoaccess"
+    ],
+    "ctl-cc72-mon": [
+     "test-activity"
+    ],
+    "ctl-cc81-review": [
+     "test-branchprot"
+    ]
+   },
+   "documentFiles": {},
+   "frameworkControls": {
+    "fw-soc2": [
+     "ctl-cc81-review",
+     "ctl-cc61-lp",
+     "ctl-cc72-mon"
+    ]
+   },
+   "testEntities": {}
+  },
+  "computers": [],
+  "controls": [
+   {
+    "creationDate": "2026-07-20T09:00:00.000Z",
+    "customFields": [],
+    "description": "Changes to production repositories require an approved peer review before merge.",
+    "domains": [
+     "Change Management"
+    ],
+    "externalId": "CC8.1",
+    "id": "ctl-cc81-review",
+    "modificationDate": "2026-07-20T09:00:00.000Z",
+    "name": "Production code changes are peer-reviewed",
+    "owner": null,
+    "role": null,
+    "source": "Custom"
+   },
+   {
+    "creationDate": "2026-07-20T09:00:00.000Z",
+    "customFields": [],
+    "description": "Access to source-control repositories is limited to current, authorized principals.",
+    "domains": [
+     "Change Management"
+    ],
+    "externalId": "CC6.1",
+    "id": "ctl-cc61-lp",
+    "modificationDate": "2026-07-20T09:00:00.000Z",
+    "name": "Least-privilege access to source control",
+    "owner": null,
+    "role": null,
+    "source": "Custom"
+   },
+   {
+    "creationDate": "2026-07-20T09:00:00.000Z",
+    "customFields": [],
+    "description": "Repository and CI activity is logged and monitored.",
+    "domains": [
+     "Change Management"
+    ],
+    "externalId": "CC7.2",
+    "id": "ctl-cc72-mon",
+    "modificationDate": "2026-07-20T09:00:00.000Z",
+    "name": "Source-control activity is monitored",
+    "owner": null,
+    "role": null,
+    "source": "Custom"
+   }
+  ],
+  "documents": [],
+  "frameworks": [
+   {
+    "description": "SOC 2 Type II",
+    "displayName": "SOC 2",
+    "id": "fw-soc2",
+    "shorthandName": "SOC2"
+   }
+  ],
+  "integrations": [],
+  "libraryControls": [],
+  "people": [],
+  "riskControls": [],
+  "riskScenarios": [],
+  "testEntities": [],
+  "tests": [
+   {
+    "category": "CHANGE_MANAGEMENT",
+    "deactivatedStatusInfo": null,
+    "failureDescription": "Last scan: some production repositories have no required-review protection on their default branch (examples observed: billing-api, payments-ledger). Full extent not enumerated here.",
+    "id": "test-branchprot",
+    "integrations": [
+     {
+      "id": "github"
+     }
+    ],
+    "lastTestRunDate": "2026-07-20T09:00:00.000Z",
+    "latestFlipDate": "2026-07-20T09:00:00.000Z",
+    "name": "Default-branch protection with required review",
+    "owner": null,
+    "remediationDescription": null,
+    "remediationStatusInfo": null,
+    "status": "NEEDS_ATTENTION",
+    "version": 1
+   },
+   {
+    "category": "ACCESS_CONTROL",
+    "deactivatedStatusInfo": null,
+    "failureDescription": "Last scan: repository access and machine credentials exceed the authorized set (example observed: outside collaborator 'contractor-al' with standing access). Reconcile to the approved registers.",
+    "id": "test-repoaccess",
+    "integrations": [
+     {
+      "id": "github"
+     }
+    ],
+    "lastTestRunDate": "2026-07-20T09:00:00.000Z",
+    "latestFlipDate": "2026-07-20T09:00:00.000Z",
+    "name": "Repository access is least-privilege",
+    "owner": null,
+    "remediationDescription": null,
+    "remediationStatusInfo": null,
+    "status": "NEEDS_ATTENTION",
+    "version": 1
+   },
+   {
+    "category": "MONITORING",
+    "deactivatedStatusInfo": null,
+    "failureDescription": null,
+    "id": "test-activity",
+    "integrations": [
+     {
+      "id": "github"
+     }
+    ],
+    "lastTestRunDate": "2026-07-20T09:00:00.000Z",
+    "latestFlipDate": "2026-07-20T09:00:00.000Z",
+    "name": "Repository audit logging enabled",
+    "owner": null,
+    "remediationDescription": null,
+    "remediationStatusInfo": null,
+    "status": "OK",
+    "version": 1
+   }
+  ],
+  "vendorAssessments": [],
+  "vendorDocuments": [],
+  "vendorFindings": [],
+  "vendors": []
+ }
+}

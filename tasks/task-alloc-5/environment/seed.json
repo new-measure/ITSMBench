@@ -1,0 +1,3557 @@
+{
+  "_now": "2025-06-05T09:00:00Z",
+  "bamboohr": {
+    "employees": [
+      {
+        "department": "Engineering",
+        "displayName": "Zane Bauer",
+        "employeeId": "970627",
+        "firstName": "Zane",
+        "id": "970627",
+        "jobTitle": "Software Engineer",
+        "lastName": "Bauer",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "zane.bauer@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Xavier Moreau",
+        "employeeId": "409361",
+        "firstName": "Xavier",
+        "id": "409361",
+        "jobTitle": "Software Engineer",
+        "lastName": "Moreau",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "xavier.moreau@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Hugo Gupta",
+        "employeeId": "450619",
+        "firstName": "Hugo",
+        "id": "450619",
+        "jobTitle": "Software Engineer",
+        "lastName": "Gupta",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "hugo.gupta@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Celia Jansen",
+        "employeeId": "338582",
+        "firstName": "Celia",
+        "id": "338582",
+        "jobTitle": "Software Engineer",
+        "lastName": "Jansen",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "celia.jansen@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Farah Ahmed",
+        "employeeId": "112623",
+        "firstName": "Farah",
+        "id": "112623",
+        "jobTitle": "Software Engineer",
+        "lastName": "Ahmed",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "farah.ahmed@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Hannah Cole",
+        "employeeId": "846069",
+        "firstName": "Hannah",
+        "id": "846069",
+        "jobTitle": "Software Engineer",
+        "lastName": "Cole",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "hannah.cole@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Hilde Owusu",
+        "employeeId": "723502",
+        "firstName": "Hilde",
+        "id": "723502",
+        "jobTitle": "Software Engineer",
+        "lastName": "Owusu",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "hilde.owusu@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Mona Larsen",
+        "employeeId": "947380",
+        "firstName": "Mona",
+        "id": "947380",
+        "jobTitle": "Software Engineer",
+        "lastName": "Larsen",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "mona.larsen@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Sofia Alvarez",
+        "employeeId": "918387",
+        "firstName": "Sofia",
+        "id": "918387",
+        "jobTitle": "Software Engineer",
+        "lastName": "Alvarez",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "sofia.alvarez@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Gopal Haas",
+        "employeeId": "422057",
+        "firstName": "Gopal",
+        "id": "422057",
+        "jobTitle": "Software Engineer",
+        "lastName": "Haas",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "gopal.haas@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Liam Esposito",
+        "employeeId": "747784",
+        "firstName": "Liam",
+        "id": "747784",
+        "jobTitle": "Software Engineer",
+        "lastName": "Esposito",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "liam.esposito@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Quinn Blum",
+        "employeeId": "796000",
+        "firstName": "Quinn",
+        "id": "796000",
+        "jobTitle": "Software Engineer",
+        "lastName": "Blum",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "quinn.blum@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Bianca Kim",
+        "employeeId": "875813",
+        "firstName": "Bianca",
+        "id": "875813",
+        "jobTitle": "Software Engineer",
+        "lastName": "Kim",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "bianca.kim@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Alex Delgado",
+        "employeeId": "457626",
+        "firstName": "Alex",
+        "id": "457626",
+        "jobTitle": "Software Engineer",
+        "lastName": "Delgado",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "alex.delgado@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Petra Holm",
+        "employeeId": "627818",
+        "firstName": "Petra",
+        "id": "627818",
+        "jobTitle": "Software Engineer",
+        "lastName": "Holm",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "petra.holm@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Devon Ross",
+        "employeeId": "795954",
+        "firstName": "Devon",
+        "id": "795954",
+        "jobTitle": "Software Engineer",
+        "lastName": "Ross",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "devon.ross@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Ravi Chandra",
+        "employeeId": "474834",
+        "firstName": "Ravi",
+        "id": "474834",
+        "jobTitle": "Software Engineer",
+        "lastName": "Chandra",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "ravi.chandra@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Ines Vargas",
+        "employeeId": "580133",
+        "firstName": "Ines",
+        "id": "580133",
+        "jobTitle": "Software Engineer",
+        "lastName": "Vargas",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "ines.vargas@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Esha Xu",
+        "employeeId": "709291",
+        "firstName": "Esha",
+        "id": "709291",
+        "jobTitle": "Software Engineer",
+        "lastName": "Xu",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "esha.xu@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Omar Zola",
+        "employeeId": "851480",
+        "firstName": "Omar",
+        "id": "851480",
+        "jobTitle": "Software Engineer",
+        "lastName": "Zola",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "omar.zola@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Aria Ismail",
+        "employeeId": "781683",
+        "firstName": "Aria",
+        "id": "781683",
+        "jobTitle": "Software Engineer",
+        "lastName": "Ismail",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "aria.ismail@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Greta Valdez",
+        "employeeId": "864444",
+        "firstName": "Greta",
+        "id": "864444",
+        "jobTitle": "Software Engineer",
+        "lastName": "Valdez",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "greta.valdez@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Wendy Fischer",
+        "employeeId": "418502",
+        "firstName": "Wendy",
+        "id": "418502",
+        "jobTitle": "Software Engineer",
+        "lastName": "Fischer",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "wendy.fischer@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Dana Yamada",
+        "employeeId": "881994",
+        "firstName": "Dana",
+        "id": "881994",
+        "jobTitle": "Software Engineer",
+        "lastName": "Yamada",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "dana.yamada@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Dmitri Quintero",
+        "employeeId": "269881",
+        "firstName": "Dmitri",
+        "id": "269881",
+        "jobTitle": "Software Engineer",
+        "lastName": "Quintero",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "dmitri.quintero@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Marcus Feldt",
+        "employeeId": "284364",
+        "firstName": "Marcus",
+        "id": "284364",
+        "jobTitle": "Software Engineer",
+        "lastName": "Feldt",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "marcus.feldt@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Kara Stein",
+        "employeeId": "409705",
+        "firstName": "Kara",
+        "id": "409705",
+        "jobTitle": "Software Engineer",
+        "lastName": "Stein",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "kara.stein@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Rafael Roy",
+        "employeeId": "294536",
+        "firstName": "Rafael",
+        "id": "294536",
+        "jobTitle": "Software Engineer",
+        "lastName": "Roy",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "rafael.roy@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Oscar Ueno",
+        "employeeId": "842681",
+        "firstName": "Oscar",
+        "id": "842681",
+        "jobTitle": "Software Engineer",
+        "lastName": "Ueno",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "oscar.ueno@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Nils Sato",
+        "employeeId": "692603",
+        "firstName": "Nils",
+        "id": "692603",
+        "jobTitle": "Software Engineer",
+        "lastName": "Sato",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "nils.sato@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Viktor Tan",
+        "employeeId": "628877",
+        "firstName": "Viktor",
+        "id": "628877",
+        "jobTitle": "Software Engineer",
+        "lastName": "Tan",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "viktor.tan@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Kenji Watts",
+        "employeeId": "138926",
+        "firstName": "Kenji",
+        "id": "138926",
+        "jobTitle": "Software Engineer",
+        "lastName": "Watts",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "kenji.watts@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Caleb Reyes",
+        "employeeId": "926496",
+        "firstName": "Caleb",
+        "id": "926496",
+        "jobTitle": "Software Engineer",
+        "lastName": "Reyes",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "caleb.reyes@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Said Park",
+        "employeeId": "419487",
+        "firstName": "Said",
+        "id": "419487",
+        "jobTitle": "Software Engineer",
+        "lastName": "Park",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "said.park@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Rosa Iqbal",
+        "employeeId": "116423",
+        "firstName": "Rosa",
+        "id": "116423",
+        "jobTitle": "Software Engineer",
+        "lastName": "Iqbal",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "rosa.iqbal@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Elias Ghosh",
+        "employeeId": "604451",
+        "firstName": "Elias",
+        "id": "604451",
+        "jobTitle": "Software Engineer",
+        "lastName": "Ghosh",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "elias.ghosh@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Uma Engel",
+        "employeeId": "120864",
+        "firstName": "Uma",
+        "id": "120864",
+        "jobTitle": "Software Engineer",
+        "lastName": "Engel",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "uma.engel@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Priya Nair",
+        "employeeId": "974400",
+        "firstName": "Priya",
+        "id": "974400",
+        "jobTitle": "Software Engineer",
+        "lastName": "Nair",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "priya.nair@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Yara Turner",
+        "employeeId": "215673",
+        "firstName": "Yara",
+        "id": "215673",
+        "jobTitle": "Software Engineer",
+        "lastName": "Turner",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "yara.turner@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Paula Cohn",
+        "employeeId": "376132",
+        "firstName": "Paula",
+        "id": "376132",
+        "jobTitle": "Software Engineer",
+        "lastName": "Cohn",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "paula.cohn@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Bruno Costa",
+        "employeeId": "697709",
+        "firstName": "Bruno",
+        "id": "697709",
+        "jobTitle": "Software Engineer",
+        "lastName": "Costa",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "bruno.costa@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Nadia Novak",
+        "employeeId": "210064",
+        "firstName": "Nadia",
+        "id": "210064",
+        "jobTitle": "Software Engineer",
+        "lastName": "Novak",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "nadia.novak@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Felix Freund",
+        "employeeId": "665481",
+        "firstName": "Felix",
+        "id": "665481",
+        "jobTitle": "Software Engineer",
+        "lastName": "Freund",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "felix.freund@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Tara Weiss",
+        "employeeId": "346276",
+        "firstName": "Tara",
+        "id": "346276",
+        "jobTitle": "Software Engineer",
+        "lastName": "Weiss",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "tara.weiss@nimbuspay.com"
+      },
+      {
+        "department": "Engineering",
+        "displayName": "Jonas Dubois",
+        "employeeId": "783183",
+        "firstName": "Jonas",
+        "id": "783183",
+        "jobTitle": "Software Engineer",
+        "lastName": "Dubois",
+        "location": "Remote",
+        "status": "Active",
+        "workEmail": "jonas.dubois@nimbuspay.com"
+      }
+    ],
+    "time_off_balances": [],
+    "time_off_history": [],
+    "time_off_policies": [],
+    "time_off_requests": [
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "970627",
+        "end": "2025-06-09",
+        "id": "9001",
+        "name": "Zane Bauer",
+        "start": "2025-06-07",
+        "status": "denied",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "450619",
+        "end": "2025-05-23",
+        "id": "9002",
+        "name": "Hugo Gupta",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "450619",
+        "end": "2025-06-11",
+        "id": "9003",
+        "name": "Hugo Gupta",
+        "start": "2025-06-06",
+        "status": "requested",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "338582",
+        "end": "2025-06-24",
+        "id": "9004",
+        "name": "Celia Jansen",
+        "start": "2025-06-20",
+        "status": "approved",
+        "timeOffTypeId": "2",
+        "type": {
+          "id": "2",
+          "name": "Sick"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "112623",
+        "end": "2025-06-09",
+        "id": "9005",
+        "name": "Farah Ahmed",
+        "start": "2025-06-07",
+        "status": "denied",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "846069",
+        "end": "2025-06-10",
+        "id": "9006",
+        "name": "Hannah Cole",
+        "start": "2025-06-06",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "947380",
+        "end": "2025-05-23",
+        "id": "9007",
+        "name": "Mona Larsen",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "947380",
+        "end": "2025-06-24",
+        "id": "9008",
+        "name": "Mona Larsen",
+        "start": "2025-06-20",
+        "status": "approved",
+        "timeOffTypeId": "2",
+        "type": {
+          "id": "2",
+          "name": "Sick"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "918387",
+        "end": "2025-06-08",
+        "id": "9009",
+        "name": "Sofia Alvarez",
+        "start": "2025-06-06",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "422057",
+        "end": "2025-05-23",
+        "id": "9010",
+        "name": "Gopal Haas",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "747784",
+        "end": "2025-06-11",
+        "id": "9011",
+        "name": "Liam Esposito",
+        "start": "2025-06-06",
+        "status": "requested",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "796000",
+        "end": "2025-06-24",
+        "id": "9012",
+        "name": "Quinn Blum",
+        "start": "2025-06-20",
+        "status": "approved",
+        "timeOffTypeId": "2",
+        "type": {
+          "id": "2",
+          "name": "Sick"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "457626",
+        "end": "2025-05-23",
+        "id": "9013",
+        "name": "Alex Delgado",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "457626",
+        "end": "2025-06-09",
+        "id": "9014",
+        "name": "Alex Delgado",
+        "start": "2025-06-07",
+        "status": "denied",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "457626",
+        "end": "2025-06-11",
+        "id": "9015",
+        "name": "Alex Delgado",
+        "start": "2025-06-06",
+        "status": "requested",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "457626",
+        "end": "2025-06-24",
+        "id": "9016",
+        "name": "Alex Delgado",
+        "start": "2025-06-20",
+        "status": "approved",
+        "timeOffTypeId": "2",
+        "type": {
+          "id": "2",
+          "name": "Sick"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "627818",
+        "end": "2025-05-23",
+        "id": "9017",
+        "name": "Petra Holm",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "627818",
+        "end": "2025-06-09",
+        "id": "9018",
+        "name": "Petra Holm",
+        "start": "2025-06-07",
+        "status": "denied",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "580133",
+        "end": "2025-06-24",
+        "id": "9019",
+        "name": "Ines Vargas",
+        "start": "2025-06-20",
+        "status": "approved",
+        "timeOffTypeId": "2",
+        "type": {
+          "id": "2",
+          "name": "Sick"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "709291",
+        "end": "2025-05-23",
+        "id": "9020",
+        "name": "Esha Xu",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "709291",
+        "end": "2025-06-09",
+        "id": "9021",
+        "name": "Esha Xu",
+        "start": "2025-06-07",
+        "status": "denied",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "864444",
+        "end": "2025-06-24",
+        "id": "9022",
+        "name": "Greta Valdez",
+        "start": "2025-06-20",
+        "status": "approved",
+        "timeOffTypeId": "2",
+        "type": {
+          "id": "2",
+          "name": "Sick"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "418502",
+        "end": "2025-06-11",
+        "id": "9023",
+        "name": "Wendy Fischer",
+        "start": "2025-06-06",
+        "status": "requested",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "881994",
+        "end": "2025-05-23",
+        "id": "9024",
+        "name": "Dana Yamada",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "284364",
+        "end": "2025-06-10",
+        "id": "9025",
+        "name": "Marcus Feldt",
+        "start": "2025-06-08",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "284364",
+        "end": "2025-07-03",
+        "id": "9026",
+        "name": "Marcus Feldt",
+        "start": "2025-07-01",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "409705",
+        "end": "2025-06-09",
+        "id": "9027",
+        "name": "Kara Stein",
+        "start": "2025-06-07",
+        "status": "denied",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "842681",
+        "end": "2025-06-09",
+        "id": "9028",
+        "name": "Oscar Ueno",
+        "start": "2025-06-07",
+        "status": "denied",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "628877",
+        "end": "2025-05-23",
+        "id": "9029",
+        "name": "Viktor Tan",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "138926",
+        "end": "2025-06-06",
+        "id": "9030",
+        "name": "Kenji Watts",
+        "start": "2025-06-06",
+        "status": "approved",
+        "timeOffTypeId": "2",
+        "type": {
+          "id": "2",
+          "name": "Sick"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "419487",
+        "end": "2025-05-23",
+        "id": "9031",
+        "name": "Said Park",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "604451",
+        "end": "2025-06-24",
+        "id": "9032",
+        "name": "Elias Ghosh",
+        "start": "2025-06-20",
+        "status": "approved",
+        "timeOffTypeId": "2",
+        "type": {
+          "id": "2",
+          "name": "Sick"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "120864",
+        "end": "2025-06-09",
+        "id": "9033",
+        "name": "Uma Engel",
+        "start": "2025-06-07",
+        "status": "denied",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "120864",
+        "end": "2025-06-24",
+        "id": "9034",
+        "name": "Uma Engel",
+        "start": "2025-06-20",
+        "status": "approved",
+        "timeOffTypeId": "2",
+        "type": {
+          "id": "2",
+          "name": "Sick"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "974400",
+        "end": "2025-06-10",
+        "id": "9035",
+        "name": "Priya Nair",
+        "start": "2025-06-06",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "215673",
+        "end": "2025-05-23",
+        "id": "9036",
+        "name": "Yara Turner",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "215673",
+        "end": "2025-06-24",
+        "id": "9037",
+        "name": "Yara Turner",
+        "start": "2025-06-20",
+        "status": "approved",
+        "timeOffTypeId": "2",
+        "type": {
+          "id": "2",
+          "name": "Sick"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "376132",
+        "end": "2025-05-23",
+        "id": "9038",
+        "name": "Paula Cohn",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "376132",
+        "end": "2025-06-24",
+        "id": "9039",
+        "name": "Paula Cohn",
+        "start": "2025-06-20",
+        "status": "approved",
+        "timeOffTypeId": "2",
+        "type": {
+          "id": "2",
+          "name": "Sick"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "697709",
+        "end": "2025-05-23",
+        "id": "9040",
+        "name": "Bruno Costa",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      },
+      {
+        "amount": {
+          "amount": "1",
+          "unit": "days"
+        },
+        "created": "2025-05-15",
+        "employeeId": "783183",
+        "end": "2025-05-23",
+        "id": "9041",
+        "name": "Jonas Dubois",
+        "start": "2025-05-20",
+        "status": "approved",
+        "timeOffTypeId": "1",
+        "type": {
+          "id": "1",
+          "name": "Vacation"
+        }
+      }
+    ],
+    "time_off_types": [
+      {
+        "id": "1",
+        "name": "Vacation",
+        "units": "days"
+      },
+      {
+        "id": "2",
+        "name": "Sick",
+        "units": "days"
+      }
+    ],
+    "whos_out": []
+  },
+  "incidentio": {
+    "actions": [],
+    "custom_field_options": [],
+    "custom_fields": [],
+    "follow_up_categories": [],
+    "follow_up_priorities": [],
+    "follow_ups": [],
+    "incident_roles": [
+      {
+        "id": "role_2d21612342ac8fe2",
+        "instructions": "Owns the incident",
+        "name": "Incident Lead",
+        "role_type": "lead",
+        "shortform": "lead"
+      },
+      {
+        "id": "role_17a47c0f4eb1c55a",
+        "instructions": "Owns comms",
+        "name": "Communications Lead",
+        "role_type": "custom",
+        "shortform": "comms"
+      }
+    ],
+    "incident_statuses": [
+      {
+        "category": "triage",
+        "id": "stat_e4d8e68ad03339bd",
+        "name": "Triage",
+        "rank": 1
+      },
+      {
+        "category": "live",
+        "id": "stat_51b206437e887274",
+        "name": "Live",
+        "rank": 2
+      },
+      {
+        "category": "closed",
+        "id": "stat_85103df23241f290",
+        "name": "Closed",
+        "rank": 3
+      }
+    ],
+    "incident_timestamps": [],
+    "incident_types": [],
+    "incident_updates": [],
+    "incidents": [
+      {
+        "created_at": "2025-06-04T14:00:00Z",
+        "id": "inc_ebc5e28606797a31",
+        "incident_role_assignments": [
+          {
+            "assignee": {
+              "email": "devon.ross@nimbuspay.com",
+              "id": "01UA770EC0C4C26898F2E587E5",
+              "name": "Devon Ross"
+            },
+            "role": {
+              "id": "role_2d21612342ac8fe2",
+              "instructions": "Owns the incident",
+              "name": "Incident Lead",
+              "role_type": "lead",
+              "shortform": "lead"
+            }
+          }
+        ],
+        "incident_status": {
+          "category": "live",
+          "id": "stat_51b206437e887274",
+          "name": "Live",
+          "rank": 2
+        },
+        "mode": "standard",
+        "name": "Elevated latency on payments ledger",
+        "reference": "INC-2041",
+        "severity": {
+          "description": "Sev1",
+          "id": "sev_839eef4e700e222c",
+          "name": "Critical",
+          "rank": 3
+        },
+        "updated_at": "2025-06-04T14:00:00Z",
+        "visibility": "public"
+      },
+      {
+        "created_at": "2025-05-10T09:00:00Z",
+        "id": "inc_fc733059b3a6398c",
+        "incident_role_assignments": [
+          {
+            "assignee": {
+              "email": "zane.bauer@nimbuspay.com",
+              "id": "01U9E4E500519993A3B50DF37B",
+              "name": "Zane Bauer"
+            },
+            "role": {
+              "id": "role_2d21612342ac8fe2",
+              "instructions": "Owns the incident",
+              "name": "Incident Lead",
+              "role_type": "lead",
+              "shortform": "lead"
+            }
+          }
+        ],
+        "incident_status": {
+          "category": "closed",
+          "id": "stat_85103df23241f290",
+          "name": "Closed",
+          "rank": 3
+        },
+        "mode": "standard",
+        "name": "Historic outage (resolved)",
+        "reference": "INC-1998",
+        "severity": {
+          "description": "Sev1",
+          "id": "sev_839eef4e700e222c",
+          "name": "Critical",
+          "rank": 3
+        },
+        "updated_at": "2025-05-10T09:00:00Z",
+        "visibility": "public"
+      },
+      {
+        "created_at": "2025-06-05T02:00:00Z",
+        "id": "inc_b065bbb7b746c74d",
+        "incident_role_assignments": [
+          {
+            "assignee": {
+              "email": "xavier.moreau@nimbuspay.com",
+              "id": "01U81731D31D2DBA9ABA6A3C47",
+              "name": "Xavier Moreau"
+            },
+            "role": {
+              "id": "role_2d21612342ac8fe2",
+              "instructions": "Owns the incident",
+              "name": "Incident Lead",
+              "role_type": "lead",
+              "shortform": "lead"
+            }
+          }
+        ],
+        "incident_status": {
+          "category": "live",
+          "id": "stat_51b206437e887274",
+          "name": "Live",
+          "rank": 2
+        },
+        "mode": "standard",
+        "name": "Search relevance regression",
+        "reference": "INC-2050",
+        "severity": {
+          "description": "Sev2",
+          "id": "sev_c22095c0e3898ce8",
+          "name": "Major",
+          "rank": 2
+        },
+        "updated_at": "2025-06-05T02:00:00Z",
+        "visibility": "public"
+      },
+      {
+        "created_at": "2025-06-05T06:00:00Z",
+        "id": "inc_de7d0b55c122a527",
+        "incident_role_assignments": [
+          {
+            "assignee": {
+              "email": "hugo.gupta@nimbuspay.com",
+              "id": "01UD37B487405756527A8F3FBF",
+              "name": "Hugo Gupta"
+            },
+            "role": {
+              "id": "role_2d21612342ac8fe2",
+              "instructions": "Owns the incident",
+              "name": "Incident Lead",
+              "role_type": "lead",
+              "shortform": "lead"
+            }
+          }
+        ],
+        "incident_status": {
+          "category": "triage",
+          "id": "stat_e4d8e68ad03339bd",
+          "name": "Triage",
+          "rank": 1
+        },
+        "mode": "standard",
+        "name": "Checkout error spike",
+        "reference": "INC-2052",
+        "severity": {
+          "description": "Sev1",
+          "id": "sev_839eef4e700e222c",
+          "name": "Critical",
+          "rank": 3
+        },
+        "updated_at": "2025-06-05T06:00:00Z",
+        "visibility": "public"
+      },
+      {
+        "created_at": "2025-04-10T10:00:00Z",
+        "id": "inc_9627504726e29813",
+        "incident_role_assignments": [
+          {
+            "assignee": {
+              "email": "celia.jansen@nimbuspay.com",
+              "id": "01U4220A4198932C8F1D4A88C7",
+              "name": "Celia Jansen"
+            },
+            "role": {
+              "id": "role_2d21612342ac8fe2",
+              "instructions": "Owns the incident",
+              "name": "Incident Lead",
+              "role_type": "lead",
+              "shortform": "lead"
+            }
+          }
+        ],
+        "incident_status": {
+          "category": "closed",
+          "id": "stat_85103df23241f290",
+          "name": "Closed",
+          "rank": 3
+        },
+        "mode": "standard",
+        "name": "Minor blip 0",
+        "reference": "INC-1910",
+        "severity": {
+          "description": "Sev3",
+          "id": "sev_17d442683a332af5",
+          "name": "Minor",
+          "rank": 1
+        },
+        "updated_at": "2025-04-10T10:00:00Z",
+        "visibility": "public"
+      },
+      {
+        "created_at": "2025-04-11T10:00:00Z",
+        "id": "inc_1d0246be45076f52",
+        "incident_role_assignments": [
+          {
+            "assignee": {
+              "email": "farah.ahmed@nimbuspay.com",
+              "id": "01U6D7C46C0BC0C3DB08399811",
+              "name": "Farah Ahmed"
+            },
+            "role": {
+              "id": "role_2d21612342ac8fe2",
+              "instructions": "Owns the incident",
+              "name": "Incident Lead",
+              "role_type": "lead",
+              "shortform": "lead"
+            }
+          }
+        ],
+        "incident_status": {
+          "category": "closed",
+          "id": "stat_85103df23241f290",
+          "name": "Closed",
+          "rank": 3
+        },
+        "mode": "standard",
+        "name": "Minor blip 1",
+        "reference": "INC-1911",
+        "severity": {
+          "description": "Sev3",
+          "id": "sev_17d442683a332af5",
+          "name": "Minor",
+          "rank": 1
+        },
+        "updated_at": "2025-04-11T10:00:00Z",
+        "visibility": "public"
+      },
+      {
+        "created_at": "2025-04-12T10:00:00Z",
+        "id": "inc_4f310909aca07ea0",
+        "incident_role_assignments": [
+          {
+            "assignee": {
+              "email": "hilde.owusu@nimbuspay.com",
+              "id": "01UB1549A67BC4DC5BD13D1581",
+              "name": "Hilde Owusu"
+            },
+            "role": {
+              "id": "role_2d21612342ac8fe2",
+              "instructions": "Owns the incident",
+              "name": "Incident Lead",
+              "role_type": "lead",
+              "shortform": "lead"
+            }
+          }
+        ],
+        "incident_status": {
+          "category": "closed",
+          "id": "stat_85103df23241f290",
+          "name": "Closed",
+          "rank": 3
+        },
+        "mode": "standard",
+        "name": "Minor blip 2",
+        "reference": "INC-1912",
+        "severity": {
+          "description": "Sev3",
+          "id": "sev_17d442683a332af5",
+          "name": "Minor",
+          "rank": 1
+        },
+        "updated_at": "2025-04-12T10:00:00Z",
+        "visibility": "public"
+      },
+      {
+        "created_at": "2025-04-13T10:00:00Z",
+        "id": "inc_d18fbb4c3536fde7",
+        "incident_role_assignments": [
+          {
+            "assignee": {
+              "email": "mona.larsen@nimbuspay.com",
+              "id": "01UD2DD79B1CFEA20E1C79A1DA",
+              "name": "Mona Larsen"
+            },
+            "role": {
+              "id": "role_2d21612342ac8fe2",
+              "instructions": "Owns the incident",
+              "name": "Incident Lead",
+              "role_type": "lead",
+              "shortform": "lead"
+            }
+          }
+        ],
+        "incident_status": {
+          "category": "closed",
+          "id": "stat_85103df23241f290",
+          "name": "Closed",
+          "rank": 3
+        },
+        "mode": "standard",
+        "name": "Minor blip 3",
+        "reference": "INC-1913",
+        "severity": {
+          "description": "Sev3",
+          "id": "sev_17d442683a332af5",
+          "name": "Minor",
+          "rank": 1
+        },
+        "updated_at": "2025-04-13T10:00:00Z",
+        "visibility": "public"
+      },
+      {
+        "created_at": "2025-04-14T10:00:00Z",
+        "id": "inc_e04e6384243fe440",
+        "incident_role_assignments": [
+          {
+            "assignee": {
+              "email": "gopal.haas@nimbuspay.com",
+              "id": "01U257F65593D28D25FA3796FD",
+              "name": "Gopal Haas"
+            },
+            "role": {
+              "id": "role_2d21612342ac8fe2",
+              "instructions": "Owns the incident",
+              "name": "Incident Lead",
+              "role_type": "lead",
+              "shortform": "lead"
+            }
+          }
+        ],
+        "incident_status": {
+          "category": "closed",
+          "id": "stat_85103df23241f290",
+          "name": "Closed",
+          "rank": 3
+        },
+        "mode": "standard",
+        "name": "Minor blip 4",
+        "reference": "INC-1914",
+        "severity": {
+          "description": "Sev3",
+          "id": "sev_17d442683a332af5",
+          "name": "Minor",
+          "rank": 1
+        },
+        "updated_at": "2025-04-14T10:00:00Z",
+        "visibility": "public"
+      },
+      {
+        "created_at": "2025-04-15T10:00:00Z",
+        "id": "inc_d0eed5cdc2238f46",
+        "incident_role_assignments": [
+          {
+            "assignee": {
+              "email": "liam.esposito@nimbuspay.com",
+              "id": "01UA77A792885EF0B73D427948",
+              "name": "Liam Esposito"
+            },
+            "role": {
+              "id": "role_2d21612342ac8fe2",
+              "instructions": "Owns the incident",
+              "name": "Incident Lead",
+              "role_type": "lead",
+              "shortform": "lead"
+            }
+          }
+        ],
+        "incident_status": {
+          "category": "closed",
+          "id": "stat_85103df23241f290",
+          "name": "Closed",
+          "rank": 3
+        },
+        "mode": "standard",
+        "name": "Minor blip 5",
+        "reference": "INC-1915",
+        "severity": {
+          "description": "Sev3",
+          "id": "sev_17d442683a332af5",
+          "name": "Minor",
+          "rank": 1
+        },
+        "updated_at": "2025-04-15T10:00:00Z",
+        "visibility": "public"
+      }
+    ],
+    "severities": [
+      {
+        "description": "Sev1",
+        "id": "sev_839eef4e700e222c",
+        "name": "Critical",
+        "rank": 3
+      },
+      {
+        "description": "Sev2",
+        "id": "sev_c22095c0e3898ce8",
+        "name": "Major",
+        "rank": 2
+      },
+      {
+        "description": "Sev3",
+        "id": "sev_17d442683a332af5",
+        "name": "Minor",
+        "rank": 1
+      }
+    ],
+    "users": [
+      {
+        "email": "zane.bauer@nimbuspay.com",
+        "id": "01U9E4E500519993A3B50DF37B",
+        "name": "Zane Bauer",
+        "role": "responder"
+      },
+      {
+        "email": "xavier.moreau@nimbuspay.com",
+        "id": "01U81731D31D2DBA9ABA6A3C47",
+        "name": "Xavier Moreau",
+        "role": "responder"
+      },
+      {
+        "email": "hugo.gupta@nimbuspay.com",
+        "id": "01UD37B487405756527A8F3FBF",
+        "name": "Hugo Gupta",
+        "role": "responder"
+      },
+      {
+        "email": "celia.jansen@nimbuspay.com",
+        "id": "01U4220A4198932C8F1D4A88C7",
+        "name": "Celia Jansen",
+        "role": "responder"
+      },
+      {
+        "email": "farah.ahmed@nimbuspay.com",
+        "id": "01U6D7C46C0BC0C3DB08399811",
+        "name": "Farah Ahmed",
+        "role": "responder"
+      },
+      {
+        "email": "hannah.cole@nimbuspay.com",
+        "id": "01U8E65B724C043F258D8008F8",
+        "name": "Hannah Cole",
+        "role": "responder"
+      },
+      {
+        "email": "hilde.owusu@nimbuspay.com",
+        "id": "01UB1549A67BC4DC5BD13D1581",
+        "name": "Hilde Owusu",
+        "role": "responder"
+      },
+      {
+        "email": "mona.larsen@nimbuspay.com",
+        "id": "01UD2DD79B1CFEA20E1C79A1DA",
+        "name": "Mona Larsen",
+        "role": "responder"
+      },
+      {
+        "email": "sofia.alvarez@nimbuspay.com",
+        "id": "01UAE624ED729AD903EB8323A5",
+        "name": "Sofia Alvarez",
+        "role": "responder"
+      },
+      {
+        "email": "gopal.haas@nimbuspay.com",
+        "id": "01U257F65593D28D25FA3796FD",
+        "name": "Gopal Haas",
+        "role": "responder"
+      },
+      {
+        "email": "liam.esposito@nimbuspay.com",
+        "id": "01UA77A792885EF0B73D427948",
+        "name": "Liam Esposito",
+        "role": "responder"
+      },
+      {
+        "email": "quinn.blum@nimbuspay.com",
+        "id": "01U667395D53FDF3A14C638788",
+        "name": "Quinn Blum",
+        "role": "responder"
+      },
+      {
+        "email": "bianca.kim@nimbuspay.com",
+        "id": "01U931B4E5BF03CFEF09B9BD7F",
+        "name": "Bianca Kim",
+        "role": "responder"
+      },
+      {
+        "email": "alex.delgado@nimbuspay.com",
+        "id": "01U07B11232955A4DE6ABC1A73",
+        "name": "Alex Delgado",
+        "role": "responder"
+      },
+      {
+        "email": "petra.holm@nimbuspay.com",
+        "id": "01U20FAA719C638F64AA1F764A",
+        "name": "Petra Holm",
+        "role": "responder"
+      },
+      {
+        "email": "devon.ross@nimbuspay.com",
+        "id": "01UA770EC0C4C26898F2E587E5",
+        "name": "Devon Ross",
+        "role": "responder"
+      },
+      {
+        "email": "ravi.chandra@nimbuspay.com",
+        "id": "01U7AD79DB71C2B69F52179B40",
+        "name": "Ravi Chandra",
+        "role": "responder"
+      },
+      {
+        "email": "ines.vargas@nimbuspay.com",
+        "id": "01UC3FB130A73C941FED5DF338",
+        "name": "Ines Vargas",
+        "role": "responder"
+      },
+      {
+        "email": "esha.xu@nimbuspay.com",
+        "id": "01U52AFE43965022355A602A36",
+        "name": "Esha Xu",
+        "role": "responder"
+      },
+      {
+        "email": "omar.zola@nimbuspay.com",
+        "id": "01UD22ACA91B6E154BA309750E",
+        "name": "Omar Zola",
+        "role": "responder"
+      },
+      {
+        "email": "aria.ismail@nimbuspay.com",
+        "id": "01U5585B3F5A728700B170D5C4",
+        "name": "Aria Ismail",
+        "role": "responder"
+      },
+      {
+        "email": "greta.valdez@nimbuspay.com",
+        "id": "01UE76CFF893BFDF6A67C8AA01",
+        "name": "Greta Valdez",
+        "role": "responder"
+      },
+      {
+        "email": "wendy.fischer@nimbuspay.com",
+        "id": "01UA360140C89D10E0FB31DB8C",
+        "name": "Wendy Fischer",
+        "role": "responder"
+      },
+      {
+        "email": "dana.yamada@nimbuspay.com",
+        "id": "01UE5F1DBD5B2C1494AE49742F",
+        "name": "Dana Yamada",
+        "role": "responder"
+      },
+      {
+        "email": "dmitri.quintero@nimbuspay.com",
+        "id": "01UF51003C5D072C44E0A17256",
+        "name": "Dmitri Quintero",
+        "role": "responder"
+      },
+      {
+        "email": "marcus.feldt@nimbuspay.com",
+        "id": "01U2867E24F91AA0012D7B5A14",
+        "name": "Marcus Feldt",
+        "role": "responder"
+      },
+      {
+        "email": "kara.stein@nimbuspay.com",
+        "id": "01U1ACF104858DEC874FBEA921",
+        "name": "Kara Stein",
+        "role": "responder"
+      },
+      {
+        "email": "rafael.roy@nimbuspay.com",
+        "id": "01UA1F1C2BE27C47AA60D1C7F8",
+        "name": "Rafael Roy",
+        "role": "responder"
+      },
+      {
+        "email": "oscar.ueno@nimbuspay.com",
+        "id": "01U706BC63DF39BFC47BCABA7E",
+        "name": "Oscar Ueno",
+        "role": "responder"
+      },
+      {
+        "email": "nils.sato@nimbuspay.com",
+        "id": "01U1A0AD73F7C2415C7A1930C1",
+        "name": "Nils Sato",
+        "role": "responder"
+      },
+      {
+        "email": "viktor.tan@nimbuspay.com",
+        "id": "01U2B5296CD8E85D31EB735FEA",
+        "name": "Viktor Tan",
+        "role": "responder"
+      },
+      {
+        "email": "kenji.watts@nimbuspay.com",
+        "id": "01UCCECDD829439564F2605140",
+        "name": "Kenji Watts",
+        "role": "responder"
+      },
+      {
+        "email": "caleb.reyes@nimbuspay.com",
+        "id": "01U973DF804F00FB0ED21A1DAC",
+        "name": "Caleb Reyes",
+        "role": "responder"
+      },
+      {
+        "email": "said.park@nimbuspay.com",
+        "id": "01U2F7D4FF4699DB05B4E67A0F",
+        "name": "Said Park",
+        "role": "responder"
+      },
+      {
+        "email": "rosa.iqbal@nimbuspay.com",
+        "id": "01U2DBB86BAE59AFCBAEC2EF0D",
+        "name": "Rosa Iqbal",
+        "role": "responder"
+      },
+      {
+        "email": "elias.ghosh@nimbuspay.com",
+        "id": "01U8C4E0D78346CFCBC7491E31",
+        "name": "Elias Ghosh",
+        "role": "responder"
+      },
+      {
+        "email": "uma.engel@nimbuspay.com",
+        "id": "01U4529C4F9ADBC9F7685E36EB",
+        "name": "Uma Engel",
+        "role": "responder"
+      },
+      {
+        "email": "priya.nair@nimbuspay.com",
+        "id": "01UA1E3C7D474C02FA9A7A12EB",
+        "name": "Priya Nair",
+        "role": "responder"
+      },
+      {
+        "email": "yara.turner@nimbuspay.com",
+        "id": "01U0A00D06A02E16DD4F877114",
+        "name": "Yara Turner",
+        "role": "responder"
+      },
+      {
+        "email": "paula.cohn@nimbuspay.com",
+        "id": "01UE986EC5B165037401165198",
+        "name": "Paula Cohn",
+        "role": "responder"
+      },
+      {
+        "email": "bruno.costa@nimbuspay.com",
+        "id": "01U457BF29545AC17F453C0F1F",
+        "name": "Bruno Costa",
+        "role": "responder"
+      },
+      {
+        "email": "nadia.novak@nimbuspay.com",
+        "id": "01U1416748A602C12F568F206E",
+        "name": "Nadia Novak",
+        "role": "responder"
+      },
+      {
+        "email": "felix.freund@nimbuspay.com",
+        "id": "01U4C6DB7BC9277F14670C810B",
+        "name": "Felix Freund",
+        "role": "responder"
+      },
+      {
+        "email": "tara.weiss@nimbuspay.com",
+        "id": "01U8C5ADDF3CCA4418A362E5D8",
+        "name": "Tara Weiss",
+        "role": "responder"
+      },
+      {
+        "email": "jonas.dubois@nimbuspay.com",
+        "id": "01UD60EB31DFE53F6BFF557A10",
+        "name": "Jonas Dubois",
+        "role": "responder"
+      }
+    ]
+  },
+  "okta": {
+    "apiTokens": [],
+    "apps": [],
+    "groups": [
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00g4bad2bd607413c0d6",
+        "members": [
+          "00u81dbac9f491e89185",
+          "00ub03da0fdc2d00f4de",
+          "00u64bfe5e5511ae0345",
+          "00u92330ef5875121efb",
+          "00ua2838aec12712afe9",
+          "00ud4b10091b19f28777"
+        ],
+        "objectClass": [
+          "okta:user_group"
+        ],
+        "profile": {
+          "description": "Standing on-call rotation members for the Payments core DB (trained/eligible).",
+          "name": "payments-db-oncall"
+        },
+        "type": "OKTA_GROUP"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00g5197dbc202cf2173f",
+        "members": [
+          "00u7b6fcac3c42e70e5a",
+          "00u6ea7e0761fb70cdd5",
+          "00u4779ebe64f61c8706",
+          "00u1f1a9d3a5ce2c0766",
+          "00ud457532e32455a44c",
+          "00ua22832b2a32c84182",
+          "00uf88592e9a2c97c198",
+          "00u6767de6855ef45fd4",
+          "00u9331bb2fddb6b1dc5",
+          "00u7e541ae356f7bed7f",
+          "00ub5fe57e7cfe35f81a",
+          "00u9158d67787ffaf034",
+          "00uf4bd6bc22f6314596",
+          "00u06166543f4651c459",
+          "00ua333b433f9ab58743",
+          "00u8ba75afdf9fde4233",
+          "00u3a4faa2dadec600d7",
+          "00ucffdc2900a9ce69b8",
+          "00u7c15bcc967d28d093",
+          "00u15ba19514de0a9640",
+          "00uc7c95bc9bd287b481",
+          "00uab91ddfe3813ebd71",
+          "00u7d9938ef265648efe",
+          "00ua68cd57e8a9d5e235",
+          "00uab27c5543ff720434",
+          "00ube32f38fbfdef1bbd",
+          "00ua2838aec12712afe9",
+          "00u4bcd8093e535cba4a",
+          "00u83ee8bda446368c48",
+          "00ua1f8e817f0f0f9970",
+          "00u5e1b716f7bf28a5e5",
+          "00u6e63abb944235e0a2",
+          "00u41615b16706e03451",
+          "00ubce371d5007975710",
+          "00u1032c022ae15e32eb",
+          "00uc905ea96560fcdb49",
+          "00u1814de94bea634fa8",
+          "00u82be57116ae6c1213"
+        ],
+        "objectClass": [
+          "okta:user_group"
+        ],
+        "profile": {
+          "description": "search-api-oncall responders",
+          "name": "search-api-oncall"
+        },
+        "type": "OKTA_GROUP"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00g77be003c6d1a649c0",
+        "members": [
+          "00u81dbac9f491e89185"
+        ],
+        "objectClass": [
+          "okta:user_group"
+        ],
+        "profile": {
+          "description": "checkout-oncall responders",
+          "name": "checkout-oncall"
+        },
+        "type": "OKTA_GROUP"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00gcb5876c5cfda13dd6",
+        "members": [],
+        "objectClass": [
+          "okta:user_group"
+        ],
+        "profile": {
+          "description": "infra-oncall responders",
+          "name": "infra-oncall"
+        },
+        "type": "OKTA_GROUP"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ga3c9de578df79b67c",
+        "members": [],
+        "objectClass": [
+          "okta:user_group"
+        ],
+        "profile": {
+          "description": "data-oncall responders",
+          "name": "data-oncall"
+        },
+        "type": "OKTA_GROUP"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00g463afec82448e1bfa",
+        "members": [
+          "00u1f1a9d3a5ce2c0766",
+          "00ua22832b2a32c84182",
+          "00u0476c98c44d3dbdd3",
+          "00u64bfe5e5511ae0345",
+          "00u8ba75afdf9fde4233",
+          "00ua68cd57e8a9d5e235",
+          "00ube32f38fbfdef1bbd"
+        ],
+        "objectClass": [
+          "okta:user_group"
+        ],
+        "profile": {
+          "description": "incident-commanders responders",
+          "name": "incident-commanders"
+        },
+        "type": "OKTA_GROUP"
+      }
+    ],
+    "logs": [],
+    "users": [
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u7b6fcac3c42e70e5a",
+        "profile": {
+          "email": "zane.bauer@nimbuspay.com",
+          "firstName": "Zane",
+          "lastName": "Bauer",
+          "login": "zane.bauer@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u6ea7e0761fb70cdd5",
+        "profile": {
+          "email": "xavier.moreau@nimbuspay.com",
+          "firstName": "Xavier",
+          "lastName": "Moreau",
+          "login": "xavier.moreau@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u4779ebe64f61c8706",
+        "profile": {
+          "email": "hugo.gupta@nimbuspay.com",
+          "firstName": "Hugo",
+          "lastName": "Gupta",
+          "login": "hugo.gupta@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u1f1a9d3a5ce2c0766",
+        "profile": {
+          "email": "celia.jansen@nimbuspay.com",
+          "firstName": "Celia",
+          "lastName": "Jansen",
+          "login": "celia.jansen@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ud457532e32455a44c",
+        "profile": {
+          "email": "farah.ahmed@nimbuspay.com",
+          "firstName": "Farah",
+          "lastName": "Ahmed",
+          "login": "farah.ahmed@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u81dbac9f491e89185",
+        "profile": {
+          "email": "hannah.cole@nimbuspay.com",
+          "firstName": "Hannah",
+          "lastName": "Cole",
+          "login": "hannah.cole@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ua22832b2a32c84182",
+        "profile": {
+          "email": "hilde.owusu@nimbuspay.com",
+          "firstName": "Hilde",
+          "lastName": "Owusu",
+          "login": "hilde.owusu@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00uf88592e9a2c97c198",
+        "profile": {
+          "email": "mona.larsen@nimbuspay.com",
+          "firstName": "Mona",
+          "lastName": "Larsen",
+          "login": "mona.larsen@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ub03da0fdc2d00f4de",
+        "profile": {
+          "email": "sofia.alvarez@nimbuspay.com",
+          "firstName": "Sofia",
+          "lastName": "Alvarez",
+          "login": "sofia.alvarez@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u6767de6855ef45fd4",
+        "profile": {
+          "email": "gopal.haas@nimbuspay.com",
+          "firstName": "Gopal",
+          "lastName": "Haas",
+          "login": "gopal.haas@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u9331bb2fddb6b1dc5",
+        "profile": {
+          "email": "liam.esposito@nimbuspay.com",
+          "firstName": "Liam",
+          "lastName": "Esposito",
+          "login": "liam.esposito@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u7e541ae356f7bed7f",
+        "profile": {
+          "email": "quinn.blum@nimbuspay.com",
+          "firstName": "Quinn",
+          "lastName": "Blum",
+          "login": "quinn.blum@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ub5fe57e7cfe35f81a",
+        "profile": {
+          "email": "bianca.kim@nimbuspay.com",
+          "firstName": "Bianca",
+          "lastName": "Kim",
+          "login": "bianca.kim@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u0476c98c44d3dbdd3",
+        "profile": {
+          "email": "alex.delgado@nimbuspay.com",
+          "firstName": "Alex",
+          "lastName": "Delgado",
+          "login": "alex.delgado@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u9158d67787ffaf034",
+        "profile": {
+          "email": "petra.holm@nimbuspay.com",
+          "firstName": "Petra",
+          "lastName": "Holm",
+          "login": "petra.holm@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u64bfe5e5511ae0345",
+        "profile": {
+          "email": "devon.ross@nimbuspay.com",
+          "firstName": "Devon",
+          "lastName": "Ross",
+          "login": "devon.ross@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00uf4bd6bc22f6314596",
+        "profile": {
+          "email": "ravi.chandra@nimbuspay.com",
+          "firstName": "Ravi",
+          "lastName": "Chandra",
+          "login": "ravi.chandra@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u06166543f4651c459",
+        "profile": {
+          "email": "ines.vargas@nimbuspay.com",
+          "firstName": "Ines",
+          "lastName": "Vargas",
+          "login": "ines.vargas@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ua333b433f9ab58743",
+        "profile": {
+          "email": "esha.xu@nimbuspay.com",
+          "firstName": "Esha",
+          "lastName": "Xu",
+          "login": "esha.xu@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u8ba75afdf9fde4233",
+        "profile": {
+          "email": "omar.zola@nimbuspay.com",
+          "firstName": "Omar",
+          "lastName": "Zola",
+          "login": "omar.zola@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u3a4faa2dadec600d7",
+        "profile": {
+          "email": "aria.ismail@nimbuspay.com",
+          "firstName": "Aria",
+          "lastName": "Ismail",
+          "login": "aria.ismail@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ucffdc2900a9ce69b8",
+        "profile": {
+          "email": "greta.valdez@nimbuspay.com",
+          "firstName": "Greta",
+          "lastName": "Valdez",
+          "login": "greta.valdez@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u7c15bcc967d28d093",
+        "profile": {
+          "email": "wendy.fischer@nimbuspay.com",
+          "firstName": "Wendy",
+          "lastName": "Fischer",
+          "login": "wendy.fischer@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u15ba19514de0a9640",
+        "profile": {
+          "email": "dana.yamada@nimbuspay.com",
+          "firstName": "Dana",
+          "lastName": "Yamada",
+          "login": "dana.yamada@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00uc7c95bc9bd287b481",
+        "profile": {
+          "email": "dmitri.quintero@nimbuspay.com",
+          "firstName": "Dmitri",
+          "lastName": "Quintero",
+          "login": "dmitri.quintero@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u92330ef5875121efb",
+        "profile": {
+          "email": "marcus.feldt@nimbuspay.com",
+          "firstName": "Marcus",
+          "lastName": "Feldt",
+          "login": "marcus.feldt@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00uab91ddfe3813ebd71",
+        "profile": {
+          "email": "kara.stein@nimbuspay.com",
+          "firstName": "Kara",
+          "lastName": "Stein",
+          "login": "kara.stein@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u7d9938ef265648efe",
+        "profile": {
+          "email": "rafael.roy@nimbuspay.com",
+          "firstName": "Rafael",
+          "lastName": "Roy",
+          "login": "rafael.roy@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ua68cd57e8a9d5e235",
+        "profile": {
+          "email": "oscar.ueno@nimbuspay.com",
+          "firstName": "Oscar",
+          "lastName": "Ueno",
+          "login": "oscar.ueno@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00uab27c5543ff720434",
+        "profile": {
+          "email": "nils.sato@nimbuspay.com",
+          "firstName": "Nils",
+          "lastName": "Sato",
+          "login": "nils.sato@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ube32f38fbfdef1bbd",
+        "profile": {
+          "email": "viktor.tan@nimbuspay.com",
+          "firstName": "Viktor",
+          "lastName": "Tan",
+          "login": "viktor.tan@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ua2838aec12712afe9",
+        "profile": {
+          "email": "kenji.watts@nimbuspay.com",
+          "firstName": "Kenji",
+          "lastName": "Watts",
+          "login": "kenji.watts@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u4bcd8093e535cba4a",
+        "profile": {
+          "email": "caleb.reyes@nimbuspay.com",
+          "firstName": "Caleb",
+          "lastName": "Reyes",
+          "login": "caleb.reyes@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u83ee8bda446368c48",
+        "profile": {
+          "email": "said.park@nimbuspay.com",
+          "firstName": "Said",
+          "lastName": "Park",
+          "login": "said.park@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ua1f8e817f0f0f9970",
+        "profile": {
+          "email": "rosa.iqbal@nimbuspay.com",
+          "firstName": "Rosa",
+          "lastName": "Iqbal",
+          "login": "rosa.iqbal@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u5e1b716f7bf28a5e5",
+        "profile": {
+          "email": "elias.ghosh@nimbuspay.com",
+          "firstName": "Elias",
+          "lastName": "Ghosh",
+          "login": "elias.ghosh@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u15ed802eb796cd389",
+        "profile": {
+          "email": "uma.engel@nimbuspay.com",
+          "firstName": "Uma",
+          "lastName": "Engel",
+          "login": "uma.engel@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ud4b10091b19f28777",
+        "profile": {
+          "email": "priya.nair@nimbuspay.com",
+          "firstName": "Priya",
+          "lastName": "Nair",
+          "login": "priya.nair@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u6e63abb944235e0a2",
+        "profile": {
+          "email": "yara.turner@nimbuspay.com",
+          "firstName": "Yara",
+          "lastName": "Turner",
+          "login": "yara.turner@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u41615b16706e03451",
+        "profile": {
+          "email": "paula.cohn@nimbuspay.com",
+          "firstName": "Paula",
+          "lastName": "Cohn",
+          "login": "paula.cohn@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00ubce371d5007975710",
+        "profile": {
+          "email": "bruno.costa@nimbuspay.com",
+          "firstName": "Bruno",
+          "lastName": "Costa",
+          "login": "bruno.costa@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u1032c022ae15e32eb",
+        "profile": {
+          "email": "nadia.novak@nimbuspay.com",
+          "firstName": "Nadia",
+          "lastName": "Novak",
+          "login": "nadia.novak@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00uc905ea96560fcdb49",
+        "profile": {
+          "email": "felix.freund@nimbuspay.com",
+          "firstName": "Felix",
+          "lastName": "Freund",
+          "login": "felix.freund@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u1814de94bea634fa8",
+        "profile": {
+          "email": "tara.weiss@nimbuspay.com",
+          "firstName": "Tara",
+          "lastName": "Weiss",
+          "login": "tara.weiss@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2024-01-01T00:00:00Z",
+        "id": "00u82be57116ae6c1213",
+        "profile": {
+          "email": "jonas.dubois@nimbuspay.com",
+          "firstName": "Jonas",
+          "lastName": "Dubois",
+          "login": "jonas.dubois@nimbuspay.com"
+        },
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  "pagerduty": {
+    "counters": {
+      "id": 5000
+    },
+    "current_user_id": "P947B89",
+    "escalation_policies": [
+      {
+        "escalation_rules": [
+          {
+            "escalation_delay_in_minutes": 30,
+            "id": "PER0001",
+            "targets": [
+              {
+                "id": "P947B89",
+                "summary": "Priya Nair",
+                "type": "user_reference"
+              }
+            ]
+          }
+        ],
+        "id": "PEP0001",
+        "name": "Payments-DB Escalation",
+        "num_loops": 0,
+        "summary": "Payments-DB Escalation",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "type": "escalation_policy"
+      }
+    ],
+    "incidents": [],
+    "log_entries": [],
+    "maintenance_windows": [],
+    "notes": [],
+    "overrides": [],
+    "priorities": [],
+    "schedules": [
+      {
+        "description": "Primary on-call rotation for the Payments core database.",
+        "id": "PSCHED1",
+        "name": "Payments-DB Primary",
+        "schedule_layers": [
+          {
+            "id": "PLAYER1",
+            "name": "Rotation",
+            "rotation_turn_length_seconds": 86400,
+            "rotation_virtual_start": "2025-01-01T00:00:00Z",
+            "start": "2025-01-01T00:00:00Z",
+            "users": [
+              {
+                "user": {
+                  "id": "P610CAF",
+                  "summary": "Sofia Alvarez",
+                  "type": "user_reference"
+                }
+              },
+              {
+                "user": {
+                  "id": "P28956F",
+                  "summary": "Devon Ross",
+                  "type": "user_reference"
+                }
+              },
+              {
+                "user": {
+                  "id": "P56AF27",
+                  "summary": "Marcus Feldt",
+                  "type": "user_reference"
+                }
+              },
+              {
+                "user": {
+                  "id": "P947B89",
+                  "summary": "Priya Nair",
+                  "type": "user_reference"
+                }
+              }
+            ]
+          }
+        ],
+        "summary": "Payments-DB Primary",
+        "time_zone": "Etc/UTC",
+        "type": "schedule"
+      },
+      {
+        "description": "Primary on-call for Search Platform.",
+        "id": "PSCHED2",
+        "name": "Search-Platform Primary",
+        "schedule_layers": [
+          {
+            "id": "PLAYER2",
+            "name": "Rotation",
+            "rotation_turn_length_seconds": 604800,
+            "rotation_virtual_start": "2025-01-01T00:00:00Z",
+            "start": "2025-01-01T00:00:00Z",
+            "users": [
+              {
+                "user": {
+                  "id": "PDFA5FB",
+                  "summary": "Zane Bauer",
+                  "type": "user_reference"
+                }
+              },
+              {
+                "user": {
+                  "id": "PE03891",
+                  "summary": "Farah Ahmed",
+                  "type": "user_reference"
+                }
+              },
+              {
+                "user": {
+                  "id": "PE47751",
+                  "summary": "Alex Delgado",
+                  "type": "user_reference"
+                }
+              }
+            ]
+          }
+        ],
+        "summary": "Search-Platform Primary",
+        "time_zone": "Etc/UTC",
+        "type": "schedule"
+      }
+    ],
+    "services": [
+      {
+        "escalation_policy": {
+          "id": "PEP0001",
+          "summary": "Payments-DB Escalation",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC001",
+        "name": "Payments Core DB",
+        "status": "active",
+        "summary": "Payments Core DB",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service"
+      }
+    ],
+    "teams": [
+      {
+        "id": "PTC85C1",
+        "name": "Payments",
+        "summary": "Payments",
+        "type": "team"
+      },
+      {
+        "id": "PTF53FB",
+        "name": "SearchPlatform",
+        "summary": "SearchPlatform",
+        "type": "team"
+      },
+      {
+        "id": "PT2CC8A",
+        "name": "Checkout",
+        "summary": "Checkout",
+        "type": "team"
+      },
+      {
+        "id": "PTCEC0B",
+        "name": "Infra",
+        "summary": "Infra",
+        "type": "team"
+      },
+      {
+        "id": "PT40A36",
+        "name": "DataEng",
+        "summary": "DataEng",
+        "type": "team"
+      }
+    ],
+    "users": [
+      {
+        "email": "zane.bauer@nimbuspay.com",
+        "id": "PDFA5FB",
+        "name": "Zane Bauer",
+        "role": "user",
+        "summary": "Zane Bauer",
+        "teams": [
+          {
+            "id": "PTF53FB",
+            "summary": "SearchPlatform",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "xavier.moreau@nimbuspay.com",
+        "id": "P873481",
+        "name": "Xavier Moreau",
+        "role": "user",
+        "summary": "Xavier Moreau",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "hugo.gupta@nimbuspay.com",
+        "id": "P17C834",
+        "name": "Hugo Gupta",
+        "role": "user",
+        "summary": "Hugo Gupta",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "celia.jansen@nimbuspay.com",
+        "id": "P004D90",
+        "name": "Celia Jansen",
+        "role": "user",
+        "summary": "Celia Jansen",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "farah.ahmed@nimbuspay.com",
+        "id": "PE03891",
+        "name": "Farah Ahmed",
+        "role": "user",
+        "summary": "Farah Ahmed",
+        "teams": [
+          {
+            "id": "PTF53FB",
+            "summary": "SearchPlatform",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "hannah.cole@nimbuspay.com",
+        "id": "P460223",
+        "name": "Hannah Cole",
+        "role": "user",
+        "summary": "Hannah Cole",
+        "teams": [
+          {
+            "id": "PT2CC8A",
+            "summary": "Checkout",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "hilde.owusu@nimbuspay.com",
+        "id": "PCFB7EB",
+        "name": "Hilde Owusu",
+        "role": "user",
+        "summary": "Hilde Owusu",
+        "teams": [
+          {
+            "id": "PT2CC8A",
+            "summary": "Checkout",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "mona.larsen@nimbuspay.com",
+        "id": "PF880F4",
+        "name": "Mona Larsen",
+        "role": "user",
+        "summary": "Mona Larsen",
+        "teams": [
+          {
+            "id": "PT2CC8A",
+            "summary": "Checkout",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "sofia.alvarez@nimbuspay.com",
+        "id": "P610CAF",
+        "name": "Sofia Alvarez",
+        "role": "user",
+        "summary": "Sofia Alvarez",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "gopal.haas@nimbuspay.com",
+        "id": "P2A8B37",
+        "name": "Gopal Haas",
+        "role": "user",
+        "summary": "Gopal Haas",
+        "teams": [
+          {
+            "id": "PT40A36",
+            "summary": "DataEng",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "liam.esposito@nimbuspay.com",
+        "id": "P585FC9",
+        "name": "Liam Esposito",
+        "role": "user",
+        "summary": "Liam Esposito",
+        "teams": [
+          {
+            "id": "PT40A36",
+            "summary": "DataEng",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "quinn.blum@nimbuspay.com",
+        "id": "P9A8CCC",
+        "name": "Quinn Blum",
+        "role": "user",
+        "summary": "Quinn Blum",
+        "teams": [
+          {
+            "id": "PT40A36",
+            "summary": "DataEng",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "bianca.kim@nimbuspay.com",
+        "id": "PB5BDA0",
+        "name": "Bianca Kim",
+        "role": "user",
+        "summary": "Bianca Kim",
+        "teams": [
+          {
+            "id": "PT40A36",
+            "summary": "DataEng",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "alex.delgado@nimbuspay.com",
+        "id": "PE47751",
+        "name": "Alex Delgado",
+        "role": "user",
+        "summary": "Alex Delgado",
+        "teams": [
+          {
+            "id": "PTF53FB",
+            "summary": "SearchPlatform",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "petra.holm@nimbuspay.com",
+        "id": "P7512AC",
+        "name": "Petra Holm",
+        "role": "user",
+        "summary": "Petra Holm",
+        "teams": [
+          {
+            "id": "PTF53FB",
+            "summary": "SearchPlatform",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "devon.ross@nimbuspay.com",
+        "id": "P28956F",
+        "name": "Devon Ross",
+        "role": "user",
+        "summary": "Devon Ross",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "ravi.chandra@nimbuspay.com",
+        "id": "PD95797",
+        "name": "Ravi Chandra",
+        "role": "user",
+        "summary": "Ravi Chandra",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "ines.vargas@nimbuspay.com",
+        "id": "P95482D",
+        "name": "Ines Vargas",
+        "role": "user",
+        "summary": "Ines Vargas",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "esha.xu@nimbuspay.com",
+        "id": "P77EA0A",
+        "name": "Esha Xu",
+        "role": "user",
+        "summary": "Esha Xu",
+        "teams": [
+          {
+            "id": "PTF53FB",
+            "summary": "SearchPlatform",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "omar.zola@nimbuspay.com",
+        "id": "PC903F1",
+        "name": "Omar Zola",
+        "role": "user",
+        "summary": "Omar Zola",
+        "teams": [
+          {
+            "id": "PTCEC0B",
+            "summary": "Infra",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "aria.ismail@nimbuspay.com",
+        "id": "PCC3E17",
+        "name": "Aria Ismail",
+        "role": "user",
+        "summary": "Aria Ismail",
+        "teams": [
+          {
+            "id": "PT40A36",
+            "summary": "DataEng",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "greta.valdez@nimbuspay.com",
+        "id": "PF56AC6",
+        "name": "Greta Valdez",
+        "role": "user",
+        "summary": "Greta Valdez",
+        "teams": [
+          {
+            "id": "PT2CC8A",
+            "summary": "Checkout",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "wendy.fischer@nimbuspay.com",
+        "id": "P738183",
+        "name": "Wendy Fischer",
+        "role": "user",
+        "summary": "Wendy Fischer",
+        "teams": [
+          {
+            "id": "PT2CC8A",
+            "summary": "Checkout",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "dana.yamada@nimbuspay.com",
+        "id": "P4FECF3",
+        "name": "Dana Yamada",
+        "role": "user",
+        "summary": "Dana Yamada",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "dmitri.quintero@nimbuspay.com",
+        "id": "PF65294",
+        "name": "Dmitri Quintero",
+        "role": "user",
+        "summary": "Dmitri Quintero",
+        "teams": [
+          {
+            "id": "PTCEC0B",
+            "summary": "Infra",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "marcus.feldt@nimbuspay.com",
+        "id": "P56AF27",
+        "name": "Marcus Feldt",
+        "role": "user",
+        "summary": "Marcus Feldt",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "kara.stein@nimbuspay.com",
+        "id": "P8D25D3",
+        "name": "Kara Stein",
+        "role": "user",
+        "summary": "Kara Stein",
+        "teams": [
+          {
+            "id": "PTF53FB",
+            "summary": "SearchPlatform",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "rafael.roy@nimbuspay.com",
+        "id": "P30E11C",
+        "name": "Rafael Roy",
+        "role": "user",
+        "summary": "Rafael Roy",
+        "teams": [
+          {
+            "id": "PT2CC8A",
+            "summary": "Checkout",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "oscar.ueno@nimbuspay.com",
+        "id": "PDE8BCE",
+        "name": "Oscar Ueno",
+        "role": "user",
+        "summary": "Oscar Ueno",
+        "teams": [
+          {
+            "id": "PTF53FB",
+            "summary": "SearchPlatform",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "nils.sato@nimbuspay.com",
+        "id": "P33A701",
+        "name": "Nils Sato",
+        "role": "user",
+        "summary": "Nils Sato",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "viktor.tan@nimbuspay.com",
+        "id": "P6C6696",
+        "name": "Viktor Tan",
+        "role": "user",
+        "summary": "Viktor Tan",
+        "teams": [
+          {
+            "id": "PT40A36",
+            "summary": "DataEng",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "kenji.watts@nimbuspay.com",
+        "id": "PEB6ACD",
+        "name": "Kenji Watts",
+        "role": "user",
+        "summary": "Kenji Watts",
+        "teams": [
+          {
+            "id": "PTF53FB",
+            "summary": "SearchPlatform",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "caleb.reyes@nimbuspay.com",
+        "id": "P686C89",
+        "name": "Caleb Reyes",
+        "role": "user",
+        "summary": "Caleb Reyes",
+        "teams": [
+          {
+            "id": "PT2CC8A",
+            "summary": "Checkout",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "said.park@nimbuspay.com",
+        "id": "P1C9F46",
+        "name": "Said Park",
+        "role": "user",
+        "summary": "Said Park",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "rosa.iqbal@nimbuspay.com",
+        "id": "P793689",
+        "name": "Rosa Iqbal",
+        "role": "user",
+        "summary": "Rosa Iqbal",
+        "teams": [
+          {
+            "id": "PT2CC8A",
+            "summary": "Checkout",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "elias.ghosh@nimbuspay.com",
+        "id": "P2BD277",
+        "name": "Elias Ghosh",
+        "role": "user",
+        "summary": "Elias Ghosh",
+        "teams": [
+          {
+            "id": "PTCEC0B",
+            "summary": "Infra",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "uma.engel@nimbuspay.com",
+        "id": "P8F9B59",
+        "name": "Uma Engel",
+        "role": "user",
+        "summary": "Uma Engel",
+        "teams": [
+          {
+            "id": "PTF53FB",
+            "summary": "SearchPlatform",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "priya.nair@nimbuspay.com",
+        "id": "P947B89",
+        "name": "Priya Nair",
+        "role": "user",
+        "summary": "Priya Nair",
+        "teams": [
+          {
+            "id": "PTC85C1",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "yara.turner@nimbuspay.com",
+        "id": "P24DF46",
+        "name": "Yara Turner",
+        "role": "user",
+        "summary": "Yara Turner",
+        "teams": [
+          {
+            "id": "PTCEC0B",
+            "summary": "Infra",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "paula.cohn@nimbuspay.com",
+        "id": "P285543",
+        "name": "Paula Cohn",
+        "role": "user",
+        "summary": "Paula Cohn",
+        "teams": [
+          {
+            "id": "PT40A36",
+            "summary": "DataEng",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "bruno.costa@nimbuspay.com",
+        "id": "PB68368",
+        "name": "Bruno Costa",
+        "role": "user",
+        "summary": "Bruno Costa",
+        "teams": [
+          {
+            "id": "PT2CC8A",
+            "summary": "Checkout",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "nadia.novak@nimbuspay.com",
+        "id": "PB96CDB",
+        "name": "Nadia Novak",
+        "role": "user",
+        "summary": "Nadia Novak",
+        "teams": [
+          {
+            "id": "PTCEC0B",
+            "summary": "Infra",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "felix.freund@nimbuspay.com",
+        "id": "P431623",
+        "name": "Felix Freund",
+        "role": "user",
+        "summary": "Felix Freund",
+        "teams": [
+          {
+            "id": "PT40A36",
+            "summary": "DataEng",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "tara.weiss@nimbuspay.com",
+        "id": "P5BD937",
+        "name": "Tara Weiss",
+        "role": "user",
+        "summary": "Tara Weiss",
+        "teams": [
+          {
+            "id": "PTCEC0B",
+            "summary": "Infra",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      },
+      {
+        "email": "jonas.dubois@nimbuspay.com",
+        "id": "P3FFFE4",
+        "name": "Jonas Dubois",
+        "role": "user",
+        "summary": "Jonas Dubois",
+        "teams": [
+          {
+            "id": "PTCEC0B",
+            "summary": "Infra",
+            "type": "team_reference"
+          }
+        ],
+        "time_zone": "Etc/UTC",
+        "type": "user"
+      }
+    ]
+  }
+}

@@ -1,0 +1,684 @@
+{
+ "_now": "2026-07-15T08:00:00Z",
+ "device42": {
+  "devices": [
+   {
+    "device_id": 9101,
+    "id": 9101,
+    "in_service": true,
+    "name": "acme-dns-2026",
+    "notes": "Live ACME DNS-01 validation delegation host (acme-dns-2026.meridian-retail.example).",
+    "role": "validator",
+    "service": "acme-dns",
+    "type": "virtual"
+   },
+   {
+    "archived": true,
+    "device_id": 9102,
+    "id": 9102,
+    "in_service": false,
+    "name": "acme-dns-2025",
+    "notes": "Decommissioned ACME DNS-01 validator (acme-dns-2025.meridian-retail.example); retired, no longer serving.",
+    "role": "validator-decommissioned",
+    "service": "acme-dns",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9110,
+    "id": 9110,
+    "in_service": true,
+    "ip": "10.20.0.10",
+    "name": "edge-lb-01",
+    "notes": "HAProxy edge terminator.",
+    "role": "loadbalancer",
+    "service": "edge-lb",
+    "type": "virtual"
+   }
+  ],
+  "services": [
+   {
+    "bound_certificate": "wildcard-meridian-2025.pem",
+    "displayname": "shop",
+    "fqdn": "shop.meridian-retail.example",
+    "frontend": "fe_shop",
+    "id": "svc-shop",
+    "in_service": true,
+    "tier": "customer-facing"
+   },
+   {
+    "bound_certificate": "wildcard-meridian-2025.pem",
+    "displayname": "checkout",
+    "fqdn": "checkout.meridian-retail.example",
+    "frontend": "fe_checkout",
+    "id": "svc-checkout",
+    "in_service": true,
+    "tier": "customer-facing"
+   },
+   {
+    "bound_certificate": "wildcard-meridian-2025.pem",
+    "displayname": "account",
+    "fqdn": "account.meridian-retail.example",
+    "frontend": "fe_account",
+    "id": "svc-account",
+    "in_service": true,
+    "tier": "customer-facing"
+   },
+   {
+    "bound_certificate": "wildcard-meridian-2025.pem",
+    "displayname": "api",
+    "fqdn": "api.meridian-retail.example",
+    "frontend": "fe_api",
+    "id": "svc-api",
+    "in_service": true,
+    "tier": "customer-facing"
+   },
+   {
+    "bound_certificate": "wildcard-meridian-2025.pem",
+    "displayname": "catalog",
+    "fqdn": "catalog.meridian-retail.example",
+    "frontend": "fe_catalog",
+    "id": "svc-catalog",
+    "in_service": true,
+    "tier": "customer-facing"
+   },
+   {
+    "bound_certificate": "wildcard-meridian-2025.pem",
+    "displayname": "webhooks",
+    "fqdn": "webhooks.meridian-retail.example",
+    "frontend": "fe_webhooks",
+    "id": "svc-webhooks",
+    "in_service": true,
+    "tier": "customer-facing"
+   },
+   {
+    "bound_certificate": "wildcard-meridian-2026.pem",
+    "displayname": "status",
+    "fqdn": "status.meridian-retail.example",
+    "frontend": "fe_status",
+    "id": "svc-status",
+    "in_service": true,
+    "tier": "customer-facing"
+   },
+   {
+    "bound_certificate": "wildcard-meridian-2026.pem",
+    "displayname": "help",
+    "fqdn": "help.meridian-retail.example",
+    "frontend": "fe_help",
+    "id": "svc-help",
+    "in_service": true,
+    "tier": "customer-facing"
+   },
+   {
+    "bound_certificate": "api-gw-internal-2026.pem",
+    "displayname": "admin",
+    "fqdn": "admin.meridian-retail.example",
+    "frontend": "fe_admin",
+    "id": "svc-admin",
+    "in_service": true,
+    "tier": "internal"
+   }
+  ],
+  "software_license_keys": [
+   {
+    "id": "cert-wc-2025",
+    "in_service": true,
+    "license_key": "wildcard-meridian-2025.pem",
+    "not_after": "2026-07-15T02:00:00Z",
+    "product": "TLS certificate",
+    "status": "deployed",
+    "subject": "*.meridian-retail.example"
+   },
+   {
+    "id": "cert-wc-2026",
+    "in_service": false,
+    "license_key": "wildcard-meridian-2026.pem",
+    "not_after": "2027-07-15T00:00:00Z",
+    "product": "TLS certificate",
+    "status": "staged",
+    "subject": "*.meridian-retail.example"
+   },
+   {
+    "id": "cert-wc-2024",
+    "in_service": false,
+    "license_key": "wildcard-meridian-2024-standby.pem",
+    "not_after": "2025-07-15T00:00:00Z",
+    "product": "TLS certificate",
+    "status": "standby",
+    "subject": "*.meridian-retail.example"
+   },
+   {
+    "id": "cert-apigw-2026",
+    "in_service": true,
+    "license_key": "api-gw-internal-2026.pem",
+    "not_after": "2027-03-01T00:00:00Z",
+    "product": "TLS certificate",
+    "status": "deployed",
+    "subject": "admin.meridian-retail.example"
+   }
+  ]
+ },
+ "haproxy": {
+  "backends": [
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "be_checkout"
+   }
+  ],
+  "binds": [
+   {
+    "address": "10.20.0.10",
+    "name": "v4-443",
+    "parent_name": "fe_shop",
+    "port": 443,
+    "ssl": true,
+    "ssl_certificate": "wildcard-meridian-2025.pem"
+   },
+   {
+    "address": "10.20.0.10",
+    "name": "v4-443",
+    "parent_name": "fe_checkout",
+    "port": 443,
+    "ssl": true,
+    "ssl_certificate": "wildcard-meridian-2025.pem"
+   },
+   {
+    "address": "10.20.0.10",
+    "name": "v4-443",
+    "parent_name": "fe_account",
+    "port": 443,
+    "ssl": true,
+    "ssl_certificate": "wildcard-meridian-2025.pem"
+   },
+   {
+    "address": "10.20.0.10",
+    "name": "v4-443",
+    "parent_name": "fe_api",
+    "port": 443,
+    "ssl": true,
+    "ssl_certificate": "wildcard-meridian-2025.pem"
+   },
+   {
+    "address": "10.20.0.10",
+    "name": "v4-443",
+    "parent_name": "fe_catalog",
+    "port": 443,
+    "ssl": true,
+    "ssl_certificate": "wildcard-meridian-2025.pem"
+   },
+   {
+    "address": "10.20.0.10",
+    "name": "v4-443",
+    "parent_name": "fe_webhooks",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.0.10",
+    "name": "v4-443",
+    "parent_name": "fe_status",
+    "port": 443,
+    "ssl": true,
+    "ssl_certificate": "wildcard-meridian-2026.pem"
+   },
+   {
+    "address": "10.20.0.10",
+    "name": "v4-443",
+    "parent_name": "fe_help",
+    "port": 443,
+    "ssl": true,
+    "ssl_certificate": "wildcard-meridian-2026.pem"
+   },
+   {
+    "address": "10.30.0.10",
+    "name": "v4-8443",
+    "parent_name": "fe_admin",
+    "port": 8443,
+    "ssl": true,
+    "ssl_certificate": "api-gw-internal-2026.pem"
+   }
+  ],
+  "frontends": [
+   {
+    "default_backend": "be_shop",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "fe_shop"
+   },
+   {
+    "default_backend": "be_checkout",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "fe_checkout"
+   },
+   {
+    "default_backend": "be_account",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "fe_account"
+   },
+   {
+    "default_backend": "be_api",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "fe_api"
+   },
+   {
+    "default_backend": "be_catalog",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "fe_catalog"
+   },
+   {
+    "default_backend": "be_webhooks",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "fe_webhooks"
+   },
+   {
+    "default_backend": "be_status",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "fe_status"
+   },
+   {
+    "default_backend": "be_help",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "fe_help"
+   },
+   {
+    "default_backend": "be_admin",
+    "maxconn": 1000,
+    "mode": "http",
+    "name": "fe_admin"
+   }
+  ],
+  "runtimeServers": [
+   {
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_checkout",
+    "server_name": "co-1"
+   },
+   {
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_checkout",
+    "server_name": "co-2"
+   },
+   {
+    "admin_state": "maint",
+    "operational_state": "down",
+    "parent_name": "be_checkout",
+    "server_name": "co-canary"
+   }
+  ],
+  "servers": [
+   {
+    "address": "10.40.0.11",
+    "check": "enabled",
+    "name": "co-1",
+    "parent_name": "be_checkout",
+    "port": 8443
+   },
+   {
+    "address": "10.40.0.12",
+    "check": "enabled",
+    "name": "co-2",
+    "parent_name": "be_checkout",
+    "port": 8443
+   },
+   {
+    "address": "10.40.0.19",
+    "check": "enabled",
+    "name": "co-canary",
+    "parent_name": "be_checkout",
+    "port": 8443
+   }
+  ],
+  "sslCertificates": [
+   {
+    "description": "Shared wildcard edge certificate.",
+    "name": "wildcard-meridian-2025.pem",
+    "not_after": "2026-07-15T02:00:00Z",
+    "storage_name": "wildcard-meridian-2025.pem",
+    "subject": "*.meridian-retail.example"
+   },
+   {
+    "description": "Shared wildcard edge certificate (staged replacement).",
+    "name": "wildcard-meridian-2026.pem",
+    "not_after": "2027-07-15T00:00:00Z",
+    "storage_name": "wildcard-meridian-2026.pem",
+    "subject": "*.meridian-retail.example"
+   },
+   {
+    "description": "Retained standby wildcard certificate (archive; not in use).",
+    "name": "wildcard-meridian-2024-standby.pem",
+    "not_after": "2025-07-15T00:00:00Z",
+    "storage_name": "wildcard-meridian-2024-standby.pem",
+    "subject": "*.meridian-retail.example"
+   },
+   {
+    "description": "Dedicated internal admin-gateway certificate.",
+    "name": "api-gw-internal-2026.pem",
+    "not_after": "2027-03-01T00:00:00Z",
+    "storage_name": "api-gw-internal-2026.pem",
+    "subject": "admin.meridian-retail.example"
+   }
+  ],
+  "sslFrontUses": [
+   {
+    "certificate": "wildcard-meridian-2025.pem",
+    "index": 0,
+    "parent_name": "fe_webhooks"
+   }
+  ],
+  "version": 11
+ },
+ "infoblox-nios": {
+  "a_records": [
+   {
+    "comment": "Customer-facing HTTPS endpoint (HAProxy edge VIP).",
+    "ipv4addr": "10.20.0.10",
+    "name": "shop.meridian-retail.example",
+    "view": "default"
+   },
+   {
+    "comment": "Customer-facing HTTPS endpoint (HAProxy edge VIP).",
+    "ipv4addr": "10.20.0.10",
+    "name": "checkout.meridian-retail.example",
+    "view": "default"
+   },
+   {
+    "comment": "Customer-facing HTTPS endpoint (HAProxy edge VIP).",
+    "ipv4addr": "10.20.0.10",
+    "name": "account.meridian-retail.example",
+    "view": "default"
+   },
+   {
+    "comment": "Customer-facing HTTPS endpoint (HAProxy edge VIP).",
+    "ipv4addr": "10.20.0.10",
+    "name": "api.meridian-retail.example",
+    "view": "default"
+   },
+   {
+    "comment": "Customer-facing HTTPS endpoint (HAProxy edge VIP).",
+    "ipv4addr": "10.20.0.10",
+    "name": "catalog.meridian-retail.example",
+    "view": "default"
+   },
+   {
+    "comment": "Customer-facing HTTPS endpoint (HAProxy edge VIP).",
+    "ipv4addr": "10.20.0.10",
+    "name": "webhooks.meridian-retail.example",
+    "view": "default"
+   },
+   {
+    "comment": "Customer-facing HTTPS endpoint (HAProxy edge VIP).",
+    "ipv4addr": "10.20.0.10",
+    "name": "status.meridian-retail.example",
+    "view": "default"
+   },
+   {
+    "comment": "Customer-facing HTTPS endpoint (HAProxy edge VIP).",
+    "ipv4addr": "10.20.0.10",
+    "name": "help.meridian-retail.example",
+    "view": "default"
+   }
+  ],
+  "cname_records": [
+   {
+    "canonical": "shop.acme-dns-2025.meridian-retail.example",
+    "comment": "ACME DNS-01 delegation.",
+    "name": "_acme-challenge.shop.meridian-retail.example",
+    "view": "default"
+   },
+   {
+    "canonical": "checkout.acme-dns-2025.meridian-retail.example",
+    "comment": "ACME DNS-01 delegation.",
+    "name": "_acme-challenge.checkout.meridian-retail.example",
+    "view": "default"
+   },
+   {
+    "canonical": "account.acme-dns-2025.meridian-retail.example",
+    "comment": "ACME DNS-01 delegation.",
+    "name": "_acme-challenge.account.meridian-retail.example",
+    "view": "default"
+   },
+   {
+    "canonical": "status.acme-dns-2026.meridian-retail.example",
+    "comment": "ACME DNS-01 delegation.",
+    "name": "_acme-challenge.status.meridian-retail.example",
+    "view": "default"
+   },
+   {
+    "canonical": "help.acme-dns-2026.meridian-retail.example",
+    "comment": "ACME DNS-01 delegation.",
+    "name": "_acme-challenge.help.meridian-retail.example",
+    "view": "default"
+   }
+  ],
+  "zones": [
+   {
+    "fqdn": "meridian-retail.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   }
+  ]
+ },
+ "microsoft-sentinel": {
+  "alerts": [
+   {
+    "incidentId": "77777777-7777-7777-7777-777777777777",
+    "name": "88888888-8888-8888-8888-888888888880",
+    "properties": {
+     "alertDisplayName": "TLS handshake failure (certificate expired): shop.meridian-retail.example",
+     "description": "Repeated TLS handshake_failure on shop.meridian-retail.example:443; leaf certificate wildcard-meridian-2025.pem expired 2026-07-15T02:00:00Z.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "Impact"
+     ]
+    }
+   },
+   {
+    "incidentId": "77777777-7777-7777-7777-777777777777",
+    "name": "88888888-8888-8888-8888-888888888881",
+    "properties": {
+     "alertDisplayName": "TLS handshake failure (certificate expired): checkout.meridian-retail.example",
+     "description": "Repeated TLS handshake_failure on checkout.meridian-retail.example:443; leaf certificate wildcard-meridian-2025.pem expired 2026-07-15T02:00:00Z.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "Impact"
+     ]
+    }
+   },
+   {
+    "incidentId": "77777777-7777-7777-7777-777777777777",
+    "name": "88888888-8888-8888-8888-888888888882",
+    "properties": {
+     "alertDisplayName": "TLS handshake failure (certificate expired): account.meridian-retail.example",
+     "description": "Repeated TLS handshake_failure on account.meridian-retail.example:443; leaf certificate wildcard-meridian-2025.pem expired 2026-07-15T02:00:00Z.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "Impact"
+     ]
+    }
+   },
+   {
+    "incidentId": "77777777-7777-7777-7777-777777777777",
+    "name": "88888888-8888-8888-8888-888888888883",
+    "properties": {
+     "alertDisplayName": "TLS handshake failure (certificate expired): api.meridian-retail.example",
+     "description": "Repeated TLS handshake_failure on api.meridian-retail.example:443; leaf certificate wildcard-meridian-2025.pem expired 2026-07-15T02:00:00Z.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "Impact"
+     ]
+    }
+   },
+   {
+    "incidentId": "77777777-7777-7777-7777-777777777777",
+    "name": "88888888-8888-8888-8888-888888888884",
+    "properties": {
+     "alertDisplayName": "TLS handshake failure (certificate expired): catalog.meridian-retail.example",
+     "description": "Repeated TLS handshake_failure on catalog.meridian-retail.example:443; leaf certificate wildcard-meridian-2025.pem expired 2026-07-15T02:00:00Z.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "Impact"
+     ]
+    }
+   },
+   {
+    "incidentId": "77777777-7777-7777-7777-777777777777",
+    "name": "88888888-8888-8888-8888-888888888885",
+    "properties": {
+     "alertDisplayName": "TLS handshake failure (certificate expired): webhooks.meridian-retail.example",
+     "description": "Repeated TLS handshake_failure on webhooks.meridian-retail.example:443; leaf certificate wildcard-meridian-2025.pem expired 2026-07-15T02:00:00Z.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "Impact"
+     ]
+    }
+   }
+  ],
+  "entities": [
+   {
+    "incidentIds": [
+     "77777777-7777-7777-7777-777777777777"
+    ],
+    "kind": "Host",
+    "name": "host-edge-lb",
+    "properties": {
+     "hostName": "edge-lb-01"
+    }
+   }
+  ],
+  "incidents": [
+   {
+    "incidentId": null,
+    "name": "77777777-7777-7777-7777-777777777777",
+    "properties": {
+     "description": "Since 2026-07-15 02:00 UTC the edge terminator is rejecting TLS handshakes for the customer-facing SNIs shop.meridian-retail.example, checkout.meridian-retail.example, account.meridian-retail.example, api.meridian-retail.example, catalog.meridian-retail.example, webhooks.meridian-retail.example with 'certificate has expired'. The presented leaf is the shared wildcard *.meridian-retail.example, whose validity ended 2026-07-15 02:00 UTC. The internal admin SNI (its own dedicated certificate) and the endpoints already moved to the current wildcard are NOT failing. Onset aligns with the certificate validity boundary, not a load-balancer or firewall change.",
+     "incidentNumber": 7401,
+     "severity": "High",
+     "status": "Active",
+     "title": "Edge TLS handshake failures across customer-facing endpoints"
+    }
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "assignment_group": "Platform Engineering",
+    "category": "hardware",
+    "close_code": "successful",
+    "close_notes": "Edge LB nodes patched; a canary pool member was left drained for patch validation.",
+    "closed_at": "2026-07-15 01:20:00",
+    "description": "Scheduled OS patching of the edge load-balancer nodes. One backend pool member was drained (taken out of rotation) for the duration of patching and is to be returned to service by the platform team. No frontend or network changes.",
+    "number": "CHG0048801",
+    "risk": "low",
+    "short_description": "Overnight edge load-balancer node patching",
+    "state": "3",
+    "sys_created_on": "2026-07-15 00:30:00",
+    "sys_id": "07c85ede04b92ee7429c01afb40b8e5d",
+    "sys_updated_on": "2026-07-15 01:20:00",
+    "type": "normal",
+    "u_environment": "production"
+   },
+   {
+    "assignment_group": "Platform Engineering",
+    "category": "network",
+    "close_code": "successful",
+    "close_notes": "Replacement staged; rollout paused partway. Completion of the remaining endpoints, DNS validation records and inventory deferred to platform on-call.",
+    "closed_at": "2026-07-13 23:30:00",
+    "description": "Planned refresh of the expiring shared TLS material on the customer-facing edge. The valid replacement was staged in the certificate store ahead of time; rollout was started but PAUSED partway through the maintenance window. Remaining edge endpoints, the validation-delegation records and the inventory were left for the platform on-call to complete.",
+    "number": "CHG0048802",
+    "risk": "moderate",
+    "short_description": "Refresh expiring TLS material on the customer-facing edge",
+    "state": "3",
+    "sys_created_on": "2026-07-13 22:00:00",
+    "sys_id": "27100c221048a35fd576eb1f97bef195",
+    "sys_updated_on": "2026-07-13 23:30:00",
+    "type": "normal",
+    "u_environment": "production"
+   }
+  ],
+  "incident": [
+   {
+    "category": "network",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Prior P1 - customer-facing HTTPS endpoints down, first blamed on an edge load-balancer change. RESOLVED. Before failing over the balancer we verified it was healthy (frontends up, live pool members serving) and pulled the SIEM evidence, which showed TLS handshake failures from an EXPIRED shared certificate - not a load-balancer or firewall fault. A partially-completed certificate refresh had left some edge frontends still presenting the expired certificate while their healthy peers were already on the valid replacement that had been staged in the balancer's certificate store. We moved every affected frontend onto that same valid replacement (identified by matching subject and a not-yet-expired validity, and confirmed against the peers already serving it), repaired the ACME validation delegation records that still pointed at a decommissioned validator, and reconciled the CMDB so its deployed-certificate and expiry inventory matched reality. We LEFT ALONE a retained standby certificate that was expired but bound to nothing, the internal frontend on its own dedicated certificate, and a canary member that had been drained on purpose for maintenance. Lesson: verify the reported cause, use the healthy peers as the baseline, roll forward to the already-staged valid certificate, reconcile DNS and the CMDB, and do not disturb intentionally-retained artifacts.",
+    "closed_at": "2026-02-11 12:10:00",
+    "description": "Customer-facing HTTPS endpoints were failing; an edge load-balancer change was suspected. See close notes for the resolution pattern.",
+    "number": "INC0073110",
+    "priority": "2",
+    "short_description": "Edge HTTPS endpoints down - blamed on the load balancer, was an expired cert",
+    "state": "7",
+    "sys_created_on": "2026-02-11 06:40:00",
+    "sys_id": "5715329f61db7f9b99113f73b5dd4226",
+    "sys_updated_on": "2026-02-11 12:10:00"
+   },
+   {
+    "category": "network",
+    "description": "Multiple customer-facing HTTPS endpoints have been failing since roughly 02:00 this morning: customers report the sites will not load and their browsers show connection/security warnings, and every synthetic monitor for the public edge is red. This is a P1 customer-impacting outage.\nThe overnight on-call suspects last night's edge load-balancer maintenance window (a backend pool member was taken offline during patching) or a perimeter firewall change, and is asking whether the load balancer should be failed over or a firewall rule rolled back.\nInvestigate across the available systems, confirm the actual root cause before you change anything, restore the customer-facing endpoints, leave every system in a correct and consistent state, and resolve this incident once the endpoints are healthy again.",
+    "number": "INC0074001",
+    "priority": "1",
+    "short_description": "Customer-facing HTTPS endpoints failing since overnight (P1)",
+    "state": "1",
+    "subcategory": "edge",
+    "sys_created_on": "2026-07-15 06:15:00",
+    "sys_id": "35c86fa1865b2e04acd513e722eb63ee",
+    "sys_updated_on": "2026-07-15 06:15:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "change_request",
+    "value": "3"
+   }
+  ]
+ }
+}

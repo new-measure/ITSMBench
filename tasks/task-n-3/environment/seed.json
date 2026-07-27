@@ -1,0 +1,932 @@
+{
+ "_now": "2026-07-13T14:30:00Z",
+ "crowdstrike": {
+  "alerts": [
+   {
+    "composite_id": "ldt:00000000000000000000000000000001:0001",
+    "created_timestamp": "2026-07-13T08:05:00Z",
+    "description": "POS register hosts show repeated failed outbound TLS connection attempts to the card payment gateway beginning Saturday, coincident with the Friday-night egress-hardening change window. Endpoint sensors are healthy and fully operational (no reduced-functionality mode, current sensor build), the prevention policy is applied, and no malware or suspicious process is involved -- the failures are downstream network egress denials, not an endpoint problem.",
+    "device": {
+     "device_id": "00000000000000000000000000000001",
+     "hostname": "POS-REG-0001"
+    },
+    "id": "0001",
+    "name": "Outbound connection failures from POS registers",
+    "product": "epp",
+    "severity": 30,
+    "severity_name": "Medium",
+    "show_in_ui": true,
+    "status": "new",
+    "tactic": "N/A",
+    "technique": "N/A",
+    "updated_timestamp": "2026-07-13T08:05:00Z"
+   }
+  ],
+  "devices": [
+   {
+    "agent_version": "7.20.18604.0",
+    "device_id": "00000000000000000000000000000001",
+    "first_seen": "2024-02-01T09:00:00Z",
+    "groups": [
+     "hg-pos-stores"
+    ],
+    "hidden": false,
+    "hostname": "POS-REG-0001",
+    "last_seen": "2026-07-13T13:55:00Z",
+    "local_ip": "10.128.4.11",
+    "os_version": "Windows 10",
+    "platform_name": "Windows",
+    "policies": [
+     {
+      "applied": true,
+      "policy_type": "prevention",
+      "settings_hash": "pos-standard"
+     }
+    ],
+    "product_type_desc": "Workstation",
+    "reduced_functionality_mode": "no",
+    "status": "normal"
+   },
+   {
+    "agent_version": "7.20.18604.0",
+    "device_id": "00000000000000000000000000000002",
+    "first_seen": "2024-02-01T09:00:00Z",
+    "groups": [
+     "hg-pos-stores"
+    ],
+    "hidden": false,
+    "hostname": "POS-REG-0002",
+    "last_seen": "2026-07-13T13:55:00Z",
+    "local_ip": "10.128.4.12",
+    "os_version": "Windows 10",
+    "platform_name": "Windows",
+    "policies": [
+     {
+      "applied": true,
+      "policy_type": "prevention",
+      "settings_hash": "pos-standard"
+     }
+    ],
+    "product_type_desc": "Workstation",
+    "reduced_functionality_mode": "no",
+    "status": "normal"
+   },
+   {
+    "agent_version": "7.20.18604.0",
+    "device_id": "00000000000000000000000000000003",
+    "first_seen": "2024-02-01T09:00:00Z",
+    "groups": [
+     "hg-pos-stores"
+    ],
+    "hidden": false,
+    "hostname": "POS-REG-0003",
+    "last_seen": "2026-07-13T13:55:00Z",
+    "local_ip": "10.128.4.13",
+    "os_version": "Windows 10",
+    "platform_name": "Windows",
+    "policies": [
+     {
+      "applied": true,
+      "policy_type": "prevention",
+      "settings_hash": "pos-standard"
+     }
+    ],
+    "product_type_desc": "Workstation",
+    "reduced_functionality_mode": "no",
+    "status": "normal"
+   },
+   {
+    "agent_version": "7.20.18604.0",
+    "device_id": "00000000000000000000000000000004",
+    "first_seen": "2024-02-01T09:00:00Z",
+    "groups": [
+     "hg-pos-stores"
+    ],
+    "hidden": false,
+    "hostname": "POS-REG-0004",
+    "last_seen": "2026-07-13T13:55:00Z",
+    "local_ip": "10.128.4.14",
+    "os_version": "Windows 10",
+    "platform_name": "Windows",
+    "policies": [
+     {
+      "applied": true,
+      "policy_type": "prevention",
+      "settings_hash": "pos-standard"
+     }
+    ],
+    "product_type_desc": "Workstation",
+    "reduced_functionality_mode": "no",
+    "status": "normal"
+   }
+  ],
+  "hostGroups": [
+   {
+    "description": "Store POS register workstations.",
+    "group_type": "static",
+    "id": "hg-pos-stores",
+    "name": "POS-Stores"
+   }
+  ]
+ },
+ "device42": {
+  "devices": [
+   {
+    "device_id": 9001,
+    "id": 9001,
+    "in_service": true,
+    "ip": "203.0.113.10",
+    "name": "auth.cardinalpay.example",
+    "notes": "Cardinal Pay authorization gateway. Live egress endpoint after the processor IP migration.",
+    "role": "saas-endpoint",
+    "service": "cardinalpay-auth",
+    "service_level": "Production",
+    "type": "application"
+   },
+   {
+    "device_id": 9002,
+    "id": 9002,
+    "in_service": true,
+    "ip": "203.0.113.20",
+    "name": "token.cardinalpay.example",
+    "notes": "Cardinal Pay tokenization gateway. Live egress endpoint.",
+    "role": "saas-endpoint",
+    "service": "cardinalpay-token",
+    "service_level": "Production",
+    "type": "application"
+   },
+   {
+    "device_id": 9003,
+    "id": 9003,
+    "in_service": true,
+    "ip": "203.0.113.30",
+    "name": "settle.cardinalpay.example",
+    "notes": "Cardinal Pay settlement gateway. Live egress endpoint.",
+    "role": "saas-endpoint",
+    "service": "cardinalpay-settle",
+    "service_level": "Production",
+    "type": "application"
+   },
+   {
+    "device_id": 9004,
+    "id": 9004,
+    "in_service": true,
+    "ip": "203.0.113.40",
+    "name": "ocsp.cardinal-ca.example",
+    "notes": "Cardinal Pay CA OCSP responder. Required for the pinned-cert TLS handshake.",
+    "role": "saas-endpoint",
+    "service": "cardinal-ca-ocsp",
+    "service_level": "Production",
+    "type": "application"
+   },
+   {
+    "device_id": 9005,
+    "id": 9005,
+    "in_service": true,
+    "ip": "198.51.100.50",
+    "name": "score.sentinelrisk.example",
+    "notes": "SentinelRisk 3-D-Secure step-up partner. Live egress endpoint.",
+    "role": "saas-endpoint",
+    "service": "sentinelrisk-score",
+    "service_level": "Production",
+    "type": "application"
+   },
+   {
+    "device_id": 9010,
+    "id": 9010,
+    "in_service": true,
+    "ip": "203.0.113.100",
+    "name": "tax.avalon-tax.example",
+    "notes": "Avalon tax-calc SaaS endpoint (healthy peer).",
+    "role": "saas-endpoint",
+    "service": "avalon-tax",
+    "service_level": "Production",
+    "type": "application"
+   },
+   {
+    "device_id": 9011,
+    "id": 9011,
+    "in_service": true,
+    "ip": "203.0.113.110",
+    "name": "sync.northstar-supply.example",
+    "notes": "Northstar inventory-sync endpoint (healthy peer).",
+    "role": "saas-endpoint",
+    "service": "northstar-inventory",
+    "service_level": "Production",
+    "type": "application"
+   },
+   {
+    "device_id": 9012,
+    "id": 9012,
+    "in_service": true,
+    "ip": "203.0.113.120",
+    "name": "smtp.brightmail.example",
+    "notes": "Brightmail transactional email endpoint (healthy peer).",
+    "role": "saas-endpoint",
+    "service": "brightmail",
+    "service_level": "Production",
+    "type": "application"
+   }
+  ],
+  "services": [
+   {
+    "depends_on": [
+     "auth.cardinalpay.example",
+     "token.cardinalpay.example",
+     "settle.cardinalpay.example",
+     "ocsp.cardinal-ca.example",
+     "score.sentinelrisk.example"
+    ],
+    "displayname": "checkout-payments",
+    "id": 8001,
+    "name": "checkout-payments",
+    "notes": "Store checkout card-authorization flow. Each POS card transaction authorizes against the Cardinal Pay authorization gateway, tokenizes the PAN, settles the batch, validates the processor's pinned certificate via the CA OCSP responder, and step-ups high-risk transactions through the SentinelRisk 3-D-Secure partner. All egress is brokered by the Zscaler secure web gateway.",
+    "type": "application"
+   },
+   {
+    "depends_on": [
+     "tax.avalon-tax.example"
+    ],
+    "displayname": "tax-calc",
+    "id": 8002,
+    "name": "tax-calc",
+    "notes": "Basket tax calculation (healthy peer).",
+    "type": "application"
+   },
+   {
+    "depends_on": [
+     "sync.northstar-supply.example"
+    ],
+    "displayname": "inventory-sync",
+    "id": 8003,
+    "name": "inventory-sync",
+    "notes": "Store inventory sync (healthy peer).",
+    "type": "application"
+   },
+   {
+    "depends_on": [
+     "smtp.brightmail.example"
+    ],
+    "displayname": "transactional-email",
+    "id": 8004,
+    "name": "transactional-email",
+    "notes": "Receipt / transactional email (healthy peer).",
+    "type": "application"
+   }
+  ]
+ },
+ "infoblox-nios": {
+  "a_records": [
+   {
+    "comment": "Cardinal Pay authorization gateway.",
+    "ipv4addr": "192.0.2.10",
+    "name": "auth.cardinalpay.example",
+    "view": "default"
+   },
+   {
+    "comment": "Cardinal Pay tokenization gateway.",
+    "ipv4addr": "192.0.2.20",
+    "name": "token.cardinalpay.example",
+    "view": "default"
+   },
+   {
+    "comment": "Cardinal Pay settlement gateway.",
+    "ipv4addr": "192.0.2.30",
+    "name": "settle.cardinalpay.example",
+    "view": "default"
+   },
+   {
+    "comment": "Cardinal Pay CA OCSP responder.",
+    "ipv4addr": "192.0.2.40",
+    "name": "ocsp.cardinal-ca.example",
+    "view": "default"
+   },
+   {
+    "comment": "SentinelRisk 3-D-Secure step-up.",
+    "ipv4addr": "192.0.2.50",
+    "name": "score.sentinelrisk.example",
+    "view": "default"
+   },
+   {
+    "comment": "Avalon tax-calc SaaS.",
+    "ipv4addr": "203.0.113.100",
+    "name": "tax.avalon-tax.example",
+    "view": "default"
+   },
+   {
+    "comment": "Northstar inventory-sync SaaS.",
+    "ipv4addr": "203.0.113.110",
+    "name": "sync.northstar-supply.example",
+    "view": "default"
+   },
+   {
+    "comment": "Brightmail transactional email SaaS.",
+    "ipv4addr": "203.0.113.120",
+    "name": "smtp.brightmail.example",
+    "view": "default"
+   },
+   {
+    "comment": "Legacy Cardinal Pay alias (pre-migration).",
+    "ipv4addr": "192.0.2.201",
+    "name": "cardinalpay-legacy.cardinalpay.example",
+    "view": "default"
+   }
+  ],
+  "zones": [
+   {
+    "fqdn": "cardinalpay.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   },
+   {
+    "fqdn": "cardinal-ca.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   },
+   {
+    "fqdn": "sentinelrisk.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   },
+   {
+    "fqdn": "avalon-tax.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   },
+   {
+    "fqdn": "northstar-supply.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   },
+   {
+    "fqdn": "brightmail.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "assignment_group": "Endpoint Security",
+    "category": "software",
+    "close_code": "successful",
+    "close_notes": "Sensor build rolled out to the POS-Stores group; all hosts reporting healthy.",
+    "closed_at": "2026-07-10 19:30:00",
+    "description": "Scheduled sensor auto-update of the CrowdStrike Falcon agent on the POS-Stores host group to build 7.20.18604.0. Endpoint-only change; no network, firewall, DNS or egress-policy changes.",
+    "number": "CHG0044001",
+    "risk": "low",
+    "short_description": "CrowdStrike Falcon sensor auto-update N-1 -> N (POS-Stores)",
+    "state": "3",
+    "sys_created_on": "2026-07-10 18:00:00",
+    "sys_id": "2ad2753ae8ca5710f4c4f85dcb68572d",
+    "sys_updated_on": "2026-07-10 19:30:00",
+    "type": "standard",
+    "u_environment": "production"
+   },
+   {
+    "assignment_group": "Network Security",
+    "category": "security",
+    "close_code": "successful",
+    "close_notes": "Applied the egress-hardening pass to the payment egress path during the window. The peer SaaS egress policies (tax, inventory, transactional email) were left untouched as the reference configuration. Post-change functional validation was deferred to the owning app teams.",
+    "closed_at": "2026-07-10 23:40:00",
+    "description": "Security-hardening pass across the retail egress path on the secure web gateway. Tightened the egress firewall policy, re-scoped rules flagged as overly broad, reconciled destination allowlists, and cleaned up DNS following the processor IP migration.",
+    "number": "CHG0044002",
+    "risk": "moderate",
+    "short_description": "Security-hardening egress-tightening window: retail secure-web-gateway policy",
+    "state": "3",
+    "sys_created_on": "2026-07-10 22:00:00",
+    "sys_id": "98cd31e7505aa12e78a6554dc6382824",
+    "sys_updated_on": "2026-07-10 23:40:00",
+    "type": "normal",
+    "u_environment": "production"
+   }
+  ],
+  "incident": [
+   {
+    "category": "network",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Warehouse label-print SaaS unreachable - RESOLVED. Handheld scanners could not reach the label-print cloud service the morning after a scheduled security-hardening egress window; the on-call first suspected the scanner firmware push that shipped the same day and a vendor status notice. Before acting on either, we traced the egress path end to end through the secure web gateway: the endpoint fleet was healthy and the vendor was up, so neither was the cause. Comparing the broken service's gateway egress policy against its healthy peer SaaS showed the hardening pass had left the allow rule disabled, re-scoped another to the wrong source, dropped a network service, let the destination allowlist and DNS go stale against the pre-migration addresses, and even swept the live destinations into an over-broad block group. We restored each object to the peer baseline (specific source groups and services, never a blanket any-source/any-destination), refreshed the allowlist and DNS to the live addresses, narrowed the over-broad block group without deleting it (it still guards a genuinely restricted host), removed the dangling rule and record the migration left behind, and service recovered. Lesson: verify the reported cause, trace the WHOLE egress dependency path, restore to the peer baseline with least privilege, and leave no dangling config. The suspected firmware push and vendor were left untouched. Closed.",
+    "closed_at": "2026-05-09 16:40:00",
+    "description": "Warehouse label-print SaaS was unreachable after a hardening window; a same-day firmware push and a vendor notice were suspected. See close notes.",
+    "number": "INC0020440",
+    "priority": "2",
+    "short_description": "Warehouse label-print SaaS unreachable - blamed on firmware/vendor, was a hardening window",
+    "state": "7",
+    "sys_created_on": "2026-05-09 07:10:00",
+    "sys_id": "5715329f61db7f9b99113f73b5dd4226",
+    "sys_updated_on": "2026-05-09 16:40:00"
+   },
+   {
+    "category": "network",
+    "description": "Stores cannot complete card payments. Since the weekend, checkout card-authorization is failing at registers across all locations -- customers get declined/timeout at the payment step and staff are falling back to manual imprint. This is a P1 revenue-impacting outage for the retail floor.\nSuspected cause: the CrowdStrike sensor auto-update that rolled out Friday (change CHG0044001), or a Cardinal Pay processor-side outage. Please confirm whether the endpoint update or the vendor is actually responsible.\nThe affected application is checkout-payments. Investigate across the available systems, confirm the actual root cause before making any changes, restore card payments end to end, and close this incident once checkout card-authorization works again.",
+    "number": "INC0021001",
+    "priority": "1",
+    "short_description": "Stores cannot complete card payments (since the weekend)",
+    "state": "2",
+    "subcategory": "egress",
+    "sys_created_on": "2026-07-13 07:30:00",
+    "sys_id": "35c86fa1865b2e04acd513e722eb63ee",
+    "sys_updated_on": "2026-07-13 07:30:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "change_request",
+    "value": "3"
+   }
+  ]
+ },
+ "zscaler-zia": {
+  "firewallFilteringRules": [
+   {
+    "action": "BLOCK",
+    "description": "Block all store egress to restricted destinations.",
+    "destAddresses": [],
+    "destIpCategories": [],
+    "destIpGroups": [
+     {
+      "id": 209,
+      "name": "Restricted-Egress"
+     }
+    ],
+    "id": 101,
+    "labels": [],
+    "name": "Block-Restricted-Egress",
+    "nwApplications": [],
+    "nwServices": [],
+    "order": 1,
+    "rank": 1,
+    "srcIpGroups": [],
+    "srcIps": [],
+    "state": "ENABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "Store egress to Cardinal Pay authorization gateway.",
+    "destAddresses": [],
+    "destIpCategories": [],
+    "destIpGroups": [
+     {
+      "id": 201,
+      "name": "auth.cardinalpay.example"
+     }
+    ],
+    "id": 110,
+    "labels": [],
+    "name": "Allow-Egress-auth.cardinalpay.example",
+    "nwApplications": [],
+    "nwServices": [],
+    "order": 10,
+    "rank": 10,
+    "srcIpGroups": [
+     {
+      "id": 301,
+      "name": "Store-POS-Registers"
+     }
+    ],
+    "srcIps": [],
+    "state": "DISABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "Store egress to Cardinal Pay tokenization gateway.",
+    "destAddresses": [],
+    "destIpCategories": [],
+    "destIpGroups": [
+     {
+      "id": 202,
+      "name": "token.cardinalpay.example"
+     }
+    ],
+    "id": 111,
+    "labels": [],
+    "name": "Allow-Egress-token.cardinalpay.example",
+    "nwApplications": [],
+    "nwServices": [
+     {
+      "id": 401,
+      "name": "HTTPS"
+     }
+    ],
+    "order": 11,
+    "rank": 11,
+    "srcIpGroups": [
+     {
+      "id": 302,
+      "name": "Corp-Users"
+     }
+    ],
+    "srcIps": [],
+    "state": "ENABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "Store egress to Cardinal Pay settlement gateway.",
+    "destAddresses": [],
+    "destIpCategories": [],
+    "destIpGroups": [
+     {
+      "id": 203,
+      "name": "settle.cardinalpay.example"
+     }
+    ],
+    "id": 112,
+    "labels": [],
+    "name": "Allow-Egress-settle.cardinalpay.example",
+    "nwApplications": [],
+    "nwServices": [],
+    "order": 12,
+    "rank": 12,
+    "srcIpGroups": [
+     {
+      "id": 301,
+      "name": "Store-POS-Registers"
+     }
+    ],
+    "srcIps": [],
+    "state": "DISABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "Store egress to Cardinal Pay CA OCSP responder (pinned-cert validation).",
+    "destAddresses": [],
+    "destIpCategories": [],
+    "destIpGroups": [
+     {
+      "id": 204,
+      "name": "ocsp.cardinal-ca.example"
+     }
+    ],
+    "id": 113,
+    "labels": [],
+    "name": "Allow-Egress-ocsp.cardinal-ca.example",
+    "nwApplications": [],
+    "nwServices": [
+     {
+      "id": 401,
+      "name": "HTTPS"
+     }
+    ],
+    "order": 13,
+    "rank": 13,
+    "srcIpGroups": [
+     {
+      "id": 302,
+      "name": "Corp-Users"
+     }
+    ],
+    "srcIps": [],
+    "state": "DISABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "Store egress to SentinelRisk 3-D-Secure step-up partner.",
+    "destAddresses": [],
+    "destIpCategories": [],
+    "destIpGroups": [
+     {
+      "id": 205,
+      "name": "score.sentinelrisk.example"
+     }
+    ],
+    "id": 114,
+    "labels": [],
+    "name": "Allow-Egress-score.sentinelrisk.example",
+    "nwApplications": [],
+    "nwServices": [
+     {
+      "id": 401,
+      "name": "HTTPS"
+     }
+    ],
+    "order": 14,
+    "rank": 14,
+    "srcIpGroups": [
+     {
+      "id": 302,
+      "name": "Corp-Users"
+     }
+    ],
+    "srcIps": [],
+    "state": "ENABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "Store egress to Avalon tax-calc SaaS.",
+    "destAddresses": [],
+    "destIpCategories": [],
+    "destIpGroups": [
+     {
+      "id": 206,
+      "name": "tax.avalon-tax.example"
+     }
+    ],
+    "id": 120,
+    "labels": [],
+    "name": "Allow-Egress-tax.avalon-tax.example",
+    "nwApplications": [],
+    "nwServices": [
+     {
+      "id": 401,
+      "name": "HTTPS"
+     }
+    ],
+    "order": 20,
+    "rank": 20,
+    "srcIpGroups": [
+     {
+      "id": 301,
+      "name": "Store-POS-Registers"
+     },
+     {
+      "id": 303,
+      "name": "Warehouse-Scanners"
+     }
+    ],
+    "srcIps": [],
+    "state": "ENABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "Store egress to Northstar inventory-sync SaaS.",
+    "destAddresses": [],
+    "destIpCategories": [],
+    "destIpGroups": [
+     {
+      "id": 207,
+      "name": "sync.northstar-supply.example"
+     }
+    ],
+    "id": 121,
+    "labels": [],
+    "name": "Allow-Egress-sync.northstar-supply.example",
+    "nwApplications": [],
+    "nwServices": [
+     {
+      "id": 401,
+      "name": "HTTPS"
+     }
+    ],
+    "order": 21,
+    "rank": 21,
+    "srcIpGroups": [
+     {
+      "id": 301,
+      "name": "Store-POS-Registers"
+     }
+    ],
+    "srcIps": [],
+    "state": "ENABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "Store egress to Brightmail transactional email SaaS.",
+    "destAddresses": [],
+    "destIpCategories": [],
+    "destIpGroups": [
+     {
+      "id": 208,
+      "name": "smtp.brightmail.example"
+     }
+    ],
+    "id": 122,
+    "labels": [],
+    "name": "Allow-Egress-smtp.brightmail.example",
+    "nwApplications": [],
+    "nwServices": [
+     {
+      "id": 401,
+      "name": "HTTPS"
+     },
+     {
+      "id": 402,
+      "name": "SMTP-587"
+     }
+    ],
+    "order": 22,
+    "rank": 22,
+    "srcIpGroups": [
+     {
+      "id": 301,
+      "name": "Store-POS-Registers"
+     }
+    ],
+    "srcIps": [],
+    "state": "ENABLED"
+   },
+   {
+    "action": "ALLOW",
+    "description": "Legacy Cardinal Pay egress (pre-migration).",
+    "destAddresses": [
+     "192.0.2.200"
+    ],
+    "destIpCategories": [],
+    "destIpGroups": [],
+    "id": 130,
+    "labels": [],
+    "name": "Allow-Egress-cardinalpay-legacy",
+    "nwApplications": [],
+    "nwServices": [
+     {
+      "id": 401,
+      "name": "HTTPS"
+     }
+    ],
+    "order": 30,
+    "rank": 30,
+    "srcIpGroups": [
+     {
+      "id": 301,
+      "name": "Store-POS-Registers"
+     }
+    ],
+    "srcIps": [],
+    "state": "ENABLED"
+   },
+   {
+    "action": "BLOCK",
+    "description": "Default deny for unmatched store egress.",
+    "destAddresses": [],
+    "destIpCategories": [],
+    "destIpGroups": [],
+    "id": 199,
+    "labels": [],
+    "name": "Default-Deny",
+    "nwApplications": [],
+    "nwServices": [],
+    "order": 65000,
+    "rank": 65000,
+    "srcIpGroups": [],
+    "srcIps": [],
+    "state": "ENABLED"
+   }
+  ],
+  "ipDestinationGroups": [
+   {
+    "description": "Cardinal Pay authorization gateway egress IPs.",
+    "id": 201,
+    "ipAddresses": [
+     "192.0.2.10"
+    ],
+    "name": "auth.cardinalpay.example",
+    "type": "DSTN_IP"
+   },
+   {
+    "description": "Cardinal Pay tokenization gateway egress IPs.",
+    "id": 202,
+    "ipAddresses": [
+     "192.0.2.20"
+    ],
+    "name": "token.cardinalpay.example",
+    "type": "DSTN_IP"
+   },
+   {
+    "description": "Cardinal Pay settlement gateway egress IPs.",
+    "id": 203,
+    "ipAddresses": [
+     "192.0.2.30"
+    ],
+    "name": "settle.cardinalpay.example",
+    "type": "DSTN_IP"
+   },
+   {
+    "description": "Cardinal Pay CA OCSP responder egress IPs.",
+    "id": 204,
+    "ipAddresses": [
+     "192.0.2.40"
+    ],
+    "name": "ocsp.cardinal-ca.example",
+    "type": "DSTN_IP"
+   },
+   {
+    "description": "SentinelRisk 3-D-Secure step-up egress IPs.",
+    "id": 205,
+    "ipAddresses": [
+     "192.0.2.50"
+    ],
+    "name": "score.sentinelrisk.example",
+    "type": "DSTN_IP"
+   },
+   {
+    "description": "Avalon tax-calc SaaS egress IPs.",
+    "id": 206,
+    "ipAddresses": [
+     "203.0.113.100"
+    ],
+    "name": "tax.avalon-tax.example",
+    "type": "DSTN_IP"
+   },
+   {
+    "description": "Northstar inventory-sync SaaS egress IPs.",
+    "id": 207,
+    "ipAddresses": [
+     "203.0.113.110"
+    ],
+    "name": "sync.northstar-supply.example",
+    "type": "DSTN_IP"
+   },
+   {
+    "description": "Brightmail transactional email SaaS egress IPs.",
+    "id": 208,
+    "ipAddresses": [
+     "203.0.113.120"
+    ],
+    "name": "smtp.brightmail.example",
+    "type": "DSTN_IP"
+   },
+   {
+    "description": "Destinations blocked from all store egress by security policy.",
+    "id": 209,
+    "ipAddresses": [
+     "198.18.0.10",
+     "203.0.113.10",
+     "203.0.113.20",
+     "203.0.113.30",
+     "203.0.113.40",
+     "198.51.100.50"
+    ],
+    "name": "Restricted-Egress",
+    "type": "DSTN_IP"
+   }
+  ],
+  "ipSourceGroups": [
+   {
+    "description": "Store point-of-sale register subnets (all locations).",
+    "id": 301,
+    "ipAddresses": [
+     "10.128.0.0/12"
+    ],
+    "name": "Store-POS-Registers"
+   },
+   {
+    "description": "Corporate office user subnets.",
+    "id": 302,
+    "ipAddresses": [
+     "10.16.0.0/16"
+    ],
+    "name": "Corp-Users"
+   },
+   {
+    "description": "Warehouse handheld barcode scanners.",
+    "id": 303,
+    "ipAddresses": [
+     "10.32.0.0/16"
+    ],
+    "name": "Warehouse-Scanners"
+   }
+  ],
+  "locations": [],
+  "networkServiceGroups": [],
+  "networkServices": [
+   {
+    "destTcpPorts": [
+     {
+      "end": 443,
+      "start": 443
+     }
+    ],
+    "id": 401,
+    "name": "HTTPS",
+    "type": "STANDARD"
+   },
+   {
+    "destTcpPorts": [
+     {
+      "end": 587,
+      "start": 587
+     }
+    ],
+    "id": 402,
+    "name": "SMTP-587",
+    "type": "CUSTOM"
+   }
+  ]
+ }
+}

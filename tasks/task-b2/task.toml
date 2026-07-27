@@ -1,0 +1,39 @@
+schema_version = "1.3"
+artifacts = []
+
+[task]
+name = "taskgen/task-b2"
+description = "SharePoint insider data-exfiltration exposure lockdown, graded as a BIDIRECTIONAL needle-field at volume on per-site access (a site's permissions collection, each grant with an auditable status ACTIVE|REVOKED). Ported to the b10/vanta off-path structure. A live incident (Sentinel #5207, restated in Slack #security-response-on-call): a contractor burner account plus over-broad groups (All Staff, External Contractors) were granted ACTIVE access to the four crown-jewel sites (Executive, Finance, Security, Board & Legal) during the exfil window; those grants are live and must be CUT OFF (7 restrict end-states = 2 floors + 5 needles, graded record_not_exists on {principalId,status:ACTIVE} so delete OR revoke passes; on-path, the model reliably does them). Separately, an overnight emergency-sharing-lockdown playbook keyed off a broad access-volume heuristic and SUSPENDED (status=REVOKED) legitimate team grants on six UNRELATED bystander sites; those must be RESTORED to status=ACTIVE (7 restore end-states, field_equals). NOTHING in-world names the restore-set: the four named sites carry only ACTIVE grants, so a responder who audits just those four never sees the auto-lockdown; the wrongly-suspended grants are found ONLY by sweeping every site's permissions - a full-inventory audit off the offensive framing and against the safety prior, which the model reliably skips. The same principal (All Staff) is a rogue ACTIVE grant on the sensitive sites but a legitimate REVOKED grant on the All Company site, so a blanket decision fails one direction. Bidirectional grading caps blanket cut-off-all and restore-all at ~0.50; the intended landing is on-path restricts pass + off-path restores omitted (~0.5)."
+authors = []
+keywords = ["it-support", "sharepoint", "access-control", "site-permissions", "data-exfiltration", "insider-threat", "incident-response", "bidirectional-needle-field"]
+
+[metadata]
+environment = "it-support-bench"
+category = "it-support"
+scenario = "sharepoint-exfiltration-exposure-lockdown-bidirectional-access"
+tested_trait = "contain-the-over-exposed-sensitive-sites-and-restore-the-wrongly-revoked-collateral-access"
+difficulty_mechanisms = ["offensive-incident-framing-prompts-the-restrict-direction-on-path", "restore-set-is-named-nowhere-in-world-b10-vanta-off-path-structure", "restore-discoverable-only-by-a-full-inventory-sweep-of-every-site-permissions", "named-sites-carry-only-active-grants-so-auditing-them-never-surfaces-the-auto-lockdown", "counterintuitive-restore-runs-against-the-safety-prior-and-is-off-the-offensive-framing", "same-principal-rogue-active-on-sensitive-sites-but-legit-revoked-on-its-own-site", "revoked-bucket-holds-restore-needles-and-over-broad-keepers-with-identical-reason", "bidirectional-grading-caps-blanket-cutoff-all-and-restore-all-at-half", "volume-of-14-graded-access-end-states-collapses-run-to-run-variance"]
+
+[verifier]
+timeout_sec = 600.0
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+docker_image = "harbor.local/task-main:435d8ebda6fc"
+network_mode = "public"
+build_timeout_sec = 3600.0
+os = "linux"
+mcp_servers = []
+cpus = 1
+memory_mb = 2048
+storage_mb = 5120
+
+[environment.env]
+
+[solution.env]
+

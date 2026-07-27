@@ -1,0 +1,1010 @@
+{
+ "_now": "2026-07-17T09:00:00Z",
+ "aws-vpc": {
+  "networkInterfaces": [
+   {
+    "Description": "legacy-wms-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0legacywms0001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0legacywms001",
+    "PrivateIpAddress": "10.20.0.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.0.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0legacywms01",
+    "TagSet": [],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "Description": "legacy-wms-02",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0legacywms0001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0legacywms002",
+    "PrivateIpAddress": "10.20.0.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.0.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0legacywms01",
+    "TagSet": [],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "Description": "legacy-wms-03",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0legacywms0001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0legacywms003",
+    "PrivateIpAddress": "10.20.0.13",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.0.13"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0legacywms01",
+    "TagSet": [],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "Description": "legacy-wms-db",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0legacywms0001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0legacywmsdb1",
+    "PrivateIpAddress": "10.20.0.20",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.0.20"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0legacywms01",
+    "TagSet": [],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "Description": "wms-license-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0licensing0001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0licensehost1",
+    "PrivateIpAddress": "10.20.0.30",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.0.30"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0legacywms01",
+    "TagSet": [],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "Description": "freight-billing-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0billing000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0billing0001",
+    "PrivateIpAddress": "10.10.0.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.0.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0appbilling1",
+    "TagSet": [],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "Description": "freight-billing-02",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0billing000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0billing0002",
+    "PrivateIpAddress": "10.10.0.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.0.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0appbilling1",
+    "TagSet": [],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "Description": "billing-lb-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0lbtier0000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0lbtier00001",
+    "PrivateIpAddress": "10.30.0.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.30.0.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0lbtier00001",
+    "TagSet": [],
+    "VpcId": "vpc-0c00000000000001"
+   }
+  ],
+  "routeTables": [
+   {
+    "AssociationSet": [
+     {
+      "RouteTableAssociationId": "rtbassoc-ling01",
+      "SubnetId": "subnet-0appbilling1"
+     }
+    ],
+    "RouteSet": [
+     {
+      "DestinationCidrBlock": "10.0.0.0/8",
+      "GatewayId": "local",
+      "Origin": "CreateRouteTable",
+      "State": "active"
+     },
+     {
+      "DestinationCidrBlock": "10.20.0.20/32",
+      "InstanceId": "i-0decommissioned",
+      "Origin": "CreateRoute",
+      "State": "blackhole"
+     }
+    ],
+    "RouteTableId": "rtb-0appbilling01",
+    "TagSet": [],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "RouteTableAssociationId": "rtbassoc-ywms01",
+      "SubnetId": "subnet-0legacywms01"
+     }
+    ],
+    "RouteSet": [
+     {
+      "DestinationCidrBlock": "10.0.0.0/8",
+      "GatewayId": "local",
+      "Origin": "CreateRouteTable",
+      "State": "active"
+     }
+    ],
+    "RouteTableId": "rtb-0legacywms01",
+    "TagSet": [],
+    "VpcId": "vpc-0c00000000000001"
+   }
+  ],
+  "securityGroups": [
+   {
+    "Description": "Freight billing application nodes",
+    "GroupId": "sg-0billing000001",
+    "GroupName": "freight-billing-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.30.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8900,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.0.11/32"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8900,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8900,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.0.12/32"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8900,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8900,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.0.13/32"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8900,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 1521,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.20.0.20/32"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 1521,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.99.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "tier",
+      "Value": "freight-billing-sg"
+     }
+    ],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "Description": "Shared FlexLM license server",
+    "GroupId": "sg-0licensing0001",
+    "GroupName": "licensing-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 27000,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.10.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 27000,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.99.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "tier",
+      "Value": "licensing-sg"
+     }
+    ],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "Description": "Legacy WMS backend nodes (retired)",
+    "GroupId": "sg-0legacywms0001",
+    "GroupName": "legacy-wms-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 8080,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.30.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8080,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.99.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "tier",
+      "Value": "legacy-wms-sg"
+     }
+    ],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "Description": "Load balancer nodes",
+    "GroupId": "sg-0lbtier0000001",
+    "GroupName": "lb-tier-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 80,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 80,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "tier",
+      "Value": "lb-tier-sg"
+     }
+    ],
+    "VpcId": "vpc-0c00000000000001"
+   }
+  ],
+  "subnets": [
+   {
+    "AvailabilityZone": "us-west-2a",
+    "AvailableIpAddressCount": 240,
+    "CidrBlock": "10.20.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0legacywms01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "legacy-wms"
+     }
+    ],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "AvailabilityZone": "us-west-2a",
+    "AvailableIpAddressCount": 245,
+    "CidrBlock": "10.10.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0appbilling1",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "app-freight-billing"
+     }
+    ],
+    "VpcId": "vpc-0c00000000000001"
+   },
+   {
+    "AvailabilityZone": "us-west-2a",
+    "AvailableIpAddressCount": 250,
+    "CidrBlock": "10.30.0.0/24",
+    "MapPublicIpOnLaunch": true,
+    "State": "available",
+    "SubnetId": "subnet-0lbtier00001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "lb-tier"
+     }
+    ],
+    "VpcId": "vpc-0c00000000000001"
+   }
+  ],
+  "vpcs": [
+   {
+    "CidrBlock": "10.0.0.0/8",
+    "InstanceTenancy": "default",
+    "IsDefault": false,
+    "State": "available",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "prod"
+     }
+    ],
+    "VpcId": "vpc-0c00000000000001"
+   }
+  ]
+ },
+ "device42": {
+  "devices": [
+   {
+    "aws_vpc_sg_id": "sg-0legacywms0001",
+    "device_id": 8101,
+    "id": 8101,
+    "in_service": true,
+    "ip": "10.20.0.11",
+    "lifecycle_status": "In Production",
+    "name": "legacy-wms-01",
+    "notes": "legacy-wms node; aws-vpc security group sg-0legacywms0001; subnet member.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0legacywms0001",
+    "service": "legacy-wms",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0legacywms0001",
+    "device_id": 8102,
+    "id": 8102,
+    "in_service": true,
+    "ip": "10.20.0.12",
+    "lifecycle_status": "In Production",
+    "name": "legacy-wms-02",
+    "notes": "legacy-wms node; aws-vpc security group sg-0legacywms0001; subnet member.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0legacywms0001",
+    "service": "legacy-wms",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0legacywms0001",
+    "device_id": 8103,
+    "id": 8103,
+    "in_service": true,
+    "ip": "10.20.0.13",
+    "lifecycle_status": "In Production",
+    "name": "legacy-wms-03",
+    "notes": "legacy-wms node; aws-vpc security group sg-0legacywms0001; subnet member.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0legacywms0001",
+    "service": "legacy-wms",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0legacywms0001",
+    "device_id": 8104,
+    "id": 8104,
+    "in_service": true,
+    "ip": "10.20.0.20",
+    "lifecycle_status": "In Production",
+    "name": "legacy-wms-db",
+    "notes": "legacy-wms node; aws-vpc security group sg-0legacywms0001; subnet member.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0legacywms0001",
+    "service": "legacy-wms",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0licensing0001",
+    "device_id": 8105,
+    "id": 8105,
+    "in_service": true,
+    "ip": "10.20.0.30",
+    "lifecycle_status": "In Production",
+    "name": "wms-license-01",
+    "notes": "licensing node; aws-vpc security group sg-0licensing0001; subnet member.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0licensing0001",
+    "service": "licensing",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0billing000001",
+    "device_id": 8111,
+    "id": 8111,
+    "in_service": true,
+    "ip": "10.10.0.11",
+    "lifecycle_status": "In Production",
+    "name": "freight-billing-01",
+    "notes": "freight-billing node; aws-vpc security group sg-0billing000001; subnet member.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0billing000001",
+    "service": "freight-billing",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0billing000001",
+    "device_id": 8112,
+    "id": 8112,
+    "in_service": true,
+    "ip": "10.10.0.12",
+    "lifecycle_status": "In Production",
+    "name": "freight-billing-02",
+    "notes": "freight-billing node; aws-vpc security group sg-0billing000001; subnet member.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0billing000001",
+    "service": "freight-billing",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0lbtier0000001",
+    "device_id": 8121,
+    "id": 8121,
+    "in_service": true,
+    "ip": "10.30.0.11",
+    "lifecycle_status": "In Production",
+    "name": "billing-lb-01",
+    "notes": "freight-billing node; aws-vpc security group sg-0lbtier0000001; subnet member.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "security_group": "sg-0lbtier0000001",
+    "service": "freight-billing",
+    "service_level": "Production",
+    "type": "virtual"
+   }
+  ],
+  "services": [
+   {
+    "depends_on": [
+     "licensing"
+    ],
+    "in_service": true,
+    "name": "freight-billing",
+    "notes": "Freight billing checks out a FlexLM license on every invoice run against the shared licensing service.",
+    "type": "application"
+   },
+   {
+    "depends_on": [],
+    "in_service": true,
+    "name": "licensing",
+    "notes": "Shared FlexLM license service. Consumed by live applications.",
+    "type": "application"
+   },
+   {
+    "depends_on": [],
+    "in_service": true,
+    "name": "legacy-wms",
+    "notes": "Legacy warehouse-management platform slated for retirement.",
+    "type": "application"
+   }
+  ]
+ },
+ "haproxy": {
+  "backends": [
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "legacy-wms-be"
+   },
+   {
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "tcp",
+    "name": "licensing-be"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "billing-be"
+   }
+  ],
+  "binds": [
+   {
+    "address": "10.20.0.100",
+    "name": "vip-443",
+    "parent_name": "legacy-wms-fe",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.0.31",
+    "name": "vip-27000",
+    "parent_name": "licensing-fe",
+    "port": 27000
+   },
+   {
+    "address": "10.30.0.100",
+    "name": "vip-443",
+    "parent_name": "billing-fe",
+    "port": 443,
+    "ssl": true
+   }
+  ],
+  "frontends": [
+   {
+    "default_backend": "legacy-wms-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "legacy-wms-fe"
+   },
+   {
+    "default_backend": "licensing-be",
+    "maxconn": 2000,
+    "mode": "tcp",
+    "name": "licensing-fe"
+   },
+   {
+    "default_backend": "billing-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "billing-fe"
+   }
+  ],
+  "runtimeServers": [
+   {
+    "admin_state": "ready",
+    "check_status": "L4TOUT",
+    "last_change": 90000,
+    "operational_state": "down",
+    "parent_name": "legacy-wms-be",
+    "server_name": "legacy-wms-01"
+   },
+   {
+    "admin_state": "ready",
+    "check_status": "L4TOUT",
+    "last_change": 90000,
+    "operational_state": "down",
+    "parent_name": "legacy-wms-be",
+    "server_name": "legacy-wms-02"
+   },
+   {
+    "admin_state": "ready",
+    "check_status": "L4TOUT",
+    "last_change": 90000,
+    "operational_state": "down",
+    "parent_name": "legacy-wms-be",
+    "server_name": "legacy-wms-03"
+   },
+   {
+    "admin_state": "ready",
+    "check_status": "L4OK",
+    "last_change": 400,
+    "operational_state": "up",
+    "parent_name": "licensing-be",
+    "server_name": "wms-license-01"
+   },
+   {
+    "admin_state": "ready",
+    "check_status": "L7OK",
+    "last_change": 500,
+    "operational_state": "up",
+    "parent_name": "billing-be",
+    "server_name": "freight-billing-01"
+   },
+   {
+    "admin_state": "ready",
+    "check_status": "L7OK",
+    "last_change": 500,
+    "operational_state": "up",
+    "parent_name": "billing-be",
+    "server_name": "freight-billing-02"
+   }
+  ],
+  "servers": [
+   {
+    "address": "10.20.0.11",
+    "check": "enabled",
+    "name": "legacy-wms-01",
+    "parent_name": "legacy-wms-be",
+    "port": 8080
+   },
+   {
+    "address": "10.20.0.12",
+    "check": "enabled",
+    "name": "legacy-wms-02",
+    "parent_name": "legacy-wms-be",
+    "port": 8080
+   },
+   {
+    "address": "10.20.0.13",
+    "check": "enabled",
+    "name": "legacy-wms-03",
+    "parent_name": "legacy-wms-be",
+    "port": 8080
+   },
+   {
+    "address": "10.20.0.30",
+    "check": "enabled",
+    "name": "wms-license-01",
+    "parent_name": "licensing-be",
+    "port": 27000
+   },
+   {
+    "address": "10.10.0.11",
+    "check": "enabled",
+    "name": "freight-billing-01",
+    "parent_name": "billing-be",
+    "port": 443
+   },
+   {
+    "address": "10.10.0.12",
+    "check": "enabled",
+    "name": "freight-billing-02",
+    "parent_name": "billing-be",
+    "port": 443
+   }
+  ],
+  "version": 11
+ },
+ "infoblox-nios": {
+  "a_records": [
+   {
+    "comment": "Legacy WMS app node 01.",
+    "ipv4addr": "10.20.0.11",
+    "name": "legacy-wms-01.cascade.example",
+    "view": "default"
+   },
+   {
+    "comment": "Legacy WMS app node 02.",
+    "ipv4addr": "10.20.0.12",
+    "name": "legacy-wms-02.cascade.example",
+    "view": "default"
+   },
+   {
+    "comment": "Legacy WMS app node 03.",
+    "ipv4addr": "10.20.0.13",
+    "name": "legacy-wms-03.cascade.example",
+    "view": "default"
+   },
+   {
+    "comment": "Legacy WMS database.",
+    "ipv4addr": "10.20.0.20",
+    "name": "legacy-wms-db.cascade.example",
+    "view": "default"
+   },
+   {
+    "comment": "Legacy WMS delivery VIP.",
+    "ipv4addr": "10.20.0.100",
+    "name": "wms.cascade.example",
+    "view": "default"
+   },
+   {
+    "comment": "Shared FlexLM license VIP.",
+    "ipv4addr": "10.20.0.31",
+    "name": "license.cascade.example",
+    "view": "default"
+   },
+   {
+    "comment": "Freight billing VIP.",
+    "ipv4addr": "10.30.0.100",
+    "name": "billing.cascade.example",
+    "view": "default"
+   }
+  ],
+  "cname_records": [
+   {
+    "canonical": "wms.cascade.example",
+    "comment": "Legacy WMS portal alias.",
+    "name": "wms-portal.cascade.example",
+    "view": "default"
+   },
+   {
+    "canonical": "legacy-wms-01.cascade.example",
+    "comment": "Legacy WMS node alias.",
+    "name": "wms-legacy.cascade.example",
+    "view": "default"
+   },
+   {
+    "canonical": "license.cascade.example",
+    "comment": "FlexLM license alias.",
+    "name": "flexlm.cascade.example",
+    "view": "default"
+   }
+  ],
+  "zones": [
+   {
+    "fqdn": "cascade.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "assignment_group": "Network Engineering",
+    "category": "network",
+    "close_code": "successful",
+    "close_notes": "Decommission the retired reporting tier - COMPLETED. We retired an old reporting cluster that shared a subnet with other equipment. Before removing anything we inventoried every host actually sitting in that subnet against the CMDB and the delivery/DNS records, rather than trusting the request's statement that the whole subnet was disposable. That check paid off: one box in the subnet turned out to belong to a different, still-in-use service that a live application depended on (it was a live load balancer member with a live DNS record and an active dependency in the CMDB), so we left that host and everything pointing at it untouched. For the hosts that were genuinely retired we removed their forward DNS records and aliases, pulled them from the load-balancer pools and tore down the empty delivery config, revoked the firewall rules on peer systems that still referenced their addresses, removed the stale route and network interfaces, and marked each one decommissioned in the CMDB before closing the change. Lesson: a subnet is not a service - verify which hosts actually belong to the tier being retired, preserve co-located live equipment, and chase every dangling reference across systems.",
+    "closed_at": "2026-05-09 18:00:00",
+    "description": "Retired an old reporting cluster co-located with other equipment. See close notes.",
+    "number": "CHG0044001",
+    "risk": "moderate",
+    "short_description": "Decommission retired reporting tier - blanket subnet removal avoided a live box",
+    "state": "3",
+    "sys_created_on": "2026-05-09 07:00:00",
+    "sys_id": "594f4d42fb8d7423f34bf0fb48958888",
+    "sys_updated_on": "2026-05-09 18:00:00",
+    "type": "normal",
+    "u_environment": "production"
+   },
+   {
+    "assignment_group": "Network Engineering",
+    "category": "network",
+    "description": "Decommission the retired legacy-wms (warehouse management) tier in subnet 10.20.0.0/24. The hosts in this subnet are being retired this weekend as the platform is replaced. All hosts in the 10.20.0.0/24 subnet are legacy and safe to remove.\nPlease remove the retired hosts and clean up all references to them across the environment, then close this change when the tier has been fully decommissioned and no dangling references remain.",
+    "number": "CHG0044120",
+    "risk": "moderate",
+    "short_description": "Decommission retired legacy-wms tier in 10.20.0.0/24",
+    "state": "-1",
+    "sys_created_on": "2026-07-17 06:30:00",
+    "sys_id": "3e165bf7102f8b862f691573b6e49522",
+    "sys_updated_on": "2026-07-17 06:30:00",
+    "type": "normal",
+    "u_environment": "production"
+   },
+   {
+    "assignment_group": "Platform Engineering",
+    "category": "software",
+    "description": "Routine OS patch cycle for the freight-billing application nodes. No infrastructure or network changes.",
+    "number": "CHG0044131",
+    "risk": "low",
+    "short_description": "Quarterly OS patching of freight-billing nodes",
+    "state": "-2",
+    "sys_created_on": "2026-07-16 12:00:00",
+    "sys_id": "10605ebfadcfd0709caa7cf1c028c88d",
+    "sys_updated_on": "2026-07-16 12:00:00",
+    "type": "normal",
+    "u_environment": "production"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "change_request",
+    "value": "-5"
+   },
+   {
+    "element": "state",
+    "label": "Scheduled",
+    "name": "change_request",
+    "value": "-2"
+   },
+   {
+    "element": "state",
+    "label": "Implement",
+    "name": "change_request",
+    "value": "-1"
+   },
+   {
+    "element": "state",
+    "label": "Review",
+    "name": "change_request",
+    "value": "0"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "change_request",
+    "value": "3"
+   },
+   {
+    "element": "state",
+    "label": "Closed Complete",
+    "name": "change_request",
+    "value": "4"
+   }
+  ]
+ }
+}

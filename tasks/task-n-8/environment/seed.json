@@ -1,0 +1,997 @@
+{
+ "_now": "2026-07-17T09:00:00Z",
+ "entra-id": {
+  "groups": [
+   {
+    "@odata.type": "#microsoft.graph.group",
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "description": "Membership is required by the baseline device-compliance policy and the 'Require compliant device' Conditional Access policy for corporate apps.",
+    "displayName": "CA-Required-Compliant-Devices",
+    "groupTypes": [],
+    "id": "9dba9800-943e-48b9-affd-6b07cde586a1",
+    "mailEnabled": false,
+    "mailNickname": "ca-required-compliant-devices",
+    "members": [
+     "f0585d6b-5a2b-6682-2f0c-8fd41693ad82",
+     "365f7128-2b09-6d65-531e-6e780ef220f6",
+     "2be4559c-baf9-d3d4-e839-faddb3840624",
+     "de6d9be5-c3e4-c4b8-ee71-58bef494f71e",
+     "e700a2ea-5d2f-67ce-58d0-0a4c323c1b47"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "@odata.type": "#microsoft.graph.group",
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "description": "Approved compliance exemptions (CAB CHG0043777). Members are EXCLUDED from the compliant-device Conditional Access requirement; do not enroll in the enforced baseline.",
+    "displayName": "Compliance-Exemption-Approved",
+    "groupTypes": [],
+    "id": "1aa2e4c4-6fb8-b62e-42a3-00593fa858c1",
+    "mailEnabled": false,
+    "mailNickname": "compliance-exemption-approved",
+    "members": [
+     "d2d8be50-8ca6-3e71-368f-0c8cb97603f3"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "@odata.type": "#microsoft.graph.group",
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "description": "Sales department device owners.",
+    "displayName": "Dept-Sales-Devices",
+    "groupTypes": [],
+    "id": "c45d24eb-a7b7-f25b-a3cb-6fd62cdbfd59",
+    "mailEnabled": false,
+    "mailNickname": "dept-sales-devices",
+    "members": [
+     "bb0300aa-4540-9060-ae20-8e5f73faf459",
+     "bffcc882-5082-44b6-01ff-71d4a1917f63",
+     "52abb501-6ffc-13b6-6469-bcdef71686cc",
+     "365f7128-2b09-6d65-531e-6e780ef220f6"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "@odata.type": "#microsoft.graph.group",
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "description": "Finance department device owners.",
+    "displayName": "Dept-Finance-Devices",
+    "groupTypes": [],
+    "id": "4bac6bf4-a3b5-3a30-17c7-ec2508e4dd16",
+    "mailEnabled": false,
+    "mailNickname": "dept-finance-devices",
+    "members": [
+     "38ab718e-a703-6a41-816a-43c040dc0513",
+     "496c17b1-b67f-8cf6-03b6-0d338870ceab",
+     "8e831643-5927-1d6d-35fb-b3c222fb6a98",
+     "2be4559c-baf9-d3d4-e839-faddb3840624"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "@odata.type": "#microsoft.graph.group",
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "description": "Engineering department device owners.",
+    "displayName": "Dept-Engineering-Devices",
+    "groupTypes": [],
+    "id": "dbb1e370-6fd1-9588-86c9-a9f28148b68c",
+    "mailEnabled": false,
+    "mailNickname": "dept-engineering-devices",
+    "members": [
+     "fcc967fa-7feb-b9c0-4252-e0696d0e8acd",
+     "e6a91a66-f9de-7872-42fe-75c1e4e36049"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   }
+  ],
+  "users": [
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Aya Anderson",
+    "givenName": "Aya",
+    "id": "bb0300aa-4540-9060-ae20-8e5f73faf459",
+    "jobTitle": null,
+    "mail": "a.anderson@alpenglow.example",
+    "surname": "Anderson",
+    "userPrincipalName": "a.anderson@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Ben Brooks",
+    "givenName": "Ben",
+    "id": "bffcc882-5082-44b6-01ff-71d4a1917f63",
+    "jobTitle": null,
+    "mail": "b.brooks@alpenglow.example",
+    "surname": "Brooks",
+    "userPrincipalName": "b.brooks@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Wei Chen",
+    "givenName": "Wei",
+    "id": "52abb501-6ffc-13b6-6469-bcdef71686cc",
+    "jobTitle": null,
+    "mail": "w.chen@alpenglow.example",
+    "surname": "Chen",
+    "userPrincipalName": "w.chen@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Rosa Diaz",
+    "givenName": "Rosa",
+    "id": "38ab718e-a703-6a41-816a-43c040dc0513",
+    "jobTitle": null,
+    "mail": "r.diaz@alpenglow.example",
+    "surname": "Diaz",
+    "userPrincipalName": "r.diaz@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Kofi Evans",
+    "givenName": "Kofi",
+    "id": "496c17b1-b67f-8cf6-03b6-0d338870ceab",
+    "jobTitle": null,
+    "mail": "k.evans@alpenglow.example",
+    "surname": "Evans",
+    "userPrincipalName": "k.evans@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Priya Foster",
+    "givenName": "Priya",
+    "id": "8e831643-5927-1d6d-35fb-b3c222fb6a98",
+    "jobTitle": null,
+    "mail": "p.foster@alpenglow.example",
+    "surname": "Foster",
+    "userPrincipalName": "p.foster@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Sam Ghosh",
+    "givenName": "Sam",
+    "id": "fcc967fa-7feb-b9c0-4252-e0696d0e8acd",
+    "jobTitle": null,
+    "mail": "s.ghosh@alpenglow.example",
+    "surname": "Ghosh",
+    "userPrincipalName": "s.ghosh@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Mia Haas",
+    "givenName": "Mia",
+    "id": "e6a91a66-f9de-7872-42fe-75c1e4e36049",
+    "jobTitle": null,
+    "mail": "m.haas@alpenglow.example",
+    "surname": "Haas",
+    "userPrincipalName": "m.haas@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Elin Nowak",
+    "givenName": "Elin",
+    "id": "d2d8be50-8ca6-3e71-368f-0c8cb97603f3",
+    "jobTitle": null,
+    "mail": "e.nowak@alpenglow.example",
+    "surname": "Nowak",
+    "userPrincipalName": "e.nowak@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Tom Reyes",
+    "givenName": "Tom",
+    "id": "f0585d6b-5a2b-6682-2f0c-8fd41693ad82",
+    "jobTitle": null,
+    "mail": "t.reyes@alpenglow.example",
+    "surname": "Reyes",
+    "userPrincipalName": "t.reyes@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Jun Ito",
+    "givenName": "Jun",
+    "id": "365f7128-2b09-6d65-531e-6e780ef220f6",
+    "jobTitle": null,
+    "mail": "j.ito@alpenglow.example",
+    "surname": "Ito",
+    "userPrincipalName": "j.ito@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Lena Park",
+    "givenName": "Lena",
+    "id": "2be4559c-baf9-d3d4-e839-faddb3840624",
+    "jobTitle": null,
+    "mail": "l.park@alpenglow.example",
+    "surname": "Park",
+    "userPrincipalName": "l.park@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Dev Singh",
+    "givenName": "Dev",
+    "id": "de6d9be5-c3e4-c4b8-ee71-58bef494f71e",
+    "jobTitle": null,
+    "mail": "d.singh@alpenglow.example",
+    "surname": "Singh",
+    "userPrincipalName": "d.singh@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.user",
+    "accountEnabled": true,
+    "createdDateTime": "2024-02-01T00:00:00Z",
+    "displayName": "Ola Wolf",
+    "givenName": "Ola",
+    "id": "e700a2ea-5d2f-67ce-58d0-0a4c323c1b47",
+    "jobTitle": null,
+    "mail": "o.wolf@alpenglow.example",
+    "surname": "Wolf",
+    "userPrincipalName": "o.wolf@alpenglow.example"
+   }
+  ]
+ },
+ "microsoft-365": {
+  "healthOverviews": [
+   {
+    "@odata.type": "#microsoft.graph.serviceHealth",
+    "id": "MO512340",
+    "service": "Microsoft Intune",
+    "status": "serviceOperational"
+   }
+  ],
+  "serviceHealthIssues": [
+   {
+    "@odata.type": "#microsoft.graph.serviceHealthIssue",
+    "classification": "advisory",
+    "endDateTime": "2026-07-12T15:00:00Z",
+    "id": "IT789021",
+    "impactDescription": "A subset of Intune device compliance evaluations were delayed. The issue was resolved on 2026-07-12; no customer action is required.",
+    "isResolved": true,
+    "service": "Microsoft Intune",
+    "serviceHealthId": "MO512340",
+    "startDateTime": "2026-07-11T08:00:00Z",
+    "status": "serviceRestored",
+    "title": "Some device compliance evaluations were delayed"
+   }
+  ]
+ },
+ "microsoft-defender": {
+  "alerts": [
+   {
+    "assignedTo": null,
+    "category": "Malware",
+    "classification": "unknown",
+    "createdDateTime": "2026-07-13T10:00:00Z",
+    "detectionSource": "antivirus",
+    "determination": "unknown",
+    "evidence": [
+     {
+      "@odata.type": "#microsoft.graph.security.deviceEvidence",
+      "deviceDnsName": "ANDERSON-LT.alpenglow.example",
+      "remediationStatus": "none",
+      "roles": [
+       "impacted"
+      ]
+     }
+    ],
+    "firstActivityDateTime": "2026-07-13T09:55:00Z",
+    "id": "dabde53a715c518f28bd94f2",
+    "serviceSource": "microsoftDefenderForEndpoint",
+    "severity": "high",
+    "status": "new",
+    "title": "Microsoft Defender Antivirus is turned off"
+   },
+   {
+    "assignedTo": null,
+    "category": "Malware",
+    "classification": "unknown",
+    "createdDateTime": "2026-07-13T10:00:00Z",
+    "detectionSource": "antivirus",
+    "determination": "unknown",
+    "evidence": [
+     {
+      "@odata.type": "#microsoft.graph.security.deviceEvidence",
+      "deviceDnsName": "BROOKS-LT.alpenglow.example",
+      "remediationStatus": "none",
+      "roles": [
+       "impacted"
+      ]
+     }
+    ],
+    "firstActivityDateTime": "2026-07-13T09:55:00Z",
+    "id": "dac3033fcf0af136621bb810",
+    "serviceSource": "microsoftDefenderForEndpoint",
+    "severity": "high",
+    "status": "new",
+    "title": "Suspicious behavior by a system process"
+   },
+   {
+    "assignedTo": null,
+    "category": "Malware",
+    "classification": "unknown",
+    "createdDateTime": "2026-07-13T10:00:00Z",
+    "detectionSource": "antivirus",
+    "determination": "unknown",
+    "evidence": [
+     {
+      "@odata.type": "#microsoft.graph.security.deviceEvidence",
+      "deviceDnsName": "CHEN-LT.alpenglow.example",
+      "remediationStatus": "none",
+      "roles": [
+       "impacted"
+      ]
+     }
+    ],
+    "firstActivityDateTime": "2026-07-13T09:55:00Z",
+    "id": "da8f4034d61ec81bd3b4de4b",
+    "serviceSource": "microsoftDefenderForEndpoint",
+    "severity": "medium",
+    "status": "new",
+    "title": "Real-time protection disabled"
+   },
+   {
+    "assignedTo": null,
+    "category": "Malware",
+    "classification": "unknown",
+    "createdDateTime": "2026-07-13T10:00:00Z",
+    "detectionSource": "antivirus",
+    "determination": "unknown",
+    "evidence": [
+     {
+      "@odata.type": "#microsoft.graph.security.deviceEvidence",
+      "deviceDnsName": "DIAZ-LT.alpenglow.example",
+      "remediationStatus": "none",
+      "roles": [
+       "impacted"
+      ]
+     }
+    ],
+    "firstActivityDateTime": "2026-07-13T09:55:00Z",
+    "id": "daf7e192562c550331f6cefb",
+    "serviceSource": "microsoftDefenderForEndpoint",
+    "severity": "high",
+    "status": "inProgress",
+    "title": "Malware detected: Trojan:Win32/Wacatac"
+   },
+   {
+    "assignedTo": null,
+    "category": "Malware",
+    "classification": "unknown",
+    "createdDateTime": "2026-07-13T10:00:00Z",
+    "detectionSource": "antivirus",
+    "determination": "unknown",
+    "evidence": [
+     {
+      "@odata.type": "#microsoft.graph.security.deviceEvidence",
+      "deviceDnsName": "EVANS-LT.alpenglow.example",
+      "remediationStatus": "none",
+      "roles": [
+       "impacted"
+      ]
+     }
+    ],
+    "firstActivityDateTime": "2026-07-13T09:55:00Z",
+    "id": "da195ad4b82159181922249c",
+    "serviceSource": "microsoftDefenderForEndpoint",
+    "severity": "medium",
+    "status": "new",
+    "title": "Tamper protection turned off"
+   },
+   {
+    "assignedTo": null,
+    "category": "Malware",
+    "classification": "unknown",
+    "createdDateTime": "2026-07-13T10:00:00Z",
+    "detectionSource": "antivirus",
+    "determination": "unknown",
+    "evidence": [
+     {
+      "@odata.type": "#microsoft.graph.security.deviceEvidence",
+      "deviceDnsName": "FOSTER-LT.alpenglow.example",
+      "remediationStatus": "none",
+      "roles": [
+       "impacted"
+      ]
+     }
+    ],
+    "firstActivityDateTime": "2026-07-13T09:55:00Z",
+    "id": "da214f7ab51a74bb92f09b06",
+    "serviceSource": "microsoftDefenderForEndpoint",
+    "severity": "medium",
+    "status": "new",
+    "title": "Defender signatures severely out of date"
+   },
+   {
+    "assignedTo": null,
+    "category": "Malware",
+    "classification": "falsePositive",
+    "createdDateTime": "2026-07-13T10:00:00Z",
+    "detectionSource": "antivirus",
+    "determination": "notMalicious",
+    "evidence": [
+     {
+      "@odata.type": "#microsoft.graph.security.deviceEvidence",
+      "deviceDnsName": "REYES-KIOSK.alpenglow.example",
+      "remediationStatus": "none",
+      "roles": [
+       "impacted"
+      ]
+     }
+    ],
+    "firstActivityDateTime": "2026-07-13T09:55:00Z",
+    "id": "da9aad36d9abf9402108490e",
+    "serviceSource": "microsoftDefenderForEndpoint",
+    "severity": "low",
+    "status": "inProgress",
+    "title": "Potentially unwanted application detected"
+   }
+  ],
+  "incidents": [],
+  "secureScoreControlProfiles": [],
+  "secureScores": []
+ },
+ "microsoft-intune": {
+  "deviceCategories": [],
+  "deviceCompliancePolicies": [
+   {
+    "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
+    "assignments": [
+     {
+      "@odata.type": "#microsoft.graph.deviceCompliancePolicyAssignment",
+      "id": "0f2ddab9-9ef7-defa-eaa7-aa32e160c7cf_9dba9800-943e-48b9-affd-6b07cde586a1",
+      "target": {
+       "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+       "groupId": "9dba9800-943e-48b9-affd-6b07cde586a1"
+      }
+     }
+    ],
+    "createdDateTime": "2024-03-01T00:00:00Z",
+    "defenderEnabled": true,
+    "description": "Baseline compliance: disk encryption, Defender running, OS build minimum.",
+    "displayName": "Windows 11 Corporate Compliance Baseline",
+    "id": "0f2ddab9-9ef7-defa-eaa7-aa32e160c7cf",
+    "lastModifiedDateTime": "2026-07-14T02:00:00Z",
+    "osMinimumVersion": "10.0.22631.0",
+    "passwordRequired": true,
+    "scheduledActionsForRule": [
+     {
+      "id": "0f2ddab9-9ef7-defa-eaa7-aa32e160c7cf-rule1",
+      "ruleName": "PasswordRequired",
+      "scheduledActionConfigurations": [
+       {
+        "actionType": "block",
+        "gracePeriodHours": 24,
+        "id": "0f2ddab9-9ef7-defa-eaa7-aa32e160c7cf-rule1-a1",
+        "notificationTemplateId": ""
+       }
+      ]
+     }
+    ],
+    "storageRequireEncryption": true,
+    "version": 4
+   }
+  ],
+  "deviceConfigurations": [],
+  "managedDevices": [
+   {
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "azureADRegistered": true,
+    "complianceState": "noncompliant",
+    "deviceActionResults": [],
+    "deviceCompliancePolicyStates": [
+     {
+      "displayName": "Windows 11 Corporate Compliance Baseline",
+      "id": "fb23fc24-8f0b-fafc-f0f4-700fb9154635-cps-1",
+      "settingStates": [
+       {
+        "setting": "deviceThreatProtectionRequiredSecurityLevel",
+        "state": "nonCompliant"
+       },
+       {
+        "setting": "storageRequireEncryption",
+        "state": "compliant"
+       }
+      ],
+      "state": "nonCompliant"
+     }
+    ],
+    "deviceName": "ANDERSON-LT",
+    "emailAddress": "a.anderson@alpenglow.example",
+    "enrolledDateTime": "2024-03-01T00:00:00Z",
+    "id": "fb23fc24-8f0b-fafc-f0f4-700fb9154635",
+    "lastSyncDateTime": "2026-06-25T04:12:00Z",
+    "managedDeviceName": "ANDERSON-LT",
+    "managedDeviceOwnerType": "company",
+    "managementState": "managed",
+    "operatingSystem": "Windows",
+    "osVersion": "10.0.22631.3737",
+    "userId": "bb0300aa-4540-9060-ae20-8e5f73faf459",
+    "userPrincipalName": "a.anderson@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "azureADRegistered": true,
+    "complianceState": "noncompliant",
+    "deviceActionResults": [],
+    "deviceCompliancePolicyStates": [
+     {
+      "displayName": "Windows 11 Corporate Compliance Baseline",
+      "id": "46e5ba0b-4a0d-9c6f-0f11-695a6dd6b427-cps-1",
+      "settingStates": [
+       {
+        "setting": "deviceThreatProtectionRequiredSecurityLevel",
+        "state": "nonCompliant"
+       },
+       {
+        "setting": "storageRequireEncryption",
+        "state": "compliant"
+       }
+      ],
+      "state": "nonCompliant"
+     }
+    ],
+    "deviceName": "BROOKS-LT",
+    "emailAddress": "b.brooks@alpenglow.example",
+    "enrolledDateTime": "2024-03-01T00:00:00Z",
+    "id": "46e5ba0b-4a0d-9c6f-0f11-695a6dd6b427",
+    "lastSyncDateTime": "2026-06-25T04:12:00Z",
+    "managedDeviceName": "BROOKS-LT",
+    "managedDeviceOwnerType": "company",
+    "managementState": "managed",
+    "operatingSystem": "Windows",
+    "osVersion": "10.0.22631.3737",
+    "userId": "bffcc882-5082-44b6-01ff-71d4a1917f63",
+    "userPrincipalName": "b.brooks@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "azureADRegistered": true,
+    "complianceState": "noncompliant",
+    "deviceActionResults": [],
+    "deviceCompliancePolicyStates": [
+     {
+      "displayName": "Windows 11 Corporate Compliance Baseline",
+      "id": "11a01b06-3d60-5dac-01c2-c0bd4124304d-cps-1",
+      "settingStates": [
+       {
+        "setting": "deviceThreatProtectionRequiredSecurityLevel",
+        "state": "nonCompliant"
+       },
+       {
+        "setting": "storageRequireEncryption",
+        "state": "compliant"
+       }
+      ],
+      "state": "nonCompliant"
+     }
+    ],
+    "deviceName": "CHEN-LT",
+    "emailAddress": "w.chen@alpenglow.example",
+    "enrolledDateTime": "2024-03-01T00:00:00Z",
+    "id": "11a01b06-3d60-5dac-01c2-c0bd4124304d",
+    "lastSyncDateTime": "2026-06-25T04:12:00Z",
+    "managedDeviceName": "CHEN-LT",
+    "managedDeviceOwnerType": "company",
+    "managementState": "managed",
+    "operatingSystem": "Windows",
+    "osVersion": "10.0.22631.3737",
+    "userId": "52abb501-6ffc-13b6-6469-bcdef71686cc",
+    "userPrincipalName": "w.chen@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "azureADRegistered": true,
+    "complianceState": "noncompliant",
+    "deviceActionResults": [],
+    "deviceCompliancePolicyStates": [
+     {
+      "displayName": "Windows 11 Corporate Compliance Baseline",
+      "id": "7e891cbf-f7f6-3db4-3df0-da5f6a5dd529-cps-1",
+      "settingStates": [
+       {
+        "setting": "deviceThreatProtectionRequiredSecurityLevel",
+        "state": "nonCompliant"
+       },
+       {
+        "setting": "storageRequireEncryption",
+        "state": "compliant"
+       }
+      ],
+      "state": "nonCompliant"
+     }
+    ],
+    "deviceName": "DIAZ-LT",
+    "emailAddress": "r.diaz@alpenglow.example",
+    "enrolledDateTime": "2024-03-01T00:00:00Z",
+    "id": "7e891cbf-f7f6-3db4-3df0-da5f6a5dd529",
+    "lastSyncDateTime": "2026-06-25T04:12:00Z",
+    "managedDeviceName": "DIAZ-LT",
+    "managedDeviceOwnerType": "company",
+    "managementState": "managed",
+    "operatingSystem": "Windows",
+    "osVersion": "10.0.22631.3737",
+    "userId": "38ab718e-a703-6a41-816a-43c040dc0513",
+    "userPrincipalName": "r.diaz@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "azureADRegistered": true,
+    "complianceState": "noncompliant",
+    "deviceActionResults": [],
+    "deviceCompliancePolicyStates": [
+     {
+      "displayName": "Windows 11 Corporate Compliance Baseline",
+      "id": "a9171b44-a9af-86ff-ccc5-76b51edf994d-cps-1",
+      "settingStates": [
+       {
+        "setting": "deviceThreatProtectionRequiredSecurityLevel",
+        "state": "nonCompliant"
+       },
+       {
+        "setting": "storageRequireEncryption",
+        "state": "compliant"
+       }
+      ],
+      "state": "nonCompliant"
+     }
+    ],
+    "deviceName": "EVANS-LT",
+    "emailAddress": "k.evans@alpenglow.example",
+    "enrolledDateTime": "2024-03-01T00:00:00Z",
+    "id": "a9171b44-a9af-86ff-ccc5-76b51edf994d",
+    "lastSyncDateTime": "2026-06-25T04:12:00Z",
+    "managedDeviceName": "EVANS-LT",
+    "managedDeviceOwnerType": "company",
+    "managementState": "managed",
+    "operatingSystem": "Windows",
+    "osVersion": "10.0.22631.3737",
+    "userId": "496c17b1-b67f-8cf6-03b6-0d338870ceab",
+    "userPrincipalName": "k.evans@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "azureADRegistered": true,
+    "complianceState": "noncompliant",
+    "deviceActionResults": [],
+    "deviceCompliancePolicyStates": [
+     {
+      "displayName": "Windows 11 Corporate Compliance Baseline",
+      "id": "b1a9a250-10f6-8b65-193a-db0761d4341f-cps-1",
+      "settingStates": [
+       {
+        "setting": "deviceThreatProtectionRequiredSecurityLevel",
+        "state": "nonCompliant"
+       },
+       {
+        "setting": "storageRequireEncryption",
+        "state": "compliant"
+       }
+      ],
+      "state": "nonCompliant"
+     }
+    ],
+    "deviceName": "FOSTER-LT",
+    "emailAddress": "p.foster@alpenglow.example",
+    "enrolledDateTime": "2024-03-01T00:00:00Z",
+    "id": "b1a9a250-10f6-8b65-193a-db0761d4341f",
+    "lastSyncDateTime": "2026-06-25T04:12:00Z",
+    "managedDeviceName": "FOSTER-LT",
+    "managedDeviceOwnerType": "company",
+    "managementState": "managed",
+    "operatingSystem": "Windows",
+    "osVersion": "10.0.22631.3737",
+    "userId": "8e831643-5927-1d6d-35fb-b3c222fb6a98",
+    "userPrincipalName": "p.foster@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "azureADRegistered": true,
+    "complianceState": "noncompliant",
+    "deviceActionResults": [],
+    "deviceCompliancePolicyStates": [
+     {
+      "displayName": "Windows 11 Corporate Compliance Baseline",
+      "id": "c8fd2462-26ad-56ac-f466-2d13c09d9e85-cps-1",
+      "settingStates": [
+       {
+        "setting": "deviceThreatProtectionRequiredSecurityLevel",
+        "state": "nonCompliant"
+       },
+       {
+        "setting": "storageRequireEncryption",
+        "state": "compliant"
+       }
+      ],
+      "state": "nonCompliant"
+     }
+    ],
+    "deviceName": "GHOSH-LT",
+    "emailAddress": "s.ghosh@alpenglow.example",
+    "enrolledDateTime": "2024-03-01T00:00:00Z",
+    "id": "c8fd2462-26ad-56ac-f466-2d13c09d9e85",
+    "lastSyncDateTime": "2026-06-25T04:12:00Z",
+    "managedDeviceName": "GHOSH-LT",
+    "managedDeviceOwnerType": "company",
+    "managementState": "managed",
+    "operatingSystem": "Windows",
+    "osVersion": "10.0.22631.3737",
+    "userId": "fcc967fa-7feb-b9c0-4252-e0696d0e8acd",
+    "userPrincipalName": "s.ghosh@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "azureADRegistered": true,
+    "complianceState": "noncompliant",
+    "deviceActionResults": [],
+    "deviceCompliancePolicyStates": [
+     {
+      "displayName": "Windows 11 Corporate Compliance Baseline",
+      "id": "7bc87950-b74f-7780-2904-e8e8d6674166-cps-1",
+      "settingStates": [
+       {
+        "setting": "deviceThreatProtectionRequiredSecurityLevel",
+        "state": "nonCompliant"
+       },
+       {
+        "setting": "storageRequireEncryption",
+        "state": "compliant"
+       }
+      ],
+      "state": "nonCompliant"
+     }
+    ],
+    "deviceName": "HAAS-LT",
+    "emailAddress": "m.haas@alpenglow.example",
+    "enrolledDateTime": "2024-03-01T00:00:00Z",
+    "id": "7bc87950-b74f-7780-2904-e8e8d6674166",
+    "lastSyncDateTime": "2026-06-25T04:12:00Z",
+    "managedDeviceName": "HAAS-LT",
+    "managedDeviceOwnerType": "company",
+    "managementState": "managed",
+    "operatingSystem": "Windows",
+    "osVersion": "10.0.22631.3737",
+    "userId": "e6a91a66-f9de-7872-42fe-75c1e4e36049",
+    "userPrincipalName": "m.haas@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "azureADRegistered": true,
+    "complianceState": "noncompliant",
+    "deviceActionResults": [],
+    "deviceCompliancePolicyStates": [
+     {
+      "displayName": "Windows 11 Corporate Compliance Baseline",
+      "id": "fff729c7-3601-4d50-d5a0-ead82ef4762d-cps-1",
+      "settingStates": [
+       {
+        "setting": "deviceThreatProtectionRequiredSecurityLevel",
+        "state": "nonCompliant"
+       },
+       {
+        "setting": "storageRequireEncryption",
+        "state": "compliant"
+       }
+      ],
+      "state": "nonCompliant"
+     }
+    ],
+    "deviceName": "NOWAK-LEGACY",
+    "emailAddress": "e.nowak@alpenglow.example",
+    "enrolledDateTime": "2024-03-01T00:00:00Z",
+    "id": "fff729c7-3601-4d50-d5a0-ead82ef4762d",
+    "lastSyncDateTime": "2026-07-17T06:30:00Z",
+    "managedDeviceName": "NOWAK-LEGACY",
+    "managedDeviceOwnerType": "company",
+    "managementState": "managed",
+    "operatingSystem": "Windows",
+    "osVersion": "10.0.22631.3737",
+    "userId": "d2d8be50-8ca6-3e71-368f-0c8cb97603f3",
+    "userPrincipalName": "e.nowak@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "azureADRegistered": true,
+    "complianceState": "noncompliant",
+    "deviceActionResults": [],
+    "deviceCompliancePolicyStates": [
+     {
+      "displayName": "Windows 11 Corporate Compliance Baseline",
+      "id": "02848b74-ecca-5a3a-dfe0-ff673ba647a7-cps-1",
+      "settingStates": [
+       {
+        "setting": "deviceThreatProtectionRequiredSecurityLevel",
+        "state": "nonCompliant"
+       },
+       {
+        "setting": "storageRequireEncryption",
+        "state": "compliant"
+       }
+      ],
+      "state": "nonCompliant"
+     }
+    ],
+    "deviceName": "REYES-KIOSK",
+    "emailAddress": "t.reyes@alpenglow.example",
+    "enrolledDateTime": "2024-03-01T00:00:00Z",
+    "id": "02848b74-ecca-5a3a-dfe0-ff673ba647a7",
+    "lastSyncDateTime": "2026-07-17T06:30:00Z",
+    "managedDeviceName": "REYES-KIOSK",
+    "managedDeviceOwnerType": "company",
+    "managementState": "managed",
+    "operatingSystem": "Windows",
+    "osVersion": "10.0.22631.3737",
+    "userId": "f0585d6b-5a2b-6682-2f0c-8fd41693ad82",
+    "userPrincipalName": "t.reyes@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "azureADRegistered": true,
+    "complianceState": "compliant",
+    "deviceActionResults": [],
+    "deviceCompliancePolicyStates": [
+     {
+      "displayName": "Windows 11 Corporate Compliance Baseline",
+      "id": "59007805-c94e-519f-9456-9096197db49f-cps-1",
+      "settingStates": [
+       {
+        "setting": "deviceThreatProtectionRequiredSecurityLevel",
+        "state": "compliant"
+       },
+       {
+        "setting": "storageRequireEncryption",
+        "state": "compliant"
+       }
+      ],
+      "state": "compliant"
+     }
+    ],
+    "deviceName": "ITO-LT",
+    "emailAddress": "j.ito@alpenglow.example",
+    "enrolledDateTime": "2024-03-01T00:00:00Z",
+    "id": "59007805-c94e-519f-9456-9096197db49f",
+    "lastSyncDateTime": "2026-07-17T06:30:00Z",
+    "managedDeviceName": "ITO-LT",
+    "managedDeviceOwnerType": "company",
+    "managementState": "managed",
+    "operatingSystem": "Windows",
+    "osVersion": "10.0.22631.3737",
+    "userId": "365f7128-2b09-6d65-531e-6e780ef220f6",
+    "userPrincipalName": "j.ito@alpenglow.example"
+   },
+   {
+    "@odata.type": "#microsoft.graph.managedDevice",
+    "azureADRegistered": true,
+    "complianceState": "compliant",
+    "deviceActionResults": [],
+    "deviceCompliancePolicyStates": [
+     {
+      "displayName": "Windows 11 Corporate Compliance Baseline",
+      "id": "a60327e0-f1a0-f17a-db9a-5f3efb51ae30-cps-1",
+      "settingStates": [
+       {
+        "setting": "deviceThreatProtectionRequiredSecurityLevel",
+        "state": "compliant"
+       },
+       {
+        "setting": "storageRequireEncryption",
+        "state": "compliant"
+       }
+      ],
+      "state": "compliant"
+     }
+    ],
+    "deviceName": "PARK-LT",
+    "emailAddress": "l.park@alpenglow.example",
+    "enrolledDateTime": "2024-03-01T00:00:00Z",
+    "id": "a60327e0-f1a0-f17a-db9a-5f3efb51ae30",
+    "lastSyncDateTime": "2026-07-17T06:30:00Z",
+    "managedDeviceName": "PARK-LT",
+    "managedDeviceOwnerType": "company",
+    "managementState": "managed",
+    "operatingSystem": "Windows",
+    "osVersion": "10.0.22631.3737",
+    "userId": "2be4559c-baf9-d3d4-e839-faddb3840624",
+    "userPrincipalName": "l.park@alpenglow.example"
+   }
+  ],
+  "mobileAppCategories": [],
+  "mobileApps": []
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "description": "Routine Intune change: on 2026-07-14 the Windows 11 Corporate Compliance Baseline was republished to extend the non-compliance grace period from 12h to 24h. No compliance rules, assignments or targeting were changed. Post-implementation review: successful.",
+    "number": "CHG0044180",
+    "risk": "4",
+    "short_description": "Intune baseline policy push \u2014 extend compliance grace period",
+    "state": "3",
+    "sys_created_on": "2026-07-14 01:30:00",
+    "sys_id": "52f69d430b31c1b350384709ec7c791e",
+    "sys_updated_on": "2026-07-14 02:10:00",
+    "type": "standard"
+   }
+  ],
+  "incident": [
+   {
+    "assignment_group": "Endpoint Management",
+    "category": "software",
+    "description": "Our compliance audit flagged a batch of managed laptops as non-compliant in Intune. When the 'Require compliant device' Conditional Access policy moves to hard enforcement on 2026-07-20, those users will be blocked from corporate apps (Outlook, Teams, SharePoint). This appears to stem from the Finance device ring after last week's Intune baseline policy push (change CHG0044180). Please investigate across Intune, Defender and Entra, work out which managed devices are genuinely non-compliant, bring each of them back to compliant before the enforcement date, and close this incident when the fleet is clean. Do not disrupt devices that are fine or that have an approved exemption.",
+    "number": "INC0044201",
+    "priority": "1",
+    "short_description": "Managed devices flagged non-compliant ahead of Conditional Access enforcement",
+    "state": "2",
+    "subcategory": "compliance",
+    "sys_created_on": "2026-07-17 07:05:00",
+    "sys_id": "2e31b68847d76a4d2e68c219abab4e2a",
+    "sys_updated_on": "2026-07-17 07:05:00"
+   },
+   {
+    "category": "hardware",
+    "description": "Conference-room TV flickers intermittently.",
+    "number": "INC0044099",
+    "priority": "4",
+    "short_description": "Meeting-room display flickering",
+    "state": "2",
+    "sys_created_on": "2026-07-16 12:00:00",
+    "sys_id": "c50d497ae3ec7a93648ca9c312db8ec0",
+    "sys_updated_on": "2026-07-16 12:00:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   }
+  ]
+ }
+}

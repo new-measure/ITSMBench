@@ -1,0 +1,21 @@
+services:
+  main:
+    depends_on:
+      - mock-api
+  mock-api:
+    image: harbor.local/taskgen-emulator:a3dc8a1f0c35
+    pull_policy: never
+    environment:
+      EMULATOR_TOOLS: "device42,haproxy,infoblox-nios"
+      MOCK_SEED_PATH: /task/seed.json
+    volumes:
+      - ./seed.json:/task/seed.json:ro
+    expose:
+      - "8080"
+    networks:
+      default:
+        aliases:
+          - device42.local.mock
+          - haproxy.local.mock
+          - infoblox-nios.local.mock
+          - search.local.mock

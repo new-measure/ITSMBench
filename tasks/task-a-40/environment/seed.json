@@ -1,0 +1,1058 @@
+{
+ "_now": "2026-07-16T00:00:00.000Z",
+ "jumpcloud": {
+  "systemusers": [
+   {
+    "id": "jcu-marcus",
+    "_id": "jcu-marcus",
+    "username": "marcuswebb",
+    "email": "marcus.webb@northpeak.example",
+    "firstname": "Marcus",
+    "lastname": "Webb",
+    "displayname": "Marcus Webb",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Detection Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-elena",
+    "_id": "jcu-elena",
+    "username": "elenafischer",
+    "email": "elena.fischer@northpeak.example",
+    "firstname": "Elena",
+    "lastname": "Fischer",
+    "displayname": "Elena Fischer",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Endpoint Security Admin",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-raj",
+    "_id": "jcu-raj",
+    "username": "rajmalhotra",
+    "email": "raj.malhotra@northpeak.example",
+    "firstname": "Raj",
+    "lastname": "Malhotra",
+    "displayname": "Raj Malhotra",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Datacenter Infrastructure Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-priya",
+    "_id": "jcu-priya",
+    "username": "priyanair",
+    "email": "priya.nair@northpeak.example",
+    "firstname": "Priya",
+    "lastname": "Nair",
+    "displayname": "Priya Nair",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Contractor",
+    "jobTitle": "SOC Analyst (Vertex Managed Services)",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-dana",
+    "_id": "jcu-dana",
+    "username": "danaosei",
+    "email": "dana.osei@northpeak.example",
+    "firstname": "Dana",
+    "lastname": "Osei",
+    "displayname": "Dana Osei",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Cloud Security Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-hannah",
+    "_id": "jcu-hannah",
+    "username": "hannahvogt",
+    "email": "hannah.vogt@northpeak.example",
+    "firstname": "Hannah",
+    "lastname": "Vogt",
+    "displayname": "Hannah Vogt",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Datacenter Infrastructure Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-ivy",
+    "_id": "jcu-ivy",
+    "username": "ivychen",
+    "email": "ivy.chen@northpeak.example",
+    "firstname": "Ivy",
+    "lastname": "Chen",
+    "displayname": "Ivy Chen",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "SOC Manager",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-sam",
+    "_id": "jcu-sam",
+    "username": "samreyes",
+    "email": "sam.reyes@northpeak.example",
+    "firstname": "Sam",
+    "lastname": "Reyes",
+    "displayname": "Sam Reyes",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Infrastructure Lead",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-nora",
+    "_id": "jcu-nora",
+    "username": "norabakke",
+    "email": "nora.bakke@northpeak.example",
+    "firstname": "Nora",
+    "lastname": "Bakke",
+    "displayname": "Nora Bakke",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Endpoint Security Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-lea",
+    "_id": "jcu-lea",
+    "username": "leafournier",
+    "email": "lea.fournier@northpeak.example",
+    "firstname": "Lea",
+    "lastname": "Fournier",
+    "displayname": "Lea Fournier",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "SOC Analyst",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-liam",
+    "_id": "jcu-liam",
+    "username": "liamnguyen",
+    "email": "liam.nguyen@northpeak.example",
+    "firstname": "Liam",
+    "lastname": "Nguyen",
+    "displayname": "Liam Nguyen",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Security Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-olive",
+    "_id": "jcu-olive",
+    "username": "olivepark",
+    "email": "olive.park@northpeak.example",
+    "firstname": "Olive",
+    "lastname": "Park",
+    "displayname": "Olive Park",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Security Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-noah",
+    "_id": "jcu-noah",
+    "username": "noahsilva",
+    "email": "noah.silva@northpeak.example",
+    "firstname": "Noah",
+    "lastname": "Silva",
+    "displayname": "Noah Silva",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Security Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-emma",
+    "_id": "jcu-emma",
+    "username": "emmadubois",
+    "email": "emma.dubois@northpeak.example",
+    "firstname": "Emma",
+    "lastname": "Dubois",
+    "displayname": "Emma Dubois",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Security Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-ethan",
+    "_id": "jcu-ethan",
+    "username": "ethanhaas",
+    "email": "ethan.haas@northpeak.example",
+    "firstname": "Ethan",
+    "lastname": "Haas",
+    "displayname": "Ethan Haas",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Security Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-ava",
+    "_id": "jcu-ava",
+    "username": "avacosta",
+    "email": "ava.costa@northpeak.example",
+    "firstname": "Ava",
+    "lastname": "Costa",
+    "displayname": "Ava Costa",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Security Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-leo",
+    "_id": "jcu-leo",
+    "username": "leoberg",
+    "email": "leo.berg@northpeak.example",
+    "firstname": "Leo",
+    "lastname": "Berg",
+    "displayname": "Leo Berg",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Security Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-mia",
+    "_id": "jcu-mia",
+    "username": "miafalk",
+    "email": "mia.falk@northpeak.example",
+    "firstname": "Mia",
+    "lastname": "Falk",
+    "displayname": "Mia Falk",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Security Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-kai",
+    "_id": "jcu-kai",
+    "username": "kaimoss",
+    "email": "kai.moss@northpeak.example",
+    "firstname": "Kai",
+    "lastname": "Moss",
+    "displayname": "Kai Moss",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Security Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "jcu-zoe",
+    "_id": "jcu-zoe",
+    "username": "zoeford",
+    "email": "zoe.ford@northpeak.example",
+    "firstname": "Zoe",
+    "lastname": "Ford",
+    "displayname": "Zoe Ford",
+    "state": "ACTIVATED",
+    "activated": true,
+    "suspended": false,
+    "account_locked": false,
+    "employeeType": "Staff",
+    "jobTitle": "Security Engineer",
+    "created": "2024-02-01T09:00:00.000Z"
+   }
+  ],
+  "usergroups": [
+   {
+    "id": "jcg-soc",
+    "_id": "jcg-soc",
+    "name": "SOC Analysts",
+    "type": "user_group",
+    "description": "SOC Analysts",
+    "membershipMethod": "STATIC",
+    "members": [
+     "jcu-priya",
+     "jcu-ivy",
+     "jcu-lea"
+    ]
+   },
+   {
+    "id": "jcg-secops",
+    "_id": "jcg-secops",
+    "name": "Detection Engineering",
+    "type": "user_group",
+    "description": "Detection Engineering",
+    "membershipMethod": "STATIC",
+    "members": [
+     "jcu-marcus",
+     "jcu-ivy"
+    ]
+   },
+   {
+    "id": "jcg-endpoint",
+    "_id": "jcg-endpoint",
+    "name": "Endpoint Security",
+    "type": "user_group",
+    "description": "Endpoint Security",
+    "membershipMethod": "STATIC",
+    "members": [
+     "jcu-elena",
+     "jcu-nora"
+    ]
+   },
+   {
+    "id": "jcg-infra",
+    "_id": "jcg-infra",
+    "name": "Datacenter Infrastructure",
+    "type": "user_group",
+    "description": "Datacenter Infrastructure",
+    "membershipMethod": "STATIC",
+    "members": [
+     "jcu-raj",
+     "jcu-hannah",
+     "jcu-sam"
+    ]
+   },
+   {
+    "id": "jcg-cloud",
+    "_id": "jcg-cloud",
+    "name": "Cloud Security",
+    "type": "user_group",
+    "description": "Cloud Security",
+    "membershipMethod": "STATIC",
+    "members": [
+     "jcu-dana",
+     "jcu-sam"
+    ]
+   },
+   {
+    "id": "jcg-badge",
+    "_id": "jcg-badge",
+    "name": "Badge / Physical Access",
+    "type": "user_group",
+    "description": "Badge / Physical Access",
+    "membershipMethod": "STATIC",
+    "members": [
+     "jcu-dana",
+     "jcu-sam",
+     "jcu-liam",
+     "jcu-noah"
+    ]
+   },
+   {
+    "id": "jcg-allstaff",
+    "_id": "jcg-allstaff",
+    "name": "All Staff",
+    "type": "user_group",
+    "description": "All Staff",
+    "membershipMethod": "STATIC",
+    "members": [
+     "jcu-marcus",
+     "jcu-elena",
+     "jcu-raj",
+     "jcu-dana",
+     "jcu-hannah",
+     "jcu-ivy",
+     "jcu-sam",
+     "jcu-nora",
+     "jcu-lea",
+     "jcu-liam",
+     "jcu-olive",
+     "jcu-noah",
+     "jcu-emma",
+     "jcu-ethan",
+     "jcu-ava",
+     "jcu-leo",
+     "jcu-mia",
+     "jcu-kai",
+     "jcu-zoe"
+    ]
+   }
+  ]
+ },
+ "okta": {
+  "users": [
+   {
+    "id": "oktu-priya",
+    "status": "ACTIVE",
+    "created": "2024-03-01T09:00:00.000Z",
+    "activated": "2024-03-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Priya",
+     "lastName": "Nair",
+     "email": "priya.nair@northpeak.example",
+     "login": "priya.nair@northpeak.example",
+     "title": "SOC Analyst (Vertex Managed Services)"
+    }
+   },
+   {
+    "id": "oktu-tomas",
+    "status": "ACTIVE",
+    "created": "2024-03-01T09:00:00.000Z",
+    "activated": "2024-03-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Tomas",
+     "lastName": "Novak",
+     "email": "tomas.novak@halden-consulting.example",
+     "login": "tomas.novak@halden-consulting.example",
+     "title": "Security Consultant (Halden Consulting)"
+    }
+   },
+   {
+    "id": "oktu-owen",
+    "status": "ACTIVE",
+    "created": "2024-03-01T09:00:00.000Z",
+    "activated": "2024-03-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Owen",
+     "lastName": "Frost",
+     "email": "owen.frost@halden-consulting.example",
+     "login": "owen.frost@halden-consulting.example",
+     "title": "Security Consultant (Halden Consulting)"
+    }
+   },
+   {
+    "id": "oktu-omar",
+    "status": "ACTIVE",
+    "created": "2024-03-01T09:00:00.000Z",
+    "activated": "2024-03-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Omar",
+     "lastName": "Haddad",
+     "email": "omar.haddad@auditpartners.example",
+     "login": "omar.haddad@auditpartners.example",
+     "title": "External Auditor (AuditPartners)"
+    }
+   },
+   {
+    "id": "oktu-lea",
+    "status": "ACTIVE",
+    "created": "2024-03-01T09:00:00.000Z",
+    "activated": "2024-03-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Lea",
+     "lastName": "Fournier",
+     "email": "lea.fournier@northpeak.example",
+     "login": "lea.fournier@northpeak.example",
+     "title": "SOC Analyst"
+    }
+   }
+  ],
+  "groups": [
+   {
+    "id": "oktg-soc-ext",
+    "type": "OKTA_GROUP",
+    "profile": {
+     "name": "SOC External Collaborators",
+     "description": "SOC External Collaborators"
+    },
+    "members": [
+     "oktu-priya",
+     "oktu-lea"
+    ]
+   },
+   {
+    "id": "oktg-consultants",
+    "type": "OKTA_GROUP",
+    "profile": {
+     "name": "Security Consultants",
+     "description": "Security Consultants"
+    },
+    "members": [
+     "oktu-tomas",
+     "oktu-owen",
+     "oktu-omar"
+    ]
+   }
+  ],
+  "apps": [
+   {
+    "id": "okta-app-vpn",
+    "name": "vpn_gateway",
+    "label": "Global VPN Gateway",
+    "status": "ACTIVE",
+    "signOnMode": "SAML_2_0",
+    "users": [
+     {
+      "id": "oktu-priya",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     },
+     {
+      "id": "oktu-tomas",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     },
+     {
+      "id": "oktu-owen",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     },
+     {
+      "id": "oktu-lea",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     }
+    ],
+    "groups": []
+   }
+  ]
+ },
+ "crowdstrike": {
+  "iocs": [
+   {
+    "id": "ioc-marcus-01",
+    "type": "domain",
+    "value": "legacy-c2-sinkhole.example",
+    "action": "prevent",
+    "severity": "high",
+    "applied_globally": true,
+    "deleted": false,
+    "expired": false,
+    "platforms": [
+     "windows",
+     "linux"
+    ],
+    "source": "analyst",
+    "description": "Legacy sinkhole block",
+    "created_by": "marcus.webb@northpeak.example",
+    "created_on": "2025-11-04T10:00:00.000Z",
+    "modified_by": "marcus.webb@northpeak.example",
+    "modified_on": "2025-11-04T10:00:00.000Z"
+   },
+   {
+    "id": "ioc-marcus-02",
+    "type": "ipv4",
+    "value": "203.0.113.55",
+    "action": "detect",
+    "severity": "medium",
+    "applied_globally": true,
+    "deleted": false,
+    "expired": false,
+    "platforms": [
+     "windows"
+    ],
+    "source": "analyst",
+    "description": "Suspicious egress IP",
+    "created_by": "marcus.webb@northpeak.example",
+    "created_on": "2026-01-12T10:00:00.000Z",
+    "modified_by": "marcus.webb@northpeak.example",
+    "modified_on": "2026-01-12T10:00:00.000Z"
+   },
+   {
+    "id": "ioc-ivy-01",
+    "type": "sha256",
+    "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "action": "prevent",
+    "severity": "critical",
+    "applied_globally": true,
+    "deleted": false,
+    "expired": false,
+    "platforms": [
+     "windows"
+    ],
+    "source": "analyst",
+    "description": "Known ransomware sample",
+    "created_by": "ivy.chen@northpeak.example",
+    "created_on": "2026-05-01T10:00:00.000Z",
+    "modified_by": "ivy.chen@northpeak.example",
+    "modified_on": "2026-05-01T10:00:00.000Z"
+   },
+   {
+    "id": "ioc-nora-01",
+    "type": "domain",
+    "value": "phish-kit-host.example",
+    "action": "prevent",
+    "severity": "high",
+    "applied_globally": true,
+    "deleted": false,
+    "expired": false,
+    "platforms": [
+     "windows",
+     "mac"
+    ],
+    "source": "analyst",
+    "description": "Phishing kit host",
+    "created_by": "nora.bakke@northpeak.example",
+    "created_on": "2026-06-01T10:00:00.000Z",
+    "modified_by": "nora.bakke@northpeak.example",
+    "modified_on": "2026-06-01T10:00:00.000Z"
+   }
+  ],
+  "hostGroups": [
+   {
+    "id": "hg-dana-01",
+    "group_type": "static",
+    "name": "Cloud Bastions (legacy)",
+    "description": "Legacy cloud bastion grouping",
+    "created_by": "dana.osei@northpeak.example",
+    "created_timestamp": "2025-09-10T10:00:00.000Z",
+    "modified_by": "dana.osei@northpeak.example",
+    "modified_timestamp": "2025-09-10T10:00:00.000Z"
+   },
+   {
+    "id": "hg-sam-01",
+    "group_type": "static",
+    "name": "Windows Servers",
+    "description": "All Windows servers",
+    "created_by": "sam.reyes@northpeak.example",
+    "created_timestamp": "2024-04-01T10:00:00.000Z",
+    "modified_by": "sam.reyes@northpeak.example",
+    "modified_timestamp": "2024-04-01T10:00:00.000Z"
+   },
+   {
+    "id": "hg-ivy-01",
+    "group_type": "dynamic",
+    "name": "High-Value Assets",
+    "description": "Crown-jewel endpoints",
+    "created_by": "ivy.chen@northpeak.example",
+    "created_timestamp": "2024-04-01T10:00:00.000Z",
+    "modified_by": "ivy.chen@northpeak.example",
+    "modified_timestamp": "2024-04-01T10:00:00.000Z"
+   }
+  ],
+  "devices": [
+   {
+    "device_id": "00000000000000000000000000000001",
+    "hostname": "NP-WKS-001",
+    "platform_name": "Windows",
+    "status": "normal",
+    "hidden": false,
+    "groups": [
+     "hg-sam-01"
+    ],
+    "last_seen": "2026-07-15T08:00:00.000Z"
+   },
+   {
+    "device_id": "00000000000000000000000000000002",
+    "hostname": "NP-WKS-002",
+    "platform_name": "Windows",
+    "status": "normal",
+    "hidden": false,
+    "groups": [
+     "hg-sam-01"
+    ],
+    "last_seen": "2026-07-15T08:00:00.000Z"
+   },
+   {
+    "device_id": "00000000000000000000000000000003",
+    "hostname": "NP-WKS-003",
+    "platform_name": "Windows",
+    "status": "normal",
+    "hidden": false,
+    "groups": [
+     "hg-sam-01"
+    ],
+    "last_seen": "2026-07-15T08:00:00.000Z"
+   },
+   {
+    "device_id": "00000000000000000000000000000004",
+    "hostname": "NP-WKS-004",
+    "platform_name": "Windows",
+    "status": "normal",
+    "hidden": false,
+    "groups": [
+     "hg-sam-01"
+    ],
+    "last_seen": "2026-07-15T08:00:00.000Z"
+   },
+   {
+    "device_id": "00000000000000000000000000000005",
+    "hostname": "NP-WKS-005",
+    "platform_name": "Windows",
+    "status": "normal",
+    "hidden": false,
+    "groups": [
+     "hg-sam-01"
+    ],
+    "last_seen": "2026-07-15T08:00:00.000Z"
+   },
+   {
+    "device_id": "00000000000000000000000000000006",
+    "hostname": "NP-WKS-006",
+    "platform_name": "Windows",
+    "status": "normal",
+    "hidden": false,
+    "groups": [
+     "hg-sam-01"
+    ],
+    "last_seen": "2026-07-15T08:00:00.000Z"
+   }
+  ]
+ },
+ "sentinelone": {
+  "exclusions": [
+   {
+    "id": "excl-marcus-01",
+    "type": "path",
+    "value": "/opt/legacy-detect-bypass",
+    "osType": "linux",
+    "mode": "suppress",
+    "pathExclusionType": "subfolders",
+    "description": "Legacy detection bypass path",
+    "source": "user",
+    "userName": "Marcus Webb",
+    "scope": {
+     "tenant": true
+    },
+    "createdAt": "2025-08-14T10:00:00.000Z",
+    "updatedAt": "2025-08-14T10:00:00.000Z"
+   },
+   {
+    "id": "excl-elena-01",
+    "type": "path",
+    "value": "/usr/local/legacy-scan",
+    "osType": "linux",
+    "mode": "suppress",
+    "pathExclusionType": "subfolders",
+    "description": "Legacy scan path",
+    "source": "user",
+    "userName": "Elena Fischer",
+    "scope": {
+     "tenant": true
+    },
+    "createdAt": "2025-10-02T10:00:00.000Z",
+    "updatedAt": "2025-10-02T10:00:00.000Z"
+   },
+   {
+    "id": "excl-owen-01",
+    "type": "path",
+    "value": "/opt/halden-tooling",
+    "osType": "linux",
+    "mode": "suppress",
+    "pathExclusionType": "subfolders",
+    "description": "Consultant tooling path",
+    "source": "user",
+    "userName": "Owen Frost",
+    "scope": {
+     "tenant": true
+    },
+    "createdAt": "2025-12-05T10:00:00.000Z",
+    "updatedAt": "2025-12-05T10:00:00.000Z"
+   },
+   {
+    "id": "excl-nora-01",
+    "type": "path",
+    "value": "C:\\Program Files\\Corp\\Agent",
+    "osType": "windows",
+    "mode": "suppress",
+    "description": "Approved corp agent",
+    "source": "user",
+    "userName": "Nora Bakke",
+    "scope": {
+     "tenant": true
+    },
+    "createdAt": "2026-05-10T10:00:00.000Z",
+    "updatedAt": "2026-05-10T10:00:00.000Z"
+   }
+  ],
+  "blocklist": [
+   {
+    "id": "blk-elena-01",
+    "type": "black_hash",
+    "value": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "osType": "windows",
+    "description": "Legacy blocked binary",
+    "source": "user",
+    "userName": "Elena Fischer",
+    "scope": {
+     "tenant": true
+    },
+    "createdAt": "2025-10-02T10:00:00.000Z",
+    "updatedAt": "2025-10-02T10:00:00.000Z"
+   },
+   {
+    "id": "blk-sam-01",
+    "type": "black_hash",
+    "value": "cccccccccccccccccccccccccccccccccccccccc",
+    "osType": "windows",
+    "description": "Confirmed malware",
+    "source": "user",
+    "userName": "Sam Reyes",
+    "scope": {
+     "tenant": true
+    },
+    "createdAt": "2026-06-15T10:00:00.000Z",
+    "updatedAt": "2026-06-15T10:00:00.000Z"
+   }
+  ],
+  "sites": [
+   {
+    "id": "s1-site-01",
+    "name": "Northpeak",
+    "state": "active",
+    "siteType": "Paid",
+    "activeLicenses": 500,
+    "totalLicenses": 1000
+   }
+  ],
+  "agents": [
+   {
+    "id": "2260000000000000001",
+    "uuid": "uuid-agent-1",
+    "computerName": "NP-SRV-001",
+    "osType": "windows",
+    "networkStatus": "connected",
+    "isActive": true,
+    "infected": false,
+    "activeThreats": 0,
+    "siteId": "s1-site-01",
+    "lastActiveDate": "2026-07-15T08:00:00.000Z"
+   },
+   {
+    "id": "2260000000000000002",
+    "uuid": "uuid-agent-2",
+    "computerName": "NP-SRV-002",
+    "osType": "windows",
+    "networkStatus": "connected",
+    "isActive": true,
+    "infected": false,
+    "activeThreats": 0,
+    "siteId": "s1-site-01",
+    "lastActiveDate": "2026-07-15T08:00:00.000Z"
+   },
+   {
+    "id": "2260000000000000003",
+    "uuid": "uuid-agent-3",
+    "computerName": "NP-SRV-003",
+    "osType": "windows",
+    "networkStatus": "connected",
+    "isActive": true,
+    "infected": false,
+    "activeThreats": 0,
+    "siteId": "s1-site-01",
+    "lastActiveDate": "2026-07-15T08:00:00.000Z"
+   },
+   {
+    "id": "2260000000000000004",
+    "uuid": "uuid-agent-4",
+    "computerName": "NP-SRV-004",
+    "osType": "windows",
+    "networkStatus": "connected",
+    "isActive": true,
+    "infected": false,
+    "activeThreats": 0,
+    "siteId": "s1-site-01",
+    "lastActiveDate": "2026-07-15T08:00:00.000Z"
+   },
+   {
+    "id": "2260000000000000005",
+    "uuid": "uuid-agent-5",
+    "computerName": "NP-SRV-005",
+    "osType": "windows",
+    "networkStatus": "connected",
+    "isActive": true,
+    "infected": false,
+    "activeThreats": 0,
+    "siteId": "s1-site-01",
+    "lastActiveDate": "2026-07-15T08:00:00.000Z"
+   }
+  ]
+ },
+ "device42": {
+  "devices": [
+   {
+    "device_id": 5001,
+    "id": 5001,
+    "name": "dc1-fw-edge-01",
+    "type": "physical",
+    "owner": "Raj Malhotra",
+    "in_service": true,
+    "service_level": "production",
+    "building": "DC1",
+    "os_name": "PAN-OS",
+    "serial_no": "FW5001",
+    "first_added": "2024-05-01T00:00:00Z",
+    "last_updated": "2026-06-01T00:00:00Z"
+   },
+   {
+    "device_id": 5002,
+    "id": 5002,
+    "name": "dc1-core-sw-02",
+    "type": "physical",
+    "owner": "Sam Reyes",
+    "in_service": true,
+    "service_level": "production",
+    "building": "DC1",
+    "os_name": "NX-OS",
+    "serial_no": "SW5002",
+    "first_added": "2024-05-01T00:00:00Z",
+    "last_updated": "2026-06-01T00:00:00Z"
+   },
+   {
+    "device_id": 5010,
+    "id": 5010,
+    "name": "dc1-fw-edge-02",
+    "type": "physical",
+    "owner": "Hannah Vogt",
+    "in_service": true,
+    "service_level": "production",
+    "building": "DC1",
+    "os_name": "PAN-OS",
+    "serial_no": "FW5010",
+    "first_added": "2024-05-01T00:00:00Z",
+    "last_updated": "2026-06-01T00:00:00Z"
+   },
+   {
+    "device_id": 5011,
+    "id": 5011,
+    "name": "dc1-san-ctrl-01",
+    "type": "physical",
+    "owner": "Hannah Vogt",
+    "in_service": true,
+    "service_level": "production",
+    "building": "DC1",
+    "os_name": "SANtricity",
+    "serial_no": "SAN5011",
+    "first_added": "2024-05-01T00:00:00Z",
+    "last_updated": "2026-06-01T00:00:00Z"
+   },
+   {
+    "device_id": 5003,
+    "id": 5003,
+    "name": "app-node-01",
+    "type": "virtual",
+    "owner": "Ivy Chen",
+    "in_service": true,
+    "service_level": "production",
+    "building": "DC1",
+    "first_added": "2024-06-01T00:00:00Z",
+    "last_updated": "2026-06-01T00:00:00Z"
+   },
+   {
+    "device_id": 5004,
+    "id": 5004,
+    "name": "app-node-02",
+    "type": "virtual",
+    "owner": "Nora Bakke",
+    "in_service": true,
+    "service_level": "production",
+    "building": "DC1",
+    "first_added": "2024-06-01T00:00:00Z",
+    "last_updated": "2026-06-01T00:00:00Z"
+   },
+   {
+    "device_id": 5005,
+    "id": 5005,
+    "name": "app-node-03",
+    "type": "virtual",
+    "owner": "Liam Nguyen",
+    "in_service": true,
+    "service_level": "production",
+    "building": "DC1",
+    "first_added": "2024-06-01T00:00:00Z",
+    "last_updated": "2026-06-01T00:00:00Z"
+   },
+   {
+    "device_id": 5006,
+    "id": 5006,
+    "name": "app-node-04",
+    "type": "virtual",
+    "owner": "Emma Dubois",
+    "in_service": true,
+    "service_level": "production",
+    "building": "DC1",
+    "first_added": "2024-06-01T00:00:00Z",
+    "last_updated": "2026-06-01T00:00:00Z"
+   }
+  ]
+ },
+ "servicenow": {
+  "incident": [
+   {
+    "sys_id": "sn-inc-offboarding-000",
+    "number": "INC0009001",
+    "short_description": "Security offboarding \u2014 Wesley Tan (contractor) \u2014 COMPLETE",
+    "description": "Offboarding request for departed SOC contractor Wesley Tan (last day 2026-05-30).",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Wesley Tan fully offboarded and verified across every system:\n- JumpCloud: suspended his account; removed him from the SOC Analysts and All Staff groups.\n- Okta: he also held a separate SSO identity \u2014 deactivated it, removed him from the Security Consultants group, and removed his Global VPN Gateway app assignment.\n- Device42: he was the recorded owner of the production jump-host CI dc1-jump-01; reassigned ownership to the infrastructure lead rather than deleting the live CI.\n- SentinelOne: he had authored a stale path exclusion (suppress mode) on /opt/legacy that was still blinding detection with no active owner \u2014 removed it.\n- CrowdStrike: his prevention/detection IOCs were LEFT in place (active protections); ownership review handed to the detection team rather than deleting them.\nConfirmed no residual access anywhere. Closing.",
+    "state": "7",
+    "priority": "3",
+    "impact": "3",
+    "urgency": "3",
+    "assigned_to": "ivy.chen",
+    "caller_id": "ivy.chen",
+    "category": "security",
+    "opened_at": "2026-05-28 08:00:00",
+    "closed_at": "2026-06-01 17:00:00",
+    "sys_created_on": "2026-05-28 08:00:00",
+    "sys_updated_on": "2026-06-01 17:00:00"
+   },
+   {
+    "sys_id": "sn-inc-offboarding-001",
+    "number": "INC0010001",
+    "short_description": "Security team offboarding \u2014 departed staff & contractors (July)",
+    "description": "The following members of the security organization have left Northpeak (staff and contractors). Please offboard each one and leave the environment in a correct, secure state. Close this incident when everyone has been fully offboarded.\n1) Marcus Webb \u2014 Detection Engineer \u2014 last day 2026-06-20\n2) Elena Fischer \u2014 Endpoint Security Admin \u2014 last day 2026-06-21\n3) Raj Malhotra \u2014 Datacenter Infrastructure Engineer \u2014 last day 2026-06-22\n4) Priya Nair \u2014 SOC Analyst (Vertex Managed Services) \u2014 last day 2026-06-23\n5) Tomas Novak \u2014 Security Consultant (Halden Consulting) \u2014 last day 2026-06-24\n6) Dana Osei \u2014 Cloud Security Engineer \u2014 last day 2026-06-25\n7) Owen Frost \u2014 Security Consultant (Halden Consulting) \u2014 last day 2026-06-26\n8) Hannah Vogt \u2014 Datacenter Infrastructure Engineer \u2014 last day 2026-06-27",
+    "state": "2",
+    "priority": "2",
+    "impact": "2",
+    "urgency": "2",
+    "assigned_to": "ivy.chen",
+    "caller_id": "ivy.chen",
+    "category": "security",
+    "opened_at": "2026-07-16 08:00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,2012 @@
+{
+ "_now": "2026-07-16T00:00:00.000Z",
+ "entra-id": {
+  "users": [
+   {
+    "id": "u-amir-khan",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Amir Khan",
+    "userPrincipalName": "amir.khan@contoso.example",
+    "mail": "amir.khan@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "CEO",
+    "department": "Executive",
+    "givenName": "Amir",
+    "surname": "Khan",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-ben-oduya",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Ben Oduya",
+    "userPrincipalName": "ben.oduya@contoso.example",
+    "mail": "ben.oduya@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Financial Analyst",
+    "department": "Finance",
+    "givenName": "Ben",
+    "surname": "Oduya",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-dana-kim",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Dana Kim",
+    "userPrincipalName": "dana.kim@contoso.example",
+    "mail": "dana.kim@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Finance Manager",
+    "department": "Finance",
+    "givenName": "Dana",
+    "surname": "Kim",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-diego-marchetti",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Diego Marchetti",
+    "userPrincipalName": "diego.marchetti@contoso.example",
+    "mail": "diego.marchetti@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - Project Helios (Blue Harbor)",
+    "department": "External",
+    "givenName": "Diego",
+    "surname": "Marchetti",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-elena-novak",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Elena Novak",
+    "userPrincipalName": "elena.novak@contoso.example",
+    "mail": "elena.novak@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - Integrations (Meridian Consulting)",
+    "department": "External",
+    "givenName": "Elena",
+    "surname": "Novak",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-00",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Liam Nguyen",
+    "userPrincipalName": "liam.nguyen@contoso.example",
+    "mail": "liam.nguyen@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Engineering",
+    "givenName": "Liam",
+    "surname": "Nguyen",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-01",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Olivia Costa",
+    "userPrincipalName": "olivia.costa@contoso.example",
+    "mail": "olivia.costa@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Finance",
+    "givenName": "Olivia",
+    "surname": "Costa",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-02",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Noah Hale",
+    "userPrincipalName": "noah.hale@contoso.example",
+    "mail": "noah.hale@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Security",
+    "givenName": "Noah",
+    "surname": "Hale",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-03",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Emma Reyes",
+    "userPrincipalName": "emma.reyes@contoso.example",
+    "mail": "emma.reyes@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "IT",
+    "givenName": "Emma",
+    "surname": "Reyes",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-04",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Ethan Berg",
+    "userPrincipalName": "ethan.berg@contoso.example",
+    "mail": "ethan.berg@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Operations",
+    "givenName": "Ethan",
+    "surname": "Berg",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-05",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Ava Vance2",
+    "userPrincipalName": "ava.vance2@contoso.example",
+    "mail": "ava.vance2@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Sales",
+    "givenName": "Ava",
+    "surname": "Vance2",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-06",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Lucas Silva",
+    "userPrincipalName": "lucas.silva@contoso.example",
+    "mail": "lucas.silva@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Marketing",
+    "givenName": "Lucas",
+    "surname": "Silva",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-07",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Mia Falk",
+    "userPrincipalName": "mia.falk@contoso.example",
+    "mail": "mia.falk@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "HR",
+    "givenName": "Mia",
+    "surname": "Falk",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-08",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Leo Bauer",
+    "userPrincipalName": "leo.bauer@contoso.example",
+    "mail": "leo.bauer@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Engineering",
+    "givenName": "Leo",
+    "surname": "Bauer",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-09",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Aria Dubois",
+    "userPrincipalName": "aria.dubois@contoso.example",
+    "mail": "aria.dubois@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Finance",
+    "givenName": "Aria",
+    "surname": "Dubois",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-10",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Kai Moss",
+    "userPrincipalName": "kai.moss@contoso.example",
+    "mail": "kai.moss@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Security",
+    "givenName": "Kai",
+    "surname": "Moss",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-11",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Zoe Roth",
+    "userPrincipalName": "zoe.roth@contoso.example",
+    "mail": "zoe.roth@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "IT",
+    "givenName": "Zoe",
+    "surname": "Roth",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-12",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Nora Haas",
+    "userPrincipalName": "nora.haas@contoso.example",
+    "mail": "nora.haas@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Operations",
+    "givenName": "Nora",
+    "surname": "Haas",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-13",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Milo Ford",
+    "userPrincipalName": "milo.ford@contoso.example",
+    "mail": "milo.ford@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Sales",
+    "givenName": "Milo",
+    "surname": "Ford",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-14",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Ines Voss",
+    "userPrincipalName": "ines.voss@contoso.example",
+    "mail": "ines.voss@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Marketing",
+    "givenName": "Ines",
+    "surname": "Voss",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-15",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Hugo Singh",
+    "userPrincipalName": "hugo.singh@contoso.example",
+    "mail": "hugo.singh@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "HR",
+    "givenName": "Hugo",
+    "surname": "Singh",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-16",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Freya Wolf",
+    "userPrincipalName": "freya.wolf@contoso.example",
+    "mail": "freya.wolf@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Engineering",
+    "givenName": "Freya",
+    "surname": "Wolf",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-emp-17",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Diego2 Klein",
+    "userPrincipalName": "diego2.klein@contoso.example",
+    "mail": "diego2.klein@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Employee",
+    "department": "Finance",
+    "givenName": "Diego2",
+    "surname": "Klein",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-grace-hoffman",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Grace Hoffman",
+    "userPrincipalName": "grace.hoffman@contoso.example",
+    "mail": "grace.hoffman@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Records Manager",
+    "department": "Legal",
+    "givenName": "Grace",
+    "surname": "Hoffman",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-helen-zhao",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Helen Zhao",
+    "userPrincipalName": "helen.zhao@contoso.example",
+    "mail": "helen.zhao@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "CFO",
+    "department": "Finance",
+    "givenName": "Helen",
+    "surname": "Zhao",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-lena-fischer",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Lena Fischer",
+    "userPrincipalName": "lena.fischer@contoso.example",
+    "mail": "lena.fischer@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Product Designer",
+    "department": "Design",
+    "givenName": "Lena",
+    "surname": "Fischer",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-marco-bianchi",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Marco Bianchi",
+    "userPrincipalName": "marco.bianchi@contoso.example",
+    "mail": "marco.bianchi@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - Project Aurora (still active)",
+    "department": "External",
+    "givenName": "Marco",
+    "surname": "Bianchi",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-omar-said",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Omar Said",
+    "userPrincipalName": "omar.said@contoso.example",
+    "mail": "omar.said@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Software Engineer",
+    "department": "Engineering",
+    "givenName": "Omar",
+    "surname": "Said",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-otto-lindqvist-guest",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Otto Lindqvist",
+    "userPrincipalName": "otto.lindqvist_brightpath.example#EXT#@contoso.onmicrosoft.com",
+    "mail": "otto.lindqvist@brightpath.example",
+    "accountEnabled": true,
+    "jobTitle": "Guest (Brightpath, still active)",
+    "department": "External",
+    "givenName": "Otto",
+    "surname": "Lindqvist",
+    "employeeType": "Guest",
+    "businessPhones": [],
+    "createdDateTime": "2025-09-01T09:00:00.000Z",
+    "userType": "Guest"
+   },
+   {
+    "id": "u-priya-anand",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Priya Anand",
+    "userPrincipalName": "priya.anand@contoso.example",
+    "mail": "priya.anand@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - Project Helios (Northwind)",
+    "department": "External",
+    "givenName": "Priya",
+    "surname": "Anand",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-priya-anand-guest",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Priya Anand",
+    "userPrincipalName": "priya.anand_northwind-contractors.example#EXT#@contoso.onmicrosoft.com",
+    "mail": "priya.anand@northwind-contractors.example",
+    "accountEnabled": true,
+    "jobTitle": "Guest (Northwind Contractors)",
+    "department": "External",
+    "givenName": "Priya",
+    "surname": "Anand",
+    "employeeType": "Guest",
+    "businessPhones": [],
+    "createdDateTime": "2025-09-01T09:00:00.000Z",
+    "userType": "Guest"
+   },
+   {
+    "id": "u-raj-patel",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Raj Patel",
+    "userPrincipalName": "raj.patel@contoso.example",
+    "mail": "raj.patel@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Senior Engineer",
+    "department": "Engineering",
+    "givenName": "Raj",
+    "surname": "Patel",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-sana-rahman-guest",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Sana Rahman",
+    "userPrincipalName": "sana.rahman_northwind-contractors.example#EXT#@contoso.onmicrosoft.com",
+    "mail": "sana.rahman@northwind-contractors.example",
+    "accountEnabled": true,
+    "jobTitle": "Guest (Northwind Contractors)",
+    "department": "External",
+    "givenName": "Sana",
+    "surname": "Rahman",
+    "employeeType": "Guest",
+    "businessPhones": [],
+    "createdDateTime": "2025-09-01T09:00:00.000Z",
+    "userType": "Guest"
+   },
+   {
+    "id": "u-sofia-romano",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Sofia Romano",
+    "userPrincipalName": "sofia.romano@contoso.example",
+    "mail": "sofia.romano@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Engineering Lead",
+    "department": "Engineering",
+    "givenName": "Sofia",
+    "surname": "Romano",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-theo-vance",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Theo Vance",
+    "userPrincipalName": "theo.vance@contoso.example",
+    "mail": "theo.vance@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - Design System (Cedar Analytics)",
+    "department": "External",
+    "givenName": "Theo",
+    "surname": "Vance",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-tomas-vega",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Tomas Vega",
+    "userPrincipalName": "tomas.vega@contoso.example",
+    "mail": "tomas.vega@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Compliance Analyst",
+    "department": "Legal",
+    "givenName": "Tomas",
+    "surname": "Vega",
+    "employeeType": "Employee",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   },
+   {
+    "id": "u-viktor-sorensen",
+    "@odata.type": "#microsoft.graph.user",
+    "displayName": "Viktor Sorensen",
+    "userPrincipalName": "viktor.sorensen@contoso.example",
+    "mail": "viktor.sorensen@contoso.example",
+    "accountEnabled": true,
+    "jobTitle": "Contractor - Data Platform (Meridian Consulting)",
+    "department": "External",
+    "givenName": "Viktor",
+    "surname": "Sorensen",
+    "employeeType": "Contractor",
+    "businessPhones": [],
+    "createdDateTime": "2023-01-10T09:00:00.000Z"
+   }
+  ],
+  "groups": [
+   {
+    "id": "g-helios",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "Project Helios - Team",
+    "description": "Project Helios delivery team.",
+    "mailNickname": "helios",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-priya-anand",
+     "u-diego-marchetti",
+     "u-omar-said",
+     "u-lena-fischer",
+     "u-raj-patel",
+     "u-sofia-romano"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-records",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "Records Management - Contributors",
+    "description": "Contribute/manage the compliance records library.",
+    "mailNickname": "records",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-priya-anand",
+     "u-grace-hoffman",
+     "u-tomas-vega"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-external",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "External Collaborators",
+    "description": "Guest (B2B) collaborators from partner firms.",
+    "mailNickname": "external",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-priya-anand-guest",
+     "u-sana-rahman-guest",
+     "u-otto-lindqvist-guest"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-design",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "Design System - Contributors",
+    "description": "Design-system contributors.",
+    "mailNickname": "design",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-theo-vance",
+     "u-lena-fischer"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-integrations",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "Integrations & Data Platform",
+    "description": "Integrations / data-platform engineers and contractors.",
+    "mailNickname": "integrations",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-elena-novak",
+     "u-viktor-sorensen",
+     "u-raj-patel",
+     "u-marco-bianchi"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-aurora",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "Project Aurora - Team",
+    "description": "Project Aurora delivery team.",
+    "mailNickname": "aurora",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-marco-bianchi",
+     "u-ben-oduya",
+     "u-omar-said"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-eng",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "Engineering - All",
+    "description": "All engineering staff.",
+    "mailNickname": "eng",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-omar-said",
+     "u-raj-patel",
+     "u-sofia-romano",
+     "u-emp-00",
+     "u-emp-08",
+     "u-emp-16"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-finance",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "Finance - All",
+    "description": "All finance staff.",
+    "mailNickname": "finance",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-dana-kim",
+     "u-helen-zhao",
+     "u-ben-oduya",
+     "u-emp-01",
+     "u-emp-09",
+     "u-emp-17"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "g-allemp",
+    "@odata.type": "#microsoft.graph.group",
+    "displayName": "All Employees",
+    "description": "All permanent employees.",
+    "mailNickname": "allemp",
+    "securityEnabled": true,
+    "mailEnabled": false,
+    "groupTypes": [],
+    "visibility": "Private",
+    "members": [
+     "u-omar-said",
+     "u-lena-fischer",
+     "u-raj-patel",
+     "u-sofia-romano",
+     "u-grace-hoffman",
+     "u-tomas-vega",
+     "u-helen-zhao",
+     "u-ben-oduya",
+     "u-amir-khan",
+     "u-emp-00",
+     "u-emp-01",
+     "u-emp-02",
+     "u-emp-03",
+     "u-emp-04",
+     "u-emp-05",
+     "u-emp-06",
+     "u-emp-07",
+     "u-emp-08",
+     "u-emp-09",
+     "u-emp-10",
+     "u-emp-11",
+     "u-emp-12",
+     "u-emp-13",
+     "u-emp-14",
+     "u-emp-15",
+     "u-emp-16",
+     "u-emp-17"
+    ],
+    "createdDateTime": "2023-02-01T09:00:00.000Z"
+   }
+  ]
+ },
+ "sharepoint": {
+  "sites": [
+   {
+    "id": "site-helios",
+    "displayName": "Project Helios",
+    "name": "helios",
+    "webUrl": "https://contoso.sharepoint.com/sites/helios",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-finance",
+    "displayName": "Finance - Forecasts",
+    "name": "finance-forecasts",
+    "webUrl": "https://contoso.sharepoint.com/sites/finance-forecasts",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-exec",
+    "displayName": "Executive Briefings",
+    "name": "exec-briefings",
+    "webUrl": "https://contoso.sharepoint.com/sites/exec-briefings",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-portfolio",
+    "displayName": "Portfolio Management",
+    "name": "portfolio",
+    "webUrl": "https://contoso.sharepoint.com/sites/portfolio",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-research",
+    "displayName": "Research Library",
+    "name": "research-library",
+    "webUrl": "https://contoso.sharepoint.com/sites/research-library",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-comms",
+    "displayName": "Corporate Comms",
+    "name": "corp-comms",
+    "webUrl": "https://contoso.sharepoint.com/sites/corp-comms",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-legal",
+    "displayName": "Legal - Contracts",
+    "name": "legal-contracts",
+    "webUrl": "https://contoso.sharepoint.com/sites/legal-contracts",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-design",
+    "displayName": "Design System",
+    "name": "design-system",
+    "webUrl": "https://contoso.sharepoint.com/sites/design-system",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-ops",
+    "displayName": "Operations",
+    "name": "operations",
+    "webUrl": "https://contoso.sharepoint.com/sites/operations",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-hr",
+    "displayName": "HR - People Ops",
+    "name": "hr-peopleops",
+    "webUrl": "https://contoso.sharepoint.com/sites/hr-peopleops",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-eng",
+    "displayName": "Engineering Hub",
+    "name": "eng-hub",
+    "webUrl": "https://contoso.sharepoint.com/sites/eng-hub",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-sales",
+    "displayName": "Sales Enablement",
+    "name": "sales-enablement",
+    "webUrl": "https://contoso.sharepoint.com/sites/sales-enablement",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-it",
+    "displayName": "IT - Policies",
+    "name": "it-policies",
+    "webUrl": "https://contoso.sharepoint.com/sites/it-policies",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "site-mktg",
+    "displayName": "Marketing",
+    "name": "marketing",
+    "webUrl": "https://contoso.sharepoint.com/sites/marketing",
+    "createdDateTime": "2023-01-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   }
+  ],
+  "permissions": [
+   {
+    "id": "perm-001",
+    "siteId": "site-helios",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-diego-marchetti",
+      "displayName": "Diego Marchetti",
+      "email": "diego.marchetti@contoso.example"
+     }
+    },
+    "createdDateTime": "2025-06-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-002",
+    "siteId": "site-helios",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-omar-said",
+      "displayName": "Omar Said",
+      "email": "omar.said@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-003",
+    "siteId": "site-helios",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-sofia-romano",
+      "displayName": "Sofia Romano",
+      "email": "sofia.romano@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-004",
+    "siteId": "site-helios",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "group": {
+      "id": "g-helios",
+      "displayName": "Project Helios - Team"
+     }
+    },
+    "createdDateTime": "2023-03-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2023-03-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-005",
+    "siteId": "site-finance",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-helen-zhao",
+      "displayName": "Helen Zhao",
+      "email": "helen.zhao@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-006",
+    "siteId": "site-finance",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-ben-oduya",
+      "displayName": "Ben Oduya",
+      "email": "ben.oduya@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-007",
+    "siteId": "site-finance",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-dana-kim",
+      "displayName": "Dana Kim",
+      "email": "dana.kim@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-008",
+    "siteId": "site-finance",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "group": {
+      "id": "g-finance",
+      "displayName": "Finance - All"
+     }
+    },
+    "createdDateTime": "2023-03-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2023-03-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-009",
+    "siteId": "site-finance",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-priya-anand",
+      "displayName": "Priya Anand",
+      "email": "priya.anand@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-03-04T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-03-04T09:00:00.000Z"
+   },
+   {
+    "id": "perm-010",
+    "siteId": "site-exec",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-amir-khan",
+      "displayName": "Amir Khan",
+      "email": "amir.khan@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-011",
+    "siteId": "site-exec",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-helen-zhao",
+      "displayName": "Helen Zhao",
+      "email": "helen.zhao@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-012",
+    "siteId": "site-exec",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-priya-anand",
+      "displayName": "Priya Anand",
+      "email": "priya.anand@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-04-20T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-04-20T09:00:00.000Z"
+   },
+   {
+    "id": "perm-013",
+    "siteId": "site-portfolio",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-amir-khan",
+      "displayName": "Amir Khan",
+      "email": "amir.khan@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-014",
+    "siteId": "site-portfolio",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-sofia-romano",
+      "displayName": "Sofia Romano",
+      "email": "sofia.romano@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-015",
+    "siteId": "site-portfolio",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-priya-anand",
+      "displayName": "Priya Anand",
+      "email": "priya.anand@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-01-30T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-01-30T09:00:00.000Z"
+   },
+   {
+    "id": "perm-016",
+    "siteId": "site-portfolio",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-elena-novak",
+      "displayName": "Elena Novak",
+      "email": "elena.novak@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-04-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-04-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-017",
+    "siteId": "site-research",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-sofia-romano",
+      "displayName": "Sofia Romano",
+      "email": "sofia.romano@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-018",
+    "siteId": "site-research",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-omar-said",
+      "displayName": "Omar Said",
+      "email": "omar.said@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-019",
+    "siteId": "site-research",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-diego-marchetti",
+      "displayName": "Diego Marchetti",
+      "email": "diego.marchetti@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-02-02T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-02-02T09:00:00.000Z"
+   },
+   {
+    "id": "perm-020",
+    "siteId": "site-comms",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-lena-fischer",
+      "displayName": "Lena Fischer",
+      "email": "lena.fischer@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-021",
+    "siteId": "site-comms",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-helen-zhao",
+      "displayName": "Helen Zhao",
+      "email": "helen.zhao@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-022",
+    "siteId": "site-comms",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-priya-anand-guest",
+      "displayName": "Priya Anand",
+      "email": "priya.anand@northwind-contractors.example"
+     }
+    },
+    "createdDateTime": "2025-10-05T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-10-05T09:00:00.000Z"
+   },
+   {
+    "id": "perm-023",
+    "siteId": "site-legal",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-tomas-vega",
+      "displayName": "Tomas Vega",
+      "email": "tomas.vega@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-024",
+    "siteId": "site-legal",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-grace-hoffman",
+      "displayName": "Grace Hoffman",
+      "email": "grace.hoffman@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-025",
+    "siteId": "site-legal",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-otto-lindqvist-guest",
+      "displayName": "Otto Lindqvist",
+      "email": "otto.lindqvist@brightpath.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-026",
+    "siteId": "site-legal",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-sana-rahman-guest",
+      "displayName": "Sana Rahman",
+      "email": "sana.rahman@northwind-contractors.example"
+     }
+    },
+    "createdDateTime": "2025-11-03T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-11-03T09:00:00.000Z"
+   },
+   {
+    "id": "perm-027",
+    "siteId": "site-design",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-lena-fischer",
+      "displayName": "Lena Fischer",
+      "email": "lena.fischer@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-028",
+    "siteId": "site-design",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-omar-said",
+      "displayName": "Omar Said",
+      "email": "omar.said@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-029",
+    "siteId": "site-design",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-theo-vance",
+      "displayName": "Theo Vance",
+      "email": "theo.vance@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-01-15T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-01-15T09:00:00.000Z"
+   },
+   {
+    "id": "perm-030",
+    "siteId": "site-ops",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-dana-kim",
+      "displayName": "Dana Kim",
+      "email": "dana.kim@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-031",
+    "siteId": "site-ops",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-raj-patel",
+      "displayName": "Raj Patel",
+      "email": "raj.patel@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-032",
+    "siteId": "site-ops",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-theo-vance",
+      "displayName": "Theo Vance",
+      "email": "theo.vance@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-02-18T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-02-18T09:00:00.000Z"
+   },
+   {
+    "id": "perm-033",
+    "siteId": "site-eng",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-viktor-sorensen",
+      "displayName": "Viktor Sorensen",
+      "email": "viktor.sorensen@contoso.example"
+     }
+    },
+    "createdDateTime": "2025-07-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2025-07-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-034",
+    "siteId": "site-eng",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-sofia-romano",
+      "displayName": "Sofia Romano",
+      "email": "sofia.romano@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-035",
+    "siteId": "site-eng",
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-omar-said",
+      "displayName": "Omar Said",
+      "email": "omar.said@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-036",
+    "siteId": "site-eng",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-raj-patel",
+      "displayName": "Raj Patel",
+      "email": "raj.patel@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-037",
+    "siteId": "site-hr",
+    "roles": [
+     "owner"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-grace-hoffman",
+      "displayName": "Grace Hoffman",
+      "email": "grace.hoffman@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-038",
+    "siteId": "site-hr",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-tomas-vega",
+      "displayName": "Tomas Vega",
+      "email": "tomas.vega@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-039",
+    "siteId": "site-sales",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-ben-oduya",
+      "displayName": "Ben Oduya",
+      "email": "ben.oduya@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-040",
+    "siteId": "site-sales",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-amir-khan",
+      "displayName": "Amir Khan",
+      "email": "amir.khan@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-041",
+    "siteId": "site-sales",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-marco-bianchi",
+      "displayName": "Marco Bianchi",
+      "email": "marco.bianchi@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-042",
+    "siteId": "site-it",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-helen-zhao",
+      "displayName": "Helen Zhao",
+      "email": "helen.zhao@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   },
+   {
+    "id": "perm-043",
+    "siteId": "site-mktg",
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-lena-fischer",
+      "displayName": "Lena Fischer",
+      "email": "lena.fischer@contoso.example"
+     }
+    },
+    "createdDateTime": "2024-01-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2024-01-01T09:00:00.000Z"
+   }
+  ]
+ },
+ "onedrive": {
+  "drives": [
+   {
+    "id": "drive-dana",
+    "driveType": "business",
+    "name": "Dana Kim - Documents",
+    "owner": {
+     "user": {
+      "id": "u-dana-kim",
+      "displayName": "Dana Kim"
+     }
+    },
+    "createdDateTime": "2023-01-10T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   }
+  ],
+  "driveItems": [
+   {
+    "id": "item-root-dana",
+    "name": "root",
+    "driveId": "drive-dana",
+    "root": {},
+    "folder": {
+     "childCount": 3
+    },
+    "createdDateTime": "2023-01-10T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "item-budget",
+    "name": "Helios-Budget-FY26.xlsx",
+    "driveId": "drive-dana",
+    "file": {
+     "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    "size": 44032,
+    "parentReference": {
+     "driveId": "drive-dana",
+     "id": "item-root-dana"
+    },
+    "createdDateTime": "2026-01-15T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "item-forecast",
+    "name": "FY26-Forecast.xlsx",
+    "driveId": "drive-dana",
+    "file": {
+     "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    "size": 51200,
+    "parentReference": {
+     "driveId": "drive-dana",
+     "id": "item-root-dana"
+    },
+    "createdDateTime": "2026-02-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": "item-notes",
+    "name": "Team-Notes.docx",
+    "driveId": "drive-dana",
+    "file": {
+     "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    "size": 18000,
+    "parentReference": {
+     "driveId": "drive-dana",
+     "id": "item-root-dana"
+    },
+    "createdDateTime": "2026-03-01T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z"
+   }
+  ],
+  "permissions": [
+   {
+    "id": "odperm-001",
+    "driveId": "drive-dana",
+    "parentReference": {
+     "driveId": "drive-dana",
+     "id": "item-budget"
+    },
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-raj-patel",
+      "displayName": "Raj Patel",
+      "email": "raj.patel@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-01-20T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-01-20T09:00:00.000Z"
+   },
+   {
+    "id": "odperm-002",
+    "driveId": "drive-dana",
+    "parentReference": {
+     "driveId": "drive-dana",
+     "id": "item-budget"
+    },
+    "roles": [
+     "write"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-priya-anand",
+      "displayName": "Priya Anand",
+      "email": "priya.anand@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-03-10T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-03-10T09:00:00.000Z"
+   },
+   {
+    "id": "odperm-003",
+    "driveId": "drive-dana",
+    "parentReference": {
+     "driveId": "drive-dana",
+     "id": "item-forecast"
+    },
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-ben-oduya",
+      "displayName": "Ben Oduya",
+      "email": "ben.oduya@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-01-20T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-01-20T09:00:00.000Z"
+   },
+   {
+    "id": "odperm-004",
+    "driveId": "drive-dana",
+    "parentReference": {
+     "driveId": "drive-dana",
+     "id": "item-forecast"
+    },
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-theo-vance",
+      "displayName": "Theo Vance",
+      "email": "theo.vance@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-02-22T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-02-22T09:00:00.000Z"
+   },
+   {
+    "id": "odperm-005",
+    "driveId": "drive-dana",
+    "parentReference": {
+     "driveId": "drive-dana",
+     "id": "item-notes"
+    },
+    "roles": [
+     "read"
+    ],
+    "grantedToV2": {
+     "user": {
+      "id": "u-omar-said",
+      "displayName": "Omar Said",
+      "email": "omar.said@contoso.example"
+     }
+    },
+    "createdDateTime": "2026-01-20T09:00:00.000Z",
+    "lastModifiedDateTime": "2026-01-20T09:00:00.000Z"
+   }
+  ]
+ },
+ "microsoft-365": {
+  "applications": [
+   {
+    "id": "app-partner-sync",
+    "@odata.type": "#microsoft.graph.application",
+    "displayName": "Partner Data Sync Connector",
+    "appId": "8f21c0a4-partner-sync",
+    "signInAudience": "AzureADMyOrg",
+    "owners": [
+     "u-elena-novak"
+    ],
+    "passwordCredentials": [
+     {
+      "keyId": "kc-partner-1",
+      "displayName": "prod-secret",
+      "startDateTime": "2026-03-01T09:00:00.000Z",
+      "endDateTime": "2027-03-01T09:00:00.000Z"
+     }
+    ],
+    "keyCredentials": [],
+    "createdDateTime": "2026-03-01T09:00:00.000Z"
+   },
+   {
+    "id": "app-intranet",
+    "@odata.type": "#microsoft.graph.application",
+    "displayName": "Contoso Intranet Portal",
+    "appId": "1a2b3c4d-intranet",
+    "signInAudience": "AzureADMyOrg",
+    "owners": [
+     "u-raj-patel"
+    ],
+    "passwordCredentials": [],
+    "keyCredentials": [],
+    "createdDateTime": "2024-05-01T09:00:00.000Z"
+   }
+  ],
+  "servicePrincipals": [
+   {
+    "id": "sp-export-bot",
+    "@odata.type": "#microsoft.graph.servicePrincipal",
+    "displayName": "Nightly Export Bot",
+    "appId": "c7e9-nightly-export",
+    "accountEnabled": true,
+    "servicePrincipalType": "Application",
+    "owners": [
+     "u-viktor-sorensen"
+    ],
+    "passwordCredentials": [
+     {
+      "keyId": "kc-export-1",
+      "displayName": "bot-secret",
+      "startDateTime": "2026-02-01T09:00:00.000Z",
+      "endDateTime": "2027-02-01T09:00:00.000Z"
+     }
+    ],
+    "keyCredentials": [],
+    "createdDateTime": "2026-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "sp-backup",
+    "@odata.type": "#microsoft.graph.servicePrincipal",
+    "displayName": "Contoso Backup Service",
+    "appId": "f0f0-backup",
+    "accountEnabled": true,
+    "servicePrincipalType": "Application",
+    "owners": [
+     "u-sofia-romano"
+    ],
+    "passwordCredentials": [],
+    "keyCredentials": [],
+    "createdDateTime": "2024-08-01T09:00:00.000Z"
+   }
+  ]
+ },
+ "github": {
+  "repos": [
+   {
+    "id": 1,
+    "name": "helios-infra",
+    "full_name": "contoso/helios-infra",
+    "org": "contoso",
+    "owner": {
+     "login": "contoso",
+     "type": "Organization"
+    },
+    "private": true,
+    "archived": false
+   },
+   {
+    "id": 2,
+    "name": "data-platform",
+    "full_name": "contoso/data-platform",
+    "org": "contoso",
+    "owner": {
+     "login": "contoso",
+     "type": "Organization"
+    },
+    "private": true,
+    "archived": false
+   }
+  ],
+  "keys": [
+   {
+    "id": 501,
+    "owner": "contoso",
+    "repo": "helios-infra",
+    "title": "Diego Marchetti (Blue Harbor) - CI",
+    "key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIdiego",
+    "read_only": false,
+    "verified": true,
+    "created_at": "2025-06-05T09:00:00.000Z"
+   },
+   {
+    "id": 502,
+    "owner": "contoso",
+    "repo": "helios-infra",
+    "title": "prod-deploy",
+    "key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIprod",
+    "read_only": true,
+    "verified": true,
+    "created_at": "2024-03-01T09:00:00.000Z"
+   },
+   {
+    "id": 503,
+    "owner": "contoso",
+    "repo": "data-platform",
+    "title": "prod-deploy",
+    "key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIprod2",
+    "read_only": true,
+    "verified": true,
+    "created_at": "2024-04-01T09:00:00.000Z"
+   },
+   {
+    "id": 504,
+    "owner": "contoso",
+    "repo": "data-platform",
+    "title": "Theo Vance (Cedar Analytics) - CI",
+    "key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAItheo",
+    "read_only": false,
+    "verified": true,
+    "created_at": "2025-09-20T09:00:00.000Z"
+   }
+  ],
+  "hooks": [
+   {
+    "id": 301,
+    "org": "contoso",
+    "name": "web",
+    "active": true,
+    "config": {
+     "url": "https://ingest.meridian-consulting.example/gh",
+     "content_type": "json"
+    },
+    "events": [
+     "push",
+     "pull_request",
+     "repository"
+    ],
+    "created_at": "2026-02-10T09:00:00.000Z",
+    "created_by": {
+     "login": "viktor.sorensen",
+     "name": "Viktor Sorensen",
+     "email": "viktor.sorensen@contoso.example",
+     "type": "User"
+    }
+   },
+   {
+    "id": 302,
+    "org": "contoso",
+    "name": "web",
+    "active": true,
+    "config": {
+     "url": "https://ci.contoso.example/webhook",
+     "content_type": "json"
+    },
+    "events": [
+     "push"
+    ],
+    "created_at": "2024-01-15T09:00:00.000Z",
+    "created_by": {
+     "login": "omar.said",
+     "name": "Omar Said",
+     "email": "omar.said@contoso.example",
+     "type": "User"
+    }
+   }
+  ]
+ },
+ "jira-service-management": {
+  "serviceDesks": [
+   {
+    "id": "1",
+    "projectId": "10",
+    "projectKey": "HELP",
+    "projectName": "IT Help Center"
+   }
+  ],
+  "requestTypes": [
+   {
+    "id": "100",
+    "name": "Offboarding / access removal",
+    "serviceDeskId": "1",
+    "description": "Remove access for leavers and contractors."
+   }
+  ],
+  "customers": [
+   {
+    "accountId": "cust-dana",
+    "id": "cust-dana",
+    "displayName": "Dana Kim",
+    "emailAddress": "dana.kim@contoso.example"
+   }
+  ],
+  "requests": [
+   {
+    "id": "3288",
+    "issueId": "3288",
+    "issueKey": "HELP-3288",
+    "serviceDeskId": "1",
+    "requestTypeId": "100",
+    "reporter": {
+     "accountId": "cust-dana",
+     "displayName": "Dana Kim",
+     "emailAddress": "dana.kim@contoso.example"
+    },
+    "createdDate": {
+     "iso8601": "2026-02-01T09:00:00.000Z"
+    },
+    "currentStatus": {
+     "status": "Resolved",
+     "statusCategory": "COMPLETE"
+    },
+    "requestFieldValues": [
+     {
+      "fieldId": "summary",
+      "label": "Summary",
+      "value": "Q1 FY26 contractor offboarding - Ingrid Halloran (RESOLVED)"
+     },
+     {
+      "fieldId": "description",
+      "label": "Description",
+      "value": "Q1 FY26 contractor offboarding - Ingrid Halloran (Kestrel Labs), engagement ended 2026-01-31. RESOLVED / closed. Record of what was done to fully offboard her, kept for reference:\n- Disabled every identity she held in the directory - not only her main contractor account but also the separate B2B guest account she signed in with from her firm's own domain; confirmed neither could authenticate afterwards.\n- Removed her from every security group she was a member of.\n- Revoked each of her direct SharePoint site permissions and each OneDrive file share, one site/item at a time.\n- She was the sole owner of one project's SharePoint site; before removing her we reassigned ownership to an active member of staff first, so the site was not left without an owner.\n- Deleted a personal deploy key she had added to a source repository - it would otherwise have kept granting git access after her account was gone.\n- She had also registered an application (with its own live client secret), stood up an automation/service identity, and configured an outbound integration webhook. Each of these keeps authenticating or firing on its own after an account is disabled, so we shut them down: removed her as owner and deleted/disabled each one.\nConfirmed afterwards that no access, no sole-owned resource left without an owner, and nothing she had created or set up remained able to operate on her behalf."
+     }
+    ]
+   },
+   {
+    "id": "3301",
+    "issueId": "3301",
+    "issueKey": "HELP-3301",
+    "serviceDeskId": "1",
+    "requestTypeId": "100",
+    "reporter": {
+     "accountId": "cust-dana",
+     "displayName": "Dana Kim",
+     "emailAddress": "dana.kim@contoso.example"
+    },
+    "createdDate": {
+     "iso8601": "2026-07-15T09:00:00.000Z"
+    },
+    "currentStatus": {
+     "status": "Waiting for support",
+     "statusCategory": "NEW"
+    },
+    "requestFieldValues": [
+     {
+      "fieldId": "summary",
+      "label": "Summary",
+      "value": "Quarterly contractor offboarding - Q2 FY26"
+     },
+     {
+      "fieldId": "description",
+      "label": "Description",
+      "value": "The following contractor engagements have ended. Please offboard each one and leave the environment in a correct, secure state. Close this request when all six are complete.\n1) Priya Anand - Northwind Contractors - Project Helios - last day 2026-07-10\n2) Diego Marchetti - Blue Harbor - Project Helios - last day 2026-07-08\n3) Sana Rahman - Northwind Contractors - Records/Legal support - last day 2026-06-30\n4) Theo Vance - Cedar Analytics - Design System - last day 2026-07-11\n5) Elena Novak - Meridian Consulting - Integrations - last day 2026-07-09\n6) Viktor Sorensen - Meridian Consulting - Data Platform - last day 2026-07-12"
+     }
+    ]
+   }
+  ]
+ }
+}

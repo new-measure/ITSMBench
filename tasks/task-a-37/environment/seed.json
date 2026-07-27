@@ -1,0 +1,2320 @@
+{
+ "_now": "2026-07-16T00:00:00.000Z",
+ "slack": {
+  "teams": [
+   {
+    "id": "T0NORTHWIND",
+    "name": "Northwind"
+   }
+  ],
+  "users": [
+   {
+    "id": "UPRIYA",
+    "team_id": "T0NORTHWIND",
+    "name": "priya.rao",
+    "real_name": "Priya Rao",
+    "deleted": false,
+    "is_bot": false,
+    "is_restricted": true,
+    "is_ultra_restricted": false,
+    "profile": {
+     "email": "priya.rao@meridian-design.example",
+     "real_name": "Priya Rao",
+     "display_name": "Priya Rao"
+    }
+   },
+   {
+    "id": "UPRIYA2",
+    "team_id": "T0NORTHWIND",
+    "name": "priya.rao",
+    "real_name": "Priya Rao",
+    "deleted": false,
+    "is_bot": false,
+    "is_restricted": false,
+    "is_ultra_restricted": true,
+    "profile": {
+     "email": "p.rao@meridian.example",
+     "real_name": "Priya Rao",
+     "display_name": "Priya Rao"
+    }
+   },
+   {
+    "id": "UTHEO",
+    "team_id": "T0NORTHWIND",
+    "name": "theo.vance",
+    "real_name": "Theo Vance",
+    "deleted": false,
+    "is_bot": false,
+    "is_restricted": true,
+    "is_ultra_restricted": false,
+    "profile": {
+     "email": "theo.vance@meridian-design.example",
+     "real_name": "Theo Vance",
+     "display_name": "Theo Vance"
+    }
+   },
+   {
+    "id": "ULENA",
+    "team_id": "T0NORTHWIND",
+    "name": "lena.fischer",
+    "real_name": "Lena Fischer",
+    "deleted": false,
+    "is_bot": false,
+    "is_restricted": false,
+    "is_ultra_restricted": true,
+    "profile": {
+     "email": "lena.fischer@blueharbor.example",
+     "real_name": "Lena Fischer",
+     "display_name": "Lena Fischer"
+    }
+   },
+   {
+    "id": "UMARCO",
+    "team_id": "T0NORTHWIND",
+    "name": "marco.bianchi",
+    "real_name": "Marco Bianchi",
+    "deleted": false,
+    "is_bot": false,
+    "is_restricted": true,
+    "is_ultra_restricted": false,
+    "profile": {
+     "email": "marco.bianchi@meridian-design.example",
+     "real_name": "Marco Bianchi",
+     "display_name": "Marco Bianchi"
+    }
+   },
+   {
+    "id": "UDANA",
+    "team_id": "T0NORTHWIND",
+    "name": "dana.kim",
+    "real_name": "Dana Kim",
+    "deleted": false,
+    "is_bot": false,
+    "is_restricted": false,
+    "is_ultra_restricted": false,
+    "profile": {
+     "email": "dana.kim@northwind.example",
+     "real_name": "Dana Kim",
+     "display_name": "Dana Kim"
+    }
+   },
+   {
+    "id": "USOFIA",
+    "team_id": "T0NORTHWIND",
+    "name": "sofia.romano",
+    "real_name": "Sofia Romano",
+    "deleted": false,
+    "is_bot": false,
+    "is_restricted": false,
+    "is_ultra_restricted": false,
+    "profile": {
+     "email": "sofia.romano@northwind.example",
+     "real_name": "Sofia Romano",
+     "display_name": "Sofia Romano"
+    }
+   },
+   {
+    "id": "URAVI",
+    "team_id": "T0NORTHWIND",
+    "name": "ravi.menon",
+    "real_name": "Ravi Menon",
+    "deleted": false,
+    "is_bot": false,
+    "is_restricted": false,
+    "is_ultra_restricted": false,
+    "profile": {
+     "email": "ravi.menon@northwind.example",
+     "real_name": "Ravi Menon",
+     "display_name": "Ravi Menon"
+    }
+   }
+  ],
+  "channels": [
+   {
+    "id": "CATLAS",
+    "name": "project-atlas",
+    "is_private": false,
+    "is_archived": false,
+    "members": [
+     "UPRIYA",
+     "UTHEO",
+     "USOFIA",
+     "URAVI"
+    ],
+    "created": 1700000000,
+    "creator": "UDANA"
+   },
+   {
+    "id": "CVENDOR",
+    "name": "vendor-inbox",
+    "is_private": false,
+    "is_archived": false,
+    "members": [
+     "UPRIYA2",
+     "UMARCO",
+     "UDANA"
+    ],
+    "created": 1700000000,
+    "creator": "UDANA"
+   },
+   {
+    "id": "CHELIOS",
+    "name": "project-helios",
+    "is_private": false,
+    "is_archived": false,
+    "members": [
+     "ULENA",
+     "URAVI",
+     "UDANA"
+    ],
+    "created": 1700000000,
+    "creator": "UDANA"
+   },
+   {
+    "id": "CGENERAL",
+    "name": "general",
+    "is_private": false,
+    "is_archived": false,
+    "members": [
+     "UDANA",
+     "USOFIA",
+     "URAVI",
+     "UMARCO"
+    ],
+    "created": 1700000000,
+    "creator": "UDANA"
+   }
+  ]
+ },
+ "notion": {
+  "users": [
+   {
+    "object": "user",
+    "id": "bot",
+    "type": "bot",
+    "name": "Northwind Bot",
+    "bot": {
+     "owner": {
+      "type": "workspace",
+      "workspace": true
+     }
+    }
+   }
+  ],
+  "databases": [
+   {
+    "object": "database",
+    "id": "db-access",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Collaborator Access Registry",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Collaborator Access Registry",
+      "href": null
+     }
+    ],
+    "archived": false,
+    "in_trash": false,
+    "parent": {
+     "type": "workspace",
+     "workspace": true
+    },
+    "data_sources": [
+     {
+      "id": "ds-shares",
+      "name": "External Direct Shares"
+     },
+     {
+      "id": "ds-spaces",
+      "name": "Teamspaces"
+     }
+    ]
+   }
+  ],
+  "data_sources": [
+   {
+    "object": "data_source",
+    "id": "ds-shares",
+    "parent": {
+     "type": "database_id",
+     "database_id": "db-access"
+    },
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "External Direct Shares",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "External Direct Shares",
+      "href": null
+     }
+    ],
+    "properties": {
+     "Collaborator": {
+      "id": "title",
+      "name": "Collaborator",
+      "type": "title",
+      "title": {}
+     },
+     "Email": {
+      "id": "email",
+      "name": "Email",
+      "type": "rich_text",
+      "rich_text": {}
+     },
+     "Resource": {
+      "id": "rsrc",
+      "name": "Resource",
+      "type": "rich_text",
+      "rich_text": {}
+     },
+     "Access": {
+      "id": "acc",
+      "name": "Access",
+      "type": "select",
+      "select": {
+       "options": []
+      }
+     }
+    },
+    "archived": false,
+    "in_trash": false
+   },
+   {
+    "object": "data_source",
+    "id": "ds-spaces",
+    "parent": {
+     "type": "database_id",
+     "database_id": "db-access"
+    },
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "title": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Teamspaces",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Teamspaces",
+      "href": null
+     }
+    ],
+    "properties": {
+     "Space": {
+      "id": "title",
+      "name": "Space",
+      "type": "title",
+      "title": {}
+     },
+     "Owner": {
+      "id": "owner",
+      "name": "Owner",
+      "type": "rich_text",
+      "rich_text": {}
+     },
+     "Members": {
+      "id": "mem",
+      "name": "Members",
+      "type": "rich_text",
+      "rich_text": {}
+     }
+    },
+    "archived": false,
+    "in_trash": false
+   }
+  ],
+  "pages": [
+   {
+    "object": "page",
+    "id": "pg-share-priya",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-shares"
+    },
+    "data_source_id": "ds-shares",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Collaborator": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Priya Rao",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Priya Rao",
+        "href": null
+       }
+      ]
+     },
+     "Email": {
+      "id": "442ee21f",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "priya.rao@meridian-design.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "priya.rao@meridian-design.example",
+        "href": null
+       }
+      ]
+     },
+     "Resource": {
+      "id": "31216308",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Atlas Launch Plan",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Atlas Launch Plan",
+        "href": null
+       }
+      ]
+     },
+     "Access": {
+      "id": "b1724716",
+      "type": "select",
+      "select": {
+       "id": "4e86a95b",
+       "name": "Can edit",
+       "color": "blue"
+      }
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-share-priya",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-share-diego",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-shares"
+    },
+    "data_source_id": "ds-shares",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Collaborator": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Diego Marchetti",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Diego Marchetti",
+        "href": null
+       }
+      ]
+     },
+     "Email": {
+      "id": "4fba9d59",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "diego.marchetti@blueharbor.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "diego.marchetti@blueharbor.example",
+        "href": null
+       }
+      ]
+     },
+     "Resource": {
+      "id": "c249b85f",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Helios Roadmap",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Helios Roadmap",
+        "href": null
+       }
+      ]
+     },
+     "Access": {
+      "id": "c33a7731",
+      "type": "select",
+      "select": {
+       "id": "6d53bd44",
+       "name": "Full access",
+       "color": "blue"
+      }
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-share-diego",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-share-sana",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-shares"
+    },
+    "data_source_id": "ds-shares",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Collaborator": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Sana Kapoor",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Sana Kapoor",
+        "href": null
+       }
+      ]
+     },
+     "Email": {
+      "id": "3e8cb7e3",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "sana.kapoor@cedar-analytics.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "sana.kapoor@cedar-analytics.example",
+        "href": null
+       }
+      ]
+     },
+     "Resource": {
+      "id": "3346cd6d",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Compliance Handbook",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Compliance Handbook",
+        "href": null
+       }
+      ]
+     },
+     "Access": {
+      "id": "b1724716",
+      "type": "select",
+      "select": {
+       "id": "4e86a95b",
+       "name": "Can edit",
+       "color": "blue"
+      }
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-share-sana",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-share-theo1",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-shares"
+    },
+    "data_source_id": "ds-shares",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Collaborator": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Theo Vance",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Theo Vance",
+        "href": null
+       }
+      ]
+     },
+     "Email": {
+      "id": "f6dae303",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "theo.vance@meridian-design.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "theo.vance@meridian-design.example",
+        "href": null
+       }
+      ]
+     },
+     "Resource": {
+      "id": "0f21a53e",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Q3 Board Deck",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Q3 Board Deck",
+        "href": null
+       }
+      ]
+     },
+     "Access": {
+      "id": "082bb7ac",
+      "type": "select",
+      "select": {
+       "id": "558a4c7e",
+       "name": "Can comment",
+       "color": "blue"
+      }
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-share-theo1",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-share-theo2",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-shares"
+    },
+    "data_source_id": "ds-shares",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Collaborator": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Theo Vance",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Theo Vance",
+        "href": null
+       }
+      ]
+     },
+     "Email": {
+      "id": "f6dae303",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "theo.vance@meridian-design.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "theo.vance@meridian-design.example",
+        "href": null
+       }
+      ]
+     },
+     "Resource": {
+      "id": "59626905",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Brand Assets DB",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Brand Assets DB",
+        "href": null
+       }
+      ]
+     },
+     "Access": {
+      "id": "c33a7731",
+      "type": "select",
+      "select": {
+       "id": "6d53bd44",
+       "name": "Full access",
+       "color": "blue"
+      }
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-share-theo2",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-share-lena",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-shares"
+    },
+    "data_source_id": "ds-shares",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Collaborator": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Lena Fischer",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Lena Fischer",
+        "href": null
+       }
+      ]
+     },
+     "Email": {
+      "id": "8f52bb60",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "lena.fischer@ext.northwind.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "lena.fischer@ext.northwind.example",
+        "href": null
+       }
+      ]
+     },
+     "Resource": {
+      "id": "fb5abc01",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Finance Tracker",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Finance Tracker",
+        "href": null
+       }
+      ]
+     },
+     "Access": {
+      "id": "b1724716",
+      "type": "select",
+      "select": {
+       "id": "4e86a95b",
+       "name": "Can edit",
+       "color": "blue"
+      }
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-share-lena",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-share-omar",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-shares"
+    },
+    "data_source_id": "ds-shares",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Collaborator": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Omar Haddad",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Omar Haddad",
+        "href": null
+       }
+      ]
+     },
+     "Email": {
+      "id": "3e7135f1",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "omar.haddad@aurora-labs.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "omar.haddad@aurora-labs.example",
+        "href": null
+       }
+      ]
+     },
+     "Resource": {
+      "id": "204de2ba",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Integration Runbook",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Integration Runbook",
+        "href": null
+       }
+      ]
+     },
+     "Access": {
+      "id": "b1724716",
+      "type": "select",
+      "select": {
+       "id": "4e86a95b",
+       "name": "Can edit",
+       "color": "blue"
+      }
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-share-omar",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-share-marco",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-shares"
+    },
+    "data_source_id": "ds-shares",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Collaborator": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Marco Bianchi",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Marco Bianchi",
+        "href": null
+       }
+      ]
+     },
+     "Email": {
+      "id": "27f5d0c8",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "marco.bianchi@meridian-design.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "marco.bianchi@meridian-design.example",
+        "href": null
+       }
+      ]
+     },
+     "Resource": {
+      "id": "31216308",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Atlas Launch Plan",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Atlas Launch Plan",
+        "href": null
+       }
+      ]
+     },
+     "Access": {
+      "id": "b1724716",
+      "type": "select",
+      "select": {
+       "id": "4e86a95b",
+       "name": "Can edit",
+       "color": "blue"
+      }
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-share-marco",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-share-dana",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-shares"
+    },
+    "data_source_id": "ds-shares",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Collaborator": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Dana Kim",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Dana Kim",
+        "href": null
+       }
+      ]
+     },
+     "Email": {
+      "id": "6536b364",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "dana.kim@northwind.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "dana.kim@northwind.example",
+        "href": null
+       }
+      ]
+     },
+     "Resource": {
+      "id": "0f21a53e",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Q3 Board Deck",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Q3 Board Deck",
+        "href": null
+       }
+      ]
+     },
+     "Access": {
+      "id": "c33a7731",
+      "type": "select",
+      "select": {
+       "id": "6d53bd44",
+       "name": "Full access",
+       "color": "blue"
+      }
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-share-dana",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-share-nadia",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-shares"
+    },
+    "data_source_id": "ds-shares",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Collaborator": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Nadia Rossi",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Nadia Rossi",
+        "href": null
+       }
+      ]
+     },
+     "Email": {
+      "id": "9bcb1412",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "nadia.rossi@aurora-labs.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "nadia.rossi@aurora-labs.example",
+        "href": null
+       }
+      ]
+     },
+     "Resource": {
+      "id": "204de2ba",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Integration Runbook",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Integration Runbook",
+        "href": null
+       }
+      ]
+     },
+     "Access": {
+      "id": "b1724716",
+      "type": "select",
+      "select": {
+       "id": "4e86a95b",
+       "name": "Can edit",
+       "color": "blue"
+      }
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-share-nadia",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-share-sofia",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-shares"
+    },
+    "data_source_id": "ds-shares",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Collaborator": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Sofia Romano",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Sofia Romano",
+        "href": null
+       }
+      ]
+     },
+     "Email": {
+      "id": "71706a1e",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "sofia.romano@northwind.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "sofia.romano@northwind.example",
+        "href": null
+       }
+      ]
+     },
+     "Resource": {
+      "id": "c249b85f",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Helios Roadmap",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Helios Roadmap",
+        "href": null
+       }
+      ]
+     },
+     "Access": {
+      "id": "c33a7731",
+      "type": "select",
+      "select": {
+       "id": "6d53bd44",
+       "name": "Full access",
+       "color": "blue"
+      }
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-share-sofia",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-space-blueharbor",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-spaces"
+    },
+    "data_source_id": "ds-spaces",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Space": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Blue Harbor Delivery",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Blue Harbor Delivery",
+        "href": null
+       }
+      ]
+     },
+     "Owner": {
+      "id": "4fba9d59",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "diego.marchetti@blueharbor.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "diego.marchetti@blueharbor.example",
+        "href": null
+       }
+      ]
+     },
+     "Members": {
+      "id": "d1dff9fb",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Diego Marchetti; Dana Kim",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Diego Marchetti; Dana Kim",
+        "href": null
+       }
+      ]
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-space-blueharbor",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-space-atlas",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-spaces"
+    },
+    "data_source_id": "ds-spaces",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Space": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Atlas Program",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Atlas Program",
+        "href": null
+       }
+      ]
+     },
+     "Owner": {
+      "id": "6536b364",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "dana.kim@northwind.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "dana.kim@northwind.example",
+        "href": null
+       }
+      ]
+     },
+     "Members": {
+      "id": "c8842000",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Dana Kim; Sofia Romano",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Dana Kim; Sofia Romano",
+        "href": null
+       }
+      ]
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-space-atlas",
+    "public_url": null
+   },
+   {
+    "object": "page",
+    "id": "pg-space-eng",
+    "created_time": "2026-07-16T00:00:00.000Z",
+    "last_edited_time": "2026-07-16T00:00:00.000Z",
+    "created_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "last_edited_by": {
+     "object": "user",
+     "id": "bot"
+    },
+    "parent": {
+     "type": "data_source_id",
+     "data_source_id": "ds-spaces"
+    },
+    "data_source_id": "ds-spaces",
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+     "Space": {
+      "id": "title",
+      "type": "title",
+      "title": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Engineering",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Engineering",
+        "href": null
+       }
+      ]
+     },
+     "Owner": {
+      "id": "71706a1e",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "sofia.romano@northwind.example",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "sofia.romano@northwind.example",
+        "href": null
+       }
+      ]
+     },
+     "Members": {
+      "id": "9a890522",
+      "type": "rich_text",
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Sofia Romano; Ravi Menon",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Sofia Romano; Ravi Menon",
+        "href": null
+       }
+      ]
+     }
+    },
+    "icon": null,
+    "cover": null,
+    "url": "https://www.notion.so/pg-space-eng",
+    "public_url": null
+   }
+  ],
+  "blocks": [],
+  "comments": []
+ },
+ "notion-admin": {
+  "users": [
+   {
+    "id": "na-priya",
+    "userName": "priya.rao@ext.northwind.example",
+    "name": {
+     "givenName": "Priya",
+     "familyName": "Rao",
+     "formatted": "Priya Rao"
+    },
+    "displayName": "Priya Rao",
+    "emails": [
+     {
+      "value": "priya.rao@ext.northwind.example",
+      "primary": true
+     }
+    ],
+    "active": true,
+    "urn:ietf:params:scim:schemas:extension:notion:2.0:User": {
+     "role": "restricted_member"
+    }
+   },
+   {
+    "id": "na-diego",
+    "userName": "diego.marchetti@blueharbor.example",
+    "name": {
+     "givenName": "Diego",
+     "familyName": "Marchetti",
+     "formatted": "Diego Marchetti"
+    },
+    "displayName": "Diego Marchetti",
+    "emails": [
+     {
+      "value": "diego.marchetti@blueharbor.example",
+      "primary": true
+     }
+    ],
+    "active": true,
+    "urn:ietf:params:scim:schemas:extension:notion:2.0:User": {
+     "role": "member"
+    }
+   },
+   {
+    "id": "na-sana",
+    "userName": "sana.kapoor@cedar-analytics.example",
+    "name": {
+     "givenName": "Sana",
+     "familyName": "Kapoor",
+     "formatted": "Sana Kapoor"
+    },
+    "displayName": "Sana Kapoor",
+    "emails": [
+     {
+      "value": "sana.kapoor@cedar-analytics.example",
+      "primary": true
+     }
+    ],
+    "active": true,
+    "urn:ietf:params:scim:schemas:extension:notion:2.0:User": {
+     "role": "restricted_member"
+    }
+   },
+   {
+    "id": "na-omar",
+    "userName": "omar.haddad@aurora-labs.example",
+    "name": {
+     "givenName": "Omar",
+     "familyName": "Haddad",
+     "formatted": "Omar Haddad"
+    },
+    "displayName": "Omar Haddad",
+    "emails": [
+     {
+      "value": "omar.haddad@aurora-labs.example",
+      "primary": true
+     }
+    ],
+    "active": true,
+    "urn:ietf:params:scim:schemas:extension:notion:2.0:User": {
+     "role": "member"
+    }
+   },
+   {
+    "id": "na-marco",
+    "userName": "marco.bianchi@ext.northwind.example",
+    "name": {
+     "givenName": "Marco",
+     "familyName": "Bianchi",
+     "formatted": "Marco Bianchi"
+    },
+    "displayName": "Marco Bianchi",
+    "emails": [
+     {
+      "value": "marco.bianchi@ext.northwind.example",
+      "primary": true
+     }
+    ],
+    "active": true,
+    "urn:ietf:params:scim:schemas:extension:notion:2.0:User": {
+     "role": "restricted_member"
+    }
+   },
+   {
+    "id": "na-nadia",
+    "userName": "nadia.rossi@aurora-labs.example",
+    "name": {
+     "givenName": "Nadia",
+     "familyName": "Rossi",
+     "formatted": "Nadia Rossi"
+    },
+    "displayName": "Nadia Rossi",
+    "emails": [
+     {
+      "value": "nadia.rossi@aurora-labs.example",
+      "primary": true
+     }
+    ],
+    "active": true,
+    "urn:ietf:params:scim:schemas:extension:notion:2.0:User": {
+     "role": "member"
+    }
+   },
+   {
+    "id": "na-dana",
+    "userName": "dana.kim@northwind.example",
+    "name": {
+     "givenName": "Dana",
+     "familyName": "Kim",
+     "formatted": "Dana Kim"
+    },
+    "displayName": "Dana Kim",
+    "emails": [
+     {
+      "value": "dana.kim@northwind.example",
+      "primary": true
+     }
+    ],
+    "active": true,
+    "urn:ietf:params:scim:schemas:extension:notion:2.0:User": {
+     "role": "owner"
+    }
+   },
+   {
+    "id": "na-sofia",
+    "userName": "sofia.romano@northwind.example",
+    "name": {
+     "givenName": "Sofia",
+     "familyName": "Romano",
+     "formatted": "Sofia Romano"
+    },
+    "displayName": "Sofia Romano",
+    "emails": [
+     {
+      "value": "sofia.romano@northwind.example",
+      "primary": true
+     }
+    ],
+    "active": true,
+    "urn:ietf:params:scim:schemas:extension:notion:2.0:User": {
+     "role": "member"
+    }
+   }
+  ],
+  "groups": [
+   {
+    "id": "nag-atlas",
+    "displayName": "Atlas Collaborators",
+    "members": [
+     {
+      "value": "na-priya",
+      "display": "priya.rao@ext.northwind.example",
+      "type": "User",
+      "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/na-priya"
+     },
+     {
+      "value": "na-marco",
+      "display": "marco.bianchi@ext.northwind.example",
+      "type": "User",
+      "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/na-marco"
+     }
+    ]
+   },
+   {
+    "id": "nag-delivery",
+    "displayName": "Delivery",
+    "members": [
+     {
+      "value": "na-diego",
+      "display": "diego.marchetti@blueharbor.example",
+      "type": "User",
+      "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/na-diego"
+     },
+     {
+      "value": "na-dana",
+      "display": "dana.kim@northwind.example",
+      "type": "User",
+      "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/na-dana"
+     }
+    ]
+   }
+  ]
+ },
+ "google-workspace": {
+  "users": [
+   {
+    "id": "priya.rao@ext.northwind.example",
+    "primaryEmail": "priya.rao@ext.northwind.example",
+    "suspended": false,
+    "name": {
+     "givenName": "Priya",
+     "familyName": "Rao",
+     "fullName": "Priya Rao"
+    },
+    "kind": "admin#directory#user"
+   },
+   {
+    "id": "lena.fischer@ext.northwind.example",
+    "primaryEmail": "lena.fischer@ext.northwind.example",
+    "suspended": false,
+    "name": {
+     "givenName": "Lena",
+     "familyName": "Fischer",
+     "fullName": "Lena Fischer"
+    },
+    "kind": "admin#directory#user"
+   },
+   {
+    "id": "marco.bianchi@ext.northwind.example",
+    "primaryEmail": "marco.bianchi@ext.northwind.example",
+    "suspended": false,
+    "name": {
+     "givenName": "Marco",
+     "familyName": "Bianchi",
+     "fullName": "Marco Bianchi"
+    },
+    "kind": "admin#directory#user"
+   },
+   {
+    "id": "dana.kim@northwind.example",
+    "primaryEmail": "dana.kim@northwind.example",
+    "suspended": false,
+    "name": {
+     "givenName": "Dana",
+     "familyName": "Kim",
+     "fullName": "Dana Kim"
+    },
+    "kind": "admin#directory#user"
+   },
+   {
+    "id": "sofia.romano@northwind.example",
+    "primaryEmail": "sofia.romano@northwind.example",
+    "suspended": false,
+    "name": {
+     "givenName": "Sofia",
+     "familyName": "Romano",
+     "fullName": "Sofia Romano"
+    },
+    "kind": "admin#directory#user"
+   },
+   {
+    "id": "ravi.menon@northwind.example",
+    "primaryEmail": "ravi.menon@northwind.example",
+    "suspended": false,
+    "name": {
+     "givenName": "Ravi",
+     "familyName": "Menon",
+     "fullName": "Ravi Menon"
+    },
+    "kind": "admin#directory#user"
+   },
+   {
+    "id": "ben.carter@northwind.example",
+    "primaryEmail": "ben.carter@northwind.example",
+    "suspended": false,
+    "name": {
+     "givenName": "Ben",
+     "familyName": "Carter",
+     "fullName": "Ben Carter"
+    },
+    "kind": "admin#directory#user"
+   },
+   {
+    "id": "grace.hoffman@northwind.example",
+    "primaryEmail": "grace.hoffman@northwind.example",
+    "suspended": false,
+    "name": {
+     "givenName": "Grace",
+     "familyName": "Hoffman",
+     "fullName": "Grace Hoffman"
+    },
+    "kind": "admin#directory#user"
+   }
+  ],
+  "groups": [
+   {
+    "id": "project-helios@northwind.example",
+    "email": "project-helios@northwind.example",
+    "name": "Project Helios",
+    "kind": "admin#directory#group"
+   },
+   {
+    "id": "finance-ext@northwind.example",
+    "email": "finance-ext@northwind.example",
+    "name": "Finance (External)",
+    "kind": "admin#directory#group"
+   }
+  ],
+  "members": [
+   {
+    "groupKey": "project-helios@northwind.example",
+    "id": "lena.fischer@ext.northwind.example",
+    "email": "lena.fischer@ext.northwind.example",
+    "role": "MEMBER",
+    "type": "USER",
+    "kind": "admin#directory#member"
+   },
+   {
+    "groupKey": "project-helios@northwind.example",
+    "id": "ravi.menon@northwind.example",
+    "email": "ravi.menon@northwind.example",
+    "role": "MEMBER",
+    "type": "USER",
+    "kind": "admin#directory#member"
+   },
+   {
+    "groupKey": "project-helios@northwind.example",
+    "id": "dana.kim@northwind.example",
+    "email": "dana.kim@northwind.example",
+    "role": "MEMBER",
+    "type": "USER",
+    "kind": "admin#directory#member"
+   },
+   {
+    "groupKey": "finance-ext@northwind.example",
+    "id": "lena.fischer@ext.northwind.example",
+    "email": "lena.fischer@ext.northwind.example",
+    "role": "MEMBER",
+    "type": "USER",
+    "kind": "admin#directory#member"
+   },
+   {
+    "groupKey": "finance-ext@northwind.example",
+    "id": "ben.carter@northwind.example",
+    "email": "ben.carter@northwind.example",
+    "role": "MEMBER",
+    "type": "USER",
+    "kind": "admin#directory#member"
+   }
+  ]
+ },
+ "github": {
+  "orgs": [
+   {
+    "login": "northwind",
+    "id": "northwind"
+   }
+  ],
+  "repos": [
+   {
+    "owner": {
+     "login": "northwind"
+    },
+    "name": "atlas-web",
+    "full_name": "northwind/atlas-web"
+   },
+   {
+    "owner": {
+     "login": "northwind"
+    },
+    "name": "data-pipeline",
+    "full_name": "northwind/data-pipeline"
+   }
+  ],
+  "collaborators": [
+   {
+    "owner": "northwind",
+    "repo": "atlas-web",
+    "login": "diego-marchetti",
+    "id": "diego-marchetti",
+    "permissions": {
+     "push": true
+    }
+   },
+   {
+    "owner": "northwind",
+    "repo": "data-pipeline",
+    "login": "omar-haddad",
+    "id": "omar-haddad",
+    "permissions": {
+     "push": true
+    }
+   },
+   {
+    "owner": "northwind",
+    "repo": "atlas-web",
+    "login": "sofia-romano",
+    "id": "sofia-romano",
+    "permissions": {
+     "admin": true
+    }
+   }
+  ],
+  "outside_collaborators": [
+   {
+    "org": "northwind",
+    "login": "omar-haddad",
+    "id": "omar-haddad"
+   },
+   {
+    "org": "northwind",
+    "login": "nadia-rossi",
+    "id": "nadia-rossi"
+   }
+  ],
+  "keys": [
+   {
+    "owner": "northwind",
+    "repo": "atlas-web",
+    "id": 44001,
+    "title": "Theo Vance (Meridian Design) - personal deploy key",
+    "added_by": {
+     "login": "theo-vance"
+    },
+    "read_only": false,
+    "key": "ssh-ed25519 AAAAdeadbeeftheo"
+   },
+   {
+    "owner": "northwind",
+    "repo": "atlas-web",
+    "id": 44002,
+    "title": "prod-deploy",
+    "added_by": {
+     "login": "sofia-romano"
+    },
+    "read_only": true,
+    "key": "ssh-ed25519 AAAAprodkeysofia"
+   }
+  ]
+ },
+ "zohodesk": {
+  "tickets": {
+   "501": {
+    "id": "501",
+    "ticketNumber": "100501",
+    "departmentId": "IT",
+    "subject": "External collaborator offboarding - Q2 FY26",
+    "status": "Open",
+    "priority": "High",
+    "email": "dana.kim@northwind.example",
+    "contactId": "c-dana",
+    "description": "Six external-collaborator engagements have ended. Offboard each collaborator below and leave the environment correct, secure and consistent. Close this ticket when all six are complete.\n1) Priya Rao - Meridian Design - Project Atlas - last day 2026-07-10 - priya.rao@ext.northwind.example\n2) Diego Marchetti - Blue Harbor - Project Helios / Blue Harbor Delivery - last day 2026-07-09 - diego.marchetti@blueharbor.example\n3) Sana Kapoor - Cedar Analytics - Compliance support - last day 2026-06-30 - sana.kapoor@cedar-analytics.example\n4) Theo Vance - Meridian Design - Project Atlas / design tooling - last day 2026-07-11 - theo.vance@meridian-design.example\n5) Lena Fischer - Blue Harbor - Project Helios / Finance - last day 2026-07-08 - lena.fischer@ext.northwind.example\n6) Omar Haddad - Aurora Labs - Data Pipeline integration - last day 2026-07-12 - omar.haddad@aurora-labs.example"
+   },
+   "487": {
+    "id": "487",
+    "ticketNumber": "100487",
+    "departmentId": "IT",
+    "subject": "External collaborator offboarding - Karl Novak (Northstar Partners)",
+    "status": "Closed",
+    "priority": "High",
+    "email": "dana.kim@northwind.example",
+    "contactId": "c-dana",
+    "description": "Q1 FY26 external-collaborator offboarding - Karl Novak (Northstar Partners), Project Vega, engagement ended 2026-03-31. RESOLVED - full deprovisioning completed and verified end-to-end."
+   }
+  },
+  "comments": {
+   "487": [
+    {
+     "id": "1",
+     "ticketId": "487",
+     "isPublic": false,
+     "author": "c-dana",
+     "content": "Offboarding complete for Karl Novak. Actions taken and read back:\n- Google Workspace: suspended his directory account; removed him from the vega-eng and finance-ext groups.\n- Notion (Enterprise SCIM): deactivated his workspace membership.\n- Slack: deactivated his primary firm guest account AND a SECOND single-channel guest he held under a personal address (variant email, same name) that a per-email pass had missed; both are out of every channel.\n- Notion pages/databases: revoked his direct shares (Vega Roadmap, Partner Assets DB).\n- Notion teamspaces: he was the SOLE owner of the 'Northstar Delivery' teamspace, so ownership was REASSIGNED to an internal delivery lead rather than archiving the space (never leave a teamspace orphaned).\n- GitHub: removed him as an org outside collaborator and as a repo collaborator on vega-service; deleted a personal deploy key he had added to that repo.\nConfirmed zero residual access anywhere, then closed."
+    },
+    {
+     "id": "2",
+     "ticketId": "487",
+     "isPublic": false,
+     "author": "c-dana",
+     "content": "Verified: no active accounts, no group/channel memberships, no direct shares, no owned teamspace left without an owner, no personal keys. Closing."
+    }
+   ]
+  },
+  "contacts": {
+   "c-dana": {
+    "id": "c-dana",
+    "firstName": "Dana",
+    "lastName": "Kim",
+    "email": "dana.kim@northwind.example"
+   }
+  },
+  "accounts": {
+   "a-meridian": {
+    "id": "a-meridian",
+    "accountName": "Meridian Design",
+    "website": "meridian-design.example"
+   },
+   "a-blueharbor": {
+    "id": "a-blueharbor",
+    "accountName": "Blue Harbor",
+    "website": "blueharbor.example"
+   },
+   "a-cedar": {
+    "id": "a-cedar",
+    "accountName": "Cedar Analytics",
+    "website": "cedar-analytics.example"
+   },
+   "a-aurora": {
+    "id": "a-aurora",
+    "accountName": "Aurora Labs",
+    "website": "aurora-labs.example"
+   }
+  }
+ }
+}

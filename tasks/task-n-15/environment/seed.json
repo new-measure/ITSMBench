@@ -1,0 +1,1981 @@
+{
+ "_now": "2026-07-17T09:00:00Z",
+ "aws-vpc": {
+  "addresses": [
+   {
+    "AllocationId": "eipalloc-0000000000000001",
+    "AssociationId": "eipassoc-0000000000000001",
+    "Domain": "vpc",
+    "NetworkBorderGroup": "us-east-1",
+    "NetworkInterfaceId": "eni-0000000000000011",
+    "PrivateIpAddress": "10.60.3.11",
+    "PublicIp": "198.51.100.10",
+    "TagSet": []
+   },
+   {
+    "AllocationId": "eipalloc-0000000000000002",
+    "AssociationId": "eipassoc-0000000000000002",
+    "Domain": "vpc",
+    "NetworkBorderGroup": "us-east-1",
+    "NetworkInterfaceId": "eni-0000000000000012",
+    "PrivateIpAddress": "10.60.3.12",
+    "PublicIp": "198.51.100.11",
+    "TagSet": []
+   }
+  ],
+  "networkInterfaces": [
+   {
+    "Description": "app01",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000001",
+    "PrivateIpAddress": "10.60.1.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.1.11"
+     },
+     {
+      "Primary": false,
+      "PrivateIpAddress": "10.60.1.51"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0app000000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "app02",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000002",
+    "PrivateIpAddress": "10.60.1.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.1.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0app000000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "app03",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000003",
+    "PrivateIpAddress": "10.60.1.13",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.1.13"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0app000000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "api01",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000004",
+    "PrivateIpAddress": "10.60.1.21",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.1.21"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0app000000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "api02",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000005",
+    "PrivateIpAddress": "10.60.1.22",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.1.22"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0app000000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "db01",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000006",
+    "PrivateIpAddress": "10.60.2.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.2.11"
+     },
+     {
+      "Primary": false,
+      "PrivateIpAddress": "10.60.2.51"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0db0000000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "db02",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000007",
+    "PrivateIpAddress": "10.60.2.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.2.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0db0000000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "cache01",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000008",
+    "PrivateIpAddress": "10.60.2.21",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.2.21"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0db0000000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "cache02",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000009",
+    "PrivateIpAddress": "10.60.2.22",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.2.22"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0db0000000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "worker01",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000010",
+    "PrivateIpAddress": "10.60.1.31",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.1.31"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0app000000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "edge01",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000011",
+    "PrivateIpAddress": "10.60.3.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.3.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0edge00000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "edge02",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000012",
+    "PrivateIpAddress": "10.60.3.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.3.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0edge00000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "orphaned detached interface",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000013",
+    "PrivateIpAddress": "10.60.3.61",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.3.61"
+     }
+    ],
+    "Status": "available",
+    "SubnetId": "subnet-0edge00000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "orphaned detached interface",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000014",
+    "PrivateIpAddress": "10.60.3.62",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.3.62"
+     }
+    ],
+    "Status": "available",
+    "SubnetId": "subnet-0edge00000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "orphaned detached interface",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000015",
+    "PrivateIpAddress": "10.60.1.71",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.1.71"
+     }
+    ],
+    "Status": "available",
+    "SubnetId": "subnet-0app000000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "Description": "orphaned detached interface",
+    "GroupSet": [],
+    "NetworkInterfaceId": "eni-0000000000000016",
+    "PrivateIpAddress": "10.60.2.71",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.60.2.71"
+     }
+    ],
+    "Status": "available",
+    "SubnetId": "subnet-0app000000001",
+    "TagSet": [],
+    "VpcId": "vpc-0be0000000000001"
+   }
+  ],
+  "routeTables": [],
+  "securityGroups": [],
+  "subnets": [
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 240,
+    "CidrBlock": "10.60.1.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0app000000001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "app-tier"
+     }
+    ],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 248,
+    "CidrBlock": "10.60.2.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0db0000000001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "data-tier"
+     }
+    ],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 250,
+    "CidrBlock": "10.60.3.0/24",
+    "MapPublicIpOnLaunch": true,
+    "State": "available",
+    "SubnetId": "subnet-0edge00000001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "edge-tier"
+     }
+    ],
+    "VpcId": "vpc-0be0000000000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 254,
+    "CidrBlock": "10.60.4.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0retired0001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "retired-tier"
+     }
+    ],
+    "VpcId": "vpc-0be0000000000001"
+   }
+  ],
+  "vpcs": [
+   {
+    "CidrBlock": "10.60.0.0/16",
+    "InstanceTenancy": "default",
+    "IsDefault": false,
+    "State": "available",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "prod"
+     }
+    ],
+    "VpcId": "vpc-0be0000000000001"
+   }
+  ]
+ },
+ "device42": {
+  "devices": [
+   {
+    "device_id": 9001,
+    "id": 9001,
+    "in_service": true,
+    "ip": "10.60.1.11",
+    "lifecycle_status": "In Production",
+    "name": "app01",
+    "notes": "Production application host.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-app",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9002,
+    "id": 9002,
+    "in_service": true,
+    "ip": "10.60.1.12",
+    "lifecycle_status": "In Production",
+    "name": "app02",
+    "notes": "Production application host.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-app",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9003,
+    "id": 9003,
+    "in_service": true,
+    "ip": "10.60.1.13",
+    "lifecycle_status": "In Production",
+    "name": "app03",
+    "notes": "Production application host.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-app",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9004,
+    "id": 9004,
+    "in_service": true,
+    "ip": "10.60.1.21",
+    "lifecycle_status": "In Production",
+    "name": "api01",
+    "notes": "Production application host.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-app",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9005,
+    "id": 9005,
+    "in_service": true,
+    "ip": "10.60.1.22",
+    "lifecycle_status": "In Production",
+    "name": "api02",
+    "notes": "Production application host.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-app",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9006,
+    "id": 9006,
+    "in_service": true,
+    "ip": "10.60.2.11",
+    "lifecycle_status": "In Production",
+    "name": "db01",
+    "notes": "Production application host.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-app",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9007,
+    "id": 9007,
+    "in_service": true,
+    "ip": "10.60.2.12",
+    "lifecycle_status": "In Production",
+    "name": "db02",
+    "notes": "Production application host.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-app",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9008,
+    "id": 9008,
+    "in_service": true,
+    "ip": "10.60.2.21",
+    "lifecycle_status": "In Production",
+    "name": "cache01",
+    "notes": "Production application host.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-app",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9009,
+    "id": 9009,
+    "in_service": true,
+    "ip": "10.60.2.22",
+    "lifecycle_status": "In Production",
+    "name": "cache02",
+    "notes": "Production application host.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-app",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9010,
+    "id": 9010,
+    "in_service": true,
+    "ip": "10.60.1.31",
+    "lifecycle_status": "In Production",
+    "name": "worker01",
+    "notes": "Production application host.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-app",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9011,
+    "id": 9011,
+    "in_service": true,
+    "ip": "10.60.3.11",
+    "lifecycle_status": "In Production",
+    "name": "edge01",
+    "notes": "Public edge node.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-edge",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9012,
+    "id": 9012,
+    "in_service": true,
+    "ip": "10.60.3.12",
+    "lifecycle_status": "In Production",
+    "name": "edge02",
+    "notes": "Public edge node.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-edge",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9013,
+    "id": 9013,
+    "in_service": false,
+    "ip": "10.60.4.11",
+    "lifecycle_status": "Decommissioned",
+    "name": "app-old01",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9014,
+    "id": 9014,
+    "in_service": false,
+    "ip": "10.60.4.12",
+    "lifecycle_status": "Decommissioned",
+    "name": "app-old02",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9015,
+    "id": 9015,
+    "in_service": false,
+    "ip": "10.60.4.13",
+    "lifecycle_status": "Decommissioned",
+    "name": "worker-legacy",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9016,
+    "id": 9016,
+    "in_service": false,
+    "ip": "10.60.4.14",
+    "lifecycle_status": "Decommissioned",
+    "name": "batch-old",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9017,
+    "id": 9017,
+    "in_service": false,
+    "ip": "10.60.4.15",
+    "lifecycle_status": "Decommissioned",
+    "name": "cache-retired",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9018,
+    "id": 9018,
+    "in_service": false,
+    "ip": "10.60.4.16",
+    "lifecycle_status": "Decommissioned",
+    "name": "reporting-old",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9019,
+    "id": 9019,
+    "in_service": false,
+    "ip": "10.60.4.17",
+    "lifecycle_status": "Decommissioned",
+    "name": "queue-old",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9020,
+    "id": 9020,
+    "in_service": false,
+    "ip": "10.60.4.18",
+    "lifecycle_status": "Decommissioned",
+    "name": "etl-old",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9021,
+    "id": 9021,
+    "in_service": false,
+    "ip": "10.60.4.19",
+    "lifecycle_status": "Decommissioned",
+    "name": "indexer-old",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9022,
+    "id": 9022,
+    "in_service": false,
+    "ip": "10.60.4.20",
+    "lifecycle_status": "Decommissioned",
+    "name": "scheduler-old",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9023,
+    "id": 9023,
+    "in_service": false,
+    "ip": "10.60.4.21",
+    "lifecycle_status": "Decommissioned",
+    "name": "render-legacy",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9024,
+    "id": 9024,
+    "in_service": false,
+    "ip": "10.60.4.22",
+    "lifecycle_status": "Decommissioned",
+    "name": "ingest-old",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9025,
+    "id": 9025,
+    "in_service": false,
+    "ip": "10.60.4.23",
+    "lifecycle_status": "Decommissioned",
+    "name": "search-legacy",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9026,
+    "id": 9026,
+    "in_service": false,
+    "ip": "10.60.4.24",
+    "lifecycle_status": "Decommissioned",
+    "name": "media-old",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9027,
+    "id": 9027,
+    "in_service": false,
+    "ip": "10.60.4.25",
+    "lifecycle_status": "Decommissioned",
+    "name": "upload-legacy",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9028,
+    "id": 9028,
+    "in_service": false,
+    "ip": "10.60.4.26",
+    "lifecycle_status": "Decommissioned",
+    "name": "thumb-old",
+    "notes": "Retired during platform consolidation; host terminated.",
+    "os": "Ubuntu",
+    "role": "backend",
+    "service": "beacon-legacy",
+    "service_level": "Retired",
+    "type": "virtual"
+   },
+   {
+    "device_id": 9029,
+    "id": 9029,
+    "in_service": true,
+    "ip": "203.0.113.50",
+    "lifecycle_status": "In Production",
+    "name": "partner-payments-gateway",
+    "notes": "Approved third-party integration; allowlisted external endpoint.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Production",
+    "type": "external"
+   },
+   {
+    "device_id": 9030,
+    "id": 9030,
+    "in_service": true,
+    "ip": "203.0.113.51",
+    "lifecycle_status": "In Production",
+    "name": "partner-gateway-ext",
+    "notes": "Approved third-party integration; allowlisted external endpoint.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Production",
+    "type": "external"
+   },
+   {
+    "device_id": 9031,
+    "id": 9031,
+    "in_service": true,
+    "ip": "",
+    "lifecycle_status": "In Production",
+    "name": "beacon.global-cdn.example",
+    "notes": "Approved global CDN provider endpoint.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Production",
+    "type": "external"
+   },
+   {
+    "device_id": 9032,
+    "id": 9032,
+    "in_service": true,
+    "ip": "",
+    "lifecycle_status": "In Production",
+    "name": "aspmx.approved-mail.example",
+    "notes": "Approved external mail provider endpoint.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Production",
+    "type": "external"
+   },
+   {
+    "device_id": 9033,
+    "id": 9033,
+    "in_service": true,
+    "ip": "",
+    "lifecycle_status": "In Production",
+    "name": "mx.corp-mail.example",
+    "notes": "Approved external mail provider endpoint.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Production",
+    "type": "external"
+   },
+   {
+    "device_id": 9034,
+    "id": 9034,
+    "in_service": true,
+    "ip": "",
+    "lifecycle_status": "In Production",
+    "name": "smtp.approved-relay.example",
+    "notes": "Approved external mail provider endpoint.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Production",
+    "type": "external"
+   },
+   {
+    "device_id": 9035,
+    "id": 9035,
+    "in_service": true,
+    "ip": "",
+    "lifecycle_status": "In Production",
+    "name": "ns1.approved-dns.example",
+    "notes": "Approved external DNS provider nameserver.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Production",
+    "type": "external"
+   },
+   {
+    "device_id": 9036,
+    "id": 9036,
+    "in_service": true,
+    "ip": "",
+    "lifecycle_status": "In Production",
+    "name": "ns2.approved-dns.example",
+    "notes": "Approved external DNS provider nameserver.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Production",
+    "type": "external"
+   },
+   {
+    "device_id": 9037,
+    "id": 9037,
+    "in_service": true,
+    "ip": "",
+    "lifecycle_status": "In Production",
+    "name": "ns1.approved-dns2.example",
+    "notes": "Approved external DNS provider nameserver.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Production",
+    "type": "external"
+   },
+   {
+    "device_id": 9038,
+    "id": 9038,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "beacon-assets-2019.s3.amazonaws.com",
+    "notes": "Legacy external endpoint; provider account closed / bucket removed.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9039,
+    "id": 9039,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "beacon-blog.legacy-paas.example",
+    "notes": "Legacy external endpoint; provider account closed / bucket removed.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9040,
+    "id": 9040,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "beacon-status.oldvendor.example",
+    "notes": "Legacy external endpoint; provider account closed / bucket removed.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9041,
+    "id": 9041,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "beacon-ship.retired-api.example",
+    "notes": "Legacy external endpoint; provider account closed / bucket removed.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9042,
+    "id": 9042,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "beacon-docs.old-wiki.example",
+    "notes": "Legacy external endpoint; provider account closed / bucket removed.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9043,
+    "id": 9043,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "beacon-help.retired-support.example",
+    "notes": "Legacy external endpoint; provider account closed / bucket removed.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9044,
+    "id": 9044,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "beacon-static.old-cdn.example",
+    "notes": "Legacy external endpoint; provider account closed / bucket removed.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9045,
+    "id": 9045,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "beacon-legacy-api.retired-paas.example",
+    "notes": "Legacy external endpoint; provider account closed / bucket removed.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9046,
+    "id": 9046,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "mail-legacy.oldmailer.example",
+    "notes": "Legacy mail host; provider contract ended.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9047,
+    "id": 9047,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "mx.retired-esp.example",
+    "notes": "Legacy mail host; provider contract ended.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9048,
+    "id": 9048,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "smtp.decommissioned-mail.example",
+    "notes": "Legacy mail host; provider contract ended.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9049,
+    "id": 9049,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "mail.old-newsletter.example",
+    "notes": "Legacy mail host; provider contract ended.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9050,
+    "id": 9050,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "mx.retired-txn-mail.example",
+    "notes": "Legacy mail host; provider contract ended.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9051,
+    "id": 9051,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "smtp.legacy-alerts.example",
+    "notes": "Legacy mail host; provider contract ended.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9052,
+    "id": 9052,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "ns1.retired-dns.example",
+    "notes": "Retired nameserver; delegation no longer valid.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9053,
+    "id": 9053,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "ns1.oldvendor-dns.example",
+    "notes": "Retired nameserver; delegation no longer valid.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9054,
+    "id": 9054,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "ns1.decommissioned-dns.example",
+    "notes": "Retired nameserver; delegation no longer valid.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9055,
+    "id": 9055,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "ns1.old-labs-dns.example",
+    "notes": "Retired nameserver; delegation no longer valid.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9056,
+    "id": 9056,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "ns1.retired-sandbox-dns.example",
+    "notes": "Retired nameserver; delegation no longer valid.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   },
+   {
+    "device_id": 9057,
+    "id": 9057,
+    "in_service": false,
+    "ip": "",
+    "lifecycle_status": "Decommissioned",
+    "name": "ns1.legacy-demo-dns.example",
+    "notes": "Retired nameserver; delegation no longer valid.",
+    "os": "",
+    "role": "backend",
+    "service": "external-dependency",
+    "service_level": "Retired",
+    "type": "external"
+   }
+  ],
+  "services": [
+   {
+    "depends_on": [
+     "external-dependency"
+    ],
+    "in_service": true,
+    "name": "beacon-app",
+    "notes": "Core Beacon application tier.",
+    "type": "application"
+   },
+   {
+    "depends_on": [],
+    "in_service": true,
+    "name": "external-dependency",
+    "notes": "Approved third-party integrations consumed by live applications.",
+    "type": "application"
+   },
+   {
+    "depends_on": [],
+    "in_service": false,
+    "name": "beacon-legacy",
+    "notes": "Legacy tier retired during the platform consolidation.",
+    "type": "application"
+   }
+  ]
+ },
+ "infoblox-nios": {
+  "a_records": [
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.16",
+    "name": "reporting-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "198.51.100.30",
+    "name": "preview-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.24",
+    "name": "media-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Service endpoint.",
+    "ipv4addr": "10.60.1.51",
+    "name": "svc-mesh.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.1.21",
+    "name": "api01.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "198.51.100.29",
+    "name": "teaser-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.20",
+    "name": "scheduler-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.1.11",
+    "name": "app01.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "198.51.100.25",
+    "name": "event-2023.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.17",
+    "name": "queue-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "203.0.113.38",
+    "name": "roadshow-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Service endpoint.",
+    "ipv4addr": "10.60.3.61",
+    "name": "legacy-lb.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Public edge endpoint.",
+    "ipv4addr": "198.51.100.10",
+    "name": "www.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.11",
+    "name": "app-old01.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "203.0.113.35",
+    "name": "splash-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "203.0.113.33",
+    "name": "microsite-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.22",
+    "name": "ingest-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.2.22",
+    "name": "cache02.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.2.11",
+    "name": "db01.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "198.51.100.22",
+    "name": "promo-spring.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "203.0.113.34",
+    "name": "offer-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.12",
+    "name": "app-old02.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.2.12",
+    "name": "db02.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Third-party integration endpoint.",
+    "ipv4addr": "203.0.113.50",
+    "name": "partner-api.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.2.21",
+    "name": "cache01.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Third-party integration endpoint.",
+    "ipv4addr": "203.0.113.51",
+    "name": "gw-ext.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.1.13",
+    "name": "app03.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.21",
+    "name": "render-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.26",
+    "name": "thumb-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Public edge endpoint.",
+    "ipv4addr": "198.51.100.11",
+    "name": "api.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.14",
+    "name": "batch-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "198.51.100.26",
+    "name": "campaign-q1.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "203.0.113.36",
+    "name": "giveaway-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Partner-managed record.",
+    "ipv4addr": "203.0.113.90",
+    "name": "legacy.partners.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "203.0.113.37",
+    "name": "survey-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "198.51.100.28",
+    "name": "promo-2021.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Service endpoint.",
+    "ipv4addr": "10.60.1.71",
+    "name": "stale-svc.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Service endpoint.",
+    "ipv4addr": "10.60.2.51",
+    "name": "metrics.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Service endpoint.",
+    "ipv4addr": "10.60.3.62",
+    "name": "old-edge.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.19",
+    "name": "indexer-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "198.51.100.31",
+    "name": "beta-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.1.31",
+    "name": "worker01.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "198.51.100.23",
+    "name": "promo-winter.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "198.51.100.21",
+    "name": "promo-fall.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.23",
+    "name": "search-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Partner-managed record.",
+    "ipv4addr": "10.99.9.9",
+    "name": "old.partners.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.15",
+    "name": "cache-retired.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "198.51.100.27",
+    "name": "promo-2022.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "203.0.113.31",
+    "name": "webinar-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.18",
+    "name": "etl-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "198.51.100.24",
+    "name": "launch-2024.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.25",
+    "name": "upload-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "203.0.113.32",
+    "name": "landing-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.1.12",
+    "name": "app02.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.1.22",
+    "name": "api02.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Application host.",
+    "ipv4addr": "10.60.4.13",
+    "name": "worker-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Campaign landing page (public).",
+    "ipv4addr": "198.51.100.32",
+    "name": "holiday-2023.beacon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Service endpoint.",
+    "ipv4addr": "10.60.2.71",
+    "name": "drained-node.beacon.example",
+    "view": "default"
+   }
+  ],
+  "cname_records": [
+   {
+    "canonical": "portal.beacon.example",
+    "comment": "Alias.",
+    "name": "dashboard.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "vanity-old.beacon.example",
+    "comment": "Alias.",
+    "name": "deep-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "search-legacy.beacon.example",
+    "comment": "Alias.",
+    "name": "search-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "beacon-assets-2019.s3.amazonaws.com",
+    "comment": "External alias.",
+    "name": "assets-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "assets-legacy.beacon.example",
+    "comment": "Alias.",
+    "name": "promo-link.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "db02.beacon.example",
+    "comment": "Alias.",
+    "name": "data.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "media-old.beacon.example",
+    "comment": "Alias.",
+    "name": "media-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "promo-fall.beacon.example",
+    "comment": "Alias.",
+    "name": "shop-promo.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "beacon.global-cdn.example",
+    "comment": "CDN alias.",
+    "name": "cdn.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "beacon-legacy-api.retired-paas.example",
+    "comment": "External alias.",
+    "name": "api-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "store.beacon.example",
+    "comment": "Alias.",
+    "name": "deep-live.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "beacon-static.old-cdn.example",
+    "comment": "External alias.",
+    "name": "cdn-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "docs-legacy.beacon.example",
+    "comment": "Alias.",
+    "name": "link-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "shop-promo.beacon.example",
+    "comment": "Alias.",
+    "name": "vanity-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "app01.beacon.example",
+    "comment": "Alias.",
+    "name": "shop.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "beacon-help.retired-support.example",
+    "comment": "External alias.",
+    "name": "help-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "app03.beacon.example",
+    "comment": "Alias.",
+    "name": "admin.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "api01.beacon.example",
+    "comment": "Alias.",
+    "name": "portal.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "jobs-legacy.beacon.example",
+    "comment": "Alias.",
+    "name": "go-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "reporting-old.beacon.example",
+    "comment": "Alias.",
+    "name": "dash-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "beacon-status.oldvendor.example",
+    "comment": "External alias.",
+    "name": "status-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "shop.beacon.example",
+    "comment": "Alias.",
+    "name": "store.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "app-old01.beacon.example",
+    "comment": "Alias.",
+    "name": "jobs-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "app-old02.beacon.example",
+    "comment": "Alias.",
+    "name": "cart-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "render-legacy.beacon.example",
+    "comment": "Alias.",
+    "name": "render-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "beacon-ship.retired-api.example",
+    "comment": "External alias.",
+    "name": "ship-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "beacon-docs.old-wiki.example",
+    "comment": "External alias.",
+    "name": "docs-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "launch-2024.beacon.example",
+    "comment": "Alias.",
+    "name": "signup-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "short-old.beacon.example",
+    "comment": "Alias.",
+    "name": "deep-legacy.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "beacon-blog.legacy-paas.example",
+    "comment": "External alias.",
+    "name": "blog-old.beacon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "media-legacy.beacon.example",
+    "comment": "Alias.",
+    "name": "short-old.beacon.example",
+    "view": "default"
+   }
+  ],
+  "mx_records": [
+   {
+    "comment": "Mail exchanger.",
+    "mail_exchanger": "smtp.approved-relay.example",
+    "name": "relay.beacon.example",
+    "preference": 10,
+    "view": "default"
+   },
+   {
+    "comment": "Mail exchanger.",
+    "mail_exchanger": "smtp.legacy-alerts.example",
+    "name": "alerts.beacon.example",
+    "preference": 10,
+    "view": "default"
+   },
+   {
+    "comment": "Mail exchanger.",
+    "mail_exchanger": "mail.old-newsletter.example",
+    "name": "news.beacon.example",
+    "preference": 10,
+    "view": "default"
+   },
+   {
+    "comment": "Mail exchanger.",
+    "mail_exchanger": "mail-legacy.oldmailer.example",
+    "name": "send.beacon.example",
+    "preference": 10,
+    "view": "default"
+   },
+   {
+    "comment": "Mail exchanger.",
+    "mail_exchanger": "mx.retired-esp.example",
+    "name": "bounce.beacon.example",
+    "preference": 10,
+    "view": "default"
+   },
+   {
+    "comment": "Mail exchanger.",
+    "mail_exchanger": "mx.corp-mail.example",
+    "name": "inbound.beacon.example",
+    "preference": 20,
+    "view": "default"
+   },
+   {
+    "comment": "Mail exchanger.",
+    "mail_exchanger": "aspmx.approved-mail.example",
+    "name": "mail.beacon.example",
+    "preference": 10,
+    "view": "default"
+   },
+   {
+    "comment": "Mail exchanger.",
+    "mail_exchanger": "mx.retired-txn-mail.example",
+    "name": "txn.beacon.example",
+    "preference": 10,
+    "view": "default"
+   },
+   {
+    "comment": "Mail exchanger.",
+    "mail_exchanger": "smtp.decommissioned-mail.example",
+    "name": "notify.beacon.example",
+    "preference": 10,
+    "view": "default"
+   }
+  ],
+  "ns_records": [
+   {
+    "comment": "Delegation.",
+    "name": "sandbox.beacon.example",
+    "nameserver": "ns1.retired-sandbox-dns.example",
+    "view": "default"
+   },
+   {
+    "comment": "Delegation.",
+    "name": "qa.beacon.example",
+    "nameserver": "ns1.approved-dns2.example",
+    "view": "default"
+   },
+   {
+    "comment": "Delegation.",
+    "name": "archive.beacon.example",
+    "nameserver": "ns1.decommissioned-dns.example",
+    "view": "default"
+   },
+   {
+    "comment": "Delegation.",
+    "name": "eu.beacon.example",
+    "nameserver": "ns1.retired-dns.example",
+    "view": "default"
+   },
+   {
+    "comment": "Delegation.",
+    "name": "demo.beacon.example",
+    "nameserver": "ns1.legacy-demo-dns.example",
+    "view": "default"
+   },
+   {
+    "comment": "Delegation.",
+    "name": "apac.beacon.example",
+    "nameserver": "ns1.oldvendor-dns.example",
+    "view": "default"
+   },
+   {
+    "comment": "Delegation.",
+    "name": "dev.beacon.example",
+    "nameserver": "ns1.approved-dns.example",
+    "view": "default"
+   },
+   {
+    "comment": "Delegation.",
+    "name": "stage.beacon.example",
+    "nameserver": "ns2.approved-dns.example",
+    "view": "default"
+   },
+   {
+    "comment": "Delegation.",
+    "name": "labs.beacon.example",
+    "nameserver": "ns1.old-labs-dns.example",
+    "view": "default"
+   }
+  ],
+  "zones": [
+   {
+    "fqdn": "beacon.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   },
+   {
+    "fqdn": "partners.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "assignment_group": "Cloud Platform",
+    "category": "network",
+    "close_code": "successful",
+    "close_notes": "Migration completed; endpoints re-pointed and verified.",
+    "closed_at": "2026-06-02 18:00:00",
+    "description": "Large Q2 migration that re-platformed the edge and application tiers to new infrastructure and re-pointed the affected public endpoints.",
+    "number": "CHG0407090",
+    "risk": "high",
+    "short_description": "Q2 cloud migration - re-platform edge and application tiers",
+    "state": "3",
+    "sys_created_on": "2026-05-30 07:00:00",
+    "sys_id": "1e131748808d8c07d795485dc8c45c53",
+    "sys_updated_on": "2026-06-02 18:00:00",
+    "type": "normal",
+    "u_environment": "production"
+   }
+  ],
+  "incident": [
+   {
+    "assignment_group": "Network Engineering",
+    "category": "security",
+    "description": "Security audit: our external attack-surface scan flagged a number of records in the corporate forward DNS zone beacon.example as potential subdomain-takeover risks. These records appear to resolve to targets that are no longer live, which would let an attacker who re-claims the target serve content on our name. The pattern looks like fallout from the Q2 cloud migration (change CHG0407090), which re-platformed a large amount of infrastructure; the migration team is the suspected source.\n\nPlease work the audited zone to completion: for every record in scope, confirm against our live infrastructure whether its target is actually still owned by us, and remediate the records that are genuinely dangling. Do not disturb records that are still legitimate or approved external dependencies, and do not touch zones we do not manage. Resolve this finding once the zone is clean.",
+    "impact": "2",
+    "number": "INC0409001",
+    "opened_by": "security.audit",
+    "priority": "2",
+    "short_description": "Subdomain-takeover risk: dangling DNS records in beacon.example (security audit)",
+    "state": "2",
+    "sys_created_on": "2026-07-17 06:30:00",
+    "sys_id": "376eb5782a8ad60f255815a07d574d09",
+    "sys_updated_on": "2026-07-17 06:30:00",
+    "urgency": "2"
+   },
+   {
+    "assignment_group": "Network Engineering",
+    "category": "security",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Subdomain-takeover cleanup on a retired brand domain - COMPLETED. A prior scan flagged a batch of DNS records as takeover risks. Rather than trusting the surface scan or deleting by name pattern, we went through EVERY record type in the audited zone and checked each record's target against what we actually still owned: for address records we confirmed whether the target was still a live, ATTACHED interface address (including the secondary addresses an interface can carry) or a still-allocated elastic IP; for aliases, mail exchangers and delegations we followed the chain to its end and confirmed the final endpoint was still a live, catalogued dependency. Records whose target no longer had any live owner we removed or repointed; records that turned out to be live - including a couple that resolved to public addresses we still held and catalogued third-party integrations that merely looked unclaimed - we left exactly as they were. The lesson: a record is dangling because its target is dead, not because the address looks internal or external; audit every record type, follow every chain to its end, confirm the interface is actually attached, and never remove a live or approved endpoint.",
+    "closed_at": "2026-04-02 17:00:00",
+    "description": "Subdomain-takeover cleanup on a retired brand domain - COMPLETED. A prior scan flagged a batch of DNS records as takeover risks. Rather than trusting the surface scan or deleting by name pattern, we went through EVERY record type in the audited zone and checked each record's target against what we actually still owned: for address records we confirmed whether the target was still a live, ATTACHED interface address (including the secondary addresses an interface can carry) or a still-allocated elastic IP; for aliases, mail exchangers and delegations we followed the chain to its end and confirmed the final endpoint was still a live, catalogued dependency. Records whose target no longer had any live owner we removed or repointed; records that turned out to be live - including a couple that resolved to public addresses we still held and catalogued third-party integrations that merely looked unclaimed - we left exactly as they were. The lesson: a record is dangling because its target is dead, not because the address looks internal or external; audit every record type, follow every chain to its end, confirm the interface is actually attached, and never remove a live or approved endpoint.",
+    "number": "INC0388114",
+    "priority": "3",
+    "short_description": "Subdomain-takeover cleanup on retired brand domain - verify liveness per record",
+    "state": "7",
+    "sys_created_on": "2026-04-02 08:00:00",
+    "sys_id": "7e550994d29b0f4f35c2ac0df80c0589",
+    "sys_updated_on": "2026-04-02 17:00:00"
+   },
+   {
+    "assignment_group": "Platform Engineering",
+    "category": "software",
+    "description": "Users report slow page loads on the internal wiki in the afternoons. Under triage.",
+    "number": "INC0409044",
+    "priority": "3",
+    "short_description": "Intermittent latency on internal wiki",
+    "state": "2",
+    "sys_created_on": "2026-07-16 14:00:00",
+    "sys_id": "7a2060103083cddc37525499123e0f91",
+    "sys_updated_on": "2026-07-16 14:00:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "On Hold",
+    "name": "incident",
+    "value": "3"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   },
+   {
+    "element": "state",
+    "label": "Implement",
+    "name": "change_request",
+    "value": "-1"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "change_request",
+    "value": "3"
+   }
+  ]
+ }
+}

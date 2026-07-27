@@ -1,0 +1,4987 @@
+{
+  "_now": "2026-01-20T00:00:00Z",
+  "device42": {
+    "devices": [
+      {
+        "device_id": 1058,
+        "in_service": true,
+        "name": "corp-node-032",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1057,
+        "in_service": true,
+        "name": "corp-node-031",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1074,
+        "in_service": true,
+        "name": "corp-node-048",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1127,
+        "in_service": true,
+        "name": "corp-node-101",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1014,
+        "in_service": false,
+        "name": "notify-ord1-01",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1055,
+        "in_service": true,
+        "name": "corp-node-029",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1073,
+        "in_service": true,
+        "name": "corp-node-047",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1070,
+        "in_service": true,
+        "name": "corp-node-044",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1061,
+        "in_service": false,
+        "name": "corp-node-035",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1145,
+        "in_service": true,
+        "name": "corp-node-119",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1006,
+        "in_service": false,
+        "name": "inventory-ord1-01",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1117,
+        "in_service": true,
+        "name": "corp-node-091",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1096,
+        "in_service": false,
+        "name": "corp-node-070",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1065,
+        "in_service": true,
+        "name": "corp-node-039",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1039,
+        "in_service": true,
+        "name": "corp-node-013",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1113,
+        "in_service": true,
+        "name": "corp-node-087",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1075,
+        "in_service": true,
+        "name": "corp-node-049",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1040,
+        "in_service": true,
+        "name": "corp-node-014",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1135,
+        "in_service": true,
+        "name": "corp-node-109",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1124,
+        "in_service": true,
+        "name": "corp-node-098",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1041,
+        "in_service": false,
+        "name": "corp-node-015",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1053,
+        "in_service": true,
+        "name": "corp-node-027",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1119,
+        "in_service": true,
+        "name": "corp-node-093",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1082,
+        "in_service": true,
+        "name": "corp-node-056",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1001,
+        "in_service": true,
+        "name": "payments-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1069,
+        "in_service": true,
+        "name": "corp-node-043",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1115,
+        "in_service": true,
+        "name": "corp-node-089",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1025,
+        "in_service": true,
+        "name": "shipping-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1105,
+        "in_service": true,
+        "name": "corp-node-079",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1026,
+        "in_service": false,
+        "name": "corp-node-000",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1060,
+        "in_service": true,
+        "name": "corp-node-034",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1008,
+        "in_service": false,
+        "name": "catalog-ord1-01",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1114,
+        "in_service": true,
+        "name": "corp-node-088",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1106,
+        "in_service": false,
+        "name": "corp-node-080",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1023,
+        "in_service": true,
+        "name": "cart-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1084,
+        "in_service": true,
+        "name": "corp-node-058",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1086,
+        "in_service": false,
+        "name": "corp-node-060",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1121,
+        "in_service": false,
+        "name": "corp-node-095",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1108,
+        "in_service": true,
+        "name": "corp-node-082",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1033,
+        "in_service": true,
+        "name": "corp-node-007",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1051,
+        "in_service": false,
+        "name": "corp-node-025",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1112,
+        "in_service": true,
+        "name": "corp-node-086",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1024,
+        "in_service": true,
+        "name": "reviews-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1037,
+        "in_service": true,
+        "name": "corp-node-011",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1089,
+        "in_service": true,
+        "name": "corp-node-063",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1062,
+        "in_service": true,
+        "name": "corp-node-036",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1100,
+        "in_service": true,
+        "name": "corp-node-074",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1109,
+        "in_service": true,
+        "name": "corp-node-083",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1120,
+        "in_service": true,
+        "name": "corp-node-094",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1018,
+        "in_service": true,
+        "name": "profile-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1010,
+        "in_service": false,
+        "name": "search-ord1-01",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1129,
+        "in_service": true,
+        "name": "corp-node-103",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1021,
+        "in_service": true,
+        "name": "auth-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1007,
+        "in_service": true,
+        "name": "catalog-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1087,
+        "in_service": true,
+        "name": "corp-node-061",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1017,
+        "in_service": false,
+        "name": "checkout-ord1-01",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1028,
+        "in_service": true,
+        "name": "corp-node-002",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1056,
+        "in_service": false,
+        "name": "corp-node-030",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1099,
+        "in_service": true,
+        "name": "corp-node-073",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1142,
+        "in_service": true,
+        "name": "corp-node-116",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1034,
+        "in_service": true,
+        "name": "corp-node-008",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1107,
+        "in_service": true,
+        "name": "corp-node-081",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1080,
+        "in_service": true,
+        "name": "corp-node-054",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1103,
+        "in_service": true,
+        "name": "corp-node-077",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1031,
+        "in_service": false,
+        "name": "corp-node-005",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1136,
+        "in_service": false,
+        "name": "corp-node-110",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1140,
+        "in_service": true,
+        "name": "corp-node-114",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1013,
+        "in_service": true,
+        "name": "notify-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1128,
+        "in_service": true,
+        "name": "corp-node-102",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1098,
+        "in_service": true,
+        "name": "corp-node-072",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1020,
+        "in_service": true,
+        "name": "legacy-reporting-ord1-01",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1064,
+        "in_service": true,
+        "name": "corp-node-038",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1011,
+        "in_service": true,
+        "name": "billing-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1092,
+        "in_service": true,
+        "name": "corp-node-066",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1043,
+        "in_service": true,
+        "name": "corp-node-017",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1016,
+        "in_service": true,
+        "name": "checkout-dfw2-02",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1015,
+        "in_service": true,
+        "name": "checkout-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1141,
+        "in_service": false,
+        "name": "corp-node-115",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1102,
+        "in_service": true,
+        "name": "corp-node-076",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1085,
+        "in_service": true,
+        "name": "corp-node-059",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1101,
+        "in_service": false,
+        "name": "corp-node-075",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1081,
+        "in_service": false,
+        "name": "corp-node-055",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1090,
+        "in_service": true,
+        "name": "corp-node-064",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1027,
+        "in_service": true,
+        "name": "corp-node-001",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1095,
+        "in_service": true,
+        "name": "corp-node-069",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1066,
+        "in_service": false,
+        "name": "corp-node-040",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1078,
+        "in_service": true,
+        "name": "corp-node-052",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1111,
+        "in_service": false,
+        "name": "corp-node-085",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1050,
+        "in_service": true,
+        "name": "corp-node-024",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1134,
+        "in_service": true,
+        "name": "corp-node-108",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1036,
+        "in_service": false,
+        "name": "corp-node-010",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1048,
+        "in_service": true,
+        "name": "corp-node-022",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1125,
+        "in_service": true,
+        "name": "corp-node-099",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1132,
+        "in_service": true,
+        "name": "corp-node-106",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1059,
+        "in_service": true,
+        "name": "corp-node-033",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1097,
+        "in_service": true,
+        "name": "corp-node-071",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1045,
+        "in_service": true,
+        "name": "corp-node-019",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1012,
+        "in_service": false,
+        "name": "billing-ord1-01",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1137,
+        "in_service": true,
+        "name": "corp-node-111",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1133,
+        "in_service": true,
+        "name": "corp-node-107",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1052,
+        "in_service": true,
+        "name": "corp-node-026",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1079,
+        "in_service": true,
+        "name": "corp-node-053",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1063,
+        "in_service": true,
+        "name": "corp-node-037",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1131,
+        "in_service": false,
+        "name": "corp-node-105",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1022,
+        "in_service": true,
+        "name": "media-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1030,
+        "in_service": true,
+        "name": "corp-node-004",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1088,
+        "in_service": true,
+        "name": "corp-node-062",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1005,
+        "in_service": true,
+        "name": "inventory-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1072,
+        "in_service": true,
+        "name": "corp-node-046",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1138,
+        "in_service": true,
+        "name": "corp-node-112",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1068,
+        "in_service": true,
+        "name": "corp-node-042",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1122,
+        "in_service": true,
+        "name": "corp-node-096",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1067,
+        "in_service": true,
+        "name": "corp-node-041",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1118,
+        "in_service": true,
+        "name": "corp-node-092",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1094,
+        "in_service": true,
+        "name": "corp-node-068",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1076,
+        "in_service": false,
+        "name": "corp-node-050",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1110,
+        "in_service": true,
+        "name": "corp-node-084",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1143,
+        "in_service": true,
+        "name": "corp-node-117",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1042,
+        "in_service": true,
+        "name": "corp-node-016",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1071,
+        "in_service": false,
+        "name": "corp-node-045",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1093,
+        "in_service": true,
+        "name": "corp-node-067",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1003,
+        "in_service": true,
+        "name": "orders-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1049,
+        "in_service": true,
+        "name": "corp-node-023",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1035,
+        "in_service": true,
+        "name": "corp-node-009",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1116,
+        "in_service": false,
+        "name": "corp-node-090",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1019,
+        "in_service": false,
+        "name": "profile-ord1-01",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1130,
+        "in_service": true,
+        "name": "corp-node-104",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1046,
+        "in_service": false,
+        "name": "corp-node-020",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1044,
+        "in_service": true,
+        "name": "corp-node-018",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1123,
+        "in_service": true,
+        "name": "corp-node-097",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1126,
+        "in_service": false,
+        "name": "corp-node-100",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1029,
+        "in_service": true,
+        "name": "corp-node-003",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1083,
+        "in_service": true,
+        "name": "corp-node-057",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1077,
+        "in_service": true,
+        "name": "corp-node-051",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1002,
+        "in_service": false,
+        "name": "payments-ord1-01",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1047,
+        "in_service": true,
+        "name": "corp-node-021",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1144,
+        "in_service": true,
+        "name": "corp-node-118",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1004,
+        "in_service": false,
+        "name": "orders-ord1-01",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1091,
+        "in_service": false,
+        "name": "corp-node-065",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1139,
+        "in_service": true,
+        "name": "corp-node-113",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1054,
+        "in_service": true,
+        "name": "corp-node-028",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1009,
+        "in_service": true,
+        "name": "search-dfw2-01",
+        "type": "physical",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "device_id": 1104,
+        "in_service": true,
+        "name": "corp-node-078",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1038,
+        "in_service": true,
+        "name": "corp-node-012",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      },
+      {
+        "device_id": 1032,
+        "in_service": true,
+        "name": "corp-node-006",
+        "type": "physical",
+        "u_datacenter": "ord1"
+      }
+    ],
+    "ips": [
+      {
+        "device_id": 1076,
+        "id": 5076,
+        "ip": "10.70.2.30",
+        "label": "corp node 50",
+        "type": "Static"
+      },
+      {
+        "device_id": 1028,
+        "id": 5028,
+        "ip": "10.70.0.22",
+        "label": "corp node 2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1114,
+        "id": 5114,
+        "ip": "10.70.4.28",
+        "label": "corp node 88",
+        "type": "Static"
+      },
+      {
+        "device_id": 1132,
+        "id": 5132,
+        "ip": "10.70.5.26",
+        "label": "corp node 106",
+        "type": "Static"
+      },
+      {
+        "device_id": 1052,
+        "id": 5052,
+        "ip": "10.70.1.26",
+        "label": "corp node 26",
+        "type": "Static"
+      },
+      {
+        "device_id": 1106,
+        "id": 5106,
+        "ip": "10.70.4.20",
+        "label": "corp node 80",
+        "type": "Static"
+      },
+      {
+        "device_id": 1045,
+        "id": 5045,
+        "ip": "10.70.0.39",
+        "label": "corp node 19",
+        "type": "Static"
+      },
+      {
+        "device_id": 1097,
+        "id": 5097,
+        "ip": "10.70.3.31",
+        "label": "corp node 71",
+        "type": "Static"
+      },
+      {
+        "device_id": 1131,
+        "id": 5131,
+        "ip": "10.70.5.25",
+        "label": "corp node 105",
+        "type": "Static"
+      },
+      {
+        "device_id": 1054,
+        "id": 5054,
+        "ip": "10.70.1.28",
+        "label": "corp node 28",
+        "type": "Static"
+      },
+      {
+        "device_id": 1005,
+        "id": 5005,
+        "ip": "10.40.10.31",
+        "label": "inventory dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1115,
+        "id": 5115,
+        "ip": "10.70.4.29",
+        "label": "corp node 89",
+        "type": "Static"
+      },
+      {
+        "device_id": 1025,
+        "id": 5025,
+        "ip": "10.40.20.14",
+        "label": "shipping dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1065,
+        "id": 5065,
+        "ip": "10.70.1.39",
+        "label": "corp node 39",
+        "type": "Static"
+      },
+      {
+        "device_id": 1126,
+        "id": 5126,
+        "ip": "10.70.5.20",
+        "label": "corp node 100",
+        "type": "Static"
+      },
+      {
+        "device_id": 1071,
+        "id": 5071,
+        "ip": "10.70.2.25",
+        "label": "corp node 45",
+        "type": "Static"
+      },
+      {
+        "device_id": 1079,
+        "id": 5079,
+        "ip": "10.70.2.33",
+        "label": "corp node 53",
+        "type": "Static"
+      },
+      {
+        "device_id": 1111,
+        "id": 5111,
+        "ip": "10.70.4.25",
+        "label": "corp node 85",
+        "type": "Static"
+      },
+      {
+        "available": "yes",
+        "id": 5012,
+        "ip": "10.20.10.61",
+        "label": "billing ord1 (freed)",
+        "type": "Static"
+      },
+      {
+        "device_id": 1069,
+        "id": 5069,
+        "ip": "10.70.2.23",
+        "label": "corp node 43",
+        "type": "Static"
+      },
+      {
+        "device_id": 1068,
+        "id": 5068,
+        "ip": "10.70.2.22",
+        "label": "corp node 42",
+        "type": "Static"
+      },
+      {
+        "device_id": 1136,
+        "id": 5136,
+        "ip": "10.70.5.30",
+        "label": "corp node 110",
+        "type": "Static"
+      },
+      {
+        "device_id": 1125,
+        "id": 5125,
+        "ip": "10.70.4.39",
+        "label": "corp node 99",
+        "type": "Static"
+      },
+      {
+        "device_id": 1014,
+        "id": 5014,
+        "ip": "10.20.10.71",
+        "label": "notify ord1",
+        "type": "Static"
+      },
+      {
+        "device_id": 1117,
+        "id": 5117,
+        "ip": "10.70.4.31",
+        "label": "corp node 91",
+        "type": "Static"
+      },
+      {
+        "device_id": 1073,
+        "id": 5073,
+        "ip": "10.70.2.27",
+        "label": "corp node 47",
+        "type": "Static"
+      },
+      {
+        "device_id": 1104,
+        "id": 5104,
+        "ip": "10.70.3.38",
+        "label": "corp node 78",
+        "type": "Static"
+      },
+      {
+        "device_id": 1102,
+        "id": 5102,
+        "ip": "10.70.3.36",
+        "label": "corp node 76",
+        "type": "Static"
+      },
+      {
+        "device_id": 1118,
+        "id": 5118,
+        "ip": "10.70.4.32",
+        "label": "corp node 92",
+        "type": "Static"
+      },
+      {
+        "device_id": 1023,
+        "id": 5023,
+        "ip": "10.40.20.12",
+        "label": "cart dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1145,
+        "id": 5145,
+        "ip": "10.70.5.39",
+        "label": "corp node 119",
+        "type": "Static"
+      },
+      {
+        "available": "yes",
+        "id": 5010,
+        "ip": "10.20.10.51",
+        "label": "search ord1 (freed)",
+        "type": "Static"
+      },
+      {
+        "device_id": 1009,
+        "id": 5009,
+        "ip": "10.40.10.51",
+        "label": "search dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1018,
+        "id": 5018,
+        "ip": "10.40.10.91",
+        "label": "profile dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1123,
+        "id": 5123,
+        "ip": "10.70.4.37",
+        "label": "corp node 97",
+        "type": "Static"
+      },
+      {
+        "device_id": 1127,
+        "id": 5127,
+        "ip": "10.70.5.21",
+        "label": "corp node 101",
+        "type": "Static"
+      },
+      {
+        "device_id": 1122,
+        "id": 5122,
+        "ip": "10.70.4.36",
+        "label": "corp node 96",
+        "type": "Static"
+      },
+      {
+        "device_id": 1035,
+        "id": 5035,
+        "ip": "10.70.0.29",
+        "label": "corp node 9",
+        "type": "Static"
+      },
+      {
+        "device_id": 1056,
+        "id": 5056,
+        "ip": "10.70.1.30",
+        "label": "corp node 30",
+        "type": "Static"
+      },
+      {
+        "device_id": 1133,
+        "id": 5133,
+        "ip": "10.70.5.27",
+        "label": "corp node 107",
+        "type": "Static"
+      },
+      {
+        "device_id": 1051,
+        "id": 5051,
+        "ip": "10.70.1.25",
+        "label": "corp node 25",
+        "type": "Static"
+      },
+      {
+        "device_id": 1044,
+        "id": 5044,
+        "ip": "10.70.0.38",
+        "label": "corp node 18",
+        "type": "Static"
+      },
+      {
+        "device_id": 1029,
+        "id": 5029,
+        "ip": "10.70.0.23",
+        "label": "corp node 3",
+        "type": "Static"
+      },
+      {
+        "device_id": 1094,
+        "id": 5094,
+        "ip": "10.70.3.28",
+        "label": "corp node 68",
+        "type": "Static"
+      },
+      {
+        "device_id": 1031,
+        "id": 5031,
+        "ip": "10.70.0.25",
+        "label": "corp node 5",
+        "type": "Static"
+      },
+      {
+        "device_id": 1107,
+        "id": 5107,
+        "ip": "10.70.4.21",
+        "label": "corp node 81",
+        "type": "Static"
+      },
+      {
+        "available": "yes",
+        "id": 5002,
+        "ip": "10.20.10.11",
+        "label": "payments ord1 (freed)",
+        "type": "Static"
+      },
+      {
+        "device_id": 1081,
+        "id": 5081,
+        "ip": "10.70.2.35",
+        "label": "corp node 55",
+        "type": "Static"
+      },
+      {
+        "device_id": 1032,
+        "id": 5032,
+        "ip": "10.70.0.26",
+        "label": "corp node 6",
+        "type": "Static"
+      },
+      {
+        "device_id": 1098,
+        "id": 5098,
+        "ip": "10.70.3.32",
+        "label": "corp node 72",
+        "type": "Static"
+      },
+      {
+        "device_id": 1049,
+        "id": 5049,
+        "ip": "10.70.1.23",
+        "label": "corp node 23",
+        "type": "Static"
+      },
+      {
+        "device_id": 1140,
+        "id": 5140,
+        "ip": "10.70.5.34",
+        "label": "corp node 114",
+        "type": "Static"
+      },
+      {
+        "device_id": 1039,
+        "id": 5039,
+        "ip": "10.70.0.33",
+        "label": "corp node 13",
+        "type": "Static"
+      },
+      {
+        "device_id": 1082,
+        "id": 5082,
+        "ip": "10.70.2.36",
+        "label": "corp node 56",
+        "type": "Static"
+      },
+      {
+        "device_id": 1027,
+        "id": 5027,
+        "ip": "10.70.0.21",
+        "label": "corp node 1",
+        "type": "Static"
+      },
+      {
+        "device_id": 1137,
+        "id": 5137,
+        "ip": "10.70.5.31",
+        "label": "corp node 111",
+        "type": "Static"
+      },
+      {
+        "available": "yes",
+        "id": 5017,
+        "ip": "10.20.10.81",
+        "label": "checkout ord1 (freed)",
+        "type": "Static"
+      },
+      {
+        "device_id": 1130,
+        "id": 5130,
+        "ip": "10.70.5.24",
+        "label": "corp node 104",
+        "type": "Static"
+      },
+      {
+        "device_id": 1042,
+        "id": 5042,
+        "ip": "10.70.0.36",
+        "label": "corp node 16",
+        "type": "Static"
+      },
+      {
+        "device_id": 1016,
+        "id": 5016,
+        "ip": "10.40.10.82",
+        "label": "checkout dfw2 ha",
+        "type": "Static"
+      },
+      {
+        "device_id": 1007,
+        "id": 5007,
+        "ip": "10.40.10.41",
+        "label": "catalog dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1053,
+        "id": 5053,
+        "ip": "10.70.1.27",
+        "label": "corp node 27",
+        "type": "Static"
+      },
+      {
+        "device_id": 1087,
+        "id": 5087,
+        "ip": "10.70.3.21",
+        "label": "corp node 61",
+        "type": "Static"
+      },
+      {
+        "device_id": 1066,
+        "id": 5066,
+        "ip": "10.70.2.20",
+        "label": "corp node 40",
+        "type": "Static"
+      },
+      {
+        "device_id": 1095,
+        "id": 5095,
+        "ip": "10.70.3.29",
+        "label": "corp node 69",
+        "type": "Static"
+      },
+      {
+        "device_id": 1046,
+        "id": 5046,
+        "ip": "10.70.1.20",
+        "label": "corp node 20",
+        "type": "Static"
+      },
+      {
+        "device_id": 1124,
+        "id": 5124,
+        "ip": "10.70.4.38",
+        "label": "corp node 98",
+        "type": "Static"
+      },
+      {
+        "device_id": 1143,
+        "id": 5143,
+        "ip": "10.70.5.37",
+        "label": "corp node 117",
+        "type": "Static"
+      },
+      {
+        "device_id": 1075,
+        "id": 5075,
+        "ip": "10.70.2.29",
+        "label": "corp node 49",
+        "type": "Static"
+      },
+      {
+        "device_id": 1003,
+        "id": 5003,
+        "ip": "10.40.10.21",
+        "label": "orders dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1089,
+        "id": 5089,
+        "ip": "10.70.3.23",
+        "label": "corp node 63",
+        "type": "Static"
+      },
+      {
+        "device_id": 1034,
+        "id": 5034,
+        "ip": "10.70.0.28",
+        "label": "corp node 8",
+        "type": "Static"
+      },
+      {
+        "device_id": 1008,
+        "id": 5008,
+        "ip": "10.20.10.41",
+        "label": "catalog ord1",
+        "type": "Static"
+      },
+      {
+        "device_id": 1139,
+        "id": 5139,
+        "ip": "10.70.5.33",
+        "label": "corp node 113",
+        "type": "Static"
+      },
+      {
+        "device_id": 1113,
+        "id": 5113,
+        "ip": "10.70.4.27",
+        "label": "corp node 87",
+        "type": "Static"
+      },
+      {
+        "device_id": 1021,
+        "id": 5021,
+        "ip": "10.40.20.10",
+        "label": "auth dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1074,
+        "id": 5074,
+        "ip": "10.70.2.28",
+        "label": "corp node 48",
+        "type": "Static"
+      },
+      {
+        "device_id": 1050,
+        "id": 5050,
+        "ip": "10.70.1.24",
+        "label": "corp node 24",
+        "type": "Static"
+      },
+      {
+        "device_id": 1084,
+        "id": 5084,
+        "ip": "10.70.2.38",
+        "label": "corp node 58",
+        "type": "Static"
+      },
+      {
+        "device_id": 1135,
+        "id": 5135,
+        "ip": "10.70.5.29",
+        "label": "corp node 109",
+        "type": "Static"
+      },
+      {
+        "device_id": 1142,
+        "id": 5142,
+        "ip": "10.70.5.36",
+        "label": "corp node 116",
+        "type": "Static"
+      },
+      {
+        "device_id": 1092,
+        "id": 5092,
+        "ip": "10.70.3.26",
+        "label": "corp node 66",
+        "type": "Static"
+      },
+      {
+        "device_id": 1036,
+        "id": 5036,
+        "ip": "10.70.0.30",
+        "label": "corp node 10",
+        "type": "Static"
+      },
+      {
+        "device_id": 1058,
+        "id": 5058,
+        "ip": "10.70.1.32",
+        "label": "corp node 32",
+        "type": "Static"
+      },
+      {
+        "device_id": 1138,
+        "id": 5138,
+        "ip": "10.70.5.32",
+        "label": "corp node 112",
+        "type": "Static"
+      },
+      {
+        "device_id": 1041,
+        "id": 5041,
+        "ip": "10.70.0.35",
+        "label": "corp node 15",
+        "type": "Static"
+      },
+      {
+        "device_id": 1022,
+        "id": 5022,
+        "ip": "10.40.20.11",
+        "label": "media dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1030,
+        "id": 5030,
+        "ip": "10.70.0.24",
+        "label": "corp node 4",
+        "type": "Static"
+      },
+      {
+        "device_id": 1061,
+        "id": 5061,
+        "ip": "10.70.1.35",
+        "label": "corp node 35",
+        "type": "Static"
+      },
+      {
+        "device_id": 1024,
+        "id": 5024,
+        "ip": "10.40.20.13",
+        "label": "reviews dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1099,
+        "id": 5099,
+        "ip": "10.70.3.33",
+        "label": "corp node 73",
+        "type": "Static"
+      },
+      {
+        "device_id": 1096,
+        "id": 5096,
+        "ip": "10.70.3.30",
+        "label": "corp node 70",
+        "type": "Static"
+      },
+      {
+        "device_id": 1037,
+        "id": 5037,
+        "ip": "10.70.0.31",
+        "label": "corp node 11",
+        "type": "Static"
+      },
+      {
+        "device_id": 1001,
+        "id": 5001,
+        "ip": "10.40.10.11",
+        "label": "payments dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1043,
+        "id": 5043,
+        "ip": "10.70.0.37",
+        "label": "corp node 17",
+        "type": "Static"
+      },
+      {
+        "device_id": 1083,
+        "id": 5083,
+        "ip": "10.70.2.37",
+        "label": "corp node 57",
+        "type": "Static"
+      },
+      {
+        "device_id": 1101,
+        "id": 5101,
+        "ip": "10.70.3.35",
+        "label": "corp node 75",
+        "type": "Static"
+      },
+      {
+        "available": "yes",
+        "id": 5019,
+        "ip": "10.20.10.91",
+        "label": "profile ord1 (freed)",
+        "type": "Static"
+      },
+      {
+        "device_id": 1108,
+        "id": 5108,
+        "ip": "10.70.4.22",
+        "label": "corp node 82",
+        "type": "Static"
+      },
+      {
+        "device_id": 1085,
+        "id": 5085,
+        "ip": "10.70.2.39",
+        "label": "corp node 59",
+        "type": "Static"
+      },
+      {
+        "device_id": 1100,
+        "id": 5100,
+        "ip": "10.70.3.34",
+        "label": "corp node 74",
+        "type": "Static"
+      },
+      {
+        "device_id": 1026,
+        "id": 5026,
+        "ip": "10.70.0.20",
+        "label": "corp node 0",
+        "type": "Static"
+      },
+      {
+        "device_id": 1040,
+        "id": 5040,
+        "ip": "10.70.0.34",
+        "label": "corp node 14",
+        "type": "Static"
+      },
+      {
+        "device_id": 1020,
+        "id": 5020,
+        "ip": "10.20.20.10",
+        "label": "legacy-reporting ord1",
+        "type": "Static"
+      },
+      {
+        "device_id": 1078,
+        "id": 5078,
+        "ip": "10.70.2.32",
+        "label": "corp node 52",
+        "type": "Static"
+      },
+      {
+        "device_id": 1013,
+        "id": 5013,
+        "ip": "10.40.10.71",
+        "label": "notify dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1055,
+        "id": 5055,
+        "ip": "10.70.1.29",
+        "label": "corp node 29",
+        "type": "Static"
+      },
+      {
+        "device_id": 1086,
+        "id": 5086,
+        "ip": "10.70.3.20",
+        "label": "corp node 60",
+        "type": "Static"
+      },
+      {
+        "device_id": 1129,
+        "id": 5129,
+        "ip": "10.70.5.23",
+        "label": "corp node 103",
+        "type": "Static"
+      },
+      {
+        "device_id": 1067,
+        "id": 5067,
+        "ip": "10.70.2.21",
+        "label": "corp node 41",
+        "type": "Static"
+      },
+      {
+        "device_id": 1091,
+        "id": 5091,
+        "ip": "10.70.3.25",
+        "label": "corp node 65",
+        "type": "Static"
+      },
+      {
+        "device_id": 1072,
+        "id": 5072,
+        "ip": "10.70.2.26",
+        "label": "corp node 46",
+        "type": "Static"
+      },
+      {
+        "device_id": 1093,
+        "id": 5093,
+        "ip": "10.70.3.27",
+        "label": "corp node 67",
+        "type": "Static"
+      },
+      {
+        "device_id": 1064,
+        "id": 5064,
+        "ip": "10.70.1.38",
+        "label": "corp node 38",
+        "type": "Static"
+      },
+      {
+        "device_id": 1109,
+        "id": 5109,
+        "ip": "10.70.4.23",
+        "label": "corp node 83",
+        "type": "Static"
+      },
+      {
+        "device_id": 1015,
+        "id": 5015,
+        "ip": "10.40.10.81",
+        "label": "checkout dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1105,
+        "id": 5105,
+        "ip": "10.70.3.39",
+        "label": "corp node 79",
+        "type": "Static"
+      },
+      {
+        "device_id": 1077,
+        "id": 5077,
+        "ip": "10.70.2.31",
+        "label": "corp node 51",
+        "type": "Static"
+      },
+      {
+        "device_id": 1119,
+        "id": 5119,
+        "ip": "10.70.4.33",
+        "label": "corp node 93",
+        "type": "Static"
+      },
+      {
+        "device_id": 1080,
+        "id": 5080,
+        "ip": "10.70.2.34",
+        "label": "corp node 54",
+        "type": "Static"
+      },
+      {
+        "device_id": 1060,
+        "id": 5060,
+        "ip": "10.70.1.34",
+        "label": "corp node 34",
+        "type": "Static"
+      },
+      {
+        "device_id": 1011,
+        "id": 5011,
+        "ip": "10.40.10.61",
+        "label": "billing dfw2",
+        "type": "Static"
+      },
+      {
+        "device_id": 1134,
+        "id": 5134,
+        "ip": "10.70.5.28",
+        "label": "corp node 108",
+        "type": "Static"
+      },
+      {
+        "available": "yes",
+        "id": 5004,
+        "ip": "10.20.10.21",
+        "label": "orders ord1 (freed)",
+        "type": "Static"
+      },
+      {
+        "device_id": 1038,
+        "id": 5038,
+        "ip": "10.70.0.32",
+        "label": "corp node 12",
+        "type": "Static"
+      },
+      {
+        "device_id": 1062,
+        "id": 5062,
+        "ip": "10.70.1.36",
+        "label": "corp node 36",
+        "type": "Static"
+      },
+      {
+        "device_id": 1116,
+        "id": 5116,
+        "ip": "10.70.4.30",
+        "label": "corp node 90",
+        "type": "Static"
+      },
+      {
+        "device_id": 1128,
+        "id": 5128,
+        "ip": "10.70.5.22",
+        "label": "corp node 102",
+        "type": "Static"
+      },
+      {
+        "device_id": 1120,
+        "id": 5120,
+        "ip": "10.70.4.34",
+        "label": "corp node 94",
+        "type": "Static"
+      },
+      {
+        "device_id": 1048,
+        "id": 5048,
+        "ip": "10.70.1.22",
+        "label": "corp node 22",
+        "type": "Static"
+      },
+      {
+        "device_id": 1110,
+        "id": 5110,
+        "ip": "10.70.4.24",
+        "label": "corp node 84",
+        "type": "Static"
+      },
+      {
+        "device_id": 1112,
+        "id": 5112,
+        "ip": "10.70.4.26",
+        "label": "corp node 86",
+        "type": "Static"
+      },
+      {
+        "device_id": 1063,
+        "id": 5063,
+        "ip": "10.70.1.37",
+        "label": "corp node 37",
+        "type": "Static"
+      },
+      {
+        "device_id": 1059,
+        "id": 5059,
+        "ip": "10.70.1.33",
+        "label": "corp node 33",
+        "type": "Static"
+      },
+      {
+        "available": "yes",
+        "id": 5006,
+        "ip": "10.20.10.31",
+        "label": "inventory ord1 (freed)",
+        "type": "Static"
+      },
+      {
+        "device_id": 1057,
+        "id": 5057,
+        "ip": "10.70.1.31",
+        "label": "corp node 31",
+        "type": "Static"
+      },
+      {
+        "device_id": 1090,
+        "id": 5090,
+        "ip": "10.70.3.24",
+        "label": "corp node 64",
+        "type": "Static"
+      },
+      {
+        "device_id": 1103,
+        "id": 5103,
+        "ip": "10.70.3.37",
+        "label": "corp node 77",
+        "type": "Static"
+      },
+      {
+        "device_id": 1121,
+        "id": 5121,
+        "ip": "10.70.4.35",
+        "label": "corp node 95",
+        "type": "Static"
+      },
+      {
+        "device_id": 1033,
+        "id": 5033,
+        "ip": "10.70.0.27",
+        "label": "corp node 7",
+        "type": "Static"
+      },
+      {
+        "device_id": 1070,
+        "id": 5070,
+        "ip": "10.70.2.24",
+        "label": "corp node 44",
+        "type": "Static"
+      },
+      {
+        "device_id": 1144,
+        "id": 5144,
+        "ip": "10.70.5.38",
+        "label": "corp node 118",
+        "type": "Static"
+      },
+      {
+        "device_id": 1141,
+        "id": 5141,
+        "ip": "10.70.5.35",
+        "label": "corp node 115",
+        "type": "Static"
+      },
+      {
+        "device_id": 1088,
+        "id": 5088,
+        "ip": "10.70.3.22",
+        "label": "corp node 62",
+        "type": "Static"
+      },
+      {
+        "device_id": 1047,
+        "id": 5047,
+        "ip": "10.70.1.21",
+        "label": "corp node 21",
+        "type": "Static"
+      }
+    ],
+    "service_instances": [
+      {
+        "device_id": 1008,
+        "device_name": "catalog-ord1-01",
+        "ipaddress": "10.20.10.41",
+        "port": 8080,
+        "service_detail_id": 204,
+        "service_display_name": "catalog",
+        "status": "running"
+      },
+      {
+        "device_id": 1001,
+        "device_name": "payments-dfw2-01",
+        "ipaddress": "10.40.10.11",
+        "port": 8443,
+        "service_detail_id": 201,
+        "service_display_name": "payments",
+        "status": "running"
+      },
+      {
+        "device_id": 1011,
+        "device_name": "billing-dfw2-01",
+        "ipaddress": "10.40.10.61",
+        "port": 8080,
+        "service_detail_id": 206,
+        "service_display_name": "billing",
+        "status": "running"
+      },
+      {
+        "device_id": 1014,
+        "device_name": "notify-ord1-01",
+        "ipaddress": "10.20.10.71",
+        "port": 8080,
+        "service_detail_id": 207,
+        "service_display_name": "notify",
+        "status": "running"
+      },
+      {
+        "device_id": 1024,
+        "device_name": "reviews-dfw2-01",
+        "ipaddress": "10.40.20.13",
+        "port": 8080,
+        "service_detail_id": 214,
+        "service_display_name": "reviews",
+        "status": "running"
+      },
+      {
+        "device_id": 1005,
+        "device_name": "inventory-dfw2-01",
+        "ipaddress": "10.40.10.31",
+        "port": 8080,
+        "service_detail_id": 203,
+        "service_display_name": "inventory",
+        "status": "running"
+      },
+      {
+        "device_id": 1018,
+        "device_name": "profile-dfw2-01",
+        "ipaddress": "10.40.10.91",
+        "port": 8080,
+        "service_detail_id": 209,
+        "service_display_name": "profile",
+        "status": "running"
+      },
+      {
+        "device_id": 1009,
+        "device_name": "search-dfw2-01",
+        "ipaddress": "10.40.10.51",
+        "port": 8080,
+        "service_detail_id": 205,
+        "service_display_name": "search",
+        "status": "running"
+      },
+      {
+        "device_id": 1020,
+        "device_name": "legacy-reporting-ord1-01",
+        "ipaddress": "10.20.20.10",
+        "port": 8080,
+        "service_detail_id": 210,
+        "service_display_name": "legacy-reporting",
+        "status": "running"
+      },
+      {
+        "device_id": 1015,
+        "device_name": "checkout-dfw2-01",
+        "ipaddress": "10.40.10.81",
+        "port": 8443,
+        "service_detail_id": 208,
+        "service_display_name": "checkout",
+        "status": "running"
+      },
+      {
+        "device_id": 1003,
+        "device_name": "orders-dfw2-01",
+        "ipaddress": "10.40.10.21",
+        "port": 8080,
+        "service_detail_id": 202,
+        "service_display_name": "orders",
+        "status": "running"
+      },
+      {
+        "device_id": 1021,
+        "device_name": "auth-dfw2-01",
+        "ipaddress": "10.40.20.10",
+        "port": 8080,
+        "service_detail_id": 211,
+        "service_display_name": "auth",
+        "status": "running"
+      },
+      {
+        "device_id": 1022,
+        "device_name": "media-dfw2-01",
+        "ipaddress": "10.40.20.11",
+        "port": 8080,
+        "service_detail_id": 212,
+        "service_display_name": "media",
+        "status": "running"
+      },
+      {
+        "device_id": 1023,
+        "device_name": "cart-dfw2-01",
+        "ipaddress": "10.40.20.12",
+        "port": 8080,
+        "service_detail_id": 213,
+        "service_display_name": "cart",
+        "status": "running"
+      },
+      {
+        "device_id": 1025,
+        "device_name": "shipping-dfw2-01",
+        "ipaddress": "10.40.20.14",
+        "port": 8080,
+        "service_detail_id": 215,
+        "service_display_name": "shipping",
+        "status": "running"
+      }
+    ],
+    "subnets": [
+      {
+        "mask_bits": 24,
+        "name": "ord1-app",
+        "network": "10.20.10.0",
+        "subnet_id": 1
+      },
+      {
+        "mask_bits": 24,
+        "name": "dfw2-app",
+        "network": "10.40.10.0",
+        "subnet_id": 2
+      }
+    ]
+  },
+  "haproxy": {
+    "backends": [
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_payments"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_orders"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_inventory"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_catalog"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_search"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_billing"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_checkout"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_profile"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_edge_router"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "mode": "http",
+        "name": "be_reporting"
+      },
+      {
+        "balance": {
+          "algorithm": "leastconn"
+        },
+        "mode": "http",
+        "name": "be_auth"
+      },
+      {
+        "balance": {
+          "algorithm": "leastconn"
+        },
+        "mode": "http",
+        "name": "be_media"
+      },
+      {
+        "balance": {
+          "algorithm": "leastconn"
+        },
+        "mode": "http",
+        "name": "be_cart"
+      },
+      {
+        "balance": {
+          "algorithm": "leastconn"
+        },
+        "mode": "http",
+        "name": "be_reviews"
+      },
+      {
+        "balance": {
+          "algorithm": "leastconn"
+        },
+        "mode": "http",
+        "name": "be_shipping"
+      }
+    ],
+    "binds": [
+      {
+        "address": "0.0.0.0",
+        "name": "https",
+        "parent_name": "fe_edge_https",
+        "port": 443
+      },
+      {
+        "address": "0.0.0.0",
+        "name": "http",
+        "parent_name": "fe_edge_http",
+        "port": 80
+      }
+    ],
+    "counters": {
+      "transaction": 4
+    },
+    "frontends": [
+      {
+        "mode": "http",
+        "name": "fe_edge_https"
+      },
+      {
+        "mode": "http",
+        "name": "fe_edge_http"
+      }
+    ],
+    "httpChecks": [],
+    "runtimeServers": [],
+    "servers": [
+      {
+        "address": "10.40.10.11",
+        "check": "enabled",
+        "name": "payments-dfw2-01",
+        "parent_name": "be_payments",
+        "port": 8443
+      },
+      {
+        "address": "10.40.10.21",
+        "check": "enabled",
+        "name": "orders-dfw2-01",
+        "parent_name": "be_orders",
+        "port": 8080
+      },
+      {
+        "address": "10.20.10.21",
+        "check": "enabled",
+        "name": "orders-ord1-01",
+        "parent_name": "be_orders",
+        "port": 8080
+      },
+      {
+        "address": "10.40.10.31",
+        "check": "enabled",
+        "name": "inventory-dfw2-01",
+        "parent_name": "be_inventory",
+        "port": 8080
+      },
+      {
+        "address": "10.40.10.41",
+        "check": "enabled",
+        "name": "catalog-dfw2-01",
+        "parent_name": "be_catalog",
+        "port": 8080
+      },
+      {
+        "address": "10.40.10.61",
+        "check": "enabled",
+        "name": "search-dfw2-01",
+        "parent_name": "be_search",
+        "port": 8080
+      },
+      {
+        "address": "10.40.10.61",
+        "check": "enabled",
+        "name": "billing-dfw2-01",
+        "parent_name": "be_billing",
+        "port": 8080
+      },
+      {
+        "address": "10.40.10.81",
+        "check": "enabled",
+        "name": "checkout-dfw2-01",
+        "parent_name": "be_checkout",
+        "port": 8443
+      },
+      {
+        "address": "10.40.10.82",
+        "check": "enabled",
+        "name": "checkout-dfw2-02",
+        "parent_name": "be_checkout",
+        "port": 8443
+      },
+      {
+        "address": "10.40.10.11",
+        "check": "enabled",
+        "name": "profile-dfw2-01",
+        "parent_name": "be_profile",
+        "port": 8080
+      },
+      {
+        "address": "10.40.10.21",
+        "check": "enabled",
+        "name": "orders-dfw2-01",
+        "parent_name": "be_edge_router",
+        "port": 8080
+      },
+      {
+        "address": "10.40.20.10",
+        "check": "enabled",
+        "name": "auth-dfw2-01",
+        "parent_name": "be_edge_router",
+        "port": 8080
+      },
+      {
+        "address": "10.40.20.11",
+        "check": "enabled",
+        "name": "profile-dfw2-01",
+        "parent_name": "be_edge_router",
+        "port": 8080
+      },
+      {
+        "address": "10.20.10.21",
+        "check": "enabled",
+        "name": "orders-ord1-01",
+        "parent_name": "be_edge_router",
+        "port": 8080
+      },
+      {
+        "address": "10.20.20.10",
+        "check": "enabled",
+        "name": "legacy-reporting-ord1-01",
+        "parent_name": "be_reporting",
+        "port": 8080
+      },
+      {
+        "address": "10.40.20.10",
+        "check": "enabled",
+        "name": "auth-dfw2-01",
+        "parent_name": "be_auth",
+        "port": 8080
+      },
+      {
+        "address": "10.40.20.40",
+        "check": "enabled",
+        "name": "auth-dfw2-02",
+        "parent_name": "be_auth",
+        "port": 8080
+      },
+      {
+        "address": "10.40.20.11",
+        "check": "enabled",
+        "name": "media-dfw2-01",
+        "parent_name": "be_media",
+        "port": 8080
+      },
+      {
+        "address": "10.40.20.41",
+        "check": "enabled",
+        "name": "media-dfw2-02",
+        "parent_name": "be_media",
+        "port": 8080
+      },
+      {
+        "address": "10.40.20.12",
+        "check": "enabled",
+        "name": "cart-dfw2-01",
+        "parent_name": "be_cart",
+        "port": 8080
+      },
+      {
+        "address": "10.40.20.42",
+        "check": "enabled",
+        "name": "cart-dfw2-02",
+        "parent_name": "be_cart",
+        "port": 8080
+      },
+      {
+        "address": "10.40.20.13",
+        "check": "enabled",
+        "name": "reviews-dfw2-01",
+        "parent_name": "be_reviews",
+        "port": 8080
+      },
+      {
+        "address": "10.40.20.43",
+        "check": "enabled",
+        "name": "reviews-dfw2-02",
+        "parent_name": "be_reviews",
+        "port": 8080
+      },
+      {
+        "address": "10.40.20.14",
+        "check": "enabled",
+        "name": "shipping-dfw2-01",
+        "parent_name": "be_shipping",
+        "port": 8080
+      },
+      {
+        "address": "10.40.20.44",
+        "check": "enabled",
+        "name": "shipping-dfw2-02",
+        "parent_name": "be_shipping",
+        "port": 8080
+      }
+    ],
+    "sslCertificates": [],
+    "sslFrontUses": [],
+    "tcpChecks": [],
+    "transactions": [],
+    "version": 7
+  },
+  "infoblox-nios": {
+    "a_records": [
+      {
+        "ipv4addr": "10.60.3.25",
+        "name": "host-029.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.31",
+        "name": "inventory-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.2.10",
+        "name": "host-016.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.0.22",
+        "name": "host-004.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.2.19",
+        "name": "host-019.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.1.13",
+        "name": "host-009.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.3.16",
+        "name": "host-026.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.2.13",
+        "name": "host-017.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.11",
+        "name": "payments-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.2.16",
+        "name": "host-018.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.0.10",
+        "name": "host-000.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.4.19",
+        "name": "host-035.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.0.28",
+        "name": "host-006.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.3.10",
+        "name": "host-024.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.21",
+        "name": "orders-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.2.25",
+        "name": "host-021.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.4.13",
+        "name": "host-033.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.61",
+        "name": "search.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.61",
+        "name": "billing-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.71",
+        "name": "notify-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.10.61",
+        "name": "billing-ord1-01.ord1.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.1.10",
+        "name": "host-008.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.0.31",
+        "name": "host-007.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.81",
+        "name": "checkout-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.1.22",
+        "name": "host-012.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.10.21",
+        "name": "orders-ord1-01.ord1.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.3.31",
+        "name": "host-031.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.0.13",
+        "name": "host-001.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.3.22",
+        "name": "host-028.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.41",
+        "name": "catalog.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.61",
+        "name": "billing.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.0.16",
+        "name": "host-002.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.20.10",
+        "name": "legacy-reporting-ord1-01.ord1.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.20.10",
+        "name": "auth.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.20.12",
+        "name": "cart-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.4.25",
+        "name": "host-037.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.10.41",
+        "name": "catalog-ord1-01.ord1.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.3.28",
+        "name": "host-030.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.4.16",
+        "name": "host-034.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.1.16",
+        "name": "host-010.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.41",
+        "name": "catalog-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.20.14",
+        "name": "shipping-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.20.13",
+        "name": "reviews.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.0.25",
+        "name": "host-005.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.1.19",
+        "name": "host-011.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.10.11",
+        "name": "payments-ord1-01.ord1.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.11",
+        "name": "payments.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.10.31",
+        "name": "inventory-ord1-01.ord1.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.51",
+        "name": "search-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.10.31",
+        "name": "inventory.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.4.28",
+        "name": "host-038.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.20.13",
+        "name": "reviews-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.1.25",
+        "name": "host-013.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.21",
+        "name": "orders.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.20.11",
+        "name": "media.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.20.10",
+        "name": "auth-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.2.28",
+        "name": "host-022.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.10.91",
+        "name": "profile-ord1-01.ord1.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.20.10",
+        "name": "reporting.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.20.12",
+        "name": "cart.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.2.31",
+        "name": "host-023.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.20.11",
+        "name": "media-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.0.19",
+        "name": "host-003.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.10.71",
+        "name": "notify.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.10.71",
+        "name": "notify-ord1-01.ord1.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.20.14",
+        "name": "shipping.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.20.10.51",
+        "name": "search-ord1-01.ord1.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.4.22",
+        "name": "host-036.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.4.10",
+        "name": "host-032.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.1.31",
+        "name": "host-015.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.1.28",
+        "name": "host-014.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.2.22",
+        "name": "host-020.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.81",
+        "name": "checkout.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.4.31",
+        "name": "host-039.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.11",
+        "name": "profile.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.3.13",
+        "name": "host-025.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.60.3.19",
+        "name": "host-027.corp.meridian.internal",
+        "view": "default"
+      },
+      {
+        "ipv4addr": "10.40.10.91",
+        "name": "profile-dfw2-01.dfw2.meridian.internal",
+        "view": "default"
+      }
+    ],
+    "aaaa_records": [],
+    "cname_records": [
+      {
+        "canonical": "checkout.meridian.internal",
+        "name": "www.meridian.internal",
+        "view": "default"
+      },
+      {
+        "canonical": "orders.meridian.internal",
+        "name": "api.meridian.internal",
+        "view": "default"
+      }
+    ],
+    "mx_records": [],
+    "ns_records": [],
+    "txt_records": [],
+    "zones": [
+      {
+        "fqdn": "meridian.internal",
+        "view": "default",
+        "zone_format": "FORWARD"
+      },
+      {
+        "fqdn": "ord1.meridian.internal",
+        "view": "default",
+        "zone_format": "FORWARD"
+      },
+      {
+        "fqdn": "dfw2.meridian.internal",
+        "view": "default",
+        "zone_format": "FORWARD"
+      }
+    ]
+  },
+  "pagerduty": {
+    "escalation_policies": [],
+    "incidents": [
+      {
+        "created_at": "2026-01-12T03:14:00Z",
+        "description": "inventory-ord1-01 backend health check failing",
+        "html_url": "https://meridian.pagerduty.com/incidents/PINC43B4A9",
+        "id": "PINC43B4A9",
+        "incident_number": 4203,
+        "service": {
+          "id": "PSVC7CDD84",
+          "summary": "inventory-api",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "title": "inventory-ord1-01 backend health check failing",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-01-12T03:14:00Z",
+        "description": "payments-ord1-01 backend health check failing",
+        "html_url": "https://meridian.pagerduty.com/incidents/PINCCB36C5",
+        "id": "PINCCB36C5",
+        "incident_number": 4201,
+        "service": {
+          "id": "PSVC591D7F",
+          "summary": "payments-api",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "title": "payments-ord1-01 backend health check failing",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-01-12T03:14:00Z",
+        "description": "search-ord1-01 backend health check failing",
+        "html_url": "https://meridian.pagerduty.com/incidents/PINC1FC761",
+        "id": "PINC1FC761",
+        "incident_number": 4205,
+        "service": {
+          "id": "PSVCF79BBB",
+          "summary": "search-api",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "title": "search-ord1-01 backend health check failing",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-01-12T03:14:00Z",
+        "description": "orders-ord1-01 backend health check failing",
+        "html_url": "https://meridian.pagerduty.com/incidents/PINC94BE3E",
+        "id": "PINC94BE3E",
+        "incident_number": 4202,
+        "service": {
+          "id": "PSVCECA922",
+          "summary": "orders-api",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "title": "orders-ord1-01 backend health check failing",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-01-10T05:00:00Z",
+        "id": "PINC017932",
+        "incident_number": 4210,
+        "service": {
+          "id": "PSVC446FF5",
+          "summary": "profile-api",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "title": "profile-api transient 5xx",
+        "type": "incident",
+        "urgency": "low"
+      },
+      {
+        "created_at": "2026-01-12T03:14:00Z",
+        "description": "billing-ord1-01 backend health check failing",
+        "html_url": "https://meridian.pagerduty.com/incidents/PINCB1A474",
+        "id": "PINCB1A474",
+        "incident_number": 4206,
+        "service": {
+          "id": "PSVC2EDA34",
+          "summary": "billing-api",
+          "type": "service_reference"
+        },
+        "status": "triggered",
+        "title": "billing-ord1-01 backend health check failing",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-01-12T03:14:00Z",
+        "description": "catalog-ord1-01 backend health check failing",
+        "html_url": "https://meridian.pagerduty.com/incidents/PINCB1B2E9",
+        "id": "PINCB1B2E9",
+        "incident_number": 4204,
+        "service": {
+          "id": "PSVC71EE41",
+          "summary": "catalog-api",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "title": "catalog-ord1-01 backend health check failing",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-01-12T03:14:00Z",
+        "description": "profile-ord1-01 backend health check failing",
+        "html_url": "https://meridian.pagerduty.com/incidents/PINC4CC18F",
+        "id": "PINC4CC18F",
+        "incident_number": 4208,
+        "service": {
+          "id": "PSVC446FF5",
+          "summary": "profile-api",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "title": "profile-ord1-01 backend health check failing",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-01-10T05:00:00Z",
+        "id": "PINC4A0CB6",
+        "incident_number": 4211,
+        "service": {
+          "id": "PSVC69E7AF",
+          "summary": "media-api",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "title": "media-api transient 5xx",
+        "type": "incident",
+        "urgency": "low"
+      },
+      {
+        "created_at": "2026-01-12T03:14:00Z",
+        "description": "notify-ord1-01 backend health check failing",
+        "html_url": "https://meridian.pagerduty.com/incidents/PINCC0E531",
+        "id": "PINCC0E531",
+        "incident_number": 4207,
+        "service": {
+          "id": "PSVC92C155",
+          "summary": "notify-api",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "title": "notify-ord1-01 backend health check failing",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-01-19T22:00:00Z",
+        "description": "auth-api p99 latency elevated",
+        "id": "PINC6018D3",
+        "incident_number": 4209,
+        "service": {
+          "id": "PSVCB7E87C",
+          "summary": "auth-api",
+          "type": "service_reference"
+        },
+        "status": "triggered",
+        "title": "auth-api p99 latency elevated",
+        "type": "incident",
+        "urgency": "high"
+      }
+    ],
+    "maintenance_windows": [],
+    "priorities": [],
+    "schedules": [],
+    "services": [
+      {
+        "id": "PSVC591D7F",
+        "name": "payments-api",
+        "status": "active",
+        "summary": "payments-api",
+        "type": "service"
+      },
+      {
+        "id": "PSVCECA922",
+        "name": "orders-api",
+        "status": "active",
+        "summary": "orders-api",
+        "type": "service"
+      },
+      {
+        "id": "PSVC7CDD84",
+        "name": "inventory-api",
+        "status": "active",
+        "summary": "inventory-api",
+        "type": "service"
+      },
+      {
+        "id": "PSVC71EE41",
+        "name": "catalog-api",
+        "status": "active",
+        "summary": "catalog-api",
+        "type": "service"
+      },
+      {
+        "id": "PSVCF79BBB",
+        "name": "search-api",
+        "status": "active",
+        "summary": "search-api",
+        "type": "service"
+      },
+      {
+        "id": "PSVC2EDA34",
+        "name": "billing-api",
+        "status": "active",
+        "summary": "billing-api",
+        "type": "service"
+      },
+      {
+        "id": "PSVC92C155",
+        "name": "notify-api",
+        "status": "active",
+        "summary": "notify-api",
+        "type": "service"
+      },
+      {
+        "id": "PSVCF444D8",
+        "name": "checkout-api",
+        "status": "active",
+        "summary": "checkout-api",
+        "type": "service"
+      },
+      {
+        "id": "PSVC446FF5",
+        "name": "profile-api",
+        "status": "active",
+        "summary": "profile-api",
+        "type": "service"
+      },
+      {
+        "id": "PSVCB7E87C",
+        "name": "auth-api",
+        "status": "active",
+        "summary": "auth-api",
+        "type": "service"
+      },
+      {
+        "id": "PSVC69E7AF",
+        "name": "media-api",
+        "status": "active",
+        "summary": "media-api",
+        "type": "service"
+      }
+    ],
+    "teams": [],
+    "users": [
+      {
+        "email": "a.rao@meridian.internal",
+        "id": "PUSER001",
+        "name": "Ada Rao",
+        "role": "user",
+        "type": "user"
+      },
+      {
+        "email": "s.mehta@meridian.internal",
+        "id": "PUSER002",
+        "name": "Sam Mehta",
+        "role": "user",
+        "type": "user"
+      },
+      {
+        "email": "c.vega@meridian.internal",
+        "id": "PUSER003",
+        "name": "Carla Vega",
+        "role": "user",
+        "type": "user"
+      }
+    ]
+  },
+  "servicenow": {
+    "change_request": [
+      {
+        "active": "false",
+        "assigned_to": "c.vega",
+        "category": "Network",
+        "close_code": "successful",
+        "end_date": "2026-01-04 02:00:00",
+        "number": "CHG008002",
+        "short_description": "DC cutover: checkout-api ord1 to dfw2",
+        "start_date": "2026-01-03 22:00:00",
+        "state": "3",
+        "sys_created_by": "c.vega",
+        "sys_created_on": "2026-01-03 10:00:00",
+        "sys_id": "c01d01e42c1d5f0c5999c67e052d4022",
+        "type": "standard",
+        "u_service": "checkout",
+        "u_source_dc": "ord1",
+        "u_target_dc": "dfw2"
+      },
+      {
+        "active": "true",
+        "assigned_to": "c.vega",
+        "category": "Network",
+        "end_date": "2026-01-08 02:00:00",
+        "number": "CHG008005",
+        "short_description": "DC cutover: catalog-api ord1 to dfw2",
+        "start_date": "2026-01-07 22:00:00",
+        "state": "-1",
+        "sys_created_by": "c.vega",
+        "sys_created_on": "2026-01-07 10:00:00",
+        "sys_id": "3abdebec5f7a2f08156b1c1ed7799171",
+        "type": "standard",
+        "u_service": "catalog",
+        "u_source_dc": "ord1",
+        "u_target_dc": "dfw2"
+      },
+      {
+        "active": "true",
+        "assigned_to": "c.vega",
+        "category": "Network",
+        "end_date": "2026-01-11 02:00:00",
+        "number": "CHG008009",
+        "short_description": "DC cutover: profile-api ord1 to dfw2",
+        "start_date": "2026-01-10 22:00:00",
+        "state": "-1",
+        "sys_created_by": "c.vega",
+        "sys_created_on": "2026-01-10 10:00:00",
+        "sys_id": "30c2491a66ef446051945915467dcb55",
+        "type": "standard",
+        "u_service": "profile",
+        "u_source_dc": "ord1",
+        "u_target_dc": "dfw2"
+      },
+      {
+        "assigned_to": "a.rao",
+        "close_code": "successful",
+        "number": "CHG008013",
+        "short_description": "routine change for ldap",
+        "state": "3",
+        "sys_created_by": "a.rao",
+        "sys_created_on": "2025-12-10 10:00:00",
+        "sys_id": "010ffc2ec09350bc159e484e5e700af2",
+        "type": "normal",
+        "u_service": "ldap",
+        "u_target_dc": "dfw2"
+      },
+      {
+        "assigned_to": "s.mehta",
+        "close_code": "successful",
+        "number": "CHG008011",
+        "short_description": "routine change for grafana",
+        "state": "3",
+        "sys_created_by": "s.mehta",
+        "sys_created_on": "2025-12-10 10:00:00",
+        "sys_id": "dc8247be0f8b5e283a527544e5295388",
+        "type": "normal",
+        "u_service": "grafana",
+        "u_target_dc": "aws"
+      },
+      {
+        "assigned_to": "ops",
+        "close_code": "successful",
+        "number": "CHG008012",
+        "short_description": "routine change for backup",
+        "state": "3",
+        "sys_created_by": "ops",
+        "sys_created_on": "2025-12-10 10:00:00",
+        "sys_id": "faca5cfcb77d6940d9c5068f022cb392",
+        "type": "normal",
+        "u_service": "backup",
+        "u_target_dc": "ord1"
+      },
+      {
+        "active": "true",
+        "assigned_to": "c.vega",
+        "category": "Network",
+        "end_date": "2026-01-07 02:00:00",
+        "number": "CHG008004",
+        "short_description": "DC cutover: inventory-api ord1 to dfw2",
+        "start_date": "2026-01-06 22:00:00",
+        "state": "-1",
+        "sys_created_by": "c.vega",
+        "sys_created_on": "2026-01-06 10:00:00",
+        "sys_id": "f8137f362a7247f441578581736975f8",
+        "type": "standard",
+        "u_service": "inventory",
+        "u_source_dc": "ord1",
+        "u_target_dc": "dfw2"
+      },
+      {
+        "active": "true",
+        "assigned_to": "c.vega",
+        "category": "Network",
+        "end_date": "2026-01-06 02:00:00",
+        "number": "CHG008003",
+        "short_description": "DC cutover: orders-api ord1 to dfw2",
+        "start_date": "2026-01-05 22:00:00",
+        "state": "-1",
+        "sys_created_by": "c.vega",
+        "sys_created_on": "2026-01-05 10:00:00",
+        "sys_id": "0b680d0ba2b382491bb82745f947ae26",
+        "type": "standard",
+        "u_service": "orders",
+        "u_source_dc": "ord1",
+        "u_target_dc": "dfw2"
+      },
+      {
+        "active": "true",
+        "assigned_to": "c.vega",
+        "category": "Network",
+        "end_date": "2026-01-09 02:00:00",
+        "number": "CHG008006",
+        "short_description": "DC cutover: search-api ord1 to dfw2",
+        "start_date": "2026-01-08 22:00:00",
+        "state": "-1",
+        "sys_created_by": "c.vega",
+        "sys_created_on": "2026-01-08 10:00:00",
+        "sys_id": "6a33bc016adaf342be67ee56fb304bbc",
+        "type": "standard",
+        "u_service": "search",
+        "u_source_dc": "ord1",
+        "u_target_dc": "dfw2"
+      },
+      {
+        "active": "true",
+        "assigned_to": "c.vega",
+        "category": "Network",
+        "end_date": "2026-01-10 02:00:00",
+        "number": "CHG008007",
+        "short_description": "DC cutover: billing-api ord1 to dfw2",
+        "start_date": "2026-01-09 22:00:00",
+        "state": "-1",
+        "sys_created_by": "c.vega",
+        "sys_created_on": "2026-01-09 10:00:00",
+        "sys_id": "080cc5fcf6b2afd9cf6db176fb4f9a78",
+        "type": "standard",
+        "u_service": "billing",
+        "u_source_dc": "ord1",
+        "u_target_dc": "dfw2"
+      },
+      {
+        "assigned_to": "d.park",
+        "close_code": "successful",
+        "number": "CHG008010",
+        "short_description": "routine change for wiki",
+        "state": "3",
+        "sys_created_by": "d.park",
+        "sys_created_on": "2025-12-10 10:00:00",
+        "sys_id": "a7bde7dac5479f0ce1a5bad2ee93b818",
+        "type": "normal",
+        "u_service": "wiki",
+        "u_target_dc": "dfw2"
+      },
+      {
+        "active": "false",
+        "assigned_to": "c.vega",
+        "category": "Network",
+        "close_code": "successful",
+        "end_date": "2026-01-03 02:00:00",
+        "number": "CHG008001",
+        "short_description": "DC cutover: payments-api ord1 to dfw2",
+        "start_date": "2026-01-02 22:00:00",
+        "state": "3",
+        "sys_created_by": "c.vega",
+        "sys_created_on": "2026-01-02 10:00:00",
+        "sys_id": "944574cdc9adeda29b6bc8a8819fe106",
+        "type": "standard",
+        "u_service": "payments",
+        "u_source_dc": "ord1",
+        "u_target_dc": "dfw2"
+      },
+      {
+        "active": "true",
+        "assigned_to": "c.vega",
+        "category": "Network",
+        "end_date": "2026-01-12 02:00:00",
+        "number": "CHG008008",
+        "short_description": "DC cutover: notify-api ord1 to dfw2",
+        "start_date": "2026-01-11 22:00:00",
+        "state": "-1",
+        "sys_created_by": "c.vega",
+        "sys_created_on": "2026-01-11 10:00:00",
+        "sys_id": "d9a275c36275a206aba0c2272617c220",
+        "type": "standard",
+        "u_service": "notify",
+        "u_source_dc": "ord1",
+        "u_target_dc": "dfw2"
+      }
+    ],
+    "cmdb_ci_server": [
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.32",
+        "name": "corp-node-012",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "52598dd7875f1eefbbba58d523c671a0",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.5.28",
+        "name": "corp-node-108",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "752e05c9f195c7077d675472269f8194",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.22",
+        "name": "corp-node-062",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "e99467d00769f46c7265139f417201b3",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.29",
+        "name": "corp-node-009",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "9da08f514fc0b113adb5697efd9b6f8c",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.36",
+        "name": "corp-node-016",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "e7f9e4d0039b8cf8e723481561ae13a7",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.10.91",
+        "name": "profile-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "11590b1a3195612773d98340628dbd21",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.34",
+        "name": "corp-node-054",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "15d153c61d3b7cfc9045a304aff9ae33",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.20.10.71",
+        "name": "notify-ord1-01",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "0b83fb6cd8bf89f295a3b56c5b66dbf7",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.20.20.10",
+        "name": "legacy-reporting-ord1-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "7b48ec6964c20fd416fe3de41f54fa33",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.10.51",
+        "name": "search-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "e9b2abbb9953f1dbdaab4e9c303b2783",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.33",
+        "name": "corp-node-073",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "73c7c357aea2e4e2128bf6c5788da2ee",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.5.27",
+        "name": "corp-node-107",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "44536731d90f689d7b9c360ea5111663",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.34",
+        "name": "corp-node-074",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "08374b0dace7e8bfa0fb1986e1955eaa",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.38",
+        "name": "corp-node-078",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "bf2a18d1655ba36238462f825ffece2b",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.25",
+        "name": "corp-node-065",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "e2d4481fbab2b3c1283d63b9c4ceef4a",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.31",
+        "name": "corp-node-071",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "cba8c47b3f9d91fb0c5ed6ff2d9e156b",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.28",
+        "name": "corp-node-048",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "14dcde3e8df499a7e75700c243b0b9ba",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.20.10.11",
+        "name": "payments-ord1-01",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "9a6339119f63dfce09f390c8afc49256",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.28",
+        "name": "corp-node-068",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "3013876661524ab7783182f2ed7a623c",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.21",
+        "name": "corp-node-001",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "7db8fb8f11889b5584ce45c5c03ba4e3",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.2.36",
+        "name": "corp-node-056",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "8181475af9b58a0daac859ce38700331",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.20.10.81",
+        "name": "checkout-ord1-01",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "b27f1ec7f2d843d6656574a6d14c30d4",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.27",
+        "name": "corp-node-067",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "535ef913332e9219421db173e76b56f6",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.30",
+        "name": "corp-node-090",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "194db2b47ab71406118b4c562c4780dd",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.20.10.21",
+        "name": "orders-ord1-01",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "c064561fcedfe756bca6d3d51eda134a",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.36",
+        "name": "corp-node-096",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "00ca71e48bae3ae79199c383252b150e",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.37",
+        "name": "corp-node-037",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "08effe740140ba5d82b28c309f80a68a",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.20.11",
+        "name": "media-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "5646be38ba49a94d9993232060d0b915",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.25",
+        "name": "corp-node-025",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "dd0fe9fb9bee18ba107c3c697c18c2f6",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.22",
+        "name": "corp-node-082",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "5107ca5f1cc839ec510e119547dd5f0c",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.34",
+        "name": "corp-node-034",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "77436464704ff6e699141c23b14b82d9",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.21",
+        "name": "corp-node-061",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "fa29dd9e5cb46d0adb241363c55f8b4e",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.1.28",
+        "name": "corp-node-028",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "9074d336b4fa603a612f0e26377a5ae0",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.22",
+        "name": "corp-node-022",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "5777293efb1db4c019b4ba7f0bfa3317",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.10.31",
+        "name": "inventory-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "abcb32d9b9d5ae1b757972a56c447b61",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.27",
+        "name": "corp-node-027",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "3ef826991cab996f7a2b621128d05384",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.2.22",
+        "name": "corp-node-042",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "fdf5dc4e3df628f2168b72a88bd96550",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.5.26",
+        "name": "corp-node-106",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "dff31252d690fe313e7e5340cdd03269",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.24",
+        "name": "corp-node-024",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "553110443714d4ec5fd26b6abd9c551d",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.38",
+        "name": "corp-node-018",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "df8cc355acd58cec9b7fef41bbbed400",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.5.20",
+        "name": "corp-node-100",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "f84ce58fa0d7dc9183eba8de2734a1ae",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.35",
+        "name": "corp-node-055",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "72c8f6d6397d199ab0b95461dc30510e",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.20.10.91",
+        "name": "profile-ord1-01",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "9a72d25faabcf18432cf33db2fbc7d7c",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.20.10.31",
+        "name": "inventory-ord1-01",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "104ca836e44bb3e7e97722102c11f6c1",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.37",
+        "name": "corp-node-057",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "523de71cf7b69f824f78d983d2ff365b",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.35",
+        "name": "corp-node-095",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "94dad48083b88e8f5b8fb9cea791f01c",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.37",
+        "name": "corp-node-017",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "6b06da456432ee331c79c256c3abcee0",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.36",
+        "name": "corp-node-036",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "cd1e28290197bdd146d70a179cd082ba",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.26",
+        "name": "corp-node-026",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "521417ffa2ce8a481b72f159cc092476",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.3.30",
+        "name": "corp-node-070",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "26037d0f5ef5d36b757cc768ffc6e02b",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.37",
+        "name": "corp-node-097",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "446fef50cd8644341949a9f0301c50b5",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.20.10",
+        "name": "auth-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "27e7ee49ce2745d39e2886b835c9d72d",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.20.10.61",
+        "name": "billing-ord1-01",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "f25f407a4c677a1ffc5859bf67270fe6",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.20.10.51",
+        "name": "search-ord1-01",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "256d7f646c1b3b3bfcafc959a07ea350",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.10.82",
+        "name": "checkout-dfw2-02",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "9951e42b12e3edf406c769bb1213a855",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.20.10.41",
+        "name": "catalog-ord1-01",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "0cf402b59f53a1dc4ac55d18ef07aedb",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.39",
+        "name": "corp-node-099",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "6d893154af983b36a9bfc0aeea8c3f79",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.35",
+        "name": "corp-node-075",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "c67ead82de74130ac0128f5d77599160",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.30",
+        "name": "corp-node-010",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "60423968475c2c7ad33f9a4bf1a73549",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.20",
+        "name": "corp-node-080",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "509a71a2fcec18a1d7d5be4908ff20c2",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.3.23",
+        "name": "corp-node-063",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "8fb81120ccb115cc82e2796908c10567",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.5.21",
+        "name": "corp-node-101",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "9a30c0bc2104f6a7d7830193077bf7bf",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.28",
+        "name": "corp-node-008",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "6aca445d83b7ef8cf23a46e8bf301426",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.36",
+        "name": "corp-node-076",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "7a76cb9c06261122b5bdb68faeb3f48b",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.26",
+        "name": "corp-node-046",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "b147c863ef09eec73f658286dcc626cc",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.26",
+        "name": "corp-node-066",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "ae35f2baa8fd177a11314879b32e8f42",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.33",
+        "name": "corp-node-093",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "f60b524c669ba96b37bd0e22ba55204b",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.27",
+        "name": "corp-node-087",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "672f682fb6ffcf12613df152b9167269",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.39",
+        "name": "corp-node-079",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "20e7ee7252313d11c56db6f82ee3d6b2",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.33",
+        "name": "corp-node-013",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "0223cf7f1a1e394c9de87788ed02be43",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.24",
+        "name": "corp-node-004",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "14d4dc8936b0972567dd2a5e00b34bde",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.29",
+        "name": "corp-node-069",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "11c81375aae7520c9752de21025e906e",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.28",
+        "name": "corp-node-088",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "31d9d262d7ebf124086e7a20ed8551b7",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.33",
+        "name": "corp-node-053",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "92545dce5da68df5c5d5448ee339884f",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.25",
+        "name": "corp-node-085",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "80e46545fa068aad1ae4ee327cddcc38",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.1.35",
+        "name": "corp-node-035",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "4f7923292a06a7738d44d0012101d430",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.32",
+        "name": "corp-node-032",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "98e7a0a5d65c48c8bc1d1e6f356babcd",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.29",
+        "name": "corp-node-089",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "611a9cdc5461b854a4431622b1f8a2fe",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.27",
+        "name": "corp-node-047",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "7cf3a3000ebb60c93a0e8176800abe98",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.25",
+        "name": "corp-node-045",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "ebfa245b776bfd4f145c5e2a0ab310f6",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.39",
+        "name": "corp-node-039",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "5513eac938b119aa7e28c6298e291cd0",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.3.37",
+        "name": "corp-node-077",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "79f1d4554ca6670f692b39d9f931a43f",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.23",
+        "name": "corp-node-023",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "738eec90abd2c76b815244beea30a2af",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.4.38",
+        "name": "corp-node-098",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "d3c2ef126b13768d4fbfb51817d82af3",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.20",
+        "name": "corp-node-060",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "12438ffb4b012dc130f9364692b8e161",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.4.31",
+        "name": "corp-node-091",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "6a1e21cf474c86ecd39b86576163ebaa",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.31",
+        "name": "corp-node-011",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "8bd20cbfb0bae7edd18d15eca7ca534c",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.10.21",
+        "name": "orders-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "8d32ea83da04306dbb4c16634ec25f91",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.30",
+        "name": "corp-node-030",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "d47e8ad992d174608b57418c4b3c348e",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.20.13",
+        "name": "reviews-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "771843fa4e589a88e7b16d15559af691",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.5.22",
+        "name": "corp-node-102",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "41d9b5c51de7ed4a863c73cdd9f6298e",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.22",
+        "name": "corp-node-002",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "1d1cfc421aa741e5a0157e32370761b9",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.5.23",
+        "name": "corp-node-103",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "b05b56ca5a8587e97c0262c21d0fcdbd",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.10.41",
+        "name": "catalog-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "1a27289d1c5da3d723818ba208314b7d",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.0.34",
+        "name": "corp-node-014",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "c82b0efe943f9ef048d02b658082d19c",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.32",
+        "name": "corp-node-072",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "473582d2a0d34d12b70490339d99364d",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.10.61",
+        "name": "billing-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "ba1a25455a40e9face94dfecb5253abb",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.25",
+        "name": "corp-node-005",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "933674848fba460f2176258543f731c5",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.5.29",
+        "name": "corp-node-109",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "2e9e5432b376381efcaa7eb42fa68ea9",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.23",
+        "name": "corp-node-043",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "912d34fd14c15a8c2c945f2c2a24d06e",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.34",
+        "name": "corp-node-094",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "93e4789bb0e0a4f3b9c057c8130879b0",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.1.21",
+        "name": "corp-node-021",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "56e8d4f401d5a8f41de9b250a7edb62d",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.23",
+        "name": "corp-node-083",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "29864395668afa55540dd1ab6ceaa902",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.20.14",
+        "name": "shipping-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "e7de4eceaf9b074623df4cfd1019d608",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.3.24",
+        "name": "corp-node-064",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "a11327f51ff4df1596a555fe71e1c4fc",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.26",
+        "name": "corp-node-006",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "ad3b0db66975ec55562f0f33e522ef7a",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.20",
+        "name": "corp-node-020",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "9cb1fca76428cec96f3a00e19f5e6856",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.39",
+        "name": "corp-node-019",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "71d4f0904152e5c79c2057922b9c25e8",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.4.24",
+        "name": "corp-node-084",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "80c9221457ae3af2d87ce7db360bb7b8",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.21",
+        "name": "corp-node-041",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "230090b0aac86f9785dfe20a17076059",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.20",
+        "name": "corp-node-040",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "8899c0130bbfaf5d4a691f5f7c81c32a",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.29",
+        "name": "corp-node-029",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "cca593485cda5d02a282efe2afbcd6b6",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.23",
+        "name": "corp-node-003",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "8e46b5443aa4b2bf392219176af6f5a6",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.2.29",
+        "name": "corp-node-049",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "5c2bf10b2ede61e09c252792be7e873e",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.38",
+        "name": "corp-node-038",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "8d70d7bc7dd6fd88c3a950503b86a90b",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.5.24",
+        "name": "corp-node-104",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "56e88feee9da1782abf023e1e9636341",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.30",
+        "name": "corp-node-050",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "22998ea872ba64a1ff56a99bc38bcb24",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.0.35",
+        "name": "corp-node-015",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "164263c864edf49ea7a431f2e766488c",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.33",
+        "name": "corp-node-033",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "41c0ba0ef740053d809a4a58ae0055c3",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.10.11",
+        "name": "payments-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "72729c40623d9ea6393155117e434bbc",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.38",
+        "name": "corp-node-058",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "7bed9ca7c91575942893b31bb3349dd9",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.31",
+        "name": "corp-node-051",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "c56c13eb5d2122c1c37bca4b959c2f67",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.0.27",
+        "name": "corp-node-007",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "ffd3ac8cdf39c563c507ad98916c53e7",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.10.71",
+        "name": "notify-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "4b12bcc30480928655fb2c60f17b96f8",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.10.81",
+        "name": "checkout-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "1db911b978fbd6242c1aa645f4400bb6",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.39",
+        "name": "corp-node-059",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "83e20bc836eae8d806518e2de4e2383f",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.24",
+        "name": "corp-node-044",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "17f09bb346003544c5531139f9e4ea62",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.32",
+        "name": "corp-node-092",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "7371ba61c6e80b467e36dccdd88fe3f9",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.1.31",
+        "name": "corp-node-031",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "929d596ba9f8b37b4215fce12e4fb6ab",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.26",
+        "name": "corp-node-086",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "480eb1d1e099a31cfded7bdca3b93feb",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.0.20",
+        "name": "corp-node-000",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "4e74d83a29923a8cec27437602defd62",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "7",
+        "ip_address": "10.70.5.25",
+        "name": "corp-node-105",
+        "operational_status": "6",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "f9f2b39af254ce23d082dddac79a1235",
+        "u_datacenter": "ord1"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.40.20.12",
+        "name": "cart-dfw2-01",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "1856526381830cf68ed8a7a0d776c0da",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.2.32",
+        "name": "corp-node-052",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "daf67fe14562c8995890ad06c55f75b8",
+        "u_datacenter": "dfw2"
+      },
+      {
+        "install_status": "1",
+        "ip_address": "10.70.4.21",
+        "name": "corp-node-081",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_created_by": "discovery",
+        "sys_created_on": "2025-06-01 00:00:00",
+        "sys_id": "446c58ab2cb24aa491142b3b795d1080",
+        "u_datacenter": "ord1"
+      }
+    ],
+    "incident": [
+      {
+        "assigned_to": "",
+        "assignment_group": "traffic-eng",
+        "caller_id": "j.okafor",
+        "description": "The early-January move off the ord1 datacenter was supposed to leave nothing pointing at those hosts, but traffic is still landing on some of them - orders-api hit a dead 10.20.x host today and returned 502s. Please make sure nothing still routes to any decommissioned ord1 host, finish closing out whatever that move left unfinished, and get to the bottom of how this slipped.",
+        "number": "INC0010042",
+        "opened_at": "2026-01-19 14:20:00",
+        "priority": "2",
+        "short_description": "Live traffic still hitting ord1 hosts that were meant to be decommissioned",
+        "state": "2",
+        "sys_created_by": "j.okafor",
+        "sys_created_on": "2026-01-19 14:20:00",
+        "sys_id": "0adde34798f551803811799936a3a0f7",
+        "urgency": "2"
+      },
+      {
+        "caller_id": "j.lin",
+        "number": "INC0010030",
+        "opened_at": "2026-01-15 09:00:00",
+        "priority": "4",
+        "short_description": "disk usage warning on corp-node-004",
+        "state": "2",
+        "sys_created_by": "j.lin",
+        "sys_created_on": "2026-01-15 09:00:00",
+        "sys_id": "29ca6621a3392a9d438e2220605a73c6"
+      },
+      {
+        "caller_id": "s.mehta",
+        "number": "INC0010031",
+        "opened_at": "2026-01-17 11:30:00",
+        "priority": "4",
+        "short_description": "VPN latency for remote staff",
+        "state": "2",
+        "sys_created_by": "s.mehta",
+        "sys_created_on": "2026-01-17 11:30:00",
+        "sys_id": "ececd2fec36caf479680099644239dea"
+      },
+      {
+        "caller_id": "helpdesk",
+        "number": "INC0010032",
+        "opened_at": "2026-01-18 08:05:00",
+        "priority": "4",
+        "short_description": "printer offline HQ-3",
+        "state": "2",
+        "sys_created_by": "helpdesk",
+        "sys_created_on": "2026-01-18 08:05:00",
+        "sys_id": "24c35144e4a60415c705185379a2f296"
+      },
+      {
+        "caller_id": "a.rao",
+        "number": "INC0010033",
+        "opened_at": "2026-01-16 16:40:00",
+        "priority": "4",
+        "short_description": "SSO session timeout complaints",
+        "state": "2",
+        "sys_created_by": "a.rao",
+        "sys_created_on": "2026-01-16 16:40:00",
+        "sys_id": "82cefcbd6668bad6a68a426f0ee42151"
+      }
+    ],
+    "sys_choice": [],
+    "sys_db_object": [
+      {
+        "label": "Server",
+        "name": "cmdb_ci_server",
+        "super_class": ""
+      }
+    ],
+    "sys_dictionary": []
+  }
+}

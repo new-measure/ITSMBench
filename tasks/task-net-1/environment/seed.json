@@ -1,0 +1,6500 @@
+{
+  "_now": "2026-05-12T14:00:00Z",
+  "aws-vpc": {
+    "securityGroups": [
+      {
+        "Description": "public ALB",
+        "GroupId": "sg-02b7e6f4a91c3d508",
+        "GroupName": "sg-alb-public",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": [],
+            "created_at": "2024-07-06T09:00:00Z",
+            "created_by": "jchen"
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "sg-alb-public"
+          }
+        ],
+        "VpcId": "vpc-0a48c2e97b3d11f60"
+      },
+      {
+        "Description": "bastion",
+        "GroupId": "sg-0d81c5a2f7e94b306",
+        "GroupName": "sg-bastion",
+        "IpPermissions": [
+          {
+            "FromPort": 22,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.100.0.0/16"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 22,
+            "UserIdGroupPairs": [],
+            "created_at": "2024-07-06T09:00:00Z",
+            "created_by": "jchen"
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "sg-bastion"
+          }
+        ],
+        "VpcId": "vpc-0a48c2e97b3d11f60"
+      },
+      {
+        "Description": "shared RDS",
+        "GroupId": "sg-0c3f9e12d8a57b401",
+        "GroupName": "sg-rds-shared",
+        "IpPermissions": [
+          {
+            "FromPort": 5432,
+            "IpProtocol": "tcp",
+            "IpRanges": [],
+            "Ipv6Ranges": [],
+            "ToPort": 5432,
+            "UserIdGroupPairs": [
+              {
+                "GroupId": "sg-02b7e6f4a91c3d508"
+              }
+            ],
+            "created_at": "2024-07-06T09:00:00Z",
+            "created_by": "jchen"
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "sg-rds-shared"
+          }
+        ],
+        "VpcId": "vpc-0a48c2e97b3d11f60"
+      },
+      {
+        "Description": "OT ingest",
+        "GroupId": "sg-0e5a7c31f2d98b604",
+        "GroupName": "sg-floor-ot",
+        "IpPermissions": [
+          {
+            "FromPort": 4840,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.40.12.5/32"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 4840,
+            "UserIdGroupPairs": [],
+            "change_ref": "CHG0038102",
+            "created_at": "2024-07-06T09:00:00Z",
+            "created_by": "jchen"
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "sg-floor-ot"
+          }
+        ],
+        "VpcId": "vpc-0a48c2e97b3d11f60"
+      },
+      {
+        "Description": "dw-etl app tier",
+        "GroupId": "sg-0d41e7f2a83c5b901",
+        "GroupName": "sg-dw-etl",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [],
+            "Ipv6Ranges": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": [
+              {
+                "GroupId": "sg-02b7e6f4a91c3d508"
+              }
+            ],
+            "created_at": "2024-07-06T09:00:00Z",
+            "created_by": "jchen"
+          },
+          {
+            "FromPort": 5439,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.40.11.35/32"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 5439,
+            "UserIdGroupPairs": [],
+            "change_ref": "CHG0039812",
+            "created_at": "2024-09-15T10:00:00Z",
+            "created_by": "jchen"
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "sg-dw-etl"
+          }
+        ],
+        "VpcId": "vpc-0a48c2e97b3d11f60"
+      },
+      {
+        "Description": "payments-svc app tier",
+        "GroupId": "sg-0e52f8a3b94d6c012",
+        "GroupName": "sg-payments-svc",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [],
+            "Ipv6Ranges": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": [
+              {
+                "GroupId": "sg-02b7e6f4a91c3d508"
+              }
+            ],
+            "created_at": "2024-07-06T09:00:00Z",
+            "created_by": "jchen"
+          },
+          {
+            "FromPort": 8443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.40.11.61/32"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 8443,
+            "UserIdGroupPairs": [],
+            "change_ref": "CHG0039812",
+            "created_at": "2024-09-15T10:00:00Z",
+            "created_by": "jchen"
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "sg-payments-svc"
+          }
+        ],
+        "VpcId": "vpc-0a48c2e97b3d11f60"
+      },
+      {
+        "Description": "coldchain-ingest app tier",
+        "GroupId": "sg-0f63a9b4c05e7d123",
+        "GroupName": "sg-coldchain-ingest",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [],
+            "Ipv6Ranges": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": [
+              {
+                "GroupId": "sg-02b7e6f4a91c3d508"
+              }
+            ],
+            "created_at": "2024-07-06T09:00:00Z",
+            "created_by": "jchen"
+          },
+          {
+            "FromPort": 9443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.40.11.64/32"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 9443,
+            "UserIdGroupPairs": [],
+            "change_ref": "CHG0039812",
+            "created_at": "2024-09-15T10:00:00Z",
+            "created_by": "jchen"
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "sg-coldchain-ingest"
+          }
+        ],
+        "VpcId": "vpc-0a48c2e97b3d11f60"
+      },
+      {
+        "Description": "backup vault ingest",
+        "GroupId": "sg-0a30b5c6d17f8e234",
+        "GroupName": "sg-backup-vault",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [],
+            "Ipv6Ranges": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": [
+              {
+                "GroupId": "sg-02b7e6f4a91c3d508"
+              }
+            ],
+            "created_at": "2024-07-06T09:00:00Z",
+            "created_by": "jchen"
+          },
+          {
+            "FromPort": 8200,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.41.11.17/32"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "ToPort": 8200,
+            "UserIdGroupPairs": [],
+            "change_ref": "CHG0041521",
+            "created_at": "2026-03-24T22:16:00Z",
+            "created_by": "svc-netops-sync"
+          }
+        ],
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "sg-backup-vault"
+          }
+        ],
+        "VpcId": "vpc-0a48c2e97b3d11f60"
+      }
+    ],
+    "subnets": [
+      {
+        "AvailabilityZone": "us-east-1a",
+        "CidrBlock": "10.60.4.0/24",
+        "State": "available",
+        "SubnetId": "subnet-0b2c4d6e8f013579a",
+        "TagSet": [],
+        "VpcId": "vpc-0a48c2e97b3d11f60"
+      }
+    ],
+    "vpcs": [
+      {
+        "CidrBlock": "10.60.0.0/16",
+        "InstanceTenancy": "default",
+        "IsDefault": false,
+        "State": "available",
+        "TagSet": [
+          {
+            "Key": "Name",
+            "Value": "meridian-prod-use1"
+          }
+        ],
+        "VpcId": "vpc-0a48c2e97b3d11f60"
+      }
+    ]
+  },
+  "device42": {
+    "adminusers": [
+      {
+        "email": "jchen@meridianfoods.net",
+        "id": 1,
+        "username": "jchen"
+      },
+      {
+        "email": "etorres@meridianfoods.net",
+        "id": 2,
+        "username": "etorres"
+      },
+      {
+        "email": "svc-netops-sync@meridianfoods.net",
+        "id": 3,
+        "username": "svc-netops-sync"
+      }
+    ],
+    "auditlogs": [
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 1,
+        "object_fields": "{\"device\": \"mfg-batchprint-01\", \"ip\": \"10.40.11.63\"}",
+        "object_id": 400,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 2,
+        "object_fields": "{\"device\": \"mfg-batchprint-01\", \"ip\": \"10.41.11.10\"}",
+        "object_id": 500,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 3,
+        "object_fields": "{\"device\": \"mfg-coldvault-gw-01\", \"ip\": \"10.40.11.64\"}",
+        "object_id": 401,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 4,
+        "object_fields": "{\"device\": \"mfg-coldvault-gw-01\", \"ip\": \"10.41.11.11\"}",
+        "object_id": 501,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 5,
+        "object_fields": "{\"device\": \"mfg-payrelay-01\", \"ip\": \"10.40.11.61\"}",
+        "object_id": 402,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 6,
+        "object_fields": "{\"device\": \"mfg-payrelay-01\", \"ip\": \"10.41.11.12\"}",
+        "object_id": 502,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 7,
+        "object_fields": "{\"device\": \"mfg-scalehub-01\", \"ip\": \"10.40.11.62\"}",
+        "object_id": 403,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 8,
+        "object_fields": "{\"device\": \"mfg-scalehub-01\", \"ip\": \"10.41.11.13\"}",
+        "object_id": 503,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 9,
+        "object_fields": "{\"device\": \"mfg-timeclock-01\", \"ip\": \"10.40.11.65\"}",
+        "object_id": 404,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 10,
+        "object_fields": "{\"device\": \"mfg-timeclock-01\", \"ip\": \"10.41.11.14\"}",
+        "object_id": 504,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 11,
+        "object_fields": "{\"device\": \"srv-ad-dc-01\", \"ip\": \"10.40.11.41\"}",
+        "object_id": 405,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 12,
+        "object_fields": "{\"device\": \"srv-ad-dc-01\", \"ip\": \"10.41.11.15\"}",
+        "object_id": 505,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 13,
+        "object_fields": "{\"device\": \"srv-ad-dc-02\", \"ip\": \"10.40.11.42\"}",
+        "object_id": 406,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 14,
+        "object_fields": "{\"device\": \"srv-ad-dc-02\", \"ip\": \"10.41.11.16\"}",
+        "object_id": 506,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 15,
+        "object_fields": "{\"device\": \"srv-backup-proxy-01\", \"ip\": \"10.40.11.45\"}",
+        "object_id": 407,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 16,
+        "object_fields": "{\"device\": \"srv-backup-proxy-01\", \"ip\": \"10.41.11.17\"}",
+        "object_id": 507,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 17,
+        "object_fields": "{\"device\": \"srv-bi-portal-01\", \"ip\": \"10.40.11.26\"}",
+        "object_id": 408,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 18,
+        "object_fields": "{\"device\": \"srv-bi-portal-01\", \"ip\": \"10.41.11.18\"}",
+        "object_id": 508,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 19,
+        "object_fields": "{\"device\": \"srv-checkout-01\", \"ip\": \"10.40.11.51\"}",
+        "object_id": 409,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 20,
+        "object_fields": "{\"device\": \"srv-checkout-01\", \"ip\": \"10.41.11.19\"}",
+        "object_id": 509,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 21,
+        "object_fields": "{\"device\": \"srv-checkout-02\", \"ip\": \"10.40.11.52\"}",
+        "object_id": 410,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 22,
+        "object_fields": "{\"device\": \"srv-checkout-02\", \"ip\": \"10.41.11.20\"}",
+        "object_id": 510,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 23,
+        "object_fields": "{\"device\": \"srv-dhcp-01\", \"ip\": \"10.40.11.43\"}",
+        "object_id": 411,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 24,
+        "object_fields": "{\"device\": \"srv-dhcp-01\", \"ip\": \"10.41.11.21\"}",
+        "object_id": 511,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 25,
+        "object_fields": "{\"device\": \"srv-erp-app-01\", \"ip\": \"10.40.11.23\"}",
+        "object_id": 412,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 26,
+        "object_fields": "{\"device\": \"srv-erp-app-01\", \"ip\": \"10.41.11.22\"}",
+        "object_id": 512,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 27,
+        "object_fields": "{\"device\": \"srv-erp-db-01\", \"ip\": \"10.40.11.24\"}",
+        "object_id": 413,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 28,
+        "object_fields": "{\"device\": \"srv-erp-db-01\", \"ip\": \"10.41.11.23\"}",
+        "object_id": 513,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 29,
+        "object_fields": "{\"device\": \"srv-grocery-api-01\", \"ip\": \"10.40.11.30\"}",
+        "object_id": 414,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 30,
+        "object_fields": "{\"device\": \"srv-grocery-api-01\", \"ip\": \"10.41.11.24\"}",
+        "object_id": 514,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 31,
+        "object_fields": "{\"device\": \"srv-grocery-api-02\", \"ip\": \"10.40.11.31\"}",
+        "object_id": 415,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 32,
+        "object_fields": "{\"device\": \"srv-grocery-api-02\", \"ip\": \"10.41.11.25\"}",
+        "object_id": 515,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 33,
+        "object_fields": "{\"device\": \"srv-label-print-01\", \"ip\": \"10.40.11.46\"}",
+        "object_id": 416,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 34,
+        "object_fields": "{\"device\": \"srv-label-print-01\", \"ip\": \"10.41.11.26\"}",
+        "object_id": 516,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 35,
+        "object_fields": "{\"device\": \"srv-monitor-01\", \"ip\": \"10.40.11.44\"}",
+        "object_id": 417,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 36,
+        "object_fields": "{\"device\": \"srv-monitor-01\", \"ip\": \"10.41.11.27\"}",
+        "object_id": 517,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 37,
+        "object_fields": "{\"device\": \"srv-mq-relay-01\", \"ip\": \"10.40.11.35\"}",
+        "object_id": 418,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 38,
+        "object_fields": "{\"device\": \"srv-mq-relay-01\", \"ip\": \"10.41.11.28\"}",
+        "object_id": 518,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 39,
+        "object_fields": "{\"device\": \"srv-print-01\", \"ip\": \"10.40.11.40\"}",
+        "object_id": 419,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 40,
+        "object_fields": "{\"device\": \"srv-print-01\", \"ip\": \"10.41.11.29\"}",
+        "object_id": 519,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 41,
+        "object_fields": "{\"device\": \"srv-storefront-01\", \"ip\": \"10.40.11.21\"}",
+        "object_id": 420,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 42,
+        "object_fields": "{\"device\": \"srv-storefront-01\", \"ip\": \"10.41.11.30\"}",
+        "object_id": 520,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 43,
+        "object_fields": "{\"device\": \"srv-storefront-02\", \"ip\": \"10.40.11.22\"}",
+        "object_id": 421,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 44,
+        "object_fields": "{\"device\": \"srv-storefront-02\", \"ip\": \"10.41.11.31\"}",
+        "object_id": 521,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 45,
+        "object_fields": "{\"device\": \"srv-voice-ivr-01\", \"ip\": \"10.40.11.47\"}",
+        "object_id": 422,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 46,
+        "object_fields": "{\"device\": \"srv-voice-ivr-01\", \"ip\": \"10.41.11.32\"}",
+        "object_id": 522,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Clear IP",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 47,
+        "object_fields": "{\"device\": \"srv-wh-ctl-01\", \"ip\": \"10.40.11.25\"}",
+        "object_id": 423,
+        "object_type": "ips",
+        "user": "jchen"
+      },
+      {
+        "action": "Update",
+        "action_time": "2026-02-20T10:00:00Z",
+        "changed_fields": {},
+        "from": "API",
+        "id": 48,
+        "object_fields": "{\"device\": \"srv-wh-ctl-01\", \"ip\": \"10.41.11.33\"}",
+        "object_id": 523,
+        "object_type": "ips",
+        "user": "jchen"
+      }
+    ],
+    "buildings": [
+      {
+        "address": "4200 Freight Rd, Columbus OH",
+        "building_id": 1,
+        "name": "DC-West"
+      }
+    ],
+    "devices": [
+      {
+        "building": "DC-West",
+        "device_id": 834427,
+        "first_added": "2024-02-11T10:00:00Z",
+        "hw_model": "ProLiant DL380 Gen10",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-ad-dc-02",
+        "rack": "R02",
+        "room": "Hall 1",
+        "serial_no": "MFG3C37CBF0A",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 819632,
+        "first_added": "2020-03-11T10:00:00Z",
+        "hw_model": "ProLiant DL380 Gen10",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "core-sw-01",
+        "rack": "R03",
+        "room": "NOC",
+        "serial_no": "MFGFF0FA5483",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 724350,
+        "first_added": "2022-04-11T10:00:00Z",
+        "hw_model": "PowerEdge R650",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "mfg-scalehub-01",
+        "rack": "R13",
+        "room": "Hall 1",
+        "serial_no": "MFGE7D92695E",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 39408,
+        "first_added": "2023-07-11T10:00:00Z",
+        "hw_model": "ThinkSystem SR630",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "mfg-payrelay-01",
+        "rack": "R07",
+        "room": "Hall 1",
+        "serial_no": "MFG597E8265A",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 32503,
+        "first_added": "2020-05-11T10:00:00Z",
+        "hw_model": "ThinkSystem SR630",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-erp-db-01",
+        "rack": "R14",
+        "room": "Hall 1",
+        "serial_no": "MFG57FED9EF1",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 662697,
+        "first_added": "2018-01-11T10:00:00Z",
+        "hw_model": "ProLiant DL380 Gen10",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "freezer-mon-01",
+        "rack": "R10",
+        "room": "Hall 1",
+        "serial_no": "MFGFC5FC96C3",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 72293,
+        "first_added": "2022-06-11T10:00:00Z",
+        "hw_model": "ThinkSystem SR630",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "oob-mgmt-01",
+        "rack": "R06",
+        "room": "NOC",
+        "serial_no": "MFG4C86BB216",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 377403,
+        "first_added": "2023-07-11T10:00:00Z",
+        "hw_model": "ThinkSystem SR630",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-checkout-01",
+        "rack": "R16",
+        "room": "Hall 1",
+        "serial_no": "MFGAEFD630BB",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 800044,
+        "first_added": "2018-08-11T10:00:00Z",
+        "hw_model": "PowerEdge R660",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "cam-dvr-hall3-01",
+        "rack": "R17",
+        "room": "Hall 3",
+        "serial_no": "MFGFCE1D457D",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 27640,
+        "first_added": "2022-02-11T10:00:00Z",
+        "hw_model": "PowerEdge R650",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-checkout-02",
+        "rack": "R11",
+        "room": "Hall 1",
+        "serial_no": "MFG2D373CC59",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 443276,
+        "first_added": "2019-09-11T10:00:00Z",
+        "hw_model": "PowerEdge R750",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "mfg-timeclock-01",
+        "rack": "R09",
+        "room": "Hall 1",
+        "serial_no": "MFGA2862872C",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 276382,
+        "first_added": "2019-02-11T10:00:00Z",
+        "hw_model": "ProLiant DL380 Gen10",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-erp-app-01",
+        "rack": "R11",
+        "room": "Hall 1",
+        "serial_no": "MFG40F9A12F0",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 152842,
+        "first_added": "2022-05-11T10:00:00Z",
+        "hw_model": "ProLiant DL380 Gen10",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "dock-scale-01",
+        "rack": "R05",
+        "room": "Hall 1",
+        "serial_no": "MFG0A2333606",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 827031,
+        "first_added": "2020-04-11T10:00:00Z",
+        "hw_model": "PowerEdge R750",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-grocery-api-02",
+        "rack": "R04",
+        "room": "Hall 1",
+        "serial_no": "MFGAC199C684",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 616256,
+        "first_added": "2022-09-11T10:00:00Z",
+        "hw_model": "PowerEdge R750",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "sprinkler-panel-01",
+        "rack": "R09",
+        "room": "Hall 1",
+        "serial_no": "MFGE5353B566",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 457842,
+        "first_added": "2018-04-11T10:00:00Z",
+        "hw_model": "ProLiant DL380 Gen10",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "hvac-ctl-01",
+        "rack": "R13",
+        "room": "Hall 1",
+        "serial_no": "MFGFB1AD83A1",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 701773,
+        "first_added": "2020-08-11T10:00:00Z",
+        "hw_model": "ThinkSystem SR630",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-mq-relay-01",
+        "rack": "R08",
+        "room": "Hall 1",
+        "serial_no": "MFGBC1E1E3DE",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 492962,
+        "first_added": "2019-06-11T10:00:00Z",
+        "hw_model": "ProLiant DL380 Gen10",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-storefront-02",
+        "rack": "R15",
+        "room": "Hall 1",
+        "serial_no": "MFG6FD33F5CE",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 30908,
+        "first_added": "2021-03-11T10:00:00Z",
+        "hw_model": "ThinkSystem SR630",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-bi-etl-01",
+        "rack": "R03",
+        "room": "Hall 3",
+        "serial_no": "MFG8C6B34A18",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 742201,
+        "first_added": "2023-08-11T10:00:00Z",
+        "hw_model": "PowerEdge R750",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-print-01",
+        "rack": "R08",
+        "room": "Hall 1",
+        "serial_no": "MFG13C30BAC8",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 222913,
+        "first_added": "2023-02-11T10:00:00Z",
+        "hw_model": "ThinkSystem SR630",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-voice-ivr-01",
+        "rack": "R02",
+        "room": "Hall 1",
+        "serial_no": "MFG1A1B7661C",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 605001,
+        "first_added": "2023-04-11T10:00:00Z",
+        "hw_model": "PowerEdge R750",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "mfg-coldvault-gw-01",
+        "rack": "R04",
+        "room": "Hall 1",
+        "serial_no": "MFG7B46EDFF7",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 288038,
+        "first_added": "2020-03-11T10:00:00Z",
+        "hw_model": "ThinkSystem SR630",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "conveyor-plc-gw-01",
+        "rack": "R03",
+        "room": "Hall 1",
+        "serial_no": "MFG7AD7ADF46",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 18952,
+        "first_added": "2021-08-11T10:00:00Z",
+        "hw_model": "ProLiant DL380 Gen10",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "mfg-batchprint-01",
+        "rack": "R17",
+        "room": "Hall 1",
+        "serial_no": "MFGFDAA2BCB5",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 435055,
+        "first_added": "2023-05-11T10:00:00Z",
+        "hw_model": "PowerEdge R650",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-monitor-01",
+        "rack": "R14",
+        "room": "Hall 1",
+        "serial_no": "MFGC981CAC12",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 815193,
+        "first_added": "2019-01-11T10:00:00Z",
+        "hw_model": "ThinkSystem SR630",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-ups-mon-01",
+        "rack": "R10",
+        "room": "Hall 3",
+        "serial_no": "MFGD2E58F158",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 68055,
+        "first_added": "2019-07-11T10:00:00Z",
+        "hw_model": "PowerEdge R650",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "edge-rtr-02",
+        "rack": "R16",
+        "room": "NOC",
+        "serial_no": "MFG09307DC75",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 528473,
+        "first_added": "2019-03-11T10:00:00Z",
+        "hw_model": "ThinkSystem SR630",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-wh-ctl-01",
+        "rack": "R12",
+        "room": "Hall 1",
+        "serial_no": "MFG9852AF898",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 411296,
+        "first_added": "2022-06-11T10:00:00Z",
+        "hw_model": "PowerEdge R750",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-patch-repo-01",
+        "rack": "R15",
+        "room": "Hall 3",
+        "serial_no": "MFG10C22961F",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 381666,
+        "first_added": "2023-04-11T10:00:00Z",
+        "hw_model": "PowerEdge R750",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-kiosk-gw-03",
+        "rack": "R13",
+        "room": "Hall 3",
+        "serial_no": "MFGB717E0D76",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 57217,
+        "first_added": "2024-05-11T10:00:00Z",
+        "hw_model": "ProLiant DL380 Gen10",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-dw-proxy-01",
+        "rack": "R14",
+        "room": "Hall 3",
+        "serial_no": "MFGB734989AE",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 556534,
+        "first_added": "2024-02-11T10:00:00Z",
+        "hw_model": "PowerEdge R660",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-bi-portal-01",
+        "rack": "R11",
+        "room": "Hall 1",
+        "serial_no": "MFG6E036EA50",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 769824,
+        "first_added": "2024-01-11T10:00:00Z",
+        "hw_model": "PowerEdge R660",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "edge-lb-01",
+        "rack": "R01",
+        "room": "NOC",
+        "serial_no": "MFG2DCB8BF67",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 724749,
+        "first_added": "2022-07-11T10:00:00Z",
+        "hw_model": "PowerEdge R660",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-scale-ctl-01",
+        "rack": "R16",
+        "room": "Hall 3",
+        "serial_no": "MFG270A7D0F5",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 807449,
+        "first_added": "2024-06-11T10:00:00Z",
+        "hw_model": "PowerEdge R660",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-grocery-api-01",
+        "rack": "R06",
+        "room": "Hall 1",
+        "serial_no": "MFGB14594AA4",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 544949,
+        "first_added": "2024-09-11T10:00:00Z",
+        "hw_model": "PowerEdge R660",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-backup-proxy-01",
+        "rack": "R18",
+        "room": "Hall 1",
+        "serial_no": "MFG2F4D4E1A0",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 900839,
+        "first_added": "2020-03-11T10:00:00Z",
+        "hw_model": "PowerEdge R660",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-ad-dc-01",
+        "rack": "R12",
+        "room": "Hall 1",
+        "serial_no": "MFGD444CE5A3",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 708618,
+        "first_added": "2019-04-11T10:00:00Z",
+        "hw_model": "ThinkSystem SR630",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "badge-ctl-01",
+        "rack": "R13",
+        "room": "Hall 1",
+        "serial_no": "MFGA3AD395DD",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 222133,
+        "first_added": "2020-05-11T10:00:00Z",
+        "hw_model": "ThinkSystem SR630",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-print-hall3-01",
+        "rack": "R14",
+        "room": "Hall 3",
+        "serial_no": "MFG0F3B3BB38",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 367804,
+        "first_added": "2021-02-11T10:00:00Z",
+        "hw_model": "PowerEdge R660",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "edge-rtr-01",
+        "rack": "R11",
+        "room": "NOC",
+        "serial_no": "MFGFD1292F96",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 191769,
+        "first_added": "2022-07-11T10:00:00Z",
+        "hw_model": "PowerEdge R660",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-label-print-01",
+        "rack": "R16",
+        "room": "Hall 1",
+        "serial_no": "MFG1DA307419",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 793292,
+        "first_added": "2021-06-11T10:00:00Z",
+        "hw_model": "ProLiant DL380 Gen10",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-wifi-ctl-01",
+        "rack": "R15",
+        "room": "Hall 3",
+        "serial_no": "MFG81B150229",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 578785,
+        "first_added": "2022-05-11T10:00:00Z",
+        "hw_model": "PowerEdge R650",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-dhcp-01",
+        "rack": "R14",
+        "room": "Hall 1",
+        "serial_no": "MFG7978BAE6F",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 610877,
+        "first_added": "2019-03-11T10:00:00Z",
+        "hw_model": "ProLiant DL380 Gen10",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-storefront-01",
+        "rack": "R12",
+        "room": "Hall 1",
+        "serial_no": "MFG6DEECCF79",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 486789,
+        "first_added": "2020-07-11T10:00:00Z",
+        "hw_model": "PowerEdge R660",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "srv-jump-01",
+        "rack": "R16",
+        "room": "Hall 3",
+        "serial_no": "MFG485C481FA",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "building": "DC-West",
+        "device_id": 309722,
+        "first_added": "2018-06-11T10:00:00Z",
+        "hw_model": "ProLiant DL380 Gen10",
+        "in_service": true,
+        "last_updated": "2026-02-20T10:00:00Z",
+        "name": "core-sw-02",
+        "rack": "R15",
+        "room": "NOC",
+        "serial_no": "MFG7BD657169",
+        "service_level": "production",
+        "type": "physical"
+      }
+    ],
+    "ips": [
+      {
+        "device": "srv-kiosk-gw-03",
+        "device_id": 381666,
+        "ip": "10.40.31.26",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H3-SRV"
+      },
+      {
+        "device": "srv-grocery-api-01",
+        "device_id": 807449,
+        "ip": "10.41.11.24",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-wifi-ctl-01",
+        "device_id": 793292,
+        "ip": "10.40.31.24",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H3-SRV"
+      },
+      {
+        "device": "mfg-batchprint-01",
+        "device_id": 18952,
+        "ip": "10.41.11.10",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "dock-scale-01",
+        "device_id": 152842,
+        "ip": "10.40.12.7",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H1-OT"
+      },
+      {
+        "device": "srv-voice-ivr-01",
+        "device_id": 222913,
+        "ip": "10.41.11.32",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "conveyor-plc-gw-01",
+        "device_id": 288038,
+        "ip": "10.40.12.6",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H1-OT"
+      },
+      {
+        "device": "mfg-payrelay-01",
+        "device_id": 39408,
+        "ip": "10.41.11.12",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-patch-repo-01",
+        "device_id": 411296,
+        "ip": "10.40.31.32",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H3-SRV"
+      },
+      {
+        "device": "mfg-coldvault-gw-01",
+        "device_id": 605001,
+        "ip": "10.41.11.11",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "core-sw-02",
+        "device_id": 309722,
+        "ip": "10.40.8.3",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-CORE"
+      },
+      {
+        "device": "srv-ups-mon-01",
+        "device_id": 815193,
+        "ip": "10.40.31.29",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H3-SRV"
+      },
+      {
+        "device": "srv-dw-proxy-01",
+        "device_id": 57217,
+        "ip": "10.40.31.27",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H3-SRV"
+      },
+      {
+        "device": "srv-ad-dc-01",
+        "device_id": 900839,
+        "ip": "10.41.11.15",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-label-print-01",
+        "device_id": 191769,
+        "ip": "10.41.11.26",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-bi-etl-01",
+        "device_id": 30908,
+        "ip": "10.40.31.22",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H3-SRV"
+      },
+      {
+        "device": "srv-checkout-01",
+        "device_id": 377403,
+        "ip": "10.41.11.19",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-storefront-01",
+        "device_id": 610877,
+        "ip": "10.41.11.30",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "mfg-timeclock-01",
+        "device_id": 443276,
+        "ip": "10.41.11.14",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "hvac-ctl-01",
+        "device_id": 457842,
+        "ip": "10.40.12.5",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H1-OT"
+      },
+      {
+        "device": "srv-mq-relay-01",
+        "device_id": 701773,
+        "ip": "10.41.11.28",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "edge-rtr-02",
+        "device_id": 68055,
+        "ip": "10.40.8.5",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-CORE"
+      },
+      {
+        "device": "srv-erp-db-01",
+        "device_id": 32503,
+        "ip": "10.41.11.23",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-print-01",
+        "device_id": 742201,
+        "ip": "10.41.11.29",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "core-sw-01",
+        "device_id": 819632,
+        "ip": "10.40.8.2",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-CORE"
+      },
+      {
+        "device": "srv-storefront-02",
+        "device_id": 492962,
+        "ip": "10.41.11.31",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-checkout-02",
+        "device_id": 27640,
+        "ip": "10.41.11.20",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "sprinkler-panel-01",
+        "device_id": 616256,
+        "ip": "10.40.12.9",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H1-OT"
+      },
+      {
+        "device": "srv-backup-proxy-01",
+        "device_id": 544949,
+        "ip": "10.41.11.17",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-erp-app-01",
+        "device_id": 276382,
+        "ip": "10.41.11.22",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-print-hall3-01",
+        "device_id": 222133,
+        "ip": "10.40.31.35",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H3-SRV"
+      },
+      {
+        "device": "srv-monitor-01",
+        "device_id": 435055,
+        "ip": "10.41.11.27",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-dhcp-01",
+        "device_id": 578785,
+        "ip": "10.41.11.21",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-jump-01",
+        "device_id": 486789,
+        "ip": "10.40.31.33",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H3-SRV"
+      },
+      {
+        "device": "srv-scale-ctl-01",
+        "device_id": 724749,
+        "ip": "10.40.31.25",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H3-SRV"
+      },
+      {
+        "device": "oob-mgmt-01",
+        "device_id": 72293,
+        "ip": "10.40.8.10",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-CORE"
+      },
+      {
+        "device": "edge-rtr-01",
+        "device_id": 367804,
+        "ip": "10.40.8.4",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-CORE"
+      },
+      {
+        "device": "edge-lb-01",
+        "device_id": 769824,
+        "ip": "10.40.8.40",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-CORE"
+      },
+      {
+        "device": "mfg-scalehub-01",
+        "device_id": 724350,
+        "ip": "10.41.11.13",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-bi-portal-01",
+        "device_id": 556534,
+        "ip": "10.41.11.18",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "cam-dvr-hall3-01",
+        "device_id": 800044,
+        "ip": "10.40.31.28",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H3-SRV"
+      },
+      {
+        "device": "freezer-mon-01",
+        "device_id": 662697,
+        "ip": "10.40.12.8",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H1-OT"
+      },
+      {
+        "device": "srv-grocery-api-02",
+        "device_id": 827031,
+        "ip": "10.41.11.25",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "badge-ctl-01",
+        "device_id": 708618,
+        "ip": "10.40.12.10",
+        "label": "prod",
+        "last_updated": "2026-02-01T09:00:00Z",
+        "subnet": "DCW-H1-OT"
+      },
+      {
+        "device": "srv-ad-dc-02",
+        "device_id": 834427,
+        "ip": "10.41.11.16",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      },
+      {
+        "device": "srv-wh-ctl-01",
+        "device_id": 528473,
+        "ip": "10.41.11.33",
+        "label": "prod",
+        "last_updated": "2026-02-20T10:00:00Z",
+        "subnet": "DCW-H1-SRV"
+      }
+    ],
+    "lifecycle_events": [
+      {
+        "date": "2026-04-15T11:25:00Z",
+        "device": "srv-kiosk-gw-03",
+        "device_id": 381666,
+        "id": 1,
+        "type": "Deployed",
+        "user": "etorres"
+      },
+      {
+        "date": "2026-01-22T13:00:00Z",
+        "device": "cam-dvr-hall3-01",
+        "device_id": 800044,
+        "id": 2,
+        "type": "Moved",
+        "user": "etorres"
+      }
+    ],
+    "rooms": [
+      {
+        "building": "DC-West",
+        "building_id": 1,
+        "name": "Hall 1",
+        "room_id": 1
+      },
+      {
+        "building": "DC-West",
+        "building_id": 1,
+        "name": "Hall 3",
+        "room_id": 3
+      },
+      {
+        "building": "DC-West",
+        "building_id": 1,
+        "name": "NOC",
+        "room_id": 4
+      }
+    ],
+    "subnets": [
+      {
+        "mask_bits": 24,
+        "name": "BGP-INTEG-RESERVED",
+        "network": "10.40.11.0",
+        "notes": "reserved: Bluegrass Provisions integration overlay",
+        "subnet_id": 1
+      },
+      {
+        "mask_bits": 24,
+        "name": "DCW-H1-SRV",
+        "network": "10.41.11.0",
+        "subnet_id": 2
+      },
+      {
+        "mask_bits": 24,
+        "name": "DCW-H1-OT",
+        "network": "10.40.12.0",
+        "subnet_id": 3
+      },
+      {
+        "mask_bits": 24,
+        "name": "DCW-H3-SRV",
+        "network": "10.40.31.0",
+        "subnet_id": 4
+      },
+      {
+        "mask_bits": 24,
+        "name": "DCW-CORE",
+        "network": "10.40.8.0",
+        "subnet_id": 5
+      }
+    ]
+  },
+  "haproxy": {
+    "backends": [
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "mode": "http",
+        "name": "be_bi_portal"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "mode": "http",
+        "name": "be_bi_reports"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "mode": "http",
+        "name": "be_checkout"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "mode": "http",
+        "name": "be_dw_proxy"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "mode": "http",
+        "name": "be_erp_app"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "mode": "http",
+        "name": "be_grocery_api"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "mode": "http",
+        "name": "be_label_api"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "mode": "http",
+        "name": "be_patch_repo"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "mode": "http",
+        "name": "be_payrelay"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "mode": "http",
+        "name": "be_storefront_web"
+      },
+      {
+        "balance": {
+          "algorithm": "roundrobin"
+        },
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "mode": "http",
+        "name": "be_wh_ctl_api"
+      }
+    ],
+    "binds": [
+      {
+        "address": "0.0.0.0",
+        "created_at": "2020-02-03T14:00:00Z",
+        "created_by": "jchen",
+        "name": "public",
+        "parent_name": "fe_edge_https",
+        "port": 443
+      },
+      {
+        "address": "0.0.0.0",
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "name": "stores",
+        "parent_name": "fe_pos_internal",
+        "port": 8443
+      }
+    ],
+    "frontends": [
+      {
+        "created_at": "2020-02-03T14:00:00Z",
+        "created_by": "jchen",
+        "default_backend": "be_storefront_web",
+        "mode": "http",
+        "name": "fe_edge_https"
+      },
+      {
+        "created_at": "2021-04-11T14:00:00Z",
+        "created_by": "jchen",
+        "default_backend": "be_checkout",
+        "mode": "http",
+        "name": "fe_pos_internal"
+      }
+    ],
+    "runtimeServers": [
+      {
+        "address": "10.40.11.26",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_bi_portal",
+        "port": 8080,
+        "server_name": "bi-portal-01"
+      },
+      {
+        "address": "10.40.31.22",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_bi_reports",
+        "port": 8080,
+        "server_name": "bi-etl-01"
+      },
+      {
+        "address": "10.40.11.51",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_checkout",
+        "port": 8443,
+        "server_name": "checkout-01"
+      },
+      {
+        "address": "10.40.11.52",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_checkout",
+        "port": 8443,
+        "server_name": "checkout-02"
+      },
+      {
+        "address": "10.40.31.27",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_dw_proxy",
+        "port": 8443,
+        "server_name": "dw-proxy-01"
+      },
+      {
+        "address": "10.40.11.23",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_erp_app",
+        "port": 8009,
+        "server_name": "erp-app-01"
+      },
+      {
+        "address": "10.40.11.30",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_grocery_api",
+        "port": 8443,
+        "server_name": "grocery-api-01"
+      },
+      {
+        "address": "10.40.11.31",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_grocery_api",
+        "port": 8443,
+        "server_name": "grocery-api-02"
+      },
+      {
+        "address": "10.41.11.26",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_label_api",
+        "port": 9100,
+        "server_name": "label-print-01"
+      },
+      {
+        "address": "10.40.31.32",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_patch_repo",
+        "port": 8081,
+        "server_name": "patch-repo-01"
+      },
+      {
+        "address": "10.40.11.61",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_payrelay",
+        "port": 8443,
+        "server_name": "payrelay-01"
+      },
+      {
+        "address": "10.41.11.30",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_storefront_web",
+        "port": 8080,
+        "server_name": "storefront-01"
+      },
+      {
+        "address": "10.41.11.31",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_storefront_web",
+        "port": 8080,
+        "server_name": "storefront-02"
+      },
+      {
+        "address": "10.41.11.33",
+        "admin_state": "ready",
+        "operational_state": "up",
+        "parent_name": "be_wh_ctl_api",
+        "port": 9443,
+        "server_name": "wh-ctl-01"
+      }
+    ],
+    "servers": [
+      {
+        "address": "10.41.11.18",
+        "check": "enabled",
+        "created_at": "2026-03-31T22:39:00Z",
+        "created_by": "svc-netops-sync",
+        "name": "bi-portal-01",
+        "parent_name": "be_bi_portal",
+        "port": 8080
+      },
+      {
+        "address": "10.40.31.22",
+        "check": "enabled",
+        "created_at": "2021-04-11T14:05:00Z",
+        "created_by": "jchen",
+        "name": "bi-etl-01",
+        "parent_name": "be_bi_reports",
+        "port": 8080
+      },
+      {
+        "address": "10.41.11.19",
+        "check": "enabled",
+        "created_at": "2026-03-31T22:39:00Z",
+        "created_by": "svc-netops-sync",
+        "name": "checkout-01",
+        "parent_name": "be_checkout",
+        "port": 8443
+      },
+      {
+        "address": "10.40.11.52",
+        "check": "enabled",
+        "created_at": "2021-04-11T14:05:00Z",
+        "created_by": "jchen",
+        "name": "checkout-02",
+        "parent_name": "be_checkout",
+        "port": 8443
+      },
+      {
+        "address": "10.40.31.27",
+        "check": "enabled",
+        "created_at": "2021-04-11T14:05:00Z",
+        "created_by": "jchen",
+        "name": "dw-proxy-01",
+        "parent_name": "be_dw_proxy",
+        "port": 8443
+      },
+      {
+        "address": "10.40.11.23",
+        "check": "enabled",
+        "created_at": "2021-04-11T14:05:00Z",
+        "created_by": "jchen",
+        "name": "erp-app-01",
+        "parent_name": "be_erp_app",
+        "port": 8009
+      },
+      {
+        "address": "10.41.11.24",
+        "check": "enabled",
+        "created_at": "2026-03-31T22:39:00Z",
+        "created_by": "svc-netops-sync",
+        "name": "grocery-api-01",
+        "parent_name": "be_grocery_api",
+        "port": 8443
+      },
+      {
+        "address": "10.41.11.25",
+        "check": "enabled",
+        "created_at": "2026-03-31T22:39:00Z",
+        "created_by": "svc-netops-sync",
+        "name": "grocery-api-02",
+        "parent_name": "be_grocery_api",
+        "port": 8443
+      },
+      {
+        "address": "10.41.11.26",
+        "check": "enabled",
+        "created_at": "2026-03-24T22:12:00Z",
+        "created_by": "svc-netops-sync",
+        "name": "label-print-01",
+        "parent_name": "be_label_api",
+        "port": 9100
+      },
+      {
+        "address": "10.40.31.32",
+        "check": "enabled",
+        "created_at": "2021-04-11T14:05:00Z",
+        "created_by": "jchen",
+        "name": "patch-repo-01",
+        "parent_name": "be_patch_repo",
+        "port": 8081
+      },
+      {
+        "address": "10.40.11.61",
+        "check": "enabled",
+        "created_at": "2021-04-11T14:05:00Z",
+        "created_by": "jchen",
+        "name": "payrelay-01",
+        "parent_name": "be_payrelay",
+        "port": 8443
+      },
+      {
+        "address": "10.41.11.30",
+        "check": "enabled",
+        "created_at": "2026-03-24T22:12:00Z",
+        "created_by": "svc-netops-sync",
+        "name": "storefront-01",
+        "parent_name": "be_storefront_web",
+        "port": 8080
+      },
+      {
+        "address": "10.41.11.31",
+        "check": "enabled",
+        "created_at": "2026-03-24T22:12:00Z",
+        "created_by": "svc-netops-sync",
+        "name": "storefront-02",
+        "parent_name": "be_storefront_web",
+        "port": 8080
+      },
+      {
+        "address": "10.41.11.33",
+        "check": "enabled",
+        "created_at": "2026-03-24T22:12:00Z",
+        "created_by": "svc-netops-sync",
+        "name": "wh-ctl-01",
+        "parent_name": "be_wh_ctl_api",
+        "port": 9443
+      }
+    ]
+  },
+  "infoblox-nios": {
+    "a_records": [
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.31.32",
+        "name": "srv-patch-repo-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-24T22:12:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.30",
+        "name": "srv-storefront-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-24T22:06:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.16",
+        "name": "srv-ad-dc-02.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.8.3",
+        "name": "core-sw-02.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-31T22:32:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.19",
+        "name": "srv-checkout-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.8.4",
+        "name": "edge-rtr-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-24T22:11:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.29",
+        "name": "srv-print-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-31T22:31:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.18",
+        "name": "srv-bi-portal-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.31.25",
+        "name": "srv-scale-ctl-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2019-03-02T09:00:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.11.65",
+        "name": "mfg-timeclock-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-31T22:36:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.24",
+        "name": "srv-grocery-api-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.31.22",
+        "name": "srv-bi-etl-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.31.35",
+        "name": "srv-print-hall3-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-24T22:14:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.33",
+        "name": "srv-wh-ctl-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-31T22:33:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.20",
+        "name": "srv-checkout-02.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2019-03-02T09:00:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.11.63",
+        "name": "mfg-batchprint-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.8.40",
+        "name": "edge-lb-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.31.26",
+        "name": "srv-kiosk-gw-03.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-31T22:31:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.25",
+        "name": "srv-grocery-api-02.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.12.9",
+        "name": "sprinkler-panel-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.31.33",
+        "name": "srv-jump-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.12.8",
+        "name": "freezer-mon-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2019-03-02T09:00:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.11.61",
+        "name": "mfg-payrelay-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-24T22:13:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.31",
+        "name": "srv-storefront-02.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-24T22:09:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.26",
+        "name": "srv-label-print-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.8.2",
+        "name": "core-sw-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.31.24",
+        "name": "srv-wifi-ctl-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.12.6",
+        "name": "conveyor-plc-gw-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-04-03T09:25:00Z",
+        "created_by": "etorres",
+        "ipv4addr": "10.41.11.13",
+        "name": "mfg-scalehub-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.8.5",
+        "name": "edge-rtr-02.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.8.10",
+        "name": "oob-mgmt-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-24T22:05:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.15",
+        "name": "srv-ad-dc-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-24T22:08:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.21",
+        "name": "srv-dhcp-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.31.29",
+        "name": "srv-ups-mon-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.31.27",
+        "name": "srv-dw-proxy-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-31T22:32:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.28",
+        "name": "srv-mq-relay-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-31T22:35:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.23",
+        "name": "srv-erp-db-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.12.5",
+        "name": "hvac-ctl-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.31.28",
+        "name": "cam-dvr-hall3-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-24T22:07:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.17",
+        "name": "srv-backup-proxy-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-24T22:10:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.27",
+        "name": "srv-monitor-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-31T22:33:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.32",
+        "name": "srv-voice-ivr-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2026-03-31T22:34:00Z",
+        "created_by": "svc-netops-sync",
+        "ipv4addr": "10.41.11.22",
+        "name": "srv-erp-app-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.12.10",
+        "name": "badge-ctl-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "created_at": "2022-03-05T08:30:00Z",
+        "created_by": "svc-ddi",
+        "ipv4addr": "10.40.12.7",
+        "name": "dock-scale-01.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      }
+    ],
+    "cname_records": [
+      {
+        "canonical": "srv-dw-proxy-01.meridianfoods.net",
+        "created_at": "2022-06-11T10:25:00Z",
+        "created_by": "svc-ddi",
+        "name": "dw.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "canonical": "edge-lb-01.meridianfoods.net",
+        "created_at": "2022-01-11T10:20:00Z",
+        "created_by": "svc-ddi",
+        "name": "checkout.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "canonical": "mfg-timeclock-01.meridianfoods.net",
+        "created_at": "2019-03-02T09:05:00Z",
+        "created_by": "svc-ddi",
+        "name": "clock.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "canonical": "edge-lb-01.meridianfoods.net",
+        "created_at": "2022-02-11T10:21:00Z",
+        "created_by": "svc-ddi",
+        "name": "shop.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "canonical": "edge-lb-01.meridianfoods.net",
+        "created_at": "2022-03-11T10:22:00Z",
+        "created_by": "svc-ddi",
+        "name": "erp.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "canonical": "srv-monitor-01.meridianfoods.net",
+        "created_at": "2022-07-11T10:26:00Z",
+        "created_by": "svc-ddi",
+        "name": "helpdesk.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "canonical": "srv-bi-etl-01.meridianfoods.net",
+        "created_at": "2022-04-11T10:23:00Z",
+        "created_by": "svc-ddi",
+        "name": "reports.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      },
+      {
+        "canonical": "srv-patch-repo-01.meridianfoods.net",
+        "created_at": "2022-05-11T10:24:00Z",
+        "created_by": "svc-ddi",
+        "name": "registry.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      }
+    ],
+    "mx_records": [
+      {
+        "created_at": "2019-02-11T08:10:00Z",
+        "created_by": "svc-ddi",
+        "mail_exchanger": "aspmx.l.google.com",
+        "name": "meridianfoods.net",
+        "preference": 1,
+        "view": "default",
+        "zone": "meridianfoods.net"
+      }
+    ],
+    "ns_records": [
+      {
+        "created_at": "2016-01-05T08:00:00Z",
+        "created_by": "svc-ddi",
+        "name": "meridianfoods.net",
+        "nameserver": "ns1.meridianfoods.net",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      }
+    ],
+    "txt_records": [
+      {
+        "created_at": "2019-02-11T08:00:00Z",
+        "created_by": "svc-ddi",
+        "name": "meridianfoods.net",
+        "text": "v=spf1 include:_spf.google.com ~all",
+        "view": "default",
+        "zone": "meridianfoods.net"
+      }
+    ],
+    "zones": [
+      {
+        "created_at": "2016-01-05T08:00:00Z",
+        "created_by": "svc-ddi",
+        "fqdn": "meridianfoods.net",
+        "view": "default"
+      }
+    ]
+  },
+  "servicenow": {
+    "change_request": [
+      {
+        "cmdb_ci": "core-sw-01",
+        "description": "Free 10.40.11.0/24 for the Bluegrass Provisions network integration. Address plan maintained in Device42.",
+        "number": "CHG0041500",
+        "opened_at": "2026-02-10 09:00:00",
+        "requested_by": "bc795eab04d4c2dc339e23ea915d2135",
+        "short_description": "RFC1918 remediation: renumber DCW-H1-SRV 10.40.11.0/24 to 10.41.11.0/24",
+        "state": "2",
+        "sys_created_by": "jchen",
+        "sys_created_on": "2026-02-10 09:00:00",
+        "sys_id": "a76e4affde33a6e45d566ef6c1957e0d",
+        "sys_updated_by": "jchen",
+        "sys_updated_on": "2026-05-11 22:40:00",
+        "type": "normal"
+      },
+      {
+        "close_notes": "sync run completed: hosts=10 records_updated=34",
+        "closed_at": "2026-03-24 22:19:02",
+        "closed_by": "15828ea8dd957d09326baceb19b67fb9",
+        "cmdb_ci": "",
+        "description": "scope: srv-ad-dc-01, srv-ad-dc-02, srv-backup-proxy-01, srv-dhcp-01, srv-label-print-01, srv-monitor-01, srv-print-01, srv-storefront-01, srv-storefront-02, srv-wh-ctl-01",
+        "number": "CHG0041521",
+        "opened_at": "2026-03-20 09:00:00",
+        "parent": "a76e4affde33a6e45d566ef6c1957e0d",
+        "requested_by": "bc795eab04d4c2dc339e23ea915d2135",
+        "short_description": "Renumber push wave 1 (automated)",
+        "state": "3",
+        "sys_created_by": "jchen",
+        "sys_created_on": "2026-03-20 09:00:00",
+        "sys_id": "9d1d55d8523f57191d5fe9338cbee81c",
+        "sys_updated_by": "svc-netops-sync",
+        "sys_updated_on": "2026-03-24 22:19:02",
+        "type": "standard"
+      },
+      {
+        "close_notes": "sync run completed: hosts=9 records_updated=31",
+        "closed_at": "2026-03-31 22:47:11",
+        "closed_by": "15828ea8dd957d09326baceb19b67fb9",
+        "cmdb_ci": "",
+        "description": "scope: srv-bi-portal-01, srv-checkout-01, srv-checkout-02, srv-erp-app-01, srv-erp-db-01, srv-grocery-api-01, srv-grocery-api-02, srv-mq-relay-01, srv-voice-ivr-01",
+        "number": "CHG0041534",
+        "opened_at": "2026-03-27 09:00:00",
+        "parent": "a76e4affde33a6e45d566ef6c1957e0d",
+        "requested_by": "bc795eab04d4c2dc339e23ea915d2135",
+        "short_description": "Renumber push wave 2 (automated)",
+        "state": "3",
+        "sys_created_by": "jchen",
+        "sys_created_on": "2026-03-27 09:00:00",
+        "sys_id": "c6fe2651b25b228b3da5d99d3bb89ec7",
+        "sys_updated_by": "svc-netops-sync",
+        "sys_updated_on": "2026-03-31 22:47:11",
+        "type": "standard"
+      },
+      {
+        "close_notes": "SVI admin down; verified no ARP on VLAN 411 uplinks",
+        "closed_at": "2026-05-11 22:31:44",
+        "closed_by": "bc795eab04d4c2dc339e23ea915d2135",
+        "cmdb_ci": "core-sw-01",
+        "description": "Admin-down the 10.40.11.0/24 SVI. Range is reserved for the Bluegrass Provisions integration overlay.",
+        "number": "CHG0041580",
+        "opened_at": "2026-05-04 09:00:00",
+        "parent": "a76e4affde33a6e45d566ef6c1957e0d",
+        "requested_by": "bc795eab04d4c2dc339e23ea915d2135",
+        "short_description": "Shut legacy VLAN 411 SVI on core-sw-01 (DCW-H1-SRV retirement)",
+        "state": "3",
+        "sys_created_by": "jchen",
+        "sys_created_on": "2026-05-04 09:00:00",
+        "sys_id": "636ec8562aabdb18040d79aa925ac13a",
+        "sys_updated_by": "jchen",
+        "sys_updated_on": "2026-05-11 22:31:44",
+        "type": "normal"
+      },
+      {
+        "cmdb_ci": "hvac-ctl-01",
+        "number": "CHG0038102",
+        "opened_at": "2025-01-10 09:00:00",
+        "requested_by": "bc795eab04d4c2dc339e23ea915d2135",
+        "short_description": "OT ingest path for dock scales",
+        "state": "3",
+        "sys_created_by": "jchen",
+        "sys_created_on": "2025-01-10 09:00:00",
+        "sys_id": "ad03c91160788e9ea4ca9320a5f1995e",
+        "sys_updated_by": "jchen",
+        "sys_updated_on": "2026-03-01 09:00:00",
+        "type": "normal"
+      },
+      {
+        "cmdb_ci": "srv-mq-relay-01",
+        "number": "CHG0039812",
+        "opened_at": "2024-09-10 09:00:00",
+        "requested_by": "bc795eab04d4c2dc339e23ea915d2135",
+        "short_description": "App-tier ingest sources for on-prem relays",
+        "state": "3",
+        "sys_created_by": "jchen",
+        "sys_created_on": "2024-09-10 09:00:00",
+        "sys_id": "a1be352339664d48dd2a4f5cb2b44899",
+        "sys_updated_by": "jchen",
+        "sys_updated_on": "2026-03-01 09:00:00",
+        "type": "normal"
+      },
+      {
+        "cmdb_ci": "core-sw-01",
+        "number": "CHG0041101",
+        "opened_at": "2026-01-14 09:00:00",
+        "requested_by": "bc795eab04d4c2dc339e23ea915d2135",
+        "short_description": "Core switch IOS upgrade DC-West",
+        "state": "3",
+        "sys_created_by": "jchen",
+        "sys_created_on": "2026-01-14 09:00:00",
+        "sys_id": "6b70ff8f7029f35d48dd99cdb7b43491",
+        "sys_updated_by": "jchen",
+        "sys_updated_on": "2026-03-01 09:00:00",
+        "type": "normal"
+      },
+      {
+        "cmdb_ci": "srv-storefront-02",
+        "number": "CHG0041260",
+        "opened_at": "2026-02-18 09:00:00",
+        "requested_by": "bc795eab04d4c2dc339e23ea915d2135",
+        "short_description": "Storefront web farm capacity add",
+        "state": "3",
+        "sys_created_by": "jchen",
+        "sys_created_on": "2026-02-18 09:00:00",
+        "sys_id": "f74aeb07fd365549e1de2857b3e2b977",
+        "sys_updated_by": "jchen",
+        "sys_updated_on": "2026-03-01 09:00:00",
+        "type": "normal"
+      }
+    ],
+    "change_task": [
+      {
+        "assigned_to": "bc795eab04d4c2dc339e23ea915d2135",
+        "assignment_group": "Network Engineering",
+        "change_request": "6b70ff8f7029f35d48dd99cdb7b43491",
+        "close_notes": "done",
+        "closed_at": "2026-02-02 09:44:31",
+        "closed_by": "bc795eab04d4c2dc339e23ea915d2135",
+        "number": "CTASK0061455",
+        "opened_at": "2026-01-05 09:00:00",
+        "short_description": "Pre-stage IOS images",
+        "state": "3",
+        "sys_created_by": "jchen",
+        "sys_created_on": "2026-01-05 09:00:00",
+        "sys_id": "859b1acad5f4b58bf17ca829bc581cab",
+        "sys_updated_by": "jchen",
+        "sys_updated_on": "2026-02-02 09:44:31"
+      },
+      {
+        "assigned_to": "bc795eab04d4c2dc339e23ea915d2135",
+        "assignment_group": "Network Engineering",
+        "change_request": "6b70ff8f7029f35d48dd99cdb7b43491",
+        "close_notes": "passed",
+        "closed_at": "2026-02-03 16:20:47",
+        "closed_by": "bc795eab04d4c2dc339e23ea915d2135",
+        "number": "CTASK0061456",
+        "opened_at": "2026-01-05 09:00:00",
+        "short_description": "Failover test core-sw pair",
+        "state": "3",
+        "sys_created_by": "jchen",
+        "sys_created_on": "2026-01-05 09:00:00",
+        "sys_id": "e053bc0d26a3db33c787ef1deaa963d7",
+        "sys_updated_by": "jchen",
+        "sys_updated_on": "2026-02-03 16:20:47"
+      },
+      {
+        "assigned_to": "4ab88564096cae1bc4acb06d14cf037b",
+        "assignment_group": "Network Engineering",
+        "change_request": "f74aeb07fd365549e1de2857b3e2b977",
+        "close_notes": "done",
+        "closed_at": "2026-02-25 13:37:52",
+        "closed_by": "4ab88564096cae1bc4acb06d14cf037b",
+        "number": "CTASK0061503",
+        "opened_at": "2026-01-05 09:00:00",
+        "short_description": "Add storefront-02 to LB pool",
+        "state": "3",
+        "sys_created_by": "etorres",
+        "sys_created_on": "2026-01-05 09:00:00",
+        "sys_id": "8b86e7b3737603ed93c490356644b1ca",
+        "sys_updated_by": "etorres",
+        "sys_updated_on": "2026-02-25 13:37:52"
+      }
+    ],
+    "incident": [
+      {
+        "assigned_to": "3a444e34468d050bc4fd7dfd15dd78be",
+        "assignment_group": "IT Support",
+        "caller_id": "8f6d8f57bfb6d6821e844846e2a02bcc",
+        "category": "inquiry",
+        "description": "Monitoring alerts flapping for core-sw-02",
+        "impact": "3",
+        "number": "INC0052822",
+        "opened_at": "2026-04-10 10:19:00",
+        "short_description": "Monitoring alerts flapping for core-sw-02",
+        "state": "2",
+        "sys_created_by": "bkumar",
+        "sys_created_on": "2026-04-10 10:19:00",
+        "sys_id": "8fd3f7c3c151d2484abcc8943c349fcc",
+        "sys_updated_by": "bkumar",
+        "sys_updated_on": "2026-05-02 12:00:00",
+        "urgency": "3"
+      },
+      {
+        "assigned_to": "21a304f8e99eff5f35f92de3217fd483",
+        "assignment_group": "IT Support",
+        "caller_id": "42878d85572be5588a6e677c65884210",
+        "category": "inquiry",
+        "description": "Store 114 register offline",
+        "impact": "3",
+        "number": "INC0052734",
+        "opened_at": "2026-04-01 10:10:00",
+        "short_description": "Store 114 register offline",
+        "state": "7",
+        "sys_created_by": "kpatel",
+        "sys_created_on": "2026-04-01 10:10:00",
+        "sys_id": "69891a2790d58b731de8c51b560a9f41",
+        "sys_updated_by": "kpatel",
+        "sys_updated_on": "2026-05-01 12:00:00",
+        "urgency": "3"
+      },
+      {
+        "assigned_to": "b1aceefe4562a5387665b2cf51417d54",
+        "assignment_group": "IT Support",
+        "caller_id": "21a304f8e99eff5f35f92de3217fd483",
+        "category": "inquiry",
+        "description": "BI reports slow on Monday mornings",
+        "impact": "3",
+        "number": "INC0052768",
+        "opened_at": "2026-04-04 10:13:00",
+        "short_description": "BI reports slow on Monday mornings",
+        "state": "6",
+        "sys_created_by": "tszabo",
+        "sys_created_on": "2026-04-04 10:13:00",
+        "sys_id": "96fe5abba65af0e270562d016fd4eeda",
+        "sys_updated_by": "tszabo",
+        "sys_updated_on": "2026-05-04 12:00:00",
+        "urgency": "3"
+      },
+      {
+        "assigned_to": "805edaf565438fce4ab39446dd62260a",
+        "assignment_group": "Data Platform",
+        "caller_id": "a3b203b891a4a7c8ee3467c8faef6842",
+        "category": "inquiry",
+        "description": "DHCP scope near exhaustion Hall 1",
+        "impact": "3",
+        "number": "INC0052815",
+        "opened_at": "2026-04-09 10:18:00",
+        "short_description": "DHCP scope near exhaustion Hall 1",
+        "state": "7",
+        "sys_created_by": "fmartin",
+        "sys_created_on": "2026-04-09 10:18:00",
+        "sys_id": "b40ac34b52cd08bdffae36d4c7e8ae18",
+        "sys_updated_by": "fmartin",
+        "sys_updated_on": "2026-05-01 12:00:00",
+        "urgency": "3"
+      },
+      {
+        "assigned_to": "",
+        "assignment_group": "Network Operations",
+        "caller_id": "a2862a25a8bae88e0190e1398cdbf4ad",
+        "category": "network",
+        "description": "Checkout at stores has been failing on and off since about 22:40 last night. It started right after CHG0041580 went in. Please look into it, get us stable, and get to the bottom of how this happened.",
+        "impact": "1",
+        "number": "INC0052841",
+        "opened_at": "2026-05-12 06:41:17",
+        "short_description": "Checkout intermittently failing at stores since last night",
+        "state": "2",
+        "sys_created_by": "abarnes",
+        "sys_created_on": "2026-05-12 06:41:17",
+        "sys_id": "3ca6b3beea612ff6b0f47e67069db00b",
+        "sys_updated_by": "abarnes",
+        "sys_updated_on": "2026-05-12 06:41:17",
+        "urgency": "1"
+      },
+      {
+        "assigned_to": "d84466c9b16d83b054f12564bc443afa",
+        "assignment_group": "Network Operations",
+        "caller_id": "70f439c6bbde25fb3995f9bb25741447",
+        "category": "inquiry",
+        "description": "VPN drops for remote buyers",
+        "impact": "3",
+        "number": "INC0052741",
+        "opened_at": "2026-04-02 10:11:00",
+        "short_description": "VPN drops for remote buyers",
+        "state": "7",
+        "sys_created_by": "lnguyen",
+        "sys_created_on": "2026-04-02 10:11:00",
+        "sys_id": "394e841bef1ce83ca343deb33e9c7341",
+        "sys_updated_by": "lnguyen",
+        "sys_updated_on": "2026-05-02 12:00:00",
+        "urgency": "3"
+      },
+      {
+        "assigned_to": "a3b203b891a4a7c8ee3467c8faef6842",
+        "assignment_group": "Data Platform",
+        "caller_id": "13415887bc85cfe886c3aa263ef3085f",
+        "category": "inquiry",
+        "description": "WiFi dead zone in Hall 3 mezzanine",
+        "impact": "3",
+        "number": "INC0052780",
+        "opened_at": "2026-04-06 10:15:00",
+        "short_description": "WiFi dead zone in Hall 3 mezzanine",
+        "state": "7",
+        "sys_created_by": "ryamada",
+        "sys_created_on": "2026-04-06 10:15:00",
+        "sys_id": "9159314c62cdcfb9b6343039ed817f62",
+        "sys_updated_by": "ryamada",
+        "sys_updated_on": "2026-05-06 12:00:00",
+        "urgency": "3"
+      },
+      {
+        "assigned_to": "4865829c76cfb1493169f8d255b67e79",
+        "assignment_group": "Network Operations",
+        "caller_id": "4b317a5b541651e33378a8eb33adfe71",
+        "category": "inquiry",
+        "description": "Request: new VLAN for pick-tower scanners",
+        "impact": "3",
+        "number": "INC0052829",
+        "opened_at": "2026-04-11 10:20:00",
+        "short_description": "Request: new VLAN for pick-tower scanners",
+        "state": "1",
+        "sys_created_by": "eherrera",
+        "sys_created_on": "2026-04-11 10:20:00",
+        "sys_id": "0d409687544c35b15e44dad9df735c81",
+        "sys_updated_by": "eherrera",
+        "sys_updated_on": "2026-05-03 12:00:00",
+        "urgency": "3"
+      },
+      {
+        "assigned_to": "13415887bc85cfe886c3aa263ef3085f",
+        "assignment_group": "Data Platform",
+        "caller_id": "075626d0f37b9ef865956e9186f6ce6f",
+        "category": "inquiry",
+        "description": "Label printer queue stuck in Hall 1",
+        "impact": "3",
+        "number": "INC0052755",
+        "opened_at": "2026-04-03 10:12:00",
+        "short_description": "Label printer queue stuck in Hall 1",
+        "state": "7",
+        "sys_created_by": "mrossi",
+        "sys_created_on": "2026-04-03 10:12:00",
+        "sys_id": "8435b22fb384df62ad6ae2f18718cc5d",
+        "sys_updated_by": "mrossi",
+        "sys_updated_on": "2026-05-03 12:00:00",
+        "urgency": "3"
+      },
+      {
+        "assigned_to": "5458e04608ceeb73a584a5b0449311c1",
+        "assignment_group": "Network Operations",
+        "caller_id": "d84466c9b16d83b054f12564bc443afa",
+        "category": "inquiry",
+        "description": "Badge reader offline dock 7",
+        "impact": "3",
+        "number": "INC0052771",
+        "opened_at": "2026-04-05 10:14:00",
+        "short_description": "Badge reader offline dock 7",
+        "state": "7",
+        "sys_created_by": "gfischer",
+        "sys_created_on": "2026-04-05 10:14:00",
+        "sys_id": "263d0f2a4ddd0931fd0bafa55324bec5",
+        "sys_updated_by": "gfischer",
+        "sys_updated_on": "2026-05-05 12:00:00",
+        "urgency": "3"
+      },
+      {
+        "assigned_to": "4b317a5b541651e33378a8eb33adfe71",
+        "assignment_group": "Network Operations",
+        "caller_id": "5458e04608ceeb73a584a5b0449311c1",
+        "category": "inquiry",
+        "description": "Storefront image uploads failing",
+        "impact": "3",
+        "number": "INC0052807",
+        "opened_at": "2026-04-08 10:17:00",
+        "short_description": "Storefront image uploads failing",
+        "state": "6",
+        "sys_created_by": "cdubois",
+        "sys_created_on": "2026-04-08 10:17:00",
+        "sys_id": "9ec43c7668412954fe5dbe2ee2695dde",
+        "sys_updated_by": "cdubois",
+        "sys_updated_on": "2026-05-08 12:00:00",
+        "urgency": "3"
+      },
+      {
+        "assigned_to": "8f6d8f57bfb6d6821e844846e2a02bcc",
+        "assignment_group": "IT Support",
+        "caller_id": "b1aceefe4562a5387665b2cf51417d54",
+        "category": "inquiry",
+        "description": "ERP batch job overruns window",
+        "impact": "3",
+        "number": "INC0052793",
+        "opened_at": "2026-04-07 10:16:00",
+        "short_description": "ERP batch job overruns window",
+        "state": "2",
+        "sys_created_by": "solsen",
+        "sys_created_on": "2026-04-07 10:16:00",
+        "sys_id": "27687e2493336c197bc91dde00494053",
+        "sys_updated_by": "solsen",
+        "sys_updated_on": "2026-05-07 12:00:00",
+        "urgency": "3"
+      },
+      {
+        "assigned_to": "42878d85572be5588a6e677c65884210",
+        "assignment_group": "Data Platform",
+        "caller_id": "805edaf565438fce4ab39446dd62260a",
+        "category": "inquiry",
+        "description": "Slow SFTP to payment processor",
+        "impact": "3",
+        "number": "INC0052836",
+        "opened_at": "2026-04-12 10:21:00",
+        "short_description": "Slow SFTP to payment processor",
+        "state": "2",
+        "sys_created_by": "wclark",
+        "sys_created_on": "2026-04-12 10:21:00",
+        "sys_id": "9cc2460f074726ed4bd2ae0fd977837e",
+        "sys_updated_by": "wclark",
+        "sys_updated_on": "2026-05-04 12:00:00",
+        "urgency": "3"
+      }
+    ],
+    "sys_choice": [
+      {
+        "element": "state",
+        "label": "New",
+        "language": "en",
+        "name": "incident",
+        "value": "1"
+      },
+      {
+        "element": "state",
+        "label": "In Progress",
+        "language": "en",
+        "name": "incident",
+        "value": "2"
+      },
+      {
+        "element": "state",
+        "label": "On Hold",
+        "language": "en",
+        "name": "incident",
+        "value": "3"
+      },
+      {
+        "element": "state",
+        "label": "Resolved",
+        "language": "en",
+        "name": "incident",
+        "value": "6"
+      },
+      {
+        "element": "state",
+        "label": "Closed",
+        "language": "en",
+        "name": "incident",
+        "value": "7"
+      },
+      {
+        "element": "state",
+        "label": "Canceled",
+        "language": "en",
+        "name": "incident",
+        "value": "8"
+      },
+      {
+        "element": "state",
+        "label": "Pending",
+        "language": "en",
+        "name": "change_task",
+        "value": "-5"
+      },
+      {
+        "element": "state",
+        "label": "Open",
+        "language": "en",
+        "name": "change_task",
+        "value": "1"
+      },
+      {
+        "element": "state",
+        "label": "In Progress",
+        "language": "en",
+        "name": "change_task",
+        "value": "2"
+      },
+      {
+        "element": "state",
+        "label": "Closed Complete",
+        "language": "en",
+        "name": "change_task",
+        "value": "3"
+      },
+      {
+        "element": "state",
+        "label": "Closed Incomplete",
+        "language": "en",
+        "name": "change_task",
+        "value": "4"
+      }
+    ],
+    "sys_journal_field": [
+      {
+        "element": "comments",
+        "element_id": "394e841bef1ce83ca343deb33e9c7341",
+        "name": "incident",
+        "sys_created_by": "kpatel",
+        "sys_created_on": "2026-04-09 15:22:00",
+        "sys_id": "6876de293747f76c8332d09545be9806",
+        "value": "rolled AnyConnect back to 4.10, monitoring"
+      },
+      {
+        "element": "work_notes",
+        "element_id": "8fd3f7c3c151d2484abcc8943c349fcc",
+        "name": "incident",
+        "sys_created_by": "bkumar",
+        "sys_created_on": "2026-05-06 14:05:00",
+        "sys_id": "b042251e035c10544113de47c848e4ea",
+        "value": "flapping stopped after optic swap"
+      }
+    ],
+    "sys_user": [
+      {
+        "active": "true",
+        "department": "Store Ops",
+        "email": "abarnes@meridianfoods.net",
+        "name": "Aaron Barnes",
+        "sys_id": "a2862a25a8bae88e0190e1398cdbf4ad",
+        "title": "Store Operations Manager",
+        "user_name": "abarnes"
+      },
+      {
+        "active": "true",
+        "department": "Infrastructure",
+        "email": "etorres@meridianfoods.net",
+        "name": "Emily Torres",
+        "sys_id": "4ab88564096cae1bc4acb06d14cf037b",
+        "title": "Systems Engineer II",
+        "user_name": "etorres"
+      },
+      {
+        "active": "true",
+        "department": "Network Engineering",
+        "email": "jchen@meridianfoods.net",
+        "name": "Justin Chen",
+        "sys_id": "bc795eab04d4c2dc339e23ea915d2135",
+        "title": "Network Engineer III",
+        "user_name": "jchen"
+      },
+      {
+        "active": "true",
+        "department": "Network Engineering",
+        "email": "praghavan@meridianfoods.net",
+        "name": "Priya Raghavan",
+        "sys_id": "95d4795f2ddb2f353d63762f57f655e2",
+        "title": "Manager, Network Engineering",
+        "user_name": "praghavan"
+      },
+      {
+        "active": "true",
+        "department": "Network Engineering",
+        "email": "svc-netops-sync@meridianfoods.net",
+        "name": "NetOps Sync Automation",
+        "sys_id": "15828ea8dd957d09326baceb19b67fb9",
+        "title": "Service Account",
+        "user_name": "svc-netops-sync"
+      },
+      {
+        "active": "true",
+        "department": "Store Ops",
+        "email": "kpatel@meridianfoods.net",
+        "name": "Kavya Patel",
+        "sys_id": "42878d85572be5588a6e677c65884210",
+        "title": "Analyst",
+        "user_name": "kpatel"
+      },
+      {
+        "active": "true",
+        "department": "Finance",
+        "email": "lnguyen@meridianfoods.net",
+        "name": "Linh Nguyen",
+        "sys_id": "70f439c6bbde25fb3995f9bb25741447",
+        "title": "Analyst",
+        "user_name": "lnguyen"
+      },
+      {
+        "active": "true",
+        "department": "IT Support",
+        "email": "mrossi@meridianfoods.net",
+        "name": "Marco Rossi",
+        "sys_id": "075626d0f37b9ef865956e9186f6ce6f",
+        "title": "Analyst",
+        "user_name": "mrossi"
+      },
+      {
+        "active": "true",
+        "department": "Store Ops",
+        "email": "tszabo@meridianfoods.net",
+        "name": "Tamas Szabo",
+        "sys_id": "21a304f8e99eff5f35f92de3217fd483",
+        "title": "Analyst",
+        "user_name": "tszabo"
+      },
+      {
+        "active": "true",
+        "department": "Finance",
+        "email": "gfischer@meridianfoods.net",
+        "name": "Greta Fischer",
+        "sys_id": "d84466c9b16d83b054f12564bc443afa",
+        "title": "Analyst",
+        "user_name": "gfischer"
+      },
+      {
+        "active": "true",
+        "department": "IT Support",
+        "email": "ryamada@meridianfoods.net",
+        "name": "Rin Yamada",
+        "sys_id": "13415887bc85cfe886c3aa263ef3085f",
+        "title": "Analyst",
+        "user_name": "ryamada"
+      },
+      {
+        "active": "true",
+        "department": "Store Ops",
+        "email": "solsen@meridianfoods.net",
+        "name": "Sofie Olsen",
+        "sys_id": "b1aceefe4562a5387665b2cf51417d54",
+        "title": "Analyst",
+        "user_name": "solsen"
+      },
+      {
+        "active": "true",
+        "department": "Finance",
+        "email": "cdubois@meridianfoods.net",
+        "name": "Claire Dubois",
+        "sys_id": "5458e04608ceeb73a584a5b0449311c1",
+        "title": "Analyst",
+        "user_name": "cdubois"
+      },
+      {
+        "active": "true",
+        "department": "IT Support",
+        "email": "fmartin@meridianfoods.net",
+        "name": "Felix Martin",
+        "sys_id": "a3b203b891a4a7c8ee3467c8faef6842",
+        "title": "Analyst",
+        "user_name": "fmartin"
+      },
+      {
+        "active": "true",
+        "department": "Store Ops",
+        "email": "bkumar@meridianfoods.net",
+        "name": "Bela Kumar",
+        "sys_id": "8f6d8f57bfb6d6821e844846e2a02bcc",
+        "title": "Analyst",
+        "user_name": "bkumar"
+      },
+      {
+        "active": "true",
+        "department": "Finance",
+        "email": "eherrera@meridianfoods.net",
+        "name": "Elena Herrera",
+        "sys_id": "4b317a5b541651e33378a8eb33adfe71",
+        "title": "Analyst",
+        "user_name": "eherrera"
+      },
+      {
+        "active": "true",
+        "department": "IT Support",
+        "email": "wclark@meridianfoods.net",
+        "name": "Wes Clark",
+        "sys_id": "805edaf565438fce4ab39446dd62260a",
+        "title": "Analyst",
+        "user_name": "wclark"
+      },
+      {
+        "active": "true",
+        "department": "Store Ops",
+        "email": "npopov@meridianfoods.net",
+        "name": "Nadia Popov",
+        "sys_id": "3a444e34468d050bc4fd7dfd15dd78be",
+        "title": "Analyst",
+        "user_name": "npopov"
+      },
+      {
+        "active": "true",
+        "department": "Finance",
+        "email": "imendes@meridianfoods.net",
+        "name": "Ines Mendes",
+        "sys_id": "4865829c76cfb1493169f8d255b67e79",
+        "title": "Analyst",
+        "user_name": "imendes"
+      }
+    ]
+  },
+  "zscaler-zia": {
+    "activation": {
+      "status": "ACTIVE"
+    },
+    "firewallFilteringRules": [
+      {
+        "action": "ALLOW",
+        "created_at": "2021-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 1,
+        "name": "allow-stores-1-payments",
+        "order": 1,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 2,
+        "name": "allow-hall1-updates-2",
+        "order": 2,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 3,
+        "name": "allow-hall3-updates-3",
+        "order": 3,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 4,
+        "name": "allow-mgmt-monitoring-4",
+        "order": 4,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2020-06-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 5,
+        "name": "block-guests-5",
+        "order": 5,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 6,
+        "name": "allow-office-saas-6",
+        "order": 6,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 7,
+        "name": "allow-ot-scada-7",
+        "order": 7,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-09-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 8,
+        "name": "allow-stores-8-saas",
+        "order": 8,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 9,
+        "name": "allow-stores-9-payments",
+        "order": 9,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 10,
+        "name": "allow-hall1-updates-10",
+        "order": 10,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 11,
+        "name": "allow-hall3-updates-11",
+        "order": 11,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 12,
+        "name": "allow-mgmt-monitoring-12",
+        "order": 12,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2023-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 13,
+        "name": "block-guests-13",
+        "order": 13,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "DISABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-06-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 14,
+        "name": "allow-office-saas-14",
+        "order": 14,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 15,
+        "name": "allow-ot-scada-15",
+        "order": 15,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 16,
+        "name": "allow-stores-16-saas",
+        "order": 16,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-09-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 17,
+        "name": "allow-stores-17-payments",
+        "order": 17,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 18,
+        "name": "allow-hall1-updates-18",
+        "order": 18,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 19,
+        "name": "allow-hall3-updates-19",
+        "order": 19,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 20,
+        "name": "allow-mgmt-monitoring-20",
+        "order": 20,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2021-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 21,
+        "name": "block-guests-21",
+        "order": 21,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 22,
+        "name": "allow-office-saas-22",
+        "order": 22,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-06-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 23,
+        "name": "allow-ot-scada-23",
+        "order": 23,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 24,
+        "name": "allow-stores-24-saas",
+        "order": 24,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 25,
+        "name": "allow-stores-25-payments",
+        "order": 25,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-09-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 26,
+        "name": "allow-hall1-updates-26",
+        "order": 26,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "DISABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 27,
+        "name": "allow-hall3-updates-27",
+        "order": 27,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 28,
+        "name": "allow-mgmt-monitoring-28",
+        "order": 28,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2024-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 29,
+        "name": "block-guests-29",
+        "order": 29,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 30,
+        "name": "allow-office-saas-30",
+        "order": 30,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 31,
+        "name": "allow-ot-scada-31",
+        "order": 31,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-06-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 32,
+        "name": "allow-stores-32-saas",
+        "order": 32,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 33,
+        "name": "allow-stores-33-payments",
+        "order": 33,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 34,
+        "name": "allow-hall1-updates-34",
+        "order": 34,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-09-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 35,
+        "name": "allow-hall3-updates-35",
+        "order": 35,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 36,
+        "name": "allow-mgmt-monitoring-36",
+        "order": 36,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2022-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 37,
+        "name": "block-guests-37",
+        "order": 37,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 38,
+        "name": "allow-office-saas-38",
+        "order": 38,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 39,
+        "name": "allow-ot-scada-39",
+        "order": 39,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "DISABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 40,
+        "name": "allow-stores-40-saas",
+        "order": 40,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-06-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 41,
+        "name": "allow-stores-41-payments",
+        "order": 41,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 42,
+        "name": "allow-hall1-updates-42",
+        "order": 42,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 43,
+        "name": "allow-hall3-updates-43",
+        "order": 43,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-09-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 44,
+        "name": "allow-mgmt-monitoring-44",
+        "order": 44,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2020-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 45,
+        "name": "block-guests-45",
+        "order": 45,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 46,
+        "name": "allow-office-saas-46",
+        "order": 46,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 47,
+        "name": "allow-ot-scada-47",
+        "order": 47,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 48,
+        "name": "allow-stores-48-saas",
+        "order": 48,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 49,
+        "name": "allow-stores-49-payments",
+        "order": 49,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-06-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 50,
+        "name": "allow-hall1-updates-50",
+        "order": 50,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 51,
+        "name": "allow-hall3-updates-51",
+        "order": 51,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 52,
+        "name": "allow-mgmt-monitoring-52",
+        "order": 52,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "DISABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2023-09-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 53,
+        "name": "block-guests-53",
+        "order": 53,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 54,
+        "name": "allow-office-saas-54",
+        "order": 54,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 55,
+        "name": "allow-ot-scada-55",
+        "order": 55,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 56,
+        "name": "allow-stores-56-saas",
+        "order": 56,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 57,
+        "name": "allow-stores-57-payments",
+        "order": 57,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 58,
+        "name": "allow-hall1-updates-58",
+        "order": 58,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-06-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 59,
+        "name": "allow-hall3-updates-59",
+        "order": 59,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 60,
+        "name": "allow-mgmt-monitoring-60",
+        "order": 60,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2021-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 61,
+        "name": "block-guests-61",
+        "order": 61,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-09-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 62,
+        "name": "allow-office-saas-62",
+        "order": 62,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 63,
+        "name": "allow-ot-scada-63",
+        "order": 63,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 64,
+        "name": "allow-stores-64-saas",
+        "order": 64,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 65,
+        "name": "allow-stores-65-payments",
+        "order": 65,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "DISABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 66,
+        "name": "allow-hall1-updates-66",
+        "order": 66,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 67,
+        "name": "allow-hall3-updates-67",
+        "order": 67,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-06-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 68,
+        "name": "allow-mgmt-monitoring-68",
+        "order": 68,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2024-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 69,
+        "name": "block-guests-69",
+        "order": 69,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 70,
+        "name": "allow-office-saas-70",
+        "order": 70,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-09-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 71,
+        "name": "allow-ot-scada-71",
+        "order": 71,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 72,
+        "name": "allow-stores-72-saas",
+        "order": 72,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 73,
+        "name": "allow-stores-73-payments",
+        "order": 73,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 74,
+        "name": "allow-hall1-updates-74",
+        "order": 74,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 75,
+        "name": "allow-hall3-updates-75",
+        "order": 75,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 76,
+        "name": "allow-mgmt-monitoring-76",
+        "order": 76,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2022-06-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 77,
+        "name": "block-guests-77",
+        "order": 77,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 78,
+        "name": "allow-office-saas-78",
+        "order": 78,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "DISABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 79,
+        "name": "allow-ot-scada-79",
+        "order": 79,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-09-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 80,
+        "name": "allow-stores-80-saas",
+        "order": 80,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 81,
+        "name": "allow-stores-81-payments",
+        "order": 81,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 82,
+        "name": "allow-hall1-updates-82",
+        "order": 82,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 83,
+        "name": "allow-hall3-updates-83",
+        "order": 83,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 84,
+        "name": "allow-mgmt-monitoring-84",
+        "order": 84,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2020-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 85,
+        "name": "block-guests-85",
+        "order": 85,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-06-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 86,
+        "name": "allow-office-saas-86",
+        "order": 86,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 87,
+        "name": "allow-ot-scada-87",
+        "order": 87,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 88,
+        "name": "allow-stores-88-saas",
+        "order": 88,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-09-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 89,
+        "name": "allow-stores-89-payments",
+        "order": 89,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 90,
+        "name": "allow-hall1-updates-90",
+        "order": 90,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 91,
+        "name": "allow-hall3-updates-91",
+        "order": 91,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "DISABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 92,
+        "name": "allow-mgmt-monitoring-92",
+        "order": 92,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2023-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 93,
+        "name": "block-guests-93",
+        "order": 93,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 94,
+        "name": "allow-office-saas-94",
+        "order": 94,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-06-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 95,
+        "name": "allow-ot-scada-95",
+        "order": 95,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 96,
+        "name": "allow-stores-96-saas",
+        "order": 96,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 97,
+        "name": "allow-stores-97-payments",
+        "order": 97,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-09-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 98,
+        "name": "allow-hall1-updates-98",
+        "order": 98,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 99,
+        "name": "allow-hall3-updates-99",
+        "order": 99,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 100,
+        "name": "allow-mgmt-monitoring-100",
+        "order": 100,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2021-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 101,
+        "name": "block-guests-101",
+        "order": 101,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 102,
+        "name": "allow-office-saas-102",
+        "order": 102,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 103,
+        "name": "allow-ot-scada-103",
+        "order": 103,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-06-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 104,
+        "name": "allow-stores-104-saas",
+        "order": 104,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "DISABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 105,
+        "name": "allow-stores-105-payments",
+        "order": 105,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 12,
+            "name": "grp-stores-west"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 106,
+        "name": "allow-hall1-updates-106",
+        "order": 106,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-08-19T10:05:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 107,
+        "name": "allow-scalehub-metrics",
+        "order": 107,
+        "rank": 7,
+        "srcIps": [
+          "10.40.11.62"
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 108,
+        "name": "allow-mgmt-monitoring-108",
+        "order": 108,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2024-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 109,
+        "name": "block-guests-109",
+        "order": 109,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-03-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 110,
+        "name": "allow-office-saas-110",
+        "order": 110,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-04-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 111,
+        "name": "allow-ot-scada-111",
+        "order": 111,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 18,
+            "name": "grp-dcw-h1-ot"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2022-05-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 112,
+        "name": "allow-stores-112-saas",
+        "order": 112,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 11,
+            "name": "grp-stores-east"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-08-19T10:05:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 64,
+            "name": "grp-scada-vendor"
+          }
+        ],
+        "id": 113,
+        "name": "allow-coldvault-telemetry",
+        "order": 113,
+        "rank": 7,
+        "srcIps": [
+          "10.40.11.64"
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2024-07-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 114,
+        "name": "allow-hall1-updates-114",
+        "order": 114,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 13,
+            "name": "grp-dcw-hall1"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2020-08-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 63,
+            "name": "grp-os-update-mirrors"
+          }
+        ],
+        "id": 115,
+        "name": "allow-hall3-updates-115",
+        "order": 115,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 14,
+            "name": "grp-dcw-hall3"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2021-09-11T11:00:00Z",
+        "created_by": "svc-ddi",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 116,
+        "name": "allow-mgmt-monitoring-116",
+        "order": 116,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 15,
+            "name": "grp-dcw-mgmt"
+          }
+        ],
+        "state": "ENABLED"
+      },
+      {
+        "action": "BLOCK",
+        "created_at": "2022-01-11T11:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 61,
+            "name": "grp-payment-processors"
+          }
+        ],
+        "id": 117,
+        "name": "block-guests-117",
+        "order": 117,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 17,
+            "name": "grp-wifi-guests"
+          }
+        ],
+        "state": "DISABLED"
+      },
+      {
+        "action": "ALLOW",
+        "created_at": "2023-02-11T11:00:00Z",
+        "created_by": "etorres",
+        "description": "",
+        "destIpGroups": [
+          {
+            "id": 62,
+            "name": "grp-saas-monitoring"
+          }
+        ],
+        "id": 118,
+        "name": "allow-office-saas-118",
+        "order": 118,
+        "rank": 7,
+        "srcIpGroups": [
+          {
+            "id": 16,
+            "name": "grp-corp-office"
+          }
+        ],
+        "state": "ENABLED"
+      }
+    ],
+    "ipDestinationGroups": [
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "id": 61,
+        "ipAddresses": [
+          "203.0.113.10",
+          "203.0.113.11"
+        ],
+        "name": "grp-payment-processors"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "id": 62,
+        "ipAddresses": [
+          "198.51.100.80"
+        ],
+        "name": "grp-saas-monitoring"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "id": 63,
+        "ipAddresses": [
+          "203.0.113.40",
+          "203.0.113.41"
+        ],
+        "name": "grp-os-update-mirrors"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "id": 64,
+        "ipAddresses": [
+          "198.51.100.120"
+        ],
+        "name": "grp-scada-vendor"
+      }
+    ],
+    "ipSourceGroups": [
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "id": 11,
+        "ipAddresses": [
+          "172.20.0.0/16"
+        ],
+        "name": "grp-stores-east"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "id": 12,
+        "ipAddresses": [
+          "172.21.0.0/16"
+        ],
+        "name": "grp-stores-west"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "id": 13,
+        "ipAddresses": [
+          "10.40.11.0/24"
+        ],
+        "name": "grp-dcw-hall1"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "id": 14,
+        "ipAddresses": [
+          "10.40.31.0/24"
+        ],
+        "name": "grp-dcw-hall3"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "id": 15,
+        "ipAddresses": [
+          "10.40.8.0/24"
+        ],
+        "name": "grp-dcw-mgmt"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "id": 16,
+        "ipAddresses": [
+          "10.100.0.0/16"
+        ],
+        "name": "grp-corp-office"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "id": 17,
+        "ipAddresses": [
+          "172.30.0.0/16"
+        ],
+        "name": "grp-wifi-guests"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "description": "",
+        "id": 18,
+        "ipAddresses": [
+          "10.40.12.0/24"
+        ],
+        "name": "grp-dcw-h1-ot"
+      }
+    ],
+    "networkServices": [
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "destTcpPorts": [
+          {
+            "end": 443,
+            "start": 443
+          }
+        ],
+        "id": 1,
+        "name": "HTTPS"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "destTcpPorts": [
+          {
+            "end": 80,
+            "start": 80
+          }
+        ],
+        "id": 2,
+        "name": "HTTP"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "destTcpPorts": [
+          {
+            "end": 6514,
+            "start": 6514
+          }
+        ],
+        "id": 3,
+        "name": "SYSLOG-TLS"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "destTcpPorts": [
+          {
+            "end": 5671,
+            "start": 5671
+          }
+        ],
+        "id": 4,
+        "name": "AMQPS"
+      },
+      {
+        "created_at": "2021-02-08T09:00:00Z",
+        "created_by": "jchen",
+        "destTcpPorts": [
+          {
+            "end": 22,
+            "start": 22
+          }
+        ],
+        "id": 5,
+        "name": "SFTP"
+      }
+    ]
+  }
+}

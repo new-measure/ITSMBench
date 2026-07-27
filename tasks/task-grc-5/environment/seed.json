@@ -1,0 +1,520 @@
+{
+ "_now": "2026-07-18T09:00:00.000Z",
+ "purview": {
+  "__parents": {
+   "custodians:cust-aur-1": {
+    "caseId": "case-aurora"
+   },
+   "custodians:cust-aur-2": {
+    "caseId": "case-aurora"
+   },
+   "custodians:cust-aur-3": {
+    "caseId": "case-aurora"
+   },
+   "custodians:cust-aur-4": {
+    "caseId": "case-aurora"
+   },
+   "custodians:cust-aur-5": {
+    "caseId": "case-aurora"
+   },
+   "custodians:cust-aur-6": {
+    "caseId": "case-aurora"
+   },
+   "custodians:cust-fal-1": {
+    "caseId": "case-falcon"
+   },
+   "custodians:cust-fal-2": {
+    "caseId": "case-falcon"
+   },
+   "custodians:cust-fal-3": {
+    "caseId": "case-falcon"
+   },
+   "custodians:cust-nim-1": {
+    "caseId": "case-nimbus"
+   },
+   "custodians:cust-nim-2": {
+    "caseId": "case-nimbus"
+   },
+   "custodians:cust-nim-3": {
+    "caseId": "case-nimbus"
+   },
+   "custodians:cust-nim-4": {
+    "caseId": "case-nimbus"
+   },
+   "custodians:cust-nim-5": {
+    "caseId": "case-nimbus"
+   },
+   "custodians:cust-ori-1": {
+    "caseId": "case-orion"
+   },
+   "custodians:cust-ori-2": {
+    "caseId": "case-orion"
+   },
+   "custodians:cust-ori-3": {
+    "caseId": "case-orion"
+   },
+   "custodians:cust-ori-4": {
+    "caseId": "case-orion"
+   },
+   "custodians:cust-tit-1": {
+    "caseId": "case-titan"
+   },
+   "custodians:cust-tit-2": {
+    "caseId": "case-titan"
+   },
+   "custodians:cust-tit-3": {
+    "caseId": "case-titan"
+   },
+   "custodians:cust-tit-4": {
+    "caseId": "case-titan"
+   },
+   "custodians:cust-ves-1": {
+    "caseId": "case-vesta"
+   },
+   "custodians:cust-ves-2": {
+    "caseId": "case-vesta"
+   },
+   "custodians:cust-ves-3": {
+    "caseId": "case-vesta"
+   },
+   "custodians:cust-zep-1": {
+    "caseId": "case-zephyr"
+   },
+   "custodians:cust-zep-2": {
+    "caseId": "case-zephyr"
+   },
+   "custodians:cust-zep-3": {
+    "caseId": "case-zephyr"
+   }
+  },
+  "auditQueries": [],
+  "auditRecords": [],
+  "cases": [
+   {
+    "description": "Project Falcon - eDiscovery matter.",
+    "displayName": "Project Falcon",
+    "externalId": "MER-2026-0007",
+    "id": "case-falcon",
+    "status": "active"
+   },
+   {
+    "description": "Aurora Contract Dispute - eDiscovery matter.",
+    "displayName": "Aurora Contract Dispute",
+    "externalId": "MER-2026-0011",
+    "id": "case-aurora",
+    "status": "active"
+   },
+   {
+    "description": "Nimbus Securities Investigation - eDiscovery matter.",
+    "displayName": "Nimbus Securities Investigation",
+    "externalId": "MER-2026-0014",
+    "id": "case-nimbus",
+    "status": "active"
+   },
+   {
+    "description": "Titan Trade Secret Litigation - eDiscovery matter.",
+    "displayName": "Titan Trade Secret Litigation",
+    "externalId": "MER-2026-0019",
+    "id": "case-titan",
+    "status": "active"
+   },
+   {
+    "closedDateTime": "2026-04-10T00:00:00Z",
+    "description": "Zephyr Product Liability - eDiscovery matter.",
+    "displayName": "Zephyr Product Liability",
+    "externalId": "MER-2024-0002",
+    "id": "case-zephyr",
+    "status": "closed"
+   },
+   {
+    "closedDateTime": "2026-05-22T00:00:00Z",
+    "description": "Orion Wage and Hour - eDiscovery matter.",
+    "displayName": "Orion Wage and Hour",
+    "externalId": "MER-2024-0021",
+    "id": "case-orion",
+    "status": "closed"
+   },
+   {
+    "closedDateTime": "2026-06-15T00:00:00Z",
+    "description": "Vesta EEOC Charge - eDiscovery matter.",
+    "displayName": "Vesta EEOC Charge",
+    "externalId": "MER-2025-0003",
+    "id": "case-vesta",
+    "status": "closed"
+   }
+  ],
+  "custodians": [
+   {
+    "displayName": "Dana Whitfield",
+    "email": "dana.whitfield@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-fal-1",
+    "status": "active"
+   },
+   {
+    "displayName": "Marco Ellison",
+    "email": "marco.ellison@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-fal-2",
+    "status": "active"
+   },
+   {
+    "displayName": "Priya Nandan",
+    "email": "priya.nandan@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-fal-3",
+    "status": "active"
+   },
+   {
+    "displayName": "Grant Sherwood",
+    "email": "grant.sherwood@meridianbancorp.example",
+    "holdStatus": "notApplied",
+    "id": "cust-aur-1",
+    "status": "active"
+   },
+   {
+    "displayName": "Lena Ortiz",
+    "email": "lena.ortiz@meridianbancorp.example",
+    "holdStatus": "notApplied",
+    "id": "cust-aur-2",
+    "status": "active"
+   },
+   {
+    "displayName": "Theo Barnes",
+    "email": "theo.barnes@meridianbancorp.example",
+    "holdStatus": "notApplied",
+    "id": "cust-aur-3",
+    "status": "active"
+   },
+   {
+    "displayName": "Dylan Frost",
+    "email": "dylan.frost@meridianbancorp.example",
+    "holdStatus": "partial",
+    "id": "cust-aur-6",
+    "status": "active"
+   },
+   {
+    "displayName": "Ruth Calderon",
+    "email": "ruth.calderon@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-aur-4",
+    "status": "active"
+   },
+   {
+    "displayName": "Sam Okafor",
+    "email": "sam.okafor@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-aur-5",
+    "status": "active"
+   },
+   {
+    "displayName": "Iris Fontaine",
+    "email": "iris.fontaine@meridianbancorp.example",
+    "holdStatus": "notApplied",
+    "id": "cust-nim-1",
+    "status": "active"
+   },
+   {
+    "displayName": "Colin Reyes",
+    "email": "colin.reyes@meridianbancorp.example",
+    "holdStatus": "notApplied",
+    "id": "cust-nim-2",
+    "status": "active"
+   },
+   {
+    "displayName": "Bianca Ford",
+    "email": "bianca.ford@meridianbancorp.example",
+    "holdStatus": "notApplied",
+    "id": "cust-nim-3"
+   },
+   {
+    "displayName": "Gopal Krishnan",
+    "email": "gopal.krishnan@meridianbancorp.example",
+    "holdStatus": "applying",
+    "id": "cust-nim-5",
+    "status": "active"
+   },
+   {
+    "displayName": "Owen Radcliffe",
+    "email": "owen.radcliffe@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-nim-4",
+    "status": "active"
+   },
+   {
+    "displayName": "Hana Suzuki",
+    "email": "hana.suzuki@meridianbancorp.example",
+    "holdStatus": "notApplied",
+    "id": "cust-tit-3",
+    "status": "active"
+   },
+   {
+    "displayName": "Emmett Boyle",
+    "email": "emmett.boyle@meridianbancorp.example",
+    "holdStatus": "partial",
+    "id": "cust-tit-1",
+    "status": "active"
+   },
+   {
+    "displayName": "Sofia Marchetti",
+    "email": "sofia.marchetti@meridianbancorp.example",
+    "holdStatus": "notApplied",
+    "id": "cust-tit-2"
+   },
+   {
+    "displayName": "Rahul Verma",
+    "email": "rahul.verma@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-tit-4",
+    "status": "active"
+   },
+   {
+    "displayName": "Nadia Cross",
+    "email": "nadia.cross@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-zep-1",
+    "status": "active"
+   },
+   {
+    "displayName": "Victor Hale",
+    "email": "victor.hale@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-zep-2",
+    "status": "active"
+   },
+   {
+    "displayName": "Elaine Pratt",
+    "email": "elaine.pratt@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-zep-3",
+    "status": "active"
+   },
+   {
+    "displayName": "Hugo Delacroix",
+    "email": "hugo.delacroix@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-ori-1",
+    "status": "active"
+   },
+   {
+    "displayName": "Mei Lin",
+    "email": "mei.lin@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-ori-2",
+    "status": "active"
+   },
+   {
+    "displayName": "Jonah Beck",
+    "email": "jonah.beck@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-ori-3",
+    "status": "active"
+   },
+   {
+    "displayName": "Carla Mendes",
+    "email": "carla.mendes@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-ori-4",
+    "releasedDateTime": "2026-05-25T00:00:00Z",
+    "status": "released"
+   },
+   {
+    "displayName": "Piotr Nowak",
+    "email": "piotr.nowak@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-ves-1",
+    "status": "active"
+   },
+   {
+    "displayName": "Ada Fischer",
+    "email": "ada.fischer@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-ves-2",
+    "status": "active"
+   },
+   {
+    "displayName": "Ravi Menon",
+    "email": "ravi.menon@meridianbancorp.example",
+    "holdStatus": "applied",
+    "id": "cust-ves-3",
+    "status": "active"
+   }
+  ],
+  "retentionEventTypes": [
+   {
+    "description": "Departure of an employee; starts records retention.",
+    "displayName": "Employee Departure",
+    "id": "ret-type-departure"
+   },
+   {
+    "description": "Expiration of a vendor/customer contract.",
+    "displayName": "Contract Expiration",
+    "id": "ret-type-contract"
+   },
+   {
+    "description": "Discontinuation of a product line.",
+    "displayName": "Product End-of-Life",
+    "id": "ret-type-producteol"
+   },
+   {
+    "description": "Close of a fiscal/tax year.",
+    "displayName": "Tax Year Close",
+    "id": "ret-type-taxyear"
+   }
+  ],
+  "retentionEvents": [
+   {
+    "displayName": "Tax Year 2025 Close",
+    "eventTriggerDateTime": "2026-01-05T00:00:00Z",
+    "id": "event-taxyear-2025",
+    "retentionEventType": {
+     "id": "ret-type-taxyear"
+    }
+   }
+  ],
+  "retentionLabels": [
+   {
+    "behaviorDuringRetentionPeriod": "retainAsRecord",
+    "descriptionForAdmins": "HR Records - 7yr from departure retention label.",
+    "displayName": "HR Records - 7yr from departure",
+    "id": "label-departure",
+    "isInUse": true,
+    "retentionEventType": {
+     "id": "ret-type-departure"
+    },
+    "retentionTrigger": "dateOfEvent"
+   },
+   {
+    "behaviorDuringRetentionPeriod": "retainAsRecord",
+    "descriptionForAdmins": "Contract Records - 6yr from expiry retention label.",
+    "displayName": "Contract Records - 6yr from expiry",
+    "id": "label-contract",
+    "isInUse": true,
+    "retentionEventType": {
+     "id": "ret-type-contract"
+    },
+    "retentionTrigger": "dateOfEvent"
+   },
+   {
+    "behaviorDuringRetentionPeriod": "retainAsRecord",
+    "descriptionForAdmins": "Product Files - 10yr from EOL retention label.",
+    "displayName": "Product Files - 10yr from EOL",
+    "id": "label-producteol",
+    "isInUse": true,
+    "retentionEventType": {
+     "id": "ret-type-producteol"
+    },
+    "retentionTrigger": "dateOfEvent"
+   },
+   {
+    "behaviorDuringRetentionPeriod": "retainAsRecord",
+    "descriptionForAdmins": "Tax Records - 7yr from year close retention label.",
+    "displayName": "Tax Records - 7yr from year close",
+    "id": "label-taxrecords",
+    "isInUse": true,
+    "retentionEventType": {
+     "id": "ret-type-taxyear"
+    },
+    "retentionTrigger": "dateOfEvent"
+   },
+   {
+    "behaviorDuringRetentionPeriod": "retainAsRecord",
+    "descriptionForAdmins": "General Corp - 5yr from creation retention label.",
+    "displayName": "General Corp - 5yr from creation",
+    "id": "label-generalcorp",
+    "isInUse": true,
+    "retentionTrigger": "dateCreated"
+   }
+  ],
+  "reviewSetQueries": [],
+  "reviewSets": [],
+  "searches": [],
+  "tags": []
+ },
+ "servicenow": {
+  "change_request": [],
+  "incident": [
+   {
+    "category": "compliance",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Prior-year preservation review - CLOSED. Lesson written down: a matter being open in the tool is NOT proof that a hold is actually applied, and a matter being wound down is NOT proof the hold was lifted. That year we found people who had been added to an active matter but were never actually placed under preservation, so their data was exposed to spoliation; we also found matters that had long since ended where the preservation was never lifted, which our privacy team flagged as keeping data far past what we were allowed to. And we found a records-retention obligation that everyone believed was running but had never actually been started, so nothing was being retained. None of it was visible from the summary screens. The rule: check the real state behind every matter and every obligation, one by one, and only trust what you have verified.",
+    "closed_at": "2025-05-20 17:00:00",
+    "description": "Prior-year litigation-hold and retention review. See close notes for lessons learned.",
+    "number": "INC0027044",
+    "priority": "3",
+    "short_description": "Preservation / retention review (prior year) - lessons learned",
+    "state": "7",
+    "sys_created_on": "2025-05-01 08:00:00",
+    "sys_id": "17634754bb7ddebdd7e2ca5a85720661",
+    "sys_updated_on": "2025-05-20 17:00:00"
+   },
+   {
+    "category": "compliance",
+    "description": "Outside counsel is running a data-governance and preservation compliance review of our litigation legal holds and records-retention program next week. Legal needs the ACTUAL preservation state in our eDiscovery / records system to match our obligations across EVERY matter and EVERY retention obligation - not just what the tool shows at a glance.\nYour job: as the legal-hold and data-governance manager, go matter by matter and obligation by obligation and make the reality correct. Do not assume a hold is in place just because a matter is open, and do not assume records retention is running just because a label exists - confirm the underlying state and fix what is actually wrong, without disturbing anything that is already correct. The one matter we have had internal questions about is Project Falcon - please give that a look. When everything genuinely matches our obligations, close this ticket.\nOur legal holds and retention obligations all live in Microsoft Purview.",
+    "number": "INC0030001",
+    "priority": "1",
+    "short_description": "Legal-hold & retention compliance review - make actual state match obligations",
+    "state": "2",
+    "sys_created_on": "2026-07-18 09:00:00",
+    "sys_id": "415e2e7a663d900499532f8cb4fdd733",
+    "sys_updated_on": "2026-07-18 09:00:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   }
+  ],
+  "u_corporate_event": [
+   {
+    "sys_created_on": "2026-05-30 17:00:00",
+    "sys_id": "df04d0de322cc380a0e2e2dbb4ed156f",
+    "u_date": "2026-05-30",
+    "u_subject": "R. Alvarez, Records Management (final day 2026-05-30)",
+    "u_type": "employee_departure"
+   },
+   {
+    "sys_created_on": "2026-04-30 09:00:00",
+    "sys_id": "bde8de2a44b85fe27878f4126d797262",
+    "u_date": "2026-04-30",
+    "u_subject": "Meridian Supply master services agreement (ended 2026-04-30)",
+    "u_type": "contract_expiration"
+   },
+   {
+    "sys_created_on": "2026-03-15 09:00:00",
+    "sys_id": "4b83b570eb61c232ba371ee91b7db658",
+    "u_date": "2026-03-15",
+    "u_subject": "Zephyr Gen1 gateway line discontinued",
+    "u_type": "product_end_of_life"
+   },
+   {
+    "sys_created_on": "2026-01-31 09:00:00",
+    "sys_id": "2f9e8f8b275c6e1f63c9a2be3f795e6f",
+    "u_date": "2026-01-31",
+    "u_subject": "Tax year 2025 close",
+    "u_type": "fiscal_year_close"
+   }
+  ]
+ }
+}

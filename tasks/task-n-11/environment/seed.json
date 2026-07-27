@@ -1,0 +1,1565 @@
+{
+ "_now": "2026-07-13T09:00:00Z",
+ "aws-vpc": {
+  "networkInterfaces": [
+   {
+    "Description": "dispatch-api-01",
+    "NetworkInterfaceId": "eni-0000000000000001",
+    "PrivateIpAddress": "10.10.20.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-api-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-api-02",
+    "NetworkInterfaceId": "eni-0000000000000002",
+    "PrivateIpAddress": "10.10.20.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-api-02"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-api-03",
+    "NetworkInterfaceId": "eni-0000000000000003",
+    "PrivateIpAddress": "10.10.20.13",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.13"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-api-03"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-api-04",
+    "NetworkInterfaceId": "eni-0000000000000004",
+    "PrivateIpAddress": "10.10.20.14",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.14"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-api-04"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-worker-01",
+    "NetworkInterfaceId": "eni-0000000000000005",
+    "PrivateIpAddress": "10.10.20.21",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.21"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-worker-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-worker-02",
+    "NetworkInterfaceId": "eni-0000000000000006",
+    "PrivateIpAddress": "10.10.20.22",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.22"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-worker-02"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-worker-03",
+    "NetworkInterfaceId": "eni-0000000000000007",
+    "PrivateIpAddress": "10.10.20.23",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.23"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-worker-03"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-worker-04",
+    "NetworkInterfaceId": "eni-0000000000000008",
+    "PrivateIpAddress": "10.10.20.24",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.24"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-worker-04"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-worker-05",
+    "NetworkInterfaceId": "eni-0000000000000009",
+    "PrivateIpAddress": "10.10.20.25",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.25"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-worker-05"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-db-01",
+    "NetworkInterfaceId": "eni-000000000000000a",
+    "PrivateIpAddress": "10.10.20.30",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.30"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-db-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-db-02",
+    "NetworkInterfaceId": "eni-000000000000000b",
+    "PrivateIpAddress": "10.10.20.31",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.31"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-db-02"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-cache-01",
+    "NetworkInterfaceId": "eni-000000000000000c",
+    "PrivateIpAddress": "10.10.20.40",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.40"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-cache-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-analytics-01",
+    "NetworkInterfaceId": "eni-000000000000000d",
+    "PrivateIpAddress": "10.10.20.41",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.41"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-analytics-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-search-01",
+    "NetworkInterfaceId": "eni-000000000000000e",
+    "PrivateIpAddress": "10.10.20.50",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.50"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-search-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-metrics-01",
+    "NetworkInterfaceId": "eni-000000000000000f",
+    "PrivateIpAddress": "10.10.20.51",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.51"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-metrics-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-queue-01",
+    "NetworkInterfaceId": "eni-0000000000000010",
+    "PrivateIpAddress": "10.10.20.60",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.60"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-queue-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-etl-01",
+    "NetworkInterfaceId": "eni-0000000000000011",
+    "PrivateIpAddress": "10.10.20.61",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.61"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-etl-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-gw-01",
+    "NetworkInterfaceId": "eni-0000000000000012",
+    "PrivateIpAddress": "10.10.20.70",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.70"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-gw-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-gw-02",
+    "NetworkInterfaceId": "eni-0000000000000013",
+    "PrivateIpAddress": "10.10.20.71",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.71"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-gw-02"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-gw-03",
+    "NetworkInterfaceId": "eni-0000000000000014",
+    "PrivateIpAddress": "10.10.20.72",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.72"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-gw-03"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-gw-04",
+    "NetworkInterfaceId": "eni-0000000000000015",
+    "PrivateIpAddress": "10.10.20.73",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.73"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-gw-04"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-ledger-01",
+    "NetworkInterfaceId": "eni-0000000000000016",
+    "PrivateIpAddress": "10.10.20.80",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.20.80"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-ledger-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "dispatch-archive-01",
+    "NetworkInterfaceId": "eni-0000000000000017",
+    "PrivateIpAddress": "10.20.10.90",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.10.90"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0dispatchold01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-archive-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "manifest-api-01",
+    "NetworkInterfaceId": "eni-0000000000000018",
+    "PrivateIpAddress": "10.10.21.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.21.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0manifest00001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "manifest-api-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "manifest-api-02",
+    "NetworkInterfaceId": "eni-0000000000000019",
+    "PrivateIpAddress": "10.10.21.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.21.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0manifest00001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "manifest-api-02"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "Description": "manifest-db-01",
+    "NetworkInterfaceId": "eni-000000000000001a",
+    "PrivateIpAddress": "10.10.21.30",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.21.30"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0manifest00001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "manifest-db-01"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   }
+  ],
+  "subnets": [
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 230,
+    "CidrBlock": "10.10.20.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0dispatchnew01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-new"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 250,
+    "CidrBlock": "10.20.10.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0dispatchold01",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "dispatch-old-released"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 240,
+    "CidrBlock": "10.10.21.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0manifest00001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "manifest"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   }
+  ],
+  "vpcs": [
+   {
+    "CidrBlock": "10.0.0.0/8",
+    "InstanceTenancy": "default",
+    "IsDefault": false,
+    "State": "available",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "prod"
+     }
+    ],
+    "VpcId": "vpc-0d15a7c400000001"
+   }
+  ]
+ },
+ "device42": {
+  "devices": [
+   {
+    "device_id": 8001,
+    "id": 8001,
+    "in_service": true,
+    "ip": "10.10.20.11",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-api-01",
+    "notes": "dispatch-api-01 node in the dispatch tier; current address 10.10.20.11 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8002,
+    "id": 8002,
+    "in_service": true,
+    "ip": "10.10.20.12",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-api-02",
+    "notes": "dispatch-api-02 node in the dispatch tier; current address 10.10.20.12 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8003,
+    "id": 8003,
+    "in_service": true,
+    "ip": "10.10.20.13",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-api-03",
+    "notes": "dispatch-api-03 node in the dispatch tier; current address 10.10.20.13 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8004,
+    "id": 8004,
+    "in_service": true,
+    "ip": "10.10.20.14",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-api-04",
+    "notes": "dispatch-api-04 node in the dispatch tier; current address 10.10.20.14 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8005,
+    "id": 8005,
+    "in_service": true,
+    "ip": "10.10.20.21",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-worker-01",
+    "notes": "dispatch-worker-01 node in the dispatch tier; current address 10.10.20.21 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8006,
+    "id": 8006,
+    "in_service": true,
+    "ip": "10.10.20.22",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-worker-02",
+    "notes": "dispatch-worker-02 node in the dispatch tier; current address 10.10.20.22 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8007,
+    "id": 8007,
+    "in_service": true,
+    "ip": "10.10.20.23",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-worker-03",
+    "notes": "dispatch-worker-03 node in the dispatch tier; current address 10.10.20.23 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8008,
+    "id": 8008,
+    "in_service": true,
+    "ip": "10.10.20.24",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-worker-04",
+    "notes": "dispatch-worker-04 node in the dispatch tier; current address 10.10.20.24 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8009,
+    "id": 8009,
+    "in_service": true,
+    "ip": "10.10.20.25",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-worker-05",
+    "notes": "dispatch-worker-05 node in the dispatch tier; current address 10.10.20.25 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8010,
+    "id": 8010,
+    "in_service": true,
+    "ip": "10.10.20.30",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-db-01",
+    "notes": "dispatch-db-01 node in the dispatch tier; current address 10.10.20.30 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8011,
+    "id": 8011,
+    "in_service": true,
+    "ip": "10.10.20.31",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-db-02",
+    "notes": "dispatch-db-02 node in the dispatch tier; current address 10.10.20.31 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8012,
+    "id": 8012,
+    "in_service": true,
+    "ip": "10.10.20.40",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-cache-01",
+    "notes": "dispatch-cache-01 node in the dispatch tier; current address 10.10.20.40 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8013,
+    "id": 8013,
+    "in_service": true,
+    "ip": "10.10.20.41",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-analytics-01",
+    "notes": "dispatch-analytics-01 node in the dispatch tier; current address 10.10.20.41 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8014,
+    "id": 8014,
+    "in_service": true,
+    "ip": "10.10.20.50",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-search-01",
+    "notes": "dispatch-search-01 node in the dispatch tier; current address 10.10.20.50 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8015,
+    "id": 8015,
+    "in_service": true,
+    "ip": "10.10.20.51",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-metrics-01",
+    "notes": "dispatch-metrics-01 node in the dispatch tier; current address 10.10.20.51 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8016,
+    "id": 8016,
+    "in_service": true,
+    "ip": "10.10.20.60",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-queue-01",
+    "notes": "dispatch-queue-01 node in the dispatch tier; current address 10.10.20.60 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8017,
+    "id": 8017,
+    "in_service": true,
+    "ip": "10.10.20.61",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-etl-01",
+    "notes": "dispatch-etl-01 node in the dispatch tier; current address 10.10.20.61 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8018,
+    "id": 8018,
+    "in_service": true,
+    "ip": "10.10.20.70",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-gw-01",
+    "notes": "dispatch-gw-01 node in the dispatch tier; current address 10.10.20.70 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8019,
+    "id": 8019,
+    "in_service": true,
+    "ip": "10.10.20.71",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-gw-02",
+    "notes": "dispatch-gw-02 node in the dispatch tier; current address 10.10.20.71 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8020,
+    "id": 8020,
+    "in_service": true,
+    "ip": "10.10.20.72",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-gw-03",
+    "notes": "dispatch-gw-03 node in the dispatch tier; current address 10.10.20.72 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8021,
+    "id": 8021,
+    "in_service": true,
+    "ip": "10.10.20.73",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-gw-04",
+    "notes": "dispatch-gw-04 node in the dispatch tier; current address 10.10.20.73 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8022,
+    "id": 8022,
+    "in_service": true,
+    "ip": "10.20.10.90",
+    "lifecycle_status": "In Production",
+    "name": "dispatch-archive-01",
+    "notes": "dispatch-archive-01 node in the dispatch tier; current address 10.20.10.90 per IPAM.",
+    "os": "Ubuntu",
+    "service": "dispatch",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8023,
+    "id": 8023,
+    "in_service": true,
+    "ip": "10.10.21.11",
+    "lifecycle_status": "In Production",
+    "name": "manifest-api-01",
+    "notes": "manifest-api-01 node in the manifest tier; current address 10.10.21.11 per IPAM.",
+    "os": "Ubuntu",
+    "service": "manifest",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8024,
+    "id": 8024,
+    "in_service": true,
+    "ip": "10.10.21.12",
+    "lifecycle_status": "In Production",
+    "name": "manifest-api-02",
+    "notes": "manifest-api-02 node in the manifest tier; current address 10.10.21.12 per IPAM.",
+    "os": "Ubuntu",
+    "service": "manifest",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8025,
+    "id": 8025,
+    "in_service": true,
+    "ip": "10.10.21.30",
+    "lifecycle_status": "In Production",
+    "name": "manifest-db-01",
+    "notes": "manifest-db-01 node in the manifest tier; current address 10.10.21.30 per IPAM.",
+    "os": "Ubuntu",
+    "service": "manifest",
+    "service_level": "Production",
+    "type": "virtual"
+   }
+  ],
+  "ips": [
+   {
+    "available": "no",
+    "device": "dispatch-api-01",
+    "id": 9001,
+    "ip": "10.10.20.11",
+    "label": "dispatch-api-01",
+    "notes": "assigned to dispatch-api-01",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-api-02",
+    "id": 9002,
+    "ip": "10.10.20.12",
+    "label": "dispatch-api-02",
+    "notes": "assigned to dispatch-api-02",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-api-03",
+    "id": 9003,
+    "ip": "10.10.20.13",
+    "label": "dispatch-api-03",
+    "notes": "assigned to dispatch-api-03",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-api-04",
+    "id": 9004,
+    "ip": "10.10.20.14",
+    "label": "dispatch-api-04",
+    "notes": "assigned to dispatch-api-04",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-worker-01",
+    "id": 9005,
+    "ip": "10.10.20.21",
+    "label": "dispatch-worker-01",
+    "notes": "assigned to dispatch-worker-01",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-worker-02",
+    "id": 9006,
+    "ip": "10.10.20.22",
+    "label": "dispatch-worker-02",
+    "notes": "assigned to dispatch-worker-02",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-worker-03",
+    "id": 9007,
+    "ip": "10.10.20.23",
+    "label": "dispatch-worker-03",
+    "notes": "assigned to dispatch-worker-03",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-worker-04",
+    "id": 9008,
+    "ip": "10.10.20.24",
+    "label": "dispatch-worker-04",
+    "notes": "assigned to dispatch-worker-04",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-worker-05",
+    "id": 9009,
+    "ip": "10.10.20.25",
+    "label": "dispatch-worker-05",
+    "notes": "assigned to dispatch-worker-05",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-db-01",
+    "id": 9010,
+    "ip": "10.10.20.30",
+    "label": "dispatch-db-01",
+    "notes": "assigned to dispatch-db-01",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-db-02",
+    "id": 9011,
+    "ip": "10.10.20.31",
+    "label": "dispatch-db-02",
+    "notes": "assigned to dispatch-db-02",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-cache-01",
+    "id": 9012,
+    "ip": "10.10.20.40",
+    "label": "dispatch-cache-01",
+    "notes": "assigned to dispatch-cache-01",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-analytics-01",
+    "id": 9013,
+    "ip": "10.10.20.41",
+    "label": "dispatch-analytics-01",
+    "notes": "assigned to dispatch-analytics-01",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-search-01",
+    "id": 9014,
+    "ip": "10.10.20.50",
+    "label": "dispatch-search-01",
+    "notes": "assigned to dispatch-search-01",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-metrics-01",
+    "id": 9015,
+    "ip": "10.10.20.51",
+    "label": "dispatch-metrics-01",
+    "notes": "assigned to dispatch-metrics-01",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-queue-01",
+    "id": 9016,
+    "ip": "10.10.20.60",
+    "label": "dispatch-queue-01",
+    "notes": "assigned to dispatch-queue-01",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-etl-01",
+    "id": 9017,
+    "ip": "10.10.20.61",
+    "label": "dispatch-etl-01",
+    "notes": "assigned to dispatch-etl-01",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-gw-01",
+    "id": 9018,
+    "ip": "10.10.20.70",
+    "label": "dispatch-gw-01",
+    "notes": "assigned to dispatch-gw-01",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-gw-02",
+    "id": 9019,
+    "ip": "10.10.20.71",
+    "label": "dispatch-gw-02",
+    "notes": "assigned to dispatch-gw-02",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-gw-03",
+    "id": 9020,
+    "ip": "10.10.20.72",
+    "label": "dispatch-gw-03",
+    "notes": "assigned to dispatch-gw-03",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-gw-04",
+    "id": 9021,
+    "ip": "10.10.20.73",
+    "label": "dispatch-gw-04",
+    "notes": "assigned to dispatch-gw-04",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-ledger-01",
+    "id": 9022,
+    "ip": "10.10.20.80",
+    "label": "dispatch-ledger-01",
+    "notes": "assigned to dispatch-ledger-01",
+    "subnet": "10.10.20.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-archive-01",
+    "id": 9023,
+    "ip": "10.20.10.90",
+    "label": "dispatch-archive-01",
+    "notes": "assigned to dispatch-archive-01",
+    "subnet": "10.20.10.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "manifest-api-01",
+    "id": 9024,
+    "ip": "10.10.21.11",
+    "label": "manifest-api-01",
+    "notes": "assigned to manifest-api-01",
+    "subnet": "10.10.21.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "manifest-api-02",
+    "id": 9025,
+    "ip": "10.10.21.12",
+    "label": "manifest-api-02",
+    "notes": "assigned to manifest-api-02",
+    "subnet": "10.10.21.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "manifest-db-01",
+    "id": 9026,
+    "ip": "10.10.21.30",
+    "label": "manifest-db-01",
+    "notes": "assigned to manifest-db-01",
+    "subnet": "10.10.21.0/24",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-api-01",
+    "id": 9027,
+    "ip": "2001:db8:10::11",
+    "label": "dispatch-api-01",
+    "notes": "assigned to dispatch-api-01",
+    "subnet": "2001:db8:10::/64",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-api-02",
+    "id": 9028,
+    "ip": "2001:db8:10::12",
+    "label": "dispatch-api-02",
+    "notes": "assigned to dispatch-api-02",
+    "subnet": "2001:db8:10::/64",
+    "type": "Static"
+   },
+   {
+    "available": "no",
+    "device": "dispatch-worker-01",
+    "id": 9029,
+    "ip": "2001:db8:10::21",
+    "label": "dispatch-worker-01",
+    "notes": "assigned to dispatch-worker-01",
+    "subnet": "2001:db8:10::/64",
+    "type": "Static"
+   }
+  ],
+  "subnets": [
+   {
+    "id": 501,
+    "mask_bits": 24,
+    "name": "dispatch-new",
+    "network": "10.10.20.0",
+    "notes": "Dispatch tier post-migration subnet.",
+    "subnet_id": 501
+   },
+   {
+    "id": 502,
+    "mask_bits": 24,
+    "name": "dispatch-old-released",
+    "network": "10.20.10.0",
+    "notes": "Dispatch tier legacy subnet; addresses released to pool during the re-IP migration.",
+    "subnet_id": 502
+   },
+   {
+    "id": 503,
+    "mask_bits": 24,
+    "name": "manifest",
+    "network": "10.10.21.0",
+    "notes": "Manifest tier subnet.",
+    "subnet_id": 503
+   }
+  ]
+ },
+ "infoblox-nios": {
+  "a_records": [
+   {
+    "comment": "Dispatch dispatch-api-01 (auto-provisioned).",
+    "ipv4addr": "10.20.10.11",
+    "name": "dispatch-api-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-api-02 (auto-provisioned).",
+    "ipv4addr": "10.20.10.12",
+    "name": "dispatch-api-02.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-api-04 (auto-provisioned).",
+    "ipv4addr": "10.20.10.14",
+    "name": "dispatch-api-04.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-db-01 (auto-provisioned).",
+    "ipv4addr": "10.20.10.30",
+    "name": "dispatch-db-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-etl-01 (auto-provisioned).",
+    "ipv4addr": "10.20.10.61",
+    "name": "dispatch-etl-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-gw-01 (auto-provisioned).",
+    "ipv4addr": "10.20.10.70",
+    "name": "dispatch-gw-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-gw-02 (auto-provisioned).",
+    "ipv4addr": "10.20.10.71",
+    "name": "dispatch-gw-02.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-queue-01 (auto-provisioned).",
+    "ipv4addr": "10.20.10.60",
+    "name": "dispatch-queue-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-worker-01 (auto-provisioned).",
+    "ipv4addr": "10.20.10.21",
+    "name": "dispatch-worker-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-worker-02 (auto-provisioned).",
+    "ipv4addr": "10.20.10.22",
+    "name": "dispatch-worker-02.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-worker-04 (auto-provisioned).",
+    "ipv4addr": "10.20.10.24",
+    "name": "dispatch-worker-04.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-cache-01.",
+    "ipv4addr": "10.10.20.41",
+    "name": "dispatch-cache-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-db-02.",
+    "ipv4addr": "10.10.20.30",
+    "name": "dispatch-db-02.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-gw-03.",
+    "ipv4addr": "10.10.20.41",
+    "name": "dispatch-gw-03.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-search-01.",
+    "ipv4addr": "10.10.20.51",
+    "name": "dispatch-search-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-analytics-01.",
+    "ipv4addr": "10.10.20.41",
+    "name": "dispatch-analytics-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-gw-04.",
+    "ipv4addr": "10.10.20.73",
+    "name": "dispatch-gw-04.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-metrics-01.",
+    "ipv4addr": "10.10.20.51",
+    "name": "dispatch-metrics-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-ledger-01 (auto-provisioned).",
+    "ipv4addr": "10.20.10.80",
+    "name": "dispatch-ledger-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch archive/retention node (long-lived).",
+    "ipv4addr": "10.20.10.90",
+    "name": "dispatch-archive-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch service VIP (round-robin).",
+    "ipv4addr": "10.10.20.11",
+    "name": "dispatch.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch service VIP (round-robin).",
+    "ipv4addr": "10.20.10.12",
+    "name": "dispatch.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-canary-01.",
+    "ipv4addr": "10.20.10.76",
+    "name": "dispatch-canary-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-legacy-01.",
+    "ipv4addr": "10.20.10.75",
+    "name": "dispatch-legacy-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-retired-01.",
+    "ipv4addr": "10.20.10.77",
+    "name": "dispatch-retired-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Manifest manifest-api-01.",
+    "ipv4addr": "10.10.21.11",
+    "name": "manifest-api-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Manifest manifest-api-02.",
+    "ipv4addr": "10.10.21.12",
+    "name": "manifest-api-02.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Manifest manifest-db-01.",
+    "ipv4addr": "10.10.21.30",
+    "name": "manifest-db-01.halcyon.example",
+    "view": "default"
+   }
+  ],
+  "aaaa_records": [
+   {
+    "comment": "Dispatch dispatch-api-01 IPv6.",
+    "ipv6addr": "2001:db8:20::11",
+    "name": "dispatch-api-01.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-api-02 IPv6.",
+    "ipv6addr": "2001:db8:20::12",
+    "name": "dispatch-api-02.halcyon.example",
+    "view": "default"
+   },
+   {
+    "comment": "Dispatch dispatch-worker-01 IPv6.",
+    "ipv6addr": "2001:db8:20::21",
+    "name": "dispatch-worker-01.halcyon.example",
+    "view": "default"
+   }
+  ],
+  "cname_records": [
+   {
+    "canonical": "dispatch-old.halcyon.example",
+    "comment": "Customer-facing dispatch alias.",
+    "name": "ship.halcyon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "dispatch-legacy-01.halcyon.example",
+    "comment": "Legacy tracking alias.",
+    "name": "track.halcyon.example",
+    "view": "default"
+   },
+   {
+    "canonical": "dispatch.halcyon.example",
+    "comment": "Internal dispatch API alias.",
+    "name": "api-dispatch.halcyon.example",
+    "view": "default"
+   }
+  ],
+  "ns_records": [
+   {
+    "name": "halcyon.example",
+    "nameserver": "ns1.halcyon.example",
+    "view": "default"
+   },
+   {
+    "name": "halcyon.example",
+    "nameserver": "ns2.halcyon.example",
+    "view": "default"
+   }
+  ],
+  "zones": [
+   {
+    "fqdn": "halcyon.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "assignment_group": "DNS Operations",
+    "category": "network",
+    "close_code": "successful",
+    "close_notes": "Grid member rotated back into service; delegation verified answering. No zone data changed.",
+    "closed_at": "2026-07-11 22:40:00",
+    "description": "Scheduled maintenance on the Infoblox grid: rebooted and rotated the secondary grid member and refreshed the authoritative nameserver delegation for the forward zones. No record data was modified.",
+    "number": "CHG0044001",
+    "risk": "low",
+    "short_description": "DNS grid maintenance: rotate secondary grid member + refresh NS delegation",
+    "state": "3",
+    "sys_created_on": "2026-07-11 22:00:00",
+    "sys_id": "02957415a9227c72d21da320bd64f74c",
+    "sys_updated_on": "2026-07-11 22:40:00",
+    "type": "normal",
+    "u_environment": "production"
+   },
+   {
+    "assignment_group": "Cloud Platform",
+    "category": "network",
+    "close_code": "successful",
+    "close_notes": "Dispatch tier re-IP'd to 10.10.20.0/24 and legacy 10.20.10.0/24 addresses released. Forward-zone DNS reconciliation and record cleanup were deferred to the owning team.",
+    "closed_at": "2026-07-10 23:30:00",
+    "description": "Lift-and-shift re-IP of the dispatch application tier and its data services into the new VPC subnet 10.10.20.0/24. Legacy addresses in 10.20.10.0/24 were released back to the pool. Cloud interfaces and the CMDB/IPAM were updated to the new addresses.",
+    "number": "CHG0044002",
+    "risk": "moderate",
+    "short_description": "Re-IP dispatch tier into new VPC subnet; release legacy addresses",
+    "state": "3",
+    "sys_created_on": "2026-07-10 21:00:00",
+    "sys_id": "55ee83924d7078b5341252b38689a5ac",
+    "sys_updated_on": "2026-07-10 23:30:00",
+    "type": "normal",
+    "u_environment": "production"
+   }
+  ],
+  "incident": [
+   {
+    "category": "network",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Search tier intermittently unreachable by name - RESOLVED. Users could not reliably resolve the search services and occasionally reached an unrelated server. On-call first suspected the DNS appliance maintenance that had run that week and were about to open a vendor case. Before doing so we confirmed the resolver, the zone and the nameserver delegation were all healthy - the maintenance was NOT the cause. A cloud-migration re-IP earlier that month had moved the search tier to new addresses and released the old ones, but the forward zone had never been reconciled: several records still resolved to released addresses, one record collided with an address that had been reused for a different host, a newly built host that already had a live cloud interface still had its old record pointing at a released address while another new host had no record at all, and an alias pointed at a canonical name that no longer existed. We reconciled every hostname against the CMDB/IPAM host inventory AND the live cloud interfaces: repointed records to each host's live address, removed records only for hosts that had truly been decommissioned (no device and no live interface), added the records new hosts were missing, and left the correctly-migrated peer tiers and the resolver/nameservers untouched. Lesson: verify the resolver itself first, then reconcile record data to the source-of-truth inventory, and never retire a record for a host that still holds a live interface. Closed.",
+    "closed_at": "2026-05-09 16:10:00",
+    "description": "Search services intermittently unresolvable; DNS appliance maintenance suspected. See close notes.",
+    "number": "INC0087001",
+    "priority": "2",
+    "short_description": "Search tier unreachable by name - blamed on DNS maintenance, was an un-reconciled re-IP",
+    "state": "7",
+    "sys_created_on": "2026-05-09 07:00:00",
+    "sys_id": "c74dc2ef378d5f40f4b8cce1a6b1fde2",
+    "sys_updated_on": "2026-05-09 16:10:00"
+   },
+   {
+    "category": "network",
+    "description": "Users report they intermittently cannot reach dispatch services by name, and some requests are landing on the wrong server. This started over the weekend and is still happening this morning. The dispatch services are published under halcyon.example.\nSuspected cause: the DNS grid/nameserver maintenance that ran Saturday night (change CHG0044001) - please confirm whether that maintenance left the resolver or the nameservers misconfigured and get name resolution working correctly again.\nInvestigate across the available systems, confirm the actual root cause before making changes, restore correct resolution, and close this incident once dispatch resolves correctly again.",
+    "number": "INC0088001",
+    "priority": "1",
+    "short_description": "Dispatch services intermittently unresolvable / landing on wrong host (since weekend)",
+    "state": "2",
+    "subcategory": "dns",
+    "sys_created_on": "2026-07-13 06:30:00",
+    "sys_id": "2e31b68847d76a4d2e68c219abab4e2a",
+    "sys_updated_on": "2026-07-13 06:30:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "change_request",
+    "value": "3"
+   }
+  ]
+ }
+}

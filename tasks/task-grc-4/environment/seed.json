@@ -1,0 +1,1171 @@
+{
+ "_now": "2026-07-17T09:00:00.000Z",
+ "entra-id-governance": {
+  "__parents": {
+   "decisions:dec-app-1": {
+    "instanceId": "inst-apps"
+   },
+   "decisions:dec-app-2": {
+    "instanceId": "inst-apps"
+   },
+   "decisions:dec-app-3": {
+    "instanceId": "inst-apps"
+   },
+   "decisions:dec-app-4": {
+    "instanceId": "inst-apps"
+   },
+   "decisions:dec-app-5": {
+    "instanceId": "inst-apps"
+   },
+   "decisions:dec-app-keep": {
+    "instanceId": "inst-apps"
+   },
+   "decisions:dec-contractor-1": {
+    "instanceId": "inst-contractor"
+   },
+   "decisions:dec-ent-dir": {
+    "instanceId": "inst-ent"
+   },
+   "decisions:dec-ent-fin": {
+    "instanceId": "inst-ent"
+   },
+   "decisions:dec-ent-hr": {
+    "instanceId": "inst-ent"
+   },
+   "decisions:dec-ent-vend": {
+    "instanceId": "inst-ent"
+   },
+   "decisions:dec-grp-1": {
+    "instanceId": "inst-groups"
+   },
+   "decisions:dec-grp-2": {
+    "instanceId": "inst-groups"
+   },
+   "decisions:dec-grp-3": {
+    "instanceId": "inst-groups"
+   },
+   "decisions:dec-grp-4": {
+    "instanceId": "inst-groups"
+   },
+   "decisions:dec-grp-5": {
+    "instanceId": "inst-groups"
+   },
+   "decisions:dec-grp-done": {
+    "instanceId": "inst-groups"
+   },
+   "decisions:dec-grp-keep": {
+    "instanceId": "inst-groups"
+   },
+   "decisions:dec-q2-1": {
+    "instanceId": "inst-q2"
+   },
+   "decisions:dec-role-1": {
+    "instanceId": "inst-roles"
+   },
+   "decisions:dec-role-2": {
+    "instanceId": "inst-roles"
+   },
+   "decisions:dec-role-3": {
+    "instanceId": "inst-roles"
+   },
+   "decisions:dec-role-4": {
+    "instanceId": "inst-roles"
+   },
+   "decisions:dec-role-5": {
+    "instanceId": "inst-roles"
+   },
+   "decisions:dec-role-6": {
+    "instanceId": "inst-roles"
+   },
+   "decisions:dec-role-keep": {
+    "instanceId": "inst-roles"
+   },
+   "instances:inst-apps": {
+    "definitionId": "def-q3"
+   },
+   "instances:inst-contractor": {
+    "definitionId": "def-q3"
+   },
+   "instances:inst-ent": {
+    "definitionId": "def-q3"
+   },
+   "instances:inst-groups": {
+    "definitionId": "def-q3"
+   },
+   "instances:inst-q2": {
+    "definitionId": "def-q2"
+   },
+   "instances:inst-roles": {
+    "definitionId": "def-q3"
+   }
+  },
+  "accessPackages": [
+   {
+    "catalog": {
+     "id": "cat-prod"
+    },
+    "description": "Financial reporting access",
+    "displayName": "Finance Reporting Bundle",
+    "id": "pkg-fin",
+    "isHidden": false
+   },
+   {
+    "catalog": {
+     "id": "cat-prod"
+    },
+    "description": "Vendor payment operations",
+    "displayName": "Vendor Payments Bundle",
+    "id": "pkg-vend",
+    "isHidden": false
+   },
+   {
+    "catalog": {
+     "id": "cat-prod"
+    },
+    "description": "HR reporting access",
+    "displayName": "HR Reporting Bundle",
+    "id": "pkg-hr",
+    "isHidden": false
+   },
+   {
+    "catalog": {
+     "id": "cat-prod"
+    },
+    "description": "Read-only company directory (self-service)",
+    "displayName": "Company Directory",
+    "id": "pkg-dir",
+    "isHidden": false
+   }
+  ],
+  "accessReviewDecisions": [
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-role-1",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Jordan Vale",
+     "id": "00uROLEDENY0000001"
+    },
+    "resource": {
+     "displayName": "Super Administrator",
+     "id": "SUPER_ADMIN",
+     "type": "directoryRole"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-role-2",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Priya Nathan",
+     "id": "00uROLEDENY0000002"
+    },
+    "resource": {
+     "displayName": "Organizational Administrator",
+     "id": "ORG_ADMIN",
+     "type": "directoryRole"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-role-3",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Sam Okafor",
+     "id": "00uROLEDENY0000003"
+    },
+    "resource": {
+     "displayName": "Application Administrator",
+     "id": "APP_ADMIN",
+     "type": "directoryRole"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-role-4",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Lena Dvorak",
+     "id": "00uROLEDENY0000004"
+    },
+    "resource": {
+     "displayName": "Group Administrator",
+     "id": "USER_ADMIN",
+     "type": "directoryRole"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-role-5",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Marcus Hale",
+     "id": "00uROLEDENY0000005"
+    },
+    "resource": {
+     "displayName": "Report Administrator",
+     "id": "REPORT_ADMIN",
+     "type": "directoryRole"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-role-6",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Wei Chen",
+     "id": "00uROLEDENY0000006"
+    },
+    "resource": {
+     "displayName": "Group Membership Administrator",
+     "id": "GROUP_MEMBERSHIP_ADMIN",
+     "type": "directoryRole"
+    }
+   },
+   {
+    "applyResult": "AppliedSuccessfully",
+    "decision": "Approve",
+    "id": "dec-role-keep",
+    "justification": "Access confirmed appropriate for the role",
+    "principal": {
+     "displayName": "Dana Frost",
+     "id": "00uROLEKEEP0000001"
+    },
+    "resource": {
+     "displayName": "Super Administrator",
+     "id": "SUPER_ADMIN",
+     "type": "directoryRole"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-grp-1",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Avery Stone",
+     "id": "00uGRPDENY0000001"
+    },
+    "resource": {
+     "displayName": "Prod-DB-Admins",
+     "id": "00gPRODDB000000001",
+     "type": "group"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-grp-2",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Noah Singh",
+     "id": "00uGRPDENY0000002"
+    },
+    "resource": {
+     "displayName": "Payments-Approvers",
+     "id": "00gPAYAPPR00000001",
+     "type": "group"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-grp-3",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Mia Roth",
+     "id": "00uGRPDENY0000003"
+    },
+    "resource": {
+     "displayName": "Wire-Transfer-Ops",
+     "id": "00gWIREOPS00000001",
+     "type": "group"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-grp-4",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Omar Reyes",
+     "id": "00uGRPDENY0000004"
+    },
+    "resource": {
+     "displayName": "GA-Break-Glass",
+     "id": "00gBREAKGLS0000001",
+     "type": "group"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-grp-5",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Hana Suzuki",
+     "id": "00uGRPDENY0000005"
+    },
+    "resource": {
+     "displayName": "Ledger-Admins",
+     "id": "00gLEDGER000000001",
+     "type": "group"
+    }
+   },
+   {
+    "applyResult": "AppliedSuccessfully",
+    "decision": "Approve",
+    "id": "dec-grp-keep",
+    "justification": "Access confirmed appropriate for the role",
+    "principal": {
+     "displayName": "Kai Mercer",
+     "id": "00uGRPKEEP0000001"
+    },
+    "resource": {
+     "displayName": "Prod-DB-Admins",
+     "id": "00gPRODDB000000001",
+     "type": "group"
+    }
+   },
+   {
+    "applyResult": "AppliedSuccessfully",
+    "decision": "Deny",
+    "id": "dec-grp-done",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Ivy Lambert",
+     "id": "00uGRPDONE0000001"
+    },
+    "resource": {
+     "displayName": "Payments-Approvers",
+     "id": "00gPAYAPPR00000001",
+     "type": "group"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-app-1",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Ruth Oduya",
+     "id": "00uAPPDENY0000001"
+    },
+    "resource": {
+     "displayName": "Payments Console",
+     "id": "0oaPAYCON000000001",
+     "type": "servicePrincipal"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-app-2",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Leo Brandt",
+     "id": "00uAPPDENY0000002"
+    },
+    "resource": {
+     "displayName": "Wire Transfer Portal",
+     "id": "0oaWIRE0000000001",
+     "type": "servicePrincipal"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-app-3",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Tara Kwon",
+     "id": "00uAPPDENY0000003"
+    },
+    "resource": {
+     "displayName": "Treasury Dashboard",
+     "id": "0oaTREAS00000001",
+     "type": "servicePrincipal"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-app-4",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Eli Marsh",
+     "id": "00uAPPDENY0000004"
+    },
+    "resource": {
+     "displayName": "Admin Portal",
+     "id": "0oaADMPRT0000001",
+     "type": "servicePrincipal"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-app-5",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Zoe Park",
+     "id": "00uAPPDENY0000005"
+    },
+    "resource": {
+     "displayName": "Ledger Export",
+     "id": "0oaLEDGEX0000001",
+     "type": "servicePrincipal"
+    }
+   },
+   {
+    "applyResult": "AppliedSuccessfully",
+    "decision": "Approve",
+    "id": "dec-app-keep",
+    "justification": "Access confirmed appropriate for the role",
+    "principal": {
+     "displayName": "Finn Walsh",
+     "id": "00uAPPKEEP0000001"
+    },
+    "resource": {
+     "displayName": "Payments Console",
+     "id": "0oaPAYCON000000001",
+     "type": "servicePrincipal"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-ent-fin",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Finance Reporting Bundle",
+     "id": "grp-fin"
+    },
+    "resource": {
+     "displayName": "Finance Reporting Bundle",
+     "id": "pkg-fin",
+     "type": "accessPackage"
+    }
+   },
+   {
+    "applyResult": "New",
+    "decision": "Deny",
+    "id": "dec-ent-vend",
+    "justification": "Access no longer required - certified for removal",
+    "principal": {
+     "displayName": "Vendor Payments Bundle",
+     "id": "grp-vend"
+    },
+    "resource": {
+     "displayName": "Vendor Payments Bundle",
+     "id": "pkg-vend",
+     "type": "accessPackage"
+    }
+   },
+   {
+    "applyResult": "AppliedSuccessfully",
+    "decision": "Approve",
+    "id": "dec-ent-dir",
+    "justification": "Access confirmed appropriate for the role",
+    "principal": {
+     "displayName": "Company Directory",
+     "id": "grp-dir"
+    },
+    "resource": {
+     "displayName": "Company Directory",
+     "id": "pkg-dir",
+     "type": "accessPackage"
+    }
+   },
+   {
+    "applyResult": "AppliedSuccessfully",
+    "decision": "Approve",
+    "id": "dec-ent-hr",
+    "justification": "Access confirmed appropriate for the role",
+    "principal": {
+     "displayName": "HR Reporting Bundle",
+     "id": "grp-hr"
+    },
+    "resource": {
+     "displayName": "HR Reporting Bundle",
+     "id": "pkg-hr",
+     "type": "accessPackage"
+    }
+   },
+   {
+    "applyResult": "AppliedSuccessfully",
+    "decision": "Approve",
+    "id": "dec-contractor-1",
+    "justification": "Access confirmed appropriate for the role",
+    "principal": {
+     "displayName": "Casey Reed",
+     "id": "00uREGULAR0000001"
+    },
+    "resource": {
+     "displayName": "Contractor Timesheet App",
+     "id": "0oaCONTR",
+     "type": "servicePrincipal"
+    }
+   },
+   {
+    "applyResult": "AppliedSuccessfully",
+    "decision": "Approve",
+    "id": "dec-q2-1",
+    "justification": "Access confirmed appropriate for the role",
+    "principal": {
+     "displayName": "Casey Reed",
+     "id": "00uREGULAR0000001"
+    },
+    "resource": {
+     "displayName": "Company Directory",
+     "id": "pkg-dir",
+     "type": "servicePrincipal"
+    }
+   }
+  ],
+  "accessReviewDefinitions": [
+   {
+    "displayName": "Q3 2026 Privileged Access & Entitlement Certification",
+    "id": "def-q3",
+    "status": "InProgress"
+   },
+   {
+    "displayName": "Q2 2026 Standard-User Access Review",
+    "id": "def-q2",
+    "status": "Completed"
+   }
+  ],
+  "accessReviewInstances": [
+   {
+    "endDateTime": "2026-07-14T00:00:00Z",
+    "id": "inst-roles",
+    "startDateTime": "2026-07-01T00:00:00Z",
+    "status": "InProgress"
+   },
+   {
+    "endDateTime": "2026-07-14T00:00:00Z",
+    "id": "inst-groups",
+    "startDateTime": "2026-07-01T00:00:00Z",
+    "status": "Completed"
+   },
+   {
+    "endDateTime": "2026-07-14T00:00:00Z",
+    "id": "inst-apps",
+    "startDateTime": "2026-07-01T00:00:00Z",
+    "status": "Completed"
+   },
+   {
+    "endDateTime": "2026-07-14T00:00:00Z",
+    "id": "inst-ent",
+    "startDateTime": "2026-07-01T00:00:00Z",
+    "status": "Completed"
+   },
+   {
+    "endDateTime": "2026-07-14T00:00:00Z",
+    "id": "inst-contractor",
+    "startDateTime": "2026-07-01T00:00:00Z",
+    "status": "Completed"
+   },
+   {
+    "endDateTime": "2026-04-14T00:00:00Z",
+    "id": "inst-q2",
+    "startDateTime": "2026-04-01T00:00:00Z",
+    "status": "Completed"
+   }
+  ],
+  "activationRequests": [],
+  "assignmentPolicies": [
+   {
+    "accessPackage": {
+     "id": "pkg-fin"
+    },
+    "allowedTargetScope": "allMemberUsers",
+    "displayName": "Finance Reporting - assignment policy",
+    "id": "pol-fin",
+    "requestApprovalSettings": {
+     "isApprovalRequiredForAdd": false,
+     "isApprovalRequiredForUpdate": false
+    },
+    "specificAllowedTargets": []
+   },
+   {
+    "accessPackage": {
+     "id": "pkg-vend"
+    },
+    "allowedTargetScope": "allMemberUsers",
+    "displayName": "Vendor Payments - assignment policy",
+    "id": "pol-vend",
+    "requestApprovalSettings": {
+     "isApprovalRequiredForAdd": false,
+     "isApprovalRequiredForUpdate": false
+    },
+    "specificAllowedTargets": []
+   },
+   {
+    "accessPackage": {
+     "id": "pkg-hr"
+    },
+    "allowedTargetScope": "specificDirectoryUsers",
+    "displayName": "HR Reporting - assignment policy",
+    "id": "pol-hr",
+    "requestApprovalSettings": {
+     "isApprovalRequiredForAdd": true,
+     "isApprovalRequiredForUpdate": false
+    },
+    "specificAllowedTargets": []
+   },
+   {
+    "accessPackage": {
+     "id": "pkg-dir"
+    },
+    "allowedTargetScope": "allMemberUsers",
+    "displayName": "Company Directory - self-service policy",
+    "id": "pol-dir",
+    "requestApprovalSettings": {
+     "isApprovalRequiredForAdd": false,
+     "isApprovalRequiredForUpdate": false
+    },
+    "specificAllowedTargets": []
+   }
+  ],
+  "assignmentRequests": [],
+  "assignments": [],
+  "catalogs": [
+   {
+    "displayName": "Production Entitlements",
+    "id": "cat-prod",
+    "isExternallyVisible": false,
+    "state": "published"
+   }
+  ],
+  "eligibilityInstances": [
+   {
+    "directoryScopeId": "/",
+    "id": "elig-1",
+    "memberType": "Direct",
+    "principalId": "00uROLEDENY0000001",
+    "roleDefinitionId": "62e90394-69f5-4237-9190-012177145e10"
+   }
+  ],
+  "riskDetections": [],
+  "riskyUsers": [],
+  "taskProcessingResults": [],
+  "workflowRuns": [],
+  "workflows": []
+ },
+ "okta": {
+  "apps": [
+   {
+    "groups": [],
+    "id": "0oaPAYCON000000001",
+    "label": "Payments Console",
+    "name": "oidc_client",
+    "signOnMode": "OPENID_CONNECT",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "id": "00uAPPDENY0000001",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     },
+     {
+      "id": "00uAPPKEEP0000001",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     }
+    ]
+   },
+   {
+    "groups": [],
+    "id": "0oaWIRE0000000001",
+    "label": "Wire Transfer Portal",
+    "name": "oidc_client",
+    "signOnMode": "OPENID_CONNECT",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "id": "00uAPPDENY0000002",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     }
+    ]
+   },
+   {
+    "groups": [],
+    "id": "0oaTREAS00000001",
+    "label": "Treasury Dashboard",
+    "name": "oidc_client",
+    "signOnMode": "OPENID_CONNECT",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "id": "00uAPPDENY0000003",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     }
+    ]
+   },
+   {
+    "groups": [],
+    "id": "0oaADMPRT0000001",
+    "label": "Admin Portal",
+    "name": "oidc_client",
+    "signOnMode": "OPENID_CONNECT",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "id": "00uAPPDENY0000004",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     }
+    ]
+   },
+   {
+    "groups": [],
+    "id": "0oaLEDGEX0000001",
+    "label": "Ledger Export",
+    "name": "oidc_client",
+    "signOnMode": "OPENID_CONNECT",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "id": "00uAPPDENY0000005",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     }
+    ]
+   }
+  ],
+  "groups": [
+   {
+    "id": "00gPRODDB000000001",
+    "members": [
+     "00uGRPDENY0000001",
+     "00uGRPKEEP0000001"
+    ],
+    "profile": {
+     "description": "Production database administrators",
+     "name": "Prod-DB-Admins"
+    },
+    "type": "OKTA_GROUP"
+   },
+   {
+    "id": "00gPAYAPPR00000001",
+    "members": [
+     "00uGRPDENY0000002"
+    ],
+    "profile": {
+     "description": "Approve outbound payment batches",
+     "name": "Payments-Approvers"
+    },
+    "type": "OKTA_GROUP"
+   },
+   {
+    "id": "00gWIREOPS00000001",
+    "members": [
+     "00uGRPDENY0000003"
+    ],
+    "profile": {
+     "description": "Wire transfer operations",
+     "name": "Wire-Transfer-Ops"
+    },
+    "type": "OKTA_GROUP"
+   },
+   {
+    "id": "00gBREAKGLS0000001",
+    "members": [
+     "00uGRPDENY0000004"
+    ],
+    "profile": {
+     "description": "Global-admin break-glass",
+     "name": "GA-Break-Glass"
+    },
+    "type": "OKTA_GROUP"
+   },
+   {
+    "id": "00gLEDGER000000001",
+    "members": [
+     "00uGRPDENY0000005"
+    ],
+    "profile": {
+     "description": "General ledger administrators",
+     "name": "Ledger-Admins"
+    },
+    "type": "OKTA_GROUP"
+   }
+  ],
+  "logs": [],
+  "users": [
+   {
+    "factors": [],
+    "id": "00uROLEDENY0000001",
+    "profile": {
+     "email": "jordan.vale@meridianpay.example",
+     "firstName": "Jordan",
+     "lastName": "Vale",
+     "login": "jordan.vale@meridianpay.example"
+    },
+    "roleAssignments": [
+     {
+      "assignmentType": "USER",
+      "id": "ra-super_admin",
+      "label": "Super Administrator",
+      "status": "ACTIVE",
+      "type": "SUPER_ADMIN"
+     }
+    ],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uROLEDENY0000002",
+    "profile": {
+     "email": "priya.nathan@meridianpay.example",
+     "firstName": "Priya",
+     "lastName": "Nathan",
+     "login": "priya.nathan@meridianpay.example"
+    },
+    "roleAssignments": [
+     {
+      "assignmentType": "USER",
+      "id": "ra-org_admin",
+      "label": "Organizational Administrator",
+      "status": "ACTIVE",
+      "type": "ORG_ADMIN"
+     }
+    ],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uROLEDENY0000003",
+    "profile": {
+     "email": "sam.okafor@meridianpay.example",
+     "firstName": "Sam",
+     "lastName": "Okafor",
+     "login": "sam.okafor@meridianpay.example"
+    },
+    "roleAssignments": [
+     {
+      "assignmentType": "USER",
+      "id": "ra-app_admin",
+      "label": "Application Administrator",
+      "status": "ACTIVE",
+      "type": "APP_ADMIN"
+     }
+    ],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uROLEDENY0000004",
+    "profile": {
+     "email": "lena.dvorak@meridianpay.example",
+     "firstName": "Lena",
+     "lastName": "Dvorak",
+     "login": "lena.dvorak@meridianpay.example"
+    },
+    "roleAssignments": [
+     {
+      "assignmentType": "USER",
+      "id": "ra-user_admin",
+      "label": "Group Administrator",
+      "status": "ACTIVE",
+      "type": "USER_ADMIN"
+     }
+    ],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uROLEDENY0000005",
+    "profile": {
+     "email": "marcus.hale@meridianpay.example",
+     "firstName": "Marcus",
+     "lastName": "Hale",
+     "login": "marcus.hale@meridianpay.example"
+    },
+    "roleAssignments": [
+     {
+      "assignmentType": "USER",
+      "id": "ra-report_admin",
+      "label": "Report Administrator",
+      "status": "ACTIVE",
+      "type": "REPORT_ADMIN"
+     }
+    ],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uROLEDENY0000006",
+    "profile": {
+     "email": "wei.chen@meridianpay.example",
+     "firstName": "Wei",
+     "lastName": "Chen",
+     "login": "wei.chen@meridianpay.example"
+    },
+    "roleAssignments": [
+     {
+      "assignmentType": "USER",
+      "id": "ra-group_membership_admin",
+      "label": "Group Membership Administrator",
+      "status": "ACTIVE",
+      "type": "GROUP_MEMBERSHIP_ADMIN"
+     }
+    ],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uROLEKEEP0000001",
+    "profile": {
+     "email": "dana.frost@meridianpay.example",
+     "firstName": "Dana",
+     "lastName": "Frost",
+     "login": "dana.frost@meridianpay.example"
+    },
+    "roleAssignments": [
+     {
+      "assignmentType": "USER",
+      "id": "ra-super_admin",
+      "label": "Super Administrator",
+      "status": "ACTIVE",
+      "type": "SUPER_ADMIN"
+     }
+    ],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uGRPDENY0000001",
+    "profile": {
+     "email": "avery.stone@meridianpay.example",
+     "firstName": "Avery",
+     "lastName": "Stone",
+     "login": "avery.stone@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uGRPDENY0000002",
+    "profile": {
+     "email": "noah.singh@meridianpay.example",
+     "firstName": "Noah",
+     "lastName": "Singh",
+     "login": "noah.singh@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uGRPDENY0000003",
+    "profile": {
+     "email": "mia.roth@meridianpay.example",
+     "firstName": "Mia",
+     "lastName": "Roth",
+     "login": "mia.roth@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uGRPDENY0000004",
+    "profile": {
+     "email": "omar.reyes@meridianpay.example",
+     "firstName": "Omar",
+     "lastName": "Reyes",
+     "login": "omar.reyes@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uGRPDENY0000005",
+    "profile": {
+     "email": "hana.suzuki@meridianpay.example",
+     "firstName": "Hana",
+     "lastName": "Suzuki",
+     "login": "hana.suzuki@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uGRPKEEP0000001",
+    "profile": {
+     "email": "kai.mercer@meridianpay.example",
+     "firstName": "Kai",
+     "lastName": "Mercer",
+     "login": "kai.mercer@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uGRPDONE0000001",
+    "profile": {
+     "email": "ivy.lambert@meridianpay.example",
+     "firstName": "Ivy",
+     "lastName": "Lambert",
+     "login": "ivy.lambert@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uAPPDENY0000001",
+    "profile": {
+     "email": "ruth.oduya@meridianpay.example",
+     "firstName": "Ruth",
+     "lastName": "Oduya",
+     "login": "ruth.oduya@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uAPPDENY0000002",
+    "profile": {
+     "email": "leo.brandt@meridianpay.example",
+     "firstName": "Leo",
+     "lastName": "Brandt",
+     "login": "leo.brandt@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uAPPDENY0000003",
+    "profile": {
+     "email": "tara.kwon@meridianpay.example",
+     "firstName": "Tara",
+     "lastName": "Kwon",
+     "login": "tara.kwon@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uAPPDENY0000004",
+    "profile": {
+     "email": "eli.marsh@meridianpay.example",
+     "firstName": "Eli",
+     "lastName": "Marsh",
+     "login": "eli.marsh@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uAPPDENY0000005",
+    "profile": {
+     "email": "zoe.park@meridianpay.example",
+     "firstName": "Zoe",
+     "lastName": "Park",
+     "login": "zoe.park@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uAPPKEEP0000001",
+    "profile": {
+     "email": "finn.walsh@meridianpay.example",
+     "firstName": "Finn",
+     "lastName": "Walsh",
+     "login": "finn.walsh@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uREGULAR0000001",
+    "profile": {
+     "email": "casey.reed@meridianpay.example",
+     "firstName": "Casey",
+     "lastName": "Reed",
+     "login": "casey.reed@meridianpay.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [],
+  "incident": [
+   {
+    "category": "compliance",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Prior-year access-certification closeout - CLOSED. Lesson learned: 'campaign complete' on the dashboard is a CLAIM, not proof. A recorded decision is only finished when the outcome it decided has actually taken effect in the systems that hold the access. Last cycle several accounts that reviewers had decided to remove were still fully active because the decisions were recorded but never carried through to the identity provider - and a couple of self-service bundles were still open to everyone even though the review had called for restricting them. None of it showed on the campaign summary; the auditor found it by comparing each decision to the live access it governed. Reconcile every decision to reality, and only touch what a decision actually called for.",
+    "closed_at": "2025-10-20 17:00:00",
+    "description": "Prior access-certification closeout. See close notes for the lessons learned.",
+    "number": "INC0027014",
+    "priority": "3",
+    "short_description": "Access-certification closeout (prior cycle) - lessons learned",
+    "state": "7",
+    "sys_created_on": "2025-10-01 08:00:00",
+    "sys_id": "c37229c59d7de9fee19a466dd6507f5e",
+    "sys_updated_on": "2025-10-20 17:00:00"
+   },
+   {
+    "category": "compliance",
+    "description": "Our Q3 privileged access & entitlement certification campaign wrapped up last week - every reviewer submitted their decisions and the platform shows the campaign as done. The contractor-accounts review was already closed out by the reviewers, so that one is handled.\nBefore SOX/ISO fieldwork next week we need the campaign formally closed out. As the campaign owner, make sure the environment genuinely reflects the certification outcome, then close this ticket. Do not just take the campaign status at face value - an auditor will check that what was decided actually happened.",
+    "number": "INC0030001",
+    "priority": "1",
+    "short_description": "Close out the Q3 privileged access certification campaign",
+    "state": "2",
+    "sys_created_on": "2026-07-17 09:00:00",
+    "sys_id": "92e75ccb30d901eed7797d352983da8c",
+    "sys_updated_on": "2026-07-17 09:00:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   }
+  ]
+ }
+}

@@ -1,0 +1,2598 @@
+{
+  "_now": "2026-07-22T00:00:00.000Z",
+  "confluence": {
+    "pages": [
+      {
+        "body": {
+          "storage": {
+            "representation": "storage",
+            "value": "Security review 2026-07-19. During access certification we found that our document site named IncidentResponse is readable by an external group that is not one of ours and should not have any access to it. Please close out whatever access should not be there and get to the bottom of how this happened."
+          }
+        },
+        "createdAt": "2026-07-19T08:00:00.000Z",
+        "id": "9400100",
+        "spaceId": "9410007",
+        "status": "current",
+        "title": "Security review finding \u2014 external readers flagged",
+        "type": "page",
+        "updatedAt": "2026-07-19T08:00:00.000Z",
+        "version": {
+          "authorId": "0db44a312262",
+          "createdAt": "2026-07-19T08:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-06-15T00:00:00.000Z",
+        "id": "9405001",
+        "spaceId": "9410005",
+        "status": "current",
+        "title": "Deployment Runbook",
+        "type": "page",
+        "updatedAt": "2026-06-15T00:00:00.000Z",
+        "version": {
+          "authorId": "5b697242f8ab",
+          "createdAt": "2026-06-15T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2025-03-01T00:00:00.000Z",
+        "id": "9405002",
+        "spaceId": "9410005",
+        "status": "current",
+        "title": "Release Checklist",
+        "type": "page",
+        "updatedAt": "2025-03-01T00:00:00.000Z",
+        "version": {
+          "authorId": "24f6198d8c6a",
+          "createdAt": "2025-03-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-01-10T00:00:00.000Z",
+        "id": "9405003",
+        "spaceId": "9410005",
+        "status": "current",
+        "title": "Halcyon Onboarding Guide",
+        "type": "page",
+        "updatedAt": "2026-01-10T00:00:00.000Z",
+        "version": {
+          "authorId": "16a9ca6964cb",
+          "createdAt": "2026-01-10T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406000",
+        "spaceId": "9410007",
+        "status": "current",
+        "title": "Runbook Alpha",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "528ecc6d9bc6",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406001",
+        "spaceId": "9410114",
+        "status": "current",
+        "title": "Onboarding Checklist",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "435d125b41a6",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406002",
+        "spaceId": "9410111",
+        "status": "current",
+        "title": "Postmortem 2026 Q1",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "964f135b6eb3",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406003",
+        "spaceId": "9410005",
+        "status": "current",
+        "title": "Team Charter",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "4ff1b1dbcfea",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406004",
+        "spaceId": "9410113",
+        "status": "archived",
+        "title": "Meeting Notes Jan",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "442b9780975b",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406005",
+        "spaceId": "9410110",
+        "status": "current",
+        "title": "Architecture Overview",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "26e337c5fd69",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406006",
+        "spaceId": "9410115",
+        "status": "current",
+        "title": "Style Guide",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "3d0c8f9b6ccb",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406007",
+        "spaceId": "9410112",
+        "status": "current",
+        "title": "Data Handling Policy",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "76b48356a810",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406008",
+        "spaceId": "9410007",
+        "status": "current",
+        "title": "SLA Matrix",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "36729ec5310c",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406009",
+        "spaceId": "9410114",
+        "status": "archived",
+        "title": "Vendor List",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "1c2ddab92e7a",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406010",
+        "spaceId": "9410111",
+        "status": "current",
+        "title": "Roadmap 2026",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "a70c8bf5af91",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406011",
+        "spaceId": "9410005",
+        "status": "current",
+        "title": "Retro Notes",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "d1c670522ea9",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406012",
+        "spaceId": "9410113",
+        "status": "current",
+        "title": "Access Guide",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "adc9fe0be6b8",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406013",
+        "spaceId": "9410110",
+        "status": "current",
+        "title": "Backup Plan",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "cf11a99e9db7",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406014",
+        "spaceId": "9410115",
+        "status": "archived",
+        "title": "Metrics Notes",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "4296de461df0",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406015",
+        "spaceId": "9410112",
+        "status": "current",
+        "title": "Escalation Paths",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "f2e806ee172d",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406016",
+        "spaceId": "9410007",
+        "status": "current",
+        "title": "Glossary",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "ac26b303ed07",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406017",
+        "spaceId": "9410114",
+        "status": "current",
+        "title": "FAQ Internal",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "995339ceb266",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406018",
+        "spaceId": "9410111",
+        "status": "current",
+        "title": "Release Notes 2026",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "2050028800d3",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406019",
+        "spaceId": "9410005",
+        "status": "archived",
+        "title": "Training Index",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "eb3c3b75dc4f",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406020",
+        "spaceId": "9410113",
+        "status": "current",
+        "title": "Incident Log Archive",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "4e026e314d71",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406021",
+        "spaceId": "9410110",
+        "status": "current",
+        "title": "Capacity Plan",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "8bb6608ee909",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406022",
+        "spaceId": "9410115",
+        "status": "current",
+        "title": "Cost Report Notes",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "b0dea1a3e44e",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406023",
+        "spaceId": "9410112",
+        "status": "current",
+        "title": "Security Baseline",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "72e447660894",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406024",
+        "spaceId": "9410007",
+        "status": "archived",
+        "title": "Coding Standards",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "15f96995197a",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406025",
+        "spaceId": "9410114",
+        "status": "current",
+        "title": "API Conventions",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "844d0a1b782d",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406026",
+        "spaceId": "9410111",
+        "status": "current",
+        "title": "Support Playbook",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "7e563957bc8a",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406027",
+        "spaceId": "9410005",
+        "status": "current",
+        "title": "Hiring Rubric",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "8a52917e2a9c",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406028",
+        "spaceId": "9410113",
+        "status": "current",
+        "title": "Budget Notes",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "6e135a183b51",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      },
+      {
+        "createdAt": "2026-02-01T00:00:00.000Z",
+        "id": "9406029",
+        "spaceId": "9410110",
+        "status": "archived",
+        "title": "OKR Tracker",
+        "type": "page",
+        "updatedAt": "2026-02-01T00:00:00.000Z",
+        "version": {
+          "authorId": "866f3b56912b",
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "number": 1
+        }
+      }
+    ],
+    "spaces": [
+      {
+        "dataClassification": "internal",
+        "id": "9410005",
+        "key": "ENG",
+        "name": "Engineering",
+        "permissions": [
+          {
+            "id": "perm-eng-internal",
+            "operation": {
+              "key": "read",
+              "targetType": "space"
+            },
+            "principal": {
+              "displayName": "Engineering",
+              "email": "eng@meridian.com",
+              "id": "91982361c6",
+              "type": "group"
+            }
+          }
+        ],
+        "status": "current",
+        "type": "global"
+      },
+      {
+        "dataClassification": "internal",
+        "id": "9410007",
+        "key": "SECOPS",
+        "name": "Security Operations",
+        "permissions": [
+          {
+            "id": "perm-secops-internal",
+            "operation": {
+              "key": "read",
+              "targetType": "space"
+            },
+            "principal": {
+              "displayName": "Security Operations",
+              "email": "secops@meridian.com",
+              "id": "5435f7e3be",
+              "type": "group"
+            }
+          }
+        ],
+        "status": "current",
+        "type": "global"
+      },
+      {
+        "dataClassification": "internal",
+        "id": "9410110",
+        "key": "MKTG",
+        "name": "Marketing",
+        "permissions": [
+          {
+            "id": "perm-mktg-internal",
+            "operation": {
+              "key": "read",
+              "targetType": "space"
+            },
+            "principal": {
+              "displayName": "Marketing",
+              "email": "mktg@meridian.com",
+              "id": "2fa5106f10",
+              "type": "group"
+            }
+          }
+        ],
+        "status": "current",
+        "type": "global"
+      },
+      {
+        "dataClassification": "internal",
+        "id": "9410111",
+        "key": "SALES",
+        "name": "Sales",
+        "permissions": [
+          {
+            "id": "perm-sales-internal",
+            "operation": {
+              "key": "read",
+              "targetType": "space"
+            },
+            "principal": {
+              "displayName": "Sales",
+              "email": "sales@meridian.com",
+              "id": "4979df393c",
+              "type": "group"
+            }
+          }
+        ],
+        "status": "current",
+        "type": "global"
+      },
+      {
+        "dataClassification": "internal",
+        "id": "9410112",
+        "key": "PEOPLE",
+        "name": "People Ops",
+        "permissions": [
+          {
+            "id": "perm-people-internal",
+            "operation": {
+              "key": "read",
+              "targetType": "space"
+            },
+            "principal": {
+              "displayName": "People Ops",
+              "email": "people@meridian.com",
+              "id": "73baccf61d",
+              "type": "group"
+            }
+          }
+        ],
+        "status": "current",
+        "type": "global"
+      },
+      {
+        "dataClassification": "internal",
+        "id": "9410113",
+        "key": "PRODUCT",
+        "name": "Product",
+        "permissions": [
+          {
+            "id": "perm-product-internal",
+            "operation": {
+              "key": "read",
+              "targetType": "space"
+            },
+            "principal": {
+              "displayName": "Product",
+              "email": "product@meridian.com",
+              "id": "e809caeafb",
+              "type": "group"
+            }
+          }
+        ],
+        "status": "current",
+        "type": "global"
+      },
+      {
+        "dataClassification": "internal",
+        "id": "9410114",
+        "key": "FINANCE",
+        "name": "Finance",
+        "permissions": [
+          {
+            "id": "perm-finance-internal",
+            "operation": {
+              "key": "read",
+              "targetType": "space"
+            },
+            "principal": {
+              "displayName": "Finance",
+              "email": "finance@meridian.com",
+              "id": "7432526440",
+              "type": "group"
+            }
+          }
+        ],
+        "status": "current",
+        "type": "global"
+      },
+      {
+        "dataClassification": "internal",
+        "id": "9410115",
+        "key": "ITOPS",
+        "name": "IT",
+        "permissions": [
+          {
+            "id": "perm-itops-internal",
+            "operation": {
+              "key": "read",
+              "targetType": "space"
+            },
+            "principal": {
+              "displayName": "IT",
+              "email": "itops@meridian.com",
+              "id": "be180b89ed",
+              "type": "group"
+            }
+          }
+        ],
+        "status": "current",
+        "type": "global"
+      }
+    ]
+  },
+  "notion": {
+    "blocks": [],
+    "comments": [],
+    "data_sources": [
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "in_trash": false,
+        "last_edited_time": "2025-09-18T10:00:00.000Z",
+        "object": "data_source",
+        "parent": {
+          "type": "workspace",
+          "workspace": true
+        },
+        "properties": {},
+        "title": [
+          {
+            "plain_text": "Halcyon Docs",
+            "text": {
+              "content": "Halcyon Docs"
+            },
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "databases": [],
+    "pages": [
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "a4116647-81af-40f0-8ef0-7249fdbb6bab",
+        "in_trash": false,
+        "last_edited_time": "2025-05-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Deployment Runbook",
+                "text": {
+                  "content": "Deployment Runbook"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/eee15fd9fbae24eced9f4cf004b88135"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "092d0820-8556-4d3e-80c6-d9a5de2faf62",
+        "in_trash": false,
+        "last_edited_time": "2026-07-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Release Checklist",
+                "text": {
+                  "content": "Release Checklist"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/e9e01baa3267ca2e6c572eb86712b88c"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "16d41e3c-d1ff-4021-8cf5-ff2cce7ca9b4",
+        "in_trash": false,
+        "last_edited_time": "2026-03-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Halcyon Team Wiki",
+                "text": {
+                  "content": "Halcyon Team Wiki"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/565d0341d5fd5c73e2efc0919dc53fd9"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "25baf22d-9c4f-498d-80f6-c92565cf75c5",
+        "in_trash": false,
+        "last_edited_time": "2026-03-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Sprint Board Notes",
+                "text": {
+                  "content": "Sprint Board Notes"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/c40ab239c333ba8b10c39ae24f6d2397"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "9f734df5-bc8f-4d4d-848c-224eeae75de8",
+        "in_trash": false,
+        "last_edited_time": "2026-03-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Halcyon Brand Kit",
+                "text": {
+                  "content": "Halcyon Brand Kit"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/dc03e87f6d03891b89874db83ad2d736"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "1dbf95c4-a008-404b-8b64-f9b292802484",
+        "in_trash": false,
+        "last_edited_time": "2026-03-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Customer Interviews",
+                "text": {
+                  "content": "Customer Interviews"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/1a9552c3adb5cf21e663565fa8e4303d"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "142b3a6a-db0e-4794-8f97-4b8cbaacaf8a",
+        "in_trash": false,
+        "last_edited_time": "2026-03-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Growth Experiments",
+                "text": {
+                  "content": "Growth Experiments"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/0c1d102d4bda41a0c4a5b487d983ce68"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "b706bf65-c9a9-4ab7-8e66-3feaa8101dce",
+        "in_trash": false,
+        "last_edited_time": "2026-03-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Halcyon Values",
+                "text": {
+                  "content": "Halcyon Values"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/8d1b5266e9ab3e3048e72df54826d9bf"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "aa794e2e-fffb-4859-8845-7949fd876d59",
+        "in_trash": false,
+        "last_edited_time": "2026-03-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Product Specs Draft",
+                "text": {
+                  "content": "Product Specs Draft"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/94b07666528fbc72b423681850ece9a7"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "acf74676-5cbb-45b5-836c-963c172189a7",
+        "in_trash": false,
+        "last_edited_time": "2026-03-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Weekly Sync",
+                "text": {
+                  "content": "Weekly Sync"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/3efd033c86ce85ae3091b65ecf9424e3"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "f9d6a072-3617-4246-82ec-2233d79122e7",
+        "in_trash": false,
+        "last_edited_time": "2026-03-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Beta Feedback",
+                "text": {
+                  "content": "Beta Feedback"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/433f7b2e0fa82cc3429479e701deeb37"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "c20efa32-4e56-4aa6-8ab6-4c9907888bcb",
+        "in_trash": false,
+        "last_edited_time": "2026-03-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Pricing Ideas",
+                "text": {
+                  "content": "Pricing Ideas"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/5897a0c3b8bff70a82ec53fb16627ac4"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "a6f889b0-1d5e-49a2-8e63-70d1fa34173e",
+        "in_trash": false,
+        "last_edited_time": "2026-03-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Support Macros",
+                "text": {
+                  "content": "Support Macros"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/4139038b84e88e557ab270f22043763f"
+      },
+      {
+        "archived": false,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "7ae378f0-bf9f-4496-85a3-626e82e8a9c3",
+        "in_trash": false,
+        "last_edited_time": "2026-03-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Launch Plan Draft",
+                "text": {
+                  "content": "Launch Plan Draft"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/607e32bfef89e3d63c6ceda4f1ad2c4c"
+      },
+      {
+        "archived": true,
+        "created_time": "2025-09-18T10:00:00.000Z",
+        "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+        "id": "7acf18c7-7856-4177-8d34-41f7195e706c",
+        "in_trash": true,
+        "last_edited_time": "2025-02-01T00:00:00.000Z",
+        "object": "page",
+        "parent": {
+          "data_source_id": "48dad3f3-4810-417c-8d43-6abbcc358c0b",
+          "type": "data_source_id"
+        },
+        "properties": {
+          "Name": {
+            "id": "title",
+            "title": [
+              {
+                "plain_text": "Deprecated Halcyon Notes",
+                "text": {
+                  "content": "Deprecated Halcyon Notes"
+                },
+                "type": "text"
+              }
+            ],
+            "type": "title"
+          }
+        },
+        "url": "https://www.notion.so/d523c125286e2bdc733ce1d5cb650af6"
+      }
+    ],
+    "users": [
+      {
+        "bot": {
+          "owner": {
+            "type": "workspace",
+            "workspace": true
+          }
+        },
+        "id": "48a9c1e7-45f0-42c9-8dd9-e976fa88c456",
+        "name": "Halcyon Notion Bot",
+        "object": "user",
+        "type": "bot"
+      }
+    ]
+  },
+  "notion-admin": {
+    "groups": [
+      {
+        "displayName": "Halcyon Contractors",
+        "id": "2e5610e9-69b4-4ca4-810e-bd7291f426f4",
+        "members": [
+          {
+            "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/98e581d2-0cc9-4eff-8db1-09fa1f20ffc7",
+            "type": "User",
+            "value": "98e581d2-0cc9-4eff-8db1-09fa1f20ffc7"
+          },
+          {
+            "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/346f9a78-ef94-4b01-8b2b-7664799e2833",
+            "type": "User",
+            "value": "346f9a78-ef94-4b01-8b2b-7664799e2833"
+          },
+          {
+            "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/94c2c049-adb8-4fe2-848f-f895e96ee93a",
+            "type": "User",
+            "value": "94c2c049-adb8-4fe2-848f-f895e96ee93a"
+          },
+          {
+            "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/4516a3ba-525e-419f-85e4-786982c244a8",
+            "type": "User",
+            "value": "4516a3ba-525e-419f-85e4-786982c244a8"
+          }
+        ],
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "Group"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:Group"
+        ]
+      },
+      {
+        "displayName": "Halcyon Staff (Retained)",
+        "id": "6225f36c-8681-4a4b-83de-90242bf3e662",
+        "members": [
+          {
+            "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/37403e2a-6b18-43a9-8a05-7f3665705b35",
+            "type": "User",
+            "value": "37403e2a-6b18-43a9-8a05-7f3665705b35"
+          },
+          {
+            "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/8cc5e98a-1295-42aa-890e-64e6d555479e",
+            "type": "User",
+            "value": "8cc5e98a-1295-42aa-890e-64e6d555479e"
+          },
+          {
+            "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/32a7ad84-d486-4022-82da-8a90fbbb0c0d",
+            "type": "User",
+            "value": "32a7ad84-d486-4022-82da-8a90fbbb0c0d"
+          },
+          {
+            "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/e03a2761-d40f-47a9-8b6c-9dbb59af3b6d",
+            "type": "User",
+            "value": "e03a2761-d40f-47a9-8b6c-9dbb59af3b6d"
+          },
+          {
+            "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/01b48f7e-1651-4fae-806f-651acb065c3c",
+            "type": "User",
+            "value": "01b48f7e-1651-4fae-806f-651acb065c3c"
+          },
+          {
+            "$ref": "http://notion-admin.local.mock:8080/scim/v2/Users/876cde97-770b-4410-8397-fd20ed9b776b",
+            "type": "User",
+            "value": "876cde97-770b-4410-8397-fd20ed9b776b"
+          }
+        ],
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "Group"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:Group"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "active": true,
+        "displayName": "Alex Tan",
+        "emails": [
+          {
+            "primary": true,
+            "value": "alex@halcyon-labs.io"
+          }
+        ],
+        "id": "98e581d2-0cc9-4eff-8db1-09fa1f20ffc7",
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "User"
+        },
+        "name": {
+          "familyName": "Tan",
+          "formatted": "Alex Tan",
+          "givenName": "Alex"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User"
+        ],
+        "userName": "alex@halcyon-labs.io"
+      },
+      {
+        "active": true,
+        "displayName": "Ravi Iyer",
+        "emails": [
+          {
+            "primary": true,
+            "value": "ravi@halcyon-labs.io"
+          }
+        ],
+        "id": "346f9a78-ef94-4b01-8b2b-7664799e2833",
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "User"
+        },
+        "name": {
+          "familyName": "Iyer",
+          "formatted": "Ravi Iyer",
+          "givenName": "Ravi"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User"
+        ],
+        "userName": "ravi@halcyon-labs.io"
+      },
+      {
+        "active": true,
+        "displayName": "Mei Lin",
+        "emails": [
+          {
+            "primary": true,
+            "value": "mei@halcyon-labs.io"
+          }
+        ],
+        "id": "94c2c049-adb8-4fe2-848f-f895e96ee93a",
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "User"
+        },
+        "name": {
+          "familyName": "Lin",
+          "formatted": "Mei Lin",
+          "givenName": "Mei"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User"
+        ],
+        "userName": "mei@halcyon-labs.io"
+      },
+      {
+        "active": true,
+        "displayName": "Jonas Kroll",
+        "emails": [
+          {
+            "primary": true,
+            "value": "jonas@halcyon-labs.io"
+          }
+        ],
+        "id": "4516a3ba-525e-419f-85e4-786982c244a8",
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "User"
+        },
+        "name": {
+          "familyName": "Kroll",
+          "formatted": "Jonas Kroll",
+          "givenName": "Jonas"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User"
+        ],
+        "userName": "jonas@halcyon-labs.io"
+      },
+      {
+        "active": true,
+        "displayName": "Noor Toth",
+        "emails": [
+          {
+            "primary": true,
+            "value": "noor.toth@meridian.com"
+          }
+        ],
+        "id": "37403e2a-6b18-43a9-8a05-7f3665705b35",
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "User"
+        },
+        "name": {
+          "familyName": "Toth",
+          "formatted": "Noor Toth",
+          "givenName": "Noor"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User"
+        ],
+        "userName": "noor.toth@meridian.com"
+      },
+      {
+        "active": true,
+        "displayName": "Paul Park",
+        "emails": [
+          {
+            "primary": true,
+            "value": "paul.park@meridian.com"
+          }
+        ],
+        "id": "8cc5e98a-1295-42aa-890e-64e6d555479e",
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "User"
+        },
+        "name": {
+          "familyName": "Park",
+          "formatted": "Paul Park",
+          "givenName": "Paul"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User"
+        ],
+        "userName": "paul.park@meridian.com"
+      },
+      {
+        "active": true,
+        "displayName": "Rosa Kerr",
+        "emails": [
+          {
+            "primary": true,
+            "value": "rosa.kerr@meridian.com"
+          }
+        ],
+        "id": "32a7ad84-d486-4022-82da-8a90fbbb0c0d",
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "User"
+        },
+        "name": {
+          "familyName": "Kerr",
+          "formatted": "Rosa Kerr",
+          "givenName": "Rosa"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User"
+        ],
+        "userName": "rosa.kerr@meridian.com"
+      },
+      {
+        "active": true,
+        "displayName": "Sam Holt",
+        "emails": [
+          {
+            "primary": true,
+            "value": "sam.holt@meridian.com"
+          }
+        ],
+        "id": "e03a2761-d40f-47a9-8b6c-9dbb59af3b6d",
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "User"
+        },
+        "name": {
+          "familyName": "Holt",
+          "formatted": "Sam Holt",
+          "givenName": "Sam"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User"
+        ],
+        "userName": "sam.holt@meridian.com"
+      },
+      {
+        "active": true,
+        "displayName": "Tara Rios",
+        "emails": [
+          {
+            "primary": true,
+            "value": "tara.rios@meridian.com"
+          }
+        ],
+        "id": "01b48f7e-1651-4fae-806f-651acb065c3c",
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "User"
+        },
+        "name": {
+          "familyName": "Rios",
+          "formatted": "Tara Rios",
+          "givenName": "Tara"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User"
+        ],
+        "userName": "tara.rios@meridian.com"
+      },
+      {
+        "active": true,
+        "displayName": "Umar Zinn",
+        "emails": [
+          {
+            "primary": true,
+            "value": "umar.zinn@meridian.com"
+          }
+        ],
+        "id": "876cde97-770b-4410-8397-fd20ed9b776b",
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "User"
+        },
+        "name": {
+          "familyName": "Zinn",
+          "formatted": "Umar Zinn",
+          "givenName": "Umar"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User"
+        ],
+        "userName": "umar.zinn@meridian.com"
+      },
+      {
+        "active": false,
+        "displayName": "Old Vendor",
+        "emails": [
+          {
+            "primary": true,
+            "value": "old.vendor@halcyon-labs.io"
+          }
+        ],
+        "id": "9da572eb-8b3b-455e-8d40-f08b119b126d",
+        "meta": {
+          "created": "2025-09-18T10:00:00.000Z",
+          "lastModified": "2025-09-18T10:00:00.000Z",
+          "resourceType": "User"
+        },
+        "name": {
+          "familyName": "Vendor",
+          "formatted": "Old Vendor",
+          "givenName": "Old"
+        },
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User"
+        ],
+        "userName": "old.vendor@halcyon-labs.io"
+      }
+    ]
+  },
+  "okta": {
+    "apps": [],
+    "groups": [
+      {
+        "created": "2023-01-01T00:00:00.000Z",
+        "id": "00gd7098769462d42786",
+        "members": [
+          "00u11f31d37a5d26b043",
+          "00ud45c27bd6971db0a7",
+          "00u2471a8981d79df3d7"
+        ],
+        "profile": {
+          "description": "Engineering group",
+          "name": "Engineering"
+        },
+        "type": "OKTA_GROUP"
+      },
+      {
+        "created": "2023-01-01T00:00:00.000Z",
+        "id": "00g937b55279025f7391",
+        "members": [
+          "00ueda9096416bcb6a5c",
+          "00u64d377625f8f8ce5d",
+          "00u4ae97e3d55f2e93ad"
+        ],
+        "profile": {
+          "description": "Security-Team group",
+          "name": "Security-Team"
+        },
+        "type": "OKTA_GROUP"
+      },
+      {
+        "created": "2023-01-01T00:00:00.000Z",
+        "id": "00g8f9be2498f5de5c87",
+        "members": [
+          "00u11f31d37a5d26b043",
+          "00ueda9096416bcb6a5c",
+          "00u1f6692ccca0823587",
+          "00u71f497be0d9330aa9",
+          "00u1584e868fd7775f90",
+          "00u5ffd4510934f27fb7",
+          "00u81883f6dde321d71e",
+          "00u784435fe743bd63fd",
+          "00u0f7a0c2745b05bc78",
+          "00u54c23f74711046669",
+          "00ud45c27bd6971db0a7",
+          "00u64d377625f8f8ce5d",
+          "00u56fb6e346ec299133",
+          "00u154359de09e9a4021",
+          "00u81141ab2e9b94ab06",
+          "00u15bac66f423978a3d",
+          "00u8e253be6917178b73",
+          "00u9e220795888adb186",
+          "00u66991c14a6edc00ff",
+          "00u2611d334434d3bf47",
+          "00u2471a8981d79df3d7",
+          "00u4ae97e3d55f2e93ad",
+          "00u1fe66e1b58610a384",
+          "00ud7402eccbe5e2c357",
+          "00u20bd6671bdf140c90",
+          "00u6d35873ef90b0fb71",
+          "00ucf2aa4ed8b0f064ad",
+          "00uc8b928e6eaf0562a8",
+          "00u343710297b3f3d5a1",
+          "00ud36dc827a4bbe3966",
+          "00u5eab1e02b7e7fbdda",
+          "00u04ebaf2676670e19c",
+          "00u52fa2a5adca209226",
+          "00ue64d6b2e0f42b3d8e"
+        ],
+        "profile": {
+          "description": "All-Employees group",
+          "name": "All-Employees"
+        },
+        "type": "OKTA_GROUP"
+      },
+      {
+        "created": "2023-01-01T00:00:00.000Z",
+        "id": "00g9f6473d5d65fbc260",
+        "members": [
+          "00u5eab1e02b7e7fbdda",
+          "00u04ebaf2676670e19c",
+          "00u52fa2a5adca209226",
+          "00ue64d6b2e0f42b3d8e"
+        ],
+        "profile": {
+          "description": "Halcyon-Integration group",
+          "name": "Halcyon-Integration"
+        },
+        "type": "OKTA_GROUP"
+      },
+      {
+        "created": "2025-09-18T10:00:00.000Z",
+        "id": "00gaeafacd4d0121dce9",
+        "members": [
+          "00u7885b9778215f2cd0",
+          "00u47e641adb0fe4b328",
+          "00ua01d2fcd23acba246",
+          "00u8650486b0263bd993"
+        ],
+        "profile": {
+          "description": "External contractor collaborators onboarded during the Halcyon acquisition integration",
+          "name": "Halcyon Contractors (External)"
+        },
+        "type": "APP_GROUP"
+      }
+    ],
+    "logs": [
+      {
+        "actor": {
+          "alternateId": "integration-svc@meridian.com",
+          "displayName": "integration-svc",
+          "id": "svc-integration"
+        },
+        "displayMessage": "Halcyon workspace integration import run",
+        "eventType": "application.provision.integration",
+        "published": "2025-09-18T10:00:00.000Z",
+        "severity": "INFO",
+        "uuid": "log-1"
+      },
+      {
+        "actor": {
+          "alternateId": "integration-svc@meridian.com",
+          "displayName": "integration-svc",
+          "id": "svc-integration"
+        },
+        "displayMessage": "Bulk access grant during Halcyon merge",
+        "eventType": "group.user_membership.add",
+        "published": "2025-09-18T10:00:00.000Z",
+        "severity": "INFO",
+        "uuid": "log-2"
+      },
+      {
+        "actor": {
+          "alternateId": "integration-svc@meridian.com",
+          "displayName": "integration-svc",
+          "id": "svc-integration"
+        },
+        "displayMessage": "Non-retained Halcyon staff offboarded",
+        "eventType": "user.lifecycle.deactivate",
+        "published": "2025-10-15T09:00:00.000Z",
+        "severity": "INFO",
+        "uuid": "log-3"
+      },
+      {
+        "actor": {
+          "alternateId": "integration-svc@meridian.com",
+          "displayName": "integration-svc",
+          "id": "svc-integration"
+        },
+        "displayMessage": "Non-retained Halcyon staff offboarded",
+        "eventType": "user.lifecycle.deactivate",
+        "published": "2025-10-15T09:00:00.000Z",
+        "severity": "INFO",
+        "uuid": "log-4"
+      },
+      {
+        "actor": {
+          "alternateId": "integration-svc@meridian.com",
+          "displayName": "integration-svc",
+          "id": "svc-integration"
+        },
+        "displayMessage": "Vireo Design vendor onboarding (approved)",
+        "eventType": "application.user_membership.add",
+        "published": "2026-06-02T12:00:00.000Z",
+        "severity": "INFO",
+        "uuid": "log-5"
+      },
+      {
+        "actor": {
+          "alternateId": "integration-svc@meridian.com",
+          "displayName": "integration-svc",
+          "id": "svc-integration"
+        },
+        "displayMessage": "External read access flagged on a document site",
+        "eventType": "security.review.finding",
+        "published": "2026-07-19T08:00:00.000Z",
+        "severity": "INFO",
+        "uuid": "log-6"
+      }
+    ],
+    "users": [
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u11f31d37a5d26b043",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Engineering",
+          "email": "nina.voss0@meridian.com",
+          "firstName": "Nina",
+          "lastName": "Voss",
+          "login": "nina.voss0@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00ueda9096416bcb6a5c",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Security",
+          "email": "omar.vane1@meridian.com",
+          "firstName": "Omar",
+          "lastName": "Vane",
+          "login": "omar.vane1@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u1f6692ccca0823587",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Product",
+          "email": "sara.lowe2@meridian.com",
+          "firstName": "Sara",
+          "lastName": "Lowe",
+          "login": "sara.lowe2@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u71f497be0d9330aa9",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Marketing",
+          "email": "liam.uhl3@meridian.com",
+          "firstName": "Liam",
+          "lastName": "Uhl",
+          "login": "liam.uhl3@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u1584e868fd7775f90",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Sales",
+          "email": "yuki.reed4@meridian.com",
+          "firstName": "Yuki",
+          "lastName": "Reed",
+          "login": "yuki.reed4@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u5ffd4510934f27fb7",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "People",
+          "email": "ravi.roy5@meridian.com",
+          "firstName": "Ravi",
+          "lastName": "Roy",
+          "login": "ravi.roy5@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u81883f6dde321d71e",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Finance",
+          "email": "elena.iyer6@meridian.com",
+          "firstName": "Elena",
+          "lastName": "Iyer",
+          "login": "elena.iyer6@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u784435fe743bd63fd",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "IT",
+          "email": "tom.sole7@meridian.com",
+          "firstName": "Tom",
+          "lastName": "Sole",
+          "login": "tom.sole7@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u0f7a0c2745b05bc78",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Support",
+          "email": "aisha.boyd8@meridian.com",
+          "firstName": "Aisha",
+          "lastName": "Boyd",
+          "login": "aisha.boyd8@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u54c23f74711046669",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Design",
+          "email": "ben.diaz9@meridian.com",
+          "firstName": "Ben",
+          "lastName": "Diaz",
+          "login": "ben.diaz9@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00ud45c27bd6971db0a7",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Engineering",
+          "email": "chloe.frey10@meridian.com",
+          "firstName": "Chloe",
+          "lastName": "Frey",
+          "login": "chloe.frey10@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u64d377625f8f8ce5d",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Security",
+          "email": "dev.quin11@meridian.com",
+          "firstName": "Dev",
+          "lastName": "Quin",
+          "login": "dev.quin11@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u56fb6e346ec299133",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Product",
+          "email": "farah.yates12@meridian.com",
+          "firstName": "Farah",
+          "lastName": "Yates",
+          "login": "farah.yates12@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u154359de09e9a4021",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Marketing",
+          "email": "gabe.mori13@meridian.com",
+          "firstName": "Gabe",
+          "lastName": "Mori",
+          "login": "gabe.mori13@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u81141ab2e9b94ab06",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Sales",
+          "email": "hana.ono14@meridian.com",
+          "firstName": "Hana",
+          "lastName": "Ono",
+          "login": "hana.ono14@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u15bac66f423978a3d",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "People",
+          "email": "ivan.nash15@meridian.com",
+          "firstName": "Ivan",
+          "lastName": "Nash",
+          "login": "ivan.nash15@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u8e253be6917178b73",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Finance",
+          "email": "jade.vidal16@meridian.com",
+          "firstName": "Jade",
+          "lastName": "Vidal",
+          "login": "jade.vidal16@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u9e220795888adb186",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "IT",
+          "email": "kai.cole17@meridian.com",
+          "firstName": "Kai",
+          "lastName": "Cole",
+          "login": "kai.cole17@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u66991c14a6edc00ff",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Support",
+          "email": "lena.lund18@meridian.com",
+          "firstName": "Lena",
+          "lastName": "Lund",
+          "login": "lena.lund18@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u2611d334434d3bf47",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Design",
+          "email": "milo.kang19@meridian.com",
+          "firstName": "Milo",
+          "lastName": "Kang",
+          "login": "milo.kang19@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u2471a8981d79df3d7",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Engineering",
+          "email": "noor.toth20@meridian.com",
+          "firstName": "Noor",
+          "lastName": "Toth",
+          "login": "noor.toth20@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u4ae97e3d55f2e93ad",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Security",
+          "email": "paul.park21@meridian.com",
+          "firstName": "Paul",
+          "lastName": "Park",
+          "login": "paul.park21@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u1fe66e1b58610a384",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Product",
+          "email": "rosa.kerr22@meridian.com",
+          "firstName": "Rosa",
+          "lastName": "Kerr",
+          "login": "rosa.kerr22@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00ud7402eccbe5e2c357",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Marketing",
+          "email": "sam.holt23@meridian.com",
+          "firstName": "Sam",
+          "lastName": "Holt",
+          "login": "sam.holt23@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u20bd6671bdf140c90",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Sales",
+          "email": "tara.rios24@meridian.com",
+          "firstName": "Tara",
+          "lastName": "Rios",
+          "login": "tara.rios24@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u6d35873ef90b0fb71",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "People",
+          "email": "umar.zinn25@meridian.com",
+          "firstName": "Umar",
+          "lastName": "Zinn",
+          "login": "umar.zinn25@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00ucf2aa4ed8b0f064ad",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Finance",
+          "email": "vera.shah26@meridian.com",
+          "firstName": "Vera",
+          "lastName": "Shah",
+          "login": "vera.shah26@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00uc8b928e6eaf0562a8",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "IT",
+          "email": "will.bass27@meridian.com",
+          "firstName": "Will",
+          "lastName": "Bass",
+          "login": "will.bass27@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00u343710297b3f3d5a1",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Support",
+          "email": "xena.pace28@meridian.com",
+          "firstName": "Xena",
+          "lastName": "Pace",
+          "login": "xena.pace28@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2024-01-10T00:00:00.000Z",
+        "created": "2024-01-10T00:00:00.000Z",
+        "id": "00ud36dc827a4bbe3966",
+        "lastUpdated": "2024-01-10T00:00:00.000Z",
+        "profile": {
+          "department": "Design",
+          "email": "zoe.ware29@meridian.com",
+          "firstName": "Zoe",
+          "lastName": "Ware",
+          "login": "zoe.ware29@meridian.com"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "activated": "2025-09-18T10:00:00.000Z",
+        "created": "2025-09-18T10:00:00.000Z",
+        "id": "00u5eab1e02b7e7fbdda",
+        "lastUpdated": "2025-09-18T10:00:00.000Z",
+        "profile": {
+          "department": "Halcyon Integration",
+          "email": "beck.vane@meridian.com",
+          "firstName": "Beck",
+          "lastName": "Vane",
+          "login": "beck.vane@meridian.com",
+          "originalCompany": "Halcyon"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2025-09-18T10:00:00.000Z"
+      },
+      {
+        "activated": "2025-09-18T10:00:00.000Z",
+        "created": "2025-09-18T10:00:00.000Z",
+        "id": "00u04ebaf2676670e19c",
+        "lastUpdated": "2025-09-18T10:00:00.000Z",
+        "profile": {
+          "department": "Halcyon Integration",
+          "email": "cara.lowe@meridian.com",
+          "firstName": "Cara",
+          "lastName": "Lowe",
+          "login": "cara.lowe@meridian.com",
+          "originalCompany": "Halcyon"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2025-09-18T10:00:00.000Z"
+      },
+      {
+        "activated": "2025-09-18T10:00:00.000Z",
+        "created": "2025-09-18T10:00:00.000Z",
+        "id": "00u52fa2a5adca209226",
+        "lastUpdated": "2025-09-18T10:00:00.000Z",
+        "profile": {
+          "department": "Halcyon Integration",
+          "email": "dana.uhl@meridian.com",
+          "firstName": "Dana",
+          "lastName": "Uhl",
+          "login": "dana.uhl@meridian.com",
+          "originalCompany": "Halcyon"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2025-09-18T10:00:00.000Z"
+      },
+      {
+        "activated": "2025-09-18T10:00:00.000Z",
+        "created": "2025-09-18T10:00:00.000Z",
+        "id": "00ue64d6b2e0f42b3d8e",
+        "lastUpdated": "2025-09-18T10:00:00.000Z",
+        "profile": {
+          "department": "Halcyon Integration",
+          "email": "ezra.reed@meridian.com",
+          "firstName": "Ezra",
+          "lastName": "Reed",
+          "login": "ezra.reed@meridian.com",
+          "originalCompany": "Halcyon"
+        },
+        "status": "ACTIVE",
+        "statusChanged": "2025-09-18T10:00:00.000Z"
+      },
+      {
+        "activated": "2025-09-18T10:00:00.000Z",
+        "created": "2025-09-18T10:00:00.000Z",
+        "id": "00u7885b9778215f2cd0",
+        "lastUpdated": "2025-10-15T09:00:00.000Z",
+        "profile": {
+          "department": "Halcyon Integration",
+          "email": "dmitri.volkov@meridian.com",
+          "firstName": "Dmitri",
+          "lastName": "Volkov",
+          "login": "dmitri.volkov@meridian.com",
+          "originalCompany": "Halcyon"
+        },
+        "status": "DEPROVISIONED",
+        "statusChanged": "2025-10-15T09:00:00.000Z"
+      },
+      {
+        "activated": "2025-09-18T10:00:00.000Z",
+        "created": "2025-09-18T10:00:00.000Z",
+        "id": "00u47e641adb0fe4b328",
+        "lastUpdated": "2025-10-15T09:00:00.000Z",
+        "profile": {
+          "department": "Halcyon Integration",
+          "email": "faye.roy.hal@meridian.com",
+          "firstName": "Faye",
+          "lastName": "Roy",
+          "login": "faye.roy.hal@meridian.com",
+          "originalCompany": "Halcyon"
+        },
+        "status": "DEPROVISIONED",
+        "statusChanged": "2025-10-15T09:00:00.000Z"
+      },
+      {
+        "activated": "2025-09-18T10:00:00.000Z",
+        "created": "2025-09-18T10:00:00.000Z",
+        "id": "00ua01d2fcd23acba246",
+        "lastUpdated": "2025-10-15T09:00:00.000Z",
+        "profile": {
+          "department": "Halcyon Integration",
+          "email": "gus.iyer.hal@meridian.com",
+          "firstName": "Gus",
+          "lastName": "Iyer",
+          "login": "gus.iyer.hal@meridian.com",
+          "originalCompany": "Halcyon"
+        },
+        "status": "DEPROVISIONED",
+        "statusChanged": "2025-10-15T09:00:00.000Z"
+      },
+      {
+        "activated": "2025-09-18T10:00:00.000Z",
+        "created": "2025-09-18T10:00:00.000Z",
+        "id": "00u8650486b0263bd993",
+        "lastUpdated": "2025-10-15T09:00:00.000Z",
+        "profile": {
+          "department": "Halcyon Integration",
+          "email": "hugo.sole.hal@meridian.com",
+          "firstName": "Hugo",
+          "lastName": "Sole",
+          "login": "hugo.sole.hal@meridian.com",
+          "originalCompany": "Halcyon"
+        },
+        "status": "DEPROVISIONED",
+        "statusChanged": "2025-10-15T09:00:00.000Z"
+      }
+    ]
+  },
+  "sharepoint": {
+    "driveItems": [],
+    "drives": [],
+    "listItems": [],
+    "lists": [],
+    "permissions": [
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "Halcyon Contractors",
+            "email": "contractors@halcyon-labs.io"
+          }
+        },
+        "id": "perm-ir-halcyon",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-ir"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "Security Team",
+            "email": "security@meridian.com"
+          }
+        },
+        "id": "perm-ir-internal",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-ir"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "Halcyon Contractors",
+            "email": "contractors@halcyon-labs.io"
+          }
+        },
+        "id": "perm-sec-halcyon",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-sec"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "Dmitri Volkov",
+            "email": "dmitri.volkov@meridian.com"
+          }
+        },
+        "id": "perm-sec-dmitri",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-sec"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "AppSec",
+            "email": "appsec@meridian.com"
+          }
+        },
+        "id": "perm-sec-internal",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-sec"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "Halcyon Contractors",
+            "email": "contractors@halcyon-labs.io"
+          }
+        },
+        "id": "perm-comp-halcyon",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-comp"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "id": "perm-comp-anonlink",
+        "link": {
+          "scope": "anonymous",
+          "type": "view",
+          "webUrl": "http://sharepoint.local.mock/share/a09b41c96acd798d"
+        },
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-comp"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "Legal",
+            "email": "legal@meridian.com"
+          }
+        },
+        "id": "perm-comp-internal",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-comp"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "group": {
+            "displayName": "Halcyon Contractors (External)",
+            "id": "00gaeafacd4d0121dce9"
+          }
+        },
+        "id": "perm-arch-extgroup",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-arch"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "Architecture",
+            "email": "architecture@meridian.com"
+          }
+        },
+        "id": "perm-arch-internal",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-arch"
+      },
+      {
+        "grantedAt": "2026-06-02T12:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "Vireo Design (Agency)",
+            "email": "team@vireo.studio"
+          }
+        },
+        "id": "perm-partner-vireo",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-partner"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "Marketing",
+            "email": "marketing@meridian.com"
+          }
+        },
+        "id": "perm-partner-internal",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-partner"
+      },
+      {
+        "grantedAt": "2024-05-01T00:00:00.000Z",
+        "id": "perm-help-anon",
+        "link": {
+          "scope": "anonymous",
+          "type": "view"
+        },
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-help"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "Docs Team",
+            "email": "docs@meridian.com"
+          }
+        },
+        "id": "perm-help-internal",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-help"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "Legal",
+            "email": "legal@meridian.com"
+          }
+        },
+        "id": "perm-policies-internal",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-policies"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "IT",
+            "email": "it@meridian.com"
+          }
+        },
+        "id": "perm-itops-internal",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-itops"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "group": {
+            "displayName": "Engineering",
+            "id": "00gd7098769462d42786"
+          }
+        },
+        "id": "perm-eng-group",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-eng"
+      },
+      {
+        "grantedAt": "2025-09-18T10:00:00.000Z",
+        "grantedToV2": {
+          "user": {
+            "displayName": "Engineering",
+            "email": "engineering@meridian.com"
+          }
+        },
+        "id": "perm-eng-internal",
+        "roles": [
+          "read"
+        ],
+        "siteId": "site-eng"
+      }
+    ],
+    "sites": [
+      {
+        "dataClassification": "internal-restricted",
+        "displayName": "Incident Response Hub",
+        "id": "site-ir",
+        "name": "IncidentResponse",
+        "webUrl": "http://sharepoint.local.mock/sites/IncidentResponse"
+      },
+      {
+        "dataClassification": "internal-restricted",
+        "displayName": "Security Engineering",
+        "id": "site-sec",
+        "name": "SecurityEng",
+        "webUrl": "http://sharepoint.local.mock/sites/SecurityEng"
+      },
+      {
+        "dataClassification": "internal-restricted",
+        "displayName": "Compliance",
+        "id": "site-comp",
+        "name": "Compliance",
+        "webUrl": "http://sharepoint.local.mock/sites/Compliance"
+      },
+      {
+        "dataClassification": "internal-restricted",
+        "displayName": "Architecture Vault",
+        "id": "site-arch",
+        "name": "ArchitectureVault",
+        "webUrl": "http://sharepoint.local.mock/sites/ArchitectureVault"
+      },
+      {
+        "dataClassification": "partner-collaboration",
+        "displayName": "Partner Portal",
+        "id": "site-partner",
+        "name": "PartnerPortal",
+        "webUrl": "http://sharepoint.local.mock/sites/PartnerPortal"
+      },
+      {
+        "dataClassification": "public",
+        "displayName": "Help Center",
+        "id": "site-help",
+        "name": "HelpCenter",
+        "webUrl": "http://sharepoint.local.mock/sites/HelpCenter"
+      },
+      {
+        "dataClassification": "internal",
+        "displayName": "Policies",
+        "id": "site-policies",
+        "name": "Policies",
+        "webUrl": "http://sharepoint.local.mock/sites/Policies"
+      },
+      {
+        "dataClassification": "internal",
+        "displayName": "IT Operations",
+        "id": "site-itops",
+        "name": "ITOps",
+        "webUrl": "http://sharepoint.local.mock/sites/ITOps"
+      },
+      {
+        "dataClassification": "internal",
+        "displayName": "Engineering Docs",
+        "id": "site-eng",
+        "name": "Engineering",
+        "webUrl": "http://sharepoint.local.mock/sites/Engineering"
+      }
+    ]
+  }
+}

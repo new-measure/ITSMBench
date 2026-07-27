@@ -1,0 +1,1634 @@
+{
+ "_now": "2026-07-17T09:15:00Z",
+ "device42": {
+  "devices": [
+   {
+    "device_id": 20000,
+    "id": 20000,
+    "in_service": true,
+    "ip": "10.50.10.1",
+    "name": "api-app-1.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20001,
+    "id": 20001,
+    "in_service": true,
+    "ip": "10.50.10.2",
+    "name": "api-app-2.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20002,
+    "id": 20002,
+    "in_service": true,
+    "ip": "10.50.10.3",
+    "name": "api-app-3.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20003,
+    "id": 20003,
+    "in_service": true,
+    "ip": "10.50.10.4",
+    "name": "api-app-4.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20004,
+    "id": 20004,
+    "in_service": true,
+    "ip": "10.50.10.5",
+    "name": "api-app-5.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20005,
+    "id": 20005,
+    "in_service": true,
+    "ip": "10.50.10.6",
+    "name": "api-app-6.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20006,
+    "id": 20006,
+    "in_service": true,
+    "ip": "10.50.10.7",
+    "name": "api-app-7.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20007,
+    "id": 20007,
+    "in_service": true,
+    "ip": "10.50.10.8",
+    "name": "api-app-8.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20008,
+    "id": 20008,
+    "in_service": true,
+    "ip": "10.50.10.9",
+    "name": "api-app-9.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20009,
+    "id": 20009,
+    "in_service": true,
+    "ip": "10.50.10.10",
+    "name": "api-app-10.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20010,
+    "id": 20010,
+    "in_service": true,
+    "ip": "10.50.11.1",
+    "name": "api-srch-1.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20011,
+    "id": 20011,
+    "in_service": true,
+    "ip": "10.50.11.2",
+    "name": "api-srch-2.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20012,
+    "id": 20012,
+    "in_service": true,
+    "ip": "10.50.11.3",
+    "name": "api-srch-3.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20013,
+    "id": 20013,
+    "in_service": true,
+    "ip": "10.50.11.4",
+    "name": "api-srch-4.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20014,
+    "id": 20014,
+    "in_service": true,
+    "ip": "10.50.11.5",
+    "name": "api-srch-5.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20015,
+    "id": 20015,
+    "in_service": true,
+    "ip": "10.50.11.6",
+    "name": "api-srch-6.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20016,
+    "id": 20016,
+    "in_service": true,
+    "ip": "10.50.11.7",
+    "name": "api-srch-7.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20017,
+    "id": 20017,
+    "in_service": true,
+    "ip": "10.50.11.8",
+    "name": "api-srch-8.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20018,
+    "id": 20018,
+    "in_service": true,
+    "ip": "10.50.12.1",
+    "name": "api-media-1.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20019,
+    "id": 20019,
+    "in_service": true,
+    "ip": "10.50.12.2",
+    "name": "api-media-2.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20020,
+    "id": 20020,
+    "in_service": true,
+    "ip": "10.50.12.3",
+    "name": "api-media-3.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20021,
+    "id": 20021,
+    "in_service": true,
+    "ip": "10.50.12.4",
+    "name": "api-media-4.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20022,
+    "id": 20022,
+    "in_service": true,
+    "ip": "10.50.12.5",
+    "name": "api-media-5.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20023,
+    "id": 20023,
+    "in_service": true,
+    "ip": "10.50.12.6",
+    "name": "api-media-6.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20024,
+    "id": 20024,
+    "in_service": true,
+    "ip": "10.50.12.7",
+    "name": "api-media-7.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20025,
+    "id": 20025,
+    "in_service": true,
+    "ip": "10.50.12.8",
+    "name": "api-media-8.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20026,
+    "id": 20026,
+    "in_service": true,
+    "ip": "10.50.13.1",
+    "name": "api-ws-1.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20027,
+    "id": 20027,
+    "in_service": true,
+    "ip": "10.50.13.2",
+    "name": "api-ws-2.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20028,
+    "id": 20028,
+    "in_service": true,
+    "ip": "10.50.13.3",
+    "name": "api-ws-3.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20029,
+    "id": 20029,
+    "in_service": true,
+    "ip": "10.50.13.4",
+    "name": "api-ws-4.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20030,
+    "id": 20030,
+    "in_service": false,
+    "ip": "10.50.13.5",
+    "name": "api-ws-5.beacon-digital.example",
+    "notes": "Planned host maintenance window; drained on purpose, do not return to service until maintenance completes.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20031,
+    "id": 20031,
+    "in_service": true,
+    "ip": "10.50.13.6",
+    "name": "api-ws-6.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20032,
+    "id": 20032,
+    "in_service": true,
+    "ip": "10.50.13.7",
+    "name": "api-ws-7.beacon-digital.example",
+    "notes": "API pool member; healthy and in service.",
+    "role": "api-pool-member",
+    "service": "api",
+    "type": "virtual"
+   },
+   {
+    "device_id": 20900,
+    "id": 20900,
+    "in_service": true,
+    "ip": "10.50.0.10",
+    "name": "edge-lb-01.beacon-digital.example",
+    "notes": "HAProxy edge terminator (api + web tiers).",
+    "role": "loadbalancer",
+    "service": "edge-lb",
+    "type": "virtual"
+   }
+  ],
+  "services": [
+   {
+    "displayname": "api",
+    "fqdn": "api.beacon-digital.example",
+    "id": "svc-api",
+    "in_service": true,
+    "notes": "Customer API edge service (HAProxy fe_api).",
+    "tier": "customer-facing"
+   },
+   {
+    "displayname": "web",
+    "fqdn": "web.beacon-digital.example",
+    "id": "svc-web",
+    "in_service": true,
+    "notes": "Customer web edge service (HAProxy fe_web).",
+    "tier": "customer-facing"
+   }
+  ]
+ },
+ "haproxy": {
+  "backends": [
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "first"
+    },
+    "mode": "http",
+    "name": "be_api_app"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "first"
+    },
+    "mode": "http",
+    "name": "be_api_search"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "first"
+    },
+    "mode": "http",
+    "name": "be_api_media"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "be_api_ws"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "be_web_app"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "be_web_search"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "be_web_media"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "be_web_ws"
+   }
+  ],
+  "binds": [
+   {
+    "address": "10.50.0.20",
+    "name": "v4-443",
+    "parent_name": "fe_api",
+    "port": 443
+   },
+   {
+    "address": "10.50.0.21",
+    "name": "v4-443",
+    "parent_name": "fe_web",
+    "port": 443
+   }
+  ],
+  "frontends": [
+   {
+    "default_backend": "be_api_app",
+    "maxconn": 200,
+    "mode": "http",
+    "name": "fe_api"
+   },
+   {
+    "default_backend": "be_web_app",
+    "maxconn": 65536,
+    "mode": "http",
+    "name": "fe_web"
+   }
+  ],
+  "runtimeServers": [
+   {
+    "address": "10.50.10.1",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_app",
+    "server_name": "app-1"
+   },
+   {
+    "address": "10.50.10.2",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_app",
+    "server_name": "app-2"
+   },
+   {
+    "address": "10.50.10.3",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_app",
+    "server_name": "app-3"
+   },
+   {
+    "address": "10.50.10.4",
+    "admin_state": "drain",
+    "operational_state": "down",
+    "parent_name": "be_api_app",
+    "server_name": "app-4"
+   },
+   {
+    "address": "10.50.10.5",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_app",
+    "server_name": "app-5"
+   },
+   {
+    "address": "10.50.10.6",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_app",
+    "server_name": "app-6"
+   },
+   {
+    "address": "10.50.10.7",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_app",
+    "server_name": "app-7"
+   },
+   {
+    "address": "10.50.10.8",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_app",
+    "server_name": "app-8"
+   },
+   {
+    "address": "10.50.10.9",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_app",
+    "server_name": "app-9"
+   },
+   {
+    "address": "10.50.10.10",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_app",
+    "server_name": "app-10"
+   },
+   {
+    "address": "10.50.11.1",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_search",
+    "server_name": "srch-1"
+   },
+   {
+    "address": "10.50.11.2",
+    "admin_state": "maint",
+    "operational_state": "down",
+    "parent_name": "be_api_search",
+    "server_name": "srch-2"
+   },
+   {
+    "address": "10.50.11.3",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_search",
+    "server_name": "srch-3"
+   },
+   {
+    "address": "10.50.11.4",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_search",
+    "server_name": "srch-4"
+   },
+   {
+    "address": "10.50.11.5",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_search",
+    "server_name": "srch-5"
+   },
+   {
+    "address": "10.50.11.6",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_search",
+    "server_name": "srch-6"
+   },
+   {
+    "address": "10.50.11.7",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_search",
+    "server_name": "srch-7"
+   },
+   {
+    "address": "10.50.11.8",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_search",
+    "server_name": "srch-8"
+   },
+   {
+    "address": "10.50.12.1",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_media",
+    "server_name": "media-1"
+   },
+   {
+    "address": "10.50.12.2",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_media",
+    "server_name": "media-2"
+   },
+   {
+    "address": "10.50.12.3",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_media",
+    "server_name": "media-3"
+   },
+   {
+    "address": "10.50.12.4",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_media",
+    "server_name": "media-4"
+   },
+   {
+    "address": "10.50.12.5",
+    "admin_state": "drain",
+    "operational_state": "down",
+    "parent_name": "be_api_media",
+    "server_name": "media-5"
+   },
+   {
+    "address": "10.50.12.6",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_media",
+    "server_name": "media-6"
+   },
+   {
+    "address": "10.50.12.7",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_media",
+    "server_name": "media-7"
+   },
+   {
+    "address": "10.50.12.8",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_media",
+    "server_name": "media-8"
+   },
+   {
+    "address": "10.50.13.1",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_ws",
+    "server_name": "ws-1"
+   },
+   {
+    "address": "10.50.13.2",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_ws",
+    "server_name": "ws-2"
+   },
+   {
+    "address": "10.50.13.3",
+    "admin_state": "drain",
+    "operational_state": "down",
+    "parent_name": "be_api_ws",
+    "server_name": "ws-3"
+   },
+   {
+    "address": "10.50.13.4",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_ws",
+    "server_name": "ws-4"
+   },
+   {
+    "address": "10.50.13.5",
+    "admin_state": "drain",
+    "operational_state": "down",
+    "parent_name": "be_api_ws",
+    "server_name": "ws-5"
+   },
+   {
+    "address": "10.50.13.6",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_ws",
+    "server_name": "ws-6"
+   },
+   {
+    "address": "10.50.13.7",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_api_ws",
+    "server_name": "ws-7"
+   },
+   {
+    "address": "10.50.20.1",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_app",
+    "server_name": "web-app-1"
+   },
+   {
+    "address": "10.50.20.2",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_app",
+    "server_name": "web-app-2"
+   },
+   {
+    "address": "10.50.20.3",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_app",
+    "server_name": "web-app-3"
+   },
+   {
+    "address": "10.50.20.4",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_app",
+    "server_name": "web-app-4"
+   },
+   {
+    "address": "10.50.21.1",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_search",
+    "server_name": "web-srch-1"
+   },
+   {
+    "address": "10.50.21.2",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_search",
+    "server_name": "web-srch-2"
+   },
+   {
+    "address": "10.50.21.3",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_search",
+    "server_name": "web-srch-3"
+   },
+   {
+    "address": "10.50.21.4",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_search",
+    "server_name": "web-srch-4"
+   },
+   {
+    "address": "10.50.22.1",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_media",
+    "server_name": "web-media-1"
+   },
+   {
+    "address": "10.50.22.2",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_media",
+    "server_name": "web-media-2"
+   },
+   {
+    "address": "10.50.22.3",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_media",
+    "server_name": "web-media-3"
+   },
+   {
+    "address": "10.50.22.4",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_media",
+    "server_name": "web-media-4"
+   },
+   {
+    "address": "10.50.23.1",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_ws",
+    "server_name": "web-ws-1"
+   },
+   {
+    "address": "10.50.23.2",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_ws",
+    "server_name": "web-ws-2"
+   },
+   {
+    "address": "10.50.23.3",
+    "admin_state": "ready",
+    "operational_state": "up",
+    "parent_name": "be_web_ws",
+    "server_name": "web-ws-3"
+   }
+  ],
+  "servers": [
+   {
+    "address": "10.50.10.1",
+    "check": "enabled",
+    "fall": 1,
+    "inter": 150,
+    "maxconn": 2000,
+    "name": "app-1",
+    "parent_name": "be_api_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.10.2",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "app-2",
+    "parent_name": "be_api_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 0
+   },
+   {
+    "address": "10.50.10.3",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 5,
+    "name": "app-3",
+    "parent_name": "be_api_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.10.4",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "app-4",
+    "parent_name": "be_api_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 0
+   },
+   {
+    "address": "10.50.10.5",
+    "check": "enabled",
+    "fall": 1,
+    "inter": 200,
+    "maxconn": 2000,
+    "name": "app-5",
+    "parent_name": "be_api_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.10.6",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "app-6",
+    "parent_name": "be_api_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 0
+   },
+   {
+    "address": "10.50.10.7",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 6,
+    "name": "app-7",
+    "parent_name": "be_api_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.10.8",
+    "check": "disabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "app-8",
+    "parent_name": "be_api_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.10.9",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "app-9",
+    "parent_name": "be_api_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.10.10",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 7,
+    "name": "app-10",
+    "parent_name": "be_api_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.11.1",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 8,
+    "name": "srch-1",
+    "parent_name": "be_api_search",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.11.2",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 9,
+    "name": "srch-2",
+    "parent_name": "be_api_search",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.11.3",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "srch-3",
+    "parent_name": "be_api_search",
+    "port": 8443,
+    "rise": 2,
+    "weight": 0
+   },
+   {
+    "address": "10.50.11.4",
+    "check": "enabled",
+    "fall": 1,
+    "inter": 100,
+    "maxconn": 2000,
+    "name": "srch-4",
+    "parent_name": "be_api_search",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.11.5",
+    "check": "disabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "srch-5",
+    "parent_name": "be_api_search",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.11.6",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "srch-6",
+    "parent_name": "be_api_search",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.11.7",
+    "check": "enabled",
+    "fall": 1,
+    "inter": 120,
+    "maxconn": 2000,
+    "name": "srch-7",
+    "parent_name": "be_api_search",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.11.8",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "srch-8",
+    "parent_name": "be_api_search",
+    "port": 8443,
+    "rise": 2,
+    "weight": 0
+   },
+   {
+    "address": "10.50.12.1",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 4,
+    "name": "media-1",
+    "parent_name": "be_api_media",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.12.2",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "media-2",
+    "parent_name": "be_api_media",
+    "port": 8443,
+    "rise": 2,
+    "weight": 0
+   },
+   {
+    "address": "10.50.12.3",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "media-3",
+    "parent_name": "be_api_media",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.12.4",
+    "check": "enabled",
+    "fall": 1,
+    "inter": 250,
+    "maxconn": 2000,
+    "name": "media-4",
+    "parent_name": "be_api_media",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.12.5",
+    "check": "disabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "media-5",
+    "parent_name": "be_api_media",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.12.6",
+    "check": "disabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "media-6",
+    "parent_name": "be_api_media",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.12.7",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "media-7",
+    "parent_name": "be_api_media",
+    "port": 8443,
+    "rise": 2,
+    "weight": 0
+   },
+   {
+    "address": "10.50.12.8",
+    "check": "enabled",
+    "fall": 1,
+    "inter": 180,
+    "maxconn": 2000,
+    "name": "media-8",
+    "parent_name": "be_api_media",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.13.1",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 10,
+    "name": "ws-1",
+    "parent_name": "be_api_ws",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.13.2",
+    "check": "disabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "ws-2",
+    "parent_name": "be_api_ws",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.13.3",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "ws-3",
+    "parent_name": "be_api_ws",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.13.4",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "ws-4",
+    "parent_name": "be_api_ws",
+    "port": 8443,
+    "rise": 2,
+    "weight": 0
+   },
+   {
+    "address": "10.50.13.5",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "ws-5",
+    "parent_name": "be_api_ws",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.13.6",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "ws-6",
+    "parent_name": "be_api_ws",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.13.7",
+    "check": "enabled",
+    "fall": 1,
+    "inter": 140,
+    "maxconn": 2000,
+    "name": "ws-7",
+    "parent_name": "be_api_ws",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.20.1",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-app-1",
+    "parent_name": "be_web_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.20.2",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-app-2",
+    "parent_name": "be_web_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.20.3",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-app-3",
+    "parent_name": "be_web_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.20.4",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-app-4",
+    "parent_name": "be_web_app",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.21.1",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-srch-1",
+    "parent_name": "be_web_search",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.21.2",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-srch-2",
+    "parent_name": "be_web_search",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.21.3",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-srch-3",
+    "parent_name": "be_web_search",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.21.4",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-srch-4",
+    "parent_name": "be_web_search",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.22.1",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-media-1",
+    "parent_name": "be_web_media",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.22.2",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-media-2",
+    "parent_name": "be_web_media",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.22.3",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-media-3",
+    "parent_name": "be_web_media",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.22.4",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-media-4",
+    "parent_name": "be_web_media",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.23.1",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-ws-1",
+    "parent_name": "be_web_ws",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.23.2",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-ws-2",
+    "parent_name": "be_web_ws",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   },
+   {
+    "address": "10.50.23.3",
+    "check": "enabled",
+    "fall": 3,
+    "inter": 2000,
+    "maxconn": 2000,
+    "name": "web-ws-3",
+    "parent_name": "be_web_ws",
+    "port": 8443,
+    "rise": 2,
+    "weight": 128
+   }
+  ],
+  "sslCertificates": [],
+  "sslFrontUses": [],
+  "version": 7
+ },
+ "infoblox-nios": {
+  "a_records": [
+   {
+    "comment": "Customer API endpoint (HAProxy edge VIP).",
+    "ipv4addr": "10.50.0.20",
+    "name": "api.beacon-digital.example",
+    "view": "default"
+   },
+   {
+    "comment": "Customer web endpoint (HAProxy edge VIP).",
+    "ipv4addr": "10.50.0.21",
+    "name": "web.beacon-digital.example",
+    "view": "default"
+   }
+  ],
+  "zones": [
+   {
+    "fqdn": "beacon-digital.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   }
+  ]
+ },
+ "microsoft-sentinel": {
+  "alerts": [
+   {
+    "incidentId": "91919191-9191-9191-9191-919191919191",
+    "name": "a1a1a1a1-0000-0000-0000-000000000000",
+    "properties": {
+     "alertDisplayName": "Frontend rejecting new connections (session limit reached) on the api tier",
+     "description": "HAProxy fe_api is refusing new client connections: accept queue overflowing / configured session limit reached while host load is nominal.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "Impact"
+     ]
+    }
+   },
+   {
+    "incidentId": "91919191-9191-9191-9191-919191919191",
+    "name": "a1a1a1a1-0000-0000-0000-000000000001",
+    "properties": {
+     "alertDisplayName": "Backend members receiving no traffic (disabled) on the api tier",
+     "description": "Several api backend members are marked disabled / not selected by the load balancer despite the hosts being up and healthy.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "Impact"
+     ]
+    }
+   },
+   {
+    "incidentId": "91919191-9191-9191-9191-919191919191",
+    "name": "a1a1a1a1-0000-0000-0000-000000000002",
+    "properties": {
+     "alertDisplayName": "Per-member connection resets under normal load on the api tier",
+     "description": "api backend members are resetting established connections under normal traffic (per-server session ceiling hit), not due to host resource exhaustion.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "Impact"
+     ]
+    }
+   },
+   {
+    "incidentId": "91919191-9191-9191-9191-919191919191",
+    "name": "a1a1a1a1-0000-0000-0000-000000000003",
+    "properties": {
+     "alertDisplayName": "Backend members flapping (rapid up/down) on the api tier",
+     "description": "Several api backend members are oscillating up/down repeatedly; health-check transitions are far more frequent than on the peer web tier.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "Impact"
+     ]
+    }
+   },
+   {
+    "incidentId": "91919191-9191-9191-9191-919191919191",
+    "name": "a1a1a1a1-0000-0000-0000-000000000004",
+    "properties": {
+     "alertDisplayName": "Traffic concentrated on single pool members on the api tier",
+     "description": "Some api pools are sending nearly all traffic to one member while siblings sit idle, overloading that member; distribution differs markedly from the peer web tier.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "Impact"
+     ]
+    }
+   }
+  ],
+  "entities": [
+   {
+    "incidentIds": [
+     "91919191-9191-9191-9191-919191919191"
+    ],
+    "kind": "Host",
+    "name": "host-edge-lb",
+    "properties": {
+     "hostName": "edge-lb-01"
+    }
+   }
+  ],
+  "incidents": [
+   {
+    "incidentId": null,
+    "name": "91919191-9191-9191-9191-919191919191",
+    "properties": {
+     "description": "Since ~03:10 UTC the api edge tier shows: new client connections REJECTED at the frontend (session limit reached) despite low host load; repeated per-member connection RESETS under normal traffic; multiple backend members reporting DISABLED / receiving no traffic; traffic concentrated onto single members in some pools; and several members FLAPPING (rapid up/down health transitions). Host-level CPU, memory and network on the pool hosts are all nominal. The pattern is consistent with a configuration change to the tier, not a hardware fault or a genuine capacity shortfall. The peer web tier is unaffected.",
+     "incidentNumber": 9101,
+     "severity": "High",
+     "status": "Active",
+     "title": "Intermittent connection rejections, resets and member flapping on the api edge tier"
+    }
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "assignment_group": "Edge Platform",
+    "category": "network",
+    "close_code": "successful",
+    "close_notes": "Tuning pass applied to the api tier; post-change review deferred to on-call.",
+    "closed_at": "2026-07-17 03:20:00",
+    "description": "Scheduled tuning pass over the api edge tier (frontend and all backend pools) during the overnight window to adjust connection, balancing and health-check settings. Applied to the api tier only; the web tier was out of scope. Values were to be reviewed against the standard tier profile by the on-call.",
+    "number": "CHG0067120",
+    "risk": "moderate",
+    "short_description": "Overnight capacity & health-check tuning on the api edge tier",
+    "state": "3",
+    "sys_created_on": "2026-07-17 02:30:00",
+    "sys_id": "7a4a83b9bf859007cc70be9c2c78fc12",
+    "sys_updated_on": "2026-07-17 03:20:00",
+    "type": "normal",
+    "u_environment": "production"
+   },
+   {
+    "assignment_group": "Edge Platform",
+    "category": "hardware",
+    "close_code": "successful",
+    "close_notes": "Host maintenance in progress; the api-ws-5 member is drained for the window.",
+    "closed_at": "2026-07-16 22:30:00",
+    "description": "Approved planned maintenance on the host backing api pool member api-ws-5. The member was drained (taken out of rotation) for the duration of the maintenance window and is to remain drained until the work completes. No other members or tiers are affected.",
+    "number": "CHG0067050",
+    "risk": "low",
+    "short_description": "Planned host maintenance - api-ws-5 host",
+    "state": "3",
+    "sys_created_on": "2026-07-16 22:00:00",
+    "sys_id": "f92627014cc534eabb734f7c5771a11a",
+    "sys_updated_on": "2026-07-16 22:30:00",
+    "type": "normal",
+    "u_environment": "production"
+   }
+  ],
+  "incident": [
+   {
+    "category": "network",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Prior P1 - a customer-facing service became unreliable under normal load (connections refused and dropped, the service flapping in and out) shortly after an overnight tuning change; first blamed on the pool being under-capacity or a bad member. RESOLVED. Before adding any hardware we verified the hosts were healthy in the CMDB and pulled the telemetry, which showed connection rejections at the front door, per-member connection resets, disabled members and members flapping - a botched tuning push, not a capacity or hardware fault. The push had lowered the front-end and per-member connection limits far below normal, left some members at zero weight so they took no traffic, made the member health checks far too aggressive so healthy members flapped, turned off health checking on some members, switched some pools to a non-distributing balancing mode, and left some members drained. We restored all of it to match the untouched healthy peer tier (the fleet norm), returned the drifted members to service, and did NOT add hardware or replace anything. We LEFT one member that was legitimately drained for a planned host-maintenance window. Lesson: verify the reported cause, use the healthy peer/fleet as the baseline, restore the drifted settings rather than scaling out, and do not disturb sanctioned maintenance.",
+    "closed_at": "2026-03-04 10:05:00",
+    "description": "A customer-facing service became unreliable under normal load after an overnight change; extra capacity was suspected. See close notes for the resolution pattern.",
+    "number": "INC0090440",
+    "priority": "2",
+    "short_description": "API unreliable after an overnight change - blamed on capacity, was a botched tuning push",
+    "state": "7",
+    "sys_created_on": "2026-03-04 05:20:00",
+    "sys_id": "bc6527b60975e67ad9a01d9ce6ccad45",
+    "sys_updated_on": "2026-03-04 10:05:00"
+   },
+   {
+    "category": "network",
+    "description": "Since early this morning the customer API service has been unreliable under normal load: a portion of client requests are refused outright while others connect and then drop mid-request, and the service intermittently stops responding for a few seconds at a time before recovering. Customers report sporadic errors and timeouts on the API; the customer web service is unaffected. This is a P1 customer-impacting incident.\nThe overnight on-call suspects the API backend pool is simply under-provisioned, or that one of the pool members has gone bad, and is asking whether we should add more capacity/hardware to the pool or pull and replace the suspect member.\nInvestigate across the available systems, confirm the actual root cause before you change anything, restore the API service to reliable operation under normal load, leave every system in a correct and consistent state, and resolve this incident once the service is healthy again.",
+    "number": "INC0091001",
+    "priority": "1",
+    "short_description": "Customer API intermittently rejecting/dropping connections under normal load (P1)",
+    "state": "1",
+    "subcategory": "edge",
+    "sys_created_on": "2026-07-17 07:40:00",
+    "sys_id": "bd4b4e4e43c34f1e2b2e59b13ed36db8",
+    "sys_updated_on": "2026-07-17 07:40:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "change_request",
+    "value": "3"
+   }
+  ]
+ }
+}

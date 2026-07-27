@@ -1,0 +1,3742 @@
+{
+ "_now": "2026-07-18T00:00:00.000Z",
+ "entra-id": {
+  "groups": [
+   {
+    "createdDateTime": "2022-01-10T09:00:00.000Z",
+    "description": "Finance security group",
+    "displayName": "Finance",
+    "groupTypes": [],
+    "id": "g-25dc77fd5a396010",
+    "mailEnabled": false,
+    "members": [
+     "u-b5be4f13c5c1b2a1",
+     "u-b1e78c8e30719c87",
+     "u-d4444675040034aa",
+     "u-201951592e2c63a4"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "createdDateTime": "2022-01-10T09:00:00.000Z",
+    "description": "Corporate Development security group",
+    "displayName": "Corporate Development",
+    "groupTypes": [],
+    "id": "g-7144462499d8a204",
+    "mailEnabled": false,
+    "members": [
+     "u-c509f08581e33eea",
+     "u-5375de07897fb846",
+     "u-296c5943ba2c12bd",
+     "u-ecb960e52e9233f8"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "createdDateTime": "2022-01-10T09:00:00.000Z",
+    "description": "Marketing security group",
+    "displayName": "Marketing",
+    "groupTypes": [],
+    "id": "g-adc4e436cc6b3e7f",
+    "mailEnabled": false,
+    "members": [
+     "u-503a630f559fa37d",
+     "u-63afa1911eba8e1c",
+     "u-bec19782294c5b04"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "createdDateTime": "2022-01-10T09:00:00.000Z",
+    "description": "Legal security group",
+    "displayName": "Legal",
+    "groupTypes": [],
+    "id": "g-244fb7f3a911d8ce",
+    "mailEnabled": false,
+    "members": [
+     "u-3f6d4949bb7d0f89",
+     "u-f098d5a8ba6e4d55",
+     "u-57a1d99865da6b3b"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "createdDateTime": "2022-01-10T09:00:00.000Z",
+    "description": "IT security group",
+    "displayName": "IT",
+    "groupTypes": [],
+    "id": "g-b85aa9e94bff60bc",
+    "mailEnabled": false,
+    "members": [
+     "u-265fb44ab2a8d013",
+     "u-934d5627235ce641",
+     "u-380b7f51703d5cde"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "createdDateTime": "2022-01-10T09:00:00.000Z",
+    "description": "Human Resources security group",
+    "displayName": "Human Resources",
+    "groupTypes": [],
+    "id": "g-cf4547162b0b1e27",
+    "mailEnabled": false,
+    "members": [
+     "u-9029978bfa1279ad",
+     "u-ebc853c562931af0"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "createdDateTime": "2022-01-10T09:00:00.000Z",
+    "description": "Data security group",
+    "displayName": "Data",
+    "groupTypes": [],
+    "id": "g-ec2555ed2774f53d",
+    "mailEnabled": false,
+    "members": [
+     "u-417d6c2e47036686",
+     "u-bfdbc499bea50896"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "createdDateTime": "2022-01-10T09:00:00.000Z",
+    "description": "Analytics Guild security group",
+    "displayName": "Analytics Guild",
+    "groupTypes": [],
+    "id": "g-80d85d5d269f194f",
+    "mailEnabled": false,
+    "members": [
+     "u-417d6c2e47036686",
+     "u-bfdbc499bea50896",
+     "u-7ef134b57178d00c"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "createdDateTime": "2022-01-10T09:00:00.000Z",
+    "description": "Project Titan Deal Team security group",
+    "displayName": "Project Titan Deal Team",
+    "groupTypes": [],
+    "id": "g-e85a22a6704c4566",
+    "mailEnabled": false,
+    "members": [
+     "u-c509f08581e33eea",
+     "u-5375de07897fb846",
+     "u-b1e78c8e30719c87",
+     "u-f098d5a8ba6e4d55"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "createdDateTime": "2022-01-10T09:00:00.000Z",
+    "description": "Board & Executives security group",
+    "displayName": "Board & Executives",
+    "groupTypes": [],
+    "id": "g-23820dcc9b75c4fb",
+    "mailEnabled": false,
+    "members": [
+     "u-dddb4f526ad53961",
+     "u-bc9025d570b9f2c7",
+     "u-65e20cc1e1b9abfc",
+     "u-3f6d4949bb7d0f89"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   },
+   {
+    "createdDateTime": "2022-01-10T09:00:00.000Z",
+    "description": "Finance Extended security group",
+    "displayName": "Finance Extended",
+    "groupTypes": [],
+    "id": "g-d964427df8a0d69f",
+    "mailEnabled": false,
+    "members": [
+     "u-b5be4f13c5c1b2a1",
+     "u-b1e78c8e30719c87",
+     "u-d4444675040034aa",
+     "u-201951592e2c63a4",
+     "g-80d85d5d269f194f"
+    ],
+    "securityEnabled": true,
+    "visibility": "Private"
+   }
+  ],
+  "users": [
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Executive",
+    "displayName": "Helena Vance",
+    "givenName": "Helena",
+    "id": "u-dddb4f526ad53961",
+    "jobTitle": "Chief Executive Officer",
+    "mail": "helena.vance@meridiancap.example",
+    "surname": "Vance",
+    "userPrincipalName": "helena.vance@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Executive",
+    "displayName": "Marcus Bell",
+    "givenName": "Marcus",
+    "id": "u-bc9025d570b9f2c7",
+    "jobTitle": "Chief Financial Officer",
+    "mail": "marcus.bell@meridiancap.example",
+    "surname": "Bell",
+    "userPrincipalName": "marcus.bell@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Executive",
+    "displayName": "Ingrid Sato",
+    "givenName": "Ingrid",
+    "id": "u-65e20cc1e1b9abfc",
+    "jobTitle": "Chief Operating Officer",
+    "mail": "ingrid.sato@meridiancap.example",
+    "surname": "Sato",
+    "userPrincipalName": "ingrid.sato@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Finance",
+    "displayName": "Diane Holloway",
+    "givenName": "Diane",
+    "id": "u-b5be4f13c5c1b2a1",
+    "jobTitle": "Director, Corporate Finance",
+    "mail": "diane.holloway@meridiancap.example",
+    "surname": "Holloway",
+    "userPrincipalName": "diane.holloway@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Corporate Development",
+    "displayName": "Priya Anand",
+    "givenName": "Priya",
+    "id": "u-c509f08581e33eea",
+    "jobTitle": "Head of Corporate Development",
+    "mail": "priya.anand@meridiancap.example",
+    "surname": "Anand",
+    "userPrincipalName": "priya.anand@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Legal",
+    "displayName": "Robert Kline",
+    "givenName": "Robert",
+    "id": "u-3f6d4949bb7d0f89",
+    "jobTitle": "General Counsel",
+    "mail": "robert.kline@meridiancap.example",
+    "surname": "Kline",
+    "userPrincipalName": "robert.kline@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Data",
+    "displayName": "Kofi Mensah",
+    "givenName": "Kofi",
+    "id": "u-417d6c2e47036686",
+    "jobTitle": "Data Analyst",
+    "mail": "kofi.mensah@meridiancap.example",
+    "surname": "Mensah",
+    "userPrincipalName": "kofi.mensah@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Marketing",
+    "displayName": "Lena Fischer",
+    "givenName": "Lena",
+    "id": "u-503a630f559fa37d",
+    "jobTitle": "Marketing Manager",
+    "mail": "lena.fischer@meridiancap.example",
+    "surname": "Fischer",
+    "userPrincipalName": "lena.fischer@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "IT",
+    "displayName": "Tunde Okafor",
+    "givenName": "Tunde",
+    "id": "u-265fb44ab2a8d013",
+    "jobTitle": "IT Administrator",
+    "mail": "tunde.okafor@meridiancap.example",
+    "surname": "Okafor",
+    "userPrincipalName": "tunde.okafor@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Corporate Development",
+    "displayName": "Sven Larsson",
+    "givenName": "Sven",
+    "id": "u-296c5943ba2c12bd",
+    "jobTitle": "Associate",
+    "mail": "sven.larsson@meridiancap.example",
+    "surname": "Larsson",
+    "userPrincipalName": "sven.larsson@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Marketing",
+    "displayName": "Rohan Singh",
+    "givenName": "Rohan",
+    "id": "u-63afa1911eba8e1c",
+    "jobTitle": "Marketing Manager",
+    "mail": "rohan.singh@meridiancap.example",
+    "surname": "Singh",
+    "userPrincipalName": "rohan.singh@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "IT",
+    "displayName": "Jia Tan",
+    "givenName": "Jia",
+    "id": "u-934d5627235ce641",
+    "jobTitle": "IT Administrator",
+    "mail": "jia.tan@meridiancap.example",
+    "surname": "Tan",
+    "userPrincipalName": "jia.tan@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Corporate Development",
+    "displayName": "Aaron Cole",
+    "givenName": "Aaron",
+    "id": "u-5375de07897fb846",
+    "jobTitle": "Associate",
+    "mail": "aaron.cole@meridiancap.example",
+    "surname": "Cole",
+    "userPrincipalName": "aaron.cole@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Finance",
+    "displayName": "Fatima Nasser",
+    "givenName": "Fatima",
+    "id": "u-b1e78c8e30719c87",
+    "jobTitle": "Financial Analyst",
+    "mail": "fatima.nasser@meridiancap.example",
+    "surname": "Nasser",
+    "userPrincipalName": "fatima.nasser@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Legal",
+    "displayName": "Grzegorz Wozniak",
+    "givenName": "Grzegorz",
+    "id": "u-f098d5a8ba6e4d55",
+    "jobTitle": "Counsel",
+    "mail": "grzegorz.wozniak@meridiancap.example",
+    "surname": "Wozniak",
+    "userPrincipalName": "grzegorz.wozniak@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Finance",
+    "displayName": "Nadia Cho",
+    "givenName": "Nadia",
+    "id": "u-d4444675040034aa",
+    "jobTitle": "Financial Analyst",
+    "mail": "nadia.cho@meridiancap.example",
+    "surname": "Cho",
+    "userPrincipalName": "nadia.cho@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Finance",
+    "displayName": "Owen Brooks",
+    "givenName": "Owen",
+    "id": "u-201951592e2c63a4",
+    "jobTitle": "Financial Analyst",
+    "mail": "owen.brooks@meridiancap.example",
+    "surname": "Brooks",
+    "userPrincipalName": "owen.brooks@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Data",
+    "displayName": "Ravi Menon",
+    "givenName": "Ravi",
+    "id": "u-bfdbc499bea50896",
+    "jobTitle": "Data Analyst",
+    "mail": "ravi.menon@meridiancap.example",
+    "surname": "Menon",
+    "userPrincipalName": "ravi.menon@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Operations",
+    "displayName": "Chloe Dubois",
+    "givenName": "Chloe",
+    "id": "u-7ef134b57178d00c",
+    "jobTitle": "Operations Specialist",
+    "mail": "chloe.dubois@meridiancap.example",
+    "surname": "Dubois",
+    "userPrincipalName": "chloe.dubois@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Corporate Development",
+    "displayName": "Elena Rossi",
+    "givenName": "Elena",
+    "id": "u-ecb960e52e9233f8",
+    "jobTitle": "Associate",
+    "mail": "elena.rossi@meridiancap.example",
+    "surname": "Rossi",
+    "userPrincipalName": "elena.rossi@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Marketing",
+    "displayName": "Diego Marchetti",
+    "givenName": "Diego",
+    "id": "u-bec19782294c5b04",
+    "jobTitle": "Marketing Manager",
+    "mail": "diego.marchetti@meridiancap.example",
+    "surname": "Marchetti",
+    "userPrincipalName": "diego.marchetti@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Human Resources",
+    "displayName": "Sofia Romano",
+    "givenName": "Sofia",
+    "id": "u-9029978bfa1279ad",
+    "jobTitle": "People Partner",
+    "mail": "sofia.romano@meridiancap.example",
+    "surname": "Romano",
+    "userPrincipalName": "sofia.romano@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Human Resources",
+    "displayName": "Ben Oduya",
+    "givenName": "Ben",
+    "id": "u-ebc853c562931af0",
+    "jobTitle": "People Partner",
+    "mail": "ben.oduya@meridiancap.example",
+    "surname": "Oduya",
+    "userPrincipalName": "ben.oduya@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Legal",
+    "displayName": "Hannah Weiss",
+    "givenName": "Hannah",
+    "id": "u-57a1d99865da6b3b",
+    "jobTitle": "Counsel",
+    "mail": "hannah.weiss@meridiancap.example",
+    "surname": "Weiss",
+    "userPrincipalName": "hannah.weiss@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "IT",
+    "displayName": "Omar Said",
+    "givenName": "Omar",
+    "id": "u-380b7f51703d5cde",
+    "jobTitle": "IT Administrator",
+    "mail": "omar.said@meridiancap.example",
+    "surname": "Said",
+    "userPrincipalName": "omar.said@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Operations",
+    "displayName": "Priya Novak",
+    "givenName": "Priya",
+    "id": "u-c0721f4e5ffd70b1",
+    "jobTitle": "Operations Specialist",
+    "mail": "priya.novak.1@meridiancap.example",
+    "surname": "Novak",
+    "userPrincipalName": "priya.novak.1@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Marketing",
+    "displayName": "Emma Hale",
+    "givenName": "Emma",
+    "id": "u-d57a7bd136c0cbc2",
+    "jobTitle": "Marketing Manager",
+    "mail": "emma.hale.2@meridiancap.example",
+    "surname": "Hale",
+    "userPrincipalName": "emma.hale.2@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Legal",
+    "displayName": "Leo Vasquez",
+    "givenName": "Leo",
+    "id": "u-63ffe06f4fed109d",
+    "jobTitle": "Counsel",
+    "mail": "leo.vasquez.3@meridiancap.example",
+    "surname": "Vasquez",
+    "userPrincipalName": "leo.vasquez.3@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "IT",
+    "displayName": "Hugo Haas",
+    "givenName": "Hugo",
+    "id": "u-65ec9e68020de436",
+    "jobTitle": "IT Administrator",
+    "mail": "hugo.haas.4@meridiancap.example",
+    "surname": "Haas",
+    "userPrincipalName": "hugo.haas.4@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Data",
+    "displayName": "Ada Frost",
+    "givenName": "Ada",
+    "id": "u-ea267a87a78293e5",
+    "jobTitle": "Data Analyst",
+    "mail": "ada.frost.5@meridiancap.example",
+    "surname": "Frost",
+    "userPrincipalName": "ada.frost.5@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Finance",
+    "displayName": "Gregor Okoro",
+    "givenName": "Gregor",
+    "id": "u-4146be400e75a0ec",
+    "jobTitle": "Financial Analyst",
+    "mail": "gregor.okoro.6@meridiancap.example",
+    "surname": "Okoro",
+    "userPrincipalName": "gregor.okoro.6@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Human Resources",
+    "displayName": "Owen Rossi",
+    "givenName": "Owen",
+    "id": "u-adc6410220894260",
+    "jobTitle": "People Partner",
+    "mail": "owen.rossi.7@meridiancap.example",
+    "surname": "Rossi",
+    "userPrincipalName": "owen.rossi.7@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Corporate Development",
+    "displayName": "Ava Reed",
+    "givenName": "Ava",
+    "id": "u-666a166421a91ce5",
+    "jobTitle": "Associate",
+    "mail": "ava.reed.8@meridiancap.example",
+    "surname": "Reed",
+    "userPrincipalName": "ava.reed.8@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Investor Relations",
+    "displayName": "Kai Marin",
+    "givenName": "Kai",
+    "id": "u-6a73d39c5a817b82",
+    "jobTitle": "IR Analyst",
+    "mail": "kai.marin.9@meridiancap.example",
+    "surname": "Marin",
+    "userPrincipalName": "kai.marin.9@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Sales",
+    "displayName": "Diego Dubois",
+    "givenName": "Diego",
+    "id": "u-98c513c407789879",
+    "jobTitle": "Account Executive",
+    "mail": "diego.dubois.10@meridiancap.example",
+    "surname": "Dubois",
+    "userPrincipalName": "diego.dubois.10@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Operations",
+    "displayName": "Cleo Wolf",
+    "givenName": "Cleo",
+    "id": "u-f0d7c02ea8a1d740",
+    "jobTitle": "Operations Specialist",
+    "mail": "cleo.wolf.11@meridiancap.example",
+    "surname": "Wolf",
+    "userPrincipalName": "cleo.wolf.11@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Marketing",
+    "displayName": "Elena Cho",
+    "givenName": "Elena",
+    "id": "u-7d3b56fef3cab36b",
+    "jobTitle": "Marketing Manager",
+    "mail": "elena.cho.12@meridiancap.example",
+    "surname": "Cho",
+    "userPrincipalName": "elena.cho.12@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Legal",
+    "displayName": "Liam Silva",
+    "givenName": "Liam",
+    "id": "u-38c3d35304c90d4f",
+    "jobTitle": "Counsel",
+    "mail": "liam.silva.13@meridiancap.example",
+    "surname": "Silva",
+    "userPrincipalName": "liam.silva.13@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "IT",
+    "displayName": "Mia Ford",
+    "givenName": "Mia",
+    "id": "u-7f25bcd2f19baa4a",
+    "jobTitle": "IT Administrator",
+    "mail": "mia.ford.14@meridiancap.example",
+    "surname": "Ford",
+    "userPrincipalName": "mia.ford.14@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Data",
+    "displayName": "Ivan Kapoor",
+    "givenName": "Ivan",
+    "id": "u-8027f98238886f17",
+    "jobTitle": "Data Analyst",
+    "mail": "ivan.kapoor.15@meridiancap.example",
+    "surname": "Kapoor",
+    "userPrincipalName": "ivan.kapoor.15@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Finance",
+    "displayName": "Theo Kim",
+    "givenName": "Theo",
+    "id": "u-c2a6f6454c285706",
+    "jobTitle": "Financial Analyst",
+    "mail": "theo.kim.16@meridiancap.example",
+    "surname": "Kim",
+    "userPrincipalName": "theo.kim.16@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Human Resources",
+    "displayName": "Esme Moss",
+    "givenName": "Esme",
+    "id": "u-b2c9b1d80cbc9889",
+    "jobTitle": "People Partner",
+    "mail": "esme.moss.17@meridiancap.example",
+    "surname": "Moss",
+    "userPrincipalName": "esme.moss.17@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Corporate Development",
+    "displayName": "Yuki Braun",
+    "givenName": "Yuki",
+    "id": "u-927eb067c6a8cd44",
+    "jobTitle": "Associate",
+    "mail": "yuki.braun.18@meridiancap.example",
+    "surname": "Braun",
+    "userPrincipalName": "yuki.braun.18@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Investor Relations",
+    "displayName": "Noah Reyes",
+    "givenName": "Noah",
+    "id": "u-c1f12e879849d165",
+    "jobTitle": "IR Analyst",
+    "mail": "noah.reyes.19@meridiancap.example",
+    "surname": "Reyes",
+    "userPrincipalName": "noah.reyes.19@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Sales",
+    "displayName": "Isla Lund",
+    "givenName": "Isla",
+    "id": "u-bc5f94f0334ea932",
+    "jobTitle": "Account Executive",
+    "mail": "isla.lund.20@meridiancap.example",
+    "surname": "Lund",
+    "userPrincipalName": "isla.lund.20@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Operations",
+    "displayName": "Lena Adler",
+    "givenName": "Lena",
+    "id": "u-f8dd1a94f31cfe52",
+    "jobTitle": "Operations Specialist",
+    "mail": "lena.adler.21@meridiancap.example",
+    "surname": "Adler",
+    "userPrincipalName": "lena.adler.21@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Marketing",
+    "displayName": "Milo Nguyen",
+    "givenName": "Milo",
+    "id": "u-b464da513c651a93",
+    "jobTitle": "Marketing Manager",
+    "mail": "milo.nguyen.22@meridiancap.example",
+    "surname": "Nguyen",
+    "userPrincipalName": "milo.nguyen.22@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Legal",
+    "displayName": "Sofia Falk",
+    "givenName": "Sofia",
+    "id": "u-914f701df6eb05ab",
+    "jobTitle": "Counsel",
+    "mail": "sofia.falk.23@meridiancap.example",
+    "surname": "Falk",
+    "userPrincipalName": "sofia.falk.23@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "IT",
+    "displayName": "Tomas Klein",
+    "givenName": "Tomas",
+    "id": "u-c602154e2e2aba7c",
+    "jobTitle": "IT Administrator",
+    "mail": "tomas.klein.24@meridiancap.example",
+    "surname": "Klein",
+    "userPrincipalName": "tomas.klein.24@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Data",
+    "displayName": "Ethan Cole",
+    "givenName": "Ethan",
+    "id": "u-3ccffcf66d37a3e0",
+    "jobTitle": "Data Analyst",
+    "mail": "ethan.cole.25@meridiancap.example",
+    "surname": "Cole",
+    "userPrincipalName": "ethan.cole.25@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Finance",
+    "displayName": "Aria Berg",
+    "givenName": "Aria",
+    "id": "u-681c2de2e8a7a6c8",
+    "jobTitle": "Financial Analyst",
+    "mail": "aria.berg.26@meridiancap.example",
+    "surname": "Berg",
+    "userPrincipalName": "aria.berg.26@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Human Resources",
+    "displayName": "Freya Voss",
+    "givenName": "Freya",
+    "id": "u-3917d8f4dc3c17d3",
+    "jobTitle": "People Partner",
+    "mail": "freya.voss.27@meridiancap.example",
+    "surname": "Voss",
+    "userPrincipalName": "freya.voss.27@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Corporate Development",
+    "displayName": "Bruno Brooks",
+    "givenName": "Bruno",
+    "id": "u-fe2563cf60eee14f",
+    "jobTitle": "Associate",
+    "mail": "bruno.brooks.28@meridiancap.example",
+    "surname": "Brooks",
+    "userPrincipalName": "bruno.brooks.28@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Investor Relations",
+    "displayName": "Dylan Costa",
+    "givenName": "Dylan",
+    "id": "u-1a295b44ceb5f771",
+    "jobTitle": "IR Analyst",
+    "mail": "dylan.costa.29@meridiancap.example",
+    "surname": "Costa",
+    "userPrincipalName": "dylan.costa.29@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Sales",
+    "displayName": "Hannah Stein",
+    "givenName": "Hannah",
+    "id": "u-d361de4fa4d4e638",
+    "jobTitle": "Account Executive",
+    "mail": "hannah.stein.30@meridiancap.example",
+    "surname": "Stein",
+    "userPrincipalName": "hannah.stein.30@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Operations",
+    "displayName": "Lucas Vidal",
+    "givenName": "Lucas",
+    "id": "u-6724b0a9c9f8430d",
+    "jobTitle": "Operations Specialist",
+    "mail": "lucas.vidal.31@meridiancap.example",
+    "surname": "Vidal",
+    "userPrincipalName": "lucas.vidal.31@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Marketing",
+    "displayName": "Zoe Weber",
+    "givenName": "Zoe",
+    "id": "u-17999c66eceac94c",
+    "jobTitle": "Marketing Manager",
+    "mail": "zoe.weber.32@meridiancap.example",
+    "surname": "Weber",
+    "userPrincipalName": "zoe.weber.32@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Legal",
+    "displayName": "Sana Roth",
+    "givenName": "Sana",
+    "id": "u-b2fb712c0f1f5add",
+    "jobTitle": "Counsel",
+    "mail": "sana.roth.33@meridiancap.example",
+    "surname": "Roth",
+    "userPrincipalName": "sana.roth.33@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "IT",
+    "displayName": "Dario Raman",
+    "givenName": "Dario",
+    "id": "u-646539cd2ea068e6",
+    "jobTitle": "IT Administrator",
+    "mail": "dario.raman.34@meridiancap.example",
+    "surname": "Raman",
+    "userPrincipalName": "dario.raman.34@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Data",
+    "displayName": "Marcus Singh",
+    "givenName": "Marcus",
+    "id": "u-5e335102b0af55c1",
+    "jobTitle": "Data Analyst",
+    "mail": "marcus.singh.35@meridiancap.example",
+    "surname": "Singh",
+    "userPrincipalName": "marcus.singh.35@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Finance",
+    "displayName": "Olivia Bauer",
+    "givenName": "Olivia",
+    "id": "u-c3e70d9c7afd1ac1",
+    "jobTitle": "Financial Analyst",
+    "mail": "olivia.bauer.36@meridiancap.example",
+    "surname": "Bauer",
+    "userPrincipalName": "olivia.bauer.36@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Human Resources",
+    "displayName": "Mason Tanaka",
+    "givenName": "Mason",
+    "id": "u-7479b1cc7bf47ae7",
+    "jobTitle": "People Partner",
+    "mail": "mason.tanaka.37@meridiancap.example",
+    "surname": "Tanaka",
+    "userPrincipalName": "mason.tanaka.37@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Corporate Development",
+    "displayName": "Nora Ito",
+    "givenName": "Nora",
+    "id": "u-944e9dabe5bb666f",
+    "jobTitle": "Associate",
+    "mail": "nora.ito.38@meridiancap.example",
+    "surname": "Ito",
+    "userPrincipalName": "nora.ito.38@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Investor Relations",
+    "displayName": "Ines Vance",
+    "givenName": "Ines",
+    "id": "u-d7156022b209dd70",
+    "jobTitle": "IR Analyst",
+    "mail": "ines.vance.39@meridiancap.example",
+    "surname": "Vance",
+    "userPrincipalName": "ines.vance.39@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Sales",
+    "displayName": "Aarav Feldon",
+    "givenName": "Aarav",
+    "id": "u-090c02c63370e035",
+    "jobTitle": "Account Executive",
+    "mail": "aarav.feldon.40@meridiancap.example",
+    "surname": "Feldon",
+    "userPrincipalName": "aarav.feldon.40@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Operations",
+    "displayName": "Priya Novak",
+    "givenName": "Priya",
+    "id": "u-405e85d690d60c0b",
+    "jobTitle": "Operations Specialist",
+    "mail": "priya.novak.41@meridiancap.example",
+    "surname": "Novak",
+    "userPrincipalName": "priya.novak.41@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Marketing",
+    "displayName": "Emma Hale",
+    "givenName": "Emma",
+    "id": "u-3fd9353a59b587d6",
+    "jobTitle": "Marketing Manager",
+    "mail": "emma.hale.42@meridiancap.example",
+    "surname": "Hale",
+    "userPrincipalName": "emma.hale.42@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Legal",
+    "displayName": "Leo Vasquez",
+    "givenName": "Leo",
+    "id": "u-e9a3739778d5eee5",
+    "jobTitle": "Counsel",
+    "mail": "leo.vasquez.43@meridiancap.example",
+    "surname": "Vasquez",
+    "userPrincipalName": "leo.vasquez.43@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "IT",
+    "displayName": "Hugo Haas",
+    "givenName": "Hugo",
+    "id": "u-86ea96079a3d3651",
+    "jobTitle": "IT Administrator",
+    "mail": "hugo.haas.44@meridiancap.example",
+    "surname": "Haas",
+    "userPrincipalName": "hugo.haas.44@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Data",
+    "displayName": "Ada Frost",
+    "givenName": "Ada",
+    "id": "u-4e8b5e6092f63c5f",
+    "jobTitle": "Data Analyst",
+    "mail": "ada.frost.45@meridiancap.example",
+    "surname": "Frost",
+    "userPrincipalName": "ada.frost.45@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Finance",
+    "displayName": "Gregor Okoro",
+    "givenName": "Gregor",
+    "id": "u-52a263266a4b7dee",
+    "jobTitle": "Financial Analyst",
+    "mail": "gregor.okoro.46@meridiancap.example",
+    "surname": "Okoro",
+    "userPrincipalName": "gregor.okoro.46@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Human Resources",
+    "displayName": "Owen Rossi",
+    "givenName": "Owen",
+    "id": "u-04e09df4d12cba19",
+    "jobTitle": "People Partner",
+    "mail": "owen.rossi.47@meridiancap.example",
+    "surname": "Rossi",
+    "userPrincipalName": "owen.rossi.47@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Corporate Development",
+    "displayName": "Ava Reed",
+    "givenName": "Ava",
+    "id": "u-18390a2cb5c51f6e",
+    "jobTitle": "Associate",
+    "mail": "ava.reed.48@meridiancap.example",
+    "surname": "Reed",
+    "userPrincipalName": "ava.reed.48@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Investor Relations",
+    "displayName": "Kai Marin",
+    "givenName": "Kai",
+    "id": "u-be6c3055ee336915",
+    "jobTitle": "IR Analyst",
+    "mail": "kai.marin.49@meridiancap.example",
+    "surname": "Marin",
+    "userPrincipalName": "kai.marin.49@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Sales",
+    "displayName": "Diego Dubois",
+    "givenName": "Diego",
+    "id": "u-372e329d3c0468a4",
+    "jobTitle": "Account Executive",
+    "mail": "diego.dubois.50@meridiancap.example",
+    "surname": "Dubois",
+    "userPrincipalName": "diego.dubois.50@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Operations",
+    "displayName": "Cleo Wolf",
+    "givenName": "Cleo",
+    "id": "u-c6d113703d9d7f11",
+    "jobTitle": "Operations Specialist",
+    "mail": "cleo.wolf.51@meridiancap.example",
+    "surname": "Wolf",
+    "userPrincipalName": "cleo.wolf.51@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Marketing",
+    "displayName": "Elena Cho",
+    "givenName": "Elena",
+    "id": "u-8b123a6e183e9f4d",
+    "jobTitle": "Marketing Manager",
+    "mail": "elena.cho.52@meridiancap.example",
+    "surname": "Cho",
+    "userPrincipalName": "elena.cho.52@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Legal",
+    "displayName": "Liam Silva",
+    "givenName": "Liam",
+    "id": "u-2d76e79d67607c31",
+    "jobTitle": "Counsel",
+    "mail": "liam.silva.53@meridiancap.example",
+    "surname": "Silva",
+    "userPrincipalName": "liam.silva.53@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "IT",
+    "displayName": "Mia Ford",
+    "givenName": "Mia",
+    "id": "u-56b61d30507c22ba",
+    "jobTitle": "IT Administrator",
+    "mail": "mia.ford.54@meridiancap.example",
+    "surname": "Ford",
+    "userPrincipalName": "mia.ford.54@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Data",
+    "displayName": "Ivan Kapoor",
+    "givenName": "Ivan",
+    "id": "u-d89a437f321a820f",
+    "jobTitle": "Data Analyst",
+    "mail": "ivan.kapoor.55@meridiancap.example",
+    "surname": "Kapoor",
+    "userPrincipalName": "ivan.kapoor.55@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Finance",
+    "displayName": "Theo Kim",
+    "givenName": "Theo",
+    "id": "u-f3b037f119716d1a",
+    "jobTitle": "Financial Analyst",
+    "mail": "theo.kim.56@meridiancap.example",
+    "surname": "Kim",
+    "userPrincipalName": "theo.kim.56@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Human Resources",
+    "displayName": "Esme Moss",
+    "givenName": "Esme",
+    "id": "u-d713dba9d063f839",
+    "jobTitle": "People Partner",
+    "mail": "esme.moss.57@meridiancap.example",
+    "surname": "Moss",
+    "userPrincipalName": "esme.moss.57@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Corporate Development",
+    "displayName": "Yuki Braun",
+    "givenName": "Yuki",
+    "id": "u-ca8681fef41c0045",
+    "jobTitle": "Associate",
+    "mail": "yuki.braun.58@meridiancap.example",
+    "surname": "Braun",
+    "userPrincipalName": "yuki.braun.58@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Investor Relations",
+    "displayName": "Noah Reyes",
+    "givenName": "Noah",
+    "id": "u-30475420adea3eb9",
+    "jobTitle": "IR Analyst",
+    "mail": "noah.reyes.59@meridiancap.example",
+    "surname": "Reyes",
+    "userPrincipalName": "noah.reyes.59@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "Sales",
+    "displayName": "Isla Lund",
+    "givenName": "Isla",
+    "id": "u-332fa96e12f005cc",
+    "jobTitle": "Account Executive",
+    "mail": "isla.lund.60@meridiancap.example",
+    "surname": "Lund",
+    "userPrincipalName": "isla.lund.60@meridiancap.example",
+    "userType": "Member"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "External",
+    "displayName": "Mara Reyes",
+    "givenName": "Mara",
+    "id": "u-344f780048552aaa",
+    "jobTitle": "External Advisor",
+    "mail": "m.reyes@apexadvisory.example",
+    "surname": "Reyes",
+    "userPrincipalName": "m.reyes@apexadvisory.example",
+    "userType": "Guest"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "External",
+    "displayName": "Victor Kessler",
+    "givenName": "Victor",
+    "id": "u-b60ff43bd841b29c",
+    "jobTitle": "External Advisor",
+    "mail": "former@zenithpartners.example",
+    "surname": "Kessler",
+    "userPrincipalName": "former@zenithpartners.example",
+    "userType": "Guest"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "External",
+    "displayName": "Nina Adler",
+    "givenName": "Nina",
+    "id": "u-51634c42b3bb5656",
+    "jobTitle": "External Advisor",
+    "mail": "dd.temp@zenithpartners.example",
+    "surname": "Adler",
+    "userPrincipalName": "dd.temp@zenithpartners.example",
+    "userType": "Guest"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "External",
+    "displayName": "Paul Grieve",
+    "givenName": "Paul",
+    "id": "u-8a5ca5328355c763",
+    "jobTitle": "External Advisor",
+    "mail": "vendor@brightledger.example",
+    "surname": "Grieve",
+    "userPrincipalName": "vendor@brightledger.example",
+    "userType": "Guest"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "External",
+    "displayName": "Tom Rourke",
+    "givenName": "Tom",
+    "id": "u-402564603c23105e",
+    "jobTitle": "External Advisor",
+    "mail": "contractor@brightledger.example",
+    "surname": "Rourke",
+    "userPrincipalName": "contractor@brightledger.example",
+    "userType": "Guest"
+   },
+   {
+    "accountEnabled": true,
+    "createdDateTime": "2022-03-01T09:00:00.000Z",
+    "department": "External",
+    "displayName": "Peter Klein",
+    "givenName": "Peter",
+    "id": "u-3ebae171162efa45",
+    "jobTitle": "External Advisor",
+    "mail": "p.klein@northbridge.example",
+    "surname": "Klein",
+    "userPrincipalName": "p.klein@northbridge.example",
+    "userType": "Guest"
+   }
+  ]
+ },
+ "onedrive": {
+  "driveItems": [
+   {
+    "createdDateTime": "2023-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "folder": {
+     "childCount": 5
+    },
+    "id": "item-root",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "root",
+    "root": {}
+   },
+   {
+    "createdDateTime": "2023-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "folder": {
+     "childCount": 1
+    },
+    "id": "item-board",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "Board Materials",
+    "parentId": "item-root",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-root"
+    }
+   },
+   {
+    "createdDateTime": "2023-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "file": {
+     "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    "id": "item-model",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "Project Titan - Financial Model.xlsx",
+    "parentId": "item-root",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-root"
+    }
+   },
+   {
+    "createdDateTime": "2023-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "folder": {
+     "childCount": 1
+    },
+    "id": "item-dd",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "Project Titan - Due Diligence",
+    "parentId": "item-root",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-root"
+    }
+   },
+   {
+    "createdDateTime": "2023-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "file": {
+     "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    "id": "item-peer",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "Project Titan - Deal Timeline.docx",
+    "parentId": "item-root",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-root"
+    }
+   },
+   {
+    "createdDateTime": "2023-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "file": {
+     "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    "id": "item-notes",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "Q2 Board Notes.docx",
+    "parentId": "item-board",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-board"
+    }
+   },
+   {
+    "createdDateTime": "2023-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "file": {
+     "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    "id": "item-misc",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "Personal - Expenses.xlsx",
+    "parentId": "item-root",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-root"
+    }
+   }
+  ],
+  "drives": [
+   {
+    "createdDateTime": "2022-02-01T09:00:00.000Z",
+    "driveType": "business",
+    "id": "drive-cfo",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "Marcus Bell - Documents",
+    "owner": {
+     "user": {
+      "displayName": "Marcus Bell",
+      "id": "u-bc9025d570b9f2c7"
+     }
+    }
+   }
+  ],
+  "permissions": [
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-board",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Board & Executives",
+      "id": "g-23820dcc9b75c4fb"
+     }
+    },
+    "id": "odperm-001",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-board"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-board",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Marcus Bell",
+      "email": "marcus.bell@meridiancap.example",
+      "id": "u-bc9025d570b9f2c7"
+     }
+    },
+    "id": "odperm-002",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-board"
+    },
+    "roles": [
+     "owner"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-board",
+    "id": "odperm-003",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "link": {
+     "scope": "anonymous",
+     "type": "view",
+     "webUrl": "https://meridiancap.sharepoint.com/:x:/s/anon/797a60840dca87ef8bb9"
+    },
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-board"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-board",
+    "id": "odperm-004",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "link": {
+     "scope": "organization",
+     "type": "view",
+     "webUrl": "https://meridiancap.sharepoint.com/:x:/s/org/c27d2e3ace4401a7c932"
+    },
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-board"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-board",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Peter Klein",
+      "email": "p.klein@northbridge.example",
+      "id": "u-3ebae171162efa45"
+     }
+    },
+    "id": "odperm-005",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-board"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-board",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Jia Tan",
+      "email": "jia.tan@meridiancap.example",
+      "id": "u-934d5627235ce641"
+     }
+    },
+    "id": "odperm-006",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-board"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-model",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Project Titan Deal Team",
+      "id": "g-e85a22a6704c4566"
+     }
+    },
+    "id": "odperm-007",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-model"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-model",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Marcus Bell",
+      "email": "marcus.bell@meridiancap.example",
+      "id": "u-bc9025d570b9f2c7"
+     }
+    },
+    "id": "odperm-008",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-model"
+    },
+    "roles": [
+     "owner"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-model",
+    "id": "odperm-009",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "link": {
+     "scope": "anonymous",
+     "type": "view",
+     "webUrl": "https://meridiancap.sharepoint.com/:x:/s/anon/b4b5d8db2acadfe05420"
+    },
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-model"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-model",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Finance Extended",
+      "id": "g-d964427df8a0d69f"
+     }
+    },
+    "id": "odperm-010",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-model"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-model",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Tom Rourke",
+      "email": "contractor@brightledger.example",
+      "id": "u-402564603c23105e"
+     }
+    },
+    "id": "odperm-011",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-model"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-dd",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Project Titan Deal Team",
+      "id": "g-e85a22a6704c4566"
+     }
+    },
+    "id": "odperm-012",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-dd"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-dd",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Marcus Bell",
+      "email": "marcus.bell@meridiancap.example",
+      "id": "u-bc9025d570b9f2c7"
+     }
+    },
+    "id": "odperm-013",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-dd"
+    },
+    "roles": [
+     "owner"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-dd",
+    "id": "odperm-014",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "link": {
+     "scope": "organization",
+     "type": "view",
+     "webUrl": "https://meridiancap.sharepoint.com/:x:/s/org/402910e6c26f169d4395"
+    },
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-dd"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-dd",
+    "id": "odperm-015",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "link": {
+     "scope": "anonymous",
+     "type": "view",
+     "webUrl": "https://meridiancap.sharepoint.com/:x:/s/anon/70d586bbdc70cfe98c8f"
+    },
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-dd"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-dd",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Nina Adler",
+      "email": "dd.temp@zenithpartners.example",
+      "id": "u-51634c42b3bb5656"
+     }
+    },
+    "id": "odperm-016",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-dd"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-dd",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Corporate Development",
+      "id": "g-7144462499d8a204"
+     }
+    },
+    "id": "odperm-017",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-dd"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-peer",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Project Titan Deal Team",
+      "id": "g-e85a22a6704c4566"
+     }
+    },
+    "id": "odperm-018",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-peer"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-peer",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Priya Anand",
+      "email": "priya.anand@meridiancap.example",
+      "id": "u-c509f08581e33eea"
+     }
+    },
+    "id": "odperm-019",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-peer"
+    },
+    "roles": [
+     "owner"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-notes",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Board & Executives",
+      "id": "g-23820dcc9b75c4fb"
+     }
+    },
+    "id": "odperm-020",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-notes"
+    },
+    "roles": [
+     "read"
+    ]
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "driveId": "drive-cfo",
+    "driveItemId": "item-misc",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Marcus Bell",
+      "email": "marcus.bell@meridiancap.example",
+      "id": "u-bc9025d570b9f2c7"
+     }
+    },
+    "id": "odperm-021",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "parentReference": {
+     "driveId": "drive-cfo",
+     "id": "item-misc"
+    },
+    "roles": [
+     "owner"
+    ]
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "assigned_to": "cb964552e318c030e0e3849c5b9a3a19",
+    "assignment_group": "b03e346b9a841f775fa0e7427c5c562b",
+    "close_code": "successful",
+    "close_notes": "Approved. External advisor access provisioned for the active Project Titan engagement.",
+    "closed_at": "2026-05-01 09:00:00",
+    "description": "Grant Apex Advisory (external counterparty M&A advisor, m.reyes@apexadvisory.example) read access to the Project Titan deal workspace for the duration of the live engagement. Project Titan is an active, in-flight transaction. Access is business-justified and approved by the deal sponsor and General Counsel.",
+    "end_date": "2026-12-31 09:00:00",
+    "number": "CHG0071200",
+    "opened_at": "2026-04-20 09:00:00",
+    "phase_state": "closed",
+    "requested_by": "cb964552e318c030e0e3849c5b9a3a19",
+    "short_description": "External M&A advisor access \u2014 Project Titan (Apex Advisory) \u2014 approved",
+    "start_date": "2026-05-01 09:00:00",
+    "state": "3",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-04-20 09:00:00",
+    "sys_id": "b2c74fc5992ae9edac097749c75daa2a",
+    "sys_mod_count": "3",
+    "sys_updated_on": "2026-05-01 09:00:00",
+    "work_end": "2026-12-31 09:00:00",
+    "work_start": "2026-05-01 09:00:00"
+   },
+   {
+    "assigned_to": "07340ca04dab7d89f6b223971a0cce07",
+    "assignment_group": "b03e346b9a841f775fa0e7427c5c562b",
+    "close_code": "successful",
+    "close_notes": "Project Cedar completed and closed. Zenith Partners' external engagement has ended; their access was to be wound back at deal close.",
+    "closed_at": "2025-12-22 09:00:00",
+    "description": "Project Cedar (a prior transaction, now CLOSED and publicly announced) engaged Zenith Partners as external advisor. That engagement has ended.",
+    "end_date": "2025-12-20 09:00:00",
+    "number": "CHG0070050",
+    "opened_at": "2025-08-20 09:00:00",
+    "phase_state": "closed",
+    "short_description": "External M&A advisor access \u2014 Project Cedar (Zenith Partners) \u2014 closed out",
+    "start_date": "2025-09-01 09:00:00",
+    "state": "3",
+    "sys_created_by": "admin",
+    "sys_created_on": "2025-08-20 09:00:00",
+    "sys_id": "66e396ce0534e1aeb4cb5308dc52e0f0",
+    "sys_mod_count": "5",
+    "sys_updated_on": "2025-12-22 09:00:00",
+    "work_end": "2025-12-20 09:00:00",
+    "work_start": "2025-09-01 09:00:00"
+   },
+   {
+    "assigned_to": "5ac513a7b8694892d1b74cb5dd601551",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "close_code": "successful",
+    "closed_at": "2026-02-04 09:00:00",
+    "number": "CHG0070301",
+    "opened_at": "2026-02-02 09:00:00",
+    "short_description": "DB patch window #1",
+    "state": "3",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-02-02 09:00:00",
+    "sys_id": "ddc1b64608c4bdb5d2c6f9b59531f0f8",
+    "sys_mod_count": "2",
+    "sys_updated_on": "2026-02-04 09:00:00"
+   },
+   {
+    "assigned_to": "5ac513a7b8694892d1b74cb5dd601551",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "close_code": "successful",
+    "closed_at": "2026-03-05 09:00:00",
+    "number": "CHG0070302",
+    "opened_at": "2026-03-03 09:00:00",
+    "short_description": "DNS update #2",
+    "state": "3",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-03-03 09:00:00",
+    "sys_id": "4133fb7d93828fd093b1c7d2b5716da8",
+    "sys_mod_count": "2",
+    "sys_updated_on": "2026-03-05 09:00:00"
+   },
+   {
+    "assigned_to": "5ac513a7b8694892d1b74cb5dd601551",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "close_code": "successful",
+    "closed_at": "2026-04-06 09:00:00",
+    "number": "CHG0070303",
+    "opened_at": "2026-04-04 09:00:00",
+    "short_description": "Backup policy change #3",
+    "state": "3",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-04-04 09:00:00",
+    "sys_id": "af04526ffee7aab09c4962ae8716deae",
+    "sys_mod_count": "2",
+    "sys_updated_on": "2026-04-06 09:00:00"
+   },
+   {
+    "assigned_to": "5ac513a7b8694892d1b74cb5dd601551",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "close_code": "successful",
+    "closed_at": "2026-05-07 09:00:00",
+    "number": "CHG0070304",
+    "opened_at": "2026-05-05 09:00:00",
+    "short_description": "Certificate renewal #4",
+    "state": "3",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-05 09:00:00",
+    "sys_id": "fd78442242643d6ba813b36089282e01",
+    "sys_mod_count": "2",
+    "sys_updated_on": "2026-05-07 09:00:00"
+   },
+   {
+    "assigned_to": "5ac513a7b8694892d1b74cb5dd601551",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "close_code": "successful",
+    "closed_at": "2026-06-08 09:00:00",
+    "number": "CHG0070305",
+    "opened_at": "2026-06-06 09:00:00",
+    "short_description": "DB patch window #5",
+    "state": "3",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-06-06 09:00:00",
+    "sys_id": "1e638f8c8a86abd08b534a5ed3f2dce2",
+    "sys_mod_count": "2",
+    "sys_updated_on": "2026-06-08 09:00:00"
+   },
+   {
+    "assigned_to": "5ac513a7b8694892d1b74cb5dd601551",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "close_code": "successful",
+    "closed_at": "2026-01-09 09:00:00",
+    "number": "CHG0070306",
+    "opened_at": "2026-01-07 09:00:00",
+    "short_description": "DNS update #6",
+    "state": "3",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-01-07 09:00:00",
+    "sys_id": "d94d725920ad420aa7bcfae0e8b5001b",
+    "sys_mod_count": "2",
+    "sys_updated_on": "2026-01-09 09:00:00"
+   },
+   {
+    "assigned_to": "5ac513a7b8694892d1b74cb5dd601551",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "close_code": "successful",
+    "closed_at": "2026-02-10 09:00:00",
+    "number": "CHG0070307",
+    "opened_at": "2026-02-08 09:00:00",
+    "short_description": "Backup policy change #7",
+    "state": "3",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-02-08 09:00:00",
+    "sys_id": "21691d964a9e6de9b04dd596532d654c",
+    "sys_mod_count": "2",
+    "sys_updated_on": "2026-02-10 09:00:00"
+   },
+   {
+    "assigned_to": "5ac513a7b8694892d1b74cb5dd601551",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "close_code": "successful",
+    "closed_at": "2026-03-11 09:00:00",
+    "number": "CHG0070308",
+    "opened_at": "2026-03-09 09:00:00",
+    "short_description": "Certificate renewal #8",
+    "state": "3",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-03-09 09:00:00",
+    "sys_id": "475db8fc724c90e08baf84e7afea68ca",
+    "sys_mod_count": "2",
+    "sys_updated_on": "2026-03-11 09:00:00"
+   }
+  ],
+  "cmdb_ci": [
+   {
+    "managed_by": "diane.holloway@meridiancap.example",
+    "name": "Corporate Finance (SharePoint site).",
+    "operational_status": "1",
+    "owned_by": "diane.holloway@meridiancap.example",
+    "short_description": "Corporate Finance (SharePoint site). Data classification: Internal. Intended audience: Finance department.",
+    "sys_class_name": "cmdb_ci_service",
+    "sys_created_on": "2022-02-01 09:00:00",
+    "sys_id": "471f5f45c0d2dc3aca78806e95219194",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "u_data_classification": "Internal",
+    "u_intended_audience": "Finance department"
+   },
+   {
+    "managed_by": "priya.anand@meridiancap.example",
+    "name": "Deal Room - Project Titan (SharePoint site).",
+    "operational_status": "1",
+    "owned_by": "priya.anand@meridiancap.example",
+    "short_description": "Deal Room - Project Titan (SharePoint site). Data classification: Confidential - Restricted. Intended audience: Project Titan deal team. Active M&A transaction; need-to-know.",
+    "sys_class_name": "cmdb_ci_service",
+    "sys_created_on": "2022-02-01 09:00:00",
+    "sys_id": "49921ecc64cae5b74660dcd46eef7ffb",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "u_data_classification": "Confidential - Restricted",
+    "u_intended_audience": "Project Titan deal team"
+   },
+   {
+    "managed_by": "marcus.bell@meridiancap.example",
+    "name": "Board Materials (OneDrive folder).",
+    "operational_status": "1",
+    "owned_by": "marcus.bell@meridiancap.example",
+    "short_description": "Board Materials (OneDrive folder). Data classification: Confidential. Intended audience: Board & Executives.",
+    "sys_class_name": "cmdb_ci_service",
+    "sys_created_on": "2022-02-01 09:00:00",
+    "sys_id": "5b2d63c7ce7aa5e466e9d2daf4d8f17a",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "u_data_classification": "Confidential",
+    "u_intended_audience": "Board & Executives"
+   },
+   {
+    "managed_by": "marcus.bell@meridiancap.example",
+    "name": "Project Titan - Financial Model (OneDrive file).",
+    "operational_status": "1",
+    "owned_by": "marcus.bell@meridiancap.example",
+    "short_description": "Project Titan - Financial Model (OneDrive file). Data classification: Confidential - Restricted. Intended audience: Project Titan deal team. Deal-team need-to-know.",
+    "sys_class_name": "cmdb_ci_service",
+    "sys_created_on": "2022-02-01 09:00:00",
+    "sys_id": "4005dde60e4f4f55daf46f7cf1efec06",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "u_data_classification": "Confidential - Restricted",
+    "u_intended_audience": "Project Titan deal team"
+   },
+   {
+    "managed_by": "marcus.bell@meridiancap.example",
+    "name": "Project Titan - Due Diligence (OneDrive folder).",
+    "operational_status": "1",
+    "owned_by": "marcus.bell@meridiancap.example",
+    "short_description": "Project Titan - Due Diligence (OneDrive folder). Data classification: Confidential - Restricted. Intended audience: Project Titan deal team. Deal-team need-to-know.",
+    "sys_class_name": "cmdb_ci_service",
+    "sys_created_on": "2022-02-01 09:00:00",
+    "sys_id": "d00dd9ad855687b3a7c01302f489f82b",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "u_data_classification": "Confidential - Restricted",
+    "u_intended_audience": "Project Titan deal team"
+   },
+   {
+    "managed_by": "sofia.romano@meridiancap.example",
+    "name": "Human Resources (SharePoint site).",
+    "operational_status": "1",
+    "owned_by": "sofia.romano@meridiancap.example",
+    "short_description": "Human Resources (SharePoint site). Data classification: Internal. Intended audience: Human Resources department.",
+    "sys_class_name": "cmdb_ci_service",
+    "sys_created_on": "2022-02-01 09:00:00",
+    "sys_id": "67598fcc5586dfecd9d6fd4b03cd1973",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "u_data_classification": "Internal",
+    "u_intended_audience": "Human Resources department"
+   }
+  ],
+  "incident": [
+   {
+    "active": "true",
+    "assigned_to": "5ac513a7b8694892d1b74cb5dd601551",
+    "assignment_group": "809419eceab1d6e9e51ad4c222da59d1",
+    "caller_id": "f2eeed657f0bdd12d3585c39ff9e98ed",
+    "category": "inquiry",
+    "description": "The quarterly data-governance review, initiated after automated external-sharing alerts, has flagged several sensitive resources as over-exposed: they are shared more broadly than their intended audience.\n\nFlagged resources:\n  - SharePoint site 'Corporate Finance'\n  - SharePoint site 'Deal Room - Project Titan'\n  - OneDrive folder 'Board Materials' (Marcus Bell)\n  - OneDrive file 'Project Titan - Financial Model.xlsx' (Marcus Bell)\n  - OneDrive folder 'Project Titan - Due Diligence' (Marcus Bell)\n\nFor each flagged resource, bring the sharing back to least exposure so that only the intended audience retains access, while preserving legitimate, business-justified access. The data classification and ownership of record for each resource is maintained in the CMDB. Close this ticket when the review is complete.",
+    "impact": "2",
+    "number": "INC0071500",
+    "opened_at": "2026-07-16 09:00:00",
+    "opened_by": "f2eeed657f0bdd12d3585c39ff9e98ed",
+    "priority": "2",
+    "short_description": "Data governance review \u2014 sensitive resources shared beyond intended audience",
+    "state": "2",
+    "subcategory": "data governance",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-07-16 09:00:00",
+    "sys_id": "9beaac2698c864b2f505d73c5128d86b",
+    "sys_mod_count": "0",
+    "sys_updated_on": "2026-07-16 09:00:00",
+    "urgency": "2"
+   },
+   {
+    "active": "false",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "caller_id": "1b4b073761154882eb2ac0df8fb55c78",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Resolved by service desk.",
+    "number": "INC0071001",
+    "opened_at": "2026-05-02 09:00:00",
+    "priority": "3",
+    "short_description": "Mailbox quota #1",
+    "state": "7",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-02 09:00:00",
+    "sys_id": "f369b8856deb8b8f23b62573820b71c3",
+    "sys_mod_count": "1",
+    "sys_updated_on": "2026-05-03 09:00:00"
+   },
+   {
+    "active": "false",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "caller_id": "ba71ec9f2e8128e8166600be83165fe4",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Resolved by service desk.",
+    "number": "INC0071002",
+    "opened_at": "2026-05-03 09:00:00",
+    "priority": "3",
+    "short_description": "SSO login issue #2",
+    "state": "6",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-03 09:00:00",
+    "sys_id": "13311e4f7414f64e9c8318ca753c2a3e",
+    "sys_mod_count": "1",
+    "sys_updated_on": "2026-05-04 09:00:00"
+   },
+   {
+    "active": "false",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "caller_id": "11ad9eb687bd8dcbc60975bd14d099ce",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Resolved by service desk.",
+    "number": "INC0071003",
+    "opened_at": "2026-05-04 09:00:00",
+    "priority": "3",
+    "short_description": "New hire access #3",
+    "state": "7",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-04 09:00:00",
+    "sys_id": "7e84b3a12b920bc6a5170a3c9cc565ea",
+    "sys_mod_count": "1",
+    "sys_updated_on": "2026-05-05 09:00:00"
+   },
+   {
+    "active": "false",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "caller_id": "2ec50f1370224a33bb479a65dc4e3f57",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Resolved by service desk.",
+    "number": "INC0071004",
+    "opened_at": "2026-05-05 09:00:00",
+    "priority": "3",
+    "short_description": "Printer offline #4",
+    "state": "6",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-05 09:00:00",
+    "sys_id": "85fd4814777bb9d8d8ec486a0b1c9d91",
+    "sys_mod_count": "1",
+    "sys_updated_on": "2026-05-06 09:00:00"
+   },
+   {
+    "active": "false",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "caller_id": "a14374c758ca9e6520ca18b1e87f27f9",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Resolved by service desk.",
+    "number": "INC0071005",
+    "opened_at": "2026-05-06 09:00:00",
+    "priority": "3",
+    "short_description": "Laptop swap #5",
+    "state": "7",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-06 09:00:00",
+    "sys_id": "8e6aeae2fd86c3fb67ff0080784a2995",
+    "sys_mod_count": "1",
+    "sys_updated_on": "2026-05-07 09:00:00"
+   },
+   {
+    "active": "false",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "caller_id": "089b1d23a8235a822065976b26bde2d8",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Resolved by service desk.",
+    "number": "INC0071006",
+    "opened_at": "2026-05-07 09:00:00",
+    "priority": "3",
+    "short_description": "VPN reset #6",
+    "state": "6",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-07 09:00:00",
+    "sys_id": "b0d26e1c215073c95d97797526f6241a",
+    "sys_mod_count": "1",
+    "sys_updated_on": "2026-05-08 09:00:00"
+   },
+   {
+    "active": "false",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "caller_id": "dd4f0cfc4f062df573be5768daded645",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Resolved by service desk.",
+    "number": "INC0071007",
+    "opened_at": "2026-05-08 09:00:00",
+    "priority": "3",
+    "short_description": "Mailbox quota #7",
+    "state": "7",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-08 09:00:00",
+    "sys_id": "47c37de571636acec0354f1a9b62343a",
+    "sys_mod_count": "1",
+    "sys_updated_on": "2026-05-09 09:00:00"
+   },
+   {
+    "active": "false",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "caller_id": "8fa99335143c86a71eeb091ddd32ca69",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Resolved by service desk.",
+    "number": "INC0071008",
+    "opened_at": "2026-05-09 09:00:00",
+    "priority": "3",
+    "short_description": "SSO login issue #8",
+    "state": "6",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-09 09:00:00",
+    "sys_id": "7c18ed4e9c350b0552523d98645c108e",
+    "sys_mod_count": "1",
+    "sys_updated_on": "2026-05-10 09:00:00"
+   },
+   {
+    "active": "false",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "caller_id": "4926e2916e12f79c0fad8e693d5714bf",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Resolved by service desk.",
+    "number": "INC0071009",
+    "opened_at": "2026-05-10 09:00:00",
+    "priority": "3",
+    "short_description": "New hire access #9",
+    "state": "7",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-10 09:00:00",
+    "sys_id": "f70378e0a00937c77e2646b10cad5491",
+    "sys_mod_count": "1",
+    "sys_updated_on": "2026-05-11 09:00:00"
+   },
+   {
+    "active": "false",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "caller_id": "e8f36bf11c274d23d7efd7acc97f2a4c",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Resolved by service desk.",
+    "number": "INC0071010",
+    "opened_at": "2026-05-11 09:00:00",
+    "priority": "3",
+    "short_description": "Printer offline #10",
+    "state": "6",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-11 09:00:00",
+    "sys_id": "729b5cc30a45fb7c486a5fe0c070f139",
+    "sys_mod_count": "1",
+    "sys_updated_on": "2026-05-12 09:00:00"
+   },
+   {
+    "active": "false",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "caller_id": "6239bb08dfb42c350082079377818edd",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Resolved by service desk.",
+    "number": "INC0071011",
+    "opened_at": "2026-05-12 09:00:00",
+    "priority": "3",
+    "short_description": "Laptop swap #11",
+    "state": "7",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-12 09:00:00",
+    "sys_id": "d48df36b799133a9ca1d4b7247e5bd29",
+    "sys_mod_count": "1",
+    "sys_updated_on": "2026-05-13 09:00:00"
+   },
+   {
+    "active": "false",
+    "assignment_group": "5046f0b06c2cbc16425534b09ab96f8b",
+    "caller_id": "030cf8dbe9902001eadcda76c644304c",
+    "category": "inquiry",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Resolved by service desk.",
+    "number": "INC0071012",
+    "opened_at": "2026-05-13 09:00:00",
+    "priority": "3",
+    "short_description": "VPN reset #12",
+    "state": "6",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-05-13 09:00:00",
+    "sys_id": "aee1ec8857b631557f70f5b83ae1e850",
+    "sys_mod_count": "1",
+    "sys_updated_on": "2026-05-14 09:00:00"
+   }
+  ],
+  "sys_user": [
+   {
+    "active": "true",
+    "department": "Executive",
+    "email": "helena.vance@meridiancap.example",
+    "name": "Helena Vance",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "d59a909641571d44357a04a2072c5fb2",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Chief Executive Officer",
+    "user_name": "helena.vance"
+   },
+   {
+    "active": "true",
+    "department": "Executive",
+    "email": "marcus.bell@meridiancap.example",
+    "name": "Marcus Bell",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "3bef62b2f3e58fa8948afda10a52f44b",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Chief Financial Officer",
+    "user_name": "marcus.bell"
+   },
+   {
+    "active": "true",
+    "department": "Executive",
+    "email": "ingrid.sato@meridiancap.example",
+    "name": "Ingrid Sato",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "a68cc504b17629d7c6142ca1bc29d525",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Chief Operating Officer",
+    "user_name": "ingrid.sato"
+   },
+   {
+    "active": "true",
+    "department": "Finance",
+    "email": "diane.holloway@meridiancap.example",
+    "name": "Diane Holloway",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "00358e1539e126cc633ff435eca24794",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Director, Corporate Finance",
+    "user_name": "diane.holloway"
+   },
+   {
+    "active": "true",
+    "department": "Corporate Development",
+    "email": "priya.anand@meridiancap.example",
+    "name": "Priya Anand",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "cb964552e318c030e0e3849c5b9a3a19",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Head of Corporate Development",
+    "user_name": "priya.anand"
+   },
+   {
+    "active": "true",
+    "department": "Legal",
+    "email": "robert.kline@meridiancap.example",
+    "name": "Robert Kline",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "f2eeed657f0bdd12d3585c39ff9e98ed",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "General Counsel",
+    "user_name": "robert.kline"
+   },
+   {
+    "active": "true",
+    "department": "Data",
+    "email": "kofi.mensah@meridiancap.example",
+    "name": "Kofi Mensah",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "d3344ffdab5bccaf2c879e5dadaea8de",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Data Analyst",
+    "user_name": "kofi.mensah"
+   },
+   {
+    "active": "true",
+    "department": "Marketing",
+    "email": "lena.fischer@meridiancap.example",
+    "name": "Lena Fischer",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "6e0a64ca92a51c2807dc673f629d5ae8",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Marketing Manager",
+    "user_name": "lena.fischer"
+   },
+   {
+    "active": "true",
+    "department": "IT",
+    "email": "tunde.okafor@meridiancap.example",
+    "name": "Tunde Okafor",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "3e52e151541a2f6664ba436cae3b3b9e",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IT Administrator",
+    "user_name": "tunde.okafor"
+   },
+   {
+    "active": "true",
+    "department": "Corporate Development",
+    "email": "sven.larsson@meridiancap.example",
+    "name": "Sven Larsson",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "08dccbd98d3959f4efc871d8016b1b50",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Associate",
+    "user_name": "sven.larsson"
+   },
+   {
+    "active": "true",
+    "department": "Marketing",
+    "email": "rohan.singh@meridiancap.example",
+    "name": "Rohan Singh",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "b05b9600116c2ae998bc74539d696345",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Marketing Manager",
+    "user_name": "rohan.singh"
+   },
+   {
+    "active": "true",
+    "department": "IT",
+    "email": "jia.tan@meridiancap.example",
+    "name": "Jia Tan",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "127243cbaf92a439ab10d37f3b7db531",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IT Administrator",
+    "user_name": "jia.tan"
+   },
+   {
+    "active": "true",
+    "department": "Corporate Development",
+    "email": "aaron.cole@meridiancap.example",
+    "name": "Aaron Cole",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "8cd9b533aaf134a7789741431613f6f2",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Associate",
+    "user_name": "aaron.cole"
+   },
+   {
+    "active": "true",
+    "department": "Finance",
+    "email": "fatima.nasser@meridiancap.example",
+    "name": "Fatima Nasser",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "80c0f422011c26d730316004e423d095",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Financial Analyst",
+    "user_name": "fatima.nasser"
+   },
+   {
+    "active": "true",
+    "department": "Legal",
+    "email": "grzegorz.wozniak@meridiancap.example",
+    "name": "Grzegorz Wozniak",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "c137e5b930506e97a512e4f6c74e52f2",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Counsel",
+    "user_name": "grzegorz.wozniak"
+   },
+   {
+    "active": "true",
+    "department": "Finance",
+    "email": "nadia.cho@meridiancap.example",
+    "name": "Nadia Cho",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "107486308b36ba6b58c19d433da80cba",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Financial Analyst",
+    "user_name": "nadia.cho"
+   },
+   {
+    "active": "true",
+    "department": "Finance",
+    "email": "owen.brooks@meridiancap.example",
+    "name": "Owen Brooks",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "1829b47390a3dc04be69779cc3ade4b4",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Financial Analyst",
+    "user_name": "owen.brooks"
+   },
+   {
+    "active": "true",
+    "department": "Data",
+    "email": "ravi.menon@meridiancap.example",
+    "name": "Ravi Menon",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "f32cf06afec0b584b157a0227b937749",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Data Analyst",
+    "user_name": "ravi.menon"
+   },
+   {
+    "active": "true",
+    "department": "Operations",
+    "email": "chloe.dubois@meridiancap.example",
+    "name": "Chloe Dubois",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "4d5c4b20c10287c13a51ed78c16411e2",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Operations Specialist",
+    "user_name": "chloe.dubois"
+   },
+   {
+    "active": "true",
+    "department": "Corporate Development",
+    "email": "elena.rossi@meridiancap.example",
+    "name": "Elena Rossi",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "07340ca04dab7d89f6b223971a0cce07",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Associate",
+    "user_name": "elena.rossi"
+   },
+   {
+    "active": "true",
+    "department": "Marketing",
+    "email": "diego.marchetti@meridiancap.example",
+    "name": "Diego Marchetti",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "2ddcee33c6b4af9e32128420d10a0266",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Marketing Manager",
+    "user_name": "diego.marchetti"
+   },
+   {
+    "active": "true",
+    "department": "Human Resources",
+    "email": "sofia.romano@meridiancap.example",
+    "name": "Sofia Romano",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "4f9b9430e13a3a5b5abefa62d9f41d2c",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "People Partner",
+    "user_name": "sofia.romano"
+   },
+   {
+    "active": "true",
+    "department": "Human Resources",
+    "email": "ben.oduya@meridiancap.example",
+    "name": "Ben Oduya",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "c412e3913781a1c5f360056d87006003",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "People Partner",
+    "user_name": "ben.oduya"
+   },
+   {
+    "active": "true",
+    "department": "Legal",
+    "email": "hannah.weiss@meridiancap.example",
+    "name": "Hannah Weiss",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "e40d15bbaa31f00d6cc13ef56d434201",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Counsel",
+    "user_name": "hannah.weiss"
+   },
+   {
+    "active": "true",
+    "department": "IT",
+    "email": "omar.said@meridiancap.example",
+    "name": "Omar Said",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "5ac513a7b8694892d1b74cb5dd601551",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IT Administrator",
+    "user_name": "omar.said"
+   },
+   {
+    "active": "true",
+    "department": "Operations",
+    "email": "priya.novak.1@meridiancap.example",
+    "name": "Priya Novak",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "d15a3f08a9d3462c0f4cfc7d225cb554",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Operations Specialist",
+    "user_name": "priya.novak.1"
+   },
+   {
+    "active": "true",
+    "department": "Marketing",
+    "email": "emma.hale.2@meridiancap.example",
+    "name": "Emma Hale",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "1b4b073761154882eb2ac0df8fb55c78",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Marketing Manager",
+    "user_name": "emma.hale.2"
+   },
+   {
+    "active": "true",
+    "department": "Legal",
+    "email": "leo.vasquez.3@meridiancap.example",
+    "name": "Leo Vasquez",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "ba71ec9f2e8128e8166600be83165fe4",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Counsel",
+    "user_name": "leo.vasquez.3"
+   },
+   {
+    "active": "true",
+    "department": "IT",
+    "email": "hugo.haas.4@meridiancap.example",
+    "name": "Hugo Haas",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "11ad9eb687bd8dcbc60975bd14d099ce",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IT Administrator",
+    "user_name": "hugo.haas.4"
+   },
+   {
+    "active": "true",
+    "department": "Data",
+    "email": "ada.frost.5@meridiancap.example",
+    "name": "Ada Frost",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "2ec50f1370224a33bb479a65dc4e3f57",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Data Analyst",
+    "user_name": "ada.frost.5"
+   },
+   {
+    "active": "true",
+    "department": "Finance",
+    "email": "gregor.okoro.6@meridiancap.example",
+    "name": "Gregor Okoro",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "a14374c758ca9e6520ca18b1e87f27f9",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Financial Analyst",
+    "user_name": "gregor.okoro.6"
+   },
+   {
+    "active": "true",
+    "department": "Human Resources",
+    "email": "owen.rossi.7@meridiancap.example",
+    "name": "Owen Rossi",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "089b1d23a8235a822065976b26bde2d8",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "People Partner",
+    "user_name": "owen.rossi.7"
+   },
+   {
+    "active": "true",
+    "department": "Corporate Development",
+    "email": "ava.reed.8@meridiancap.example",
+    "name": "Ava Reed",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "dd4f0cfc4f062df573be5768daded645",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Associate",
+    "user_name": "ava.reed.8"
+   },
+   {
+    "active": "true",
+    "department": "Investor Relations",
+    "email": "kai.marin.9@meridiancap.example",
+    "name": "Kai Marin",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "8fa99335143c86a71eeb091ddd32ca69",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IR Analyst",
+    "user_name": "kai.marin.9"
+   },
+   {
+    "active": "true",
+    "department": "Sales",
+    "email": "diego.dubois.10@meridiancap.example",
+    "name": "Diego Dubois",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "4926e2916e12f79c0fad8e693d5714bf",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Account Executive",
+    "user_name": "diego.dubois.10"
+   },
+   {
+    "active": "true",
+    "department": "Operations",
+    "email": "cleo.wolf.11@meridiancap.example",
+    "name": "Cleo Wolf",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "e8f36bf11c274d23d7efd7acc97f2a4c",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Operations Specialist",
+    "user_name": "cleo.wolf.11"
+   },
+   {
+    "active": "true",
+    "department": "Marketing",
+    "email": "elena.cho.12@meridiancap.example",
+    "name": "Elena Cho",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "6239bb08dfb42c350082079377818edd",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Marketing Manager",
+    "user_name": "elena.cho.12"
+   },
+   {
+    "active": "true",
+    "department": "Legal",
+    "email": "liam.silva.13@meridiancap.example",
+    "name": "Liam Silva",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "030cf8dbe9902001eadcda76c644304c",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Counsel",
+    "user_name": "liam.silva.13"
+   },
+   {
+    "active": "true",
+    "department": "IT",
+    "email": "mia.ford.14@meridiancap.example",
+    "name": "Mia Ford",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "ca1078e49f2cccff9a2578e8b7aa9e16",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IT Administrator",
+    "user_name": "mia.ford.14"
+   },
+   {
+    "active": "true",
+    "department": "Data",
+    "email": "ivan.kapoor.15@meridiancap.example",
+    "name": "Ivan Kapoor",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "a32a86a19e55229a0aedb57e08a191c2",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Data Analyst",
+    "user_name": "ivan.kapoor.15"
+   },
+   {
+    "active": "true",
+    "department": "Finance",
+    "email": "theo.kim.16@meridiancap.example",
+    "name": "Theo Kim",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "fa3f236871adaf9defbd11e3e65a8041",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Financial Analyst",
+    "user_name": "theo.kim.16"
+   },
+   {
+    "active": "true",
+    "department": "Human Resources",
+    "email": "esme.moss.17@meridiancap.example",
+    "name": "Esme Moss",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "168e8fa8786933d40fd2c3c3d3b1189a",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "People Partner",
+    "user_name": "esme.moss.17"
+   },
+   {
+    "active": "true",
+    "department": "Corporate Development",
+    "email": "yuki.braun.18@meridiancap.example",
+    "name": "Yuki Braun",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "7cbede0c4be419c36bb80edbd98d74e6",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Associate",
+    "user_name": "yuki.braun.18"
+   },
+   {
+    "active": "true",
+    "department": "Investor Relations",
+    "email": "noah.reyes.19@meridiancap.example",
+    "name": "Noah Reyes",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "5d5a0726a51b90d0290590f15b8a1e09",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IR Analyst",
+    "user_name": "noah.reyes.19"
+   },
+   {
+    "active": "true",
+    "department": "Sales",
+    "email": "isla.lund.20@meridiancap.example",
+    "name": "Isla Lund",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "c0807640c46125af0366c078d8c7ae48",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Account Executive",
+    "user_name": "isla.lund.20"
+   },
+   {
+    "active": "true",
+    "department": "Operations",
+    "email": "lena.adler.21@meridiancap.example",
+    "name": "Lena Adler",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "1a4e6e75ce124d8021965f691a51a8d5",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Operations Specialist",
+    "user_name": "lena.adler.21"
+   },
+   {
+    "active": "true",
+    "department": "Marketing",
+    "email": "milo.nguyen.22@meridiancap.example",
+    "name": "Milo Nguyen",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "ecf57629adb69a9593b0a7942292eaae",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Marketing Manager",
+    "user_name": "milo.nguyen.22"
+   },
+   {
+    "active": "true",
+    "department": "Legal",
+    "email": "sofia.falk.23@meridiancap.example",
+    "name": "Sofia Falk",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "2403265081631cd456abb3d31bbc1d66",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Counsel",
+    "user_name": "sofia.falk.23"
+   },
+   {
+    "active": "true",
+    "department": "IT",
+    "email": "tomas.klein.24@meridiancap.example",
+    "name": "Tomas Klein",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "95a77d0fd354c1978f5128ef4aac8569",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IT Administrator",
+    "user_name": "tomas.klein.24"
+   },
+   {
+    "active": "true",
+    "department": "Data",
+    "email": "ethan.cole.25@meridiancap.example",
+    "name": "Ethan Cole",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "11fb02f9b36d57afa612ea78efd8165d",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Data Analyst",
+    "user_name": "ethan.cole.25"
+   },
+   {
+    "active": "true",
+    "department": "Finance",
+    "email": "aria.berg.26@meridiancap.example",
+    "name": "Aria Berg",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "a110cf86dffec4289bf541c998e64023",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Financial Analyst",
+    "user_name": "aria.berg.26"
+   },
+   {
+    "active": "true",
+    "department": "Human Resources",
+    "email": "freya.voss.27@meridiancap.example",
+    "name": "Freya Voss",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "e053b0929e3d0ff9d60c5581a7443b77",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "People Partner",
+    "user_name": "freya.voss.27"
+   },
+   {
+    "active": "true",
+    "department": "Corporate Development",
+    "email": "bruno.brooks.28@meridiancap.example",
+    "name": "Bruno Brooks",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "8ae13b34a413c99589552d54a43cd283",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Associate",
+    "user_name": "bruno.brooks.28"
+   },
+   {
+    "active": "true",
+    "department": "Investor Relations",
+    "email": "dylan.costa.29@meridiancap.example",
+    "name": "Dylan Costa",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "9981064b7951f8e81c0f5aedb7d1fc58",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IR Analyst",
+    "user_name": "dylan.costa.29"
+   },
+   {
+    "active": "true",
+    "department": "Sales",
+    "email": "hannah.stein.30@meridiancap.example",
+    "name": "Hannah Stein",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "52c94b098f4456bdfa804366984aca30",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Account Executive",
+    "user_name": "hannah.stein.30"
+   },
+   {
+    "active": "true",
+    "department": "Operations",
+    "email": "lucas.vidal.31@meridiancap.example",
+    "name": "Lucas Vidal",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "67ab101c6e35a089971705cbf967f5e6",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Operations Specialist",
+    "user_name": "lucas.vidal.31"
+   },
+   {
+    "active": "true",
+    "department": "Marketing",
+    "email": "zoe.weber.32@meridiancap.example",
+    "name": "Zoe Weber",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "3a3d045f609ceb44126fe9cdb07ceaf9",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Marketing Manager",
+    "user_name": "zoe.weber.32"
+   },
+   {
+    "active": "true",
+    "department": "Legal",
+    "email": "sana.roth.33@meridiancap.example",
+    "name": "Sana Roth",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "f3740e72c2c1f58341e3722d0761ffd3",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Counsel",
+    "user_name": "sana.roth.33"
+   },
+   {
+    "active": "true",
+    "department": "IT",
+    "email": "dario.raman.34@meridiancap.example",
+    "name": "Dario Raman",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "fd52ed960bb4f53e44ef83157820b794",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IT Administrator",
+    "user_name": "dario.raman.34"
+   },
+   {
+    "active": "true",
+    "department": "Data",
+    "email": "marcus.singh.35@meridiancap.example",
+    "name": "Marcus Singh",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "750d1295dd58d65754a3bac0073a7bb4",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Data Analyst",
+    "user_name": "marcus.singh.35"
+   },
+   {
+    "active": "true",
+    "department": "Finance",
+    "email": "olivia.bauer.36@meridiancap.example",
+    "name": "Olivia Bauer",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "fb54b44621262071a6366e640468efc6",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Financial Analyst",
+    "user_name": "olivia.bauer.36"
+   },
+   {
+    "active": "true",
+    "department": "Human Resources",
+    "email": "mason.tanaka.37@meridiancap.example",
+    "name": "Mason Tanaka",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "60b5f712a03d4cd32bd2ec6160198641",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "People Partner",
+    "user_name": "mason.tanaka.37"
+   },
+   {
+    "active": "true",
+    "department": "Corporate Development",
+    "email": "nora.ito.38@meridiancap.example",
+    "name": "Nora Ito",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "a4ee917d4f0c4255305423ee80b4221c",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Associate",
+    "user_name": "nora.ito.38"
+   },
+   {
+    "active": "true",
+    "department": "Investor Relations",
+    "email": "ines.vance.39@meridiancap.example",
+    "name": "Ines Vance",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "96787f1116b4c9f335ac8cbed4d1a0f8",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IR Analyst",
+    "user_name": "ines.vance.39"
+   },
+   {
+    "active": "true",
+    "department": "Sales",
+    "email": "aarav.feldon.40@meridiancap.example",
+    "name": "Aarav Feldon",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "e1264fb2ff5f149f29eca2a7a511828c",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Account Executive",
+    "user_name": "aarav.feldon.40"
+   },
+   {
+    "active": "true",
+    "department": "Operations",
+    "email": "priya.novak.41@meridiancap.example",
+    "name": "Priya Novak",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "56e3740217f085b40e48c0ab9b3c7572",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Operations Specialist",
+    "user_name": "priya.novak.41"
+   },
+   {
+    "active": "true",
+    "department": "Marketing",
+    "email": "emma.hale.42@meridiancap.example",
+    "name": "Emma Hale",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "72e92cb77ef6143e8d996989d1e104de",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Marketing Manager",
+    "user_name": "emma.hale.42"
+   },
+   {
+    "active": "true",
+    "department": "Legal",
+    "email": "leo.vasquez.43@meridiancap.example",
+    "name": "Leo Vasquez",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "ad77fcadab0a08e39c5b71994a099999",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Counsel",
+    "user_name": "leo.vasquez.43"
+   },
+   {
+    "active": "true",
+    "department": "IT",
+    "email": "hugo.haas.44@meridiancap.example",
+    "name": "Hugo Haas",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "4a883ef198f5915eb28de76e343ed062",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IT Administrator",
+    "user_name": "hugo.haas.44"
+   },
+   {
+    "active": "true",
+    "department": "Data",
+    "email": "ada.frost.45@meridiancap.example",
+    "name": "Ada Frost",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "e8cd2fa8a130280c88cad7071cf0298f",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Data Analyst",
+    "user_name": "ada.frost.45"
+   },
+   {
+    "active": "true",
+    "department": "Finance",
+    "email": "gregor.okoro.46@meridiancap.example",
+    "name": "Gregor Okoro",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "275f61f6a800e2247412645384e3dd8c",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Financial Analyst",
+    "user_name": "gregor.okoro.46"
+   },
+   {
+    "active": "true",
+    "department": "Human Resources",
+    "email": "owen.rossi.47@meridiancap.example",
+    "name": "Owen Rossi",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "e6db22dcbc8fc26acfdc8b0c5e461b8a",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "People Partner",
+    "user_name": "owen.rossi.47"
+   },
+   {
+    "active": "true",
+    "department": "Corporate Development",
+    "email": "ava.reed.48@meridiancap.example",
+    "name": "Ava Reed",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "9d1de1531cd1f0a6ea267f9d01874d8f",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Associate",
+    "user_name": "ava.reed.48"
+   },
+   {
+    "active": "true",
+    "department": "Investor Relations",
+    "email": "kai.marin.49@meridiancap.example",
+    "name": "Kai Marin",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "7169e30a3187456284c1ec5906de0c98",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IR Analyst",
+    "user_name": "kai.marin.49"
+   },
+   {
+    "active": "true",
+    "department": "Sales",
+    "email": "diego.dubois.50@meridiancap.example",
+    "name": "Diego Dubois",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "bbcedef227dab9d065c603b8c5082ac3",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Account Executive",
+    "user_name": "diego.dubois.50"
+   },
+   {
+    "active": "true",
+    "department": "Operations",
+    "email": "cleo.wolf.51@meridiancap.example",
+    "name": "Cleo Wolf",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "805fb248b0556e9accfb2b96a38c233b",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Operations Specialist",
+    "user_name": "cleo.wolf.51"
+   },
+   {
+    "active": "true",
+    "department": "Marketing",
+    "email": "elena.cho.52@meridiancap.example",
+    "name": "Elena Cho",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "f7de518d6f9ea1205c3a3c9496854fff",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Marketing Manager",
+    "user_name": "elena.cho.52"
+   },
+   {
+    "active": "true",
+    "department": "Legal",
+    "email": "liam.silva.53@meridiancap.example",
+    "name": "Liam Silva",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "ca41bfd3033063348c1adb9eb1df5980",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Counsel",
+    "user_name": "liam.silva.53"
+   },
+   {
+    "active": "true",
+    "department": "IT",
+    "email": "mia.ford.54@meridiancap.example",
+    "name": "Mia Ford",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "1c52b5a9720dc47dfce1c88f84516872",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IT Administrator",
+    "user_name": "mia.ford.54"
+   },
+   {
+    "active": "true",
+    "department": "Data",
+    "email": "ivan.kapoor.55@meridiancap.example",
+    "name": "Ivan Kapoor",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "97975e363a81a0a5f3cd7e848f88a83c",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Data Analyst",
+    "user_name": "ivan.kapoor.55"
+   },
+   {
+    "active": "true",
+    "department": "Finance",
+    "email": "theo.kim.56@meridiancap.example",
+    "name": "Theo Kim",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "738cc7480e8c76182390cfdd82c77725",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Financial Analyst",
+    "user_name": "theo.kim.56"
+   },
+   {
+    "active": "true",
+    "department": "Human Resources",
+    "email": "esme.moss.57@meridiancap.example",
+    "name": "Esme Moss",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "ca8474ba55b23a98cde2f096e748aea1",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "People Partner",
+    "user_name": "esme.moss.57"
+   },
+   {
+    "active": "true",
+    "department": "Corporate Development",
+    "email": "yuki.braun.58@meridiancap.example",
+    "name": "Yuki Braun",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "2cd9a54dd12610e2c40c9cfdb171d13e",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Associate",
+    "user_name": "yuki.braun.58"
+   },
+   {
+    "active": "true",
+    "department": "Investor Relations",
+    "email": "noah.reyes.59@meridiancap.example",
+    "name": "Noah Reyes",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "40bad45e01e5576ac7aaa622fafb1c8e",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "IR Analyst",
+    "user_name": "noah.reyes.59"
+   },
+   {
+    "active": "true",
+    "department": "Sales",
+    "email": "isla.lund.60@meridiancap.example",
+    "name": "Isla Lund",
+    "sys_created_on": "2022-03-01 09:00:00",
+    "sys_id": "94e6e9ae6582a23565764044fc8b1b7e",
+    "sys_updated_on": "2026-06-01 09:00:00",
+    "title": "Account Executive",
+    "user_name": "isla.lund.60"
+   }
+  ]
+ },
+ "sharepoint": {
+  "permissions": [
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Finance",
+      "id": "g-25dc77fd5a396010"
+     }
+    },
+    "id": "spperm-001",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-fin"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Diane Holloway",
+      "email": "diane.holloway@meridiancap.example",
+      "id": "u-b5be4f13c5c1b2a1"
+     }
+    },
+    "id": "spperm-002",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "owner"
+    ],
+    "siteId": "site-fin"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Finance Extended",
+      "id": "g-d964427df8a0d69f"
+     }
+    },
+    "id": "spperm-003",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-fin"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Paul Grieve",
+      "email": "vendor@brightledger.example",
+      "id": "u-8a5ca5328355c763"
+     }
+    },
+    "id": "spperm-004",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-fin"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Tunde Okafor",
+      "email": "tunde.okafor@meridiancap.example",
+      "id": "u-265fb44ab2a8d013"
+     }
+    },
+    "id": "spperm-005",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-fin"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Marketing",
+      "id": "g-adc4e436cc6b3e7f"
+     }
+    },
+    "id": "spperm-006",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-fin"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Project Titan Deal Team",
+      "id": "g-e85a22a6704c4566"
+     }
+    },
+    "id": "spperm-007",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "write"
+    ],
+    "siteId": "site-titan"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Priya Anand",
+      "email": "priya.anand@meridiancap.example",
+      "id": "u-c509f08581e33eea"
+     }
+    },
+    "id": "spperm-008",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "owner"
+    ],
+    "siteId": "site-titan"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Mara Reyes",
+      "email": "m.reyes@apexadvisory.example",
+      "id": "u-344f780048552aaa"
+     }
+    },
+    "id": "spperm-009",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-titan"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Corporate Development",
+      "id": "g-7144462499d8a204"
+     }
+    },
+    "id": "spperm-010",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-titan"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Victor Kessler",
+      "email": "former@zenithpartners.example",
+      "id": "u-b60ff43bd841b29c"
+     }
+    },
+    "id": "spperm-011",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-titan"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Rohan Singh",
+      "email": "rohan.singh@meridiancap.example",
+      "id": "u-63afa1911eba8e1c"
+     }
+    },
+    "id": "spperm-012",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-titan"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Human Resources",
+      "id": "g-cf4547162b0b1e27"
+     }
+    },
+    "id": "spperm-013",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-hr"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "user": {
+      "displayName": "Sofia Romano",
+      "email": "sofia.romano@meridiancap.example",
+      "id": "u-9029978bfa1279ad"
+     }
+    },
+    "id": "spperm-014",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "owner"
+    ],
+    "siteId": "site-hr"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "IT",
+      "id": "g-b85aa9e94bff60bc"
+     }
+    },
+    "id": "spperm-015",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-eng"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Marketing",
+      "id": "g-adc4e436cc6b3e7f"
+     }
+    },
+    "id": "spperm-016",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-mktg"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Legal",
+      "id": "g-244fb7f3a911d8ce"
+     }
+    },
+    "id": "spperm-017",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-legal"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Corporate Development",
+      "id": "g-7144462499d8a204"
+     }
+    },
+    "id": "spperm-018",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-sales"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Investor Relations",
+      "id": "g-9a0a0c3f6fe00f1a"
+     }
+    },
+    "id": "spperm-019",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-ir"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Data",
+      "id": "g-ec2555ed2774f53d"
+     }
+    },
+    "id": "spperm-020",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-ops"
+   },
+   {
+    "createdDateTime": "2025-01-10T09:00:00.000Z",
+    "grantedToV2": {
+     "group": {
+      "displayName": "Human Resources",
+      "id": "g-cf4547162b0b1e27"
+     }
+    },
+    "id": "spperm-021",
+    "lastModifiedDateTime": "2025-01-10T09:00:00.000Z",
+    "roles": [
+     "read"
+    ],
+    "siteId": "site-portal"
+   }
+  ],
+  "sites": [
+   {
+    "createdDateTime": "2022-02-01T09:00:00.000Z",
+    "displayName": "Corporate Finance",
+    "id": "site-fin",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "finance",
+    "webUrl": "https://meridiancap.sharepoint.com/sites/finance"
+   },
+   {
+    "createdDateTime": "2022-02-01T09:00:00.000Z",
+    "displayName": "Deal Room - Project Titan",
+    "id": "site-titan",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "project-titan",
+    "webUrl": "https://meridiancap.sharepoint.com/sites/project-titan"
+   },
+   {
+    "createdDateTime": "2022-02-01T09:00:00.000Z",
+    "displayName": "Human Resources",
+    "id": "site-hr",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "hr",
+    "webUrl": "https://meridiancap.sharepoint.com/sites/hr"
+   },
+   {
+    "createdDateTime": "2022-02-01T09:00:00.000Z",
+    "displayName": "Engineering",
+    "id": "site-eng",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "engineering",
+    "webUrl": "https://meridiancap.sharepoint.com/sites/engineering"
+   },
+   {
+    "createdDateTime": "2022-02-01T09:00:00.000Z",
+    "displayName": "Marketing Hub",
+    "id": "site-mktg",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "marketing",
+    "webUrl": "https://meridiancap.sharepoint.com/sites/marketing"
+   },
+   {
+    "createdDateTime": "2022-02-01T09:00:00.000Z",
+    "displayName": "Legal",
+    "id": "site-legal",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "legal",
+    "webUrl": "https://meridiancap.sharepoint.com/sites/legal"
+   },
+   {
+    "createdDateTime": "2022-02-01T09:00:00.000Z",
+    "displayName": "Sales",
+    "id": "site-sales",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "sales",
+    "webUrl": "https://meridiancap.sharepoint.com/sites/sales"
+   },
+   {
+    "createdDateTime": "2022-02-01T09:00:00.000Z",
+    "displayName": "Investor Relations",
+    "id": "site-ir",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "investor-relations",
+    "webUrl": "https://meridiancap.sharepoint.com/sites/investor-relations"
+   },
+   {
+    "createdDateTime": "2022-02-01T09:00:00.000Z",
+    "displayName": "Operations",
+    "id": "site-ops",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "operations",
+    "webUrl": "https://meridiancap.sharepoint.com/sites/operations"
+   },
+   {
+    "createdDateTime": "2022-02-01T09:00:00.000Z",
+    "displayName": "Company Portal",
+    "id": "site-portal",
+    "lastModifiedDateTime": "2026-06-01T09:00:00.000Z",
+    "name": "portal",
+    "webUrl": "https://meridiancap.sharepoint.com/sites/portal"
+   }
+  ]
+ }
+}

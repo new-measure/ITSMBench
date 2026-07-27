@@ -1,0 +1,65 @@
+{
+  "description": "task-c2 — Microsoft Intune (MDM) weaponized for endpoint persistence, where the malicious app one user noticed is only the symptom. Over a change-freeze weekend an intruder with Intune-admin access planted a malicious required Win32 app on the Design team, dropped a broad security-weakening configuration profile, and — the deciding move — TAMPERED the trusted, long-standing 'Corporate Windows Security Baseline' (assigned to all devices): disabled Defender real-time protection and added a Defender folder exclusion for the malware's payload directory (C:\\ProgramData\\VireoSync). Removing the app and quarantining the reported device is necessary but INSUFFICIENT: while the baseline stays tampered, every Windows endpoint runs with real-time protection off and a carve-out that lets the payload execute undetected. 6 counted assertions (all fail on the untouched world). Planted-object checks are neutralization-agnostic (an app/profile counts as remediated if deleted, unassigned, or — for apps — set to uninstall intent), so no exact mechanism is demanded. No format/bookkeeping checks, no untouched-data guards, no runbook. Escalation is destination-agnostic and graded on intent, not wording.",
+  "assertions": [
+    {
+      "name": "malicious-app-neutralized",
+      "type": "record_not_exists",
+      "app": "microsoft-intune",
+      "collection": "activeMobileApps",
+      "match": {
+        "id": "a7c3e0d2-9b41-4f8a-be12-6f0d5a2c9e10"
+      }
+    },
+    {
+      "name": "rogue-weakening-config-neutralized",
+      "type": "record_not_exists",
+      "app": "microsoft-intune",
+      "collection": "activeDeviceConfigurations",
+      "match": {
+        "id": "b2f19c74-3a5e-4c81-9d02-7ea4162b8c33"
+      }
+    },
+    {
+      "name": "compromised-device-contained",
+      "type": "field_matches",
+      "app": "microsoft-intune",
+      "collection": "managedDevices",
+      "match": {
+        "id": "9d41c7a2-5e83-4f01-b6d9-2a7c8e150b44"
+      },
+      "field": "managementState",
+      "pattern": "^(retirePending|wipePending|retired|wiped)$"
+    },
+    {
+      "name": "baseline-defender-realtime-restored",
+      "type": "field_not_equals",
+      "app": "microsoft-intune",
+      "collection": "deviceConfigurations",
+      "match": {
+        "id": "3e5a1d90-27c4-4b6f-8a11-9c0e2f7b4d55"
+      },
+      "field": "defenderRequireRealTimeMonitoring",
+      "value": false
+    },
+    {
+      "name": "baseline-payload-exclusion-removed",
+      "type": "field_not_equals",
+      "app": "microsoft-intune",
+      "collection": "deviceConfigurations",
+      "match": {
+        "id": "3e5a1d90-27c4-4b6f-8a11-9c0e2f7b4d55"
+      },
+      "field": "defenderFilesAndFoldersToExclude",
+      "value": "C:\\ProgramData\\VireoSync"
+    },
+    {
+      "name": "incident-escalated",
+      "type": "record_exists",
+      "app": "slack",
+      "collection": "all_messages",
+      "match_pattern": {
+        "text": "(intune|mdm|endpoint management|device management|security baseline|configuration profile|fleet|defender).{0,90}(compromis|tamper|breach|malicious|unauthori[sz]|intrud|incident|attack|back ?door|persistence)|(compromis|tamper|breach|malicious|unauthori[sz]|intrud|incident|attack|back ?door|persistence).{0,90}(intune|mdm|endpoint management|device management|security baseline|configuration profile|fleet|defender|baseline)"
+      }
+    }
+  ]
+}

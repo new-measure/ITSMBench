@@ -1,0 +1,169 @@
+{
+  "description": "task-c1 — active business email compromise, graded bidirectionally on Okta account state. ON-PATH LOCK-DOWN (7): the 5 still-active hijacked accounts the auto-lockout missed must end SUSPENDED; the rogue Okta API token revoked; the rogue OAuth app neutralized (no longer an ACTIVE app); plus the headline victim mailbox scrubbed of the attacker delegate + exfil filter (2 floors). COUNTERINTUITIVE RE-ENABLE (8): clean, business-critical accounts the impossible-travel auto-lockout wrongly suspended must end ACTIVE — off the offensive path. All 17 are positive end-states that fail on the untouched world; all excluded:false. No format/bookkeeping checks, no untouched-data guards, no runbook.",
+  "assertions": [
+    {
+      "name": "lockdown-tendai-suspended",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-78509f53252644ac" },
+      "field": "status",
+      "value": "SUSPENDED",
+      "excluded": false
+    },
+    {
+      "name": "lockdown-samir-suspended",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-72d8a8ef8bb5a26c" },
+      "field": "status",
+      "value": "SUSPENDED",
+      "excluded": false
+    },
+    {
+      "name": "lockdown-emilia-suspended",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-79d933804707ca6e" },
+      "field": "status",
+      "value": "SUSPENDED",
+      "excluded": false
+    },
+    {
+      "name": "lockdown-javier-suspended",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-1e52caa67f3c2917" },
+      "field": "status",
+      "value": "SUSPENDED",
+      "excluded": false
+    },
+    {
+      "name": "lockdown-dev-suspended",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-b8730d6964f60170" },
+      "field": "status",
+      "value": "SUSPENDED",
+      "excluded": false
+    },
+    {
+      "name": "lockdown-rogue-apitoken-revoked",
+      "type": "record_not_exists",
+      "app": "okta",
+      "collection": "apiTokens",
+      "match": { "id": "00Tbec4d1f8a06c93b2" },
+      "excluded": false
+    },
+    {
+      "name": "lockdown-rogue-oauth-app-neutralized",
+      "type": "record_not_exists",
+      "app": "okta",
+      "collection": "apps",
+      "match": { "id": "0oabec7f3a9c21d0e8b", "status": "ACTIVE" },
+      "excluded": false
+    },
+    {
+      "name": "floor-headline-mailbox-rogue-delegate-removed",
+      "type": "record_not_exists",
+      "app": "gmail",
+      "collection": "delegates",
+      "path_params": { "userId": "tendai.tembo@acme.com" },
+      "match": { "delegateEmail": "mailbox-archive@acme.com" },
+      "excluded": false
+    },
+    {
+      "name": "floor-headline-mailbox-exfil-filter-removed",
+      "type": "record_not_exists",
+      "app": "gmail",
+      "collection": "filters",
+      "path_params": { "userId": "tendai.tembo@acme.com" },
+      "match": { "id": "filter-bec7a1c9e02d4f6b8" },
+      "excluded": false
+    },
+    {
+      "name": "reenable-bao-active",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-02d2d98b0f85b92d" },
+      "field": "status",
+      "value": "ACTIVE",
+      "excluded": false
+    },
+    {
+      "name": "reenable-alejandro-active",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-df4e05d0c64d03a1" },
+      "field": "status",
+      "value": "ACTIVE",
+      "excluded": false
+    },
+    {
+      "name": "reenable-eunji-active",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-cd5066c6ec15632e" },
+      "field": "status",
+      "value": "ACTIVE",
+      "excluded": false
+    },
+    {
+      "name": "reenable-nia-active",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-778f642c90ff759a" },
+      "field": "status",
+      "value": "ACTIVE",
+      "excluded": false
+    },
+    {
+      "name": "reenable-omar-active",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-aacafca2ae53acaf" },
+      "field": "status",
+      "value": "ACTIVE",
+      "excluded": false
+    },
+    {
+      "name": "reenable-kavya-active",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-9105060cfcda77e3" },
+      "field": "status",
+      "value": "ACTIVE",
+      "excluded": false
+    },
+    {
+      "name": "reenable-diego-active",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-d49213a2b2985640" },
+      "field": "status",
+      "value": "ACTIVE",
+      "excluded": false
+    },
+    {
+      "name": "reenable-anika-active",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "match": { "id": "person-dadf64c7e54e7fda" },
+      "field": "status",
+      "value": "ACTIVE",
+      "excluded": false
+    }
+  ]
+}

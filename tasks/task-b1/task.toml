@@ -1,0 +1,39 @@
+schema_version = "1.3"
+artifacts = []
+
+[task]
+name = "taskgen/task-b1"
+description = "Orphaned Okta integration: a departed automation contractor left an over-privileged, externally-driven Okta service account and an SSWS API token that keeps re-granting privileged access. The reported symptom is the Privileged Administrators group re-growing despite password/session resets; the real fix requires knowing that an Okta API token is independent of the account's credentials (surviving a suspend), revoking it, deprovisioning the orphaned service account, completing the botched offboarding, and — only surfaced by a privileged-access audit — stripping an unauthorized standing SUPER_ADMIN the automation left on a live employee, then escalating to security."
+authors = []
+keywords = ["it-support", "incident-response", "okta", "api-token-persistence", "service-account-hygiene", "offboarding", "least-privilege"]
+
+[metadata]
+environment = "it-support-bench"
+category = "it-support"
+scenario = "orphaned-okta-integration-ssws-token-persistence"
+tested_trait = "root-cause-from-recurring-symptom-to-orphaned-over-privileged-okta-api-token"
+difficulty_mechanisms = ["ssws-token-independence-quirk", "suspend-vs-deprovision-distinction", "deprovision-does-not-remove-group-membership", "hidden-standing-privilege-requires-audit", "departed-contractor-team-surfaced-only-by-workday-cross-reference", "symptom-vs-root-cause"]
+
+[verifier]
+timeout_sec = 600.0
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+docker_image = "harbor.local/task-main:3cd77b40f7fc"
+network_mode = "public"
+build_timeout_sec = 3600.0
+os = "linux"
+mcp_servers = []
+cpus = 1
+memory_mb = 2048
+storage_mb = 5120
+
+[environment.env]
+
+[solution.env]
+

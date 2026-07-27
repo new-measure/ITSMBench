@@ -1,0 +1,2607 @@
+{
+ "_now": "2026-07-17T09:00:00Z",
+ "aws-vpc": {
+  "networkAcls": [
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-ebeast01",
+      "SubnetId": "subnet-0webeast01"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.5.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.9.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 22,
+       "To": 22
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "10.50.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 120
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "10.5.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.50.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0webeast01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-ebwest01",
+      "SubnetId": "subnet-0webwest01"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.9.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 22,
+       "To": 22
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "10.50.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 120
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "10.50.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0webwest01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-ebeu0001",
+      "SubnetId": "subnet-0webeu0001"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.5.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.9.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 22,
+       "To": 22
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "10.50.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 120
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "10.5.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.50.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0webeu0001",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   }
+  ],
+  "networkInterfaces": [
+   {
+    "Description": "east-web-1",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0webeast000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0ewb00000001",
+    "PrivateIpAddress": "10.10.1.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.1.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0webeast01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "east-web-2",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0webeast000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0ewb00000002",
+    "PrivateIpAddress": "10.10.1.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.1.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0webeast01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "east-api-1",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0apieast000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0eap00000003",
+    "PrivateIpAddress": "10.10.2.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.2.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0apieast01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "east-api-2",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0apieast000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0eap00000004",
+    "PrivateIpAddress": "10.10.2.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.2.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0apieast01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "east-web-vip",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0webeast000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0ewv00000005",
+    "PrivateIpAddress": "10.10.0.10",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.0.10"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0webeast01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "east-api-vip",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0apieast000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0eav00000006",
+    "PrivateIpAddress": "10.10.0.20",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.0.20"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0apieast01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "east-lb",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0lbeast0000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0elb00000007",
+    "PrivateIpAddress": "10.10.0.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.0.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0lbeast001",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "west-web-1",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0webwest000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0wwb00000008",
+    "PrivateIpAddress": "10.20.1.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.1.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0webwest01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "west-web-2",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0webwest000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0wwb00000009",
+    "PrivateIpAddress": "10.20.1.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.1.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0webwest01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "west-api-1",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0apiwest000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0wap00000010",
+    "PrivateIpAddress": "10.20.2.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.2.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0apiwest01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "west-api-2",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0apiwest000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0wap00000011",
+    "PrivateIpAddress": "10.20.2.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.2.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0apiwest01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "west-web-vip",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0webwest000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0wwv00000012",
+    "PrivateIpAddress": "10.20.0.10",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.0.10"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0webwest01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "west-api-vip",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0apiwest000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0wav00000013",
+    "PrivateIpAddress": "10.20.0.20",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.0.20"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0apiwest01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "west-lb",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0lbwest0000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0wlb00000014",
+    "PrivateIpAddress": "10.20.0.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.0.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0lbwest001",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "eu-web-1",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0webeu00000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0ewb00000015",
+    "PrivateIpAddress": "10.30.1.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.30.1.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0webeu0001",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "eu-web-2",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0webeu00000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0ewb00000016",
+    "PrivateIpAddress": "10.30.1.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.30.1.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0webeu0001",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "eu-api-1",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0apieu00000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0eap00000017",
+    "PrivateIpAddress": "10.30.2.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.30.2.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0apieu0001",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "eu-api-2",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0apieu00000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0eap00000018",
+    "PrivateIpAddress": "10.30.2.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.30.2.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0apieu0001",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "eu-web-vip",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0webeu00000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0ewv00000019",
+    "PrivateIpAddress": "10.30.0.10",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.30.0.10"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0webeu0001",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "eu-api-vip",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0apieu00000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0eav00000020",
+    "PrivateIpAddress": "10.30.0.20",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.30.0.20"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0apieu0001",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "eu-lb",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0lbeu000000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0elb00000021",
+    "PrivateIpAddress": "10.30.0.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.30.0.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0lbeu00001",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   }
+  ],
+  "routeTables": [
+   {
+    "AssociationSet": [
+     {
+      "RouteTableAssociationId": "rtbassoc-east01",
+      "SubnetId": "subnet-0webeast01"
+     }
+    ],
+    "RouteSet": [
+     {
+      "DestinationCidrBlock": "10.0.0.0/8",
+      "GatewayId": "local",
+      "Origin": "CreateRouteTable",
+      "State": "active"
+     }
+    ],
+    "RouteTableId": "rtb-0webeast01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "RouteTableAssociationId": "rtbassoc-west01",
+      "SubnetId": "subnet-0webwest01"
+     }
+    ],
+    "RouteSet": [
+     {
+      "DestinationCidrBlock": "10.0.0.0/8",
+      "GatewayId": "local",
+      "Origin": "CreateRouteTable",
+      "State": "active"
+     },
+     {
+      "DestinationCidrBlock": "10.5.0.0/24",
+      "NatGatewayId": "nat-0decommissioned",
+      "Origin": "CreateRoute",
+      "State": "blackhole"
+     }
+    ],
+    "RouteTableId": "rtb-0webwest01",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "RouteTableAssociationId": "rtbassoc-eu0001",
+      "SubnetId": "subnet-0webeu0001"
+     }
+    ],
+    "RouteSet": [
+     {
+      "DestinationCidrBlock": "10.0.0.0/8",
+      "GatewayId": "local",
+      "Origin": "CreateRouteTable",
+      "State": "active"
+     }
+    ],
+    "RouteTableId": "rtb-0webeu0001",
+    "TagSet": [],
+    "VpcId": "vpc-0shopwave000001"
+   }
+  ],
+  "securityGroups": [
+   {
+    "Description": "us-east-1 web tier",
+    "GroupId": "sg-0webeast000001",
+    "GroupName": "web-backend-sg-use1",
+    "IpPermissions": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.5.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8081,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.5.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8081,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8404,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.5.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8404,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.9.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.50.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "111122223333",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "us-east-1"
+     },
+     {
+      "Key": "tier",
+      "Value": "web"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "us-east-1 api tier",
+    "GroupId": "sg-0apieast000001",
+    "GroupName": "api-backend-sg-use1",
+    "IpPermissions": [
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.5.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8082,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.5.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8082,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.9.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "111122223333",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "us-east-1"
+     },
+     {
+      "Key": "tier",
+      "Value": "api"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "us-west-2 web tier",
+    "GroupId": "sg-0webwest000001",
+    "GroupName": "web-backend-sg-usw2",
+    "IpPermissions": [
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.9.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "111122223333",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "us-west-2"
+     },
+     {
+      "Key": "tier",
+      "Value": "web"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "us-west-2 api tier",
+    "GroupId": "sg-0apiwest000001",
+    "GroupName": "api-backend-sg-usw2",
+    "IpPermissions": [
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.9.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "111122223333",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "us-west-2"
+     },
+     {
+      "Key": "tier",
+      "Value": "api"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "eu-west-1 web tier",
+    "GroupId": "sg-0webeu00000001",
+    "GroupName": "web-backend-sg-euw1",
+    "IpPermissions": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.5.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8081,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.5.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8081,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8404,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.5.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8404,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.9.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.50.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "111122223333",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "eu-west-1"
+     },
+     {
+      "Key": "tier",
+      "Value": "web"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "eu-west-1 api tier",
+    "GroupId": "sg-0apieu00000001",
+    "GroupName": "api-backend-sg-euw1",
+    "IpPermissions": [
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.5.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8082,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.5.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8082,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.9.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "111122223333",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "eu-west-1"
+     },
+     {
+      "Key": "tier",
+      "Value": "api"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "us-east-1 lb tier",
+    "GroupId": "sg-0lbeast0000001",
+    "GroupName": "lb-sg-use1",
+    "IpPermissions": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "111122223333",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "us-east-1"
+     },
+     {
+      "Key": "tier",
+      "Value": "lb"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "us-west-2 lb tier",
+    "GroupId": "sg-0lbwest0000001",
+    "GroupName": "lb-sg-usw2",
+    "IpPermissions": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "111122223333",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "us-west-2"
+     },
+     {
+      "Key": "tier",
+      "Value": "lb"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "Description": "eu-west-1 lb tier",
+    "GroupId": "sg-0lbeu000000001",
+    "GroupName": "lb-sg-euw1",
+    "IpPermissions": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "111122223333",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "eu-west-1"
+     },
+     {
+      "Key": "tier",
+      "Value": "lb"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   }
+  ],
+  "subnets": [
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.10.1.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0webeast01",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "us-east-1"
+     },
+     {
+      "Key": "role",
+      "Value": "web"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.10.2.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0apieast01",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "us-east-1"
+     },
+     {
+      "Key": "role",
+      "Value": "api"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.10.0.0/24",
+    "MapPublicIpOnLaunch": true,
+    "State": "available",
+    "SubnetId": "subnet-0lbeast001",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "us-east-1"
+     },
+     {
+      "Key": "role",
+      "Value": "lb"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "AvailabilityZone": "us-west-2a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.20.1.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0webwest01",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "us-west-2"
+     },
+     {
+      "Key": "role",
+      "Value": "web"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "AvailabilityZone": "us-west-2a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.20.2.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0apiwest01",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "us-west-2"
+     },
+     {
+      "Key": "role",
+      "Value": "api"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "AvailabilityZone": "us-west-2a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.20.0.0/24",
+    "MapPublicIpOnLaunch": true,
+    "State": "available",
+    "SubnetId": "subnet-0lbwest001",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "us-west-2"
+     },
+     {
+      "Key": "role",
+      "Value": "lb"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "AvailabilityZone": "eu-west-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.30.1.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0webeu0001",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "eu-west-1"
+     },
+     {
+      "Key": "role",
+      "Value": "web"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "AvailabilityZone": "eu-west-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.30.2.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0apieu0001",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "eu-west-1"
+     },
+     {
+      "Key": "role",
+      "Value": "api"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   },
+   {
+    "AvailabilityZone": "eu-west-1a",
+    "AvailableIpAddressCount": 200,
+    "CidrBlock": "10.30.0.0/24",
+    "MapPublicIpOnLaunch": true,
+    "State": "available",
+    "SubnetId": "subnet-0lbeu00001",
+    "TagSet": [
+     {
+      "Key": "region",
+      "Value": "eu-west-1"
+     },
+     {
+      "Key": "role",
+      "Value": "lb"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   }
+  ],
+  "vpcs": [
+   {
+    "CidrBlock": "10.0.0.0/8",
+    "InstanceTenancy": "default",
+    "IsDefault": false,
+    "State": "available",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "shopwave-prod"
+     }
+    ],
+    "VpcId": "vpc-0shopwave000001"
+   }
+  ]
+ },
+ "device42": {
+  "devices": [
+   {
+    "aws_vpc_sg_id": "sg-0webeast000001",
+    "device_id": 7001,
+    "health_status": "healthy",
+    "id": 7001,
+    "in_service": true,
+    "ip": "10.10.0.10",
+    "lifecycle_status": "In Production",
+    "name": "east-web-vip",
+    "notes": "us-east-1 web edge-vip in us-east-1; service_level=Production; region health=healthy",
+    "os": "Ubuntu",
+    "region": "us-east-1",
+    "role": "edge-vip",
+    "security_group": "sg-0webeast000001",
+    "service": "storefront-web",
+    "service_level": "Production",
+    "subnet": "subnet-0webeast01",
+    "tier": "web",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0apieast000001",
+    "device_id": 7002,
+    "health_status": "healthy",
+    "id": 7002,
+    "in_service": true,
+    "ip": "10.10.0.20",
+    "lifecycle_status": "In Production",
+    "name": "east-api-vip",
+    "notes": "us-east-1 api edge-vip in us-east-1; service_level=Production; region health=healthy",
+    "os": "Ubuntu",
+    "region": "us-east-1",
+    "role": "edge-vip",
+    "security_group": "sg-0apieast000001",
+    "service": "storefront-api",
+    "service_level": "Production",
+    "subnet": "subnet-0apieast01",
+    "tier": "api",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0webeast000001",
+    "device_id": 7003,
+    "health_status": "healthy",
+    "id": 7003,
+    "in_service": true,
+    "ip": "10.10.1.11",
+    "lifecycle_status": "In Production",
+    "name": "east-web-1",
+    "notes": "us-east-1 web backend in us-east-1; service_level=Production; region health=healthy",
+    "os": "Ubuntu",
+    "region": "us-east-1",
+    "role": "backend",
+    "security_group": "sg-0webeast000001",
+    "service": "storefront-web",
+    "service_level": "Production",
+    "subnet": "subnet-0webeast01",
+    "tier": "web",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0webeast000001",
+    "device_id": 7004,
+    "health_status": "healthy",
+    "id": 7004,
+    "in_service": true,
+    "ip": "10.10.1.12",
+    "lifecycle_status": "In Production",
+    "name": "east-web-2",
+    "notes": "us-east-1 web backend in us-east-1; service_level=Production; region health=healthy",
+    "os": "Ubuntu",
+    "region": "us-east-1",
+    "role": "backend",
+    "security_group": "sg-0webeast000001",
+    "service": "storefront-web",
+    "service_level": "Production",
+    "subnet": "subnet-0webeast01",
+    "tier": "web",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0apieast000001",
+    "device_id": 7005,
+    "health_status": "healthy",
+    "id": 7005,
+    "in_service": true,
+    "ip": "10.10.2.11",
+    "lifecycle_status": "In Production",
+    "name": "east-api-1",
+    "notes": "us-east-1 api backend in us-east-1; service_level=Production; region health=healthy",
+    "os": "Ubuntu",
+    "region": "us-east-1",
+    "role": "backend",
+    "security_group": "sg-0apieast000001",
+    "service": "storefront-api",
+    "service_level": "Production",
+    "subnet": "subnet-0apieast01",
+    "tier": "api",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0apieast000001",
+    "device_id": 7006,
+    "health_status": "healthy",
+    "id": 7006,
+    "in_service": true,
+    "ip": "10.10.2.12",
+    "lifecycle_status": "In Production",
+    "name": "east-api-2",
+    "notes": "us-east-1 api backend in us-east-1; service_level=Production; region health=healthy",
+    "os": "Ubuntu",
+    "region": "us-east-1",
+    "role": "backend",
+    "security_group": "sg-0apieast000001",
+    "service": "storefront-api",
+    "service_level": "Production",
+    "subnet": "subnet-0apieast01",
+    "tier": "api",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0lbeast0000001",
+    "device_id": 7007,
+    "health_status": "healthy",
+    "id": 7007,
+    "in_service": true,
+    "ip": "10.10.0.11",
+    "lifecycle_status": "In Production",
+    "name": "east-lb",
+    "notes": "us-east-1 lb loadbalancer in us-east-1; service_level=Production; region health=healthy",
+    "os": "Ubuntu",
+    "region": "us-east-1",
+    "role": "loadbalancer",
+    "security_group": "sg-0lbeast0000001",
+    "service": "storefront-lb",
+    "service_level": "Production",
+    "subnet": "subnet-0lbeast001",
+    "tier": "lb",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0webwest000001",
+    "device_id": 7008,
+    "health_status": "recovered",
+    "id": 7008,
+    "in_service": true,
+    "ip": "10.20.0.10",
+    "lifecycle_status": "In Production",
+    "name": "west-web-vip",
+    "notes": "us-west-2 web edge-vip in us-west-2; service_level=Production; region health=recovered",
+    "os": "Ubuntu",
+    "region": "us-west-2",
+    "role": "edge-vip",
+    "security_group": "sg-0webwest000001",
+    "service": "storefront-web",
+    "service_level": "Production",
+    "subnet": "subnet-0webwest01",
+    "tier": "web",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0apiwest000001",
+    "device_id": 7009,
+    "health_status": "recovered",
+    "id": 7009,
+    "in_service": true,
+    "ip": "10.20.0.20",
+    "lifecycle_status": "In Production",
+    "name": "west-api-vip",
+    "notes": "us-west-2 api edge-vip in us-west-2; service_level=Production; region health=recovered",
+    "os": "Ubuntu",
+    "region": "us-west-2",
+    "role": "edge-vip",
+    "security_group": "sg-0apiwest000001",
+    "service": "storefront-api",
+    "service_level": "Production",
+    "subnet": "subnet-0apiwest01",
+    "tier": "api",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0webwest000001",
+    "device_id": 7010,
+    "health_status": "recovered",
+    "id": 7010,
+    "in_service": true,
+    "ip": "10.20.1.11",
+    "lifecycle_status": "In Production",
+    "name": "west-web-1",
+    "notes": "us-west-2 web backend in us-west-2; service_level=Production; region health=recovered",
+    "os": "Ubuntu",
+    "region": "us-west-2",
+    "role": "backend",
+    "security_group": "sg-0webwest000001",
+    "service": "storefront-web",
+    "service_level": "Production",
+    "subnet": "subnet-0webwest01",
+    "tier": "web",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0webwest000001",
+    "device_id": 7011,
+    "health_status": "recovered",
+    "id": 7011,
+    "in_service": true,
+    "ip": "10.20.1.12",
+    "lifecycle_status": "In Production",
+    "name": "west-web-2",
+    "notes": "us-west-2 web backend in us-west-2; service_level=Production; region health=recovered",
+    "os": "Ubuntu",
+    "region": "us-west-2",
+    "role": "backend",
+    "security_group": "sg-0webwest000001",
+    "service": "storefront-web",
+    "service_level": "Production",
+    "subnet": "subnet-0webwest01",
+    "tier": "web",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0apiwest000001",
+    "device_id": 7012,
+    "health_status": "recovered",
+    "id": 7012,
+    "in_service": true,
+    "ip": "10.20.2.11",
+    "lifecycle_status": "In Production",
+    "name": "west-api-1",
+    "notes": "us-west-2 api backend in us-west-2; service_level=Production; region health=recovered",
+    "os": "Ubuntu",
+    "region": "us-west-2",
+    "role": "backend",
+    "security_group": "sg-0apiwest000001",
+    "service": "storefront-api",
+    "service_level": "Production",
+    "subnet": "subnet-0apiwest01",
+    "tier": "api",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0apiwest000001",
+    "device_id": 7013,
+    "health_status": "recovered",
+    "id": 7013,
+    "in_service": true,
+    "ip": "10.20.2.12",
+    "lifecycle_status": "In Production",
+    "name": "west-api-2",
+    "notes": "us-west-2 api backend in us-west-2; service_level=Production; region health=recovered",
+    "os": "Ubuntu",
+    "region": "us-west-2",
+    "role": "backend",
+    "security_group": "sg-0apiwest000001",
+    "service": "storefront-api",
+    "service_level": "Production",
+    "subnet": "subnet-0apiwest01",
+    "tier": "api",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0lbwest0000001",
+    "device_id": 7014,
+    "health_status": "recovered",
+    "id": 7014,
+    "in_service": true,
+    "ip": "10.20.0.11",
+    "lifecycle_status": "In Production",
+    "name": "west-lb",
+    "notes": "us-west-2 lb loadbalancer in us-west-2; service_level=Production; region health=recovered",
+    "os": "Ubuntu",
+    "region": "us-west-2",
+    "role": "loadbalancer",
+    "security_group": "sg-0lbwest0000001",
+    "service": "storefront-lb",
+    "service_level": "Production",
+    "subnet": "subnet-0lbwest001",
+    "tier": "lb",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0webeu00000001",
+    "device_id": 7015,
+    "health_status": "failing",
+    "id": 7015,
+    "in_service": false,
+    "ip": "10.30.0.10",
+    "lifecycle_status": "Under Maintenance",
+    "name": "eu-web-vip",
+    "notes": "eu-west-1 web edge-vip in eu-west-1; service_level=Canary; region health=failing",
+    "os": "Ubuntu",
+    "region": "eu-west-1",
+    "role": "edge-vip",
+    "security_group": "sg-0webeu00000001",
+    "service": "storefront-web",
+    "service_level": "Canary",
+    "subnet": "subnet-0webeu0001",
+    "tier": "web",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0apieu00000001",
+    "device_id": 7016,
+    "health_status": "failing",
+    "id": 7016,
+    "in_service": false,
+    "ip": "10.30.0.20",
+    "lifecycle_status": "Under Maintenance",
+    "name": "eu-api-vip",
+    "notes": "eu-west-1 api edge-vip in eu-west-1; service_level=Canary; region health=failing",
+    "os": "Ubuntu",
+    "region": "eu-west-1",
+    "role": "edge-vip",
+    "security_group": "sg-0apieu00000001",
+    "service": "storefront-api",
+    "service_level": "Canary",
+    "subnet": "subnet-0apieu0001",
+    "tier": "api",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0webeu00000001",
+    "device_id": 7017,
+    "health_status": "failing",
+    "id": 7017,
+    "in_service": false,
+    "ip": "10.30.1.11",
+    "lifecycle_status": "Under Maintenance",
+    "name": "eu-web-1",
+    "notes": "eu-west-1 web backend in eu-west-1; service_level=Canary; region health=failing",
+    "os": "Ubuntu",
+    "region": "eu-west-1",
+    "role": "backend",
+    "security_group": "sg-0webeu00000001",
+    "service": "storefront-web",
+    "service_level": "Canary",
+    "subnet": "subnet-0webeu0001",
+    "tier": "web",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0webeu00000001",
+    "device_id": 7018,
+    "health_status": "failing",
+    "id": 7018,
+    "in_service": false,
+    "ip": "10.30.1.12",
+    "lifecycle_status": "Under Maintenance",
+    "name": "eu-web-2",
+    "notes": "eu-west-1 web backend in eu-west-1; service_level=Canary; region health=failing",
+    "os": "Ubuntu",
+    "region": "eu-west-1",
+    "role": "backend",
+    "security_group": "sg-0webeu00000001",
+    "service": "storefront-web",
+    "service_level": "Canary",
+    "subnet": "subnet-0webeu0001",
+    "tier": "web",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0apieu00000001",
+    "device_id": 7019,
+    "health_status": "failing",
+    "id": 7019,
+    "in_service": false,
+    "ip": "10.30.2.11",
+    "lifecycle_status": "Under Maintenance",
+    "name": "eu-api-1",
+    "notes": "eu-west-1 api backend in eu-west-1; service_level=Canary; region health=failing",
+    "os": "Ubuntu",
+    "region": "eu-west-1",
+    "role": "backend",
+    "security_group": "sg-0apieu00000001",
+    "service": "storefront-api",
+    "service_level": "Canary",
+    "subnet": "subnet-0apieu0001",
+    "tier": "api",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0apieu00000001",
+    "device_id": 7020,
+    "health_status": "failing",
+    "id": 7020,
+    "in_service": false,
+    "ip": "10.30.2.12",
+    "lifecycle_status": "Under Maintenance",
+    "name": "eu-api-2",
+    "notes": "eu-west-1 api backend in eu-west-1; service_level=Canary; region health=failing",
+    "os": "Ubuntu",
+    "region": "eu-west-1",
+    "role": "backend",
+    "security_group": "sg-0apieu00000001",
+    "service": "storefront-api",
+    "service_level": "Canary",
+    "subnet": "subnet-0apieu0001",
+    "tier": "api",
+    "type": "virtual"
+   },
+   {
+    "aws_vpc_sg_id": "sg-0lbeu000000001",
+    "device_id": 7021,
+    "health_status": "failing",
+    "id": 7021,
+    "in_service": false,
+    "ip": "10.30.0.11",
+    "lifecycle_status": "Under Maintenance",
+    "name": "eu-lb",
+    "notes": "eu-west-1 lb loadbalancer in eu-west-1; service_level=Canary; region health=failing",
+    "os": "Ubuntu",
+    "region": "eu-west-1",
+    "role": "loadbalancer",
+    "security_group": "sg-0lbeu000000001",
+    "service": "storefront-lb",
+    "service_level": "Canary",
+    "subnet": "subnet-0lbeu00001",
+    "tier": "lb",
+    "type": "virtual"
+   }
+  ],
+  "services": [
+   {
+    "name": "storefront-web",
+    "notes": "ShopWave storefront web tier, delivered active-active behind GSLB from the Production regions.",
+    "tier": "web",
+    "type": "application"
+   },
+   {
+    "name": "storefront-api",
+    "notes": "ShopWave storefront API tier, delivered active-active behind GSLB from the Production regions.",
+    "tier": "api",
+    "type": "application"
+   }
+  ]
+ },
+ "haproxy": {
+  "backends": [
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "web-be-east"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "api-be-east"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "web-be-west"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "api-be-west"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "web-be-eu"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "api-be-eu"
+   }
+  ],
+  "binds": [
+   {
+    "address": "10.10.0.10",
+    "name": "vip",
+    "parent_name": "web-fe-east",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.10.0.20",
+    "name": "vip",
+    "parent_name": "api-fe-east",
+    "port": 8443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.0.10",
+    "name": "vip",
+    "parent_name": "web-fe-west",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.0.20",
+    "name": "vip",
+    "parent_name": "api-fe-west",
+    "port": 8443,
+    "ssl": true
+   },
+   {
+    "address": "10.30.0.10",
+    "name": "vip",
+    "parent_name": "web-fe-eu",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.30.0.20",
+    "name": "vip",
+    "parent_name": "api-fe-eu",
+    "port": 8443,
+    "ssl": true
+   }
+  ],
+  "frontends": [
+   {
+    "default_backend": "web-be-east",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "web-fe-east"
+   },
+   {
+    "default_backend": "api-be-east",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "api-fe-east"
+   },
+   {
+    "default_backend": "web-be-west",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "web-fe-west"
+   },
+   {
+    "default_backend": "api-be-west",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "api-fe-west"
+   },
+   {
+    "default_backend": "web-be-eu",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "web-fe-eu"
+   },
+   {
+    "default_backend": "api-be-eu",
+    "maxconn": 4000,
+    "mode": "http",
+    "name": "api-fe-eu"
+   }
+  ],
+  "runtimeServers": [
+   {
+    "admin_state": "ready",
+    "check_status": "L7OK",
+    "last_change": 60000,
+    "operational_state": "up",
+    "parent_name": "web-be-east",
+    "server_name": "web-e1"
+   },
+   {
+    "admin_state": "ready",
+    "check_status": "L7OK",
+    "last_change": 60000,
+    "operational_state": "up",
+    "parent_name": "web-be-east",
+    "server_name": "web-e2"
+   },
+   {
+    "admin_state": "ready",
+    "check_status": "L7OK",
+    "last_change": 60000,
+    "operational_state": "up",
+    "parent_name": "api-be-east",
+    "server_name": "api-e1"
+   },
+   {
+    "admin_state": "ready",
+    "check_status": "L7OK",
+    "last_change": 60000,
+    "operational_state": "up",
+    "parent_name": "api-be-east",
+    "server_name": "api-e2"
+   },
+   {
+    "admin_state": "maint",
+    "check_status": "MAINT",
+    "last_change": 39600,
+    "operational_state": "down",
+    "parent_name": "web-be-west",
+    "server_name": "web-w1"
+   },
+   {
+    "admin_state": "maint",
+    "check_status": "MAINT",
+    "last_change": 39600,
+    "operational_state": "down",
+    "parent_name": "web-be-west",
+    "server_name": "web-w2"
+   },
+   {
+    "admin_state": "maint",
+    "check_status": "MAINT",
+    "last_change": 39600,
+    "operational_state": "down",
+    "parent_name": "api-be-west",
+    "server_name": "api-w1"
+   },
+   {
+    "admin_state": "maint",
+    "check_status": "MAINT",
+    "last_change": 39600,
+    "operational_state": "down",
+    "parent_name": "api-be-west",
+    "server_name": "api-w2"
+   },
+   {
+    "admin_state": "ready",
+    "check_status": "L7STS",
+    "last_change": 1200,
+    "operational_state": "down",
+    "parent_name": "web-be-eu",
+    "server_name": "web-u1"
+   },
+   {
+    "admin_state": "ready",
+    "check_status": "L7STS",
+    "last_change": 1200,
+    "operational_state": "down",
+    "parent_name": "web-be-eu",
+    "server_name": "web-u2"
+   },
+   {
+    "admin_state": "ready",
+    "check_status": "L7STS",
+    "last_change": 1200,
+    "operational_state": "down",
+    "parent_name": "api-be-eu",
+    "server_name": "api-u1"
+   },
+   {
+    "admin_state": "ready",
+    "check_status": "L7STS",
+    "last_change": 1200,
+    "operational_state": "down",
+    "parent_name": "api-be-eu",
+    "server_name": "api-u2"
+   }
+  ],
+  "servers": [
+   {
+    "address": "10.10.1.11",
+    "check": "enabled",
+    "health_check_port": 8081,
+    "name": "web-e1",
+    "parent_name": "web-be-east",
+    "port": 443,
+    "weight": 100
+   },
+   {
+    "address": "10.10.1.12",
+    "check": "enabled",
+    "health_check_port": 8081,
+    "name": "web-e2",
+    "parent_name": "web-be-east",
+    "port": 443,
+    "weight": 100
+   },
+   {
+    "address": "10.10.2.11",
+    "check": "enabled",
+    "health_check_port": 8082,
+    "name": "api-e1",
+    "parent_name": "api-be-east",
+    "port": 8443,
+    "weight": 100
+   },
+   {
+    "address": "10.10.2.12",
+    "check": "enabled",
+    "health_check_port": 8082,
+    "name": "api-e2",
+    "parent_name": "api-be-east",
+    "port": 8443,
+    "weight": 100
+   },
+   {
+    "address": "10.20.1.11",
+    "check": "enabled",
+    "health_check_port": 1,
+    "name": "web-w1",
+    "parent_name": "web-be-west",
+    "port": 443,
+    "weight": 100
+   },
+   {
+    "address": "10.20.1.12",
+    "check": "enabled",
+    "health_check_port": 1,
+    "name": "web-w2",
+    "parent_name": "web-be-west",
+    "port": 443,
+    "weight": 100
+   },
+   {
+    "address": "10.20.2.11",
+    "check": "disabled",
+    "health_check_port": 8082,
+    "name": "api-w1",
+    "parent_name": "api-be-west",
+    "port": 8443,
+    "weight": 100
+   },
+   {
+    "address": "10.20.2.12",
+    "check": "disabled",
+    "health_check_port": 8082,
+    "name": "api-w2",
+    "parent_name": "api-be-west",
+    "port": 8443,
+    "weight": 100
+   },
+   {
+    "address": "10.30.1.11",
+    "check": "enabled",
+    "health_check_port": 8081,
+    "name": "web-u1",
+    "parent_name": "web-be-eu",
+    "port": 443,
+    "weight": 100
+   },
+   {
+    "address": "10.30.1.12",
+    "check": "enabled",
+    "health_check_port": 8081,
+    "name": "web-u2",
+    "parent_name": "web-be-eu",
+    "port": 443,
+    "weight": 100
+   },
+   {
+    "address": "10.30.2.11",
+    "check": "enabled",
+    "health_check_port": 8082,
+    "name": "api-u1",
+    "parent_name": "api-be-eu",
+    "port": 8443,
+    "weight": 100
+   },
+   {
+    "address": "10.30.2.12",
+    "check": "enabled",
+    "health_check_port": 8082,
+    "name": "api-u2",
+    "parent_name": "api-be-eu",
+    "port": 8443,
+    "weight": 100
+   }
+  ],
+  "version": 12
+ },
+ "infoblox-nios": {
+  "a_records": [
+   {
+    "comment": "GSLB storefront us-east-1",
+    "disable": false,
+    "ipv4addr": "10.10.0.10",
+    "name": "www.shopwave.example",
+    "view": "default",
+    "weight": 100
+   },
+   {
+    "comment": "temporary static failover entry",
+    "disable": false,
+    "ipv4addr": "10.99.0.9",
+    "name": "www.shopwave.example",
+    "view": "default",
+    "weight": 100
+   },
+   {
+    "comment": "GSLB storefront-api us-east-1",
+    "disable": false,
+    "ipv4addr": "10.10.0.20",
+    "name": "api.shopwave.example",
+    "view": "default",
+    "weight": 100
+   },
+   {
+    "comment": "storefront-api us-west-2 (pulled during failover)",
+    "disable": true,
+    "ipv4addr": "10.20.0.20",
+    "name": "api.shopwave.example",
+    "view": "default",
+    "weight": 0
+   },
+   {
+    "comment": "eu-west-1 storefront canary endpoint",
+    "disable": false,
+    "ipv4addr": "10.30.0.10",
+    "name": "canary.shopwave.example",
+    "view": "default",
+    "weight": 100
+   },
+   {
+    "comment": "shared checkout/origin services",
+    "disable": false,
+    "ipv4addr": "10.50.0.10",
+    "name": "origin.shopwave.example",
+    "view": "default",
+    "weight": 100
+   }
+  ],
+  "zones": [
+   {
+    "fqdn": "shopwave.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   }
+  ]
+ },
+ "pagerduty": {
+  "escalation_policies": [
+   {
+    "escalation_rules": [
+     {
+      "escalation_delay_in_minutes": 30,
+      "id": "PER001",
+      "targets": [
+       {
+        "id": "PUSER01",
+        "type": "user_reference"
+       }
+      ]
+     }
+    ],
+    "id": "PEP001",
+    "name": "Storefront On-Call",
+    "summary": "Storefront On-Call",
+    "type": "escalation_policy"
+   }
+  ],
+  "incidents": [
+   {
+    "acknowledgements": [],
+    "alert_counts": {
+     "all": 0,
+     "resolved": 0,
+     "triggered": 0
+    },
+    "assignments": [
+     {
+      "assignee": {
+       "id": "PUSER01",
+       "summary": "On-Call Engineer",
+       "type": "user_reference"
+      },
+      "at": "2026-07-17 06:35:00"
+     }
+    ],
+    "body": {
+     "details": "Customers are seeing elevated errors and slow page loads on the ShopWave storefront (www.shopwave.example) since late last night, and it is still degraded this morning. Traffic monitoring shows that nearly all storefront and API traffic is currently being served out of a single region (us-east-1), which is now running hot as a result. A regional infrastructure event overnight has since cleared.\nSuspected cause: our CDN provider's edge cache is returning errors, or us-east-1 is simply at capacity - please confirm which and get the storefront back to a normal, healthy state.\nInvestigate across the available systems, confirm the actual cause before changing anything, restore the storefront to a correct and balanced state, and resolve this incident once it is healthy again.",
+     "type": "incident_body"
+    },
+    "created_at": "2026-07-17 06:35:00",
+    "escalation_policy": {
+     "id": "PEP001",
+     "summary": "Storefront On-Call",
+     "type": "escalation_policy_reference"
+    },
+    "id": "PSHOP01",
+    "incident_key": "storefront-degraded-20260717",
+    "incident_number": 4801,
+    "is_mergeable": true,
+    "last_status_change_at": "2026-07-17 06:35:00",
+    "pending_actions": [],
+    "priority": {
+     "id": "PPRI001",
+     "summary": "P1",
+     "type": "priority_reference"
+    },
+    "resolve_reason": null,
+    "resolved_at": null,
+    "service": {
+     "id": "PSVC001",
+     "summary": "ShopWave Storefront (GSLB)",
+     "type": "service_reference"
+    },
+    "status": "triggered",
+    "summary": "ShopWave storefront degraded - elevated errors, traffic skewed to one region",
+    "teams": [],
+    "title": "ShopWave storefront degraded - elevated errors, traffic skewed to one region",
+    "type": "incident",
+    "updated_at": "2026-07-17 06:35:00",
+    "urgency": "high"
+   },
+   {
+    "acknowledgements": [],
+    "alert_counts": {
+     "all": 0,
+     "resolved": 0,
+     "triggered": 0
+    },
+    "assignments": [
+     {
+      "assignee": {
+       "id": "PUSER01",
+       "summary": "On-Call Engineer",
+       "type": "user_reference"
+      },
+      "at": "2026-07-16 22:45:00"
+     }
+    ],
+    "body": {
+     "details": "Transit-provider connectivity to us-west-2 degraded overnight (2026-07-16 22:40 UTC), reducing reachability of that region. The provider has since confirmed full resolution; connectivity to us-west-2 is restored and the region is healthy again. Closing.",
+     "type": "incident_body"
+    },
+    "created_at": "2026-07-16 22:45:00",
+    "escalation_policy": {
+     "id": "PEP001",
+     "summary": "Storefront On-Call",
+     "type": "escalation_policy_reference"
+    },
+    "id": "PSHOP02",
+    "incident_key": null,
+    "incident_number": 4790,
+    "is_mergeable": true,
+    "last_status_change_at": "2026-07-16 22:45:00",
+    "pending_actions": [],
+    "priority": {
+     "id": "PPRI001",
+     "summary": "P1",
+     "type": "priority_reference"
+    },
+    "resolve_reason": null,
+    "resolved_at": "2026-07-17 04:10:00",
+    "service": {
+     "id": "PSVC001",
+     "summary": "ShopWave Storefront (GSLB)",
+     "type": "service_reference"
+    },
+    "status": "resolved",
+    "summary": "us-west-2 regional transit connectivity event",
+    "teams": [],
+    "title": "us-west-2 regional transit connectivity event",
+    "type": "incident",
+    "updated_at": "2026-07-16 22:45:00",
+    "urgency": "high"
+   },
+   {
+    "acknowledgements": [],
+    "alert_counts": {
+     "all": 0,
+     "resolved": 0,
+     "triggered": 0
+    },
+    "assignments": [
+     {
+      "assignee": {
+       "id": "PUSER01",
+       "summary": "On-Call Engineer",
+       "type": "user_reference"
+      },
+      "at": "2026-07-17 05:10:00"
+     }
+    ],
+    "body": {
+     "details": "The eu-west-1 storefront canary endpoint (canary.shopwave.example) is failing its readiness/health probes and returning 5xx responses. This endpoint is an experimental canary and is NOT part of the production active-active storefront. Root cause investigation is ongoing; keep it out of production serving until it passes health checks.",
+     "type": "incident_body"
+    },
+    "created_at": "2026-07-17 05:10:00",
+    "escalation_policy": {
+     "id": "PEP001",
+     "summary": "Storefront On-Call",
+     "type": "escalation_policy_reference"
+    },
+    "id": "PSHOP03",
+    "incident_key": "eu-canary-failing",
+    "incident_number": 4805,
+    "is_mergeable": true,
+    "last_status_change_at": "2026-07-17 05:10:00",
+    "pending_actions": [],
+    "priority": {
+     "id": "PPRI001",
+     "summary": "P1",
+     "type": "priority_reference"
+    },
+    "resolve_reason": null,
+    "resolved_at": null,
+    "service": {
+     "id": "PSVC001",
+     "summary": "ShopWave Storefront (GSLB)",
+     "type": "service_reference"
+    },
+    "status": "triggered",
+    "summary": "eu-west-1 storefront canary failing readiness probes",
+    "teams": [],
+    "title": "eu-west-1 storefront canary failing readiness probes",
+    "type": "incident",
+    "updated_at": "2026-07-17 05:10:00",
+    "urgency": "high"
+   },
+   {
+    "acknowledgements": [],
+    "alert_counts": {
+     "all": 0,
+     "resolved": 0,
+     "triggered": 0
+    },
+    "assignments": [
+     {
+      "assignee": {
+       "id": "PUSER01",
+       "summary": "On-Call Engineer",
+       "type": "user_reference"
+      },
+      "at": "2026-03-02 07:00:00"
+     }
+    ],
+    "body": {
+     "details": "Storefront traffic stayed pinned to a single region for hours after a disaster-recovery failover drill. Root cause was NOT the application. During the drill we had failed all traffic to the surviving region and, as part of that, taken the drilled region out of the global traffic pool, left its load-balancer pool members administratively drained, applied an emergency network isolation to its backend segment, turned off its backend health checks, and added a temporary static DNS failover entry - and none of it was reverted after the region came back. Recovery: once the region was confirmed healthy again, we brought it back into the traffic pool at the SAME weighting as its healthy peer region, returned its pool members to service, restored the backend segment's network access to match the peer, re-enabled its health checks, and removed the temporary static DNS entry. Lesson: after any failover, verify the region is genuinely healthy first, then rebalance back to match the healthy peer, and never act on the incident's guessed cause without confirming it. Closed.",
+     "type": "incident_body"
+    },
+    "created_at": "2026-03-02 07:00:00",
+    "escalation_policy": {
+     "id": "PEP001",
+     "summary": "Storefront On-Call",
+     "type": "escalation_policy_reference"
+    },
+    "id": "PSHOP00",
+    "incident_key": null,
+    "incident_number": 4102,
+    "is_mergeable": true,
+    "last_status_change_at": "2026-03-02 07:00:00",
+    "pending_actions": [],
+    "priority": {
+     "id": "PPRI001",
+     "summary": "P1",
+     "type": "priority_reference"
+    },
+    "resolve_reason": null,
+    "resolved_at": "2026-03-02 12:30:00",
+    "service": {
+     "id": "PSVC001",
+     "summary": "ShopWave Storefront (GSLB)",
+     "type": "service_reference"
+    },
+    "status": "resolved",
+    "summary": "DR failover drill - storefront traffic left pinned to one region",
+    "teams": [],
+    "title": "DR failover drill - storefront traffic left pinned to one region",
+    "type": "incident",
+    "updated_at": "2026-03-02 07:00:00",
+    "urgency": "high"
+   }
+  ],
+  "log_entries": [],
+  "maintenance_windows": [],
+  "notes": [],
+  "overrides": [],
+  "priorities": [
+   {
+    "description": "Critical",
+    "id": "PPRI001",
+    "name": "P1",
+    "summary": "P1",
+    "type": "priority"
+   }
+  ],
+  "schedules": [],
+  "services": [
+   {
+    "escalation_policy": {
+     "id": "PEP001",
+     "summary": "Storefront On-Call",
+     "type": "escalation_policy_reference"
+    },
+    "id": "PSVC001",
+    "name": "ShopWave Storefront (GSLB)",
+    "status": "active",
+    "summary": "ShopWave Storefront (GSLB)",
+    "teams": [],
+    "type": "service"
+   }
+  ],
+  "teams": [],
+  "users": [
+   {
+    "email": "oncall@shopwave.example",
+    "id": "PUSER01",
+    "name": "On-Call Engineer",
+    "role": "user",
+    "summary": "On-Call Engineer",
+    "teams": [],
+    "type": "user"
+   }
+  ]
+ }
+}

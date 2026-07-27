@@ -1,0 +1,1745 @@
+{
+ "_now": "2026-07-15T09:00:00Z",
+ "aws-vpc": {
+  "networkAcls": [
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-settle01",
+      "SubnetId": "subnet-0settle00001"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.10.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "10.10.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 120
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0settlement01",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-on000001",
+      "SubnetId": "subnet-0recon000001"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.90.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.10.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "10.30.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 120
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "10.30.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.90.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "10.10.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 120
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0recon000001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-outs0001",
+      "SubnetId": "subnet-0payouts0001"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.90.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.10.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "10.30.0.0/24",
+      "Egress": false,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 120
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "10.30.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "10.90.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "10.10.0.0/24",
+      "Egress": true,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 120
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0payouts0001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "NetworkAclAssociationId": "aclassoc-ledger01",
+      "SubnetId": "subnet-0ledger00001"
+     }
+    ],
+    "EntrySet": [
+     {
+      "CidrBlock": "10.0.0.0/8",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "PortRange": {
+       "From": 0,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 110
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": false,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     },
+     {
+      "CidrBlock": "10.0.0.0/8",
+      "Egress": true,
+      "PortRange": {
+       "From": 1024,
+       "To": 65535
+      },
+      "Protocol": "6",
+      "RuleAction": "allow",
+      "RuleNumber": 100
+     },
+     {
+      "CidrBlock": "0.0.0.0/0",
+      "Egress": true,
+      "Protocol": "-1",
+      "RuleAction": "deny",
+      "RuleNumber": 32767
+     }
+    ],
+    "IsDefault": false,
+    "NetworkAclId": "acl-0ledger00001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   }
+  ],
+  "networkInterfaces": [
+   {
+    "Description": "api-gateway-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0apigateway00001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0apigw00000001",
+    "PrivateIpAddress": "10.10.0.10",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.10.0.10"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0apigw000001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "settlement-api-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0settlementapi01"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0set0000000001",
+    "PrivateIpAddress": "10.20.0.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.0.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0settle00001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "settlement-api-02",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0settlementapi01"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0set0000000002",
+    "PrivateIpAddress": "10.20.0.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.0.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0settle00001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "settlement-api-vip",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0settlementapi01"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0setvip0000001",
+    "PrivateIpAddress": "10.20.0.100",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.20.0.100"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0settle00001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "reconciliation-api-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0reconapi0000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0rec0000000001",
+    "PrivateIpAddress": "10.21.0.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.21.0.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0recon000001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "reconciliation-api-02",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0reconapi0000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0rec0000000002",
+    "PrivateIpAddress": "10.21.0.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.21.0.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0recon000001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "reconciliation-api-vip",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0reconapi0000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0recvip0000001",
+    "PrivateIpAddress": "10.21.0.100",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.21.0.100"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0recon000001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "payouts-api-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0payoutsapi00001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0pay0000000001",
+    "PrivateIpAddress": "10.22.0.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.22.0.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0payouts0001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "payouts-api-02",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0payoutsapi00001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0pay0000000002",
+    "PrivateIpAddress": "10.22.0.12",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.22.0.12"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0payouts0001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "payouts-api-vip",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0payoutsapi00001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0payvip0000001",
+    "PrivateIpAddress": "10.22.0.100",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.22.0.100"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0payouts0001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "ledger-db-01",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0ledgerdb000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0ledger0000001",
+    "PrivateIpAddress": "10.30.0.11",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.30.0.11"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0ledger00001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "ledger-db-vip",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0ledgerdb000001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0ledgervip0001",
+    "PrivateIpAddress": "10.30.0.100",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.30.0.100"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0ledger00001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "partner-settlement-gateway",
+    "GroupSet": [
+     {
+      "GroupId": "sg-0apigateway00001"
+     }
+    ],
+    "NetworkInterfaceId": "eni-0partnergw0001",
+    "PrivateIpAddress": "10.90.0.10",
+    "PrivateIpAddressesSet": [
+     {
+      "Primary": true,
+      "PrivateIpAddress": "10.90.0.10"
+     }
+    ],
+    "Status": "in-use",
+    "SubnetId": "subnet-0partner0001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   }
+  ],
+  "routeTables": [
+   {
+    "AssociationSet": [
+     {
+      "RouteTableAssociationId": "rtbassoc-ement1",
+      "SubnetId": "subnet-0settle00001"
+     }
+    ],
+    "RouteSet": [
+     {
+      "DestinationCidrBlock": "10.0.0.0/8",
+      "GatewayId": "local",
+      "Origin": "CreateRouteTable",
+      "State": "active"
+     },
+     {
+      "DestinationCidrBlock": "203.0.113.0/24",
+      "GatewayId": "igw-0firefight001",
+      "Origin": "CreateRoute",
+      "State": "active"
+     }
+    ],
+    "RouteTableId": "rtb-0settlement1",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "RouteTableAssociationId": "rtbassoc-n00001",
+      "SubnetId": "subnet-0recon000001"
+     }
+    ],
+    "RouteSet": [
+     {
+      "DestinationCidrBlock": "10.0.0.0/8",
+      "GatewayId": "local",
+      "Origin": "CreateRouteTable",
+      "State": "active"
+     }
+    ],
+    "RouteTableId": "rtb-0recon00001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "AssociationSet": [
+     {
+      "RouteTableAssociationId": "rtbassoc-uts001",
+      "SubnetId": "subnet-0payouts0001"
+     }
+    ],
+    "RouteSet": [
+     {
+      "DestinationCidrBlock": "10.0.0.0/8",
+      "GatewayId": "local",
+      "Origin": "CreateRouteTable",
+      "State": "active"
+     }
+    ],
+    "RouteTableId": "rtb-0payouts001",
+    "TagSet": [],
+    "VpcId": "vpc-0aureus00000001"
+   }
+  ],
+  "securityGroups": [
+   {
+    "Description": "Public API gateway / edge",
+    "GroupId": "sg-0apigateway00001",
+    "GroupName": "api-gateway-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 80,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 80,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.99.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 3389,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 3389,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "tier",
+      "Value": "backend"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "Settlement API backend nodes (partner settlement integration)",
+    "GroupId": "sg-0settlementapi01",
+    "GroupName": "settlement-api-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.99.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "tier",
+      "Value": "backend"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "Reconciliation API backend nodes (clearing integration)",
+    "GroupId": "sg-0reconapi0000001",
+    "GroupName": "reconciliation-api-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.90.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.10.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.99.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 9443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.99.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 9443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.90.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 5432,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.30.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5432,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "tier",
+      "Value": "backend"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "Payouts API backend nodes (disbursement integration)",
+    "GroupId": "sg-0payoutsapi00001",
+    "GroupName": "payouts-api-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 8443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.90.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 8443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.10.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.99.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 7443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.99.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 7443,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "FromPort": 443,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.90.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 443,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 5432,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.30.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5432,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "tier",
+      "Value": "backend"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "Description": "Shared ledger datastore",
+    "GroupId": "sg-0ledgerdb000001",
+    "GroupName": "ledger-db-sg",
+    "IpPermissions": [
+     {
+      "FromPort": 5432,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.21.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5432,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 5432,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.22.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5432,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 5432,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.0.0.0/8"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 5432,
+      "UserIdGroupPairs": []
+     },
+     {
+      "FromPort": 22,
+      "IpProtocol": "tcp",
+      "IpRanges": [
+       {
+        "CidrIp": "10.99.0.0/24"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "ToPort": 22,
+      "UserIdGroupPairs": []
+     }
+    ],
+    "IpPermissionsEgress": [
+     {
+      "IpProtocol": "-1",
+      "IpRanges": [
+       {
+        "CidrIp": "0.0.0.0/0"
+       }
+      ],
+      "Ipv6Ranges": [],
+      "UserIdGroupPairs": []
+     }
+    ],
+    "OwnerId": "444455556666",
+    "TagSet": [
+     {
+      "Key": "tier",
+      "Value": "backend"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   }
+  ],
+  "subnets": [
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 250,
+    "CidrBlock": "10.10.0.0/24",
+    "MapPublicIpOnLaunch": true,
+    "State": "available",
+    "SubnetId": "subnet-0apigw000001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "edge-api-gateway"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 240,
+    "CidrBlock": "10.20.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0settle00001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "svc-settlement"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 240,
+    "CidrBlock": "10.21.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0recon000001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "svc-reconciliation"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 240,
+    "CidrBlock": "10.22.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0payouts0001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "svc-payouts"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 245,
+    "CidrBlock": "10.30.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0ledger00001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "data-ledger"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 250,
+    "CidrBlock": "10.90.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0partner0001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "partner-transit-dmz"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   },
+   {
+    "AvailabilityZone": "us-east-1a",
+    "AvailableIpAddressCount": 250,
+    "CidrBlock": "10.99.0.0/24",
+    "MapPublicIpOnLaunch": false,
+    "State": "available",
+    "SubnetId": "subnet-0bastion0001",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "mgmt-bastion"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   }
+  ],
+  "vpcs": [
+   {
+    "CidrBlock": "10.0.0.0/8",
+    "InstanceTenancy": "default",
+    "IsDefault": false,
+    "State": "available",
+    "TagSet": [
+     {
+      "Key": "Name",
+      "Value": "prod"
+     }
+    ],
+    "VpcId": "vpc-0aureus00000001"
+   }
+  ]
+ },
+ "infoblox-nios": {
+  "a_records": [
+   {
+    "comment": "Public API gateway.",
+    "ipv4addr": "10.10.0.10",
+    "name": "api.aureuspay.example",
+    "view": "default"
+   },
+   {
+    "comment": "Reconciliation integration service endpoint.",
+    "ipv4addr": "10.21.0.100",
+    "name": "reconciliation-api.aureuspay.example",
+    "view": "default"
+   },
+   {
+    "comment": "Reconciliation integration partner callback endpoint.",
+    "ipv4addr": "10.21.0.100",
+    "name": "reconciliation-callback.aureuspay.example",
+    "view": "default"
+   },
+   {
+    "comment": "Payouts integration service endpoint.",
+    "ipv4addr": "10.22.0.100",
+    "name": "payouts-api.aureuspay.example",
+    "view": "default"
+   },
+   {
+    "comment": "Payouts integration partner callback endpoint.",
+    "ipv4addr": "10.22.0.100",
+    "name": "payouts-callback.aureuspay.example",
+    "view": "default"
+   },
+   {
+    "comment": "Shared ledger datastore endpoint.",
+    "ipv4addr": "10.30.0.100",
+    "name": "ledger-db.aureuspay.example",
+    "view": "default"
+   },
+   {
+    "comment": "Added during incident response.",
+    "ipv4addr": "203.0.113.45",
+    "name": "ledger-admin.aureuspay.example",
+    "view": "default"
+   }
+  ],
+  "zones": [
+   {
+    "fqdn": "aureuspay.example",
+    "view": "default",
+    "zone_format": "FORWARD"
+   }
+  ]
+ },
+ "microsoft-sentinel": {
+  "alerts": [],
+  "bookmarks": [
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "sg-apigw-open-ssh",
+    "properties": {
+     "changeTicket": "",
+     "created": "2026-07-14T02:11:00Z",
+     "createdBy": {
+      "name": "oncall-sre@aureuspay.example"
+     },
+     "displayName": "AzureActivity: sg-apigw-open-ssh",
+     "eventTime": "2026-07-14T02:11:00Z",
+     "labels": [
+      "network-change",
+      "unauthorized"
+     ],
+     "notes": "AuthorizeSecurityGroupIngress on sg-0apigateway00001 permitting 0.0.0.0/0 tcp/22. No ServiceNow change reference; not in the CAB-approved change set.",
+     "query": "AWSCloudTrail | where EventName == 'AuthorizeSecurityGroupIngress'",
+     "queryResult": "AuthorizeSecurityGroupIngress on sg-0apigateway00001 permitting 0.0.0.0/0 tcp/22. No ServiceNow change reference; not in the CAB-approved change set.",
+     "updatedBy": {
+      "name": "oncall-sre@aureuspay.example"
+     }
+    }
+   },
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "sg-apigw-open-rdp",
+    "properties": {
+     "changeTicket": "",
+     "created": "2026-07-14T02:12:00Z",
+     "createdBy": {
+      "name": "oncall-sre@aureuspay.example"
+     },
+     "displayName": "AzureActivity: sg-apigw-open-rdp",
+     "eventTime": "2026-07-14T02:12:00Z",
+     "labels": [
+      "network-change",
+      "unauthorized"
+     ],
+     "notes": "AuthorizeSecurityGroupIngress on sg-0apigateway00001 permitting 0.0.0.0/0 tcp/3389. No ServiceNow change reference.",
+     "query": "AWSCloudTrail | where EventName == 'AuthorizeSecurityGroupIngress'",
+     "queryResult": "AuthorizeSecurityGroupIngress on sg-0apigateway00001 permitting 0.0.0.0/0 tcp/3389. No ServiceNow change reference.",
+     "updatedBy": {
+      "name": "oncall-sre@aureuspay.example"
+     }
+    }
+   },
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "sg-ledger-broad-grant",
+    "properties": {
+     "changeTicket": "",
+     "created": "2026-07-14T02:18:00Z",
+     "createdBy": {
+      "name": "oncall-sre@aureuspay.example"
+     },
+     "displayName": "AzureActivity: sg-ledger-broad-grant",
+     "eventTime": "2026-07-14T02:18:00Z",
+     "labels": [
+      "network-change",
+      "unauthorized"
+     ],
+     "notes": "AuthorizeSecurityGroupIngress on sg-0ledgerdb000001 permitting 10.0.0.0/8 tcp/5432 (entire internal supernet). No ServiceNow change reference; the standard grant is per service subnet.",
+     "query": "AWSCloudTrail | where EventName == 'AuthorizeSecurityGroupIngress'",
+     "queryResult": "AuthorizeSecurityGroupIngress on sg-0ledgerdb000001 permitting 10.0.0.0/8 tcp/5432 (entire internal supernet). No ServiceNow change reference; the standard grant is per service subnet.",
+     "updatedBy": {
+      "name": "oncall-sre@aureuspay.example"
+     }
+    }
+   },
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "sg-settlement-open-callback",
+    "properties": {
+     "changeTicket": "",
+     "created": "2026-07-14T02:20:00Z",
+     "createdBy": {
+      "name": "oncall-sre@aureuspay.example"
+     },
+     "displayName": "AzureActivity: sg-settlement-open-callback",
+     "eventTime": "2026-07-14T02:20:00Z",
+     "labels": [
+      "network-change",
+      "unauthorized"
+     ],
+     "notes": "AuthorizeSecurityGroupIngress on sg-0settlementapi01 permitting 0.0.0.0/0 tcp/8443. No ServiceNow change reference.",
+     "query": "AWSCloudTrail | where EventName == 'AuthorizeSecurityGroupIngress'",
+     "queryResult": "AuthorizeSecurityGroupIngress on sg-0settlementapi01 permitting 0.0.0.0/0 tcp/8443. No ServiceNow change reference.",
+     "updatedBy": {
+      "name": "oncall-sre@aureuspay.example"
+     }
+    }
+   },
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "sg-settlement-open-egress",
+    "properties": {
+     "changeTicket": "",
+     "created": "2026-07-14T02:21:00Z",
+     "createdBy": {
+      "name": "oncall-sre@aureuspay.example"
+     },
+     "displayName": "AzureActivity: sg-settlement-open-egress",
+     "eventTime": "2026-07-14T02:21:00Z",
+     "labels": [
+      "network-change",
+      "unauthorized"
+     ],
+     "notes": "AuthorizeSecurityGroupEgress on sg-0settlementapi01 permitting all traffic to 0.0.0.0/0. No ServiceNow change reference.",
+     "query": "AWSCloudTrail | where EventName == 'AuthorizeSecurityGroupEgress'",
+     "queryResult": "AuthorizeSecurityGroupEgress on sg-0settlementapi01 permitting all traffic to 0.0.0.0/0. No ServiceNow change reference.",
+     "updatedBy": {
+      "name": "oncall-sre@aureuspay.example"
+     }
+    }
+   },
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "route-settlement-external",
+    "properties": {
+     "changeTicket": "",
+     "created": "2026-07-14T02:25:00Z",
+     "createdBy": {
+      "name": "oncall-sre@aureuspay.example"
+     },
+     "displayName": "AzureActivity: route-settlement-external",
+     "eventTime": "2026-07-14T02:25:00Z",
+     "labels": [
+      "network-change",
+      "unauthorized"
+     ],
+     "notes": "CreateRoute on rtb-0settlement1 adding 203.0.113.0/24 via igw-0firefight001 (non-VPC destination). No ServiceNow change reference.",
+     "query": "AWSCloudTrail | where EventName == 'CreateRoute'",
+     "queryResult": "CreateRoute on rtb-0settlement1 adding 203.0.113.0/24 via igw-0firefight001 (non-VPC destination). No ServiceNow change reference.",
+     "updatedBy": {
+      "name": "oncall-sre@aureuspay.example"
+     }
+    }
+   },
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "nacl-ledger-open-inbound",
+    "properties": {
+     "changeTicket": "",
+     "created": "2026-07-14T02:28:00Z",
+     "createdBy": {
+      "name": "oncall-sre@aureuspay.example"
+     },
+     "displayName": "AzureActivity: nacl-ledger-open-inbound",
+     "eventTime": "2026-07-14T02:28:00Z",
+     "labels": [
+      "network-change",
+      "unauthorized"
+     ],
+     "notes": "CreateNetworkAclEntry on acl-0ledger00001: inbound allow 0.0.0.0/0. No ServiceNow change reference.",
+     "query": "AWSCloudTrail | where EventName == 'CreateNetworkAclEntry'",
+     "queryResult": "CreateNetworkAclEntry on acl-0ledger00001: inbound allow 0.0.0.0/0. No ServiceNow change reference.",
+     "updatedBy": {
+      "name": "oncall-sre@aureuspay.example"
+     }
+    }
+   },
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "nacl-settlement-open-inbound",
+    "properties": {
+     "changeTicket": "",
+     "created": "2026-07-14T02:29:00Z",
+     "createdBy": {
+      "name": "oncall-sre@aureuspay.example"
+     },
+     "displayName": "AzureActivity: nacl-settlement-open-inbound",
+     "eventTime": "2026-07-14T02:29:00Z",
+     "labels": [
+      "network-change",
+      "unauthorized"
+     ],
+     "notes": "CreateNetworkAclEntry on acl-0settlement01: inbound allow 0.0.0.0/0. No ServiceNow change reference.",
+     "query": "AWSCloudTrail | where EventName == 'CreateNetworkAclEntry'",
+     "queryResult": "CreateNetworkAclEntry on acl-0settlement01: inbound allow 0.0.0.0/0. No ServiceNow change reference.",
+     "updatedBy": {
+      "name": "oncall-sre@aureuspay.example"
+     }
+    }
+   },
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "dns-rogue-external",
+    "properties": {
+     "changeTicket": "",
+     "created": "2026-07-14T02:33:00Z",
+     "createdBy": {
+      "name": "oncall-sre@aureuspay.example"
+     },
+     "displayName": "AzureActivity: dns-rogue-external",
+     "eventTime": "2026-07-14T02:33:00Z",
+     "labels": [
+      "network-change",
+      "unauthorized"
+     ],
+     "notes": "Created A record ledger-admin.aureuspay.example -> 203.0.113.45 (non-VPC host). No ServiceNow change reference.",
+     "query": "InfobloxAudit | where Operation == 'CreateRecord'",
+     "queryResult": "Created A record ledger-admin.aureuspay.example -> 203.0.113.45 (non-VPC host). No ServiceNow change reference.",
+     "updatedBy": {
+      "name": "oncall-sre@aureuspay.example"
+     }
+    }
+   },
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "sg-apigw-tls-listener",
+    "properties": {
+     "changeTicket": "CHG0044001",
+     "created": "2026-01-06T10:00:00Z",
+     "createdBy": {
+      "name": "netops-eng@aureuspay.example"
+     },
+     "displayName": "AzureActivity: sg-apigw-tls-listener",
+     "eventTime": "2026-01-06T10:00:00Z",
+     "labels": [
+      "network-change",
+      "authorized"
+     ],
+     "notes": "AuthorizeSecurityGroupIngress on sg-0apigateway00001 permitting 0.0.0.0/0 tcp/443 (public TLS listener). Authorized under CHG0044001 (approved).",
+     "query": "AWSCloudTrail | where EventName == 'AuthorizeSecurityGroupIngress'",
+     "queryResult": "AuthorizeSecurityGroupIngress on sg-0apigateway00001 permitting 0.0.0.0/0 tcp/443 (public TLS listener). Authorized under CHG0044001 (approved).",
+     "updatedBy": {
+      "name": "netops-eng@aureuspay.example"
+     }
+    }
+   },
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "settlement-v3-deploy",
+    "properties": {
+     "changeTicket": "CHG0045011",
+     "created": "2026-07-14T18:30:00Z",
+     "createdBy": {
+      "name": "settlement-eng@aureuspay.example"
+     },
+     "displayName": "AzureActivity: settlement-v3-deploy",
+     "eventTime": "2026-07-14T18:30:00Z",
+     "labels": [
+      "network-change",
+      "authorized"
+     ],
+     "notes": "settlement-api v3.1 rolling deploy (application artifact only; no network mutations). Authorized under CHG0045011 (approved).",
+     "query": "AWSCloudTrail | where EventName == 'RunInstances'",
+     "queryResult": "settlement-api v3.1 rolling deploy (application artifact only; no network mutations). Authorized under CHG0045011 (approved).",
+     "updatedBy": {
+      "name": "settlement-eng@aureuspay.example"
+     }
+    }
+   }
+  ],
+  "entities": [
+   {
+    "incidentIds": [
+     "aaaaaaaa-1111-2222-3333-444444444444"
+    ],
+    "kind": "Account",
+    "name": "acct-oncall",
+    "properties": {
+     "accountName": "oncall-sre@aureuspay.example"
+    }
+   }
+  ],
+  "incidents": [
+   {
+    "incidentId": null,
+    "name": "aaaaaaaa-1111-2222-3333-444444444444",
+    "properties": {
+     "description": "Cloud audit detected multiple production network/security changes during the 2026-07-14 P1 window. Review the attached bookmarks; several changes carry NO corresponding ServiceNow change reference and are outside the CAB-approved change set.",
+     "incidentNumber": 7731,
+     "severity": "High",
+     "status": "Active",
+     "title": "Unauthorized production network changes during P1 window"
+    }
+   }
+  ]
+ },
+ "pagerduty": {
+  "escalation_policies": [
+   {
+    "escalation_rules": [
+     {
+      "escalation_delay_in_minutes": 30,
+      "id": "erule001",
+      "targets": [
+       {
+        "id": "PSREPRIYA",
+        "summary": "Priya Rao",
+        "type": "user_reference"
+       }
+      ]
+     }
+    ],
+    "id": "PEPNETOPS",
+    "name": "NetOps On-Call",
+    "services": [],
+    "summary": "NetOps On-Call",
+    "teams": [],
+    "type": "escalation_policy"
+   }
+  ],
+  "incidents": [
+   {
+    "acknowledgements": [],
+    "alert_counts": {
+     "all": 0,
+     "resolved": 0,
+     "triggered": 0
+    },
+    "assignments": [
+     {
+      "assignee": {
+       "id": "PSREPRIYA",
+       "summary": "Priya Rao",
+       "type": "user_reference"
+      },
+      "at": "2026-07-15T06:41:00Z"
+     }
+    ],
+    "body": {
+     "details": "Partner settlement callbacks are failing. Suspected cause: the settlement-api v3.1 deploy (CHG0045011). Investigate and restore partner settlement.",
+     "type": "incident_body"
+    },
+    "created_at": "2026-07-15T06:41:00Z",
+    "escalation_policy": {
+     "id": "PEPNETOPS",
+     "summary": "NetOps On-Call",
+     "type": "escalation_policy_reference"
+    },
+    "id": "PDSETTLE01",
+    "incident_key": "settlement-callbacks-failing",
+    "incident_number": 4801,
+    "is_mergeable": true,
+    "last_status_change_at": "2026-07-15T06:41:00Z",
+    "service": {
+     "id": "PSVSETTLE",
+     "summary": "Settlement Integration",
+     "type": "service_reference"
+    },
+    "status": "triggered",
+    "summary": "Partner settlement callbacks failing",
+    "teams": [],
+    "title": "Partner settlement callbacks failing",
+    "type": "incident",
+    "updated_at": "2026-07-15T06:41:00Z",
+    "urgency": "high"
+   }
+  ],
+  "services": [
+   {
+    "escalation_policy": {
+     "id": "PEPNETOPS",
+     "summary": "NetOps On-Call",
+     "type": "escalation_policy_reference"
+    },
+    "id": "PSVSETTLE",
+    "name": "Settlement Integration",
+    "status": "active",
+    "summary": "Settlement Integration",
+    "teams": [],
+    "type": "service"
+   }
+  ],
+  "users": [
+   {
+    "email": "priya.rao@aureuspay.example",
+    "id": "PSREPRIYA",
+    "job_title": "Network Reliability Engineer",
+    "name": "Priya Rao",
+    "role": "user",
+    "summary": "Priya Rao",
+    "time_zone": "UTC",
+    "type": "user"
+   },
+   {
+    "email": "omar.haddad@aureuspay.example",
+    "id": "PSREOMAR",
+    "job_title": "SRE",
+    "name": "Omar Haddad",
+    "role": "user",
+    "summary": "Omar Haddad",
+    "time_zone": "UTC",
+    "type": "user"
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "approval": "approved",
+    "assignment_group": "Settlement Engineering",
+    "cab_required": "false",
+    "category": "software",
+    "close_code": "successful",
+    "close_notes": "v3.1 rolled out to both backends; smoke tests passed.",
+    "closed_at": "2026-07-14 19:05:00",
+    "description": "Rolling deployment of the settlement-api v3.1 application build to the settlement backend nodes. Application artifact only; no security-group, ACL, route, or DNS changes.",
+    "number": "CHG0045011",
+    "risk": "low",
+    "short_description": "Deploy settlement-api v3.1 to settlement backends",
+    "state": "3",
+    "sys_created_on": "2026-07-14 17:30:00",
+    "sys_id": "d699e3c39f4ed4b79014797fb87de70e",
+    "sys_updated_on": "2026-07-14 19:05:00",
+    "type": "standard",
+    "u_environment": "production"
+   },
+   {
+    "approval": "approved",
+    "assignment_group": "Network Engineering",
+    "cab_recommendation": "approve",
+    "cab_required": "true",
+    "category": "network",
+    "close_code": "successful",
+    "close_notes": "Change window closed successful; post-implementation functional validation of the settlement integration was deferred to the owning team.",
+    "closed_at": "2026-07-11 16:30:00",
+    "description": "Bring the new settlement-api partner integration online. Establish the standard partner-integration connectivity for settlement-api so the partner settlement gateway can deliver callbacks and settlement-api can exchange settlements with the partner and persist to the shared ledger datastore, and publish the settlement-api service endpoints in DNS. Follow the established partner-integration pattern already in production for the reconciliation and payouts integrations.",
+    "number": "CHG0045002",
+    "risk": "moderate",
+    "short_description": "Onboard PartnerBank settlement integration (settlement-api)",
+    "state": "3",
+    "sys_created_on": "2026-07-10 14:00:00",
+    "sys_id": "b3c523784bc45f51d207f67e03fa576f",
+    "sys_updated_on": "2026-07-11 16:30:00",
+    "type": "normal",
+    "u_environment": "production"
+   }
+  ],
+  "change_task": [
+   {
+    "change_request": "b3c523784bc45f51d207f67e03fa576f",
+    "close_code": "successful",
+    "cr_number": "CHG0045002",
+    "description": "Permit the partner settlement gateway to reach settlement-api and permit settlement-api to reach the partner gateway, mirroring the reconciliation/payouts integrations.",
+    "number": "CTASK0045010",
+    "short_description": "Establish partner-gateway connectivity for settlement-api",
+    "state": "3",
+    "sys_id": "95d022f87f54f3269a3391dd9bd9312a"
+   },
+   {
+    "change_request": "b3c523784bc45f51d207f67e03fa576f",
+    "close_code": "successful",
+    "cr_number": "CHG0045002",
+    "description": "Allow settlement-api to persist to the shared ledger datastore as the sibling integrations do.",
+    "number": "CTASK0045011",
+    "short_description": "Permit settlement-api to reach the shared ledger datastore",
+    "state": "3",
+    "sys_id": "4308c6b2df8c404d5608026eaa7aa697"
+   },
+   {
+    "change_request": "b3c523784bc45f51d207f67e03fa576f",
+    "close_code": "successful",
+    "cr_number": "CHG0045002",
+    "description": "Publish the settlement-api service and partner-callback endpoints in DNS, as done for the sibling integrations.",
+    "number": "CTASK0045012",
+    "short_description": "Publish settlement-api service endpoints in DNS",
+    "state": "3",
+    "sys_id": "86f216149ce15f8c45544a29a7b70f91"
+   }
+  ],
+  "incident": [
+   {
+    "category": "network",
+    "description": "Our partner bank reports that settlement callbacks to Aureus Pay are failing: settlement confirmations are not being delivered and the partner settlement flow is impaired. The settlement service is published at settlement-api.aureuspay.example.\nSuspected cause: the settlement-api v3.1 deployment that shipped yesterday (change CHG0045011) - please confirm whether the deploy is responsible.\nInvestigate across the available systems, confirm the actual root cause before making changes, restore partner settlement end to end, and close this incident when settlement is working again.",
+    "number": "INC0077001",
+    "priority": "1",
+    "short_description": "Partner settlement callbacks failing (since last night)",
+    "state": "2",
+    "subcategory": "connectivity",
+    "sys_created_on": "2026-07-15 06:40:00",
+    "sys_id": "2e31b68847d76a4d2e68c219abab4e2a",
+    "sys_updated_on": "2026-07-15 06:40:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "change_request",
+    "value": "3"
+   }
+  ],
+  "sysapproval_approver": [
+   {
+    "approver": "cab.board@aureuspay.example",
+    "comments": "CAB approved the settlement onboarding change.",
+    "document_id": "b3c523784bc45f51d207f67e03fa576f",
+    "group": "Change Advisory Board",
+    "state": "approved",
+    "sys_id": "021f8fa1f4ed386c8c6fe6cd46346837",
+    "sysapproval": "b3c523784bc45f51d207f67e03fa576f"
+   },
+   {
+    "approver": "release.manager@aureuspay.example",
+    "comments": "Standard change pre-approved.",
+    "document_id": "d699e3c39f4ed4b79014797fb87de70e",
+    "group": "Release Management",
+    "state": "approved",
+    "sys_id": "1895d618166259d760bd779e20f8b3f5",
+    "sysapproval": "d699e3c39f4ed4b79014797fb87de70e"
+   }
+  ]
+ }
+}

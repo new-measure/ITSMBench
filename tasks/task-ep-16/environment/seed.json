@@ -1,0 +1,4401 @@
+{
+  "_now": "2026-07-20T00:00:00.000Z",
+  "device42": {
+    "devices": [
+      {
+        "device_id": 1001,
+        "id": 1001,
+        "in_service": true,
+        "name": "prod-api-07",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN03132CDA",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1002,
+        "id": 1002,
+        "in_service": true,
+        "name": "prod-db-14",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNFDBCC807",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1003,
+        "id": 1003,
+        "in_service": true,
+        "name": "prod-cache-03",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN4AB8C196",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1004,
+        "id": 1004,
+        "in_service": true,
+        "name": "prod-auth-05",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN4FABC2CC",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1005,
+        "id": 1005,
+        "in_service": true,
+        "name": "prod-db-02",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNCAF1FB23",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1006,
+        "id": 1006,
+        "in_service": true,
+        "name": "prod-queue-09",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN6B9DA215",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1007,
+        "id": 1007,
+        "in_service": true,
+        "name": "prod-ledger-11",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNFE482679",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1008,
+        "id": 1008,
+        "in_service": true,
+        "name": "prod-web-22",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNE8ECF3AC",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1009,
+        "id": 1009,
+        "in_service": true,
+        "name": "prod-api-31",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN7B96E77D",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1010,
+        "id": 1010,
+        "in_service": true,
+        "name": "prod-db-08",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN701A8601",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1011,
+        "id": 1011,
+        "in_service": true,
+        "name": "prod-search-17",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN420B1100",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1012,
+        "id": 1012,
+        "in_service": true,
+        "name": "prod-cache-40",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNB0DEEF2F",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1013,
+        "id": 1013,
+        "in_service": true,
+        "name": "prod-ext-19",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SND0702277",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1014,
+        "id": 1014,
+        "in_service": true,
+        "name": "prod-stream-08",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNCCD3AF00",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1015,
+        "id": 1015,
+        "in_service": false,
+        "name": "prod-old-01",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN90D6348B",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1016,
+        "id": 1016,
+        "in_service": true,
+        "name": "dev-sandbox-12",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNF27D0D7E",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1017,
+        "id": 1017,
+        "in_service": true,
+        "name": "staging-api-03",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SND6092B19",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1018,
+        "id": 1018,
+        "in_service": true,
+        "name": "core-switch-02",
+        "notes": "",
+        "os": "NX-OS",
+        "serial_no": "SN128E442B",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1019,
+        "id": 1019,
+        "in_service": true,
+        "name": "core-switch-05",
+        "notes": "",
+        "os": "NX-OS",
+        "serial_no": "SN05E3DD6C",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1020,
+        "id": 1020,
+        "in_service": false,
+        "name": "wks-ny-100",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN4DDBBE3C",
+        "service_level": "workstation",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1021,
+        "id": 1021,
+        "in_service": true,
+        "name": "wks-sf-101",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN19207872",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1022,
+        "id": 1022,
+        "in_service": true,
+        "name": "wks-ldn-102",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN8949D14E",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1023,
+        "id": 1023,
+        "in_service": true,
+        "name": "wks-blr-103",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN73D6F1D0",
+        "service_level": "network",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1024,
+        "id": 1024,
+        "in_service": true,
+        "name": "prod-edge-104",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN694221C8",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1025,
+        "id": 1025,
+        "in_service": true,
+        "name": "wks-ny-105",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN977752B2",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1026,
+        "id": 1026,
+        "in_service": true,
+        "name": "wks-sf-106",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN61259C69",
+        "service_level": "lab",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1027,
+        "id": 1027,
+        "in_service": false,
+        "name": "wks-ldn-107",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN76A92A5F",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1028,
+        "id": 1028,
+        "in_service": true,
+        "name": "wks-blr-108",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SNEB0469A0",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1029,
+        "id": 1029,
+        "in_service": true,
+        "name": "prod-edge-109",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN26907BF1",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1030,
+        "id": 1030,
+        "in_service": true,
+        "name": "wks-ny-110",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN21C09DAE",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1031,
+        "id": 1031,
+        "in_service": true,
+        "name": "wks-sf-111",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SND0EA951B",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1032,
+        "id": 1032,
+        "in_service": true,
+        "name": "wks-ldn-112",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN98AEEEB0",
+        "service_level": "staging",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1033,
+        "id": 1033,
+        "in_service": true,
+        "name": "wks-blr-113",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN974E249B",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1034,
+        "id": 1034,
+        "in_service": false,
+        "name": "wks-tor-114",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SNE93BE28A",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1035,
+        "id": 1035,
+        "in_service": true,
+        "name": "wks-ny-115",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN82AB7FA8",
+        "service_level": "workstation",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1036,
+        "id": 1036,
+        "in_service": true,
+        "name": "wks-sf-116",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN7F9432AC",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1037,
+        "id": 1037,
+        "in_service": true,
+        "name": "wks-ldn-117",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN3AFD7622",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1038,
+        "id": 1038,
+        "in_service": true,
+        "name": "wks-blr-118",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNCB9CE53A",
+        "service_level": "network",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1039,
+        "id": 1039,
+        "in_service": true,
+        "name": "prod-edge-119",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN4F5FF087",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1040,
+        "id": 1040,
+        "in_service": true,
+        "name": "wks-ny-120",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN49E49020",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1041,
+        "id": 1041,
+        "in_service": false,
+        "name": "wks-sf-121",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNA8817DCC",
+        "service_level": "lab",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1042,
+        "id": 1042,
+        "in_service": true,
+        "name": "wks-ldn-122",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN5D821A66",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1043,
+        "id": 1043,
+        "in_service": true,
+        "name": "wks-blr-123",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SNF3C9DE37",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1044,
+        "id": 1044,
+        "in_service": true,
+        "name": "prod-edge-124",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNA50D4413",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1045,
+        "id": 1045,
+        "in_service": true,
+        "name": "wks-ny-125",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN07CDCC6C",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1046,
+        "id": 1046,
+        "in_service": true,
+        "name": "wks-sf-126",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SND0A5121D",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1047,
+        "id": 1047,
+        "in_service": true,
+        "name": "wks-ldn-127",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN69C638A8",
+        "service_level": "staging",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1048,
+        "id": 1048,
+        "in_service": false,
+        "name": "wks-blr-128",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SNDCDD3909",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1049,
+        "id": 1049,
+        "in_service": true,
+        "name": "prod-edge-129",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN78FDBA80",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1050,
+        "id": 1050,
+        "in_service": true,
+        "name": "wks-ny-130",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN433FC0F7",
+        "service_level": "workstation",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1051,
+        "id": 1051,
+        "in_service": true,
+        "name": "wks-sf-131",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN531DBB87",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1052,
+        "id": 1052,
+        "in_service": true,
+        "name": "wks-ldn-132",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SNB46E4511",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1053,
+        "id": 1053,
+        "in_service": true,
+        "name": "wks-blr-133",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SND8D21A6A",
+        "service_level": "network",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1054,
+        "id": 1054,
+        "in_service": true,
+        "name": "prod-edge-134",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN208616EF",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1055,
+        "id": 1055,
+        "in_service": false,
+        "name": "wks-ny-135",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN7E065C2D",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1056,
+        "id": 1056,
+        "in_service": true,
+        "name": "wks-sf-136",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN693D1BEE",
+        "service_level": "lab",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1057,
+        "id": 1057,
+        "in_service": true,
+        "name": "wks-ldn-137",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN450CB296",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1058,
+        "id": 1058,
+        "in_service": true,
+        "name": "wks-blr-138",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SND05E6D8D",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1059,
+        "id": 1059,
+        "in_service": true,
+        "name": "prod-edge-139",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNE0302A52",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1060,
+        "id": 1060,
+        "in_service": true,
+        "name": "wks-ny-140",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SNADDD76B3",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1061,
+        "id": 1061,
+        "in_service": true,
+        "name": "wks-sf-141",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SNBB45E40F",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1062,
+        "id": 1062,
+        "in_service": false,
+        "name": "wks-ldn-142",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN5E4F43DF",
+        "service_level": "staging",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1063,
+        "id": 1063,
+        "in_service": true,
+        "name": "wks-blr-143",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SNFE8286CF",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1064,
+        "id": 1064,
+        "in_service": true,
+        "name": "prod-edge-144",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN761F88A0",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1065,
+        "id": 1065,
+        "in_service": true,
+        "name": "wks-ny-145",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN8CA2EC73",
+        "service_level": "workstation",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1066,
+        "id": 1066,
+        "in_service": true,
+        "name": "wks-sf-146",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN0C585588",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1067,
+        "id": 1067,
+        "in_service": true,
+        "name": "wks-ldn-147",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN419DA351",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1068,
+        "id": 1068,
+        "in_service": true,
+        "name": "wks-blr-148",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN6985205B",
+        "service_level": "network",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1069,
+        "id": 1069,
+        "in_service": false,
+        "name": "wks-tor-149",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN10258CA9",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1070,
+        "id": 1070,
+        "in_service": true,
+        "name": "wks-ny-150",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SNCC1A6DA0",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1071,
+        "id": 1071,
+        "in_service": true,
+        "name": "wks-sf-151",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNC881A961",
+        "service_level": "lab",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1072,
+        "id": 1072,
+        "in_service": true,
+        "name": "wks-ldn-152",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN527E7419",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1073,
+        "id": 1073,
+        "in_service": true,
+        "name": "wks-blr-153",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SNA13E0493",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1074,
+        "id": 1074,
+        "in_service": true,
+        "name": "prod-edge-154",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNC7CD06B0",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1075,
+        "id": 1075,
+        "in_service": true,
+        "name": "wks-ny-155",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN685DC07A",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1076,
+        "id": 1076,
+        "in_service": false,
+        "name": "wks-sf-156",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN78ED2C8E",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1077,
+        "id": 1077,
+        "in_service": true,
+        "name": "wks-ldn-157",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN89B15601",
+        "service_level": "staging",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1078,
+        "id": 1078,
+        "in_service": true,
+        "name": "wks-blr-158",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN68154768",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1079,
+        "id": 1079,
+        "in_service": true,
+        "name": "prod-edge-159",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SNC7123D98",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1080,
+        "id": 1080,
+        "in_service": true,
+        "name": "wks-ny-160",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNADE196F3",
+        "service_level": "workstation",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1081,
+        "id": 1081,
+        "in_service": true,
+        "name": "wks-sf-161",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SNCFAED557",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1082,
+        "id": 1082,
+        "in_service": true,
+        "name": "wks-ldn-162",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN1269CB55",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1083,
+        "id": 1083,
+        "in_service": false,
+        "name": "wks-blr-163",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN8003C991",
+        "service_level": "network",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1084,
+        "id": 1084,
+        "in_service": true,
+        "name": "prod-edge-164",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SNF9307F1B",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1085,
+        "id": 1085,
+        "in_service": true,
+        "name": "wks-ny-165",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SNE5919334",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1086,
+        "id": 1086,
+        "in_service": true,
+        "name": "wks-sf-166",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNB7D3305B",
+        "service_level": "lab",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1087,
+        "id": 1087,
+        "in_service": true,
+        "name": "wks-ldn-167",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN5673BEB7",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1088,
+        "id": 1088,
+        "in_service": true,
+        "name": "wks-blr-168",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN0D22B53B",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1089,
+        "id": 1089,
+        "in_service": true,
+        "name": "prod-edge-169",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN36EC2086",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1090,
+        "id": 1090,
+        "in_service": false,
+        "name": "wks-ny-170",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN98F31E05",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1091,
+        "id": 1091,
+        "in_service": true,
+        "name": "wks-sf-171",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN9E4A943B",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1092,
+        "id": 1092,
+        "in_service": true,
+        "name": "wks-ldn-172",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNDB56CDB5",
+        "service_level": "staging",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1093,
+        "id": 1093,
+        "in_service": true,
+        "name": "wks-blr-173",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN28DCE816",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1094,
+        "id": 1094,
+        "in_service": true,
+        "name": "prod-edge-174",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SND5DA7DD5",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1095,
+        "id": 1095,
+        "in_service": true,
+        "name": "wks-ny-175",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN57FA4659",
+        "service_level": "workstation",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1096,
+        "id": 1096,
+        "in_service": true,
+        "name": "wks-sf-176",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN3009583F",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1097,
+        "id": 1097,
+        "in_service": false,
+        "name": "wks-ldn-177",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SNC90611F5",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1098,
+        "id": 1098,
+        "in_service": true,
+        "name": "wks-blr-178",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNCF79BE6F",
+        "service_level": "network",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1099,
+        "id": 1099,
+        "in_service": true,
+        "name": "prod-edge-179",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN585D25BE",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1100,
+        "id": 1100,
+        "in_service": true,
+        "name": "wks-ny-180",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN3883BCAC",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1101,
+        "id": 1101,
+        "in_service": true,
+        "name": "wks-sf-181",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN77CCEBBB",
+        "service_level": "lab",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1102,
+        "id": 1102,
+        "in_service": true,
+        "name": "wks-ldn-182",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SNE0D10C08",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1103,
+        "id": 1103,
+        "in_service": true,
+        "name": "wks-blr-183",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SNE305A937",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1104,
+        "id": 1104,
+        "in_service": false,
+        "name": "wks-tor-184",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN4A658003",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1105,
+        "id": 1105,
+        "in_service": true,
+        "name": "wks-ny-185",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN5575B500",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1106,
+        "id": 1106,
+        "in_service": true,
+        "name": "wks-sf-186",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN995574D2",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1107,
+        "id": 1107,
+        "in_service": true,
+        "name": "wks-ldn-187",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN8A31AAF1",
+        "service_level": "staging",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1108,
+        "id": 1108,
+        "in_service": true,
+        "name": "wks-blr-188",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN239964ED",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1109,
+        "id": 1109,
+        "in_service": true,
+        "name": "prod-edge-189",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN30CF76EB",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1110,
+        "id": 1110,
+        "in_service": true,
+        "name": "wks-ny-190",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNE520305C",
+        "service_level": "workstation",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1111,
+        "id": 1111,
+        "in_service": false,
+        "name": "wks-sf-191",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN7B873249",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1112,
+        "id": 1112,
+        "in_service": true,
+        "name": "wks-ldn-192",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN1782FE61",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1113,
+        "id": 1113,
+        "in_service": true,
+        "name": "wks-blr-193",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNCB2D10BF",
+        "service_level": "network",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1114,
+        "id": 1114,
+        "in_service": true,
+        "name": "prod-edge-194",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SNE90D9797",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1115,
+        "id": 1115,
+        "in_service": true,
+        "name": "wks-ny-195",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN6CE473B5",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1116,
+        "id": 1116,
+        "in_service": true,
+        "name": "wks-sf-196",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN3CD3BB2D",
+        "service_level": "lab",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1117,
+        "id": 1117,
+        "in_service": true,
+        "name": "wks-ldn-197",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN1B511C02",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1118,
+        "id": 1118,
+        "in_service": false,
+        "name": "wks-blr-198",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN3433926E",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1119,
+        "id": 1119,
+        "in_service": true,
+        "name": "prod-edge-199",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SNA5E69474",
+        "service_level": "production",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1120,
+        "id": 1120,
+        "in_service": true,
+        "name": "wks-ny-200",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN518BADAD",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1121,
+        "id": 1121,
+        "in_service": true,
+        "name": "wks-sf-201",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN83F541B6",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1122,
+        "id": 1122,
+        "in_service": true,
+        "name": "wks-ldn-202",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN0CB09EF6",
+        "service_level": "staging",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1123,
+        "id": 1123,
+        "in_service": true,
+        "name": "wks-blr-203",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN9DD1F186",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1124,
+        "id": 1124,
+        "in_service": true,
+        "name": "prod-edge-204",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN326D8C2B",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1125,
+        "id": 1125,
+        "in_service": false,
+        "name": "wks-ny-205",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN28461CCD",
+        "service_level": "workstation",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1126,
+        "id": 1126,
+        "in_service": true,
+        "name": "wks-sf-206",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN385173B7",
+        "service_level": "lab",
+        "type": "physical"
+      },
+      {
+        "device_id": 1127,
+        "id": 1127,
+        "in_service": true,
+        "name": "wks-ldn-207",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SNA2A518CD",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1128,
+        "id": 1128,
+        "in_service": true,
+        "name": "wks-blr-208",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN222E56FE",
+        "service_level": "network",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1129,
+        "id": 1129,
+        "in_service": true,
+        "name": "prod-edge-209",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SN709344B9",
+        "service_level": "production",
+        "type": "physical"
+      },
+      {
+        "device_id": 1130,
+        "id": 1130,
+        "in_service": true,
+        "name": "wks-ny-210",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN962428A0",
+        "service_level": "workstation",
+        "type": "physical"
+      },
+      {
+        "device_id": 1131,
+        "id": 1131,
+        "in_service": true,
+        "name": "wks-sf-211",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN5183F92C",
+        "service_level": "lab",
+        "type": "virtual"
+      },
+      {
+        "device_id": 1132,
+        "id": 1132,
+        "in_service": false,
+        "name": "wks-ldn-212",
+        "notes": "",
+        "os": "Windows 11",
+        "serial_no": "SNDE31D44B",
+        "service_level": "staging",
+        "type": "physical"
+      },
+      {
+        "device_id": 1133,
+        "id": 1133,
+        "in_service": true,
+        "name": "wks-blr-213",
+        "notes": "",
+        "os": "RHEL 9",
+        "serial_no": "SN6C69C1D6",
+        "service_level": "network",
+        "type": "physical"
+      },
+      {
+        "device_id": 1134,
+        "id": 1134,
+        "in_service": true,
+        "name": "prod-edge-214",
+        "notes": "",
+        "os": "Ubuntu 22.04",
+        "serial_no": "SN21AF8BC8",
+        "service_level": "production",
+        "type": "virtual"
+      }
+    ]
+  },
+  "jira": {
+    "issues": [
+      {
+        "fields": {
+          "comment": {
+            "comments": [],
+            "maxResults": 0,
+            "startAt": 0,
+            "total": 0
+          },
+          "created": "2026-07-19T00:00:00.000Z",
+          "description": "Monthly restore drill: we tried to restore prod-db-02 and the recovery point we expected was not usable, even though the backup dashboard shows green. Separately, audit flagged prod-ledger-11 as failing backups and wants confirmation. Please make sure our production systems are actually recoverable, and get to the bottom of how the dashboard went green while backups were not happening.",
+          "issuetype": {
+            "id": "10001",
+            "name": "Incident"
+          },
+          "labels": [],
+          "priority": {
+            "id": "2",
+            "name": "High"
+          },
+          "project": {
+            "id": "10000",
+            "key": "OPS",
+            "name": "Infrastructure Operations"
+          },
+          "reporter": {
+            "accountId": "acct-priya",
+            "displayName": "Priya Nair"
+          },
+          "status": {
+            "id": "1",
+            "name": "To Do",
+            "statusCategory": {
+              "colorName": "blue-gray",
+              "id": 2,
+              "key": "new",
+              "name": "To Do"
+            }
+          },
+          "summary": "Restore drill failed \u2014 recovery point not usable despite green dashboard",
+          "updated": "2026-07-19T00:00:00.000Z"
+        },
+        "id": "12041",
+        "key": "OPS-2041"
+      },
+      {
+        "fields": {
+          "comment": {
+            "comments": [],
+            "maxResults": 0,
+            "startAt": 0,
+            "total": 0
+          },
+          "created": "2026-06-18T00:00:00.000Z",
+          "description": "Cutover of backup alerting to the automation service account.",
+          "issuetype": {
+            "id": "10001",
+            "name": "Change"
+          },
+          "labels": [],
+          "priority": {
+            "id": "2",
+            "name": "High"
+          },
+          "project": {
+            "id": "10000",
+            "key": "OPS",
+            "name": "Infrastructure Operations"
+          },
+          "reporter": {
+            "accountId": "acct-auto",
+            "displayName": "Backup Automation"
+          },
+          "status": {
+            "id": "1",
+            "name": "Done",
+            "statusCategory": {
+              "colorName": "blue-gray",
+              "id": 2,
+              "key": "new",
+              "name": "Done"
+            }
+          },
+          "summary": "Q2 backup tooling cutover \u2014 migrate alerting to service account",
+          "updated": "2026-06-18T00:00:00.000Z"
+        },
+        "id": "11990",
+        "key": "OPS-1990"
+      },
+      {
+        "fields": {
+          "comment": {
+            "comments": [],
+            "maxResults": 0,
+            "startAt": 0,
+            "total": 0
+          },
+          "created": "2026-06-09T00:00:00.000Z",
+          "description": "Rotate TLS certs on edge fleet.",
+          "issuetype": {
+            "id": "10001",
+            "name": "Task"
+          },
+          "labels": [],
+          "priority": {
+            "id": "2",
+            "name": "High"
+          },
+          "project": {
+            "id": "10000",
+            "key": "OPS",
+            "name": "Infrastructure Operations"
+          },
+          "reporter": {
+            "accountId": "acct-sam",
+            "displayName": "Sam Okoro"
+          },
+          "status": {
+            "id": "1",
+            "name": "Done",
+            "statusCategory": {
+              "colorName": "blue-gray",
+              "id": 2,
+              "key": "new",
+              "name": "Done"
+            }
+          },
+          "summary": "Rotate TLS certs on edge fleet",
+          "updated": "2026-06-09T00:00:00.000Z"
+        },
+        "id": "12000",
+        "key": "OPS-1974"
+      },
+      {
+        "fields": {
+          "comment": {
+            "comments": [],
+            "maxResults": 0,
+            "startAt": 0,
+            "total": 0
+          },
+          "created": "2026-06-22T00:00:00.000Z",
+          "description": "Increase disk on prod-search cluster.",
+          "issuetype": {
+            "id": "10001",
+            "name": "Task"
+          },
+          "labels": [],
+          "priority": {
+            "id": "2",
+            "name": "High"
+          },
+          "project": {
+            "id": "10000",
+            "key": "OPS",
+            "name": "Infrastructure Operations"
+          },
+          "reporter": {
+            "accountId": "acct-sam",
+            "displayName": "Sam Okoro"
+          },
+          "status": {
+            "id": "1",
+            "name": "Done",
+            "statusCategory": {
+              "colorName": "blue-gray",
+              "id": 2,
+              "key": "new",
+              "name": "Done"
+            }
+          },
+          "summary": "Increase disk on prod-search cluster",
+          "updated": "2026-06-22T00:00:00.000Z"
+        },
+        "id": "12001",
+        "key": "OPS-2003"
+      },
+      {
+        "fields": {
+          "comment": {
+            "comments": [],
+            "maxResults": 0,
+            "startAt": 0,
+            "total": 0
+          },
+          "created": "2026-06-30T00:00:00.000Z",
+          "description": "Investigate elevated 5xx on Payments API.",
+          "issuetype": {
+            "id": "10001",
+            "name": "Task"
+          },
+          "labels": [],
+          "priority": {
+            "id": "2",
+            "name": "High"
+          },
+          "project": {
+            "id": "10000",
+            "key": "OPS",
+            "name": "Infrastructure Operations"
+          },
+          "reporter": {
+            "accountId": "acct-sam",
+            "displayName": "Sam Okoro"
+          },
+          "status": {
+            "id": "1",
+            "name": "Done",
+            "statusCategory": {
+              "colorName": "blue-gray",
+              "id": 2,
+              "key": "new",
+              "name": "Done"
+            }
+          },
+          "summary": "Investigate elevated 5xx on Payments API",
+          "updated": "2026-06-30T00:00:00.000Z"
+        },
+        "id": "12002",
+        "key": "OPS-2015"
+      },
+      {
+        "fields": {
+          "comment": {
+            "comments": [],
+            "maxResults": 0,
+            "startAt": 0,
+            "total": 0
+          },
+          "created": "2026-07-02T00:00:00.000Z",
+          "description": "Decommission legacy-crm-02.",
+          "issuetype": {
+            "id": "10001",
+            "name": "Task"
+          },
+          "labels": [],
+          "priority": {
+            "id": "2",
+            "name": "High"
+          },
+          "project": {
+            "id": "10000",
+            "key": "OPS",
+            "name": "Infrastructure Operations"
+          },
+          "reporter": {
+            "accountId": "acct-sam",
+            "displayName": "Sam Okoro"
+          },
+          "status": {
+            "id": "1",
+            "name": "Done",
+            "statusCategory": {
+              "colorName": "blue-gray",
+              "id": 2,
+              "key": "new",
+              "name": "Done"
+            }
+          },
+          "summary": "Decommission legacy-crm-02",
+          "updated": "2026-07-02T00:00:00.000Z"
+        },
+        "id": "12003",
+        "key": "OPS-2020"
+      },
+      {
+        "fields": {
+          "comment": {
+            "comments": [],
+            "maxResults": 0,
+            "startAt": 0,
+            "total": 0
+          },
+          "created": "2026-07-08T00:00:00.000Z",
+          "description": "Onboard new analytics warehouse.",
+          "issuetype": {
+            "id": "10001",
+            "name": "Task"
+          },
+          "labels": [],
+          "priority": {
+            "id": "2",
+            "name": "High"
+          },
+          "project": {
+            "id": "10000",
+            "key": "OPS",
+            "name": "Infrastructure Operations"
+          },
+          "reporter": {
+            "accountId": "acct-sam",
+            "displayName": "Sam Okoro"
+          },
+          "status": {
+            "id": "1",
+            "name": "Done",
+            "statusCategory": {
+              "colorName": "blue-gray",
+              "id": 2,
+              "key": "new",
+              "name": "Done"
+            }
+          },
+          "summary": "Onboard new analytics warehouse",
+          "updated": "2026-07-08T00:00:00.000Z"
+        },
+        "id": "12004",
+        "key": "OPS-2028"
+      },
+      {
+        "fields": {
+          "comment": {
+            "comments": [],
+            "maxResults": 0,
+            "startAt": 0,
+            "total": 0
+          },
+          "created": "2026-07-11T00:00:00.000Z",
+          "description": "Patch RHEL fleet for CVE-2026-1337.",
+          "issuetype": {
+            "id": "10001",
+            "name": "Task"
+          },
+          "labels": [],
+          "priority": {
+            "id": "2",
+            "name": "High"
+          },
+          "project": {
+            "id": "10000",
+            "key": "OPS",
+            "name": "Infrastructure Operations"
+          },
+          "reporter": {
+            "accountId": "acct-sam",
+            "displayName": "Sam Okoro"
+          },
+          "status": {
+            "id": "1",
+            "name": "In Progress",
+            "statusCategory": {
+              "colorName": "blue-gray",
+              "id": 2,
+              "key": "new",
+              "name": "In Progress"
+            }
+          },
+          "summary": "Patch RHEL fleet for CVE-2026-1337",
+          "updated": "2026-07-11T00:00:00.000Z"
+        },
+        "id": "12005",
+        "key": "OPS-2033"
+      },
+      {
+        "fields": {
+          "comment": {
+            "comments": [],
+            "maxResults": 0,
+            "startAt": 0,
+            "total": 0
+          },
+          "created": "2026-07-16T00:00:00.000Z",
+          "description": "Storage array firmware upgrade \u2014 schedule window.",
+          "issuetype": {
+            "id": "10001",
+            "name": "Task"
+          },
+          "labels": [],
+          "priority": {
+            "id": "2",
+            "name": "High"
+          },
+          "project": {
+            "id": "10000",
+            "key": "OPS",
+            "name": "Infrastructure Operations"
+          },
+          "reporter": {
+            "accountId": "acct-sam",
+            "displayName": "Sam Okoro"
+          },
+          "status": {
+            "id": "1",
+            "name": "In Progress",
+            "statusCategory": {
+              "colorName": "blue-gray",
+              "id": 2,
+              "key": "new",
+              "name": "In Progress"
+            }
+          },
+          "summary": "Storage array firmware upgrade \u2014 schedule window",
+          "updated": "2026-07-16T00:00:00.000Z"
+        },
+        "id": "12006",
+        "key": "OPS-2039"
+      },
+      {
+        "fields": {
+          "comment": {
+            "comments": [],
+            "maxResults": 0,
+            "startAt": 0,
+            "total": 0
+          },
+          "created": "2026-07-18T00:00:00.000Z",
+          "description": "Quarterly access review for infra team.",
+          "issuetype": {
+            "id": "10001",
+            "name": "Task"
+          },
+          "labels": [],
+          "priority": {
+            "id": "2",
+            "name": "High"
+          },
+          "project": {
+            "id": "10000",
+            "key": "OPS",
+            "name": "Infrastructure Operations"
+          },
+          "reporter": {
+            "accountId": "acct-sam",
+            "displayName": "Sam Okoro"
+          },
+          "status": {
+            "id": "1",
+            "name": "In Progress",
+            "statusCategory": {
+              "colorName": "blue-gray",
+              "id": 2,
+              "key": "new",
+              "name": "In Progress"
+            }
+          },
+          "summary": "Quarterly access review for infra team",
+          "updated": "2026-07-18T00:00:00.000Z"
+        },
+        "id": "12007",
+        "key": "OPS-2040"
+      }
+    ]
+  },
+  "pagerduty": {
+    "current_user_id": "PUSR001",
+    "escalation_policies": [
+      {
+        "id": "PESC001",
+        "name": "Infra On-Call",
+        "summary": "Infra On-Call",
+        "type": "escalation_policy"
+      }
+    ],
+    "incidents": [
+      {
+        "created_at": "2026-06-19T00:00:00.000Z",
+        "id": "PINC60581B",
+        "incident_key": "35302aca37",
+        "incident_number": 4001,
+        "resolved_at": null,
+        "service": {
+          "id": "PSVC415057",
+          "summary": "nightly-backup: prod-cache-03",
+          "type": "service_reference"
+        },
+        "status": "triggered",
+        "summary": "Backup job failed: prod-cache-03",
+        "title": "Backup job failed: prod-cache-03 \u2014 no recovery point produced",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-06-20T00:00:00.000Z",
+        "id": "PINCDD99BD",
+        "incident_key": "8c38bfac5a",
+        "incident_number": 4002,
+        "resolved_at": null,
+        "service": {
+          "id": "PSVC37CA34",
+          "summary": "nightly-backup: prod-auth-05",
+          "type": "service_reference"
+        },
+        "status": "triggered",
+        "summary": "Backup job failed: prod-auth-05",
+        "title": "Backup job failed: prod-auth-05 \u2014 no recovery point produced",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-07-17T00:00:00.000Z",
+        "id": "PINC4AFFD5",
+        "incident_key": "6adb5cd19b",
+        "incident_number": 4003,
+        "resolved_at": "2026-07-18T00:00:00.000Z",
+        "service": {
+          "id": "PSVCAB41D4",
+          "summary": "nightly-backup: prod-ledger-11",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "summary": "Backup verification warning: prod-ledger-11",
+        "title": "Backup verification warning: prod-ledger-11",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-05-21T00:00:00.000Z",
+        "id": "PINC1EBDFE",
+        "incident_key": "156c8def5b",
+        "incident_number": 4004,
+        "resolved_at": "2026-05-22T00:00:00.000Z",
+        "service": {
+          "id": "PSVC8643A7",
+          "summary": "nightly-backup: prod-api-07",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "summary": "Backup job failed: prod-api-07",
+        "title": "Backup job failed: prod-api-07 \u2014 no recovery point produced",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-05-21T00:00:00.000Z",
+        "id": "PINCA15446",
+        "incident_key": "e78ea456ee",
+        "incident_number": 4005,
+        "resolved_at": "2026-05-22T00:00:00.000Z",
+        "service": {
+          "id": "PSVC1EBD01",
+          "summary": "nightly-backup: prod-db-02",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "summary": "Backup job failed: prod-db-02",
+        "title": "Backup job failed: prod-db-02 \u2014 no recovery point produced",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-06-05T00:00:00.000Z",
+        "id": "PINCE24D61",
+        "incident_key": "df50d30084",
+        "incident_number": 4006,
+        "resolved_at": "2026-06-06T00:00:00.000Z",
+        "service": {
+          "id": "PSVC7290F4",
+          "summary": "nightly-backup: prod-web-22",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "summary": "Backup job failed: prod-web-22",
+        "title": "Backup job failed: prod-web-22 \u2014 no recovery point produced",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-06-05T00:00:00.000Z",
+        "id": "PINC348255",
+        "incident_key": "f681bf453e",
+        "incident_number": 4007,
+        "resolved_at": "2026-06-06T00:00:00.000Z",
+        "service": {
+          "id": "PSVC098AA4",
+          "summary": "nightly-backup: prod-api-31",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "summary": "Backup job failed: prod-api-31",
+        "title": "Backup job failed: prod-api-31 \u2014 no recovery point produced",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-06-05T00:00:00.000Z",
+        "id": "PINC0C351D",
+        "incident_key": "7263dd330b",
+        "incident_number": 4008,
+        "resolved_at": "2026-06-06T00:00:00.000Z",
+        "service": {
+          "id": "PSVC3EFC71",
+          "summary": "nightly-backup: prod-db-08",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "summary": "Backup job failed: prod-db-08",
+        "title": "Backup job failed: prod-db-08 \u2014 no recovery point produced",
+        "type": "incident",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-07-19T00:00:00.000Z",
+        "id": "PINCNOISE1",
+        "incident_key": "noise-lat-1",
+        "incident_number": 4009,
+        "resolved_at": null,
+        "service": {
+          "id": "PSVC7B9286",
+          "summary": "Payments API",
+          "type": "service_reference"
+        },
+        "status": "triggered",
+        "summary": "Latency spike",
+        "title": "Latency spike on Payments API",
+        "type": "incident",
+        "urgency": "low"
+      }
+    ],
+    "maintenance_windows": [
+      {
+        "created_by": {
+          "id": "PUSR002",
+          "summary": "Backup Automation",
+          "type": "user_reference"
+        },
+        "description": "Backup alerting suppression",
+        "end_time": "2026-07-26T00:00:00.000Z",
+        "id": "PMW9AE838",
+        "services": [
+          {
+            "id": "PSVC415057",
+            "summary": "nightly-backup: prod-cache-03",
+            "type": "service_reference"
+          }
+        ],
+        "start_time": "2026-06-18T00:00:00.000Z",
+        "summary": "Backup alerting suppression",
+        "type": "maintenance_window"
+      },
+      {
+        "created_by": {
+          "id": "PUSR002",
+          "summary": "Backup Automation",
+          "type": "user_reference"
+        },
+        "description": "Backup alerting suppression",
+        "end_time": "2026-07-25T00:00:00.000Z",
+        "id": "PMWCCBE32",
+        "services": [
+          {
+            "id": "PSVC37CA34",
+            "summary": "nightly-backup: prod-auth-05",
+            "type": "service_reference"
+          }
+        ],
+        "start_time": "2026-06-18T00:00:00.000Z",
+        "summary": "Backup alerting suppression",
+        "type": "maintenance_window"
+      },
+      {
+        "created_by": {
+          "id": "PUSR002",
+          "summary": "Backup Automation",
+          "type": "user_reference"
+        },
+        "description": "Planned storage array firmware upgrade",
+        "end_time": "2026-07-22T00:00:00.000Z",
+        "id": "PMW2934B9",
+        "services": [
+          {
+            "id": "PSVC69CFE3",
+            "summary": "nightly-backup: prod-search-17",
+            "type": "service_reference"
+          }
+        ],
+        "start_time": "2026-07-19T00:00:00.000Z",
+        "summary": "Planned storage array firmware upgrade",
+        "type": "maintenance_window"
+      },
+      {
+        "created_by": {
+          "id": "PUSR002",
+          "summary": "Backup Automation",
+          "type": "user_reference"
+        },
+        "description": "Planned storage array firmware upgrade",
+        "end_time": "2026-07-24T00:00:00.000Z",
+        "id": "PMW67E1F6",
+        "services": [
+          {
+            "id": "PSVC7290F4",
+            "summary": "nightly-backup: prod-web-22",
+            "type": "service_reference"
+          }
+        ],
+        "start_time": "2026-07-23T00:00:00.000Z",
+        "summary": "Planned storage array firmware upgrade",
+        "type": "maintenance_window"
+      },
+      {
+        "created_by": {
+          "id": "PUSR002",
+          "summary": "Backup Automation",
+          "type": "user_reference"
+        },
+        "description": "Q1 storage migration",
+        "end_time": "2026-05-12T00:00:00.000Z",
+        "id": "PMW0E7E5C",
+        "services": [
+          {
+            "id": "PSVC098AA4",
+            "summary": "nightly-backup: prod-api-31",
+            "type": "service_reference"
+          }
+        ],
+        "start_time": "2026-05-11T00:00:00.000Z",
+        "summary": "Q1 storage migration",
+        "type": "maintenance_window"
+      },
+      {
+        "created_by": {
+          "id": "PUSR002",
+          "summary": "Backup Automation",
+          "type": "user_reference"
+        },
+        "description": "Datacenter power test",
+        "end_time": "2026-04-22T00:00:00.000Z",
+        "id": "PMWF9F9C6",
+        "services": [
+          {
+            "id": "PSVC8643A7",
+            "summary": "nightly-backup: prod-api-07",
+            "type": "service_reference"
+          }
+        ],
+        "start_time": "2026-04-21T00:00:00.000Z",
+        "summary": "Datacenter power test",
+        "type": "maintenance_window"
+      }
+    ],
+    "services": [
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-api-07",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC8643A7",
+        "name": "nightly-backup: prod-api-07",
+        "status": "active",
+        "summary": "nightly-backup: prod-api-07",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-api-31",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC098AA4",
+        "name": "nightly-backup: prod-api-31",
+        "status": "active",
+        "summary": "nightly-backup: prod-api-31",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-auth-05",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC37CA34",
+        "name": "nightly-backup: prod-auth-05",
+        "status": "active",
+        "summary": "nightly-backup: prod-auth-05",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-cache-03",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC415057",
+        "name": "nightly-backup: prod-cache-03",
+        "status": "active",
+        "summary": "nightly-backup: prod-cache-03",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-cache-40",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC69E7FC",
+        "name": "nightly-backup: prod-cache-40",
+        "status": "active",
+        "summary": "nightly-backup: prod-cache-40",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-db-02",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC1EBD01",
+        "name": "nightly-backup: prod-db-02",
+        "status": "active",
+        "summary": "nightly-backup: prod-db-02",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-db-08",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC3EFC71",
+        "name": "nightly-backup: prod-db-08",
+        "status": "active",
+        "summary": "nightly-backup: prod-db-08",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-104",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVCF94274",
+        "name": "nightly-backup: prod-edge-104",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-104",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-109",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC2503D2",
+        "name": "nightly-backup: prod-edge-109",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-109",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-119",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVCDCA56A",
+        "name": "nightly-backup: prod-edge-119",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-119",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-124",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVCAAFD45",
+        "name": "nightly-backup: prod-edge-124",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-124",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-129",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC14A0DB",
+        "name": "nightly-backup: prod-edge-129",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-129",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-134",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVCFAB415",
+        "name": "nightly-backup: prod-edge-134",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-134",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-139",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC153C15",
+        "name": "nightly-backup: prod-edge-139",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-139",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-144",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVCCF0DFA",
+        "name": "nightly-backup: prod-edge-144",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-144",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-154",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC85FB23",
+        "name": "nightly-backup: prod-edge-154",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-154",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-159",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC4422C3",
+        "name": "nightly-backup: prod-edge-159",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-159",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-164",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC3891CD",
+        "name": "nightly-backup: prod-edge-164",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-164",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-169",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC9861B8",
+        "name": "nightly-backup: prod-edge-169",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-169",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-174",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC7DDD85",
+        "name": "nightly-backup: prod-edge-174",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-174",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-179",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC196583",
+        "name": "nightly-backup: prod-edge-179",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-179",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-189",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVCFE8C0B",
+        "name": "nightly-backup: prod-edge-189",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-189",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-194",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC38B86B",
+        "name": "nightly-backup: prod-edge-194",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-194",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-199",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVCB9FE3B",
+        "name": "nightly-backup: prod-edge-199",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-199",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-204",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC3E1F5A",
+        "name": "nightly-backup: prod-edge-204",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-204",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-209",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC8CA639",
+        "name": "nightly-backup: prod-edge-209",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-209",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-edge-214",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC6D3EA6",
+        "name": "nightly-backup: prod-edge-214",
+        "status": "active",
+        "summary": "nightly-backup: prod-edge-214",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-ledger-11",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVCAB41D4",
+        "name": "nightly-backup: prod-ledger-11",
+        "status": "active",
+        "summary": "nightly-backup: prod-ledger-11",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-queue-09",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVCA3B90D",
+        "name": "nightly-backup: prod-queue-09",
+        "status": "disabled",
+        "summary": "nightly-backup: prod-queue-09",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-search-17",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC69CFE3",
+        "name": "nightly-backup: prod-search-17",
+        "status": "active",
+        "summary": "nightly-backup: prod-search-17",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-web-22",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC7290F4",
+        "name": "nightly-backup: prod-web-22",
+        "status": "active",
+        "summary": "nightly-backup: prod-web-22",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job (asset serial SND0702277)",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC3F5908",
+        "name": "nightly-backup [SND0702277]",
+        "status": "active",
+        "summary": "nightly-backup [SND0702277]",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job (asset serial SNCCD3AF00)",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC1CC179",
+        "name": "nightly-backup [SNCCD3AF00]",
+        "status": "disabled",
+        "summary": "nightly-backup [SNCCD3AF00]",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-03-22T00:00:00.000Z",
+        "description": "Nightly backup job for prod-old-01",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVCF7311F",
+        "name": "nightly-backup: prod-old-01",
+        "status": "disabled",
+        "summary": "nightly-backup: prod-old-01",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-03-22T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-02-20T00:00:00.000Z",
+        "description": "Web Tier",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC70BEEF",
+        "name": "Web Tier",
+        "status": "active",
+        "summary": "Web Tier",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-02-20T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-02-20T00:00:00.000Z",
+        "description": "Payments API",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC7B9286",
+        "name": "Payments API",
+        "status": "active",
+        "summary": "Payments API",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-02-20T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-02-20T00:00:00.000Z",
+        "description": "Public Website",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC07B206",
+        "name": "Public Website",
+        "status": "active",
+        "summary": "Public Website",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-02-20T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-02-20T00:00:00.000Z",
+        "description": "Auth Gateway",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVCA224F3",
+        "name": "Auth Gateway",
+        "status": "active",
+        "summary": "Auth Gateway",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-02-20T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-02-20T00:00:00.000Z",
+        "description": "Data Warehouse ETL",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC7961ED",
+        "name": "Data Warehouse ETL",
+        "status": "active",
+        "summary": "Data Warehouse ETL",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-02-20T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-02-20T00:00:00.000Z",
+        "description": "Kafka Broker Pool",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVCE4D87D",
+        "name": "Kafka Broker Pool",
+        "status": "active",
+        "summary": "Kafka Broker Pool",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-02-20T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-02-20T00:00:00.000Z",
+        "description": "CDN Edge",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC49784F",
+        "name": "CDN Edge",
+        "status": "active",
+        "summary": "CDN Edge",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-02-20T00:00:00.000Z"
+      },
+      {
+        "created_at": "2026-02-20T00:00:00.000Z",
+        "description": "Search Indexer",
+        "escalation_policy": {
+          "id": "PESC001",
+          "summary": "Infra On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PSVC7C7536",
+        "name": "Search Indexer",
+        "status": "active",
+        "summary": "Search Indexer",
+        "teams": [
+          {
+            "id": "PTEAM01",
+            "summary": "Infrastructure",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service",
+        "updated_at": "2026-02-20T00:00:00.000Z"
+      }
+    ],
+    "teams": [
+      {
+        "id": "PTEAM01",
+        "name": "Infrastructure",
+        "summary": "Infrastructure",
+        "type": "team"
+      }
+    ],
+    "users": [
+      {
+        "email": "priya.nair@nimbus.example",
+        "id": "PUSR001",
+        "name": "Priya Nair",
+        "summary": "Priya Nair",
+        "type": "user"
+      },
+      {
+        "email": "automation-svc@nimbus.example",
+        "id": "PUSR002",
+        "name": "Backup Automation",
+        "summary": "Backup Automation",
+        "type": "user"
+      }
+    ]
+  },
+  "snipeit": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "Server"
+      },
+      {
+        "id": 2,
+        "name": "Laptop"
+      }
+    ],
+    "hardware": [
+      {
+        "asset_tag": "AST-3D139",
+        "category_id": 1,
+        "id": 501,
+        "model_id": 1,
+        "name": "prod-api-07",
+        "notes": "",
+        "serial": "SN03132CDA",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "AST-6FC0D",
+        "category_id": 1,
+        "id": 502,
+        "model_id": 1,
+        "name": "prod-cache-03",
+        "notes": "",
+        "serial": "SN4AB8C196",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "AST-92D27",
+        "category_id": 1,
+        "id": 503,
+        "model_id": 1,
+        "name": "prod-db-02",
+        "notes": "",
+        "serial": "SNCAF1FB23",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "AST-ACDA2",
+        "category_id": 1,
+        "id": 504,
+        "model_id": 1,
+        "name": "prod-queue-09",
+        "notes": "",
+        "serial": "SN6B9DA215",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "AST-D5280",
+        "category_id": 1,
+        "id": 505,
+        "model_id": 1,
+        "name": "prod-ledger-11",
+        "notes": "",
+        "serial": "SNFE482679",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "AST-142BE",
+        "category_id": 1,
+        "id": 506,
+        "model_id": 1,
+        "name": "prod-web-22",
+        "notes": "",
+        "serial": "SNE8ECF3AC",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "AST-CC4F8",
+        "category_id": 1,
+        "id": 507,
+        "model_id": 1,
+        "name": "prod-api-31",
+        "notes": "",
+        "serial": "SN7B96E77D",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "AST-A78B7",
+        "category_id": 1,
+        "id": 508,
+        "model_id": 1,
+        "name": "prod-db-08",
+        "notes": "",
+        "serial": "SN701A8601",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "AST-CCDFD",
+        "category_id": 1,
+        "id": 509,
+        "model_id": 1,
+        "name": "prod-search-17",
+        "notes": "",
+        "serial": "SN420B1100",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "AST-94CE8",
+        "category_id": 1,
+        "id": 510,
+        "model_id": 1,
+        "name": "prod-cache-40",
+        "notes": "",
+        "serial": "SNB0DEEF2F",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "AST-AE126",
+        "category_id": 1,
+        "id": 511,
+        "model_id": 1,
+        "name": "ledgerdb-primary",
+        "notes": "",
+        "serial": "SN31EFF47F",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "AST-2BCBD",
+        "category_id": 1,
+        "id": 512,
+        "model_id": 1,
+        "name": "prod-ext-19",
+        "notes": "",
+        "serial": "SND0702277",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "AST-18B24",
+        "category_id": 1,
+        "id": 513,
+        "model_id": 1,
+        "name": "prod-stream-08",
+        "notes": "",
+        "serial": "SNCCD3AF00",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-300",
+        "category_id": 2,
+        "id": 514,
+        "model_id": 2,
+        "name": "MacBook-ny-200",
+        "notes": "",
+        "serial": "LSNF7D125B",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-301",
+        "category_id": 2,
+        "id": 515,
+        "model_id": 2,
+        "name": "MacBook-sf-201",
+        "notes": "",
+        "serial": "LSN65A48DD",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-302",
+        "category_id": 2,
+        "id": 516,
+        "model_id": 2,
+        "name": "MacBook-ldn-202",
+        "notes": "",
+        "serial": "LSN9F15859",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-303",
+        "category_id": 2,
+        "id": 517,
+        "model_id": 2,
+        "name": "MacBook-blr-203",
+        "notes": "",
+        "serial": "LSN0DE41BD",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-304",
+        "category_id": 2,
+        "id": 518,
+        "model_id": 2,
+        "name": "MacBook-ny-204",
+        "notes": "",
+        "serial": "LSNA450967",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-305",
+        "category_id": 2,
+        "id": 519,
+        "model_id": 2,
+        "name": "MacBook-sf-205",
+        "notes": "",
+        "serial": "LSN6A849D1",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-306",
+        "category_id": 2,
+        "id": 520,
+        "model_id": 2,
+        "name": "MacBook-ldn-206",
+        "notes": "",
+        "serial": "LSN442AE45",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-307",
+        "category_id": 2,
+        "id": 521,
+        "model_id": 2,
+        "name": "MacBook-blr-207",
+        "notes": "",
+        "serial": "LSNAD754BC",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-308",
+        "category_id": 2,
+        "id": 522,
+        "model_id": 2,
+        "name": "MacBook-ny-208",
+        "notes": "",
+        "serial": "LSNB4A8549",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-309",
+        "category_id": 2,
+        "id": 523,
+        "model_id": 2,
+        "name": "MacBook-sf-209",
+        "notes": "",
+        "serial": "LSN88933A0",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-310",
+        "category_id": 2,
+        "id": 524,
+        "model_id": 2,
+        "name": "MacBook-ldn-210",
+        "notes": "",
+        "serial": "LSN2E20C27",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-311",
+        "category_id": 2,
+        "id": 525,
+        "model_id": 2,
+        "name": "MacBook-blr-211",
+        "notes": "",
+        "serial": "LSN717892D",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-312",
+        "category_id": 2,
+        "id": 526,
+        "model_id": 2,
+        "name": "MacBook-ny-212",
+        "notes": "",
+        "serial": "LSNB445AC3",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-313",
+        "category_id": 2,
+        "id": 527,
+        "model_id": 2,
+        "name": "MacBook-sf-213",
+        "notes": "",
+        "serial": "LSN53FD823",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-314",
+        "category_id": 2,
+        "id": 528,
+        "model_id": 2,
+        "name": "MacBook-ldn-214",
+        "notes": "",
+        "serial": "LSN73C607C",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-315",
+        "category_id": 2,
+        "id": 529,
+        "model_id": 2,
+        "name": "MacBook-blr-215",
+        "notes": "",
+        "serial": "LSN77B5D7F",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-316",
+        "category_id": 2,
+        "id": 530,
+        "model_id": 2,
+        "name": "MacBook-ny-216",
+        "notes": "",
+        "serial": "LSNFB18616",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-317",
+        "category_id": 2,
+        "id": 531,
+        "model_id": 2,
+        "name": "MacBook-sf-217",
+        "notes": "",
+        "serial": "LSN18BC572",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-318",
+        "category_id": 2,
+        "id": 532,
+        "model_id": 2,
+        "name": "MacBook-ldn-218",
+        "notes": "",
+        "serial": "LSN9E09B22",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-319",
+        "category_id": 2,
+        "id": 533,
+        "model_id": 2,
+        "name": "MacBook-blr-219",
+        "notes": "",
+        "serial": "LSN61305CB",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-320",
+        "category_id": 2,
+        "id": 534,
+        "model_id": 2,
+        "name": "MacBook-ny-220",
+        "notes": "",
+        "serial": "LSN50769E0",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-321",
+        "category_id": 2,
+        "id": 535,
+        "model_id": 2,
+        "name": "MacBook-sf-221",
+        "notes": "",
+        "serial": "LSN59B7758",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-322",
+        "category_id": 2,
+        "id": 536,
+        "model_id": 2,
+        "name": "MacBook-ldn-222",
+        "notes": "",
+        "serial": "LSN6D7AF98",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-323",
+        "category_id": 2,
+        "id": 537,
+        "model_id": 2,
+        "name": "MacBook-blr-223",
+        "notes": "",
+        "serial": "LSNF7C0469",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-324",
+        "category_id": 2,
+        "id": 538,
+        "model_id": 2,
+        "name": "MacBook-ny-224",
+        "notes": "",
+        "serial": "LSN1B349B2",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-325",
+        "category_id": 2,
+        "id": 539,
+        "model_id": 2,
+        "name": "MacBook-sf-225",
+        "notes": "",
+        "serial": "LSN6ADD8F3",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-326",
+        "category_id": 2,
+        "id": 540,
+        "model_id": 2,
+        "name": "MacBook-ldn-226",
+        "notes": "",
+        "serial": "LSNC414B50",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-327",
+        "category_id": 2,
+        "id": 541,
+        "model_id": 2,
+        "name": "MacBook-blr-227",
+        "notes": "",
+        "serial": "LSN5B8F4A8",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-328",
+        "category_id": 2,
+        "id": 542,
+        "model_id": 2,
+        "name": "MacBook-ny-228",
+        "notes": "",
+        "serial": "LSN7EA7198",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-329",
+        "category_id": 2,
+        "id": 543,
+        "model_id": 2,
+        "name": "MacBook-sf-229",
+        "notes": "",
+        "serial": "LSN3944ADC",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-330",
+        "category_id": 2,
+        "id": 544,
+        "model_id": 2,
+        "name": "MacBook-ldn-230",
+        "notes": "",
+        "serial": "LSNFFE2979",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-331",
+        "category_id": 2,
+        "id": 545,
+        "model_id": 2,
+        "name": "MacBook-blr-231",
+        "notes": "",
+        "serial": "LSNC9DA604",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-332",
+        "category_id": 2,
+        "id": 546,
+        "model_id": 2,
+        "name": "MacBook-ny-232",
+        "notes": "",
+        "serial": "LSNBF28AFB",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-333",
+        "category_id": 2,
+        "id": 547,
+        "model_id": 2,
+        "name": "MacBook-sf-233",
+        "notes": "",
+        "serial": "LSN22B185C",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-334",
+        "category_id": 2,
+        "id": 548,
+        "model_id": 2,
+        "name": "MacBook-ldn-234",
+        "notes": "",
+        "serial": "LSN0775458",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-335",
+        "category_id": 2,
+        "id": 549,
+        "model_id": 2,
+        "name": "MacBook-blr-235",
+        "notes": "",
+        "serial": "LSNCBCBEFC",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-336",
+        "category_id": 2,
+        "id": 550,
+        "model_id": 2,
+        "name": "MacBook-ny-236",
+        "notes": "",
+        "serial": "LSN0DD72C5",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-337",
+        "category_id": 2,
+        "id": 551,
+        "model_id": 2,
+        "name": "MacBook-sf-237",
+        "notes": "",
+        "serial": "LSN82ADFBD",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-338",
+        "category_id": 2,
+        "id": 552,
+        "model_id": 2,
+        "name": "MacBook-ldn-238",
+        "notes": "",
+        "serial": "LSN977A6E9",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-339",
+        "category_id": 2,
+        "id": 553,
+        "model_id": 2,
+        "name": "MacBook-blr-239",
+        "notes": "",
+        "serial": "LSN27574E0",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-340",
+        "category_id": 2,
+        "id": 554,
+        "model_id": 2,
+        "name": "MacBook-ny-240",
+        "notes": "",
+        "serial": "LSNCB2BB3B",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-341",
+        "category_id": 2,
+        "id": 555,
+        "model_id": 2,
+        "name": "MacBook-sf-241",
+        "notes": "",
+        "serial": "LSNB4E3EC6",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-342",
+        "category_id": 2,
+        "id": 556,
+        "model_id": 2,
+        "name": "MacBook-ldn-242",
+        "notes": "",
+        "serial": "LSN7CF7C9E",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-343",
+        "category_id": 2,
+        "id": 557,
+        "model_id": 2,
+        "name": "MacBook-blr-243",
+        "notes": "",
+        "serial": "LSN553DB47",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-344",
+        "category_id": 2,
+        "id": 558,
+        "model_id": 2,
+        "name": "MacBook-ny-244",
+        "notes": "",
+        "serial": "LSN10617E7",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-345",
+        "category_id": 2,
+        "id": 559,
+        "model_id": 2,
+        "name": "MacBook-sf-245",
+        "notes": "",
+        "serial": "LSND2723E4",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-346",
+        "category_id": 2,
+        "id": 560,
+        "model_id": 2,
+        "name": "MacBook-ldn-246",
+        "notes": "",
+        "serial": "LSN4E54B23",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-347",
+        "category_id": 2,
+        "id": 561,
+        "model_id": 2,
+        "name": "MacBook-blr-247",
+        "notes": "",
+        "serial": "LSN326E40D",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-348",
+        "category_id": 2,
+        "id": 562,
+        "model_id": 2,
+        "name": "MacBook-ny-248",
+        "notes": "",
+        "serial": "LSN9AEF611",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-349",
+        "category_id": 2,
+        "id": 563,
+        "model_id": 2,
+        "name": "MacBook-sf-249",
+        "notes": "",
+        "serial": "LSNC6DBD13",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-350",
+        "category_id": 2,
+        "id": 564,
+        "model_id": 2,
+        "name": "MacBook-ldn-250",
+        "notes": "",
+        "serial": "LSN97F4FD4",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-351",
+        "category_id": 2,
+        "id": 565,
+        "model_id": 2,
+        "name": "MacBook-blr-251",
+        "notes": "",
+        "serial": "LSNF4BE254",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-352",
+        "category_id": 2,
+        "id": 566,
+        "model_id": 2,
+        "name": "MacBook-ny-252",
+        "notes": "",
+        "serial": "LSN9CD5814",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-353",
+        "category_id": 2,
+        "id": 567,
+        "model_id": 2,
+        "name": "MacBook-sf-253",
+        "notes": "",
+        "serial": "LSN81A434E",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-354",
+        "category_id": 2,
+        "id": 568,
+        "model_id": 2,
+        "name": "MacBook-ldn-254",
+        "notes": "",
+        "serial": "LSN27DFBE9",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-355",
+        "category_id": 2,
+        "id": 569,
+        "model_id": 2,
+        "name": "MacBook-blr-255",
+        "notes": "",
+        "serial": "LSN2BD058E",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-356",
+        "category_id": 2,
+        "id": 570,
+        "model_id": 2,
+        "name": "MacBook-ny-256",
+        "notes": "",
+        "serial": "LSN50CB216",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "LT-357",
+        "category_id": 2,
+        "id": 571,
+        "model_id": 2,
+        "name": "MacBook-sf-257",
+        "notes": "",
+        "serial": "LSN020CEBB",
+        "status_id": 2
+      }
+    ],
+    "maintenances": [
+      {
+        "asset_id": 501,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-17",
+        "id": 7001,
+        "name": "Nightly backup \u2014 recovery point verified (prod-api-07)",
+        "notes": "",
+        "start_date": "2026-07-17",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-api-07)"
+      },
+      {
+        "asset_id": 501,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-18",
+        "id": 7002,
+        "name": "Nightly backup \u2014 recovery point verified (prod-api-07)",
+        "notes": "",
+        "start_date": "2026-07-18",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-api-07)"
+      },
+      {
+        "asset_id": 501,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-19",
+        "id": 7003,
+        "name": "Nightly backup \u2014 recovery point verified (prod-api-07)",
+        "notes": "",
+        "start_date": "2026-07-19",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-api-07)"
+      },
+      {
+        "asset_id": 505,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-18",
+        "id": 7004,
+        "name": "Nightly backup \u2014 recovery point verified (prod-ledger-11)",
+        "notes": "",
+        "start_date": "2026-07-18",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-ledger-11)"
+      },
+      {
+        "asset_id": 505,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-19",
+        "id": 7005,
+        "name": "Nightly backup \u2014 recovery point verified (prod-ledger-11)",
+        "notes": "",
+        "start_date": "2026-07-19",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-ledger-11)"
+      },
+      {
+        "asset_id": 506,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-18",
+        "id": 7006,
+        "name": "Nightly backup \u2014 recovery point verified (prod-web-22)",
+        "notes": "",
+        "start_date": "2026-07-18",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-web-22)"
+      },
+      {
+        "asset_id": 506,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-19",
+        "id": 7007,
+        "name": "Nightly backup \u2014 recovery point verified (prod-web-22)",
+        "notes": "",
+        "start_date": "2026-07-19",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-web-22)"
+      },
+      {
+        "asset_id": 507,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-18",
+        "id": 7008,
+        "name": "Nightly backup \u2014 recovery point verified (prod-api-31)",
+        "notes": "",
+        "start_date": "2026-07-18",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-api-31)"
+      },
+      {
+        "asset_id": 507,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-19",
+        "id": 7009,
+        "name": "Nightly backup \u2014 recovery point verified (prod-api-31)",
+        "notes": "",
+        "start_date": "2026-07-19",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-api-31)"
+      },
+      {
+        "asset_id": 508,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-18",
+        "id": 7010,
+        "name": "Nightly backup \u2014 recovery point verified (prod-db-08)",
+        "notes": "",
+        "start_date": "2026-07-18",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-db-08)"
+      },
+      {
+        "asset_id": 508,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-19",
+        "id": 7011,
+        "name": "Nightly backup \u2014 recovery point verified (prod-db-08)",
+        "notes": "",
+        "start_date": "2026-07-19",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-db-08)"
+      },
+      {
+        "asset_id": 509,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-18",
+        "id": 7012,
+        "name": "Nightly backup \u2014 recovery point verified (prod-search-17)",
+        "notes": "",
+        "start_date": "2026-07-18",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-search-17)"
+      },
+      {
+        "asset_id": 509,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-19",
+        "id": 7013,
+        "name": "Nightly backup \u2014 recovery point verified (prod-search-17)",
+        "notes": "",
+        "start_date": "2026-07-19",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-search-17)"
+      },
+      {
+        "asset_id": 510,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-18",
+        "id": 7014,
+        "name": "Nightly backup \u2014 recovery point verified (prod-cache-40)",
+        "notes": "",
+        "start_date": "2026-07-18",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-cache-40)"
+      },
+      {
+        "asset_id": 510,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-19",
+        "id": 7015,
+        "name": "Nightly backup \u2014 recovery point verified (prod-cache-40)",
+        "notes": "",
+        "start_date": "2026-07-19",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-cache-40)"
+      },
+      {
+        "asset_id": 502,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-06-15",
+        "id": 7016,
+        "name": "Nightly backup \u2014 recovery point verified (prod-cache-03)",
+        "notes": "",
+        "start_date": "2026-06-15",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-cache-03)"
+      },
+      {
+        "asset_id": 502,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-06-17",
+        "id": 7017,
+        "name": "Nightly backup \u2014 recovery point verified (prod-cache-03)",
+        "notes": "",
+        "start_date": "2026-06-17",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-cache-03)"
+      },
+      {
+        "asset_id": 503,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-06-10",
+        "id": 7018,
+        "name": "Nightly backup \u2014 recovery point verified (prod-db-02)",
+        "notes": "",
+        "start_date": "2026-06-10",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-db-02)"
+      },
+      {
+        "asset_id": 503,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-06-15",
+        "id": 7019,
+        "name": "Nightly backup \u2014 recovery point verified (prod-db-02)",
+        "notes": "",
+        "start_date": "2026-06-15",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-db-02)"
+      },
+      {
+        "asset_id": 504,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-06-16",
+        "id": 7020,
+        "name": "Nightly backup \u2014 recovery point verified (prod-queue-09)",
+        "notes": "",
+        "start_date": "2026-06-16",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-queue-09)"
+      },
+      {
+        "asset_id": 512,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-18",
+        "id": 7021,
+        "name": "Nightly backup \u2014 recovery point verified (prod-ext-19)",
+        "notes": "",
+        "start_date": "2026-07-18",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-ext-19)"
+      },
+      {
+        "asset_id": 512,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-19",
+        "id": 7022,
+        "name": "Nightly backup \u2014 recovery point verified (prod-ext-19)",
+        "notes": "",
+        "start_date": "2026-07-19",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-ext-19)"
+      },
+      {
+        "asset_id": 513,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-18",
+        "id": 7023,
+        "name": "Nightly backup \u2014 recovery point verified (prod-stream-08)",
+        "notes": "",
+        "start_date": "2026-07-18",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-stream-08)"
+      },
+      {
+        "asset_id": 513,
+        "asset_maintenance_type": "Backup",
+        "completion_date": "2026-07-19",
+        "id": 7024,
+        "name": "Nightly backup \u2014 recovery point verified (prod-stream-08)",
+        "notes": "",
+        "start_date": "2026-07-19",
+        "supplier_id": 1,
+        "title": "Nightly backup \u2014 recovery point verified (prod-stream-08)"
+      }
+    ],
+    "manufacturers": [
+      {
+        "id": 1,
+        "name": "Dell"
+      },
+      {
+        "id": 2,
+        "name": "Apple"
+      }
+    ],
+    "models": [
+      {
+        "category_id": 1,
+        "id": 1,
+        "manufacturer_id": 1,
+        "name": "PowerEdge R760"
+      },
+      {
+        "category_id": 2,
+        "id": 2,
+        "manufacturer_id": 2,
+        "name": "MacBook Pro 14"
+      }
+    ],
+    "statuslabels": [
+      {
+        "id": 1,
+        "name": "Ready to Deploy",
+        "status_meta": "deployable",
+        "status_type": "deployable"
+      },
+      {
+        "id": 2,
+        "name": "Deployed",
+        "status_meta": "deployed",
+        "status_type": "deployable"
+      },
+      {
+        "id": 3,
+        "name": "Archived",
+        "status_meta": "archived",
+        "status_type": "archived"
+      }
+    ],
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "Rubrik Cloud Vault"
+      },
+      {
+        "id": 2,
+        "name": "CDW"
+      }
+    ]
+  },
+  "vanta": {
+    "__relations": {
+      "testEntities": {
+        "test_backups": [
+          "ent_9c8994",
+          "ent_9d8050",
+          "ent_4ffee2",
+          "ent_da8481",
+          "ent_fb947e",
+          "ent_2a3a3c",
+          "ent_d48a02",
+          "ent_f34aab",
+          "ent_1375cd",
+          "ent_6025e3",
+          "ent_6c133d",
+          "ent_2adc82",
+          "ent_9a7125",
+          "ent_8ffe40",
+          "ent_529b6b",
+          "ent_1f5776",
+          "ent_3b11ea"
+        ]
+      }
+    },
+    "testEntities": [
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "",
+        "displayName": "prod-cache-03",
+        "entityStatus": "FAILING",
+        "id": "ent_9c8994",
+        "lastUpdatedDate": "2026-01-01T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "",
+        "displayName": "prod-ledger-11",
+        "entityStatus": "FAILING",
+        "id": "ent_9d8050",
+        "lastUpdatedDate": "2026-01-01T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "prod-old-01",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_4ffee2",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "legacy-crm-02",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_da8481",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "legacy-billing-04",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_fb947e",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "legacy-erp-01",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_2a3a3c",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "old-mail-03",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_d48a02",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "retired-vpn-02",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_f34aab",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "prod-auth-05",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_1375cd",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "legacy-dw-05",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_6025e3",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "old-jump-01",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_6c133d",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "retired-nas-04",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_2adc82",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "legacy-wiki-06",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_9a7125",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "old-ci-runner-08",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_8ffe40",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "suppressed-during-tooling-cutover",
+        "displayName": "retired-proxy-09",
+        "entityStatus": "DEACTIVATED",
+        "id": "ent_529b6b",
+        "lastUpdatedDate": "2026-06-18T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "",
+        "displayName": "staging-api-03",
+        "entityStatus": "FAILING",
+        "id": "ent_1f5776",
+        "lastUpdatedDate": "2026-01-01T00:00:00.000Z",
+        "responseType": "resource"
+      },
+      {
+        "createdDate": "2026-01-01T00:00:00.000Z",
+        "deactivatedReason": "",
+        "displayName": "dev-sandbox-12",
+        "entityStatus": "FAILING",
+        "id": "ent_3b11ea",
+        "lastUpdatedDate": "2026-01-01T00:00:00.000Z",
+        "responseType": "resource"
+      }
+    ],
+    "tests": [
+      {
+        "category": "Infrastructure",
+        "description": "Production databases and application hosts must have a recent, restorable backup.",
+        "failureDescription": "A production host has no recent restorable recovery point.",
+        "id": "test_backups",
+        "integrations": [],
+        "lastTestRunDate": "2026-07-20T00:00:00.000Z",
+        "latestFlipDate": "2026-06-18T00:00:00.000Z",
+        "name": "Production data sources have current backups",
+        "remediationDescription": "Ensure the host's backup job runs and produces a fresh recovery point.",
+        "status": "NEEDS_ATTENTION"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "description": "task-b1 — orphaned Okta integration. A departed automation contractor (Dmitri Sokolov) left behind an over-privileged, externally-driven Okta service account (svc-scim-sync), an SSWS API token, and a rogue OIDC client-credentials app ('Access Sync Connector') that keep re-granting privileged access. Password/session/MFA resets do not stop it (an SSWS token is independent of the account's credentials and survives a mere suspend); the recurrence only stops when the token is revoked and the orphaned account is deprovisioned. Cleaning the obvious symptom is insufficient: the automation also left standing SUPER_ADMIN on a live employee (Carmen Costa) surfaced only by a privileged-access audit, the contractor's own account was only SUSPENDED (not deprovisioned), and a rogue OAuth app persists as a re-entry backdoor. The identity-automation engagement was a contractor team (Dmitri plus Marco Reyes and Priya Nair) that wound down on 2026-03-13; offboarding only SUSPENDED all three Okta accounts. Dmitri surfaces from the group churn and the system log, but Marco and Priya surface only from the Workday termination cross-reference of who was on the engagement — the investigative step a symptom-only responder skips — and all three must be DEPROVISIONED, not left SUSPENDED. The seed also carries further blast-radius footholds the same token planted (a rogue USER_ADMIN on live employee Haruka Ito; a second attacker-created SSWS token 'reporting-export' on live employee Lei Guo) that a complete responder also cleans; these are left as realistic noise and are NOT graded, so over-remediation stays free. 9 counted assertions, each explicitly force-counted (excluded=false) and each failing on the untouched world, so partial_credit is exactly passed/9 regardless of initial_state.json content. No format/bookkeeping checks, no untouched-data guards, no runbook.",
+  "assertions": [
+    {
+      "name": "rogue-access-sync-token-revoked",
+      "type": "record_not_exists",
+      "app": "okta",
+      "collection": "apiTokens",
+      "excluded": false,
+      "match": {
+        "id": "00Tf1c7e502b8d6419a3"
+      }
+    },
+    {
+      "name": "orphaned-service-account-deprovisioned",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "excluded": false,
+      "match": {
+        "profile.login": "svc-scim-sync@acme.com"
+      },
+      "field": "status",
+      "value": "DEPROVISIONED"
+    },
+    {
+      "name": "departed-contractor-account-deprovisioned",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "excluded": false,
+      "match": {
+        "profile.login": "dmitri.sokolov@acme.com"
+      },
+      "field": "status",
+      "value": "DEPROVISIONED"
+    },
+    {
+      "name": "departed-contractor-removed-from-privileged-admins",
+      "type": "record_not_exists",
+      "app": "okta",
+      "collection": "group_users",
+      "excluded": false,
+      "path_params": {
+        "groupId": "group-privileged-admins"
+      },
+      "match": {
+        "id": "person-3e8b1d47a9c02f65"
+      }
+    },
+    {
+      "name": "unauthorized-superadmin-on-active-employee-revoked",
+      "type": "record_not_exists",
+      "app": "okta",
+      "collection": "roleAssignments",
+      "excluded": false,
+      "path_params": {
+        "userKey": "carmen.costa@acme.com"
+      },
+      "match": {
+        "type": "SUPER_ADMIN"
+      }
+    },
+    {
+      "name": "rogue-oauth-connector-app-removed",
+      "type": "record_not_exists",
+      "app": "okta",
+      "collection": "apps",
+      "excluded": false,
+      "match": {
+        "id": "0oa9f21c7e502b8d641",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "name": "second-departed-contractor-deprovisioned",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "excluded": false,
+      "match": {
+        "profile.login": "marco.reyes@acme.com"
+      },
+      "field": "status",
+      "value": "DEPROVISIONED"
+    },
+    {
+      "name": "third-departed-contractor-deprovisioned",
+      "type": "field_equals",
+      "app": "okta",
+      "collection": "users",
+      "excluded": false,
+      "match": {
+        "profile.login": "priya.nair@acme.com"
+      },
+      "field": "status",
+      "value": "DEPROVISIONED"
+    },
+    {
+      "name": "incident-escalated-to-security",
+      "type": "record_exists",
+      "app": "slack",
+      "collection": "all_messages",
+      "excluded": false,
+      "match_pattern": {
+        "text": "(escalat|security[ -](?:incident|team|review|response|risk|on[ -]?call)|(?:rais|report|notif|flag|loop|refer|alert|hand)[a-z]*[^.\\n]{0,40}security).{0,220}(okta|api[ -]?token|\\btoken\\b|service account|svc[- ]?scim|privileged admin|super[ -]?admin|admin (role|group|access)|automation|integration|dmitri)|(okta|api[ -]?token|\\btoken\\b|service account|svc[- ]?scim|privileged admin|super[ -]?admin|admin (role|group|access)|automation|integration|dmitri).{0,220}(escalat|security[ -](?:incident|team|review|response|risk|on[ -]?call)|(?:rais|report|notif|flag|loop|refer|alert|hand)[a-z]*[^.\\n]{0,40}security)"
+      }
+    }
+  ]
+}

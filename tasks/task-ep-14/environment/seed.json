@@ -1,0 +1,2284 @@
+{
+  "_now": "2026-03-16T09:00:00Z",
+  "device42": {
+    "auditlogs": [
+      {
+        "action": "config_update",
+        "action_time": "2026-03-12T14:00:00Z",
+        "changed_fields": {
+          "note": "app version 2.3 -> 2.4"
+        },
+        "id": 14429560,
+        "object_id": "ledger-api",
+        "object_type": "service",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "config_update",
+        "action_time": "2026-03-11T14:00:00Z",
+        "changed_fields": {
+          "note": "added failover replica node"
+        },
+        "id": 7855440,
+        "object_id": "ledger-db",
+        "object_type": "service",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "config_update",
+        "action_time": "2026-03-12T14:00:00Z",
+        "changed_fields": {
+          "note": "rate_limiter enabled"
+        },
+        "id": 974173,
+        "object_id": "payments-api",
+        "object_type": "service",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "rollback",
+        "action_time": "2026-03-12T14:00:00Z",
+        "changed_fields": {
+          "note": "rate_limiter rolled back after errors"
+        },
+        "id": 8852667,
+        "object_id": "payments-api",
+        "object_type": "service",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "config_update",
+        "action_time": "2026-03-11T14:00:00Z",
+        "changed_fields": {
+          "note": "PostgreSQL 13 -> 15 (ref DP-1042)"
+        },
+        "id": 1786025,
+        "object_id": "warehouse-db",
+        "object_type": "service",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "discovered",
+        "action_time": "2026-03-11T14:00:00Z",
+        "changed_fields": {
+          "note": "new node in Ledger footprint"
+        },
+        "id": 7788358,
+        "object_id": "ledger-cache-02",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "archived",
+        "action_time": "2026-03-10T14:00:00Z",
+        "changed_fields": {
+          "note": "host decommissioned"
+        },
+        "id": 4690188,
+        "object_id": "ledger-worker-old",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "failover_drill",
+        "action_time": "2026-03-10T14:00:00Z",
+        "changed_fields": {
+          "note": "drill executed and reverted, no impact"
+        },
+        "id": 5908089,
+        "object_id": "ledger-api",
+        "object_type": "service",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 14454293,
+        "object_id": "host-01",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 3310022,
+        "object_id": "host-02",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 7008632,
+        "object_id": "host-03",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 8759571,
+        "object_id": "host-04",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 1764761,
+        "object_id": "host-05",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 15123150,
+        "object_id": "host-06",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 12030152,
+        "object_id": "host-07",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 15740556,
+        "object_id": "host-08",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 3970611,
+        "object_id": "host-09",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 10919725,
+        "object_id": "host-10",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 10352932,
+        "object_id": "host-11",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 11950571,
+        "object_id": "host-12",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 5418965,
+        "object_id": "host-13",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 12424339,
+        "object_id": "host-14",
+        "object_type": "device",
+        "user": "discovery-svc"
+      },
+      {
+        "action": "sync",
+        "action_time": "2026-03-09T14:00:00Z",
+        "changed_fields": {
+          "note": "routine discovery sync"
+        },
+        "id": 6284939,
+        "object_id": "host-15",
+        "object_type": "device",
+        "user": "discovery-svc"
+      }
+    ],
+    "devices": [
+      {
+        "archived": false,
+        "device_id": 177104,
+        "environment": "production",
+        "fqdn": "ledger-cache-02.prod.northwind.internal",
+        "in_service": true,
+        "ip": "10.4.0.42",
+        "last_updated": "2026-03-11T09:00:00Z",
+        "name": "ledger-cache-02",
+        "serial_no": "SN-CACHE-02",
+        "type": "physical"
+      },
+      {
+        "archived": true,
+        "device_id": 46838,
+        "environment": "production",
+        "fqdn": "ledger-worker-old.prod.northwind.internal",
+        "in_service": false,
+        "ip": "10.4.0.10",
+        "last_updated": "2026-03-10T09:00:00Z",
+        "name": "ledger-worker-old",
+        "serial_no": "SN-WORK-OLD",
+        "type": "physical"
+      },
+      {
+        "archived": false,
+        "device_id": 417780,
+        "environment": "production",
+        "fqdn": "ledger-api-01.prod.northwind.internal",
+        "in_service": true,
+        "ip": "10.4.0.80",
+        "last_updated": "2026-03-09T09:00:00Z",
+        "name": "ledger-api-01",
+        "serial_no": "SN-LEDG-01",
+        "type": "physical"
+      },
+      {
+        "archived": false,
+        "device_id": 703398,
+        "environment": "production",
+        "fqdn": "ledger-api-02.prod.northwind.internal",
+        "in_service": true,
+        "ip": "10.4.0.81",
+        "last_updated": "2026-03-09T09:00:00Z",
+        "name": "ledger-api-02",
+        "serial_no": "SN-LEDG-02",
+        "type": "physical"
+      },
+      {
+        "archived": false,
+        "device_id": 812621,
+        "environment": "production",
+        "fqdn": "payments-01.prod.northwind.internal",
+        "in_service": true,
+        "ip": "10.4.0.82",
+        "last_updated": "2026-03-09T09:00:00Z",
+        "name": "payments-01",
+        "serial_no": "SN-PAY-01",
+        "type": "physical"
+      },
+      {
+        "archived": false,
+        "device_id": 573731,
+        "environment": "production",
+        "fqdn": "payments-02.prod.northwind.internal",
+        "in_service": true,
+        "ip": "10.4.0.83",
+        "last_updated": "2026-03-09T09:00:00Z",
+        "name": "payments-02",
+        "serial_no": "SN-PAY-02",
+        "type": "physical"
+      },
+      {
+        "archived": false,
+        "device_id": 234075,
+        "environment": "production",
+        "fqdn": "billing-01.prod.northwind.internal",
+        "in_service": true,
+        "ip": "10.4.0.84",
+        "last_updated": "2026-03-09T09:00:00Z",
+        "name": "billing-01",
+        "serial_no": "SN-BILL-01",
+        "type": "physical"
+      },
+      {
+        "archived": false,
+        "device_id": 162425,
+        "environment": "production",
+        "fqdn": "search-01.prod.northwind.internal",
+        "in_service": true,
+        "ip": "10.4.0.85",
+        "last_updated": "2026-03-09T09:00:00Z",
+        "name": "search-01",
+        "serial_no": "SN-SRCH-01",
+        "type": "physical"
+      },
+      {
+        "archived": false,
+        "device_id": 323027,
+        "environment": "production",
+        "fqdn": "auth-01.prod.northwind.internal",
+        "in_service": true,
+        "ip": "10.4.0.86",
+        "last_updated": "2026-03-09T09:00:00Z",
+        "name": "auth-01",
+        "serial_no": "SN-AUTH-01",
+        "type": "physical"
+      },
+      {
+        "archived": false,
+        "device_id": 765731,
+        "environment": "production",
+        "fqdn": "warehouse-01.prod.northwind.internal",
+        "in_service": true,
+        "ip": "10.4.0.87",
+        "last_updated": "2026-03-09T09:00:00Z",
+        "name": "warehouse-01",
+        "serial_no": "SN-WH-01",
+        "type": "physical"
+      },
+      {
+        "archived": false,
+        "device_id": 245935,
+        "environment": "staging",
+        "fqdn": "staging-box-01.prod.northwind.internal",
+        "in_service": true,
+        "ip": "10.9.0.5",
+        "last_updated": "2026-03-09T09:00:00Z",
+        "name": "staging-box-01",
+        "serial_no": "SN-STG-01",
+        "type": "physical"
+      }
+    ],
+    "services": [
+      {
+        "displayname": "billing-api",
+        "environment": "production",
+        "id": "0d8c96788f2cb1f45f0ab3e832c7ae31",
+        "last_updated": "2026-03-12T12:00:00Z",
+        "version": "3.2"
+      },
+      {
+        "displayname": "ledger-api",
+        "environment": "production",
+        "id": "0857d81ef856638a34fdaee790a2216e",
+        "last_updated": "2026-03-12T12:00:00Z",
+        "version": "2.4"
+      },
+      {
+        "displayname": "ledger-db",
+        "environment": "production",
+        "id": "3c74853acd3b7ad31ddfb09553359930",
+        "last_updated": "2026-03-12T12:00:00Z",
+        "version": "14"
+      },
+      {
+        "displayname": "notifications-api",
+        "environment": "production",
+        "id": "a313fd4ea4fec25944c6d585f542adad",
+        "last_updated": "2026-03-12T12:00:00Z",
+        "version": "7.0"
+      },
+      {
+        "displayname": "payments-api",
+        "environment": "production",
+        "id": "7bd498dbde3d48dc913c36da3a3bedc8",
+        "last_updated": "2026-03-12T12:00:00Z",
+        "version": "5.1"
+      },
+      {
+        "displayname": "warehouse-db",
+        "environment": "production",
+        "id": "cb79f26e0f40909a5a6894f8add7b7d6",
+        "last_updated": "2026-03-12T12:00:00Z",
+        "version": "15"
+      },
+      {
+        "displayname": "searchapi",
+        "environment": "production",
+        "id": "0d71dcefccbb0991ab7c259fcb402302",
+        "last_updated": "2026-03-12T12:00:00Z",
+        "version": "9.1"
+      },
+      {
+        "displayname": "authapi",
+        "environment": "production",
+        "id": "366e3fed498ede02c9d6b00d370cd2b1",
+        "last_updated": "2026-03-12T12:00:00Z",
+        "version": "4.4"
+      },
+      {
+        "displayname": "ledger-api-staging",
+        "environment": "staging",
+        "id": "3abd988395007d87d133cf7f2a3ce473",
+        "last_updated": "2026-03-12T12:00:00Z",
+        "version": "2.9"
+      }
+    ]
+  },
+  "jira-service-management": {
+    "approvals": [
+      {
+        "approvers": [
+          {
+            "approver": {
+              "accountId": "acc-sam",
+              "displayName": "Sam Igwe"
+            },
+            "approverDecision": "approved"
+          }
+        ],
+        "canAnswerApproval": false,
+        "finalDecision": "approved",
+        "id": "ap-dp-1042",
+        "issueId": "20142",
+        "name": "Change approval"
+      }
+    ],
+    "requestTypes": [
+      {
+        "id": "50",
+        "name": "Standard Change",
+        "serviceDeskId": "10"
+      }
+    ],
+    "requests": [
+      {
+        "currentStatus": {
+          "status": "Implemented",
+          "statusCategory": "DONE"
+        },
+        "id": "DP-1042",
+        "issueId": "20142",
+        "issueKey": "DP-1042",
+        "reporter": {
+          "accountId": "acc-sam",
+          "emailAddress": "sam.igwe@northwind.io"
+        },
+        "requestFieldValues": {
+          "summary": "Warehouse DB: upgrade PostgreSQL 13 -> 15"
+        },
+        "requestTypeId": "50",
+        "serviceDeskId": "10",
+        "summary": "Warehouse DB: upgrade PostgreSQL 13 -> 15"
+      },
+      {
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "DONE"
+        },
+        "id": "DP-1000",
+        "issueId": "20100",
+        "issueKey": "DP-1000",
+        "requestFieldValues": {
+          "summary": "Grafana dashboard tweak"
+        },
+        "requestTypeId": "50",
+        "serviceDeskId": "10",
+        "summary": "Grafana dashboard tweak"
+      }
+    ],
+    "serviceDesks": [
+      {
+        "id": "10",
+        "projectId": "10",
+        "projectKey": "DP",
+        "projectName": "Data Platform"
+      }
+    ]
+  },
+  "pagerduty": {
+    "escalation_policies": [
+      {
+        "escalation_rules": [
+          {
+            "escalation_delay_in_minutes": 30,
+            "id": "PERE49757",
+            "targets": [
+              {
+                "id": "PUEEEF86F",
+                "summary": "omar.diaz@northwind.io",
+                "type": "user_reference"
+              }
+            ]
+          }
+        ],
+        "id": "PEP4E8602",
+        "name": "SRE On-Call",
+        "num_loops": 0,
+        "summary": "SRE On-Call",
+        "teams": [
+          {
+            "id": "PTFF6D076",
+            "summary": "SRE",
+            "type": "team_reference"
+          }
+        ],
+        "type": "escalation_policy"
+      },
+      {
+        "escalation_rules": [
+          {
+            "escalation_delay_in_minutes": 30,
+            "id": "PER1EF552",
+            "targets": [
+              {
+                "id": "PUFABD9BE",
+                "summary": "raj.patel@northwind.io",
+                "type": "user_reference"
+              }
+            ]
+          }
+        ],
+        "id": "PEP4ABADC",
+        "name": "Payments On-Call",
+        "num_loops": 0,
+        "summary": "Payments On-Call",
+        "teams": [
+          {
+            "id": "PT7872995",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "type": "escalation_policy"
+      },
+      {
+        "escalation_rules": [
+          {
+            "escalation_delay_in_minutes": 30,
+            "id": "PERF5106C",
+            "targets": [
+              {
+                "id": "PU0301522",
+                "summary": "dana.ortiz@northwind.io",
+                "type": "user_reference"
+              }
+            ]
+          }
+        ],
+        "id": "PEP2234D3",
+        "name": "Billing On-Call",
+        "num_loops": 0,
+        "summary": "Billing On-Call",
+        "teams": [
+          {
+            "id": "PTAC187B4",
+            "summary": "Billing",
+            "type": "team_reference"
+          }
+        ],
+        "type": "escalation_policy"
+      },
+      {
+        "escalation_rules": [
+          {
+            "escalation_delay_in_minutes": 30,
+            "id": "PER14E966",
+            "targets": [
+              {
+                "id": "PU851BE9A",
+                "summary": "sam.igwe@northwind.io",
+                "type": "user_reference"
+              }
+            ]
+          }
+        ],
+        "id": "PEPA19CF8",
+        "name": "DataPlatform On-Call",
+        "num_loops": 0,
+        "summary": "DataPlatform On-Call",
+        "teams": [
+          {
+            "id": "PT23F7E05",
+            "summary": "DataPlatform",
+            "type": "team_reference"
+          }
+        ],
+        "type": "escalation_policy"
+      },
+      {
+        "escalation_rules": [
+          {
+            "escalation_delay_in_minutes": 30,
+            "id": "PER7BAF3A",
+            "targets": [
+              {
+                "id": "PU894595B",
+                "summary": "lena.ford@northwind.io",
+                "type": "user_reference"
+              }
+            ]
+          }
+        ],
+        "id": "PEPCC8ADA",
+        "name": "Platform On-Call",
+        "num_loops": 0,
+        "summary": "Platform On-Call",
+        "teams": [
+          {
+            "id": "PT1708F3A",
+            "summary": "Platform",
+            "type": "team_reference"
+          }
+        ],
+        "type": "escalation_policy"
+      }
+    ],
+    "incidents": [
+      {
+        "assignments": [
+          {
+            "assignee": {
+              "id": "PUEEEF86F",
+              "summary": "omar.diaz@northwind.io",
+              "type": "user_reference"
+            },
+            "at": "2026-03-12T15:01:00Z"
+          }
+        ],
+        "created_at": "2026-03-12T15:00:00Z",
+        "escalation_policy": {
+          "id": "PEP4E8602",
+          "summary": "SRE On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PINC3437BB4",
+        "incident_key": "payments-rate-limiter",
+        "incident_number": 4501,
+        "resolved_at": null,
+        "service": {
+          "id": "PFB82F0B",
+          "summary": "Payments API",
+          "type": "service_reference"
+        },
+        "status": "triggered",
+        "summary": "Payments API elevated error rate after rate limiter change",
+        "title": "Payments API elevated error rate after rate limiter change",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-03-09T15:00:00Z",
+        "id": "PINCAE65068",
+        "incident_key": "",
+        "incident_number": 4400,
+        "resolved_at": null,
+        "service": {
+          "id": "P286752D",
+          "summary": "Billing API",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "summary": "Billing API blip resolved",
+        "title": "Billing API blip resolved",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-03-09T15:00:00Z",
+        "id": "PINCB1CA20E",
+        "incident_key": "",
+        "incident_number": 4401,
+        "resolved_at": null,
+        "service": {
+          "id": "PF331F42",
+          "summary": "Notifications API",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "summary": "Notifications API blip resolved",
+        "title": "Notifications API blip resolved",
+        "urgency": "high"
+      },
+      {
+        "created_at": "2026-03-09T15:00:00Z",
+        "id": "PINCEA8EFC7",
+        "incident_key": "",
+        "incident_number": 4402,
+        "resolved_at": null,
+        "service": {
+          "id": "P5CD4E93",
+          "summary": "Ledger API",
+          "type": "service_reference"
+        },
+        "status": "resolved",
+        "summary": "Ledger API blip resolved",
+        "title": "Ledger API blip resolved",
+        "urgency": "high"
+      }
+    ],
+    "services": [
+      {
+        "escalation_policy": {
+          "id": "PEP4E8602",
+          "summary": "SRE On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "P5CD4E93",
+        "name": "Ledger API",
+        "status": "active",
+        "summary": "Ledger API",
+        "teams": [
+          {
+            "id": "PTFF6D076",
+            "summary": "SRE",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service"
+      },
+      {
+        "escalation_policy": {
+          "id": "PEP4E8602",
+          "summary": "SRE On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PFB82F0B",
+        "name": "Payments API",
+        "status": "active",
+        "summary": "Payments API",
+        "teams": [
+          {
+            "id": "PT7872995",
+            "summary": "Payments",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service"
+      },
+      {
+        "escalation_policy": {
+          "id": "PEP2234D3",
+          "summary": "Billing On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "P286752D",
+        "name": "Billing API",
+        "status": "active",
+        "summary": "Billing API",
+        "teams": [
+          {
+            "id": "PTAC187B4",
+            "summary": "Billing",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service"
+      },
+      {
+        "escalation_policy": {
+          "id": "PEPA19CF8",
+          "summary": "DataPlatform On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "P7021690",
+        "name": "Warehouse DB",
+        "status": "active",
+        "summary": "Warehouse DB",
+        "teams": [
+          {
+            "id": "PT23F7E05",
+            "summary": "DataPlatform",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service"
+      },
+      {
+        "escalation_policy": {
+          "id": "PEPCC8ADA",
+          "summary": "Platform On-Call",
+          "type": "escalation_policy_reference"
+        },
+        "id": "PF331F42",
+        "name": "Notifications API",
+        "status": "active",
+        "summary": "Notifications API",
+        "teams": [
+          {
+            "id": "PT1708F3A",
+            "summary": "Platform",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service"
+      }
+    ],
+    "teams": [
+      {
+        "id": "PTFF6D076",
+        "name": "SRE",
+        "summary": "SRE",
+        "type": "team"
+      },
+      {
+        "id": "PT7872995",
+        "name": "Payments",
+        "summary": "Payments",
+        "type": "team"
+      },
+      {
+        "id": "PTAC187B4",
+        "name": "Billing",
+        "summary": "Billing",
+        "type": "team"
+      },
+      {
+        "id": "PT23F7E05",
+        "name": "DataPlatform",
+        "summary": "DataPlatform",
+        "type": "team"
+      },
+      {
+        "id": "PT1708F3A",
+        "name": "Platform",
+        "summary": "Platform",
+        "type": "team"
+      }
+    ],
+    "users": [
+      {
+        "email": "mia.chen@northwind.io",
+        "id": "PU37B08F9",
+        "name": "Mia Chen",
+        "type": "user"
+      },
+      {
+        "email": "raj.patel@northwind.io",
+        "id": "PUFABD9BE",
+        "name": "Raj Patel",
+        "type": "user"
+      },
+      {
+        "email": "dana.ortiz@northwind.io",
+        "id": "PU0301522",
+        "name": "Dana Ortiz",
+        "type": "user"
+      },
+      {
+        "email": "sam.igwe@northwind.io",
+        "id": "PU851BE9A",
+        "name": "Sam Igwe",
+        "type": "user"
+      },
+      {
+        "email": "lena.ford@northwind.io",
+        "id": "PU894595B",
+        "name": "Lena Ford",
+        "type": "user"
+      },
+      {
+        "email": "omar.diaz@northwind.io",
+        "id": "PUEEEF86F",
+        "name": "Omar Diaz",
+        "type": "user"
+      }
+    ]
+  },
+  "servicenow": {
+    "change_request": [
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031002",
+        "opened_at": "2026-03-09 10:00:00",
+        "risk": "moderate",
+        "short_description": "Upgrade Billing API to v3.2",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "922d0d42e010882e59c4c2bb4ab8baf1",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "2696376a97f4009617ca67499763c882"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "",
+        "number": "CHG0031003",
+        "opened_at": "2026-03-10 10:00:00",
+        "risk": "moderate",
+        "short_description": "Upgrade Ledger API to v2.4",
+        "state": "0",
+        "sys_class_name": "change_request",
+        "sys_id": "21ca14ba4db231cc53152d1bdde707b2",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "ed9a535f72f25b9b787512b30eb0e1d8"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "",
+        "number": "CHG0031004",
+        "opened_at": "2026-03-10 10:00:00",
+        "risk": "high",
+        "short_description": "Add failover replica to Ledger DB cluster",
+        "state": "-1",
+        "sys_class_name": "change_request",
+        "sys_id": "8113ca98e673db9ed55d139066d3e924",
+        "u_environment": "production",
+        "u_rollback_plan": "Detach replica, revert to single-primary.",
+        "u_rollout_plan": "Provision replica, sync, promote standby.",
+        "u_service": "df40cc442d4d8cc16048092aed1ea8e3"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "",
+        "number": "CHG0031005",
+        "opened_at": "2026-03-11 10:00:00",
+        "risk": "high",
+        "short_description": "Rotate Notifications API signing keys",
+        "state": "-1",
+        "sys_class_name": "change_request",
+        "sys_id": "cd04de672e4d1290c9723110db5aee65",
+        "u_environment": "production",
+        "u_rollback_plan": "Restore prior keys.",
+        "u_rollout_plan": "Rotate keys, redeploy.",
+        "u_service": "ed7e8c13a09ea22eadf9cddf15a2c0df"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031006",
+        "opened_at": "2026-03-12 10:00:00",
+        "risk": "moderate",
+        "short_description": "Enable adaptive rate limiter on Payments API",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "1cd3b743b95333eca0b558d5cb3a4c3f",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "b6f6f07a8ea69f2fabf34e7aceb27b92"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031007",
+        "opened_at": "2026-03-09 10:00:00",
+        "risk": "moderate",
+        "short_description": "Decommission ledger-worker-old",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "5bd9b381ac1d683af790e784e236ca44",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "ed9a535f72f25b9b787512b30eb0e1d8"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031008",
+        "opened_at": "2026-03-10 10:00:00",
+        "risk": "moderate",
+        "short_description": "Ledger API DB failover drill",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "ec140d2a277b08a7350f3a67754c27a1",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "ed9a535f72f25b9b787512b30eb0e1d8"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031009",
+        "opened_at": "2026-03-11 10:00:00",
+        "risk": "moderate",
+        "short_description": "Staging config Search API #1",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "047d1fc0c1371a15b1a5c2221ee3feb6",
+        "u_environment": "staging",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "ddcbb203ce2ce69b071ac6212166ce57"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031010",
+        "opened_at": "2026-02-18 10:00:00",
+        "risk": "low",
+        "short_description": "Standard maintenance Auth API #2",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "83058ad67a8c6d8b50c49f5d8ed59423",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "233fdda7be66e5529d8f198cf8047a4d"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031011",
+        "opened_at": "2026-02-18 10:00:00",
+        "risk": "low",
+        "short_description": "Routine patch Notifications API #3",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "2933f041b6c1f007f999eaf82d723f47",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "ed7e8c13a09ea22eadf9cddf15a2c0df"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031012",
+        "opened_at": "2026-03-11 10:00:00",
+        "risk": "moderate",
+        "short_description": "Staging config Billing API #4",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "fa75ed6f93f07a10fb161824b8da56fa",
+        "u_environment": "staging",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "2696376a97f4009617ca67499763c882"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031013",
+        "opened_at": "2026-02-18 10:00:00",
+        "risk": "low",
+        "short_description": "Standard maintenance Search API #5",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "bac5dc4b105985c3d9a80fcfbe6d0152",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "ddcbb203ce2ce69b071ac6212166ce57"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031014",
+        "opened_at": "2026-02-18 10:00:00",
+        "risk": "low",
+        "short_description": "Routine patch Auth API #6",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "ca70a6508f02a961b304f72a37a8a967",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "233fdda7be66e5529d8f198cf8047a4d"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031015",
+        "opened_at": "2026-03-11 10:00:00",
+        "risk": "moderate",
+        "short_description": "Staging config Notifications API #7",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "b380771df09b542286f13e4295d5d11f",
+        "u_environment": "staging",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "ed7e8c13a09ea22eadf9cddf15a2c0df"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031016",
+        "opened_at": "2026-02-18 10:00:00",
+        "risk": "low",
+        "short_description": "Standard maintenance Billing API #8",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "9ea50061f8fb986555c189566e2ae72b",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "2696376a97f4009617ca67499763c882"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031017",
+        "opened_at": "2026-02-18 10:00:00",
+        "risk": "low",
+        "short_description": "Routine patch Search API #9",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "333277214271fde53e7a587a21b05ab3",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "ddcbb203ce2ce69b071ac6212166ce57"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031018",
+        "opened_at": "2026-03-11 10:00:00",
+        "risk": "moderate",
+        "short_description": "Staging config Auth API #10",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "1c580393ed58d3c95731f4b07c30f5a6",
+        "u_environment": "staging",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "233fdda7be66e5529d8f198cf8047a4d"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031019",
+        "opened_at": "2026-02-18 10:00:00",
+        "risk": "low",
+        "short_description": "Standard maintenance Notifications API #11",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "cc83bc9ca4b99078d9fd42c56c856a95",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "ed7e8c13a09ea22eadf9cddf15a2c0df"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031020",
+        "opened_at": "2026-02-18 10:00:00",
+        "risk": "low",
+        "short_description": "Routine patch Billing API #12",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "3a055c53d11a79fe8918d968ab15b3ff",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "2696376a97f4009617ca67499763c882"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031021",
+        "opened_at": "2026-03-11 10:00:00",
+        "risk": "moderate",
+        "short_description": "Staging config Search API #13",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "77f9a0e98d75af194fe9afd25d0dc7ce",
+        "u_environment": "staging",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "ddcbb203ce2ce69b071ac6212166ce57"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031022",
+        "opened_at": "2026-02-18 10:00:00",
+        "risk": "low",
+        "short_description": "Standard maintenance Auth API #14",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "1b6637a395323ee7fc129f166fc6dcdb",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "233fdda7be66e5529d8f198cf8047a4d"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031023",
+        "opened_at": "2026-02-18 10:00:00",
+        "risk": "low",
+        "short_description": "Routine patch Notifications API #15",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "4f474ebc2e63d89976ef3d01f28b3541",
+        "u_environment": "production",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "ed7e8c13a09ea22eadf9cddf15a2c0df"
+      },
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "close_code": "successful",
+        "number": "CHG0031024",
+        "opened_at": "2026-03-11 10:00:00",
+        "risk": "moderate",
+        "short_description": "Staging config Billing API #16",
+        "state": "3",
+        "sys_class_name": "change_request",
+        "sys_id": "5255cd4c0efc7beca3a8c5264fb51c6e",
+        "u_environment": "staging",
+        "u_rollback_plan": "",
+        "u_rollout_plan": "",
+        "u_service": "2696376a97f4009617ca67499763c882"
+      }
+    ],
+    "cmdb_ci_appl": [
+      {
+        "install_status": "1",
+        "last_discovered": "2026-03-10",
+        "name": "Billing API",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_appl",
+        "sys_id": "5f623ecda9c757fa2ad7ecdf5b90a374",
+        "u_environment": "production",
+        "version": "3.2"
+      },
+      {
+        "install_status": "1",
+        "last_discovered": "2026-03-02",
+        "name": "Ledger API",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_appl",
+        "sys_id": "14ca01e50bea6ce8cc9fe32797116054",
+        "u_environment": "production",
+        "version": "2.3"
+      },
+      {
+        "install_status": "1",
+        "last_discovered": "2026-03-02",
+        "name": "Notifications API",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_appl",
+        "sys_id": "f2f76eb50b47d1fff01e1fd035518f49",
+        "u_environment": "production",
+        "version": "7.0"
+      },
+      {
+        "install_status": "1",
+        "last_discovered": "2026-03-10",
+        "name": "Payments API",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_appl",
+        "sys_id": "32da17e41695a93abb6d912f53d1f423",
+        "u_environment": "production",
+        "version": "5.1"
+      },
+      {
+        "install_status": "1",
+        "last_discovered": "2026-03-09",
+        "name": "Search API",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_appl",
+        "sys_id": "bf9283f78f68abe69c5c2d593bd584da",
+        "u_environment": "production",
+        "version": "9.1"
+      },
+      {
+        "install_status": "1",
+        "last_discovered": "2026-03-09",
+        "name": "Auth API",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_appl",
+        "sys_id": "6ba0ba7f2e17c832fe7c8364486445d8",
+        "u_environment": "production",
+        "version": "4.4"
+      },
+      {
+        "install_status": "1",
+        "last_discovered": "2026-03-02",
+        "name": "Ledger API (staging)",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_appl",
+        "sys_id": "6230ac07ce4ed9d6c3852e49709b94bc",
+        "u_environment": "staging",
+        "version": "2.2"
+      }
+    ],
+    "cmdb_ci_database": [
+      {
+        "database_type": "postgresql",
+        "install_status": "1",
+        "last_discovered": "2026-03-02",
+        "name": "Ledger DB",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_database",
+        "sys_id": "c1dfaf5856b758d99d9fb778dff35733",
+        "u_environment": "production",
+        "version": "14"
+      },
+      {
+        "database_type": "postgresql",
+        "install_status": "1",
+        "last_discovered": "2026-03-02",
+        "name": "Warehouse DB",
+        "operational_status": "1",
+        "sys_class_name": "cmdb_ci_database",
+        "sys_id": "045ff7ea8065ed2b2e010d4d92505fcd",
+        "u_environment": "production",
+        "version": "13"
+      }
+    ],
+    "cmdb_ci_server": [
+      {
+        "fqdn": "ledger-worker-old.prod.northwind.internal",
+        "install_status": "1",
+        "ip_address": "10.4.0.60",
+        "last_discovered": "2026-03-02",
+        "name": "ledger-worker-old",
+        "operational_status": "1",
+        "serial_number": "SN-WORK-OLD",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_id": "db7ae71162dbfea72ae6a8cfbc8c6bcf",
+        "u_environment": "production"
+      },
+      {
+        "fqdn": "ledger-api-01.prod.northwind.internal",
+        "install_status": "1",
+        "ip_address": "10.4.0.80",
+        "last_discovered": "2026-03-02",
+        "name": "ledger-api-01",
+        "operational_status": "1",
+        "serial_number": "SN-LEDG-01",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_id": "3bf865df4bc8fb7e727a351e4e907e39",
+        "u_environment": "production"
+      },
+      {
+        "fqdn": "ledger-api-02.prod.northwind.internal",
+        "install_status": "1",
+        "ip_address": "10.4.0.81",
+        "last_discovered": "2026-03-02",
+        "name": "ledger-api-02",
+        "operational_status": "1",
+        "serial_number": "SN-LEDG-02",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_id": "b866a75ea642fc510b49542b8b7badee",
+        "u_environment": "production"
+      },
+      {
+        "fqdn": "payments-01.prod.northwind.internal",
+        "install_status": "1",
+        "ip_address": "10.4.0.82",
+        "last_discovered": "2026-03-02",
+        "name": "payments-01",
+        "operational_status": "1",
+        "serial_number": "SN-PAY-01",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_id": "def9cc0bfa482d34731293a81d129892",
+        "u_environment": "production"
+      },
+      {
+        "fqdn": "payments-02.prod.northwind.internal",
+        "install_status": "1",
+        "ip_address": "10.4.0.83",
+        "last_discovered": "2026-03-02",
+        "name": "payments-02",
+        "operational_status": "1",
+        "serial_number": "SN-PAY-02",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_id": "b310e73246b0271134f713eead42f7e9",
+        "u_environment": "production"
+      },
+      {
+        "fqdn": "billing-01.prod.northwind.internal",
+        "install_status": "1",
+        "ip_address": "10.4.0.84",
+        "last_discovered": "2026-03-02",
+        "name": "billing-01",
+        "operational_status": "1",
+        "serial_number": "SN-BILL-01",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_id": "56a77a17b17911b952d7eb13aeac0138",
+        "u_environment": "production"
+      },
+      {
+        "fqdn": "search-01.prod.northwind.internal",
+        "install_status": "1",
+        "ip_address": "10.4.0.85",
+        "last_discovered": "2026-03-02",
+        "name": "search-01",
+        "operational_status": "1",
+        "serial_number": "SN-SRCH-01",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_id": "0b4a3b020f1fb03b30cb643e7485dec2",
+        "u_environment": "production"
+      },
+      {
+        "fqdn": "auth-01.prod.northwind.internal",
+        "install_status": "1",
+        "ip_address": "10.4.0.86",
+        "last_discovered": "2026-03-02",
+        "name": "auth-01",
+        "operational_status": "1",
+        "serial_number": "SN-AUTH-01",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_id": "092ce435556ddc3e779dd4a4acbca01f",
+        "u_environment": "production"
+      },
+      {
+        "fqdn": "warehouse-01.prod.northwind.internal",
+        "install_status": "1",
+        "ip_address": "10.4.0.87",
+        "last_discovered": "2026-03-02",
+        "name": "warehouse-01",
+        "operational_status": "1",
+        "serial_number": "SN-WH-01",
+        "sys_class_name": "cmdb_ci_server",
+        "sys_id": "dafe20dec7459c1ec67429c42c3ef0ac",
+        "u_environment": "production"
+      }
+    ],
+    "cmdb_ci_service_technical": [
+      {
+        "name": "Ledger API",
+        "service_owner": "ac1f621895e869aedd7bd76d5b624255",
+        "sys_class_name": "cmdb_ci_service_technical",
+        "sys_id": "ed9a535f72f25b9b787512b30eb0e1d8",
+        "u_environment": "production",
+        "u_pagerduty_service": "ledgerapi",
+        "u_service_tier": "1"
+      },
+      {
+        "name": "Payments API",
+        "service_owner": "ac1f621895e869aedd7bd76d5b624255",
+        "sys_class_name": "cmdb_ci_service_technical",
+        "sys_id": "b6f6f07a8ea69f2fabf34e7aceb27b92",
+        "u_environment": "production",
+        "u_pagerduty_service": "paymentsapi",
+        "u_service_tier": "1"
+      },
+      {
+        "name": "Billing API",
+        "service_owner": "ac1f621895e869aedd7bd76d5b624255",
+        "sys_class_name": "cmdb_ci_service_technical",
+        "sys_id": "2696376a97f4009617ca67499763c882",
+        "u_environment": "production",
+        "u_pagerduty_service": "billingapi",
+        "u_service_tier": "1"
+      },
+      {
+        "name": "Ledger DB",
+        "service_owner": "ac1f621895e869aedd7bd76d5b624255",
+        "sys_class_name": "cmdb_ci_service_technical",
+        "sys_id": "df40cc442d4d8cc16048092aed1ea8e3",
+        "u_environment": "production",
+        "u_pagerduty_service": "ledgerdb",
+        "u_service_tier": "1"
+      },
+      {
+        "name": "Warehouse DB",
+        "service_owner": "ac1f621895e869aedd7bd76d5b624255",
+        "sys_class_name": "cmdb_ci_service_technical",
+        "sys_id": "aab4d114e323c44e6df53bf101036258",
+        "u_environment": "production",
+        "u_pagerduty_service": "warehousedb",
+        "u_service_tier": "1"
+      },
+      {
+        "name": "Notifications API",
+        "service_owner": "ac1f621895e869aedd7bd76d5b624255",
+        "sys_class_name": "cmdb_ci_service_technical",
+        "sys_id": "ed7e8c13a09ea22eadf9cddf15a2c0df",
+        "u_environment": "production",
+        "u_pagerduty_service": "notificationsapi",
+        "u_service_tier": "1"
+      },
+      {
+        "name": "Search API",
+        "service_owner": "ac1f621895e869aedd7bd76d5b624255",
+        "sys_class_name": "cmdb_ci_service_technical",
+        "sys_id": "ddcbb203ce2ce69b071ac6212166ce57",
+        "u_environment": "production",
+        "u_pagerduty_service": "searchapi",
+        "u_service_tier": "1"
+      },
+      {
+        "name": "Auth API",
+        "service_owner": "ac1f621895e869aedd7bd76d5b624255",
+        "sys_class_name": "cmdb_ci_service_technical",
+        "sys_id": "233fdda7be66e5529d8f198cf8047a4d",
+        "u_environment": "production",
+        "u_pagerduty_service": "authapi",
+        "u_service_tier": "1"
+      }
+    ],
+    "incident": [
+      {
+        "assigned_to": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "cmdb_ci": "",
+        "description": "SOX pre-audit flagged that we are running production configurations our change records do not account for, and an alert from last Thursday's release window is STILL firing right now \u2014 and it went to the wrong team. Finance review is next week. The team is pointing at CHG0031008 (the Ledger failover drill). Please dig into what actually happened during last week's release window, get our change records straight, close out whatever is still open, and make sure nothing from that release is still paging or hitting the wrong team. Confirm the root cause.",
+        "number": "INC0007001",
+        "opened_at": "2026-03-13 16:00:00",
+        "priority": "1",
+        "short_description": "Alert from last week's release window is STILL firing and paged the wrong team; change records don't match what's running",
+        "state": "2",
+        "sys_class_name": "incident",
+        "sys_id": "1592e14ab211964cdb49fed51b6e34ed",
+        "u_affected_service": "ed9a535f72f25b9b787512b30eb0e1d8"
+      }
+    ],
+    "sys_user": [
+      {
+        "email": "mia.chen@northwind.io",
+        "name": "Mia Chen",
+        "sys_class_name": "sys_user",
+        "sys_id": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "user_name": "mia.chen"
+      },
+      {
+        "email": "raj.patel@northwind.io",
+        "name": "Raj Patel",
+        "sys_class_name": "sys_user",
+        "sys_id": "6e4bd29a4ec12c83444cd5d530c7311b",
+        "user_name": "raj.patel"
+      },
+      {
+        "email": "dana.ortiz@northwind.io",
+        "name": "Dana Ortiz",
+        "sys_class_name": "sys_user",
+        "sys_id": "015bf3fa568736227f67c69e6e061893",
+        "user_name": "dana.ortiz"
+      },
+      {
+        "email": "sam.igwe@northwind.io",
+        "name": "Sam Igwe",
+        "sys_class_name": "sys_user",
+        "sys_id": "569db27ec836fe111c0b1f6ef347e407",
+        "user_name": "sam.igwe"
+      },
+      {
+        "email": "lena.ford@northwind.io",
+        "name": "Lena Ford",
+        "sys_class_name": "sys_user",
+        "sys_id": "9ba16633bc1adedc182cd9cc56ae9d97",
+        "user_name": "lena.ford"
+      },
+      {
+        "email": "omar.diaz@northwind.io",
+        "name": "Omar Diaz",
+        "sys_class_name": "sys_user",
+        "sys_id": "3a4882c3ce56450fc19ba41a5700adc0",
+        "user_name": "omar.diaz"
+      }
+    ],
+    "sys_user_group": [
+      {
+        "name": "SRE",
+        "sys_class_name": "sys_user_group",
+        "sys_id": "ac1f621895e869aedd7bd76d5b624255"
+      },
+      {
+        "name": "DataPlatform",
+        "sys_class_name": "sys_user_group",
+        "sys_id": "71424d50de5fead1398f3ac57f721382"
+      },
+      {
+        "name": "Payments",
+        "sys_class_name": "sys_user_group",
+        "sys_id": "ab28d90055203b59eece2dd141633d3b"
+      },
+      {
+        "name": "Billing",
+        "sys_class_name": "sys_user_group",
+        "sys_id": "8f17d68f61a6b8e1a8fa035757f0ebf0"
+      },
+      {
+        "name": "Platform",
+        "sys_class_name": "sys_user_group",
+        "sys_id": "1b5e2551a47dd9188688dca5beb14291"
+      }
+    ],
+    "sysapproval_approver": [
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031002",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "63d07837e71b59ddb2e37b3ced3319a2",
+        "sysapproval": "922d0d42e010882e59c4c2bb4ab8baf1"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031003",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "f9425b0ce35143addccaa51d8a36bc9f",
+        "sysapproval": "21ca14ba4db231cc53152d1bdde707b2"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031004",
+        "source_table": "change_request",
+        "state": "requested",
+        "sys_id": "2de08ea47646afdf60c02cdb0d49c8ee",
+        "sysapproval": "8113ca98e673db9ed55d139066d3e924"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031005",
+        "source_table": "change_request",
+        "state": "requested",
+        "sys_id": "548abf5538c78ef894d2cc234a97f581",
+        "sysapproval": "cd04de672e4d1290c9723110db5aee65"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031006",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "9bc8ccf28f55169b0b7a2fbd2c6e5c7c",
+        "sysapproval": "1cd3b743b95333eca0b558d5cb3a4c3f"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031007",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "7d61584c4ee7504a425e4be91a43f466",
+        "sysapproval": "5bd9b381ac1d683af790e784e236ca44"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031008",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "6e27bd4fb7080d544dedc50883f68e35",
+        "sysapproval": "ec140d2a277b08a7350f3a67754c27a1"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031009",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "a0eb748d931230f6fb1ca20650525d5d",
+        "sysapproval": "047d1fc0c1371a15b1a5c2221ee3feb6"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031010",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "8c43b8d5be62f2f7118bbff3227020df",
+        "sysapproval": "83058ad67a8c6d8b50c49f5d8ed59423"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031011",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "b00a84909db2114561f48635c6af5cb7",
+        "sysapproval": "2933f041b6c1f007f999eaf82d723f47"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031012",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "3afed3bfef26782a9812511e126bffef",
+        "sysapproval": "fa75ed6f93f07a10fb161824b8da56fa"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031013",
+        "source_table": "change_request",
+        "state": "rejected",
+        "sys_id": "9a8d91952d21e982fbb509a03efecb66",
+        "sysapproval": "bac5dc4b105985c3d9a80fcfbe6d0152"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031014",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "db8b35a6a22b7d93d7a1784bc29cfee6",
+        "sysapproval": "ca70a6508f02a961b304f72a37a8a967"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031015",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "8735de54b42f53644b1f5de7582fe2d8",
+        "sysapproval": "b380771df09b542286f13e4295d5d11f"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031016",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "5e697e22343ca75d61c6dc4360452832",
+        "sysapproval": "9ea50061f8fb986555c189566e2ae72b"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031017",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "4437f35febf38f08d63aa26a53da0103",
+        "sysapproval": "333277214271fde53e7a587a21b05ab3"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031018",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "0344ff7dd47f0347bcdfd8988eda4c0e",
+        "sysapproval": "1c580393ed58d3c95731f4b07c30f5a6"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031019",
+        "source_table": "change_request",
+        "state": "rejected",
+        "sys_id": "d4b99c7ca634f9839a84b906b2daa6ea",
+        "sysapproval": "cc83bc9ca4b99078d9fd42c56c856a95"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031020",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "35de7574895e14052c0a274730c50a7f",
+        "sysapproval": "3a055c53d11a79fe8918d968ab15b3ff"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031021",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "2c64ac962a79c5a241af4661e73a5aa0",
+        "sysapproval": "77f9a0e98d75af194fe9afd25d0dc7ce"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031022",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "682f0a0e56dc855bfb005d2891137ede",
+        "sysapproval": "1b6637a395323ee7fc129f166fc6dcdb"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031023",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "92b162f5ee6ab9a90cdf5700c626f537",
+        "sysapproval": "4f474ebc2e63d89976ef3d01f28b3541"
+      },
+      {
+        "approver": "79ce68e32c31b8161d5469e84b5f0bd2",
+        "assignment_group": "ac1f621895e869aedd7bd76d5b624255",
+        "short_description": "Approval for CHG0031024",
+        "source_table": "change_request",
+        "state": "approved",
+        "sys_id": "9b10eaeedb6ab0935f3504425ad415cd",
+        "sysapproval": "5255cd4c0efc7beca3a8c5264fb51c6e"
+      }
+    ]
+  },
+  "slack": {
+    "channels": [
+      {
+        "id": "C_CHANGEMGMT",
+        "is_archived": false,
+        "is_channel": true,
+        "members": [
+          "U40A2BBF0",
+          "U1F1C05F1",
+          "UE6FD313A",
+          "U9590A56C",
+          "U383CD6A6",
+          "U39486AC4"
+        ],
+        "name": "change-mgmt"
+      },
+      {
+        "id": "C_INCIDENTS",
+        "is_archived": false,
+        "is_channel": true,
+        "members": [
+          "U40A2BBF0",
+          "U1F1C05F1",
+          "UE6FD313A",
+          "U9590A56C",
+          "U383CD6A6",
+          "U39486AC4"
+        ],
+        "name": "incidents"
+      },
+      {
+        "id": "C_PLATFORM",
+        "is_archived": false,
+        "is_channel": true,
+        "members": [
+          "U40A2BBF0",
+          "U1F1C05F1",
+          "UE6FD313A",
+          "U9590A56C",
+          "U383CD6A6",
+          "U39486AC4"
+        ],
+        "name": "platform"
+      },
+      {
+        "id": "C_GENERAL",
+        "is_archived": false,
+        "is_channel": true,
+        "members": [
+          "U40A2BBF0",
+          "U1F1C05F1",
+          "UE6FD313A",
+          "U9590A56C",
+          "U383CD6A6",
+          "U39486AC4"
+        ],
+        "name": "general"
+      }
+    ],
+    "messages": [
+      {
+        "channel": "C_CHANGEMGMT",
+        "reactions": [
+          {
+            "count": 1,
+            "name": "white_check_mark",
+            "users": [
+              "U40A2BBF0"
+            ]
+          }
+        ],
+        "text": "Deploy CHG0031002 Billing API v3.2 shipped clean.",
+        "ts": "1741600000.000100",
+        "type": "message",
+        "user": "U40A2BBF0"
+      },
+      {
+        "channel": "C_CHANGEMGMT",
+        "reactions": [
+          {
+            "count": 1,
+            "name": "white_check_mark",
+            "users": [
+              "U40A2BBF0"
+            ]
+          }
+        ],
+        "text": "CAB CHG0031003 Ledger API v2.4 approved + deployed.",
+        "ts": "1741700000.000200",
+        "type": "message",
+        "user": "U40A2BBF0"
+      },
+      {
+        "channel": "C_CHANGEMGMT",
+        "reactions": [
+          {
+            "count": 1,
+            "name": "white_check_mark",
+            "users": [
+              "U40A2BBF0"
+            ]
+          }
+        ],
+        "text": "CAB CHG0031004 Ledger DB failover replica \u2014 approve for the 03/10 window?",
+        "ts": "1741700100.000300",
+        "type": "message",
+        "user": "U40A2BBF0"
+      },
+      {
+        "channel": "C_CHANGEMGMT",
+        "text": "Approved for the window \u2014 proceed.",
+        "thread_ts": "1741700100.000300",
+        "ts": "1741700200.000301",
+        "type": "message",
+        "user": "U40A2BBF0"
+      },
+      {
+        "channel": "C_CHANGEMGMT",
+        "text": "CAB CHG0031005 Notifications API key rotation \u2014 requesting approval.",
+        "ts": "1741800100.000400",
+        "type": "message",
+        "user": "U40A2BBF0"
+      },
+      {
+        "channel": "C_CHANGEMGMT",
+        "text": "Holding this one \u2014 needs security sign-off first, do NOT proceed this window.",
+        "thread_ts": "1741800100.000400",
+        "ts": "1741800200.000401",
+        "type": "message",
+        "user": "U40A2BBF0"
+      },
+      {
+        "channel": "C_CHANGEMGMT",
+        "text": "Deploy CHG0031006 Payments API rate limiter enabled.",
+        "ts": "1741810000.000500",
+        "type": "message",
+        "user": "U40A2BBF0"
+      },
+      {
+        "channel": "C_CHANGEMGMT",
+        "text": "Heads up: Warehouse DB PostgreSQL 15 migration (DP-1042) completed by Data Platform.",
+        "ts": "1741710000.000600",
+        "type": "message",
+        "user": "U9590A56C"
+      },
+      {
+        "channel": "C_CHANGEMGMT",
+        "text": "Deploy CHG0031007 ledger-worker-old decommissioned.",
+        "ts": "1741600100.000700",
+        "type": "message",
+        "user": "U40A2BBF0"
+      },
+      {
+        "channel": "C_CHANGEMGMT",
+        "reactions": [
+          {
+            "count": 1,
+            "name": "white_check_mark",
+            "users": [
+              "U40A2BBF0"
+            ]
+          }
+        ],
+        "text": "Deploy CHG0031008 Ledger API failover drill completed, no customer impact.",
+        "ts": "1741700050.000800",
+        "type": "message",
+        "user": "U40A2BBF0"
+      },
+      {
+        "channel": "C_GENERAL",
+        "text": "general chatter 1",
+        "ts": "1741500001.000900",
+        "type": "message",
+        "user": "U1F1C05F1"
+      },
+      {
+        "channel": "C_GENERAL",
+        "text": "general chatter 2",
+        "ts": "1741500002.000900",
+        "type": "message",
+        "user": "UE6FD313A"
+      },
+      {
+        "channel": "C_GENERAL",
+        "text": "general chatter 3",
+        "ts": "1741500003.000900",
+        "type": "message",
+        "user": "U9590A56C"
+      },
+      {
+        "channel": "C_GENERAL",
+        "text": "general chatter 4",
+        "ts": "1741500004.000900",
+        "type": "message",
+        "user": "U383CD6A6"
+      },
+      {
+        "channel": "C_GENERAL",
+        "text": "general chatter 5",
+        "ts": "1741500005.000900",
+        "type": "message",
+        "user": "U39486AC4"
+      },
+      {
+        "channel": "C_GENERAL",
+        "text": "general chatter 6",
+        "ts": "1741500006.000900",
+        "type": "message",
+        "user": "U40A2BBF0"
+      },
+      {
+        "channel": "C_GENERAL",
+        "text": "general chatter 7",
+        "ts": "1741500007.000900",
+        "type": "message",
+        "user": "U1F1C05F1"
+      },
+      {
+        "channel": "C_GENERAL",
+        "text": "general chatter 8",
+        "ts": "1741500008.000900",
+        "type": "message",
+        "user": "UE6FD313A"
+      },
+      {
+        "channel": "C_GENERAL",
+        "text": "general chatter 9",
+        "ts": "1741500009.000900",
+        "type": "message",
+        "user": "U9590A56C"
+      },
+      {
+        "channel": "C_GENERAL",
+        "text": "general chatter 10",
+        "ts": "1741500010.000900",
+        "type": "message",
+        "user": "U383CD6A6"
+      },
+      {
+        "channel": "C_GENERAL",
+        "text": "general chatter 11",
+        "ts": "1741500011.000900",
+        "type": "message",
+        "user": "U39486AC4"
+      }
+    ],
+    "users": [
+      {
+        "id": "U40A2BBF0",
+        "name": "mia.chen",
+        "profile": {
+          "email": "mia.chen@northwind.io",
+          "real_name": "Mia Chen"
+        },
+        "real_name": "Mia Chen"
+      },
+      {
+        "id": "U1F1C05F1",
+        "name": "raj.patel",
+        "profile": {
+          "email": "raj.patel@northwind.io",
+          "real_name": "Raj Patel"
+        },
+        "real_name": "Raj Patel"
+      },
+      {
+        "id": "UE6FD313A",
+        "name": "dana.ortiz",
+        "profile": {
+          "email": "dana.ortiz@northwind.io",
+          "real_name": "Dana Ortiz"
+        },
+        "real_name": "Dana Ortiz"
+      },
+      {
+        "id": "U9590A56C",
+        "name": "sam.igwe",
+        "profile": {
+          "email": "sam.igwe@northwind.io",
+          "real_name": "Sam Igwe"
+        },
+        "real_name": "Sam Igwe"
+      },
+      {
+        "id": "U383CD6A6",
+        "name": "lena.ford",
+        "profile": {
+          "email": "lena.ford@northwind.io",
+          "real_name": "Lena Ford"
+        },
+        "real_name": "Lena Ford"
+      },
+      {
+        "id": "U39486AC4",
+        "name": "omar.diaz",
+        "profile": {
+          "email": "omar.diaz@northwind.io",
+          "real_name": "Omar Diaz"
+        },
+        "real_name": "Omar Diaz"
+      }
+    ]
+  },
+  "snipeit": {
+    "hardware": [
+      {
+        "asset_tag": "NW-3001",
+        "id": 3001,
+        "model_id": 1,
+        "name": "ledger-worker-old",
+        "serial": "SN-WORK-OLD",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "NW-3002",
+        "id": 3002,
+        "model_id": 1,
+        "name": "ledger-api-01",
+        "serial": "SN-LEDG-01",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "NW-3003",
+        "id": 3003,
+        "model_id": 1,
+        "name": "ledger-api-02",
+        "serial": "SN-LEDG-02",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "NW-3004",
+        "id": 3004,
+        "model_id": 1,
+        "name": "payments-01",
+        "serial": "SN-PAY-01",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "NW-3005",
+        "id": 3005,
+        "model_id": 1,
+        "name": "payments-02",
+        "serial": "SN-PAY-02",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "NW-3006",
+        "id": 3006,
+        "model_id": 1,
+        "name": "billing-01",
+        "serial": "SN-BILL-01",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "NW-3007",
+        "id": 3007,
+        "model_id": 1,
+        "name": "search-01",
+        "serial": "SN-SRCH-01",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "NW-3008",
+        "id": 3008,
+        "model_id": 1,
+        "name": "auth-01",
+        "serial": "SN-AUTH-01",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "NW-3009",
+        "id": 3009,
+        "model_id": 1,
+        "name": "warehouse-01",
+        "serial": "SN-WH-01",
+        "status_id": 2
+      },
+      {
+        "asset_tag": "NW-3010",
+        "id": 3010,
+        "model_id": 1,
+        "name": "retired-01",
+        "serial": "SN-RET-01",
+        "status_id": 4
+      }
+    ],
+    "models": [
+      {
+        "id": 1,
+        "model_number": "R760",
+        "name": "PowerEdge R760"
+      }
+    ],
+    "statuslabels": [
+      {
+        "id": 1,
+        "name": "Ready to Deploy",
+        "status_meta": "deployable",
+        "status_type": "deployable"
+      },
+      {
+        "id": 2,
+        "name": "Deployed",
+        "status_meta": "deployed",
+        "status_type": "deployable"
+      },
+      {
+        "id": 3,
+        "name": "Pending Repair",
+        "status_meta": "undeployable",
+        "status_type": "undeployable"
+      },
+      {
+        "id": 4,
+        "name": "Archived",
+        "status_meta": "archived",
+        "status_type": "archived"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1111 @@
+{
+ "_now": "2026-07-16T00:00:00.000Z",
+ "salesforce": {
+  "User": [
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005MARCUSFELD00001"
+    },
+    "Id": "005MARCUSFELD00001",
+    "Username": "marcus.feld@meridian.example",
+    "Email": "marcus.feld@meridian.example",
+    "FirstName": "Marcus",
+    "LastName": "Feld",
+    "Name": "Marcus Feld",
+    "IsActive": true,
+    "Title": "Enterprise Account Executive"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005NADIAKHAN000001"
+    },
+    "Id": "005NADIAKHAN000001",
+    "Username": "nadia.khan@meridian.example",
+    "Email": "nadia.khan@meridian.example",
+    "FirstName": "Nadia",
+    "LastName": "Khan",
+    "Name": "Nadia Khan",
+    "IsActive": true,
+    "Title": "Support Lead"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005TOMASINTEG0001"
+    },
+    "Id": "005TOMASINTEG0001",
+    "Username": "tomas@lindgren-consulting.example",
+    "Email": "tomas@lindgren-consulting.example",
+    "FirstName": "Tomas",
+    "LastName": "Lindgren",
+    "Name": "Tomas Lindgren",
+    "IsActive": true,
+    "Title": "Integration User (Lindgren Consulting)"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005DIEGOSANTOS001"
+    },
+    "Id": "005DIEGOSANTOS001",
+    "Username": "diego.santos@meridian.example",
+    "Email": "diego.santos@meridian.example",
+    "FirstName": "Diego",
+    "LastName": "Santos",
+    "Name": "Diego Santos",
+    "IsActive": true,
+    "Title": "Product Manager"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005SOFIAVANCE0001"
+    },
+    "Id": "005SOFIAVANCE0001",
+    "Username": "sofia.vance@meridian.example",
+    "Email": "sofia.vance@meridian.example",
+    "FirstName": "Sofia",
+    "LastName": "Vance",
+    "Name": "Sofia Vance",
+    "IsActive": true,
+    "Title": "Regional Sales Manager"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005OMARHADID00001"
+    },
+    "Id": "005OMARHADID00001",
+    "Username": "omar.hadid@meridian.example",
+    "Email": "omar.hadid@meridian.example",
+    "FirstName": "Omar",
+    "LastName": "Hadid",
+    "Name": "Omar Hadid",
+    "IsActive": true,
+    "Title": "Support Manager"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005LENAORTIZ00001"
+    },
+    "Id": "005LENAORTIZ00001",
+    "Username": "lena.ortiz@meridian.example",
+    "Email": "lena.ortiz@meridian.example",
+    "FirstName": "Lena",
+    "LastName": "Ortiz",
+    "Name": "Lena Ortiz",
+    "IsActive": true,
+    "Title": "Account Executive"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005KAIROSSI000001"
+    },
+    "Id": "005KAIROSSI000001",
+    "Username": "kai.rossi@meridian.example",
+    "Email": "kai.rossi@meridian.example",
+    "FirstName": "Kai",
+    "LastName": "Rossi",
+    "Name": "Kai Rossi",
+    "IsActive": true,
+    "Title": "Support Agent"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005FILLER000000000"
+    },
+    "Id": "005FILLER000000000",
+    "Username": "ava.nguyen@meridian.example",
+    "Email": "ava.nguyen@meridian.example",
+    "FirstName": "Ava",
+    "LastName": "Nguyen",
+    "Name": "Ava Nguyen",
+    "IsActive": true,
+    "Title": "Employee"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005FILLER000000001"
+    },
+    "Id": "005FILLER000000001",
+    "Username": "leo.silva@meridian.example",
+    "Email": "leo.silva@meridian.example",
+    "FirstName": "Leo",
+    "LastName": "Silva",
+    "Name": "Leo Silva",
+    "IsActive": true,
+    "Title": "Employee"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005FILLER000000002"
+    },
+    "Id": "005FILLER000000002",
+    "Username": "mia.weber@meridian.example",
+    "Email": "mia.weber@meridian.example",
+    "FirstName": "Mia",
+    "LastName": "Weber",
+    "Name": "Mia Weber",
+    "IsActive": true,
+    "Title": "Employee"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005FILLER000000003"
+    },
+    "Id": "005FILLER000000003",
+    "Username": "noah.costa@meridian.example",
+    "Email": "noah.costa@meridian.example",
+    "FirstName": "Noah",
+    "LastName": "Costa",
+    "Name": "Noah Costa",
+    "IsActive": true,
+    "Title": "Employee"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005FILLER000000004"
+    },
+    "Id": "005FILLER000000004",
+    "Username": "zoe.berg@meridian.example",
+    "Email": "zoe.berg@meridian.example",
+    "FirstName": "Zoe",
+    "LastName": "Berg",
+    "Name": "Zoe Berg",
+    "IsActive": true,
+    "Title": "Employee"
+   },
+   {
+    "attributes": {
+     "type": "User",
+     "url": "/services/data/v67.0/sobjects/User/005FILLER000000005"
+    },
+    "Id": "005FILLER000000005",
+    "Username": "hugo.falk@meridian.example",
+    "Email": "hugo.falk@meridian.example",
+    "FirstName": "Hugo",
+    "LastName": "Falk",
+    "Name": "Hugo Falk",
+    "IsActive": true,
+    "Title": "Employee"
+   }
+  ],
+  "Account": [
+   {
+    "attributes": {
+     "type": "Account",
+     "url": "/services/data/v67.0/sobjects/Account/001ACCTNORTHRIDG1"
+    },
+    "Id": "001ACCTNORTHRIDG1",
+    "Name": "Northridge Logistics",
+    "OwnerId": "005MARCUSFELD00001",
+    "Industry": "Transportation"
+   },
+   {
+    "attributes": {
+     "type": "Account",
+     "url": "/services/data/v67.0/sobjects/Account/001ACCTBLUEHARB01"
+    },
+    "Id": "001ACCTBLUEHARB01",
+    "Name": "Blue Harbor Foods",
+    "OwnerId": "005LENAORTIZ00001",
+    "Industry": "Retail"
+   }
+  ],
+  "Opportunity": [
+   {
+    "attributes": {
+     "type": "Opportunity",
+     "url": "/services/data/v67.0/sobjects/Opportunity/006OPPRENEWALFY26"
+    },
+    "Id": "006OPPRENEWALFY26",
+    "Name": "Northridge Renewal FY26",
+    "OwnerId": "005MARCUSFELD00001",
+    "StageName": "Negotiation",
+    "Amount": 240000
+   },
+   {
+    "attributes": {
+     "type": "Opportunity",
+     "url": "/services/data/v67.0/sobjects/Opportunity/006OPPINTEGROLLOUT"
+    },
+    "Id": "006OPPINTEGROLLOUT",
+    "Name": "Integration Rollout",
+    "OwnerId": "005TOMASINTEG0001",
+    "StageName": "Proposal",
+    "Amount": 90000
+   },
+   {
+    "attributes": {
+     "type": "Opportunity",
+     "url": "/services/data/v67.0/sobjects/Opportunity/006OPPNEWLOGO0001"
+    },
+    "Id": "006OPPNEWLOGO0001",
+    "Name": "New Logo - Acme",
+    "OwnerId": "005LENAORTIZ00001",
+    "StageName": "Prospecting",
+    "Amount": 60000
+   }
+  ],
+  "Case": [
+   {
+    "attributes": {
+     "type": "Case",
+     "url": "/services/data/v67.0/sobjects/Case/500CASEESCAL00001"
+    },
+    "Id": "500CASEESCAL00001",
+    "Name": "Escalation: data export failing",
+    "OwnerId": "005NADIAKHAN000001",
+    "Status": "Working",
+    "Subject": "Escalation: data export failing"
+   },
+   {
+    "attributes": {
+     "type": "Case",
+     "url": "/services/data/v67.0/sobjects/Case/500CASETIER1_001"
+    },
+    "Id": "500CASETIER1_001",
+    "Name": "Password reset",
+    "OwnerId": "005KAIROSSI000001",
+    "Status": "New",
+    "Subject": "Password reset"
+   }
+  ]
+ },
+ "hubspot": {
+  "contacts": {},
+  "deals": {
+   "4000000001": {
+    "id": "4000000001",
+    "properties": {
+     "hs_object_id": "4000000001",
+     "dealname": "Northridge Expansion",
+     "hubspot_owner_id": "hs-owner-marcus",
+     "dealstage": "contractsent",
+     "amount": "50000"
+    },
+    "createdAt": "2026-07-16T00:00:00.000Z",
+    "updatedAt": "2026-07-16T00:00:00.000Z",
+    "archived": false
+   },
+   "4000000002": {
+    "id": "4000000002",
+    "properties": {
+     "hs_object_id": "4000000002",
+     "dealname": "Blue Harbor Upsell",
+     "hubspot_owner_id": "hs-owner-sofia",
+     "dealstage": "contractsent",
+     "amount": "50000"
+    },
+    "createdAt": "2026-07-16T00:00:00.000Z",
+    "updatedAt": "2026-07-16T00:00:00.000Z",
+    "archived": false
+   }
+  }
+ },
+ "pagerduty": {
+  "users": [
+   {
+    "id": "PPRIYA1",
+    "type": "user",
+    "name": "Priya Raman",
+    "summary": "Priya Raman",
+    "email": "priya.raman@meridian.example",
+    "role": "user",
+    "job_title": "Site Reliability Engineer",
+    "time_zone": "UTC",
+    "teams": [
+     {
+      "id": "PTMPAY1",
+      "type": "team_reference",
+      "summary": "Payments",
+      "role": "responder"
+     }
+    ]
+   },
+   {
+    "id": "PDIEGO1",
+    "type": "user",
+    "name": "Diego Santos",
+    "summary": "Diego Santos",
+    "email": "diego.santos@meridian.example",
+    "role": "user",
+    "job_title": "Product Manager",
+    "time_zone": "UTC",
+    "teams": [
+     {
+      "id": "PTMINF1",
+      "type": "team_reference",
+      "summary": "Infrastructure",
+      "role": "responder"
+     }
+    ]
+   },
+   {
+    "id": "PAISHA1",
+    "type": "user",
+    "name": "Aisha Bello",
+    "summary": "Aisha Bello",
+    "email": "aisha.bello@meridian.example",
+    "role": "user",
+    "job_title": "IT Administrator",
+    "time_zone": "UTC",
+    "teams": []
+   },
+   {
+    "id": "POWEN01",
+    "type": "user",
+    "name": "Owen Pryce",
+    "summary": "Owen Pryce",
+    "email": "owen.pryce@pryce-oncall.example",
+    "role": "user",
+    "job_title": "Contract On-call Engineer",
+    "time_zone": "UTC",
+    "teams": []
+   },
+   {
+    "id": "PRAVI01",
+    "type": "user",
+    "name": "Ravi Menon",
+    "summary": "Ravi Menon",
+    "email": "ravi.menon@meridian.example",
+    "role": "user",
+    "job_title": "Site Reliability Engineer",
+    "time_zone": "UTC",
+    "teams": [
+     {
+      "id": "PTMPAY1",
+      "type": "team_reference",
+      "summary": "Payments",
+      "role": "responder"
+     }
+    ]
+   },
+   {
+    "id": "PLENA01",
+    "type": "user",
+    "name": "Lena Ortiz",
+    "summary": "Lena Ortiz",
+    "email": "lena.ortiz@meridian.example",
+    "role": "user",
+    "job_title": "Infrastructure Engineer",
+    "time_zone": "UTC",
+    "teams": [
+     {
+      "id": "PTMINF1",
+      "type": "team_reference",
+      "summary": "Infrastructure",
+      "role": "responder"
+     }
+    ]
+   },
+   {
+    "id": "PMAYA01",
+    "type": "user",
+    "name": "Maya Cole",
+    "summary": "Maya Cole",
+    "email": "maya.cole@meridian.example",
+    "role": "user",
+    "job_title": "Corp Systems Engineer",
+    "time_zone": "UTC",
+    "teams": []
+   }
+  ],
+  "teams": [
+   {
+    "id": "PTMPAY1",
+    "type": "team",
+    "name": "Payments",
+    "summary": "Payments",
+    "description": "Payments platform team."
+   },
+   {
+    "id": "PTMINF1",
+    "type": "team",
+    "name": "Infrastructure",
+    "summary": "Infrastructure",
+    "description": "Core infra team."
+   }
+  ],
+  "escalation_policies": [
+   {
+    "id": "PEPPAY1",
+    "type": "escalation_policy",
+    "name": "Payments On-Call",
+    "summary": "Payments On-Call",
+    "description": "",
+    "num_loops": 0,
+    "escalation_rules": [
+     {
+      "id": "PEPPAY1R1",
+      "escalation_delay_in_minutes": 30,
+      "targets": [
+       {
+        "id": "PPRIYA1",
+        "type": "user_reference",
+        "summary": "Priya Raman"
+       }
+      ]
+     }
+    ],
+    "teams": [
+     {
+      "id": "PTMPAY1",
+      "type": "team_reference",
+      "summary": "Payments"
+     }
+    ]
+   },
+   {
+    "id": "PEPINF1",
+    "type": "escalation_policy",
+    "name": "Infrastructure On-Call",
+    "summary": "Infrastructure On-Call",
+    "description": "",
+    "num_loops": 0,
+    "escalation_rules": [
+     {
+      "id": "PEPINF1R1",
+      "escalation_delay_in_minutes": 30,
+      "targets": [
+       {
+        "id": "PDIEGO1",
+        "type": "user_reference",
+        "summary": "Diego Santos"
+       },
+       {
+        "id": "PLENA01",
+        "type": "user_reference",
+        "summary": "Lena Ortiz"
+       }
+      ]
+     }
+    ],
+    "teams": [
+     {
+      "id": "PTMINF1",
+      "type": "team_reference",
+      "summary": "Infrastructure"
+     }
+    ]
+   },
+   {
+    "id": "PEPCOR1",
+    "type": "escalation_policy",
+    "name": "Corp Systems On-Call",
+    "summary": "Corp Systems On-Call",
+    "description": "",
+    "num_loops": 0,
+    "escalation_rules": [
+     {
+      "id": "PEPCOR1R1",
+      "escalation_delay_in_minutes": 30,
+      "targets": [
+       {
+        "id": "PAISHA1",
+        "type": "user_reference",
+        "summary": "Aisha Bello"
+       },
+       {
+        "id": "PRAVI01",
+        "type": "user_reference",
+        "summary": "Ravi Menon"
+       },
+       {
+        "id": "PMAYA01",
+        "type": "user_reference",
+        "summary": "Maya Cole"
+       }
+      ]
+     }
+    ],
+    "teams": []
+   },
+   {
+    "id": "PEPSUP1",
+    "type": "escalation_policy",
+    "name": "Support Escalation",
+    "summary": "Support Escalation",
+    "description": "",
+    "num_loops": 0,
+    "escalation_rules": [
+     {
+      "id": "PEPSUP1R1",
+      "escalation_delay_in_minutes": 30,
+      "targets": [
+       {
+        "id": "POWEN01",
+        "type": "user_reference",
+        "summary": "Owen Pryce"
+       },
+       {
+        "id": "PRAVI01",
+        "type": "user_reference",
+        "summary": "Ravi Menon"
+       }
+      ]
+     }
+    ],
+    "teams": []
+   }
+  ],
+  "schedules": [
+   {
+    "id": "PSCPAY1",
+    "type": "schedule",
+    "name": "Payments Primary",
+    "summary": "Payments Primary",
+    "description": "",
+    "time_zone": "UTC",
+    "schedule_layers": [
+     {
+      "id": "PSCPAY1L1",
+      "name": "Layer 1",
+      "start": "2026-01-01T00:00:00Z",
+      "rotation_virtual_start": "2026-01-01T00:00:00Z",
+      "rotation_turn_length_seconds": 604800,
+      "users": [
+       {
+        "user": {
+         "id": "PPRIYA1",
+         "type": "user_reference",
+         "summary": "Priya Raman"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "PSCCOR1",
+    "type": "schedule",
+    "name": "Corp Primary",
+    "summary": "Corp Primary",
+    "description": "",
+    "time_zone": "UTC",
+    "schedule_layers": [
+     {
+      "id": "PSCCOR1L1",
+      "name": "Layer 1",
+      "start": "2026-01-01T00:00:00Z",
+      "rotation_virtual_start": "2026-01-01T00:00:00Z",
+      "rotation_turn_length_seconds": 604800,
+      "users": [
+       {
+        "user": {
+         "id": "PMAYA01",
+         "type": "user_reference",
+         "summary": "Maya Cole"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "overrides": [
+   {
+    "id": "POVPRIYA",
+    "schedule_id": "PSCPAY1",
+    "start": "2026-07-01T00:00:00Z",
+    "end": "2026-08-01T00:00:00Z",
+    "user": {
+     "id": "PPRIYA1",
+     "type": "user_reference",
+     "summary": "Priya Raman"
+    }
+   }
+  ],
+  "services": [
+   {
+    "id": "PSVPAY1",
+    "type": "service",
+    "name": "Payments API",
+    "summary": "Payments API",
+    "description": "",
+    "status": "active",
+    "escalation_policy": {
+     "id": "PEPPAY1",
+     "type": "escalation_policy_reference",
+     "summary": "Payments On-Call"
+    },
+    "teams": [
+     {
+      "id": "PTMPAY1",
+      "type": "team_reference",
+      "summary": "Payments"
+     }
+    ]
+   }
+  ],
+  "current_user_id": "PRAVI01"
+ },
+ "servicenow": {
+  "sys_user": [
+   {
+    "sys_id": "sn0000000000000000000000priya001",
+    "user_name": "priya.raman",
+    "first_name": "Priya",
+    "last_name": "Raman",
+    "name": "Priya Raman",
+    "email": "priya.raman@meridian.example",
+    "active": true,
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   },
+   {
+    "sys_id": "sn0000000000000000000000nadia001",
+    "user_name": "nadia.khan",
+    "first_name": "Nadia",
+    "last_name": "Khan",
+    "name": "Nadia Khan",
+    "email": "nadia.khan@meridian.example",
+    "active": true,
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   },
+   {
+    "sys_id": "sn0000000000000000000000aisha001",
+    "user_name": "aisha.bello",
+    "first_name": "Aisha",
+    "last_name": "Bello",
+    "name": "Aisha Bello",
+    "email": "aisha.bello@meridian.example",
+    "active": true,
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   },
+   {
+    "sys_id": "sn0000000000000000000000diego001",
+    "user_name": "diego.santos",
+    "first_name": "Diego",
+    "last_name": "Santos",
+    "name": "Diego Santos",
+    "email": "diego.santos@meridian.example",
+    "active": true,
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   },
+   {
+    "sys_id": "sn0000000000000000000000sofia001",
+    "user_name": "sofia.vance",
+    "first_name": "Sofia",
+    "last_name": "Vance",
+    "name": "Sofia Vance",
+    "email": "sofia.vance@meridian.example",
+    "active": true,
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   },
+   {
+    "sys_id": "sn000000000000000000svcpayprobe1",
+    "user_name": "svc.payments.probe",
+    "first_name": "Payments",
+    "last_name": "Probe (svc)",
+    "name": "Payments Probe (svc)",
+    "email": "svc-payments-probe@meridian.example",
+    "active": true,
+    "sys_created_by": "priya.raman",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1",
+    "owned_by": "sn0000000000000000000000priya001"
+   },
+   {
+    "sys_id": "sn0000000000000000svcbackuplegit",
+    "user_name": "svc.backup.runner",
+    "first_name": "Backup",
+    "last_name": "Runner (svc)",
+    "name": "Backup Runner (svc)",
+    "email": "svc-backup-runner@meridian.example",
+    "active": true,
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1",
+    "owned_by": "admin"
+   },
+   {
+    "sys_id": "sn00000000000000svcreportextract",
+    "user_name": "svc.report.extract",
+    "first_name": "Report",
+    "last_name": "Extract (svc)",
+    "name": "Report Extract (svc)",
+    "email": "svc-report-extract@meridian.example",
+    "active": true,
+    "sys_created_by": "sofia.vance",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1",
+    "owned_by": "sn0000000000000000000000sofia001"
+   }
+  ],
+  "sys_user_has_role": [
+   {
+    "sys_id": "snrole00000000000000000diegoadmin",
+    "user": "sn0000000000000000000000diego001",
+    "role": "admin",
+    "state": "active",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   },
+   {
+    "sys_id": "snrole00000000000000000aishaadmin",
+    "user": "sn0000000000000000000000aisha001",
+    "role": "admin",
+    "state": "active",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   },
+   {
+    "sys_id": "snrole00000000000000000sofiaadmin",
+    "user": "sn0000000000000000000000sofia001",
+    "role": "admin",
+    "state": "active",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   }
+  ],
+  "sysauto_script": [
+   {
+    "sys_id": "snjob0000000000000000nightlycmdb01",
+    "name": "Nightly CMDB Sync",
+    "active": true,
+    "run_type": "periodically",
+    "run_as": "sn0000000000000000000000aisha001",
+    "script": "// scheduled job",
+    "sys_created_by": "aisha.bello",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   },
+   {
+    "sys_id": "snjob0000000000paymentsledgerrec1",
+    "name": "Payments Ledger Reconciliation",
+    "active": true,
+    "run_type": "periodically",
+    "run_as": "sn0000000000000000000000priya001",
+    "script": "// scheduled job",
+    "sys_created_by": "priya.raman",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   },
+   {
+    "sys_id": "snjob0000000000000000dailyslarollup",
+    "name": "Daily SLA Rollup",
+    "active": true,
+    "run_type": "periodically",
+    "run_as": "admin",
+    "script": "// scheduled job",
+    "sys_created_by": "admin",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   },
+   {
+    "sys_id": "snjob000000000000weeklylicaudit01",
+    "name": "Weekly License Audit",
+    "active": true,
+    "run_type": "periodically",
+    "run_as": "sn0000000000000000000000sofia001",
+    "script": "// scheduled job",
+    "sys_created_by": "sofia.vance",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   }
+  ],
+  "oauth_entity": [
+   {
+    "sys_id": "snoauth00000paymentsexportapi001",
+    "name": "Payments Export API Client",
+    "active": true,
+    "type": "client",
+    "client_id": "payments-export-api-client",
+    "owned_by": "sn0000000000000000000000priya001",
+    "sys_created_by": "priya.raman",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   },
+   {
+    "sys_id": "snoauth0000analyticssyncapi00001",
+    "name": "Analytics Sync API Client",
+    "active": true,
+    "type": "client",
+    "client_id": "analytics-sync-api-client",
+    "owned_by": "sn0000000000000000000000sofia001",
+    "sys_created_by": "sofia.vance",
+    "sys_created_on": "2026-07-16 00:00:00",
+    "sys_updated_on": "2026-07-16 00:00:00",
+    "sys_updated_by": "admin",
+    "sys_mod_count": "1"
+   }
+  ]
+ },
+ "freshdesk": {
+  "agents": [
+   {
+    "id": 5001,
+    "available": true,
+    "occasional": false,
+    "ticket_scope": 1,
+    "created_at": "2026-07-16T00:00:00.000Z",
+    "updated_at": "2026-07-16T00:00:00.000Z",
+    "contact": {
+     "active": true,
+     "email": "nadia.khan@meridian.example",
+     "name": "Nadia Khan",
+     "job_title": "Support Agent"
+    }
+   },
+   {
+    "id": 5002,
+    "available": true,
+    "occasional": false,
+    "ticket_scope": 1,
+    "created_at": "2026-07-16T00:00:00.000Z",
+    "updated_at": "2026-07-16T00:00:00.000Z",
+    "contact": {
+     "active": true,
+     "email": "owen.pryce@pryce-oncall.example",
+     "name": "Owen Pryce",
+     "job_title": "Support Agent"
+    }
+   },
+   {
+    "id": 5003,
+    "available": true,
+    "occasional": false,
+    "ticket_scope": 1,
+    "created_at": "2026-07-16T00:00:00.000Z",
+    "updated_at": "2026-07-16T00:00:00.000Z",
+    "contact": {
+     "active": true,
+     "email": "kai.rossi@meridian.example",
+     "name": "Kai Rossi",
+     "job_title": "Support Agent"
+    }
+   }
+  ],
+  "contacts": [
+   {
+    "id": 6001,
+    "name": "River Delgado",
+    "email": "river@customer.example",
+    "active": true
+   },
+   {
+    "id": 6002,
+    "name": "Sam Turner",
+    "email": "sam@customer.example",
+    "active": true
+   }
+  ],
+  "tickets": [
+   {
+    "id": 7000,
+    "subject": "Offboarding - Jordan Mele (Q2 FY26) [COMPLETED]",
+    "status": 5,
+    "priority": 2,
+    "type": "Task",
+    "requester_id": 6002,
+    "responder_id": 5003,
+    "created_at": "2026-07-16T00:00:00.000Z",
+    "updated_at": "2026-07-16T00:00:00.000Z",
+    "description_text": "Offboarding for Jordan Mele (Platform SRE, departed end of Q2). Closed - all actions completed and verified:\n- Deactivated Jordan's logins in every system (CRM, ITSM, on-call, chat) so they can no longer authenticate anywhere.\n- Reassigned the Salesforce accounts and the open opportunity Jordan owned to the regional manager, and the support case to the support lead, so nothing was left without an owner.\n- Handled the automation Jordan left behind: a nightly scheduled job that still ran under Jordan's account was re-pointed to an active platform owner, and a service account plus an API client Jordan had created were disabled once confirmed unused. (Automation belonging to current staff was left running.)\n- Removed Jordan from the on-call schedules and escalation policies, handing the coverage to another engineer so no rotation was left empty."
+   },
+   {
+    "id": 7001,
+    "subject": "Q3 restructure - staff offboarding & role changes",
+    "status": 2,
+    "priority": 2,
+    "type": "Task",
+    "requester_id": 6001,
+    "responder_id": 5003,
+    "created_at": "2026-07-16T00:00:00.000Z",
+    "updated_at": "2026-07-16T00:00:00.000Z",
+    "description_text": "Please work the following staff changes from the Q3 restructure. Each departed individual must be FULLY deprovisioned so they retain no access to any company system and cannot authenticate. Leave the environment correct, secure and consistent.\n1) Marcus Feld - Enterprise AE - departed 2026-07-10.\n2) Priya Raman - Site Reliability Engineer (Payments) - departed 2026-07-09.\n3) Diego Santos - CHANGED ROLES from SRE to Product Manager (still an active employee): retire his old SRE/infrastructure access only; his accounts must remain active.\n4) Nadia Khan - Support Lead - departed 2026-06-30.\n5) Tomas Lindgren - contractor, Lindgren Consulting engagement ended 2026-07-05.\n6) Aisha Bello - IT Administrator - departed 2026-07-08.\n7) Owen Pryce - contract on-call engineer (Pryce On-call) - engagement ended 2026-07-11."
+   }
+  ]
+ },
+ "slack": {
+  "users": [
+   {
+    "id": "UMARCUS01",
+    "name": "marcus.feld",
+    "real_name": "Marcus Feld",
+    "deleted": false,
+    "is_restricted": false,
+    "profile": {
+     "email": "marcus.feld@meridian.example",
+     "real_name": "Marcus Feld",
+     "display_name": "Marcus Feld"
+    }
+   },
+   {
+    "id": "UPRIYA001",
+    "name": "priya.raman",
+    "real_name": "Priya Raman",
+    "deleted": false,
+    "is_restricted": false,
+    "profile": {
+     "email": "priya.raman@meridian.example",
+     "real_name": "Priya Raman",
+     "display_name": "Priya Raman"
+    }
+   },
+   {
+    "id": "UNADIA001",
+    "name": "nadia.khan",
+    "real_name": "Nadia Khan",
+    "deleted": false,
+    "is_restricted": false,
+    "profile": {
+     "email": "nadia.khan@meridian.example",
+     "real_name": "Nadia Khan",
+     "display_name": "Nadia Khan"
+    }
+   },
+   {
+    "id": "UAISHA001",
+    "name": "aisha.bello",
+    "real_name": "Aisha Bello",
+    "deleted": false,
+    "is_restricted": false,
+    "profile": {
+     "email": "aisha.bello@meridian.example",
+     "real_name": "Aisha Bello",
+     "display_name": "Aisha Bello"
+    }
+   },
+   {
+    "id": "UGUESTTOM1",
+    "name": "tomas.lindgren",
+    "real_name": "Tomas Lindgren",
+    "deleted": false,
+    "is_restricted": true,
+    "profile": {
+     "email": "tomas@lindgren-consulting.example",
+     "real_name": "Tomas Lindgren",
+     "display_name": "Tomas Lindgren"
+    }
+   },
+   {
+    "id": "UDIEGO001",
+    "name": "diego.santos",
+    "real_name": "Diego Santos",
+    "deleted": false,
+    "is_restricted": false,
+    "profile": {
+     "email": "diego.santos@meridian.example",
+     "real_name": "Diego Santos",
+     "display_name": "Diego Santos"
+    }
+   },
+   {
+    "id": "USOFIA001",
+    "name": "sofia.vance",
+    "real_name": "Sofia Vance",
+    "deleted": false,
+    "is_restricted": false,
+    "profile": {
+     "email": "sofia.vance@meridian.example",
+     "real_name": "Sofia Vance",
+     "display_name": "Sofia Vance"
+    }
+   },
+   {
+    "id": "URAVI0001",
+    "name": "ravi.menon",
+    "real_name": "Ravi Menon",
+    "deleted": false,
+    "is_restricted": false,
+    "profile": {
+     "email": "ravi.menon@meridian.example",
+     "real_name": "Ravi Menon",
+     "display_name": "Ravi Menon"
+    }
+   }
+  ],
+  "channels": [
+   {
+    "id": "CDEALS001",
+    "name": "deals-emea",
+    "is_private": true,
+    "members": [
+     "UMARCUS01",
+     "USOFIA001"
+    ]
+   },
+   {
+    "id": "CONCALL01",
+    "name": "payments-oncall",
+    "is_private": true,
+    "members": [
+     "UPRIYA001",
+     "URAVI0001"
+    ]
+   }
+  ],
+  "usergroups": [
+   {
+    "id": "SADMINS01",
+    "handle": "it-admins",
+    "name": "IT Admins",
+    "users": [
+     "UAISHA001",
+     "URAVI0001"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "id": "T000001",
+    "name": "Meridian"
+   }
+  ]
+ }
+}

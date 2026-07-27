@@ -1,0 +1,1079 @@
+{
+ "_now": "2026-07-16T09:00:00Z",
+ "device42": {
+  "devices": [
+   {
+    "device_id": 8000,
+    "id": 8000,
+    "in_service": true,
+    "ip": "10.20.0.11",
+    "lifecycle_status": "In Production",
+    "name": "ns1",
+    "notes": "dns nameserver, active production; internal endpoint 10.20.0.11.",
+    "role": "nameserver",
+    "service": "dns",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8001,
+    "id": 8001,
+    "in_service": true,
+    "ip": "10.20.0.12",
+    "lifecycle_status": "In Production",
+    "name": "ns2",
+    "notes": "dns nameserver, active production; internal endpoint 10.20.0.12.",
+    "role": "nameserver",
+    "service": "dns",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8002,
+    "id": 8002,
+    "in_service": true,
+    "ip": "10.20.1.10",
+    "lifecycle_status": "In Production",
+    "name": "billing-vip",
+    "notes": "billing vip, active production; internal endpoint 10.20.1.10.",
+    "role": "vip",
+    "service": "billing",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8003,
+    "id": 8003,
+    "in_service": true,
+    "ip": "10.20.1.11",
+    "lifecycle_status": "In Production",
+    "name": "orders-vip",
+    "notes": "orders vip, active production; internal endpoint 10.20.1.11.",
+    "role": "vip",
+    "service": "orders",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8004,
+    "id": 8004,
+    "in_service": true,
+    "ip": "10.20.1.12",
+    "lifecycle_status": "In Production",
+    "name": "reports-vip",
+    "notes": "reports vip, active production; internal endpoint 10.20.1.12.",
+    "role": "vip",
+    "service": "reports",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8005,
+    "id": 8005,
+    "in_service": true,
+    "ip": "10.20.1.18",
+    "lifecycle_status": "In Production",
+    "name": "catalog-vip",
+    "notes": "catalog vip, active production; internal endpoint 10.20.1.18.",
+    "role": "vip",
+    "service": "catalog",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8006,
+    "id": 8006,
+    "in_service": true,
+    "ip": "10.20.1.19",
+    "lifecycle_status": "In Production",
+    "name": "messaging-vip",
+    "notes": "messaging vip, active production; internal endpoint 10.20.1.19.",
+    "role": "vip",
+    "service": "messaging",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8007,
+    "id": 8007,
+    "in_service": true,
+    "ip": "10.20.1.13",
+    "lifecycle_status": "In Production",
+    "name": "inventory-vip",
+    "notes": "inventory vip, active production; internal endpoint 10.20.1.13.",
+    "role": "vip",
+    "service": "inventory",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8008,
+    "id": 8008,
+    "in_service": true,
+    "ip": "10.20.1.17",
+    "lifecycle_status": "In Production",
+    "name": "search-vip",
+    "notes": "search vip, active production; internal endpoint 10.20.1.17.",
+    "role": "vip",
+    "service": "search",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8009,
+    "id": 8009,
+    "in_service": true,
+    "ip": "10.20.1.14",
+    "lifecycle_status": "In Production",
+    "name": "api-vip",
+    "notes": "api vip, active production; internal endpoint 10.20.1.14.",
+    "role": "vip",
+    "service": "api",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8010,
+    "id": 8010,
+    "in_service": true,
+    "ip": "10.20.1.15",
+    "lifecycle_status": "In Production",
+    "name": "auth-vip",
+    "notes": "auth vip, active production; internal endpoint 10.20.1.15.",
+    "role": "vip",
+    "service": "auth",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8011,
+    "id": 8011,
+    "in_service": true,
+    "ip": "10.20.1.16",
+    "lifecycle_status": "In Production",
+    "name": "payments-vip",
+    "notes": "payments vip, active production; internal endpoint 10.20.1.16.",
+    "role": "vip",
+    "service": "payments",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8012,
+    "id": 8012,
+    "in_service": true,
+    "ip": "10.20.1.20",
+    "lifecycle_status": "In Production",
+    "name": "directory-vip",
+    "notes": "directory vip, active production; internal endpoint 10.20.1.20.",
+    "role": "vip",
+    "service": "directory",
+    "service_level": "Production",
+    "type": "virtual"
+   },
+   {
+    "device_id": 8013,
+    "id": 8013,
+    "in_service": true,
+    "ip": "10.20.1.21",
+    "lifecycle_status": "In Production",
+    "name": "identity-vip",
+    "notes": "identity vip, active production; internal endpoint 10.20.1.21.",
+    "role": "vip",
+    "service": "identity",
+    "service_level": "Production",
+    "type": "virtual"
+   }
+  ],
+  "services": [
+   {
+    "aliases": [
+     "billing-web.apps.meridian.example"
+    ],
+    "dns_name": "billing.apps.meridian.example",
+    "exposure": "split-horizon",
+    "internal_endpoint": "10.20.1.10",
+    "name": "billing",
+    "notes": "billing is reached internally at 10.20.1.10 (billing.apps.meridian.example).",
+    "type": "application"
+   },
+   {
+    "aliases": [
+     "orders-web.apps.meridian.example"
+    ],
+    "dns_name": "orders.apps.meridian.example",
+    "exposure": "split-horizon",
+    "internal_endpoint": "10.20.1.11",
+    "name": "orders",
+    "notes": "orders is reached internally at 10.20.1.11 (orders.apps.meridian.example).",
+    "type": "application"
+   },
+   {
+    "aliases": [
+     "reports-web.apps.meridian.example"
+    ],
+    "dns_name": "reports.apps.meridian.example",
+    "exposure": "split-horizon",
+    "internal_endpoint": "10.20.1.12",
+    "name": "reports",
+    "notes": "reports is reached internally at 10.20.1.12 (reports.apps.meridian.example).",
+    "type": "application"
+   },
+   {
+    "aliases": [
+     "catalog-web.apps.meridian.example"
+    ],
+    "dns_name": "catalog.apps.meridian.example",
+    "exposure": "split-horizon",
+    "internal_endpoint": "10.20.1.18",
+    "name": "catalog",
+    "notes": "catalog is reached internally at 10.20.1.18 (catalog.apps.meridian.example).",
+    "type": "application"
+   },
+   {
+    "aliases": [
+     "messaging-web.apps.meridian.example"
+    ],
+    "dns_name": "messaging.apps.meridian.example",
+    "exposure": "split-horizon",
+    "internal_endpoint": "10.20.1.19",
+    "name": "messaging",
+    "notes": "messaging is reached internally at 10.20.1.19 (messaging.apps.meridian.example).",
+    "type": "application"
+   },
+   {
+    "aliases": [],
+    "dns_name": "inventory.apps.meridian.example",
+    "exposure": "split-horizon",
+    "internal_endpoint": "10.20.1.13",
+    "name": "inventory",
+    "notes": "inventory is reached internally at 10.20.1.13 (inventory.apps.meridian.example).",
+    "type": "application"
+   },
+   {
+    "aliases": [
+     "shop.apps.meridian.example"
+    ],
+    "dns_name": "search.apps.meridian.example",
+    "exposure": "split-horizon",
+    "internal_endpoint": "10.20.1.17",
+    "name": "search",
+    "notes": "search is reached internally at 10.20.1.17 (search.apps.meridian.example).",
+    "type": "application"
+   },
+   {
+    "aliases": [
+     "portal.apps.meridian.example"
+    ],
+    "dns_name": "api.apps.meridian.example",
+    "exposure": "split-horizon",
+    "internal_endpoint": "10.20.1.14",
+    "name": "api",
+    "notes": "api is reached internally at 10.20.1.14 (api.apps.meridian.example).",
+    "type": "application"
+   },
+   {
+    "aliases": [],
+    "dns_name": "auth.apps.meridian.example",
+    "exposure": "split-horizon",
+    "internal_endpoint": "10.20.1.15",
+    "name": "auth",
+    "notes": "auth is reached internally at 10.20.1.15 (auth.apps.meridian.example).",
+    "type": "application"
+   },
+   {
+    "aliases": [],
+    "dns_name": "payments.apps.meridian.example",
+    "exposure": "split-horizon",
+    "internal_endpoint": "10.20.1.16",
+    "name": "payments",
+    "notes": "payments is reached internally at 10.20.1.16 (payments.apps.meridian.example).",
+    "type": "application"
+   },
+   {
+    "aliases": [
+     "directory-web.apps.meridian.example"
+    ],
+    "dns_name": "directory.apps.meridian.example",
+    "exposure": "split-horizon",
+    "internal_endpoint": "10.20.1.20",
+    "name": "directory",
+    "notes": "directory is reached internally at 10.20.1.20 (directory.apps.meridian.example).",
+    "type": "application"
+   },
+   {
+    "aliases": [
+     "identity-web.apps.meridian.example"
+    ],
+    "dns_name": "identity.apps.meridian.example",
+    "exposure": "split-horizon",
+    "internal_endpoint": "10.20.1.21",
+    "name": "identity",
+    "notes": "identity is reached internally at 10.20.1.21 (identity.apps.meridian.example).",
+    "type": "application"
+   },
+   {
+    "aliases": [],
+    "dns_name": "status.meridian.example",
+    "exposure": "external-only",
+    "internal_endpoint": null,
+    "name": "status",
+    "notes": "status is a public-only service (no internal endpoint).",
+    "type": "application"
+   },
+   {
+    "aliases": [],
+    "dns_name": "cdn.meridian.example",
+    "exposure": "external-only",
+    "internal_endpoint": null,
+    "name": "cdn",
+    "notes": "cdn is a public-only service (no internal endpoint).",
+    "type": "application"
+   }
+  ]
+ },
+ "haproxy": {
+  "backends": [
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "int-billing-be"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "int-orders-be"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "int-reports-be"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "int-catalog-be"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "int-messaging-be"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "int-inventory-be"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "int-search-be"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "int-api-be"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "int-auth-be"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "int-payments-be"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "int-directory-be"
+   },
+   {
+    "adv_check": "httpchk",
+    "balance": {
+     "algorithm": "roundrobin"
+    },
+    "mode": "http",
+    "name": "int-identity-be"
+   }
+  ],
+  "binds": [
+   {
+    "address": "10.20.1.10",
+    "name": "vip",
+    "parent_name": "int-billing-fe",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.1.11",
+    "name": "vip",
+    "parent_name": "int-orders-fe",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.1.12",
+    "name": "vip",
+    "parent_name": "int-reports-fe",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.1.18",
+    "name": "vip",
+    "parent_name": "int-catalog-fe",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.1.19",
+    "name": "vip",
+    "parent_name": "int-messaging-fe",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.1.13",
+    "name": "vip",
+    "parent_name": "int-inventory-fe",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.1.17",
+    "name": "vip",
+    "parent_name": "int-search-fe",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.1.14",
+    "name": "vip",
+    "parent_name": "int-api-fe",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.1.15",
+    "name": "vip",
+    "parent_name": "int-auth-fe",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.1.16",
+    "name": "vip",
+    "parent_name": "int-payments-fe",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.1.20",
+    "name": "vip",
+    "parent_name": "int-directory-fe",
+    "port": 443,
+    "ssl": true
+   },
+   {
+    "address": "10.20.1.21",
+    "name": "vip",
+    "parent_name": "int-identity-fe",
+    "port": 443,
+    "ssl": true
+   }
+  ],
+  "frontends": [
+   {
+    "default_backend": "int-billing-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "int-billing-fe"
+   },
+   {
+    "default_backend": "int-orders-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "int-orders-fe"
+   },
+   {
+    "default_backend": "int-reports-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "int-reports-fe"
+   },
+   {
+    "default_backend": "int-catalog-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "int-catalog-fe"
+   },
+   {
+    "default_backend": "int-messaging-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "int-messaging-fe"
+   },
+   {
+    "default_backend": "int-inventory-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "int-inventory-fe"
+   },
+   {
+    "default_backend": "int-search-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "int-search-fe"
+   },
+   {
+    "default_backend": "int-api-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "int-api-fe"
+   },
+   {
+    "default_backend": "int-auth-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "int-auth-fe"
+   },
+   {
+    "default_backend": "int-payments-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "int-payments-fe"
+   },
+   {
+    "default_backend": "int-directory-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "int-directory-fe"
+   },
+   {
+    "default_backend": "int-identity-be",
+    "maxconn": 2000,
+    "mode": "http",
+    "name": "int-identity-fe"
+   }
+  ],
+  "servers": [
+   {
+    "address": "10.20.2.2",
+    "check": "enabled",
+    "name": "billing-01",
+    "parent_name": "int-billing-be",
+    "port": 8443
+   },
+   {
+    "address": "10.20.2.3",
+    "check": "enabled",
+    "name": "orders-01",
+    "parent_name": "int-orders-be",
+    "port": 8443
+   },
+   {
+    "address": "10.20.2.4",
+    "check": "enabled",
+    "name": "reports-01",
+    "parent_name": "int-reports-be",
+    "port": 8443
+   },
+   {
+    "address": "10.20.2.5",
+    "check": "enabled",
+    "name": "catalog-01",
+    "parent_name": "int-catalog-be",
+    "port": 8443
+   },
+   {
+    "address": "10.20.2.6",
+    "check": "enabled",
+    "name": "messaging-01",
+    "parent_name": "int-messaging-be",
+    "port": 8443
+   },
+   {
+    "address": "10.20.2.7",
+    "check": "enabled",
+    "name": "inventory-01",
+    "parent_name": "int-inventory-be",
+    "port": 8443
+   },
+   {
+    "address": "10.20.2.8",
+    "check": "enabled",
+    "name": "search-01",
+    "parent_name": "int-search-be",
+    "port": 8443
+   },
+   {
+    "address": "10.20.2.9",
+    "check": "enabled",
+    "name": "api-01",
+    "parent_name": "int-api-be",
+    "port": 8443
+   },
+   {
+    "address": "10.20.2.10",
+    "check": "enabled",
+    "name": "auth-01",
+    "parent_name": "int-auth-be",
+    "port": 8443
+   },
+   {
+    "address": "10.20.2.11",
+    "check": "enabled",
+    "name": "payments-01",
+    "parent_name": "int-payments-be",
+    "port": 8443
+   },
+   {
+    "address": "10.20.2.12",
+    "check": "enabled",
+    "name": "directory-01",
+    "parent_name": "int-directory-be",
+    "port": 8443
+   },
+   {
+    "address": "10.20.2.13",
+    "check": "enabled",
+    "name": "identity-01",
+    "parent_name": "int-identity-be",
+    "port": 8443
+   }
+  ],
+  "version": 7
+ },
+ "infoblox-nios": {
+  "a_records": [
+   {
+    "comment": "Corporate internal nameserver 1.",
+    "ipv4addr": "10.20.0.11",
+    "name": "ns1.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "Corporate internal nameserver 2.",
+    "ipv4addr": "10.20.0.12",
+    "name": "ns2.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "billing public endpoint (external view).",
+    "ipv4addr": "203.0.113.10",
+    "name": "billing.apps.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "orders public endpoint (external view).",
+    "ipv4addr": "203.0.113.11",
+    "name": "orders.apps.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "reports public endpoint (external view).",
+    "ipv4addr": "203.0.113.12",
+    "name": "reports.apps.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "catalog public endpoint (external view).",
+    "ipv4addr": "203.0.113.18",
+    "name": "catalog.apps.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "messaging public endpoint (external view).",
+    "ipv4addr": "203.0.113.19",
+    "name": "messaging.apps.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "inventory public endpoint (external view).",
+    "ipv4addr": "203.0.113.13",
+    "name": "inventory.apps.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "inventory (internal view).",
+    "ipv4addr": "203.0.113.13",
+    "name": "inventory.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "search public endpoint (external view).",
+    "ipv4addr": "203.0.113.17",
+    "name": "search.apps.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "search (internal view).",
+    "ipv4addr": "203.0.113.17",
+    "name": "search.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "api public endpoint (external view).",
+    "ipv4addr": "203.0.113.14",
+    "name": "api.apps.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "api (internal view).",
+    "ipv4addr": "203.0.113.14",
+    "name": "api.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "auth public endpoint (external view).",
+    "ipv4addr": "203.0.113.15",
+    "name": "auth.apps.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "auth (internal view).",
+    "ipv4addr": "10.10.1.15",
+    "name": "auth.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "payments public endpoint (external view).",
+    "ipv4addr": "203.0.113.16",
+    "name": "payments.apps.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "payments (internal view).",
+    "ipv4addr": "10.10.1.16",
+    "name": "payments.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "directory (internal view).",
+    "ipv4addr": "10.20.1.20",
+    "name": "directory.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "directory public endpoint (external view).",
+    "ipv4addr": "203.0.113.20",
+    "name": "directory.apps.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "identity (internal view).",
+    "ipv4addr": "10.20.1.21",
+    "name": "identity.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "identity public endpoint (external view).",
+    "ipv4addr": "203.0.113.21",
+    "name": "identity.apps.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "status public endpoint (external view only).",
+    "ipv4addr": "203.0.113.30",
+    "name": "status.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "cdn public endpoint (external view only).",
+    "ipv4addr": "203.0.113.31",
+    "name": "cdn.meridian.example",
+    "view": "external"
+   },
+   {
+    "comment": "legacy portal (decommissioned).",
+    "ipv4addr": "10.10.1.90",
+    "name": "legacy-portal.apps.meridian.example",
+    "view": "internal"
+   }
+  ],
+  "cname_records": [
+   {
+    "canonical": "billing.legacy.meridian.example",
+    "comment": "billing alias.",
+    "name": "billing-web.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "canonical": "orders.legacy.meridian.example",
+    "comment": "orders alias.",
+    "name": "orders-web.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "canonical": "reports.legacy.meridian.example",
+    "comment": "reports alias.",
+    "name": "reports-web.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "canonical": "catalog.legacy.meridian.example",
+    "comment": "catalog alias.",
+    "name": "catalog-web.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "canonical": "messaging.legacy.meridian.example",
+    "comment": "messaging alias.",
+    "name": "messaging-web.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "canonical": "search.legacy.meridian.example",
+    "comment": "search alias.",
+    "name": "shop.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "canonical": "api.legacy.meridian.example",
+    "comment": "api alias.",
+    "name": "portal.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "canonical": "directory.apps.meridian.example",
+    "comment": "directory alias.",
+    "name": "directory-web.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "canonical": "identity.apps.meridian.example",
+    "comment": "identity alias.",
+    "name": "identity-web.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "canonical": "auth.legacy.meridian.example",
+    "comment": "old auth alias (decommissioned).",
+    "name": "old-auth.apps.meridian.example",
+    "view": "internal"
+   }
+  ],
+  "ns_records": [
+   {
+    "comment": "apps delegation.",
+    "name": "apps.meridian.example",
+    "nameserver": "ns1-legacy.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "apps delegation.",
+    "name": "apps.meridian.example",
+    "nameserver": "ns2-legacy.apps.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "svc delegation.",
+    "name": "svc.meridian.example",
+    "nameserver": "ns1.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "svc delegation.",
+    "name": "svc.meridian.example",
+    "nameserver": "ns2.meridian.example",
+    "view": "internal"
+   },
+   {
+    "comment": "beta delegation (retired).",
+    "name": "beta.apps.meridian.example",
+    "nameserver": "ns-beta.apps.meridian.example",
+    "view": "internal"
+   }
+  ],
+  "zones": [
+   {
+    "comment": "Corporate internal authoritative zone (internal view).",
+    "fqdn": "meridian.example",
+    "view": "internal",
+    "zone_format": "FORWARD"
+   },
+   {
+    "comment": "Public authoritative zone (external view).",
+    "fqdn": "meridian.example",
+    "view": "external",
+    "zone_format": "FORWARD"
+   }
+  ]
+ },
+ "microsoft-sentinel": {
+  "alerts": [
+   {
+    "incidentId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "bbbbbbbb-2222-3333-4444-555555555555",
+    "properties": {
+     "alertDisplayName": "Internal resolution failures for apps-tier sub-zone",
+     "description": "Internal resolvers: delegation for apps.meridian.example unreachable + NODATA/NXDOMAIN for several apps names; external path unaffected.",
+     "productName": "Azure Sentinel",
+     "severity": "High",
+     "status": "New",
+     "tactics": [
+      "ImpactAvailability"
+     ]
+    }
+   }
+  ],
+  "entities": [
+   {
+    "incidentIds": [
+     "aaaaaaaa-1111-2222-3333-444444444444"
+    ],
+    "kind": "DnsResolution",
+    "name": "dns-zone",
+    "properties": {
+     "domainName": "apps.meridian.example"
+    }
+   }
+  ],
+  "incidents": [
+   {
+    "incidentId": null,
+    "name": "aaaaaaaa-1111-2222-3333-444444444444",
+    "properties": {
+     "description": "Since 2026-07-15 23:10 UTC the internal recursive resolvers report a spike of lookup failures from corporate clients for names under apps.meridian.example (e.g. billing.apps.meridian.example, orders.apps.meridian.example, reports.apps.meridian.example, catalog.apps.meridian.example, messaging.apps.meridian.example ...): the delegation for that sub-zone times out (the referred authoritative servers do not answer), and several names return no answer for internal clients. Lookups for the SAME names from the public/external path succeed and return the DMZ addresses. The onset aligns with the overnight apps-tier consolidation maintenance, not with the application deployment earlier that evening.",
+     "incidentNumber": 6301,
+     "severity": "High",
+     "status": "Active",
+     "title": "Corporate clients cannot reach apps-tier services (internal only)"
+    }
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [
+   {
+    "assignment_group": "Apps Engineering",
+    "category": "software",
+    "close_code": "successful",
+    "close_notes": "v3.1 deployed; smoke tests passed from the DMZ.",
+    "closed_at": "2026-07-15 20:15:00",
+    "description": "Rolling deployment of billing-app v3.1 to the application backends. Standard blue/green rollout behind the existing internal proxy; no DNS or network changes.",
+    "number": "CHG0041001",
+    "risk": "low",
+    "short_description": "Deploy billing-app v3.1 to the apps tier",
+    "state": "3",
+    "sys_created_on": "2026-07-15 19:40:00",
+    "sys_id": "d699e3c39f4ed4b79014797fb87de70e",
+    "sys_updated_on": "2026-07-15 20:15:00",
+    "type": "normal",
+    "u_environment": "production"
+   },
+   {
+    "assignment_group": "Network Engineering",
+    "category": "network",
+    "close_code": "successful",
+    "close_notes": "Applied the apps-tier consolidation during the window. Post-change validation of internal resolution, the delegation and the per-service records was deferred to the owning team.",
+    "closed_at": "2026-07-15 23:25:00",
+    "description": "Consolidation of the apps-tier naming under the new split-view layout and re-homing of the sub-zone delegation onto the refreshed authoritative servers. Peer service zones were left as the reference configuration.",
+    "number": "CHG0041002",
+    "risk": "moderate",
+    "short_description": "DNS consolidation: view-split and delegation migration for the apps tier",
+    "state": "3",
+    "sys_created_on": "2026-07-15 22:30:00",
+    "sys_id": "1b449988c95135ae080694834eab4e15",
+    "sys_updated_on": "2026-07-15 23:25:00",
+    "type": "normal",
+    "u_environment": "production"
+   }
+  ],
+  "incident": [
+   {
+    "category": "network",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Regional analytics platform unreachable from the office - RESOLVED. Staff could not open a set of back-office tools from the corporate LAN, yet the same tools worked from home and for partners. The on-call first suspected a release that had shipped that day and nearly rolled it back. Before rolling back we checked the delivery path and the build - all healthy - so the release was NOT the cause. A maintenance window that night had consolidated the naming/resolution setup for that platform. Comparing the affected sub-zone against a healthy sibling sub-zone, and cross-checking each tool's live endpoint in the CMDB, we found the sibling delegated correctly to the corporate authoritative servers while the affected sub-zone delegated to servers that had been retired; a number of tools had lost their inside-the-network address entirely or had it pointing at a public or a decommissioned address; and several friendly-name aliases still chained to a retired name space. We restored each affected name to the live endpoint the CMDB listed, restored the delegation to the live authoritative servers the healthy sibling used, cleaned up the leftover aliases and a retired delegation, and left the public-facing entries and the genuinely public-only services alone. Access recovered. Lesson: verify the reported cause, compare against the healthy sibling and the CMDB, repair every affected name, and leave no leftover config. Closed.",
+    "closed_at": "2026-05-09 16:10:00",
+    "description": "A set of back-office tools was unreachable from the corporate LAN; a same-day release was suspected. See close notes.",
+    "number": "INC0011001",
+    "priority": "2",
+    "short_description": "Back-office tools unreachable from office - blamed on a release, was a maintenance change",
+    "state": "7",
+    "sys_created_on": "2026-05-09 07:00:00",
+    "sys_id": "c74dc2ef378d5f40f4b8cce1a6b1fde2",
+    "sys_updated_on": "2026-05-09 16:10:00"
+   },
+   {
+    "category": "application",
+    "description": "Corporate users report that a range of internal business apps under apps.meridian.example - billing, orders, reports and several others - cannot be reached from inside the company network: the pages fail to load / connections time out. Oddly, the exact same apps load fine for users and partners coming from outside the company. This started overnight and is still ongoing.\nSuspected cause: the billing-app v3 deployment that shipped last night (change CHG0041001) - please confirm whether that deploy broke it and get the internal users back online.\nInvestigate across the available systems, confirm the actual root cause before making changes, restore access for the internal users, and close this incident when the apps are reachable again.",
+    "number": "INC0012001",
+    "priority": "1",
+    "short_description": "Internal users cannot reach apps-tier services (since last night)",
+    "state": "2",
+    "subcategory": "api",
+    "sys_created_on": "2026-07-16 06:20:00",
+    "sys_id": "2e31b68847d76a4d2e68c219abab4e2a",
+    "sys_updated_on": "2026-07-16 06:20:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "change_request",
+    "value": "3"
+   }
+  ]
+ }
+}

@@ -1,0 +1,2422 @@
+{
+  "_now": "2026-07-21T09:00:00Z",
+  "confluence": {
+    "pages": [
+      {
+        "body": {
+          "storage": {
+            "representation": "storage",
+            "value": "<h1>Service Credential Inventory</h1><p>Owner of record: platform-security. Vault: Device42 Passwords.</p><table><tbody><tr><th>Service</th><th>Vault label</th><th>Owner</th><th>Notes</th></tr><tr><td>BILLING_CRON</td><td>BILLING_CRON</td><td>e.reyes</td><td>see vault</td></tr><tr><td>REDIS_AUTH</td><td>REDIS_AUTH</td><td>e.reyes</td><td>see vault</td></tr><tr><td>DATADOG</td><td>DATADOG_API_KEY</td><td>observability</td><td>see vault</td></tr><tr><td>PAYMENTS</td><td>PAYMENTS_API_KEY</td><td>payments</td><td>see vault</td></tr><tr><td>INTERNAL_OIDC</td><td>INTERNAL_OIDC</td><td>platform</td><td>see vault</td></tr><tr><td>SNOWFLAKE_SVC</td><td>(none - not in vault)</td><td>data-eng</td><td>conn: snowflake://svc_pipeline:Sn0wLeak-9x2024-PROD@northwind.snowflakecomputing.com/PROD</td></tr></tbody></table>"
+          }
+        },
+        "createdAt": "2025-11-03T10:00:00Z",
+        "id": "66880",
+        "spaceId": "3496",
+        "status": "current",
+        "title": "Service Credential Inventory",
+        "type": "page",
+        "version": {
+          "number": 4
+        }
+      },
+      {
+        "body": {
+          "storage": {
+            "representation": "storage",
+            "value": "<p>Onboarding Guide content.</p>"
+          }
+        },
+        "createdAt": "2025-11-03T10:00:00Z",
+        "id": "9651",
+        "spaceId": "3496",
+        "status": "current",
+        "title": "Onboarding Guide",
+        "type": "page",
+        "version": {
+          "number": 1
+        }
+      },
+      {
+        "body": {
+          "storage": {
+            "representation": "storage",
+            "value": "<p>Incident Response Contacts content.</p>"
+          }
+        },
+        "createdAt": "2025-11-03T10:00:00Z",
+        "id": "10084",
+        "spaceId": "3496",
+        "status": "current",
+        "title": "Incident Response Contacts",
+        "type": "page",
+        "version": {
+          "number": 1
+        }
+      },
+      {
+        "body": {
+          "storage": {
+            "representation": "storage",
+            "value": "<p>Deploy Runbook content.</p>"
+          }
+        },
+        "createdAt": "2025-11-03T10:00:00Z",
+        "id": "38933",
+        "spaceId": "3496",
+        "status": "current",
+        "title": "Deploy Runbook",
+        "type": "page",
+        "version": {
+          "number": 1
+        }
+      },
+      {
+        "body": {
+          "storage": {
+            "representation": "storage",
+            "value": "<p>On-call Rotation content.</p>"
+          }
+        },
+        "createdAt": "2025-11-03T10:00:00Z",
+        "id": "68093",
+        "spaceId": "3496",
+        "status": "current",
+        "title": "On-call Rotation",
+        "type": "page",
+        "version": {
+          "number": 1
+        }
+      }
+    ],
+    "spaces": [
+      {
+        "id": "3496",
+        "key": "ENG",
+        "name": "Engineering",
+        "status": "current",
+        "type": "global"
+      }
+    ]
+  },
+  "device42": {
+    "passwords": [
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 2219,
+        "label": "BILLING_CRON",
+        "last_updated": "2026-06-16T00:30:00Z",
+        "notes": "",
+        "username": "svc_billing"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 7896,
+        "label": "REDIS_AUTH",
+        "last_updated": "2026-04-20T11:00:00Z",
+        "notes": "",
+        "username": "svc_cache"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 6897,
+        "label": "DATADOG_API_KEY",
+        "last_updated": "2026-06-16T00:30:00Z",
+        "notes": "",
+        "username": "svc_observability"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 5217,
+        "label": "DEPLOYBOT_TOKEN",
+        "last_updated": "2026-06-16T00:30:00Z",
+        "notes": "",
+        "username": "svc_deploybot"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 2350,
+        "label": "INTERNAL_OIDC",
+        "last_updated": "2026-06-16T00:30:00Z",
+        "notes": "",
+        "username": "svc_internal"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 2155,
+        "label": "PAYMENTS_API_KEY",
+        "last_updated": "2026-06-16T00:30:00Z",
+        "notes": "",
+        "username": "svc_payments"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 2695,
+        "label": "GRAFANA_ADMIN",
+        "last_updated": "2026-03-11T09:00:00Z",
+        "notes": "",
+        "username": "svc_grafana"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 2733,
+        "label": "BACKUP_S3_KEY",
+        "last_updated": "2026-01-22T14:30:00Z",
+        "notes": "",
+        "username": "svc_backup"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 7577,
+        "label": "PAGERDUTY_INTEGRATION",
+        "last_updated": "2025-12-05T12:00:00Z",
+        "notes": "",
+        "username": "svc_pd"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 5631,
+        "label": "VPN_RADIUS",
+        "last_updated": "2026-02-18T08:45:00Z",
+        "notes": "",
+        "username": "svc_vpn"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 3091,
+        "label": "JENKINS_DEPLOY",
+        "last_updated": "2026-04-01T16:20:00Z",
+        "notes": "",
+        "username": "svc_jenkins"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 2946,
+        "label": "LDAP_BIND",
+        "last_updated": "2025-10-30T11:11:00Z",
+        "notes": "",
+        "username": "svc_ldap"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 6995,
+        "label": "SMTP_RELAY",
+        "last_updated": "2026-05-19T07:00:00Z",
+        "notes": "",
+        "username": "svc_smtp"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 1292,
+        "label": "CDN_PURGE_TOKEN",
+        "last_updated": "2026-06-16T00:31:00Z",
+        "notes": "",
+        "username": "svc_cdn"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 3559,
+        "label": "ANALYTICS_RO",
+        "last_updated": "2026-03-27T13:00:00Z",
+        "notes": "",
+        "username": "svc_analytics"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 5116,
+        "label": "STATUSPAGE_KEY",
+        "last_updated": "2026-02-02T10:00:00Z",
+        "notes": "",
+        "username": "svc_status"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 4659,
+        "label": "TERRAFORM_CLOUD",
+        "last_updated": "2026-04-14T09:30:00Z",
+        "notes": "",
+        "username": "svc_tf"
+      },
+      {
+        "category": "Service Account",
+        "first_added": "2025-11-03T10:00:00Z",
+        "id": 8002,
+        "label": "MYSQL_REPLICA",
+        "last_updated": "2026-01-09T08:00:00Z",
+        "notes": "",
+        "username": "svc_mysql"
+      }
+    ]
+  },
+  "github": {
+    "alerts": [
+      {
+        "alert_number": 1,
+        "created_at": "2026-06-15T21:35:00Z",
+        "html_url": "https://github.com/northwind-pay/billing-svc/security/secret-scanning/1",
+        "number": 1,
+        "org": "northwind-pay",
+        "owner": "northwind-pay",
+        "repo": "billing-svc",
+        "resolution": "revoked",
+        "secret_type": "generic_cron_token",
+        "secret_type_display_name": "generic_cron_token",
+        "state": "resolved",
+        "updated_at": "2026-06-15T21:35:00Z"
+      },
+      {
+        "alert_number": 7,
+        "created_at": "2026-06-15T21:40:00Z",
+        "html_url": "https://github.com/northwind-pay/payments-api/security/secret-scanning/7",
+        "number": 7,
+        "org": "northwind-pay",
+        "owner": "northwind-pay",
+        "repo": "payments-api",
+        "resolution": null,
+        "secret_type": "stripe_api_key",
+        "secret_type_display_name": "stripe_api_key",
+        "state": "open",
+        "updated_at": "2026-06-15T21:40:00Z"
+      },
+      {
+        "alert_number": 9,
+        "created_at": "2026-06-15T21:40:00Z",
+        "html_url": "https://github.com/northwind-pay/data-pipeline/security/secret-scanning/9",
+        "number": 9,
+        "org": "northwind-pay",
+        "owner": "northwind-pay",
+        "repo": "data-pipeline",
+        "resolution": null,
+        "secret_type": "snowflake_credentials",
+        "secret_type_display_name": "snowflake_credentials",
+        "state": "open",
+        "updated_at": "2026-06-15T21:40:00Z"
+      },
+      {
+        "alert_number": 3,
+        "created_at": "2026-02-11T10:00:00Z",
+        "html_url": "https://github.com/northwind-pay/web-frontend/security/secret-scanning/3",
+        "number": 3,
+        "org": "northwind-pay",
+        "owner": "northwind-pay",
+        "repo": "web-frontend",
+        "resolution": "false_positive",
+        "secret_type": "slack_incoming_webhook_url",
+        "secret_type_display_name": "slack_incoming_webhook_url",
+        "state": "resolved",
+        "updated_at": "2026-02-11T10:00:00Z"
+      }
+    ],
+    "repos": [
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "full_name": "northwind-pay/payments-api",
+        "id": 61071,
+        "name": "payments-api",
+        "owner": {
+          "login": "northwind-pay",
+          "type": "Organization"
+        },
+        "private": true
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "full_name": "northwind-pay/observability",
+        "id": 87524,
+        "name": "observability",
+        "owner": {
+          "login": "northwind-pay",
+          "type": "Organization"
+        },
+        "private": true
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "full_name": "northwind-pay/cache-svc",
+        "id": 63129,
+        "name": "cache-svc",
+        "owner": {
+          "login": "northwind-pay",
+          "type": "Organization"
+        },
+        "private": true
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "full_name": "northwind-pay/billing-svc",
+        "id": 34403,
+        "name": "billing-svc",
+        "owner": {
+          "login": "northwind-pay",
+          "type": "Organization"
+        },
+        "private": true
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "full_name": "northwind-pay/internal-admin",
+        "id": 153,
+        "name": "internal-admin",
+        "owner": {
+          "login": "northwind-pay",
+          "type": "Organization"
+        },
+        "private": true
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "full_name": "northwind-pay/data-pipeline",
+        "id": 39912,
+        "name": "data-pipeline",
+        "owner": {
+          "login": "northwind-pay",
+          "type": "Organization"
+        },
+        "private": true
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "full_name": "northwind-pay/web-frontend",
+        "id": 46815,
+        "name": "web-frontend",
+        "owner": {
+          "login": "northwind-pay",
+          "type": "Organization"
+        },
+        "private": true
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "full_name": "northwind-pay/infra-terraform",
+        "id": 93199,
+        "name": "infra-terraform",
+        "owner": {
+          "login": "northwind-pay",
+          "type": "Organization"
+        },
+        "private": true
+      }
+    ],
+    "secrets": [
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "name": "BILLING_CRON",
+        "owner": "northwind-pay",
+        "repo": "billing-svc",
+        "updated_at": "2026-06-16T00:30:00Z"
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "name": "REDIS_AUTH",
+        "owner": "northwind-pay",
+        "repo": "cache-svc",
+        "updated_at": "2026-06-16T00:30:00Z"
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "name": "DATADOG_API_KEY",
+        "owner": "northwind-pay",
+        "repo": "observability",
+        "updated_at": "2026-05-02T08:15:00Z"
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "name": "PAYMENTS_API_KEY",
+        "owner": "northwind-pay",
+        "repo": "payments-api",
+        "updated_at": "2026-06-16T00:30:00Z"
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "name": "SENTRY_DSN",
+        "owner": "northwind-pay",
+        "repo": "web-frontend",
+        "updated_at": "2026-03-15T10:00:00Z"
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "name": "RECAPTCHA_SECRET",
+        "owner": "northwind-pay",
+        "repo": "web-frontend",
+        "updated_at": "2026-02-20T10:00:00Z"
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "name": "TF_API_TOKEN",
+        "owner": "northwind-pay",
+        "repo": "infra-terraform",
+        "updated_at": "2026-04-10T10:00:00Z"
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "name": "GRAFANA_TOKEN",
+        "owner": "northwind-pay",
+        "repo": "observability",
+        "updated_at": "2026-03-11T10:00:00Z"
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "name": "AIRFLOW_FERNET",
+        "owner": "northwind-pay",
+        "repo": "data-pipeline",
+        "updated_at": "2026-01-30T10:00:00Z"
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "name": "STRIPE_WEBHOOK_SIG",
+        "owner": "northwind-pay",
+        "repo": "billing-svc",
+        "updated_at": "2026-05-01T10:00:00Z"
+      }
+    ],
+    "variables": [
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "name": "AWS_REGION",
+        "owner": "northwind-pay",
+        "repo": "infra-terraform",
+        "updated_at": "2025-11-03T10:00:00Z",
+        "value": "us-east-1"
+      },
+      {
+        "created_at": "2025-11-03T10:00:00Z",
+        "name": "LOG_LEVEL",
+        "owner": "northwind-pay",
+        "repo": "observability",
+        "updated_at": "2025-11-03T10:00:00Z",
+        "value": "info"
+      }
+    ]
+  },
+  "jira-service-management": {
+    "customers": [
+      {
+        "accountId": "acc-okafor",
+        "displayName": "Jamal Okafor",
+        "emailAddress": "j.okafor@northwindpay.com"
+      }
+    ],
+    "requestTypes": [
+      {
+        "id": "25",
+        "name": "Security task",
+        "serviceDeskId": "10"
+      }
+    ],
+    "requests": [
+      {
+        "createdDate": {
+          "iso8601": "2026-07-21T08:40:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "issueId": "8471",
+        "issueKey": "SEC-4471",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "Payments key flagged as still exposed"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "Secret scanning re-opened an alert on the payments-api repo this morning - the PAYMENTS_API_KEY from the June exposure is showing as still active. I thought that whole rotation wrapped up weeks ago. This is the follow-up to incident SEC-4390. Please rotate out whatever is still exposed from that incident and get to the bottom of what was missed. - J. Okafor, Security"
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-06-15T21:30:00Z"
+        },
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "issueId": "8390",
+        "issueKey": "SEC-4390",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "Credential exposure - June 2026"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "Multiple service credentials were committed to a repo and exposed. Rotate every affected credential and close out its sub-task. Sub-tasks tracked under this incident."
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10",
+        "statusHistory": [
+          {
+            "changedAt": "2026-06-16T01:00:00Z",
+            "status": "Resolved",
+            "statusCategory": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-06-15T21:32:00Z"
+        },
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "issueId": "8391",
+        "issueKey": "SEC-4391",
+        "parentKey": "SEC-4390",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "Rotate PAYMENTS_API_KEY"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "Rotate and revoke the payments gateway key."
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10",
+        "statusHistory": [
+          {
+            "changedAt": "2026-06-16T00:27:00Z",
+            "status": "Resolved",
+            "statusCategory": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-06-15T21:33:00Z"
+        },
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "issueId": "8392",
+        "issueKey": "SEC-4392",
+        "parentKey": "SEC-4390",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "Rotate DATADOG_API_KEY"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "Rotate the Datadog ingest key and update CI."
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10",
+        "statusHistory": [
+          {
+            "changedAt": "2026-06-16T00:29:00Z",
+            "status": "Resolved",
+            "statusCategory": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-06-15T21:34:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "issueId": "8393",
+        "issueKey": "SEC-4393",
+        "parentKey": "SEC-4390",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "Rotate REDIS_AUTH"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "Rotate the cache auth credential in the vault."
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-06-15T21:36:00Z"
+        },
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "issueId": "8394",
+        "issueKey": "SEC-4394",
+        "parentKey": "SEC-4390",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "Revoke deploy-bot API access"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "Kill the deploy-bot credential."
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10",
+        "statusHistory": [
+          {
+            "changedAt": "2026-06-16T00:36:00Z",
+            "status": "Resolved",
+            "statusCategory": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-06-15T21:38:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "issueId": "8395",
+        "issueKey": "SEC-4395",
+        "parentKey": "SEC-4390",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "Deactivate legacy internal-admin OIDC app"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "Retire the old internal-admin app."
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-06-15T21:39:00Z"
+        },
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "issueId": "8396",
+        "issueKey": "SEC-4396",
+        "parentKey": "SEC-4390",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "Rotate BILLING_CRON"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "Rotate billing cron credential end to end."
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10",
+        "statusHistory": [
+          {
+            "changedAt": "2026-06-16T00:45:00Z",
+            "status": "Resolved",
+            "statusCategory": "COMPLETE"
+          }
+        ]
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-07-10T10:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "issueId": "8460",
+        "issueKey": "SEC-4460",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "Access request: Grafana"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "Please grant Grafana viewer."
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-07-10T10:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "issueId": "8455",
+        "issueKey": "SEC-4455",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "Password reset for contractor"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "Reset laptop password."
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-07-10T10:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Closed",
+          "statusCategory": "COMPLETE"
+        },
+        "issueId": "8448",
+        "issueKey": "SEC-4448",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "Phishing report"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "User reported phishing email."
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-07-10T10:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Waiting for support",
+          "statusCategory": "INDETERMINATE"
+        },
+        "issueId": "8402",
+        "issueKey": "SEC-4402",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "VPN certificate renewal"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "Renew VPN cert."
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10"
+      },
+      {
+        "createdDate": {
+          "iso8601": "2026-07-10T10:00:00Z"
+        },
+        "currentStatus": {
+          "status": "Resolved",
+          "statusCategory": "COMPLETE"
+        },
+        "issueId": "8310",
+        "issueKey": "SEC-4310",
+        "reporter": {
+          "accountId": "acc-okafor",
+          "displayName": "Jamal Okafor",
+          "emailAddress": "j.okafor@northwindpay.com"
+        },
+        "requestFieldValues": [
+          {
+            "fieldId": "summary",
+            "label": "Summary",
+            "value": "Quarterly access review"
+          },
+          {
+            "fieldId": "description",
+            "label": "Description",
+            "value": "Run Q2 access review."
+          }
+        ],
+        "requestTypeId": "25",
+        "serviceDeskId": "10"
+      }
+    ],
+    "serviceDesks": [
+      {
+        "id": "10",
+        "projectId": "10000",
+        "projectKey": "SEC",
+        "projectName": "Security"
+      }
+    ]
+  },
+  "okta": {
+    "apiTokens": [
+      {
+        "clientName": "Okta API",
+        "created": "2025-11-03T10:00:00Z",
+        "expiresAt": "2026-12-31T23:59:59Z",
+        "id": "00T3bc8d8b8b4a22de42",
+        "lastLogin": "2026-07-20T22:00:00Z",
+        "lastUpdated": "2025-11-03T10:00:00Z",
+        "name": "deploy-bot-ci",
+        "userId": "00u72b05ce6a0fc6cd1b"
+      },
+      {
+        "clientName": "Okta API",
+        "created": "2025-11-03T10:00:00Z",
+        "expiresAt": "2026-12-31T23:59:59Z",
+        "id": "00T7b687e12cc0dfcfb2",
+        "lastLogin": "2025-11-03T10:00:00Z",
+        "lastUpdated": "2025-11-03T10:00:00Z",
+        "name": "terraform-cloud",
+        "userId": "00uac90d2d7ea65a611b"
+      },
+      {
+        "clientName": "Okta API",
+        "created": "2025-11-03T10:00:00Z",
+        "expiresAt": "2026-12-31T23:59:59Z",
+        "id": "00Tf5317321d0695a292",
+        "lastLogin": "2025-11-03T10:00:00Z",
+        "lastUpdated": "2025-11-03T10:00:00Z",
+        "name": "backup-runner",
+        "userId": "00u9dbd1908cf1036520"
+      },
+      {
+        "clientName": "Okta API",
+        "created": "2025-11-03T10:00:00Z",
+        "expiresAt": "2026-12-31T23:59:59Z",
+        "id": "00Tc5ca4294ae7eea41c",
+        "lastLogin": "2025-11-03T10:00:00Z",
+        "lastUpdated": "2025-11-03T10:00:00Z",
+        "name": "monitoring-scraper",
+        "userId": "00u605168ffca9223098"
+      },
+      {
+        "clientName": "Okta API",
+        "created": "2025-11-03T10:00:00Z",
+        "expiresAt": "2026-12-31T23:59:59Z",
+        "id": "00Te9405379dd6f01051",
+        "lastLogin": "2025-11-03T10:00:00Z",
+        "lastUpdated": "2025-11-03T10:00:00Z",
+        "name": "scim-provisioner",
+        "userId": "00uc9a5ebf5dd73d7d4a"
+      }
+    ],
+    "apps": [
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "0oadd05c65184aa8e215",
+        "label": "internal-admin-oidc (legacy)",
+        "lastUpdated": "2025-11-03T10:00:00Z",
+        "name": "oidc_client",
+        "settings": {
+          "oauthClient": {
+            "client_id": "cid-ad6c7c7f6177"
+          }
+        },
+        "signOnMode": "OPENID_CONNECT",
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2026-06-16T00:30:00Z",
+        "id": "0oacebcc89a80f20d014",
+        "label": "internal-admin-oidc",
+        "lastUpdated": "2026-06-16T00:30:00Z",
+        "name": "oidc_client",
+        "settings": {
+          "oauthClient": {
+            "client_id": "cid-50200c421a6c"
+          }
+        },
+        "signOnMode": "OPENID_CONNECT",
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2026-06-16T00:30:00Z",
+        "id": "0oa6f651352efa262b14",
+        "label": "billing-cron-oidc (legacy)",
+        "lastUpdated": "2026-06-16T00:30:00Z",
+        "name": "oidc_client",
+        "settings": {
+          "oauthClient": {
+            "client_id": "cid-f44432105e8b"
+          }
+        },
+        "signOnMode": "OPENID_CONNECT",
+        "status": "INACTIVE"
+      },
+      {
+        "created": "2026-06-16T00:30:00Z",
+        "id": "0oa793f4572dcd5cf39a",
+        "label": "billing-cron-oidc",
+        "lastUpdated": "2026-06-16T00:30:00Z",
+        "name": "oidc_client",
+        "settings": {
+          "oauthClient": {
+            "client_id": "cid-af592b2d89d5"
+          }
+        },
+        "signOnMode": "OPENID_CONNECT",
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "0oace82be9b5acfb2ea8",
+        "label": "Okta Dashboard",
+        "lastUpdated": "2025-11-03T10:00:00Z",
+        "name": "okta_enduser",
+        "settings": {
+          "oauthClient": {
+            "client_id": "cid-85871dcc09fc"
+          }
+        },
+        "signOnMode": "OPENID_CONNECT",
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "0oa358b26754286e903e",
+        "label": "Jira SAML",
+        "lastUpdated": "2025-11-03T10:00:00Z",
+        "name": "template_saml_2_0",
+        "settings": {
+          "oauthClient": {
+            "client_id": "cid-37c5c7cb89d5"
+          }
+        },
+        "signOnMode": "OPENID_CONNECT",
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "0oac2b4b5993455f7122",
+        "label": "Confluence SAML",
+        "lastUpdated": "2025-11-03T10:00:00Z",
+        "name": "template_saml_2_0",
+        "settings": {
+          "oauthClient": {
+            "client_id": "cid-18eb48a9e941"
+          }
+        },
+        "signOnMode": "OPENID_CONNECT",
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "0oab9a0c9af00fd29eaf",
+        "label": "AWS SSO",
+        "lastUpdated": "2025-11-03T10:00:00Z",
+        "name": "amazon_aws",
+        "settings": {
+          "oauthClient": {
+            "client_id": "cid-4edfa3220cc8"
+          }
+        },
+        "signOnMode": "OPENID_CONNECT",
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "0oa09e9959378b4bd0e0",
+        "label": "Legacy VPN (retired)",
+        "lastUpdated": "2025-11-03T10:00:00Z",
+        "name": "template_swa",
+        "settings": {
+          "oauthClient": {
+            "client_id": "cid-68ab77d97f9c"
+          }
+        },
+        "signOnMode": "OPENID_CONNECT",
+        "status": "INACTIVE"
+      }
+    ],
+    "logs": [
+      {
+        "actor": {
+          "alternateId": "e.reyes@northwindpay.com",
+          "displayName": "e.reyes@northwindpay.com",
+          "id": "00uac90d2d7ea65a611b",
+          "type": "User"
+        },
+        "displayMessage": "Deactivate application",
+        "eventType": "application.lifecycle.deactivate",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-16T00:20:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "billing-cron-oidc (legacy)",
+            "displayName": "billing-cron-oidc (legacy)",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-fa8d3d01948db800"
+      },
+      {
+        "actor": {
+          "alternateId": "e.reyes@northwindpay.com",
+          "displayName": "e.reyes@northwindpay.com",
+          "id": "00uac90d2d7ea65a611b",
+          "type": "User"
+        },
+        "displayMessage": "system.api_token.create",
+        "eventType": "system.api_token.create",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-16T00:22:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "billing-cron rotated token",
+            "displayName": "billing-cron rotated token",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-5c1c17a020395abd"
+      },
+      {
+        "actor": {
+          "alternateId": "e.reyes@northwindpay.com",
+          "displayName": "e.reyes@northwindpay.com",
+          "id": "00uac90d2d7ea65a611b",
+          "type": "User"
+        },
+        "displayMessage": "system.api_token.create",
+        "eventType": "system.api_token.create",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-16T00:26:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "payments rotated token",
+            "displayName": "payments rotated token",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-39342372dd14c3b8"
+      },
+      {
+        "actor": {
+          "alternateId": "e.reyes@northwindpay.com",
+          "displayName": "e.reyes@northwindpay.com",
+          "id": "00uac90d2d7ea65a611b",
+          "type": "User"
+        },
+        "displayMessage": "Clear user sessions",
+        "eventType": "user.session.end",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-16T00:34:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "svc-deploybot@northwindpay.com",
+            "displayName": "svc-deploybot@northwindpay.com",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-ba9b827c4e785206"
+      },
+      {
+        "actor": {
+          "alternateId": "e.reyes@northwindpay.com",
+          "displayName": "e.reyes@northwindpay.com",
+          "id": "00uac90d2d7ea65a611b",
+          "type": "User"
+        },
+        "displayMessage": "Reset password",
+        "eventType": "user.account.reset_password",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-16T00:35:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "svc-deploybot@northwindpay.com",
+            "displayName": "svc-deploybot@northwindpay.com",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-e56962ab66da944b"
+      },
+      {
+        "actor": {
+          "alternateId": "e.reyes@northwindpay.com",
+          "displayName": "e.reyes@northwindpay.com",
+          "id": "00uac90d2d7ea65a611b",
+          "type": "User"
+        },
+        "displayMessage": "system.api_token.create",
+        "eventType": "system.api_token.create",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-16T00:40:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "internal rotated token",
+            "displayName": "internal rotated token",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-a91026d5020a1d7d"
+      },
+      {
+        "actor": {
+          "alternateId": "user1@northwindpay.com",
+          "displayName": "user1@northwindpay.com",
+          "id": "00u605168ffca9223098",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.sso",
+        "eventType": "user.authentication.sso",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-19T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-46a692bd17c67136"
+      },
+      {
+        "actor": {
+          "alternateId": "user2@northwindpay.com",
+          "displayName": "user2@northwindpay.com",
+          "id": "00uc9a5ebf5dd73d7d4a",
+          "type": "User"
+        },
+        "displayMessage": "application.user_membership.add",
+        "eventType": "application.user_membership.add",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-19T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-0db5e1ebe78ddf8e"
+      },
+      {
+        "actor": {
+          "alternateId": "user3@northwindpay.com",
+          "displayName": "user3@northwindpay.com",
+          "id": "00ufa3d21424943106ad",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-19T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-9bf92df9850f6e6d"
+      },
+      {
+        "actor": {
+          "alternateId": "user4@northwindpay.com",
+          "displayName": "user4@northwindpay.com",
+          "id": "00u6c07adc4959498586",
+          "type": "User"
+        },
+        "displayMessage": "policy.evaluate_sign_on",
+        "eventType": "policy.evaluate_sign_on",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-18T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-0bf2e9d34c671a69"
+      },
+      {
+        "actor": {
+          "alternateId": "user5@northwindpay.com",
+          "displayName": "user5@northwindpay.com",
+          "id": "00u9b0a33023b8a079c1",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.auth_via_mfa",
+        "eventType": "user.authentication.auth_via_mfa",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-18T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-99aac98c13d04c82"
+      },
+      {
+        "actor": {
+          "alternateId": "user0@northwindpay.com",
+          "displayName": "user0@northwindpay.com",
+          "id": "00u9dbd1908cf1036520",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-18T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-0116989767533d46"
+      },
+      {
+        "actor": {
+          "alternateId": "user1@northwindpay.com",
+          "displayName": "user1@northwindpay.com",
+          "id": "00u605168ffca9223098",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.sso",
+        "eventType": "user.authentication.sso",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-15T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-97523bfd1485d5e3"
+      },
+      {
+        "actor": {
+          "alternateId": "user2@northwindpay.com",
+          "displayName": "user2@northwindpay.com",
+          "id": "00uc9a5ebf5dd73d7d4a",
+          "type": "User"
+        },
+        "displayMessage": "application.user_membership.add",
+        "eventType": "application.user_membership.add",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-15T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-64832f45ad6b4142"
+      },
+      {
+        "actor": {
+          "alternateId": "user3@northwindpay.com",
+          "displayName": "user3@northwindpay.com",
+          "id": "00ufa3d21424943106ad",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-15T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-650acdcd8dfb8dc1"
+      },
+      {
+        "actor": {
+          "alternateId": "user4@northwindpay.com",
+          "displayName": "user4@northwindpay.com",
+          "id": "00u6c07adc4959498586",
+          "type": "User"
+        },
+        "displayMessage": "policy.evaluate_sign_on",
+        "eventType": "policy.evaluate_sign_on",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-10T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-3cc92dd039816aa9"
+      },
+      {
+        "actor": {
+          "alternateId": "user5@northwindpay.com",
+          "displayName": "user5@northwindpay.com",
+          "id": "00u9b0a33023b8a079c1",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.auth_via_mfa",
+        "eventType": "user.authentication.auth_via_mfa",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-10T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-4bf08f917f95348c"
+      },
+      {
+        "actor": {
+          "alternateId": "user0@northwindpay.com",
+          "displayName": "user0@northwindpay.com",
+          "id": "00u9dbd1908cf1036520",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-10T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-324648eb41fa3f4a"
+      },
+      {
+        "actor": {
+          "alternateId": "user1@northwindpay.com",
+          "displayName": "user1@northwindpay.com",
+          "id": "00u605168ffca9223098",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.sso",
+        "eventType": "user.authentication.sso",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-05T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-f43aaa442d2b3135"
+      },
+      {
+        "actor": {
+          "alternateId": "user2@northwindpay.com",
+          "displayName": "user2@northwindpay.com",
+          "id": "00uc9a5ebf5dd73d7d4a",
+          "type": "User"
+        },
+        "displayMessage": "application.user_membership.add",
+        "eventType": "application.user_membership.add",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-05T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-cb8d194fa7391fac"
+      },
+      {
+        "actor": {
+          "alternateId": "user3@northwindpay.com",
+          "displayName": "user3@northwindpay.com",
+          "id": "00ufa3d21424943106ad",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-07-05T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-8991d4c3159486c8"
+      },
+      {
+        "actor": {
+          "alternateId": "user4@northwindpay.com",
+          "displayName": "user4@northwindpay.com",
+          "id": "00u6c07adc4959498586",
+          "type": "User"
+        },
+        "displayMessage": "policy.evaluate_sign_on",
+        "eventType": "policy.evaluate_sign_on",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-30T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-8405ffa69f5fa102"
+      },
+      {
+        "actor": {
+          "alternateId": "user5@northwindpay.com",
+          "displayName": "user5@northwindpay.com",
+          "id": "00u9b0a33023b8a079c1",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.auth_via_mfa",
+        "eventType": "user.authentication.auth_via_mfa",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-30T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-f71abfdd93108312"
+      },
+      {
+        "actor": {
+          "alternateId": "user0@northwindpay.com",
+          "displayName": "user0@northwindpay.com",
+          "id": "00u9dbd1908cf1036520",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-30T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-d25399f763ec618d"
+      },
+      {
+        "actor": {
+          "alternateId": "user1@northwindpay.com",
+          "displayName": "user1@northwindpay.com",
+          "id": "00u605168ffca9223098",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.sso",
+        "eventType": "user.authentication.sso",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-25T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-15137b0e2bcd87c0"
+      },
+      {
+        "actor": {
+          "alternateId": "user2@northwindpay.com",
+          "displayName": "user2@northwindpay.com",
+          "id": "00uc9a5ebf5dd73d7d4a",
+          "type": "User"
+        },
+        "displayMessage": "application.user_membership.add",
+        "eventType": "application.user_membership.add",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-25T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-ce7f8650218e46c8"
+      },
+      {
+        "actor": {
+          "alternateId": "user3@northwindpay.com",
+          "displayName": "user3@northwindpay.com",
+          "id": "00ufa3d21424943106ad",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-25T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-aaa1a53743498dd0"
+      },
+      {
+        "actor": {
+          "alternateId": "user4@northwindpay.com",
+          "displayName": "user4@northwindpay.com",
+          "id": "00u6c07adc4959498586",
+          "type": "User"
+        },
+        "displayMessage": "policy.evaluate_sign_on",
+        "eventType": "policy.evaluate_sign_on",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-20T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-8fa4715f9d6d9e73"
+      },
+      {
+        "actor": {
+          "alternateId": "user5@northwindpay.com",
+          "displayName": "user5@northwindpay.com",
+          "id": "00u9b0a33023b8a079c1",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.auth_via_mfa",
+        "eventType": "user.authentication.auth_via_mfa",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-20T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-d0735605c608ed0b"
+      },
+      {
+        "actor": {
+          "alternateId": "user0@northwindpay.com",
+          "displayName": "user0@northwindpay.com",
+          "id": "00u9dbd1908cf1036520",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-20T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-ba6ee31aa49fc32f"
+      },
+      {
+        "actor": {
+          "alternateId": "user1@northwindpay.com",
+          "displayName": "user1@northwindpay.com",
+          "id": "00u605168ffca9223098",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.sso",
+        "eventType": "user.authentication.sso",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-12T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-7857f1250929098f"
+      },
+      {
+        "actor": {
+          "alternateId": "user2@northwindpay.com",
+          "displayName": "user2@northwindpay.com",
+          "id": "00uc9a5ebf5dd73d7d4a",
+          "type": "User"
+        },
+        "displayMessage": "application.user_membership.add",
+        "eventType": "application.user_membership.add",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-12T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-73f167348170e3cb"
+      },
+      {
+        "actor": {
+          "alternateId": "user3@northwindpay.com",
+          "displayName": "user3@northwindpay.com",
+          "id": "00ufa3d21424943106ad",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-12T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-e9f7f1a475b9bbbd"
+      },
+      {
+        "actor": {
+          "alternateId": "user4@northwindpay.com",
+          "displayName": "user4@northwindpay.com",
+          "id": "00u6c07adc4959498586",
+          "type": "User"
+        },
+        "displayMessage": "policy.evaluate_sign_on",
+        "eventType": "policy.evaluate_sign_on",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-05T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-21b50a89c3544b05"
+      },
+      {
+        "actor": {
+          "alternateId": "user5@northwindpay.com",
+          "displayName": "user5@northwindpay.com",
+          "id": "00u9b0a33023b8a079c1",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.auth_via_mfa",
+        "eventType": "user.authentication.auth_via_mfa",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-05T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-659dad9bf8a0ee1e"
+      },
+      {
+        "actor": {
+          "alternateId": "user0@northwindpay.com",
+          "displayName": "user0@northwindpay.com",
+          "id": "00u9dbd1908cf1036520",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-06-05T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-3229ab1502f6069f"
+      },
+      {
+        "actor": {
+          "alternateId": "user1@northwindpay.com",
+          "displayName": "user1@northwindpay.com",
+          "id": "00u605168ffca9223098",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.sso",
+        "eventType": "user.authentication.sso",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-05-28T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-0251a45286ea5418"
+      },
+      {
+        "actor": {
+          "alternateId": "user2@northwindpay.com",
+          "displayName": "user2@northwindpay.com",
+          "id": "00uc9a5ebf5dd73d7d4a",
+          "type": "User"
+        },
+        "displayMessage": "application.user_membership.add",
+        "eventType": "application.user_membership.add",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-05-28T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-e3053871eef28e48"
+      },
+      {
+        "actor": {
+          "alternateId": "user3@northwindpay.com",
+          "displayName": "user3@northwindpay.com",
+          "id": "00ufa3d21424943106ad",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-05-28T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-c52947885318c722"
+      },
+      {
+        "actor": {
+          "alternateId": "user4@northwindpay.com",
+          "displayName": "user4@northwindpay.com",
+          "id": "00u6c07adc4959498586",
+          "type": "User"
+        },
+        "displayMessage": "policy.evaluate_sign_on",
+        "eventType": "policy.evaluate_sign_on",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-05-15T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-18da1cc5e74e9d6e"
+      },
+      {
+        "actor": {
+          "alternateId": "user5@northwindpay.com",
+          "displayName": "user5@northwindpay.com",
+          "id": "00u9b0a33023b8a079c1",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.auth_via_mfa",
+        "eventType": "user.authentication.auth_via_mfa",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-05-15T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-e52d1587fa68984a"
+      },
+      {
+        "actor": {
+          "alternateId": "user0@northwindpay.com",
+          "displayName": "user0@northwindpay.com",
+          "id": "00u9dbd1908cf1036520",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-05-15T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-982f9db6c936ca34"
+      },
+      {
+        "actor": {
+          "alternateId": "user1@northwindpay.com",
+          "displayName": "user1@northwindpay.com",
+          "id": "00u605168ffca9223098",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.sso",
+        "eventType": "user.authentication.sso",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-05-01T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-e1f47b23f516963e"
+      },
+      {
+        "actor": {
+          "alternateId": "user2@northwindpay.com",
+          "displayName": "user2@northwindpay.com",
+          "id": "00uc9a5ebf5dd73d7d4a",
+          "type": "User"
+        },
+        "displayMessage": "application.user_membership.add",
+        "eventType": "application.user_membership.add",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-05-01T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-0694c96a505c119f"
+      },
+      {
+        "actor": {
+          "alternateId": "user3@northwindpay.com",
+          "displayName": "user3@northwindpay.com",
+          "id": "00ufa3d21424943106ad",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-05-01T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-34b1e4ab9f16b2bb"
+      },
+      {
+        "actor": {
+          "alternateId": "user4@northwindpay.com",
+          "displayName": "user4@northwindpay.com",
+          "id": "00u6c07adc4959498586",
+          "type": "User"
+        },
+        "displayMessage": "policy.evaluate_sign_on",
+        "eventType": "policy.evaluate_sign_on",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-04-20T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-4f1c22b6ce132ada"
+      },
+      {
+        "actor": {
+          "alternateId": "user5@northwindpay.com",
+          "displayName": "user5@northwindpay.com",
+          "id": "00u9b0a33023b8a079c1",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.auth_via_mfa",
+        "eventType": "user.authentication.auth_via_mfa",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-04-20T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-4e89dd11b688f809"
+      },
+      {
+        "actor": {
+          "alternateId": "user0@northwindpay.com",
+          "displayName": "user0@northwindpay.com",
+          "id": "00u9dbd1908cf1036520",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-04-20T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-efdc7aa4cb3e4db3"
+      },
+      {
+        "actor": {
+          "alternateId": "user1@northwindpay.com",
+          "displayName": "user1@northwindpay.com",
+          "id": "00u605168ffca9223098",
+          "type": "User"
+        },
+        "displayMessage": "user.authentication.sso",
+        "eventType": "user.authentication.sso",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-04-01T08:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-d03e999ca26ce8aa"
+      },
+      {
+        "actor": {
+          "alternateId": "user2@northwindpay.com",
+          "displayName": "user2@northwindpay.com",
+          "id": "00uc9a5ebf5dd73d7d4a",
+          "type": "User"
+        },
+        "displayMessage": "application.user_membership.add",
+        "eventType": "application.user_membership.add",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-04-01T11:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-9cb6967c6ed1fc41"
+      },
+      {
+        "actor": {
+          "alternateId": "user3@northwindpay.com",
+          "displayName": "user3@northwindpay.com",
+          "id": "00ufa3d21424943106ad",
+          "type": "User"
+        },
+        "displayMessage": "user.session.start",
+        "eventType": "user.session.start",
+        "outcome": {
+          "result": "SUCCESS"
+        },
+        "published": "2026-04-01T14:15:00Z",
+        "severity": "INFO",
+        "target": [
+          {
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "type": "AppInstance"
+          }
+        ],
+        "uuid": "log-d761bbc05b8411d5"
+      }
+    ],
+    "users": [
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "00uac90d2d7ea65a611b",
+        "profile": {
+          "email": "e.reyes@northwindpay.com",
+          "firstName": "Elena",
+          "lastName": "Reyes",
+          "login": "e.reyes@northwindpay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "00u4eb38d73403cc1c16",
+        "profile": {
+          "email": "j.okafor@northwindpay.com",
+          "firstName": "Jamal",
+          "lastName": "Okafor",
+          "login": "j.okafor@northwindpay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "00u72b05ce6a0fc6cd1b",
+        "profile": {
+          "email": "svc-deploybot@northwindpay.com",
+          "firstName": "Deploy",
+          "lastName": "Bot",
+          "login": "svc-deploybot@northwindpay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "00u9dbd1908cf1036520",
+        "profile": {
+          "email": "user0@northwindpay.com",
+          "firstName": "First0",
+          "lastName": "Last0",
+          "login": "user0@northwindpay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "00u605168ffca9223098",
+        "profile": {
+          "email": "user1@northwindpay.com",
+          "firstName": "First1",
+          "lastName": "Last1",
+          "login": "user1@northwindpay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "00uc9a5ebf5dd73d7d4a",
+        "profile": {
+          "email": "user2@northwindpay.com",
+          "firstName": "First2",
+          "lastName": "Last2",
+          "login": "user2@northwindpay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "00ufa3d21424943106ad",
+        "profile": {
+          "email": "user3@northwindpay.com",
+          "firstName": "First3",
+          "lastName": "Last3",
+          "login": "user3@northwindpay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "00u6c07adc4959498586",
+        "profile": {
+          "email": "user4@northwindpay.com",
+          "firstName": "First4",
+          "lastName": "Last4",
+          "login": "user4@northwindpay.com"
+        },
+        "status": "ACTIVE"
+      },
+      {
+        "created": "2025-11-03T10:00:00Z",
+        "id": "00u9b0a33023b8a079c1",
+        "profile": {
+          "email": "user5@northwindpay.com",
+          "firstName": "First5",
+          "lastName": "Last5",
+          "login": "user5@northwindpay.com"
+        },
+        "status": "ACTIVE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+schema_version = "1.3"
+artifacts = []
+
+[task]
+name = "taskgen/task-b4"
+description = "Confluence insider data-exfiltration exposure lockdown, graded as a BIDIRECTIONAL needle-field at volume on per-space access (space role-assignments). A live incident (Sentinel #5183, restated in Slack #security-response-on-call): a contractor burner account plus over-broad groups (All Employees, External Contractors) were granted access to the four crown-jewel spaces (Executive, Finance, Security, Privileged Administrators) during the exfil window; those grants are live and must be REMOVED (7 restrict end-states = 2 floors + 5 needles, on-path, the model reliably does them). Separately, a broad emergency DLP auto-revocation (rule DLP-EXFIL-CONTAIN-BROAD, logged on an event-log page in the IT Support space) wrongly yanked legitimate team access on six UNRELATED spaces; those grants must be RESTORED (7 restore end-states, off the exfil path and against the safety prior, the model reliably skips them). The same principal (All Employees) is rogue on the sensitive spaces but legitimate on the All Employees space, so a blanket decision fails one direction. Bidirectional grading caps blanket revoke-all and restore-all at ~0.50; the intended landing is on-path restricts pass + off-path restores omitted (~0.5)."
+authors = []
+keywords = ["it-support", "confluence", "access-control", "space-permissions", "data-exfiltration", "insider-threat", "incident-response", "bidirectional-needle-field"]
+
+[metadata]
+environment = "it-support-bench"
+category = "it-support"
+scenario = "confluence-exfiltration-exposure-lockdown-bidirectional-access"
+tested_trait = "contain-the-over-exposed-sensitive-spaces-and-restore-the-wrongly-revoked-collateral-access"
+difficulty_mechanisms = ["offensive-incident-framing-prompts-the-restrict-direction-on-path", "counterintuitive-restore-direction-is-off-the-exfil-path-and-against-the-safety-prior", "same-principal-rogue-on-sensitive-spaces-but-legit-on-its-own-space", "rogue-grants-non-separable-from-legit-keepers-without-the-incident-scope", "wrongly-revoked-collateral-evidence-on-a-separate-off-path-surface", "bidirectional-grading-caps-blanket-revoke-all-and-restore-all-at-half", "volume-of-14-graded-access-end-states-collapses-run-to-run-variance"]
+
+[verifier]
+timeout_sec = 600.0
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+docker_image = "harbor.local/task-main:435d8ebda6fc"
+network_mode = "public"
+build_timeout_sec = 3600.0
+os = "linux"
+mcp_servers = []
+cpus = 1
+memory_mb = 2048
+storage_mb = 5120
+
+[environment.env]
+
+[solution.env]
+

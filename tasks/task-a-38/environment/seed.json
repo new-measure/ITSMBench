@@ -1,0 +1,1376 @@
+{
+ "_now": "2026-07-16T00:00:00.000Z",
+ "okta": {
+  "users": [
+   {
+    "id": "00ub05e79d4a39e94147",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Elena",
+     "lastName": "Novak",
+     "email": "elena.novak@northwind-robotics.example",
+     "login": "elena.novak@northwind-robotics.example",
+     "displayName": "Elena Novak",
+     "title": "Site Reliability Engineer (contract)",
+     "department": "Payments"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00u90168d7c9d8e40781",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Liam",
+     "lastName": "Nguyen",
+     "email": "liam.nguyen@northwind-robotics.example",
+     "login": "liam.nguyen@northwind-robotics.example",
+     "displayName": "Liam Nguyen",
+     "title": "Employee",
+     "department": "Engineering"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00ud7b12cb1a8fe3be55",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Olivia",
+     "lastName": "Singh",
+     "email": "olivia.singh@northwind-robotics.example",
+     "login": "olivia.singh@northwind-robotics.example",
+     "displayName": "Olivia Singh",
+     "title": "Employee",
+     "department": "Finance"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00u3d8be5d4ae898ee2b",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Noah",
+     "lastName": "Moss",
+     "email": "noah.moss@northwind-robotics.example",
+     "login": "noah.moss@northwind-robotics.example",
+     "displayName": "Noah Moss",
+     "title": "Employee",
+     "department": "Security"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00u502bf59eae9dfe4e0",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Emma",
+     "lastName": "Bauer",
+     "email": "emma.bauer@northwind-robotics.example",
+     "login": "emma.bauer@northwind-robotics.example",
+     "displayName": "Emma Bauer",
+     "title": "Employee",
+     "department": "IT"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00u0e1b872e8a55f91e1",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Ethan",
+     "lastName": "Haas",
+     "email": "ethan.haas@northwind-robotics.example",
+     "login": "ethan.haas@northwind-robotics.example",
+     "displayName": "Ethan Haas",
+     "title": "Employee",
+     "department": "Operations"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00ude00651856f203c09",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Ava",
+     "lastName": "Falk",
+     "email": "ava.falk@northwind-robotics.example",
+     "login": "ava.falk@northwind-robotics.example",
+     "displayName": "Ava Falk",
+     "title": "Employee",
+     "department": "Sales"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00uab73d3ef36b9ecb25",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Lucas",
+     "lastName": "Hale",
+     "email": "lucas.hale@northwind-robotics.example",
+     "login": "lucas.hale@northwind-robotics.example",
+     "displayName": "Lucas Hale",
+     "title": "Employee",
+     "department": "Marketing"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00ud238bd6c592fdc183",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Mia",
+     "lastName": "Dubois",
+     "email": "mia.dubois@northwind-robotics.example",
+     "login": "mia.dubois@northwind-robotics.example",
+     "displayName": "Mia Dubois",
+     "title": "Employee",
+     "department": "HR"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00u0c959204805c9c3bd",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Leo",
+     "lastName": "Berg",
+     "email": "leo.berg@northwind-robotics.example",
+     "login": "leo.berg@northwind-robotics.example",
+     "displayName": "Leo Berg",
+     "title": "Employee",
+     "department": "Engineering"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00u2a9f903b80c9b751d",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Aria",
+     "lastName": "Reed",
+     "email": "aria.reed@northwind-robotics.example",
+     "login": "aria.reed@northwind-robotics.example",
+     "displayName": "Aria Reed",
+     "title": "Employee",
+     "department": "Finance"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00u07563d3d825ad2e3c",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Kai",
+     "lastName": "Silva",
+     "email": "kai.silva@northwind-robotics.example",
+     "login": "kai.silva@northwind-robotics.example",
+     "displayName": "Kai Silva",
+     "title": "Employee",
+     "department": "Security"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00uf507dff4ac307c594",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Zoe",
+     "lastName": "Costa",
+     "email": "zoe.costa@northwind-robotics.example",
+     "login": "zoe.costa@northwind-robotics.example",
+     "displayName": "Zoe Costa",
+     "title": "Employee",
+     "department": "IT"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00uc32597b602471b67d",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Nora",
+     "lastName": "Wolf",
+     "email": "nora.wolf@northwind-robotics.example",
+     "login": "nora.wolf@northwind-robotics.example",
+     "displayName": "Nora Wolf",
+     "title": "Employee",
+     "department": "Operations"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00u787ce8dbcc91b35db",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Milo",
+     "lastName": "Reyes2",
+     "email": "milo.reyes2@northwind-robotics.example",
+     "login": "milo.reyes2@northwind-robotics.example",
+     "displayName": "Milo Reyes2",
+     "title": "Employee",
+     "department": "Sales"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00u69ed32e6a4a40412f",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Lena",
+     "lastName": "Brooks",
+     "email": "lena.brooks@northwind-robotics.example",
+     "login": "lena.brooks@northwind-robotics.example",
+     "displayName": "Lena Brooks",
+     "title": "Engineering Manager",
+     "department": "Engineering"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00u22377a24c5d20a7ac",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Maya",
+     "lastName": "Okonkwo",
+     "email": "maya.okonkwo@northwind-robotics.example",
+     "login": "maya.okonkwo@northwind-robotics.example",
+     "displayName": "Maya Okonkwo",
+     "title": "Platform Lead (contract)",
+     "department": "Platform Engineering"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00u117b4049ee6f8c1a6",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Nadia",
+     "lastName": "Farah",
+     "email": "nadia.farah@northwind-robotics.example",
+     "login": "nadia.farah@northwind-robotics.example",
+     "displayName": "Nadia Farah",
+     "title": "Data Engineer (contract)",
+     "department": "Data Platform"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00ude74872d355123190",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Omar",
+     "lastName": "Haddad",
+     "email": "omar.haddad@northwind-robotics.example",
+     "login": "omar.haddad@northwind-robotics.example",
+     "displayName": "Omar Haddad",
+     "title": "Staff Engineer",
+     "department": "Platform Engineering"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00uffbb35fcc18d1c562",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Priya",
+     "lastName": "Shah",
+     "email": "priya.shah@northwind-robotics.example",
+     "login": "priya.shah@northwind-robotics.example",
+     "displayName": "Priya Shah",
+     "title": "Senior SRE",
+     "department": "Payments"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00u1a622aa4def779992",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Ravi",
+     "lastName": "Balan",
+     "email": "ravi.balan@northwind-robotics.example",
+     "login": "ravi.balan@northwind-robotics.example",
+     "displayName": "Ravi Balan",
+     "title": "Build/Release Engineer (contract)",
+     "department": "Platform Engineering"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   },
+   {
+    "id": "00ud4073320e3fd2db49",
+    "status": "ACTIVE",
+    "created": "2024-01-10T09:00:00.000Z",
+    "activated": "2024-01-10T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "firstName": "Tomas",
+     "lastName": "Reyes",
+     "email": "tomas.reyes@northwind-robotics.example",
+     "login": "tomas.reyes@northwind-robotics.example",
+     "displayName": "Tomas Reyes",
+     "title": "DevOps Engineer (contract)",
+     "department": "Platform Engineering"
+    },
+    "credentials": {
+     "provider": {
+      "type": "OKTA",
+      "name": "OKTA"
+     }
+    }
+   }
+  ],
+  "groups": [
+   {
+    "id": "00g4c87f3273089ffa16",
+    "type": "OKTA_GROUP",
+    "created": "2023-02-01T09:00:00.000Z",
+    "lastUpdated": "2023-02-01T09:00:00.000Z",
+    "profile": {
+     "name": "Platform Engineering",
+     "description": "Platform engineering team."
+    },
+    "members": [
+     "00u22377a24c5d20a7ac",
+     "00ude74872d355123190",
+     "00ud4073320e3fd2db49",
+     "00u1a622aa4def779992"
+    ]
+   },
+   {
+    "id": "00g621f5358ba010c0f9",
+    "type": "OKTA_GROUP",
+    "created": "2023-02-01T09:00:00.000Z",
+    "lastUpdated": "2023-02-01T09:00:00.000Z",
+    "profile": {
+     "name": "Payments Squad",
+     "description": "Payments reliability squad."
+    },
+    "members": [
+     "00ub05e79d4a39e94147",
+     "00ude74872d355123190",
+     "00uffbb35fcc18d1c562"
+    ]
+   },
+   {
+    "id": "00g0e1def789a3e773b5",
+    "type": "OKTA_GROUP",
+    "created": "2023-02-01T09:00:00.000Z",
+    "lastUpdated": "2023-02-01T09:00:00.000Z",
+    "profile": {
+     "name": "Data Platform",
+     "description": "Data platform engineers."
+    },
+    "members": [
+     "00u117b4049ee6f8c1a6",
+     "00u69ed32e6a4a40412f"
+    ]
+   },
+   {
+    "id": "00gbce335b75c1e70aaf",
+    "type": "OKTA_GROUP",
+    "created": "2023-02-01T09:00:00.000Z",
+    "lastUpdated": "2023-02-01T09:00:00.000Z",
+    "profile": {
+     "name": "All Engineering",
+     "description": "All engineering staff."
+    },
+    "members": [
+     "00u22377a24c5d20a7ac",
+     "00u1a622aa4def779992",
+     "00ub05e79d4a39e94147",
+     "00ud4073320e3fd2db49",
+     "00u117b4049ee6f8c1a6",
+     "00ude74872d355123190",
+     "00u69ed32e6a4a40412f",
+     "00u90168d7c9d8e40781",
+     "00u0c959204805c9c3bd"
+    ]
+   }
+  ],
+  "apps": [
+   {
+    "id": "0oa82965ee521e3c5756",
+    "name": "datadog",
+    "label": "Datadog",
+    "status": "ACTIVE",
+    "signOnMode": "SAML_2_0",
+    "created": "2024-03-01T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "settings": {},
+    "groups": [],
+    "users": [
+     {
+      "id": "00u117b4049ee6f8c1a6",
+      "scope": "USER",
+      "status": "ACTIVE",
+      "created": "2025-01-05T09:00:00.000Z",
+      "statusChanged": "2025-01-05T09:00:00.000Z",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "profile": {}
+     },
+     {
+      "id": "00ude74872d355123190",
+      "scope": "USER",
+      "status": "ACTIVE",
+      "created": "2025-01-05T09:00:00.000Z",
+      "statusChanged": "2025-01-05T09:00:00.000Z",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "profile": {}
+     }
+    ]
+   },
+   {
+    "id": "0oaeb6244755d0c9c7f3",
+    "name": "aws_console",
+    "label": "AWS Console",
+    "status": "ACTIVE",
+    "signOnMode": "SAML_2_0",
+    "created": "2024-03-01T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "settings": {},
+    "groups": [],
+    "users": [
+     {
+      "id": "00u117b4049ee6f8c1a6",
+      "scope": "USER",
+      "status": "ACTIVE",
+      "created": "2025-01-05T09:00:00.000Z",
+      "statusChanged": "2025-01-05T09:00:00.000Z",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "profile": {}
+     },
+     {
+      "id": "00u69ed32e6a4a40412f",
+      "scope": "USER",
+      "status": "ACTIVE",
+      "created": "2025-01-05T09:00:00.000Z",
+      "statusChanged": "2025-01-05T09:00:00.000Z",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "profile": {}
+     }
+    ]
+   },
+   {
+    "id": "0oa2f1159713f404fc51",
+    "name": "confluence",
+    "label": "Confluence",
+    "status": "ACTIVE",
+    "signOnMode": "SAML_2_0",
+    "created": "2024-03-01T09:00:00.000Z",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "settings": {},
+    "groups": [],
+    "users": [
+     {
+      "id": "00ude74872d355123190",
+      "scope": "USER",
+      "status": "ACTIVE",
+      "created": "2025-01-05T09:00:00.000Z",
+      "statusChanged": "2025-01-05T09:00:00.000Z",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "profile": {}
+     },
+     {
+      "id": "00uffbb35fcc18d1c562",
+      "scope": "USER",
+      "status": "ACTIVE",
+      "created": "2025-01-05T09:00:00.000Z",
+      "statusChanged": "2025-01-05T09:00:00.000Z",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "profile": {}
+     }
+    ]
+   }
+  ]
+ },
+ "github": {
+  "orgs": [
+   {
+    "login": "northwind-robotics",
+    "id": 1,
+    "node_id": "ORG_1",
+    "type": "Organization"
+   }
+  ],
+  "repos": [
+   {
+    "id": 4000,
+    "node_id": "REPO_4000",
+    "name": "payments-terraform",
+    "full_name": "northwind-robotics/payments-terraform",
+    "org": "northwind-robotics",
+    "owner": {
+     "login": "northwind-robotics",
+     "type": "Organization"
+    },
+    "private": true,
+    "description": "Terraform for the payments platform",
+    "default_branch": "main",
+    "created_at": "2023-05-01T09:00:00.000Z",
+    "updated_at": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": 4001,
+    "node_id": "REPO_4001",
+    "name": "build-pipelines",
+    "full_name": "northwind-robotics/build-pipelines",
+    "org": "northwind-robotics",
+    "owner": {
+     "login": "northwind-robotics",
+     "type": "Organization"
+    },
+    "private": true,
+    "description": "Shared CI/CD pipeline definitions",
+    "default_branch": "main",
+    "created_at": "2023-05-01T09:00:00.000Z",
+    "updated_at": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": 4002,
+    "node_id": "REPO_4002",
+    "name": "edge-gateway",
+    "full_name": "northwind-robotics/edge-gateway",
+    "org": "northwind-robotics",
+    "owner": {
+     "login": "northwind-robotics",
+     "type": "Organization"
+    },
+    "private": true,
+    "description": "Edge API gateway",
+    "default_branch": "main",
+    "created_at": "2023-05-01T09:00:00.000Z",
+    "updated_at": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": 4003,
+    "node_id": "REPO_4003",
+    "name": "data-warehouse",
+    "full_name": "northwind-robotics/data-warehouse",
+    "org": "northwind-robotics",
+    "owner": {
+     "login": "northwind-robotics",
+     "type": "Organization"
+    },
+    "private": true,
+    "description": "Analytics data warehouse",
+    "default_branch": "main",
+    "created_at": "2023-05-01T09:00:00.000Z",
+    "updated_at": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": 4004,
+    "node_id": "REPO_4004",
+    "name": "mobile-app",
+    "full_name": "northwind-robotics/mobile-app",
+    "org": "northwind-robotics",
+    "owner": {
+     "login": "northwind-robotics",
+     "type": "Organization"
+    },
+    "private": true,
+    "description": "Customer mobile app",
+    "default_branch": "main",
+    "created_at": "2023-05-01T09:00:00.000Z",
+    "updated_at": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "id": 4005,
+    "node_id": "REPO_4005",
+    "name": "infra-scripts",
+    "full_name": "northwind-robotics/infra-scripts",
+    "org": "northwind-robotics",
+    "owner": {
+     "login": "northwind-robotics",
+     "type": "Organization"
+    },
+    "private": true,
+    "description": "Operational scripts",
+    "default_branch": "main",
+    "created_at": "2023-05-01T09:00:00.000Z",
+    "updated_at": "2026-06-01T09:00:00.000Z"
+   }
+  ],
+  "members": [
+   {
+    "login": "maya-okonkwo",
+    "id": 9000,
+    "node_id": "MEMBERS_9000",
+    "type": "User",
+    "org": "northwind-robotics",
+    "role": "member",
+    "state": "active"
+   },
+   {
+    "login": "ravi-balan",
+    "id": 9001,
+    "node_id": "MEMBERS_9001",
+    "type": "User",
+    "org": "northwind-robotics",
+    "role": "member",
+    "state": "active"
+   },
+   {
+    "login": "elena-novak",
+    "id": 9002,
+    "node_id": "MEMBERS_9002",
+    "type": "User",
+    "org": "northwind-robotics",
+    "role": "member",
+    "state": "active"
+   },
+   {
+    "login": "tomas-reyes",
+    "id": 9003,
+    "node_id": "MEMBERS_9003",
+    "type": "User",
+    "org": "northwind-robotics",
+    "role": "member",
+    "state": "active"
+   },
+   {
+    "login": "omar-haddad",
+    "id": 9004,
+    "node_id": "MEMBERS_9004",
+    "type": "User",
+    "org": "northwind-robotics",
+    "role": "member",
+    "state": "active"
+   },
+   {
+    "login": "lena-brooks",
+    "id": 9005,
+    "node_id": "MEMBERS_9005",
+    "type": "User",
+    "org": "northwind-robotics",
+    "role": "member",
+    "state": "active"
+   },
+   {
+    "login": "priya-shah",
+    "id": 9006,
+    "node_id": "MEMBERS_9006",
+    "type": "User",
+    "org": "northwind-robotics",
+    "role": "member",
+    "state": "active"
+   }
+  ],
+  "keys": [
+   {
+    "id": 5001,
+    "key": "ssh-ed25519 AAAAC3Nza...maya-terraform-apply",
+    "title": "payments-terraform CI apply (set up by Maya)",
+    "read_only": false,
+    "added_by": "maya-okonkwo",
+    "verified": true,
+    "owner": "northwind-robotics",
+    "repo": "payments-terraform",
+    "created_at": "2025-08-12T09:00:00.000Z"
+   },
+   {
+    "id": 5003,
+    "key": "ssh-ed25519 AAAAC3Nza...maya-edge-deploy",
+    "title": "edge-gateway release deploy (added by Maya)",
+    "read_only": false,
+    "added_by": "maya-okonkwo",
+    "verified": true,
+    "owner": "northwind-robotics",
+    "repo": "edge-gateway",
+    "created_at": "2025-09-03T09:00:00.000Z"
+   },
+   {
+    "id": 5002,
+    "key": "ssh-ed25519 AAAAC3Nza...cibot-pipelines",
+    "title": "ci-bot pipeline deploy",
+    "read_only": true,
+    "added_by": "omar-haddad",
+    "verified": true,
+    "owner": "northwind-robotics",
+    "repo": "build-pipelines",
+    "created_at": "2025-02-01T09:00:00.000Z"
+   }
+  ],
+  "hooks": [
+   {
+    "id": 6001,
+    "name": "web",
+    "active": true,
+    "events": [
+     "push",
+     "pull_request"
+    ],
+    "config": {
+     "url": "https://ci.northwind-robotics.example/hooks/maya-terraform-plan",
+     "content_type": "json"
+    },
+    "owner": "northwind-robotics",
+    "repo": "payments-terraform",
+    "created_at": "2025-08-12T09:00:00.000Z",
+    "updated_at": "2025-08-12T09:00:00.000Z"
+   },
+   {
+    "id": 6002,
+    "name": "web",
+    "active": true,
+    "events": [
+     "deployment"
+    ],
+    "config": {
+     "url": "https://deploy.northwind-robotics.example/hooks/maya-edge-release",
+     "content_type": "json"
+    },
+    "owner": "northwind-robotics",
+    "repo": "edge-gateway",
+    "created_at": "2025-09-03T09:00:00.000Z",
+    "updated_at": "2025-09-03T09:00:00.000Z"
+   },
+   {
+    "id": 6003,
+    "name": "web",
+    "active": true,
+    "events": [
+     "push"
+    ],
+    "config": {
+     "url": "https://ci.northwind-robotics.example/hooks/pipelines-main",
+     "content_type": "json"
+    },
+    "owner": "northwind-robotics",
+    "repo": "build-pipelines",
+    "created_at": "2025-01-20T09:00:00.000Z",
+    "updated_at": "2025-01-20T09:00:00.000Z"
+   }
+  ]
+ },
+ "jumpcloud": {
+  "systemusers": [
+   {
+    "id": "614cf2f7d9ddb2e18b7ff765",
+    "_id": "614cf2f7d9ddb2e18b7ff765",
+    "username": "ravi.balan",
+    "email": "ravi.balan@northwind-robotics.example",
+    "firstname": "Ravi",
+    "lastname": "Balan",
+    "displayname": "Ravi Balan",
+    "activated": true,
+    "suspended": false,
+    "state": "ACTIVATED",
+    "account_locked": false,
+    "sudo": true,
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "8335811502f1f8332423cbd0",
+    "_id": "8335811502f1f8332423cbd0",
+    "username": "sam.levine",
+    "email": "sam.levine@northwind-robotics.example",
+    "firstname": "Sam",
+    "lastname": "Levine",
+    "displayname": "Sam Levine",
+    "activated": true,
+    "suspended": false,
+    "state": "ACTIVATED",
+    "account_locked": false,
+    "sudo": true,
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "8b15691fd6a0a3ca23ae495e",
+    "_id": "8b15691fd6a0a3ca23ae495e",
+    "username": "dana.kessler",
+    "email": "dana.kessler@northwind-robotics.example",
+    "firstname": "Dana",
+    "lastname": "Kessler",
+    "displayname": "Dana Kessler",
+    "activated": true,
+    "suspended": false,
+    "state": "ACTIVATED",
+    "account_locked": false,
+    "sudo": true,
+    "created": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": "29cd0c9cd562ee2c1b351298",
+    "_id": "29cd0c9cd562ee2c1b351298",
+    "username": "omar.haddad",
+    "email": "omar.haddad@northwind-robotics.example",
+    "firstname": "Omar",
+    "lastname": "Haddad",
+    "displayname": "Omar Haddad",
+    "activated": true,
+    "suspended": false,
+    "state": "ACTIVATED",
+    "account_locked": false,
+    "sudo": true,
+    "created": "2024-02-01T09:00:00.000Z"
+   }
+  ]
+ },
+ "snipeit": {
+  "companies": [
+   {
+    "id": 1,
+    "name": "Northwind Robotics"
+   }
+  ],
+  "statuslabels": [
+   {
+    "id": 1,
+    "name": "Ready to Deploy",
+    "type": "deployable",
+    "status_type": "deployable",
+    "status_meta": "deployable"
+   },
+   {
+    "id": 2,
+    "name": "Deployed",
+    "type": "deployable",
+    "status_type": "deployable",
+    "status_meta": "deployed"
+   }
+  ],
+  "categories": [
+   {
+    "id": 1,
+    "name": "Laptop",
+    "category_type": "asset"
+   },
+   {
+    "id": 2,
+    "name": "Security Key",
+    "category_type": "asset"
+   }
+  ],
+  "manufacturers": [
+   {
+    "id": 1,
+    "name": "Apple"
+   },
+   {
+    "id": 2,
+    "name": "Yubico"
+   }
+  ],
+  "models": [
+   {
+    "id": 1,
+    "name": "MacBook Pro 16",
+    "model_number": "MBP16",
+    "category_id": 1,
+    "manufacturer_id": 1
+   },
+   {
+    "id": 2,
+    "name": "YubiKey 5C NFC",
+    "model_number": "YK5C",
+    "category_id": 2,
+    "manufacturer_id": 2
+   }
+  ],
+  "users": [
+   {
+    "id": 501,
+    "first_name": "Tomas",
+    "last_name": "Reyes",
+    "username": "tomas.reyes",
+    "email": "tomas.reyes@northwind-robotics.example",
+    "employee_num": "501",
+    "company_id": 1,
+    "activated": true,
+    "created_at": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": 502,
+    "first_name": "Lena",
+    "last_name": "Brooks",
+    "username": "lena.brooks",
+    "email": "lena.brooks@northwind-robotics.example",
+    "employee_num": "502",
+    "company_id": 1,
+    "activated": true,
+    "created_at": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": 503,
+    "first_name": "Omar",
+    "last_name": "Haddad",
+    "username": "omar.haddad",
+    "email": "omar.haddad@northwind-robotics.example",
+    "employee_num": "503",
+    "company_id": 1,
+    "activated": true,
+    "created_at": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": 504,
+    "first_name": "Ravi",
+    "last_name": "Balan",
+    "username": "ravi.balan",
+    "email": "ravi.balan@northwind-robotics.example",
+    "employee_num": "504",
+    "company_id": 1,
+    "activated": true,
+    "created_at": "2024-02-01T09:00:00.000Z"
+   },
+   {
+    "id": 505,
+    "first_name": "Dana",
+    "last_name": "Kessler",
+    "username": "dana.kessler",
+    "email": "dana.kessler@northwind-robotics.example",
+    "employee_num": "505",
+    "company_id": 1,
+    "activated": true,
+    "created_at": "2024-02-01T09:00:00.000Z"
+   }
+  ],
+  "hardware": [
+   {
+    "id": 101,
+    "asset_tag": "NR-1042",
+    "name": "MacBook Pro 16 (payload)",
+    "serial": "SN-000101",
+    "model_id": 1,
+    "company_id": 1,
+    "category_id": 1,
+    "manufacturer_id": 1,
+    "purchase_date": "2024-02-15",
+    "created_at": "2024-02-15T09:00:00.000Z",
+    "assigned_to": 501,
+    "assigned_type": "user",
+    "status_id": 2,
+    "last_checkout": "2024-03-01T09:00:00.000Z"
+   },
+   {
+    "id": 102,
+    "asset_tag": "NR-2011",
+    "name": "YubiKey 5C (root)",
+    "serial": "SN-000102",
+    "model_id": 2,
+    "company_id": 1,
+    "category_id": 2,
+    "manufacturer_id": 2,
+    "purchase_date": "2024-02-15",
+    "created_at": "2024-02-15T09:00:00.000Z",
+    "assigned_to": 501,
+    "assigned_type": "user",
+    "status_id": 2,
+    "last_checkout": "2024-03-01T09:00:00.000Z"
+   },
+   {
+    "id": 106,
+    "asset_tag": "NR-1077",
+    "name": "MacBook Pro 16 (build fleet)",
+    "serial": "SN-000106",
+    "model_id": 1,
+    "company_id": 1,
+    "category_id": 1,
+    "manufacturer_id": 1,
+    "purchase_date": "2024-02-15",
+    "created_at": "2024-02-15T09:00:00.000Z",
+    "assigned_to": 504,
+    "assigned_type": "user",
+    "status_id": 2,
+    "last_checkout": "2024-03-01T09:00:00.000Z"
+   },
+   {
+    "id": 107,
+    "asset_tag": "NR-2044",
+    "name": "YubiKey 5C (fleet root)",
+    "serial": "SN-000107",
+    "model_id": 2,
+    "company_id": 1,
+    "category_id": 2,
+    "manufacturer_id": 2,
+    "purchase_date": "2024-02-15",
+    "created_at": "2024-02-15T09:00:00.000Z",
+    "assigned_to": 505,
+    "assigned_type": "user",
+    "status_id": 2,
+    "last_checkout": "2024-03-01T09:00:00.000Z"
+   },
+   {
+    "id": 103,
+    "asset_tag": "NR-1051",
+    "name": "MacBook Pro 16",
+    "serial": "SN-000103",
+    "model_id": 1,
+    "company_id": 1,
+    "category_id": 1,
+    "manufacturer_id": 1,
+    "purchase_date": "2024-02-15",
+    "created_at": "2024-02-15T09:00:00.000Z",
+    "assigned_to": 502,
+    "assigned_type": "user",
+    "status_id": 2,
+    "last_checkout": "2024-03-01T09:00:00.000Z"
+   },
+   {
+    "id": 104,
+    "asset_tag": "NR-1052",
+    "name": "MacBook Pro 16",
+    "serial": "SN-000104",
+    "model_id": 1,
+    "company_id": 1,
+    "category_id": 1,
+    "manufacturer_id": 1,
+    "purchase_date": "2024-02-15",
+    "created_at": "2024-02-15T09:00:00.000Z",
+    "assigned_to": 503,
+    "assigned_type": "user",
+    "status_id": 2,
+    "last_checkout": "2024-03-01T09:00:00.000Z"
+   },
+   {
+    "id": 105,
+    "asset_tag": "NR-1099",
+    "name": "MacBook Pro 16 (spare)",
+    "serial": "SN-000105",
+    "model_id": 1,
+    "company_id": 1,
+    "category_id": 1,
+    "manufacturer_id": 1,
+    "purchase_date": "2024-02-15",
+    "created_at": "2024-02-15T09:00:00.000Z",
+    "assigned_to": null,
+    "status_id": 1
+   }
+  ]
+ },
+ "pagerduty": {
+  "users": [
+   {
+    "id": "P6A71E1",
+    "type": "user",
+    "name": "Elena Novak",
+    "email": "elena.novak@northwind-robotics.example",
+    "role": "user",
+    "summary": "Elena Novak"
+   },
+   {
+    "id": "P11E87B",
+    "type": "user",
+    "name": "Omar Haddad",
+    "email": "omar.haddad@northwind-robotics.example",
+    "role": "user",
+    "summary": "Omar Haddad"
+   },
+   {
+    "id": "P897A82",
+    "type": "user",
+    "name": "Priya Shah",
+    "email": "priya.shah@northwind-robotics.example",
+    "role": "user",
+    "summary": "Priya Shah"
+   }
+  ],
+  "escalation_policies": [
+   {
+    "id": "P0B8A68",
+    "type": "escalation_policy",
+    "name": "Payments On-Call",
+    "summary": "Payments On-Call",
+    "description": "Primary paging for the payments platform.",
+    "num_loops": 2,
+    "on_call_handoff_notifications": "if_has_services",
+    "escalation_rules": [
+     {
+      "id": "3fed7d17f13c",
+      "escalation_delay_in_minutes": 30,
+      "targets": [
+       {
+        "id": "P6A71E1",
+        "type": "user_reference",
+        "summary": "Elena"
+       }
+      ]
+     }
+    ],
+    "services": [],
+    "teams": []
+   },
+   {
+    "id": "P43EA2A",
+    "type": "escalation_policy",
+    "name": "Infrastructure On-Call",
+    "summary": "Infrastructure On-Call",
+    "description": "Primary paging for core infra.",
+    "num_loops": 2,
+    "on_call_handoff_notifications": "if_has_services",
+    "escalation_rules": [
+     {
+      "id": "5f2172bfde29",
+      "escalation_delay_in_minutes": 30,
+      "targets": [
+       {
+        "id": "P11E87B",
+        "type": "user_reference",
+        "summary": "Omar"
+       }
+      ]
+     }
+    ],
+    "services": [],
+    "teams": []
+   }
+  ]
+ },
+ "jira-service-management": {
+  "serviceDesks": [
+   {
+    "id": "1",
+    "projectId": "10",
+    "projectKey": "HELP",
+    "projectName": "IT Help Center"
+   }
+  ],
+  "requestTypes": [
+   {
+    "id": "100",
+    "name": "Offboarding / access removal",
+    "serviceDeskId": "1",
+    "description": "Remove access for leavers and contractors."
+   }
+  ],
+  "customers": [
+   {
+    "accountId": "cust-lena",
+    "id": "cust-lena",
+    "displayName": "Lena Brooks",
+    "emailAddress": "lena.brooks@northwind-robotics.example"
+   }
+  ],
+  "requests": [
+   {
+    "id": "4093",
+    "issueId": "4093",
+    "issueKey": "HELP-4093",
+    "serviceDeskId": "1",
+    "requestTypeId": "100",
+    "currentStatus": {
+     "status": "Resolved",
+     "statusCategory": "COMPLETE"
+    },
+    "reporter": {
+     "accountId": "cust-lena",
+     "displayName": "Lena Brooks",
+     "emailAddress": "lena.brooks@northwind-robotics.example"
+    },
+    "createdDate": {
+     "iso8601": "2026-02-10T09:00:00.000Z"
+    },
+    "requestFieldValues": [
+     {
+      "fieldId": "summary",
+      "label": "Summary",
+      "value": "Offboarding - Jonah Weiss (Staff DevOps) - RESOLVED"
+     },
+     {
+      "fieldId": "description",
+      "label": "Description",
+      "value": "Q1 FY26 offboarding - Jonah Weiss (Staff DevOps Engineer, contract), last day 2026-02-14. RESOLVED / closed. Record of what was done to fully offboard him, kept for reference:\n- SSO: his identity account was deactivated so he can no longer authenticate.\n- Fleet identity: he ALSO had a separate Linux fleet login (used for the build servers) that SSO does not cover; that login was suspended too.\n- Source control: removed from the org. He had wired up CI on the 'checkout-svc' repo - a personal deploy key ('jonah-weiss apply key') and a release webhook he added - both were deleted, since they would otherwise have kept acting after his account was gone.\n- Hardware: the laptop and the security key issued to him were checked back in.\n- On-call: he was the SOLE target of the 'Checkout On-Call' escalation policy. Removing him outright would have left that policy paging no one, so an active SRE was added to the policy first, then he was taken off it.\nConfirmed afterwards that no access, login, deploy key, webhook, on-call slot, or hardware checkout attributable to him remained anywhere."
+     }
+    ]
+   },
+   {
+    "id": "4127",
+    "issueId": "4127",
+    "issueKey": "HELP-4127",
+    "serviceDeskId": "1",
+    "requestTypeId": "100",
+    "currentStatus": {
+     "status": "Open",
+     "statusCategory": "NEW"
+    },
+    "reporter": {
+     "accountId": "cust-lena",
+     "displayName": "Lena Brooks",
+     "emailAddress": "lena.brooks@northwind-robotics.example"
+    },
+    "createdDate": {
+     "iso8601": "2026-07-15T09:00:00.000Z"
+    },
+    "requestFieldValues": [
+     {
+      "fieldId": "summary",
+      "label": "Summary",
+      "value": "Offboarding batch - platform/DevOps engagements"
+     },
+     {
+      "fieldId": "description",
+      "label": "Description",
+      "value": "The following platform / DevOps engagements have ended. Please offboard each person and leave the environment in a correct, secure state. Close this request when all are done.\n\n1) Maya Okonkwo - Platform Lead. Built and owned much of the payments platform's CI/CD wiring. Last day 2026-07-10.\n2) Ravi Balan - Build/Release Engineer. Worked across source control and the Linux build fleet. Last day 2026-07-09.\n3) Elena Novak - SRE, Payments. Ran payments reliability and its on-call. Last day 2026-06-30.\n4) Tomas Reyes - DevOps Engineer. Issued company hardware for field work. Last day 2026-07-11.\n5) Nadia Farah - Data Engineer. Data Platform. Last day 2026-07-08.\n6) Sam Levine - Linux Fleet Operator (contractor, never had an SSO account). Managed servers directly. Last day 2026-07-05.\n7) Dana Kessler - Linux Fleet Operator (contractor, never had an SSO account). Ran the build fleet and held issued hardware. Last day 2026-07-06."
+     }
+    ]
+   }
+  ]
+ }
+}

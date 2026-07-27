@@ -1,0 +1,4697 @@
+{
+  "_now": "2026-06-30T09:00:00Z",
+  "microsoft-teams": {
+    "channels": [
+      {
+        "displayName": "General",
+        "id": "ch-eng-general",
+        "membershipType": "standard",
+        "teamId": "team-roboeng"
+      },
+      {
+        "displayName": "Builds",
+        "id": "ch-eng-builds",
+        "membershipType": "standard",
+        "teamId": "team-roboeng"
+      },
+      {
+        "addedBy": "svc-connect",
+        "createdDateTime": "2026-05-18T02:00:00Z",
+        "displayName": "beacon-sync",
+        "id": "ch-beacon-sync",
+        "membershipType": "shared",
+        "teamId": "team-roboeng"
+      },
+      {
+        "displayName": "General",
+        "id": "ch-lia-general",
+        "membershipType": "standard",
+        "teamId": "team-liaison"
+      },
+      {
+        "addedBy": "j.okafor",
+        "createdDateTime": "2026-04-20T10:00:00Z",
+        "displayName": "partners",
+        "id": "ch-lia-partners",
+        "membershipType": "shared",
+        "teamId": "team-liaison"
+      }
+    ],
+    "members": [
+      {
+        "displayName": "Eng 0",
+        "email": "eng0@auric.com",
+        "id": "mem-eng-0",
+        "roles": [
+          "owner"
+        ],
+        "teamId": "team-roboeng"
+      },
+      {
+        "displayName": "Eng 1",
+        "email": "eng1@auric.com",
+        "id": "mem-eng-1",
+        "roles": [],
+        "teamId": "team-roboeng"
+      },
+      {
+        "displayName": "Eng 2",
+        "email": "eng2@auric.com",
+        "id": "mem-eng-2",
+        "roles": [],
+        "teamId": "team-roboeng"
+      },
+      {
+        "displayName": "Eng 3",
+        "email": "eng3@auric.com",
+        "id": "mem-eng-3",
+        "roles": [],
+        "teamId": "team-roboeng"
+      },
+      {
+        "displayName": "Eng 4",
+        "email": "eng4@auric.com",
+        "id": "mem-eng-4",
+        "roles": [],
+        "teamId": "team-roboeng"
+      },
+      {
+        "displayName": "Eng 5",
+        "email": "eng5@auric.com",
+        "id": "mem-eng-5",
+        "roles": [],
+        "teamId": "team-roboeng"
+      },
+      {
+        "addedBy": "svc-connect",
+        "displayName": "J. Tanaka (Kestrel)",
+        "email": "j.tanaka@kestrel-controls.example",
+        "id": "mem-guest-kestrel",
+        "roles": [
+          "guest"
+        ],
+        "teamId": "team-roboeng"
+      },
+      {
+        "addedBy": "j.okafor",
+        "displayName": "Consortium Liaison",
+        "email": "liaison@northwind-consortium.example",
+        "id": "mem-guest-nwind",
+        "roles": [
+          "guest"
+        ],
+        "teamId": "team-liaison"
+      },
+      {
+        "email": "lia0@auric.com",
+        "id": "mem-lia-0",
+        "roles": [],
+        "teamId": "team-liaison"
+      },
+      {
+        "email": "lia1@auric.com",
+        "id": "mem-lia-1",
+        "roles": [],
+        "teamId": "team-liaison"
+      },
+      {
+        "email": "lia2@auric.com",
+        "id": "mem-lia-2",
+        "roles": [],
+        "teamId": "team-liaison"
+      },
+      {
+        "email": "lia3@auric.com",
+        "id": "mem-lia-3",
+        "roles": [],
+        "teamId": "team-liaison"
+      }
+    ],
+    "teams": [
+      {
+        "displayName": "Robotics Engineering",
+        "id": "team-roboeng",
+        "visibility": "private"
+      },
+      {
+        "displayName": "Partner Liaison",
+        "id": "team-liaison",
+        "visibility": "private"
+      },
+      {
+        "displayName": "Dept 0",
+        "id": "team-43c2852e",
+        "visibility": "private"
+      },
+      {
+        "displayName": "Dept 1",
+        "id": "team-d8fa0a20",
+        "visibility": "private"
+      },
+      {
+        "displayName": "Dept 2",
+        "id": "team-e59be676",
+        "visibility": "private"
+      },
+      {
+        "displayName": "Dept 3",
+        "id": "team-61d49def",
+        "visibility": "private"
+      },
+      {
+        "displayName": "Dept 4",
+        "id": "team-a54f8463",
+        "visibility": "private"
+      }
+    ]
+  },
+  "outlook-calendar": {
+    "events": [
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "eng.lead@auric.com",
+              "name": "eng.lead"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "qa.lead@auric.com",
+              "name": "qa.lead"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "r.singh@orbital-dynamics.example",
+              "name": "R. Singh (Orbital)"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-05-18T02:00:00Z",
+        "configuredBy": "svc-connect",
+        "end": {
+          "dateTime": "2026-05-19T16:00:00",
+          "timeZone": "UTC"
+        },
+        "id": "ev-roadmap-review",
+        "organizer": {
+          "emailAddress": {
+            "address": "eng.lead@auric.com",
+            "name": "Eng Lead"
+          }
+        },
+        "recurrence": {
+          "pattern": {
+            "interval": 1,
+            "type": "weekly"
+          }
+        },
+        "start": {
+          "dateTime": "2026-05-19T15:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Robotics Roadmap Review",
+        "type": "seriesMaster",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "j.okafor@auric.com",
+              "name": "j.okafor"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "consortium.lead@northwind-consortium.example",
+              "name": "Consortium Lead"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "j.okafor",
+        "end": {
+          "dateTime": "2026-04-21T15:00:00",
+          "timeZone": "UTC"
+        },
+        "id": "ev-consortium-sync",
+        "organizer": {
+          "emailAddress": {
+            "address": "j.okafor@auric.com",
+            "name": "J. Okafor"
+          }
+        },
+        "recurrence": {
+          "pattern": {
+            "interval": 1,
+            "type": "weekly"
+          }
+        },
+        "start": {
+          "dateTime": "2026-04-21T14:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Beacon Consortium Sync",
+        "type": "seriesMaster",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "a0@auric.com",
+              "name": "a0"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "b0@auric.com",
+              "name": "b0"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "admin",
+        "id": "ev-noise-0",
+        "start": {
+          "dateTime": "2026-06-01T10:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Internal Meeting 0",
+        "type": "seriesMaster",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "a1@auric.com",
+              "name": "a1"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "b1@auric.com",
+              "name": "b1"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "admin",
+        "id": "ev-noise-1",
+        "start": {
+          "dateTime": "2026-06-02T10:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Internal Meeting 1",
+        "type": "singleInstance",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "a2@auric.com",
+              "name": "a2"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "b2@auric.com",
+              "name": "b2"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "admin",
+        "id": "ev-noise-2",
+        "start": {
+          "dateTime": "2026-06-03T10:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Internal Meeting 2",
+        "type": "singleInstance",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "a3@auric.com",
+              "name": "a3"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "b3@auric.com",
+              "name": "b3"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "admin",
+        "id": "ev-noise-3",
+        "start": {
+          "dateTime": "2026-06-04T10:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Internal Meeting 3",
+        "type": "seriesMaster",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "a4@auric.com",
+              "name": "a4"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "b4@auric.com",
+              "name": "b4"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "admin",
+        "id": "ev-noise-4",
+        "start": {
+          "dateTime": "2026-06-05T10:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Internal Meeting 4",
+        "type": "singleInstance",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "a5@auric.com",
+              "name": "a5"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "b5@auric.com",
+              "name": "b5"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "admin",
+        "id": "ev-noise-5",
+        "start": {
+          "dateTime": "2026-06-06T10:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Internal Meeting 5",
+        "type": "singleInstance",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "a6@auric.com",
+              "name": "a6"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "b6@auric.com",
+              "name": "b6"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "admin",
+        "id": "ev-noise-6",
+        "start": {
+          "dateTime": "2026-06-07T10:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Internal Meeting 6",
+        "type": "seriesMaster",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "a7@auric.com",
+              "name": "a7"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "b7@auric.com",
+              "name": "b7"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "admin",
+        "id": "ev-noise-7",
+        "start": {
+          "dateTime": "2026-06-08T10:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Internal Meeting 7",
+        "type": "singleInstance",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "a8@auric.com",
+              "name": "a8"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "b8@auric.com",
+              "name": "b8"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "admin",
+        "id": "ev-noise-8",
+        "start": {
+          "dateTime": "2026-06-09T10:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Internal Meeting 8",
+        "type": "singleInstance",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "a9@auric.com",
+              "name": "a9"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "b9@auric.com",
+              "name": "b9"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "admin",
+        "id": "ev-noise-9",
+        "start": {
+          "dateTime": "2026-06-10T10:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Internal Meeting 9",
+        "type": "seriesMaster",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "a10@auric.com",
+              "name": "a10"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "b10@auric.com",
+              "name": "b10"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "admin",
+        "id": "ev-noise-10",
+        "start": {
+          "dateTime": "2026-06-11T10:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Internal Meeting 10",
+        "type": "singleInstance",
+        "userId": "me"
+      },
+      {
+        "attendees": [
+          {
+            "emailAddress": {
+              "address": "a11@auric.com",
+              "name": "a11"
+            },
+            "type": "required"
+          },
+          {
+            "emailAddress": {
+              "address": "b11@auric.com",
+              "name": "b11"
+            },
+            "type": "required"
+          }
+        ],
+        "configuredAt": "2026-04-20T10:00:00Z",
+        "configuredBy": "admin",
+        "id": "ev-noise-11",
+        "start": {
+          "dateTime": "2026-06-12T10:00:00",
+          "timeZone": "UTC"
+        },
+        "subject": "Internal Meeting 11",
+        "type": "singleInstance",
+        "userId": "me"
+      }
+    ]
+  },
+  "servicenow": {
+    "change_request": [
+      {
+        "assigned_to": "j.okafor",
+        "category": "automation",
+        "description": "Bulk external-collaboration provisioning run for Project Beacon partners executed by the Connect Sync automation.",
+        "number": "CHG0004410",
+        "opened_by": "svc-connect",
+        "short_description": "Project Beacon - external collaboration enablement (Connect Sync)",
+        "state": "3",
+        "sys_created_by": "svc-connect",
+        "sys_created_on": "2026-05-18T02:00:00Z",
+        "sys_id": "bbbb0000000000000000000000000002",
+        "type": "standard",
+        "u_run_target": "beacon-partner-list"
+      }
+    ],
+    "incident": [
+      {
+        "category": "inquiry",
+        "number": "INC0020000",
+        "short_description": "Noise incident 0",
+        "state": "6",
+        "sys_created_by": "admin",
+        "sys_id": "e9b558559cd76291a7a16be871610b30"
+      },
+      {
+        "category": "inquiry",
+        "number": "INC0020001",
+        "short_description": "Noise incident 1",
+        "state": "6",
+        "sys_created_by": "admin",
+        "sys_id": "2c8b0dd558e3df7e8fa5f1abe3883b1c"
+      },
+      {
+        "category": "inquiry",
+        "number": "INC0020002",
+        "short_description": "Noise incident 2",
+        "state": "6",
+        "sys_created_by": "admin",
+        "sys_id": "7e432a2c0f4f2ff74b47459f57cc8cf1"
+      },
+      {
+        "category": "inquiry",
+        "number": "INC0020003",
+        "short_description": "Noise incident 3",
+        "state": "6",
+        "sys_created_by": "admin",
+        "sys_id": "b32c46a2ea288cc8ad4199f71b8d0141"
+      },
+      {
+        "category": "inquiry",
+        "number": "INC0020004",
+        "short_description": "Noise incident 4",
+        "state": "6",
+        "sys_created_by": "admin",
+        "sys_id": "b834a50d84fa201b08cc0921c3a151f4"
+      }
+    ],
+    "u_security_exception": [
+      {
+        "category": "security",
+        "description": "The Connect Sync provisioning automation used to onboard Project Beacon partners applied external-collaboration and guest-access settings outside the intended partner scope during its run. Review the company's collaboration tooling, find every internal resource the run exposed to external parties that should not be, and put each one back to its correct internal-only state. Leave the sanctioned Project Beacon partner resources themselves intact. Also determine and record the root cause.",
+        "number": "SEC0001001",
+        "opened_by": "sec.review",
+        "priority": "2",
+        "short_description": "Connect Sync run applied external sharing beyond Project Beacon scope",
+        "state": "2",
+        "sys_created_by": "sec.review",
+        "sys_created_on": "2026-06-28T11:00:00Z",
+        "sys_id": "aaaa0000000000000000000000000001"
+      }
+    ]
+  },
+  "slack-admin": {
+    "approved_apps": [
+      {
+        "app": {
+          "id": "A0POLLHIVE",
+          "name": "PollHive"
+        },
+        "app_id": "A0POLLHIVE",
+        "approved_at": "2026-05-18T02:00:00Z",
+        "approved_by": "svc-connect",
+        "status": "approved",
+        "team_id": "T0AURIC01"
+      },
+      {
+        "app": {
+          "id": "A0LEGITBOT",
+          "name": "StandupBot"
+        },
+        "app_id": "A0LEGITBOT",
+        "approved_at": "2026-04-20T10:00:00Z",
+        "approved_by": "admin",
+        "status": "approved",
+        "team_id": "T0AURIC01"
+      }
+    ],
+    "conversations": [
+      {
+        "created": 1690000000,
+        "creator": "UENGLEAD",
+        "ext_domain": "orbital-dynamics.example",
+        "id": "C0FIRMENG",
+        "is_ext_shared": true,
+        "is_private": true,
+        "is_shared": true,
+        "members": [
+          "U09B7961B",
+          "U2EAC629D",
+          "U3E330BE6",
+          "UB9B4CE19",
+          "UC5BC0A75",
+          "UDB06CE6F",
+          "UED6DF6B7",
+          "UF5B9E617",
+          "UG0ORBITAL"
+        ],
+        "name": "firmware-eng",
+        "shared_at": "2026-05-18T02:00:00Z",
+        "shared_by": "svc-connect",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1688000000,
+        "creator": "UADMIN",
+        "guest_added_at": "2026-05-18T02:00:00Z",
+        "guest_added_by": "svc-connect",
+        "id": "C0HWROAD",
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U08350AD9",
+          "U3FC94F00",
+          "U61CE93D2",
+          "UA624D75B",
+          "UBA3F4502",
+          "UE73C0A59",
+          "UREYES",
+          "UG0KESTREL"
+        ],
+        "name": "hw-roadmap",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1691000000,
+        "creator": "UADMIN",
+        "ext_domain": "meridian-actuators.example",
+        "id": "C0SUPPOPS",
+        "is_ext_shared": true,
+        "is_private": false,
+        "is_shared": true,
+        "members": [
+          "U06ADED84",
+          "U3632E927",
+          "U74A7FF6C",
+          "UB9B4CE19",
+          "UB9C8E94C",
+          "UC41D1A9B",
+          "UF1F40364",
+          "UG0MERIDN"
+        ],
+        "name": "supply-ops",
+        "shared_at": "2026-05-18T02:00:00Z",
+        "shared_by": "svc-connect",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1689000000,
+        "creator": "UADMIN",
+        "id": "C0SUPCHAIN",
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U1C19C01D",
+          "U9F95743A",
+          "UA0E56AC6",
+          "UCADB273D",
+          "UD783AE0A",
+          "UE39F6E21",
+          "UEA94151C",
+          "UOKAFOR"
+        ],
+        "name": "supply-chain",
+        "reverted_at": "2026-05-20T15:00:00Z",
+        "reverted_by": "j.okafor",
+        "shared_at": "2026-05-18T02:00:00Z",
+        "shared_by": "svc-connect",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1682000000,
+        "creator": "UOKAFOR",
+        "ext_domain": "northwind-consortium.example",
+        "id": "C0BEACONCON",
+        "is_ext_shared": true,
+        "is_private": false,
+        "is_shared": true,
+        "members": [
+          "U1D89F0F5",
+          "U2D4C982B",
+          "U4B703BA3",
+          "UAA97D959",
+          "UC2367433",
+          "UD21526B7",
+          "UG0NWIND"
+        ],
+        "name": "beacon-consortium",
+        "shared_at": "2026-04-20T10:00:00Z",
+        "shared_by": "j.okafor",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1681000000,
+        "creator": "UADMIN",
+        "ext_domain": "northwind-consortium.example",
+        "id": "C0PARTNRINT",
+        "is_ext_shared": true,
+        "is_private": false,
+        "is_shared": true,
+        "members": [
+          "U16F7EF8E",
+          "U261BCB2E",
+          "U27B00EED",
+          "U4B703BA3",
+          "U6ABD2125",
+          "U731F4219",
+          "UG0NWIND2"
+        ],
+        "name": "partner-integration",
+        "shared_at": "2026-04-20T10:00:00Z",
+        "shared_by": "admin",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680000000,
+        "creator": "UADMIN",
+        "id": "C4EB522B1",
+        "is_archived": true,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U165D9DDE",
+          "U9FF19945",
+          "UC5BC0A75",
+          "UFFCA79BA",
+          "UOKAFOR"
+        ],
+        "name": "general-0",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680001000,
+        "creator": "UADMIN",
+        "id": "C3F77A072",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U0CEDFB84",
+          "U2D41F4EB",
+          "U61C36BEE",
+          "U8D37F08E",
+          "UDB06CE6F"
+        ],
+        "name": "random-1",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680002000,
+        "creator": "UADMIN",
+        "id": "CBAC4673F",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U06ADED84",
+          "U1C19C01D",
+          "U3E34D084",
+          "U61C36BEE",
+          "UE7DAF5DE"
+        ],
+        "name": "eng-2",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680003000,
+        "creator": "UADMIN",
+        "id": "C82902F37",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U2D4C982B",
+          "U525EF9CC",
+          "U5BBECA59",
+          "UB5E01EA1",
+          "UDDC42EFA"
+        ],
+        "name": "design-3",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680004000,
+        "creator": "UADMIN",
+        "id": "C60CC457E",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U1888A36D",
+          "U4B703BA3",
+          "UD3077454",
+          "UD65491D4",
+          "UD783AE0A"
+        ],
+        "name": "qa-4",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680005000,
+        "creator": "UADMIN",
+        "id": "C4768F063",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U1D89F0F5",
+          "U3186AE09",
+          "U61CE93D2",
+          "UCA6FD4F4",
+          "UE39F6E21"
+        ],
+        "name": "ops-5",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680006000,
+        "creator": "UADMIN",
+        "id": "CE87FC409",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U165D9DDE",
+          "U6BD02B95",
+          "U731BFC04",
+          "UB6FF79C9"
+        ],
+        "name": "hr-chat-6",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680007000,
+        "creator": "UADMIN",
+        "id": "C9BB75B9A",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U1888A36D",
+          "U261BCB2E",
+          "U4B703BA3",
+          "U8EA56F86",
+          "UDFEFA9C3"
+        ],
+        "name": "sales-7",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680008000,
+        "creator": "UADMIN",
+        "id": "C90BD0162",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U09B7961B",
+          "U2EAC629D",
+          "U672E75A7",
+          "UA4FC632D",
+          "UC41D1A9B"
+        ],
+        "name": "support-8",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680009000,
+        "creator": "UADMIN",
+        "id": "CCCBE6FA1",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U08350AD9",
+          "U1888A36D",
+          "U27B00EED",
+          "U2EAC629D",
+          "U7827317E"
+        ],
+        "name": "incidents-9",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680010000,
+        "creator": "UADMIN",
+        "id": "CAED15AB6",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U0217DCC0",
+          "U73340434",
+          "U7459DF31",
+          "UBD21882A",
+          "UE7DAF5DE"
+        ],
+        "name": "releases-10",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680011000,
+        "creator": "UADMIN",
+        "id": "C12DB9417",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U0D0B5182",
+          "UA01CB2EA",
+          "UD65491D4",
+          "UD783AE0A",
+          "UEA94151C"
+        ],
+        "name": "builds-11",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680012000,
+        "creator": "UADMIN",
+        "id": "C54770733",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "UB5E01EA1",
+          "UB6FF79C9",
+          "UC5BC0A75",
+          "UCF41F4B2",
+          "UDDC42EFA"
+        ],
+        "name": "hardware-12",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680013000,
+        "creator": "UADMIN",
+        "id": "CB5B57E3E",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U09B7961B",
+          "U8D37F08E",
+          "UBE9F1139",
+          "UBEFC2B71",
+          "UF5B9E617"
+        ],
+        "name": "firmware-lab-13",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680014000,
+        "creator": "UADMIN",
+        "id": "C5160BC96",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U4B4C8F1C",
+          "U659B9C3E",
+          "U672E75A7",
+          "U731BFC04",
+          "UFFCA79BA"
+        ],
+        "name": "logistics-14",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680015000,
+        "creator": "UADMIN",
+        "id": "C4A6E2B26",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U3E330BE6",
+          "U61CE93D2",
+          "U6FCCC3CC",
+          "UB9C8E94C",
+          "UE73C0A59"
+        ],
+        "name": "procurement-15",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680016000,
+        "creator": "UADMIN",
+        "id": "CF0EE0CEC",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U4B703BA3",
+          "U6ABD2125",
+          "U9B73D1C7",
+          "UA01CB2EA",
+          "UC2080B92"
+        ],
+        "name": "finance-16",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680017000,
+        "creator": "UADMIN",
+        "id": "CDE910543",
+        "is_archived": true,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U09B7961B",
+          "U0A24E9BC",
+          "UDA9B6DC8",
+          "UDDC42EFA",
+          "UEB423A99"
+        ],
+        "name": "legal-17",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680018000,
+        "creator": "UADMIN",
+        "id": "C8D678F56",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U7459DF31",
+          "U76CDA6C0",
+          "UB9B4CE19",
+          "UBA3F4502",
+          "UCF41F4B2"
+        ],
+        "name": "marketing-18",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680019000,
+        "creator": "UADMIN",
+        "id": "C251FB11C",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U19CE418B",
+          "U73340434",
+          "UA18C2E89",
+          "UC5BC0A75",
+          "UF81217B7"
+        ],
+        "name": "it-help-19",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680020000,
+        "creator": "UADMIN",
+        "id": "CC6088451",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U261BCB2E",
+          "UB9C8E94C",
+          "UBD21882A",
+          "UC2367433"
+        ],
+        "name": "general-20",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680021000,
+        "creator": "UADMIN",
+        "id": "C2E17EECC",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U378B143B",
+          "U672E75A7",
+          "UAA97D959",
+          "UADMIN",
+          "UFB921764"
+        ],
+        "name": "random-21",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680022000,
+        "creator": "UADMIN",
+        "id": "C381A7D54",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U1D89F0F5",
+          "U27B00EED",
+          "U3186AE09",
+          "U659B9C3E",
+          "U9B73D1C7"
+        ],
+        "name": "eng-22",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680023000,
+        "creator": "UADMIN",
+        "id": "C46FAFC09",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "UBE9F1139",
+          "UBEFC2B71",
+          "UEB8BC21C",
+          "UF81217B7",
+          "UOKAFOR"
+        ],
+        "name": "design-23",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680024000,
+        "creator": "UADMIN",
+        "id": "C7B0F88AC",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U1888A36D",
+          "U27B00EED",
+          "U8D37F08E",
+          "U9B73D1C7",
+          "UC2080B92"
+        ],
+        "name": "qa-24",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680025000,
+        "creator": "UADMIN",
+        "id": "CE7184DCE",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U09B7961B",
+          "U1888A36D",
+          "U6FCCC3CC",
+          "UD1B3A4E7",
+          "UDFEFA9C3"
+        ],
+        "name": "ops-25",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680026000,
+        "creator": "UADMIN",
+        "id": "C6CAA0224",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U3FC94F00",
+          "U7827317E",
+          "U9B73D1C7",
+          "UC5BC0A75",
+          "UCA6FD4F4"
+        ],
+        "name": "hr-chat-26",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680027000,
+        "creator": "UADMIN",
+        "id": "C79355796",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U0CEDFB84",
+          "U266F5321",
+          "UAA97D959",
+          "UD1C67035"
+        ],
+        "name": "sales-27",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680028000,
+        "creator": "UADMIN",
+        "id": "C7313A10A",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U27B00EED",
+          "U4B703BA3",
+          "UBBC82BC0",
+          "UD1C67035",
+          "UF81217B7"
+        ],
+        "name": "support-28",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680029000,
+        "creator": "UADMIN",
+        "id": "C49DC9E72",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U61C36BEE",
+          "UA01CB2EA",
+          "UC41D1A9B",
+          "UE39F6E21",
+          "UFFCA79BA"
+        ],
+        "name": "incidents-29",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680030000,
+        "creator": "UADMIN",
+        "id": "C41E5F3F1",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U1D89F0F5",
+          "UBBC82BC0",
+          "UC2080B92",
+          "UDADB6FF1"
+        ],
+        "name": "releases-30",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680031000,
+        "creator": "UADMIN",
+        "id": "CB133935C",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U3186AE09",
+          "U61CE93D2",
+          "U8CEE8E0E",
+          "UF1F40364",
+          "UF81217B7"
+        ],
+        "name": "builds-31",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680032000,
+        "creator": "UADMIN",
+        "id": "CC379BD42",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U61C36BEE",
+          "U61CE93D2",
+          "U63AA9076",
+          "UE3F402A1",
+          "UEB8BC21C"
+        ],
+        "name": "hardware-32",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680033000,
+        "creator": "UADMIN",
+        "id": "C195AC6F2",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U165D9DDE",
+          "U16F84E0B",
+          "U61CE93D2",
+          "UD21526B7",
+          "UE7DAF5DE"
+        ],
+        "name": "firmware-lab-33",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680034000,
+        "creator": "UADMIN",
+        "id": "CFE596942",
+        "is_archived": true,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U2C8CC9B8",
+          "UA01CB2EA",
+          "UBABE23AC",
+          "UD182A637",
+          "UD1B3A4E7"
+        ],
+        "name": "logistics-34",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680035000,
+        "creator": "UADMIN",
+        "id": "CCF18DFA8",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U0D0B5182",
+          "U76CDA6C0",
+          "UD139AE3F",
+          "UDA9B6DC8",
+          "UE7DAF5DE"
+        ],
+        "name": "procurement-35",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680036000,
+        "creator": "UADMIN",
+        "id": "C4BF1EA45",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U1888A36D",
+          "U1D89F0F5",
+          "U7827317E",
+          "UB9C8E94C",
+          "UBABE23AC"
+        ],
+        "name": "finance-36",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680037000,
+        "creator": "UADMIN",
+        "id": "C58BF23C8",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U3E330BE6",
+          "U3FC94F00",
+          "U73340434",
+          "U74A7FF6C",
+          "UB5E01EA1"
+        ],
+        "name": "legal-37",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680038000,
+        "creator": "UADMIN",
+        "id": "C6EEFC3CE",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U31C3D985",
+          "U3E330BE6",
+          "UA01CB2EA",
+          "UA4FC632D",
+          "UDFEFA9C3"
+        ],
+        "name": "marketing-38",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680039000,
+        "creator": "UADMIN",
+        "id": "C99FB395D",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U4B703BA3",
+          "U5919B3D0",
+          "UA0E56AC6",
+          "UCADB273D",
+          "UD65491D4"
+        ],
+        "name": "it-help-39",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680040000,
+        "creator": "UADMIN",
+        "id": "C85773073",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U61CE93D2",
+          "UC5BC0A75",
+          "UCADB273D",
+          "UE3F402A1",
+          "UEA94151C"
+        ],
+        "name": "general-40",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680041000,
+        "creator": "UADMIN",
+        "id": "CC215F4E0",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U06ADED84",
+          "U19CE418B",
+          "U266F5321",
+          "UD3077454",
+          "UREYES"
+        ],
+        "name": "random-41",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680042000,
+        "creator": "UADMIN",
+        "id": "C30E0C4CD",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U63AA9076",
+          "U6FCCC3CC",
+          "UB9C8E94C",
+          "UE3F402A1",
+          "UF5B9E617"
+        ],
+        "name": "eng-42",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680043000,
+        "creator": "UADMIN",
+        "id": "CD07180D7",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U2EAC629D",
+          "U74A7FF6C",
+          "UADMIN",
+          "UED6DF6B7",
+          "UFFCA79BA"
+        ],
+        "name": "design-43",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680044000,
+        "creator": "UADMIN",
+        "id": "C3D637869",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U16F7EF8E",
+          "U672E75A7",
+          "UB9C8E94C",
+          "UE39F6E21",
+          "UOKAFOR"
+        ],
+        "name": "qa-44",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680045000,
+        "creator": "UADMIN",
+        "id": "C9EB264C7",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U7827317E",
+          "UADMIN",
+          "UBEFC2B71",
+          "UDADB6FF1",
+          "UE39F6E21"
+        ],
+        "name": "ops-45",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680046000,
+        "creator": "UADMIN",
+        "id": "C358B8EB5",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U0D0B5182",
+          "U1EFC52BB",
+          "U2D4C982B",
+          "U74A7FF6C",
+          "UE7DAF5DE"
+        ],
+        "name": "hr-chat-46",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680047000,
+        "creator": "UADMIN",
+        "id": "CB49802EF",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U16F84E0B",
+          "U4E120DC8",
+          "UE7DAF5DE",
+          "UF1F40364"
+        ],
+        "name": "sales-47",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680048000,
+        "creator": "UADMIN",
+        "id": "C70CB8A73",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U06ADED84",
+          "UB9C8E94C",
+          "UBBC82BC0",
+          "UBEFC2B71",
+          "UREYES"
+        ],
+        "name": "support-48",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680049000,
+        "creator": "UADMIN",
+        "id": "C4C488BEB",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U09B7961B",
+          "U1EFC52BB",
+          "U261BCB2E",
+          "U7827317E",
+          "UD783AE0A"
+        ],
+        "name": "incidents-49",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680050000,
+        "creator": "UADMIN",
+        "id": "C279AFFCB",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U2C8CC9B8",
+          "U77ABC61E",
+          "UAA97D959",
+          "UADMIN",
+          "UDB06CE6F"
+        ],
+        "name": "releases-50",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680051000,
+        "creator": "UADMIN",
+        "id": "C63B7EE6B",
+        "is_archived": true,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U3186AE09",
+          "U9FF19945",
+          "UD3077454",
+          "UD9E16100",
+          "UE73C0A59"
+        ],
+        "name": "builds-51",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680052000,
+        "creator": "UADMIN",
+        "id": "C1B197041",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U266F5321",
+          "U2EAC629D",
+          "U4B703BA3",
+          "UBD21882A",
+          "UD783AE0A"
+        ],
+        "name": "hardware-52",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680053000,
+        "creator": "UADMIN",
+        "id": "CAEBC7ECA",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U0A24E9BC",
+          "U1C19C01D",
+          "U2EAC629D",
+          "U659B9C3E",
+          "U9B73D1C7"
+        ],
+        "name": "firmware-lab-53",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680054000,
+        "creator": "UADMIN",
+        "id": "C7762203E",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U27B00EED",
+          "U5919B3D0",
+          "U8D37F08E",
+          "UCA6FD4F4"
+        ],
+        "name": "logistics-54",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680055000,
+        "creator": "UADMIN",
+        "id": "CB48B4C6B",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U59508502",
+          "U77ABC61E",
+          "UBEFC2B71",
+          "UCA6FD4F4",
+          "UEB423A99"
+        ],
+        "name": "procurement-55",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680056000,
+        "creator": "UADMIN",
+        "id": "C7B4CC58D",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U9F95743A",
+          "UADMIN",
+          "UC5BC0A75",
+          "UCF41F4B2",
+          "UDA9B6DC8"
+        ],
+        "name": "finance-56",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680057000,
+        "creator": "UADMIN",
+        "id": "C484373CB",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U2D41F4EB",
+          "U3632E927",
+          "U4B4C8F1C",
+          "U4B703BA3",
+          "UE73C0A59"
+        ],
+        "name": "legal-57",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680058000,
+        "creator": "UADMIN",
+        "id": "CA61C1FE5",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U06ADED84",
+          "U6ABD2125",
+          "U8D37F08E",
+          "UBABE23AC",
+          "UCADB273D"
+        ],
+        "name": "marketing-58",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680059000,
+        "creator": "UADMIN",
+        "id": "C9D446318",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U0D0B5182",
+          "U1888A36D",
+          "U2C8CC9B8",
+          "U59508502",
+          "UADMIN"
+        ],
+        "name": "it-help-59",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680060000,
+        "creator": "UADMIN",
+        "id": "C7EA08CC4",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U59508502",
+          "U61C36BEE",
+          "U731BFC04",
+          "UA624D75B",
+          "UD139AE3F"
+        ],
+        "name": "general-60",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680061000,
+        "creator": "UADMIN",
+        "id": "C3C426B9F",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U3632E927",
+          "U6FCCC3CC",
+          "U731F4219",
+          "U74A7FF6C",
+          "UA18C2E89"
+        ],
+        "name": "random-61",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680062000,
+        "creator": "UADMIN",
+        "id": "C0C1544D0",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U1D89F0F5",
+          "U27B00EED",
+          "U61CE93D2",
+          "UD139AE3F",
+          "UD783AE0A"
+        ],
+        "name": "eng-62",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680063000,
+        "creator": "UADMIN",
+        "id": "CF732114C",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U08350AD9",
+          "U4B4C8F1C",
+          "UB6FF79C9",
+          "UB9C8E94C",
+          "UE73C0A59"
+        ],
+        "name": "design-63",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680064000,
+        "creator": "UADMIN",
+        "id": "C1F39BB54",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U3632E927",
+          "UBABE23AC",
+          "UCA6FD4F4",
+          "UDA9B6DC8",
+          "UF1F40364"
+        ],
+        "name": "qa-64",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680065000,
+        "creator": "UADMIN",
+        "id": "C6682586F",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U0A24E9BC",
+          "U2C8CC9B8",
+          "UC2080B92",
+          "UE3D8E358",
+          "UE7DAF5DE"
+        ],
+        "name": "ops-65",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680066000,
+        "creator": "UADMIN",
+        "id": "C24BA4AAE",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U3E34D084",
+          "U9B73D1C7",
+          "UB6FF79C9",
+          "UD182A637",
+          "UD1C67035"
+        ],
+        "name": "hr-chat-66",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680067000,
+        "creator": "UADMIN",
+        "id": "C6E6D3DAF",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "UA4FC632D",
+          "UBBC82BC0",
+          "UD182A637",
+          "UDDC42EFA",
+          "UFB921764"
+        ],
+        "name": "sales-67",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680068000,
+        "creator": "UADMIN",
+        "id": "C8EA43584",
+        "is_archived": true,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U2D41F4EB",
+          "U31C3D985",
+          "U525EF9CC",
+          "UA4FC632D",
+          "UDDC42EFA"
+        ],
+        "name": "support-68",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680069000,
+        "creator": "UADMIN",
+        "id": "C1495E418",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U19CE418B",
+          "U5919B3D0",
+          "U731F4219",
+          "UD65491D4",
+          "UEA94151C"
+        ],
+        "name": "incidents-69",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680070000,
+        "creator": "UADMIN",
+        "id": "C04240867",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U16F7EF8E",
+          "U1EFC52BB",
+          "U378B143B",
+          "U5919B3D0",
+          "U5E65FB03"
+        ],
+        "name": "releases-70",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680071000,
+        "creator": "UADMIN",
+        "id": "C00224666",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U8CEE8E0E",
+          "UD783AE0A",
+          "UDFEFA9C3",
+          "UED6DF6B7",
+          "UFB921764"
+        ],
+        "name": "builds-71",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680072000,
+        "creator": "UADMIN",
+        "id": "C89D87839",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U6FCCC3CC",
+          "U731BFC04",
+          "UC41D1A9B",
+          "UD182A637",
+          "UFFCA79BA"
+        ],
+        "name": "hardware-72",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680073000,
+        "creator": "UADMIN",
+        "id": "C4072C377",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U3186AE09",
+          "UA4FC632D",
+          "UD65491D4",
+          "UE7DAF5DE",
+          "UED6DF6B7"
+        ],
+        "name": "firmware-lab-73",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680074000,
+        "creator": "UADMIN",
+        "id": "C7442166B",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U3186AE09",
+          "U4B703BA3",
+          "U5BBECA59",
+          "UB9C8E94C",
+          "UREYES"
+        ],
+        "name": "logistics-74",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680075000,
+        "creator": "UADMIN",
+        "id": "CBECCEB48",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U0D0B5182",
+          "U63AA9076",
+          "U74A7FF6C",
+          "UDA9B6DC8",
+          "UE7DAF5DE"
+        ],
+        "name": "procurement-75",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680076000,
+        "creator": "UADMIN",
+        "id": "C67D016BB",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U2EAC629D",
+          "UBA3F4502",
+          "UBABE23AC",
+          "UBBC82BC0",
+          "UEB8BC21C"
+        ],
+        "name": "finance-76",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680077000,
+        "creator": "UADMIN",
+        "id": "CEC132035",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U16F7EF8E",
+          "U9F95743A",
+          "UC2367433",
+          "UCADB273D",
+          "UE73C0A59"
+        ],
+        "name": "legal-77",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680078000,
+        "creator": "UADMIN",
+        "id": "C50F6934D",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U08350AD9",
+          "U5919B3D0",
+          "U672E75A7",
+          "U8EA56F86",
+          "UADMIN"
+        ],
+        "name": "marketing-78",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680079000,
+        "creator": "UADMIN",
+        "id": "C02F63DDC",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U7459DF31",
+          "UADMIN",
+          "UBE9F1139",
+          "UE3F402A1",
+          "UFB921764"
+        ],
+        "name": "it-help-79",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680080000,
+        "creator": "UADMIN",
+        "id": "C83BA6038",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U4B4C8F1C",
+          "U5E65FB03",
+          "UAFE331EA",
+          "UB9C8E94C"
+        ],
+        "name": "general-80",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680081000,
+        "creator": "UADMIN",
+        "id": "C86BD5649",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U0CEDFB84",
+          "U16F84E0B",
+          "U1EFC52BB",
+          "UCF41F4B2",
+          "UD21526B7"
+        ],
+        "name": "random-81",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680082000,
+        "creator": "UADMIN",
+        "id": "CABE5D5C2",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U6BD02B95",
+          "U8CEE8E0E",
+          "UA0E56AC6",
+          "UA4FC632D",
+          "UCADB273D"
+        ],
+        "name": "eng-82",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680083000,
+        "creator": "UADMIN",
+        "id": "C7999E60B",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U2EAC629D",
+          "U378B143B",
+          "UBA3F4502",
+          "UBABE23AC",
+          "UREYES"
+        ],
+        "name": "design-83",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680084000,
+        "creator": "UADMIN",
+        "id": "C23345C36",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U1888A36D",
+          "U1EFC52BB",
+          "UB5E01EA1",
+          "UD1B3A4E7",
+          "UED6DF6B7"
+        ],
+        "name": "qa-84",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680085000,
+        "creator": "UADMIN",
+        "id": "CD3A767C6",
+        "is_archived": true,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U61CE93D2",
+          "UB5E01EA1",
+          "UBBC82BC0",
+          "UCA6FD4F4"
+        ],
+        "name": "ops-85",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680086000,
+        "creator": "UADMIN",
+        "id": "C5BBFBD54",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U01E84566",
+          "U0A24E9BC",
+          "UDADB6FF1",
+          "UEB423A99",
+          "UED6DF6B7"
+        ],
+        "name": "hr-chat-86",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680087000,
+        "creator": "UADMIN",
+        "id": "CDB44B3AF",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U08350AD9",
+          "U16F7EF8E",
+          "U2D4C982B",
+          "UCADB273D",
+          "UD182A637"
+        ],
+        "name": "sales-87",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680088000,
+        "creator": "UADMIN",
+        "id": "C8B4FF780",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U0217DCC0",
+          "U0D0B5182",
+          "U1EFC52BB",
+          "U6BD02B95",
+          "UD783AE0A"
+        ],
+        "name": "support-88",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680089000,
+        "creator": "UADMIN",
+        "id": "C3136E4F8",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U0217DCC0",
+          "U31C3D985",
+          "U8CEE8E0E",
+          "UAFE331EA",
+          "UBEFC2B71"
+        ],
+        "name": "incidents-89",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680090000,
+        "creator": "UADMIN",
+        "id": "CA0C2C3CB",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U09B7961B",
+          "U0CEDFB84",
+          "U1EFC52BB",
+          "U731BFC04",
+          "UB9C8E94C"
+        ],
+        "name": "releases-90",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680091000,
+        "creator": "UADMIN",
+        "id": "C72562B58",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U261BCB2E",
+          "U4B4C8F1C",
+          "U74A7FF6C",
+          "UBABE23AC",
+          "UE3F402A1"
+        ],
+        "name": "builds-91",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680092000,
+        "creator": "UADMIN",
+        "id": "C0A9B20BA",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U0CEDFB84",
+          "U8CEE8E0E",
+          "UA0E56AC6",
+          "UBBC82BC0",
+          "UD3077454"
+        ],
+        "name": "hardware-92",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680093000,
+        "creator": "UADMIN",
+        "id": "CF6892994",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U1C19C01D",
+          "U266F5321",
+          "U61CE93D2",
+          "U6BD02B95",
+          "U77ABC61E"
+        ],
+        "name": "firmware-lab-93",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680094000,
+        "creator": "UADMIN",
+        "id": "CC9830C08",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U1888A36D",
+          "U2D4C982B",
+          "U9F95743A",
+          "UA624D75B",
+          "UCA6FD4F4"
+        ],
+        "name": "logistics-94",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680095000,
+        "creator": "UADMIN",
+        "id": "C2108A8DA",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U19CE418B",
+          "U61CE93D2",
+          "UBA3F4502",
+          "UBABE23AC",
+          "UDFEFA9C3"
+        ],
+        "name": "procurement-95",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680096000,
+        "creator": "UADMIN",
+        "id": "C4DACC396",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U01E84566",
+          "U1888A36D",
+          "U266F5321",
+          "UB9B4CE19",
+          "UD182A637"
+        ],
+        "name": "finance-96",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680097000,
+        "creator": "UADMIN",
+        "id": "CC5B6DE61",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U165D9DDE",
+          "U76CDA6C0",
+          "UBD21882A",
+          "UCF41F4B2",
+          "UE7DAF5DE"
+        ],
+        "name": "legal-97",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680098000,
+        "creator": "UADMIN",
+        "id": "CEC76B707",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U01E84566",
+          "U0D0B5182",
+          "U16F7EF8E",
+          "U19CE418B",
+          "U3E330BE6"
+        ],
+        "name": "marketing-98",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680099000,
+        "creator": "UADMIN",
+        "id": "CE0CE83C7",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U2D41F4EB",
+          "U3186AE09",
+          "UAFE331EA",
+          "UDDC42EFA",
+          "UF81217B7"
+        ],
+        "name": "it-help-99",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680100000,
+        "creator": "UADMIN",
+        "id": "CC6F5197D",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U19CE418B",
+          "U3E34D084",
+          "UADMIN",
+          "UE7DAF5DE",
+          "UEB423A99"
+        ],
+        "name": "general-100",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680101000,
+        "creator": "UADMIN",
+        "id": "C43A0B2B6",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U09B7961B",
+          "U3E330BE6",
+          "UAA97D959",
+          "UBE9F1139"
+        ],
+        "name": "random-101",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680102000,
+        "creator": "UADMIN",
+        "id": "CF846B76B",
+        "is_archived": true,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U0CEDFB84",
+          "U266F5321",
+          "U3186AE09",
+          "UBE9F1139",
+          "UE3D8E358"
+        ],
+        "name": "eng-102",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680103000,
+        "creator": "UADMIN",
+        "id": "C4C405474",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U266F5321",
+          "U5E65FB03",
+          "U659B9C3E",
+          "UADMIN",
+          "UE3D8E358"
+        ],
+        "name": "design-103",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680104000,
+        "creator": "UADMIN",
+        "id": "C5DCCDC32",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U16F7EF8E",
+          "U3186AE09",
+          "U3E34D084",
+          "U63AA9076",
+          "U8EA56F86"
+        ],
+        "name": "qa-104",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680105000,
+        "creator": "UADMIN",
+        "id": "CE3C151DF",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": true,
+        "is_shared": false,
+        "members": [
+          "U0D0B5182",
+          "U61CE93D2",
+          "UBBC82BC0",
+          "UD182A637",
+          "UDDC42EFA"
+        ],
+        "name": "ops-105",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680106000,
+        "creator": "UADMIN",
+        "id": "CF1FBDE5E",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U01E84566",
+          "U0217DCC0",
+          "U76CDA6C0",
+          "UDFEFA9C3",
+          "UEB8BC21C"
+        ],
+        "name": "hr-chat-106",
+        "teams": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "created": 1680107000,
+        "creator": "UADMIN",
+        "id": "CE72DCB98",
+        "is_archived": false,
+        "is_ext_shared": false,
+        "is_private": false,
+        "is_shared": false,
+        "members": [
+          "U01E84566",
+          "U5E65FB03",
+          "U63AA9076",
+          "UB9B4CE19",
+          "UB9C8E94C"
+        ],
+        "name": "sales-107",
+        "teams": [
+          "T0AURIC01"
+        ]
+      }
+    ],
+    "restricted_apps": [
+      {
+        "app": {
+          "id": "A0OLDDENY",
+          "name": "SketchyImport"
+        },
+        "app_id": "A0OLDDENY",
+        "restricted_by": "admin",
+        "status": "restricted",
+        "team_id": "T0AURIC01"
+      }
+    ],
+    "teams": [
+      {
+        "domain": "auric",
+        "id": "T0AURIC01",
+        "name": "Auric Robotics"
+      }
+    ],
+    "users": [
+      {
+        "channel_ids": [],
+        "email": "ana.0@auric.com",
+        "id": "U4E120DC8",
+        "is_admin": true,
+        "real_name": "Ana Auric0",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U4E120DC8"
+      },
+      {
+        "channel_ids": [],
+        "email": "ben.1@auric.com",
+        "id": "UEA94151C",
+        "is_admin": false,
+        "real_name": "Ben Auric1",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UEA94151C"
+      },
+      {
+        "channel_ids": [],
+        "email": "cora.2@auric.com",
+        "id": "UD3077454",
+        "is_admin": false,
+        "real_name": "Cora Auric2",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UD3077454"
+      },
+      {
+        "channel_ids": [],
+        "email": "dev.3@auric.com",
+        "id": "U0D0B5182",
+        "is_admin": false,
+        "real_name": "Dev Auric3",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U0D0B5182"
+      },
+      {
+        "added_at": "2026-05-18T02:00:00Z",
+        "added_by": "svc-connect",
+        "channel_ids": [
+          "C0FIRMENG"
+        ],
+        "email": "l.chen@orbital-dynamics.example",
+        "id": "UG0ORBITAL",
+        "is_restricted": true,
+        "real_name": "L. Chen (Orbital)",
+        "team_ids": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "channel_ids": [],
+        "email": "elic.4@auric.com",
+        "id": "U73340434",
+        "is_admin": false,
+        "real_name": "Elic Auric4",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U73340434"
+      },
+      {
+        "channel_ids": [],
+        "email": "faye.5@auric.com",
+        "id": "U16F7EF8E",
+        "is_admin": false,
+        "real_name": "Faye Auric5",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U16F7EF8E"
+      },
+      {
+        "channel_ids": [],
+        "email": "gus.6@auric.com",
+        "id": "U0CEDFB84",
+        "is_admin": false,
+        "real_name": "Gus Auric6",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U0CEDFB84"
+      },
+      {
+        "channel_ids": [],
+        "email": "hana.7@auric.com",
+        "id": "UE3D8E358",
+        "is_admin": false,
+        "real_name": "Hana Auric7",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UE3D8E358"
+      },
+      {
+        "channel_ids": [],
+        "email": "ivan.8@auric.com",
+        "id": "U7827317E",
+        "is_admin": false,
+        "real_name": "Ivan Auric8",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U7827317E"
+      },
+      {
+        "channel_ids": [],
+        "email": "jade.9@auric.com",
+        "id": "UA18C2E89",
+        "is_admin": false,
+        "real_name": "Jade Auric9",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UA18C2E89"
+      },
+      {
+        "channel_ids": [],
+        "email": "kip.10@auric.com",
+        "id": "UCF41F4B2",
+        "is_admin": false,
+        "real_name": "Kip Auric10",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UCF41F4B2"
+      },
+      {
+        "channel_ids": [],
+        "email": "lena.11@auric.com",
+        "id": "UBE9F1139",
+        "is_admin": false,
+        "real_name": "Lena Auric11",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UBE9F1139"
+      },
+      {
+        "channel_ids": [],
+        "email": "moss.12@auric.com",
+        "id": "U2EAC629D",
+        "is_admin": false,
+        "real_name": "Moss Auric12",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U2EAC629D"
+      },
+      {
+        "channel_ids": [],
+        "email": "nia.13@auric.com",
+        "id": "UCADB273D",
+        "is_admin": false,
+        "real_name": "Nia Auric13",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UCADB273D"
+      },
+      {
+        "channel_ids": [],
+        "email": "omar.14@auric.com",
+        "id": "U9B73D1C7",
+        "is_admin": false,
+        "real_name": "Omar Auric14",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U9B73D1C7"
+      },
+      {
+        "channel_ids": [],
+        "email": "priya.15@auric.com",
+        "id": "U19CE418B",
+        "is_admin": false,
+        "real_name": "Priya Auric15",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U19CE418B"
+      },
+      {
+        "channel_ids": [],
+        "email": "quinn.16@auric.com",
+        "id": "U0217DCC0",
+        "is_admin": false,
+        "real_name": "Quinn Auric16",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U0217DCC0"
+      },
+      {
+        "channel_ids": [],
+        "email": "rae.17@auric.com",
+        "id": "U9FF19945",
+        "is_admin": false,
+        "real_name": "Rae Auric17",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U9FF19945"
+      },
+      {
+        "channel_ids": [],
+        "email": "sol.18@auric.com",
+        "id": "U525EF9CC",
+        "is_admin": false,
+        "real_name": "Sol Auric18",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U525EF9CC"
+      },
+      {
+        "channel_ids": [],
+        "email": "tara.19@auric.com",
+        "id": "UD1B3A4E7",
+        "is_admin": false,
+        "real_name": "Tara Auric19",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UD1B3A4E7"
+      },
+      {
+        "channel_ids": [],
+        "email": "uri.20@auric.com",
+        "id": "UBBC82BC0",
+        "is_admin": false,
+        "real_name": "Uri Auric20",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UBBC82BC0"
+      },
+      {
+        "added_at": "2026-04-20T10:00:00Z",
+        "added_by": "j.okafor",
+        "channel_ids": [
+          "C0BEACONCON"
+        ],
+        "email": "consortium.lead@northwind-consortium.example",
+        "id": "UG0NWIND",
+        "is_restricted": true,
+        "real_name": "Consortium Lead",
+        "team_ids": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "channel_ids": [],
+        "email": "vale.21@auric.com",
+        "id": "U16F84E0B",
+        "is_admin": false,
+        "real_name": "Vale Auric21",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U16F84E0B"
+      },
+      {
+        "channel_ids": [],
+        "email": "wren.22@auric.com",
+        "id": "UDB06CE6F",
+        "is_admin": false,
+        "real_name": "Wren Auric22",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UDB06CE6F"
+      },
+      {
+        "channel_ids": [],
+        "email": "xu.23@auric.com",
+        "id": "U5919B3D0",
+        "is_admin": false,
+        "real_name": "Xu Auric23",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U5919B3D0"
+      },
+      {
+        "channel_ids": [],
+        "email": "yara.24@auric.com",
+        "id": "UD182A637",
+        "is_admin": false,
+        "real_name": "Yara Auric24",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UD182A637"
+      },
+      {
+        "channel_ids": [],
+        "email": "zed.25@auric.com",
+        "id": "U165D9DDE",
+        "is_admin": false,
+        "real_name": "Zed Auric25",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U165D9DDE"
+      },
+      {
+        "channel_ids": [],
+        "email": "ana.26@auric.com",
+        "id": "UA01CB2EA",
+        "is_admin": false,
+        "real_name": "Ana Auric26",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UA01CB2EA"
+      },
+      {
+        "channel_ids": [],
+        "email": "ben.27@auric.com",
+        "id": "U1EFC52BB",
+        "is_admin": false,
+        "real_name": "Ben Auric27",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U1EFC52BB"
+      },
+      {
+        "channel_ids": [],
+        "email": "cora.28@auric.com",
+        "id": "U63AA9076",
+        "is_admin": false,
+        "real_name": "Cora Auric28",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U63AA9076"
+      },
+      {
+        "channel_ids": [],
+        "email": "dev.29@auric.com",
+        "id": "UD783AE0A",
+        "is_admin": false,
+        "real_name": "Dev Auric29",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UD783AE0A"
+      },
+      {
+        "channel_ids": [],
+        "email": "elic.30@auric.com",
+        "id": "UA4FC632D",
+        "is_admin": false,
+        "real_name": "Elic Auric30",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UA4FC632D"
+      },
+      {
+        "channel_ids": [],
+        "email": "faye.31@auric.com",
+        "id": "U1C19C01D",
+        "is_admin": false,
+        "real_name": "Faye Auric31",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U1C19C01D"
+      },
+      {
+        "channel_ids": [],
+        "email": "gus.32@auric.com",
+        "id": "U659B9C3E",
+        "is_admin": false,
+        "real_name": "Gus Auric32",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U659B9C3E"
+      },
+      {
+        "channel_ids": [],
+        "email": "hana.33@auric.com",
+        "id": "U76CDA6C0",
+        "is_admin": false,
+        "real_name": "Hana Auric33",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U76CDA6C0"
+      },
+      {
+        "channel_ids": [],
+        "email": "ivan.34@auric.com",
+        "id": "UDADB6FF1",
+        "is_admin": false,
+        "real_name": "Ivan Auric34",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UDADB6FF1"
+      },
+      {
+        "channel_ids": [],
+        "email": "jade.35@auric.com",
+        "id": "UD1C67035",
+        "is_admin": false,
+        "real_name": "Jade Auric35",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UD1C67035"
+      },
+      {
+        "channel_ids": [],
+        "email": "kip.36@auric.com",
+        "id": "UD139AE3F",
+        "is_admin": false,
+        "real_name": "Kip Auric36",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UD139AE3F"
+      },
+      {
+        "channel_ids": [],
+        "email": "lena.37@auric.com",
+        "id": "U4B703BA3",
+        "is_admin": false,
+        "real_name": "Lena Auric37",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U4B703BA3"
+      },
+      {
+        "channel_ids": [],
+        "email": "moss.38@auric.com",
+        "id": "U731BFC04",
+        "is_admin": false,
+        "real_name": "Moss Auric38",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U731BFC04"
+      },
+      {
+        "channel_ids": [],
+        "email": "nia.39@auric.com",
+        "id": "U3FC94F00",
+        "is_admin": false,
+        "real_name": "Nia Auric39",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U3FC94F00"
+      },
+      {
+        "channel_ids": [],
+        "email": "omar.40@auric.com",
+        "id": "U1888A36D",
+        "is_admin": true,
+        "real_name": "Omar Auric40",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U1888A36D"
+      },
+      {
+        "channel_ids": [],
+        "email": "priya.41@auric.com",
+        "id": "UB5E01EA1",
+        "is_admin": false,
+        "real_name": "Priya Auric41",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UB5E01EA1"
+      },
+      {
+        "channel_ids": [],
+        "email": "quinn.42@auric.com",
+        "id": "UF5B9E617",
+        "is_admin": false,
+        "real_name": "Quinn Auric42",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UF5B9E617"
+      },
+      {
+        "channel_ids": [],
+        "email": "rae.43@auric.com",
+        "id": "UDA9B6DC8",
+        "is_admin": false,
+        "real_name": "Rae Auric43",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UDA9B6DC8"
+      },
+      {
+        "channel_ids": [],
+        "email": "sol.44@auric.com",
+        "id": "U31C3D985",
+        "is_admin": false,
+        "real_name": "Sol Auric44",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U31C3D985"
+      },
+      {
+        "channel_ids": [],
+        "email": "tara.45@auric.com",
+        "id": "UF1F40364",
+        "is_admin": false,
+        "real_name": "Tara Auric45",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UF1F40364"
+      },
+      {
+        "added_at": "2026-05-18T02:00:00Z",
+        "added_by": "svc-connect",
+        "channel_ids": [
+          "C0SUPPOPS"
+        ],
+        "email": "s.diaz@meridian-actuators.example",
+        "id": "UG0MERIDN",
+        "is_restricted": true,
+        "real_name": "S. Diaz (Meridian)",
+        "team_ids": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "channel_ids": [],
+        "email": "uri.46@auric.com",
+        "id": "U731F4219",
+        "is_admin": false,
+        "real_name": "Uri Auric46",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U731F4219"
+      },
+      {
+        "channel_ids": [],
+        "email": "vale.47@auric.com",
+        "id": "U672E75A7",
+        "is_admin": false,
+        "real_name": "Vale Auric47",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U672E75A7"
+      },
+      {
+        "channel_ids": [],
+        "email": "wren.48@auric.com",
+        "id": "UED6DF6B7",
+        "is_admin": false,
+        "real_name": "Wren Auric48",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UED6DF6B7"
+      },
+      {
+        "channel_ids": [],
+        "email": "xu.49@auric.com",
+        "id": "U3E330BE6",
+        "is_admin": false,
+        "real_name": "Xu Auric49",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U3E330BE6"
+      },
+      {
+        "channel_ids": [],
+        "email": "yara.50@auric.com",
+        "id": "U61CE93D2",
+        "is_admin": false,
+        "real_name": "Yara Auric50",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U61CE93D2"
+      },
+      {
+        "channel_ids": [],
+        "email": "zed.51@auric.com",
+        "id": "U74A7FF6C",
+        "is_admin": false,
+        "real_name": "Zed Auric51",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U74A7FF6C"
+      },
+      {
+        "channel_ids": [],
+        "email": "ana.52@auric.com",
+        "id": "U266F5321",
+        "is_admin": false,
+        "real_name": "Ana Auric52",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U266F5321"
+      },
+      {
+        "channel_ids": [],
+        "email": "ben.53@auric.com",
+        "id": "U2D41F4EB",
+        "is_admin": false,
+        "real_name": "Ben Auric53",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U2D41F4EB"
+      },
+      {
+        "channel_ids": [],
+        "email": "cora.54@auric.com",
+        "id": "U27B00EED",
+        "is_admin": false,
+        "real_name": "Cora Auric54",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U27B00EED"
+      },
+      {
+        "channel_ids": [],
+        "email": "dev.55@auric.com",
+        "id": "UBEFC2B71",
+        "is_admin": false,
+        "real_name": "Dev Auric55",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UBEFC2B71"
+      },
+      {
+        "channel_ids": [],
+        "email": "elic.56@auric.com",
+        "id": "UEB423A99",
+        "is_admin": false,
+        "real_name": "Elic Auric56",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UEB423A99"
+      },
+      {
+        "channel_ids": [],
+        "email": "faye.57@auric.com",
+        "id": "UFFCA79BA",
+        "is_admin": false,
+        "real_name": "Faye Auric57",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UFFCA79BA"
+      },
+      {
+        "channel_ids": [],
+        "email": "gus.58@auric.com",
+        "id": "U09B7961B",
+        "is_admin": false,
+        "real_name": "Gus Auric58",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U09B7961B"
+      },
+      {
+        "channel_ids": [],
+        "email": "hana.59@auric.com",
+        "id": "UC5BC0A75",
+        "is_admin": false,
+        "real_name": "Hana Auric59",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UC5BC0A75"
+      },
+      {
+        "channel_ids": [],
+        "email": "ivan.60@auric.com",
+        "id": "U4B4C8F1C",
+        "is_admin": false,
+        "real_name": "Ivan Auric60",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U4B4C8F1C"
+      },
+      {
+        "added_at": "2026-05-18T02:00:00Z",
+        "added_by": "svc-connect",
+        "channel_ids": [],
+        "deleted": true,
+        "email": "t.reddy@orbital-dynamics.example",
+        "id": "UG0ORBOLD",
+        "is_restricted": true,
+        "real_name": "T. Reddy (Orbital)",
+        "team_ids": []
+      },
+      {
+        "channel_ids": [],
+        "email": "jade.61@auric.com",
+        "id": "UC2080B92",
+        "is_admin": false,
+        "real_name": "Jade Auric61",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UC2080B92"
+      },
+      {
+        "channel_ids": [],
+        "email": "kip.62@auric.com",
+        "id": "UC2367433",
+        "is_admin": false,
+        "real_name": "Kip Auric62",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UC2367433"
+      },
+      {
+        "channel_ids": [],
+        "email": "lena.63@auric.com",
+        "id": "U3632E927",
+        "is_admin": false,
+        "real_name": "Lena Auric63",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U3632E927"
+      },
+      {
+        "channel_ids": [],
+        "email": "moss.64@auric.com",
+        "id": "U5BBECA59",
+        "is_admin": false,
+        "real_name": "Moss Auric64",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U5BBECA59"
+      },
+      {
+        "channel_ids": [],
+        "email": "nia.65@auric.com",
+        "id": "UB9C8E94C",
+        "is_admin": false,
+        "real_name": "Nia Auric65",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UB9C8E94C"
+      },
+      {
+        "channel_ids": [],
+        "email": "omar.66@auric.com",
+        "id": "UE7DAF5DE",
+        "is_admin": false,
+        "real_name": "Omar Auric66",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UE7DAF5DE"
+      },
+      {
+        "channel_ids": [],
+        "email": "priya.67@auric.com",
+        "id": "UD9E16100",
+        "is_admin": false,
+        "real_name": "Priya Auric67",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UD9E16100"
+      },
+      {
+        "channel_ids": [],
+        "email": "quinn.68@auric.com",
+        "id": "U2D4C982B",
+        "is_admin": false,
+        "real_name": "Quinn Auric68",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U2D4C982B"
+      },
+      {
+        "channel_ids": [],
+        "email": "rae.69@auric.com",
+        "id": "U7459DF31",
+        "is_admin": false,
+        "real_name": "Rae Auric69",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U7459DF31"
+      },
+      {
+        "channel_ids": [],
+        "email": "sol.70@auric.com",
+        "id": "U3186AE09",
+        "is_admin": false,
+        "real_name": "Sol Auric70",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U3186AE09"
+      },
+      {
+        "channel_ids": [],
+        "email": "tara.71@auric.com",
+        "id": "U06ADED84",
+        "is_admin": false,
+        "real_name": "Tara Auric71",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U06ADED84"
+      },
+      {
+        "channel_ids": [],
+        "email": "uri.72@auric.com",
+        "id": "UE39F6E21",
+        "is_admin": false,
+        "real_name": "Uri Auric72",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UE39F6E21"
+      },
+      {
+        "channel_ids": [],
+        "email": "vale.73@auric.com",
+        "id": "U6ABD2125",
+        "is_admin": false,
+        "real_name": "Vale Auric73",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U6ABD2125"
+      },
+      {
+        "channel_ids": [],
+        "email": "wren.74@auric.com",
+        "id": "UE73C0A59",
+        "is_admin": false,
+        "real_name": "Wren Auric74",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UE73C0A59"
+      },
+      {
+        "channel_ids": [],
+        "email": "xu.75@auric.com",
+        "id": "U8CEE8E0E",
+        "is_admin": false,
+        "real_name": "Xu Auric75",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U8CEE8E0E"
+      },
+      {
+        "channel_ids": [],
+        "email": "yara.76@auric.com",
+        "id": "UF81217B7",
+        "is_admin": false,
+        "real_name": "Yara Auric76",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UF81217B7"
+      },
+      {
+        "channel_ids": [],
+        "email": "zed.77@auric.com",
+        "id": "U59508502",
+        "is_admin": false,
+        "real_name": "Zed Auric77",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U59508502"
+      },
+      {
+        "channel_ids": [],
+        "email": "ana.78@auric.com",
+        "id": "U5E65FB03",
+        "is_admin": false,
+        "real_name": "Ana Auric78",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U5E65FB03"
+      },
+      {
+        "channel_ids": [],
+        "email": "ben.79@auric.com",
+        "id": "UD21526B7",
+        "is_admin": false,
+        "real_name": "Ben Auric79",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UD21526B7"
+      },
+      {
+        "channel_ids": [],
+        "email": "cora.80@auric.com",
+        "id": "UFB921764",
+        "is_admin": true,
+        "real_name": "Cora Auric80",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UFB921764"
+      },
+      {
+        "added_at": "2026-04-20T10:00:00Z",
+        "added_by": "admin",
+        "channel_ids": [
+          "C0PARTNRINT"
+        ],
+        "email": "consortium.ops@northwind-consortium.example",
+        "id": "UG0NWIND2",
+        "is_restricted": true,
+        "real_name": "Consortium Ops",
+        "team_ids": [
+          "T0AURIC01"
+        ]
+      },
+      {
+        "channel_ids": [],
+        "email": "dev.81@auric.com",
+        "id": "UAFE331EA",
+        "is_admin": false,
+        "real_name": "Dev Auric81",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UAFE331EA"
+      },
+      {
+        "channel_ids": [],
+        "email": "elic.82@auric.com",
+        "id": "UC41D1A9B",
+        "is_admin": false,
+        "real_name": "Elic Auric82",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UC41D1A9B"
+      },
+      {
+        "channel_ids": [],
+        "email": "faye.83@auric.com",
+        "id": "UEB8BC21C",
+        "is_admin": false,
+        "real_name": "Faye Auric83",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UEB8BC21C"
+      },
+      {
+        "channel_ids": [],
+        "email": "gus.84@auric.com",
+        "id": "U378B143B",
+        "is_admin": false,
+        "real_name": "Gus Auric84",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U378B143B"
+      },
+      {
+        "channel_ids": [],
+        "email": "hana.85@auric.com",
+        "id": "U01E84566",
+        "is_admin": false,
+        "real_name": "Hana Auric85",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U01E84566"
+      },
+      {
+        "channel_ids": [],
+        "email": "ivan.86@auric.com",
+        "id": "UDFEFA9C3",
+        "is_admin": false,
+        "real_name": "Ivan Auric86",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UDFEFA9C3"
+      },
+      {
+        "channel_ids": [],
+        "email": "jade.87@auric.com",
+        "id": "UB6FF79C9",
+        "is_admin": false,
+        "real_name": "Jade Auric87",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UB6FF79C9"
+      },
+      {
+        "channel_ids": [],
+        "email": "kip.88@auric.com",
+        "id": "U2C8CC9B8",
+        "is_admin": false,
+        "real_name": "Kip Auric88",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U2C8CC9B8"
+      },
+      {
+        "channel_ids": [],
+        "email": "lena.89@auric.com",
+        "id": "U261BCB2E",
+        "is_admin": false,
+        "real_name": "Lena Auric89",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U261BCB2E"
+      },
+      {
+        "channel_ids": [],
+        "email": "moss.90@auric.com",
+        "id": "U0A24E9BC",
+        "is_admin": false,
+        "real_name": "Moss Auric90",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U0A24E9BC"
+      },
+      {
+        "channel_ids": [],
+        "email": "nia.91@auric.com",
+        "id": "UE3F402A1",
+        "is_admin": false,
+        "real_name": "Nia Auric91",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UE3F402A1"
+      },
+      {
+        "channel_ids": [],
+        "email": "omar.92@auric.com",
+        "id": "UBD21882A",
+        "is_admin": false,
+        "real_name": "Omar Auric92",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UBD21882A"
+      },
+      {
+        "channel_ids": [],
+        "email": "priya.93@auric.com",
+        "id": "U6FCCC3CC",
+        "is_admin": false,
+        "real_name": "Priya Auric93",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U6FCCC3CC"
+      },
+      {
+        "channel_ids": [],
+        "email": "quinn.94@auric.com",
+        "id": "UB9B4CE19",
+        "is_admin": false,
+        "real_name": "Quinn Auric94",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UB9B4CE19"
+      },
+      {
+        "channel_ids": [],
+        "email": "rae.95@auric.com",
+        "id": "UA0E56AC6",
+        "is_admin": false,
+        "real_name": "Rae Auric95",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UA0E56AC6"
+      },
+      {
+        "channel_ids": [],
+        "email": "sol.96@auric.com",
+        "id": "U8EA56F86",
+        "is_admin": false,
+        "real_name": "Sol Auric96",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U8EA56F86"
+      },
+      {
+        "channel_ids": [],
+        "email": "tara.97@auric.com",
+        "id": "U61C36BEE",
+        "is_admin": false,
+        "real_name": "Tara Auric97",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U61C36BEE"
+      },
+      {
+        "channel_ids": [],
+        "email": "uri.98@auric.com",
+        "id": "U9F95743A",
+        "is_admin": false,
+        "real_name": "Uri Auric98",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U9F95743A"
+      },
+      {
+        "channel_ids": [],
+        "email": "vale.99@auric.com",
+        "id": "UD65491D4",
+        "is_admin": false,
+        "real_name": "Vale Auric99",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UD65491D4"
+      },
+      {
+        "channel_ids": [],
+        "email": "wren.100@auric.com",
+        "id": "UBABE23AC",
+        "is_admin": false,
+        "real_name": "Wren Auric100",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UBABE23AC"
+      },
+      {
+        "channel_ids": [],
+        "email": "xu.101@auric.com",
+        "id": "UBA3F4502",
+        "is_admin": false,
+        "real_name": "Xu Auric101",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UBA3F4502"
+      },
+      {
+        "channel_ids": [],
+        "email": "yara.102@auric.com",
+        "id": "U77ABC61E",
+        "is_admin": false,
+        "real_name": "Yara Auric102",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U77ABC61E"
+      },
+      {
+        "channel_ids": [],
+        "email": "zed.103@auric.com",
+        "id": "U08350AD9",
+        "is_admin": false,
+        "real_name": "Zed Auric103",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U08350AD9"
+      },
+      {
+        "channel_ids": [],
+        "email": "ana.104@auric.com",
+        "id": "U3E34D084",
+        "is_admin": false,
+        "real_name": "Ana Auric104",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U3E34D084"
+      },
+      {
+        "channel_ids": [],
+        "email": "ben.105@auric.com",
+        "id": "U1D89F0F5",
+        "is_admin": false,
+        "real_name": "Ben Auric105",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U1D89F0F5"
+      },
+      {
+        "channel_ids": [],
+        "email": "cora.106@auric.com",
+        "id": "UDDC42EFA",
+        "is_admin": false,
+        "real_name": "Cora Auric106",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UDDC42EFA"
+      },
+      {
+        "channel_ids": [],
+        "email": "dev.107@auric.com",
+        "id": "UAA97D959",
+        "is_admin": false,
+        "real_name": "Dev Auric107",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UAA97D959"
+      },
+      {
+        "channel_ids": [],
+        "email": "elic.108@auric.com",
+        "id": "U8D37F08E",
+        "is_admin": false,
+        "real_name": "Elic Auric108",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U8D37F08E"
+      },
+      {
+        "channel_ids": [],
+        "email": "faye.109@auric.com",
+        "id": "U6BD02B95",
+        "is_admin": false,
+        "real_name": "Faye Auric109",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "U6BD02B95"
+      },
+      {
+        "channel_ids": [],
+        "email": "gus.110@auric.com",
+        "id": "UA624D75B",
+        "is_admin": false,
+        "real_name": "Gus Auric110",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UA624D75B"
+      },
+      {
+        "channel_ids": [],
+        "email": "hana.111@auric.com",
+        "id": "UCA6FD4F4",
+        "is_admin": false,
+        "real_name": "Hana Auric111",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UCA6FD4F4"
+      },
+      {
+        "channel_ids": [],
+        "email": "j.okafor@auric.com",
+        "id": "UOKAFOR",
+        "is_admin": true,
+        "real_name": "j.okafor",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UOKAFOR"
+      },
+      {
+        "channel_ids": [],
+        "email": "admin@auric.com",
+        "id": "UADMIN",
+        "is_admin": true,
+        "real_name": "admin",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UADMIN"
+      },
+      {
+        "channel_ids": [],
+        "email": "m.reyes@auric.com",
+        "id": "UREYES",
+        "is_admin": true,
+        "real_name": "m.reyes",
+        "team_ids": [
+          "T0AURIC01"
+        ],
+        "user_id": "UREYES"
+      },
+      {
+        "added_at": "2026-05-18T02:00:00Z",
+        "added_by": "svc-connect",
+        "channel_ids": [
+          "C0HWROAD"
+        ],
+        "email": "p.novak@kestrel-controls.example",
+        "id": "UG0KESTREL",
+        "is_restricted": true,
+        "real_name": "P. Novak (Kestrel)",
+        "team_ids": [
+          "T0AURIC01"
+        ]
+      }
+    ]
+  },
+  "zoom-admin": {
+    "meetings": [
+      {
+        "host_email": "eng.lead@auric.com",
+        "host_id": "ZUENG0001",
+        "id": "80010001",
+        "last_configured_at": "2026-05-18T02:00:00Z",
+        "last_configured_by": "svc-connect",
+        "settings": {
+          "alternative_hosts": "j.tanaka@meridian-actuators.example",
+          "approval_type": 2,
+          "auto_recording": "cloud",
+          "join_before_host": true,
+          "meeting_authentication": false
+        },
+        "topic": "Firmware Security Sync",
+        "type": 8,
+        "uuid": "uuid-80010001"
+      },
+      {
+        "host_email": "host0@auric.com",
+        "host_id": "ZUENG0001",
+        "id": "80020000",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "cohost0@auric.com",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 0",
+        "type": 2,
+        "uuid": "uuid-80020000"
+      },
+      {
+        "host_email": "host1@auric.com",
+        "host_id": "ZU8EDD52A7",
+        "id": "80020001",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 1",
+        "type": 2,
+        "uuid": "uuid-80020001"
+      },
+      {
+        "host_email": "host2@auric.com",
+        "host_id": "ZUENG0001",
+        "id": "80020002",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 2",
+        "type": 2,
+        "uuid": "uuid-80020002"
+      },
+      {
+        "host_email": "host3@auric.com",
+        "host_id": "ZU2D3B9384",
+        "id": "80020003",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "cohost3@auric.com",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 3",
+        "type": 2,
+        "uuid": "uuid-80020003"
+      },
+      {
+        "host_email": "host4@auric.com",
+        "host_id": "ZUENG0001",
+        "id": "80020004",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 4",
+        "type": 2,
+        "uuid": "uuid-80020004"
+      },
+      {
+        "host_email": "host5@auric.com",
+        "host_id": "ZU81AC8005",
+        "id": "80020005",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 5",
+        "type": 2,
+        "uuid": "uuid-80020005"
+      },
+      {
+        "host_email": "host6@auric.com",
+        "host_id": "ZUENG0001",
+        "id": "80020006",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "cohost6@auric.com",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 6",
+        "type": 2,
+        "uuid": "uuid-80020006"
+      },
+      {
+        "host_email": "host7@auric.com",
+        "host_id": "ZU8EDD52A7",
+        "id": "80020007",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 7",
+        "type": 2,
+        "uuid": "uuid-80020007"
+      },
+      {
+        "host_email": "host8@auric.com",
+        "host_id": "ZUENG0001",
+        "id": "80020008",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 8",
+        "type": 2,
+        "uuid": "uuid-80020008"
+      },
+      {
+        "host_email": "host9@auric.com",
+        "host_id": "ZU2D3B9384",
+        "id": "80020009",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "cohost9@auric.com",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 9",
+        "type": 2,
+        "uuid": "uuid-80020009"
+      },
+      {
+        "host_email": "host10@auric.com",
+        "host_id": "ZUENG0001",
+        "id": "80020010",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 10",
+        "type": 2,
+        "uuid": "uuid-80020010"
+      },
+      {
+        "host_email": "host11@auric.com",
+        "host_id": "ZU81AC8005",
+        "id": "80020011",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 11",
+        "type": 2,
+        "uuid": "uuid-80020011"
+      },
+      {
+        "host_email": "host12@auric.com",
+        "host_id": "ZUENG0001",
+        "id": "80020012",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "cohost12@auric.com",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 12",
+        "type": 2,
+        "uuid": "uuid-80020012"
+      },
+      {
+        "host_email": "host13@auric.com",
+        "host_id": "ZU8EDD52A7",
+        "id": "80020013",
+        "last_configured_at": "2026-04-20T10:00:00Z",
+        "last_configured_by": "admin",
+        "settings": {
+          "alternative_hosts": "",
+          "approval_type": 2,
+          "auto_recording": "local",
+          "meeting_authentication": true
+        },
+        "topic": "Team Sync 13",
+        "type": 2,
+        "uuid": "uuid-80020013"
+      }
+    ],
+    "users": [
+      {
+        "email": "eng.lead@auric.com",
+        "first_name": "Eng",
+        "host_id": "ZUENG0001",
+        "id": "ZUENG0001",
+        "last_name": "Lead",
+        "status": "active",
+        "type": 2
+      },
+      {
+        "email": "m.reyes@auric.com",
+        "first_name": "M",
+        "host_id": "ZUEVENTS01",
+        "id": "ZUEVENTS01",
+        "last_name": "Reyes",
+        "status": "active",
+        "type": 2
+      },
+      {
+        "email": "host0@auric.com",
+        "host_id": "ZUA464F4CA",
+        "id": "ZUA464F4CA",
+        "status": "active",
+        "type": 2
+      },
+      {
+        "email": "host1@auric.com",
+        "host_id": "ZU8EDD52A7",
+        "id": "ZU8EDD52A7",
+        "status": "active",
+        "type": 2
+      },
+      {
+        "email": "host2@auric.com",
+        "host_id": "ZU93060290",
+        "id": "ZU93060290",
+        "status": "active",
+        "type": 2
+      },
+      {
+        "email": "host3@auric.com",
+        "host_id": "ZU2D3B9384",
+        "id": "ZU2D3B9384",
+        "status": "active",
+        "type": 2
+      },
+      {
+        "email": "host4@auric.com",
+        "host_id": "ZUA7EB1CE5",
+        "id": "ZUA7EB1CE5",
+        "status": "active",
+        "type": 2
+      },
+      {
+        "email": "host5@auric.com",
+        "host_id": "ZU81AC8005",
+        "id": "ZU81AC8005",
+        "status": "active",
+        "type": 2
+      }
+    ],
+    "webinars": [
+      {
+        "host_email": "m.reyes@auric.com",
+        "host_id": "ZUEVENTS01",
+        "id": "91230001",
+        "last_configured_at": "2026-05-12T16:00:00Z",
+        "last_configured_by": "m.reyes",
+        "settings": {
+          "alternative_hosts": "",
+          "approval_type": 0,
+          "auto_recording": "cloud",
+          "meeting_authentication": false
+        },
+        "topic": "Beacon Launch Summit",
+        "type": 5,
+        "uuid": "uuid-91230001"
+      }
+    ]
+  }
+}

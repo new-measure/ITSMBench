@@ -1,0 +1,21 @@
+services:
+  main:
+    depends_on:
+      - mock-api
+
+  mock-api:
+    image: harbor.local/taskgen-emulator:cat-1ab2a6b42823
+    pull_policy: never
+    environment:
+      EMULATOR_TOOLS: "microsoft-intune,slack"
+      MOCK_SEED_PATH: /task/seed.json
+    volumes:
+      - ./seed.json:/task/seed.json:ro
+    expose:
+      - "8080"
+    networks:
+      default:
+        aliases:
+          - microsoft-intune.local.mock
+          - slack.local.mock
+          - search.local.mock

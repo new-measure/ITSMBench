@@ -1,0 +1,1300 @@
+{
+ "_now": "2026-07-17T09:00:00Z",
+ "github": {
+  "collaborators": [
+   {
+    "id": 20000,
+    "login": "ravi-mehta",
+    "node_id": "COLLAB_20000",
+    "owner": "meridian-ledger",
+    "permission": "push",
+    "repo": "payments-ledger",
+    "type": "User"
+   },
+   {
+    "id": 20001,
+    "login": "sofia-cruz",
+    "node_id": "COLLAB_20001",
+    "owner": "meridian-ledger",
+    "permission": "push",
+    "repo": "treasury-core",
+    "type": "User"
+   },
+   {
+    "id": 20002,
+    "login": "marcus-feld",
+    "node_id": "COLLAB_20002",
+    "owner": "meridian-ledger",
+    "permission": "admin",
+    "repo": "treasury-core",
+    "type": "User"
+   },
+   {
+    "id": 20003,
+    "login": "noah-kim",
+    "node_id": "COLLAB_20003",
+    "owner": "meridian-ledger",
+    "permission": "push",
+    "repo": "edge-gateway",
+    "type": "User"
+   },
+   {
+    "id": 20004,
+    "login": "elena-rossi",
+    "node_id": "COLLAB_20004",
+    "owner": "meridian-ledger",
+    "permission": "admin",
+    "repo": "edge-gateway",
+    "type": "User"
+   },
+   {
+    "id": 20005,
+    "login": "ravi-mehta",
+    "node_id": "COLLAB_20005",
+    "owner": "meridian-ledger",
+    "permission": "push",
+    "repo": "risk-engine",
+    "type": "User"
+   }
+  ],
+  "keys": [
+   {
+    "added_by": "elena-rossi",
+    "created_at": "2025-08-12T09:00:00.000Z",
+    "id": 5001,
+    "key": "ssh-ed25519 AAAAC3Nza...elena-rossi-5001",
+    "owner": "meridian-ledger",
+    "read_only": false,
+    "repo": "payments-ledger",
+    "title": "payments-ledger release deploy",
+    "verified": true
+   },
+   {
+    "added_by": "ci-bot",
+    "created_at": "2025-08-12T09:00:00.000Z",
+    "id": 5002,
+    "key": "ssh-ed25519 AAAAC3Nza...ci-bot-5002",
+    "owner": "meridian-ledger",
+    "read_only": true,
+    "repo": "payments-ledger",
+    "title": "ci-bot pipeline deploy",
+    "verified": true
+   },
+   {
+    "added_by": "yuki-tan",
+    "created_at": "2025-08-12T09:00:00.000Z",
+    "id": 5003,
+    "key": "ssh-ed25519 AAAAC3Nza...yuki-tan-5003",
+    "owner": "meridian-ledger",
+    "read_only": false,
+    "repo": "treasury-core",
+    "title": "treasury-core apply key",
+    "verified": true
+   },
+   {
+    "added_by": "marcus-feld",
+    "created_at": "2025-08-12T09:00:00.000Z",
+    "id": 5004,
+    "key": "ssh-ed25519 AAAAC3Nza...marcus-feld-5004",
+    "owner": "meridian-ledger",
+    "read_only": false,
+    "repo": "risk-engine",
+    "title": "risk-engine deploy",
+    "verified": true
+   },
+   {
+    "added_by": "ravi-mehta",
+    "created_at": "2025-08-12T09:00:00.000Z",
+    "id": 5005,
+    "key": "ssh-ed25519 AAAAC3Nza...ravi-mehta-5005",
+    "owner": "meridian-ledger",
+    "read_only": true,
+    "repo": "risk-engine",
+    "title": "risk-engine ci (approved deploy owner)",
+    "verified": true
+   }
+  ],
+  "members": [
+   {
+    "id": 9000,
+    "login": "aria-fox",
+    "node_id": "MEMBERS_9000",
+    "org": "meridian-ledger",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9001,
+    "login": "dana-whitfield",
+    "node_id": "MEMBERS_9001",
+    "org": "meridian-ledger",
+    "role": "admin",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9002,
+    "login": "elena-rossi",
+    "node_id": "MEMBERS_9002",
+    "org": "meridian-ledger",
+    "role": "admin",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9003,
+    "login": "karan-shah",
+    "node_id": "MEMBERS_9003",
+    "org": "meridian-ledger",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9004,
+    "login": "lena-brooks",
+    "node_id": "MEMBERS_9004",
+    "org": "meridian-ledger",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9005,
+    "login": "marcus-feld",
+    "node_id": "MEMBERS_9005",
+    "org": "meridian-ledger",
+    "role": "admin",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9006,
+    "login": "noah-kim",
+    "node_id": "MEMBERS_9006",
+    "org": "meridian-ledger",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9007,
+    "login": "priya-nair",
+    "node_id": "MEMBERS_9007",
+    "org": "meridian-ledger",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9008,
+    "login": "ravi-mehta",
+    "node_id": "MEMBERS_9008",
+    "org": "meridian-ledger",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9009,
+    "login": "sofia-cruz",
+    "node_id": "MEMBERS_9009",
+    "org": "meridian-ledger",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9010,
+    "login": "tomas-alvarez",
+    "node_id": "MEMBERS_9010",
+    "org": "meridian-ledger",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   },
+   {
+    "id": 9011,
+    "login": "yuki-tan",
+    "node_id": "MEMBERS_9011",
+    "org": "meridian-ledger",
+    "role": "member",
+    "state": "active",
+    "type": "User"
+   }
+  ],
+  "orgs": [
+   {
+    "id": 1,
+    "login": "meridian-ledger",
+    "node_id": "ORG_1",
+    "type": "Organization"
+   }
+  ],
+  "repos": [
+   {
+    "created_at": "2023-05-01T09:00:00.000Z",
+    "default_branch": "main",
+    "description": "Core payments ledger service",
+    "full_name": "meridian-ledger/payments-ledger",
+    "id": 4000,
+    "name": "payments-ledger",
+    "node_id": "REPO_4000",
+    "org": "meridian-ledger",
+    "owner": {
+     "login": "meridian-ledger",
+     "type": "Organization"
+    },
+    "private": true,
+    "updated_at": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "created_at": "2023-05-01T09:00:00.000Z",
+    "default_branch": "main",
+    "description": "Treasury settlement core",
+    "full_name": "meridian-ledger/treasury-core",
+    "id": 4001,
+    "name": "treasury-core",
+    "node_id": "REPO_4001",
+    "org": "meridian-ledger",
+    "owner": {
+     "login": "meridian-ledger",
+     "type": "Organization"
+    },
+    "private": true,
+    "updated_at": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "created_at": "2023-05-01T09:00:00.000Z",
+    "default_branch": "main",
+    "description": "Public edge API gateway",
+    "full_name": "meridian-ledger/edge-gateway",
+    "id": 4002,
+    "name": "edge-gateway",
+    "node_id": "REPO_4002",
+    "org": "meridian-ledger",
+    "owner": {
+     "login": "meridian-ledger",
+     "type": "Organization"
+    },
+    "private": true,
+    "updated_at": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "created_at": "2023-05-01T09:00:00.000Z",
+    "default_branch": "main",
+    "description": "Real-time risk scoring engine",
+    "full_name": "meridian-ledger/risk-engine",
+    "id": 4003,
+    "name": "risk-engine",
+    "node_id": "REPO_4003",
+    "org": "meridian-ledger",
+    "owner": {
+     "login": "meridian-ledger",
+     "type": "Organization"
+    },
+    "private": true,
+    "updated_at": "2026-06-01T09:00:00.000Z"
+   },
+   {
+    "created_at": "2023-05-01T09:00:00.000Z",
+    "default_branch": "main",
+    "description": "Shared CI/CD pipeline definitions",
+    "full_name": "meridian-ledger/ci-pipelines",
+    "id": 4004,
+    "name": "ci-pipelines",
+    "node_id": "REPO_4004",
+    "org": "meridian-ledger",
+    "owner": {
+     "login": "meridian-ledger",
+     "type": "Organization"
+    },
+    "private": true,
+    "updated_at": "2026-06-01T09:00:00.000Z"
+   }
+  ]
+ },
+ "okta": {
+  "apps": [
+   {
+    "created": "2024-03-01T09:00:00.000Z",
+    "groups": [],
+    "id": "0oa7fae494ef5bf51d6b",
+    "label": "Grafana",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "name": "grafana",
+    "settings": {},
+    "signOnMode": "SAML_2_0",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "created": "2025-01-05T09:00:00.000Z",
+      "id": "00ub3bad82b95847e61a",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "profile": {},
+      "scope": "USER",
+      "status": "ACTIVE",
+      "statusChanged": "2025-01-05T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "created": "2024-03-01T09:00:00.000Z",
+    "groups": [],
+    "id": "0oa26f38a3de6e2051fa",
+    "label": "NetSuite",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "name": "netsuite",
+    "settings": {},
+    "signOnMode": "SAML_2_0",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "created": "2025-01-05T09:00:00.000Z",
+      "id": "00ucd765ad276f897aa9",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "profile": {},
+      "scope": "USER",
+      "status": "ACTIVE",
+      "statusChanged": "2025-01-05T09:00:00.000Z"
+     },
+     {
+      "created": "2025-01-05T09:00:00.000Z",
+      "id": "00ua4cbb6a3ab4857e8e",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "profile": {},
+      "scope": "USER",
+      "status": "ACTIVE",
+      "statusChanged": "2025-01-05T09:00:00.000Z"
+     },
+     {
+      "created": "2025-01-05T09:00:00.000Z",
+      "id": "00u4feb5343df61b05b8",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "profile": {},
+      "scope": "USER",
+      "status": "ACTIVE",
+      "statusChanged": "2025-01-05T09:00:00.000Z"
+     },
+     {
+      "created": "2025-01-05T09:00:00.000Z",
+      "id": "00u69ed32e6a4a40412f",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "profile": {},
+      "scope": "USER",
+      "status": "ACTIVE",
+      "statusChanged": "2025-01-05T09:00:00.000Z"
+     }
+    ]
+   },
+   {
+    "created": "2024-03-01T09:00:00.000Z",
+    "groups": [],
+    "id": "0oa593db02f18bf8907b",
+    "label": "Spinnaker",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "name": "spinnaker",
+    "settings": {},
+    "signOnMode": "SAML_2_0",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "created": "2025-01-05T09:00:00.000Z",
+      "id": "00u992b61c39d9930042",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "profile": {},
+      "scope": "USER",
+      "status": "ACTIVE",
+      "statusChanged": "2025-01-05T09:00:00.000Z"
+     }
+    ]
+   }
+  ],
+  "groups": [
+   {
+    "created": "2023-02-01T09:00:00.000Z",
+    "id": "00g1e2072b437aa8df69",
+    "lastUpdated": "2023-02-01T09:00:00.000Z",
+    "members": [
+     "00ucd765ad276f897aa9",
+     "00ua4cbb6a3ab4857e8e",
+     "00ue96e199b0b9c9cc58",
+     "00ucf858d9d79bce0973"
+    ],
+    "profile": {
+     "description": "Elevated admin console for the payments platform.",
+     "name": "Payments Platform Admins"
+    },
+    "type": "OKTA_GROUP"
+   },
+   {
+    "created": "2023-02-01T09:00:00.000Z",
+    "id": "00g476e056c75560b04f",
+    "lastUpdated": "2023-02-01T09:00:00.000Z",
+    "members": [
+     "00ub3bad82b95847e61a",
+     "00uac9e1958614822f36",
+     "00u67e312954e6751329",
+     "00u4a344f132d5ac00f8",
+     "00ucd765ad276f897aa9",
+     "00ua4cbb6a3ab4857e8e",
+     "00ue96e199b0b9c9cc58",
+     "00u7e16696fa57f0b96e",
+     "00u992b61c39d9930042",
+     "00uedb37cf5206a56783",
+     "00u4feb5343df61b05b8",
+     "00u69ed32e6a4a40412f"
+    ],
+    "profile": {
+     "description": "All engineering staff (baseline).",
+     "name": "All Engineering"
+    },
+    "type": "OKTA_GROUP"
+   },
+   {
+    "created": "2023-02-01T09:00:00.000Z",
+    "id": "00g3255e9f8878b8af46",
+    "lastUpdated": "2023-02-01T09:00:00.000Z",
+    "members": [
+     "00u4feb5343df61b05b8",
+     "00ub3bad82b95847e61a"
+    ],
+    "profile": {
+     "description": "Approvers for production deploys.",
+     "name": "Prod Deploy Approvers"
+    },
+    "type": "OKTA_GROUP"
+   },
+   {
+    "created": "2023-02-01T09:00:00.000Z",
+    "id": "00g127caf8303d63d1a2",
+    "lastUpdated": "2023-02-01T09:00:00.000Z",
+    "members": [
+     "00ub3bad82b95847e61a",
+     "00uac9e1958614822f36",
+     "00u67e312954e6751329",
+     "00u4a344f132d5ac00f8",
+     "00ucd765ad276f897aa9",
+     "00ua4cbb6a3ab4857e8e",
+     "00ue96e199b0b9c9cc58",
+     "00u7e16696fa57f0b96e"
+    ],
+    "profile": {
+     "description": "Payments platform engineers.",
+     "name": "Payments Engineering"
+    },
+    "type": "OKTA_GROUP"
+   },
+   {
+    "created": "2023-02-01T09:00:00.000Z",
+    "id": "00g7a27cfd8469b8c108",
+    "lastUpdated": "2023-02-01T09:00:00.000Z",
+    "members": [
+     "00u992b61c39d9930042",
+     "00uedb37cf5206a56783",
+     "00u4feb5343df61b05b8"
+    ],
+    "profile": {
+     "description": "Payments reliability / SRE.",
+     "name": "Payments Reliability"
+    },
+    "type": "OKTA_GROUP"
+   }
+  ],
+  "users": [
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00uedb37cf5206a56783",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Payments Reliability",
+     "displayName": "Aria Fox",
+     "email": "aria.fox@meridianledger.example",
+     "firstName": "Aria",
+     "lastName": "Fox",
+     "login": "aria.fox@meridianledger.example",
+     "title": "Payments SRE"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00ucf858d9d79bce0973",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Security",
+     "displayName": "Dana Whitfield",
+     "email": "dana.whitfield@meridianledger.example",
+     "firstName": "Dana",
+     "lastName": "Whitfield",
+     "login": "dana.whitfield@meridianledger.example",
+     "title": "Security Engineer"
+    },
+    "roleAssignments": [
+     {
+      "assignmentType": "USER",
+      "created": "2025-01-05T09:00:00.000Z",
+      "id": "ra972b2c7e8eab3c69",
+      "label": "Super Admin",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "status": "ACTIVE",
+      "type": "SUPER_ADMIN"
+     }
+    ],
+    "status": "ACTIVE"
+   },
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00u4a344f132d5ac00f8",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Payments Engineering",
+     "displayName": "Diego Santos",
+     "email": "diego.santos@meridianledger.example",
+     "firstName": "Diego",
+     "lastName": "Santos",
+     "login": "diego.santos@meridianledger.example",
+     "title": "Payments Engineer"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00u4feb5343df61b05b8",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Payments Reliability",
+     "displayName": "Elena Rossi",
+     "email": "elena.rossi@meridianledger.example",
+     "firstName": "Elena",
+     "lastName": "Rossi",
+     "login": "elena.rossi@meridianledger.example",
+     "title": "Payments SRE"
+    },
+    "roleAssignments": [
+     {
+      "assignmentType": "USER",
+      "created": "2025-01-05T09:00:00.000Z",
+      "id": "rafd969da5b12439b0",
+      "label": "Super Admin",
+      "lastUpdated": "2025-01-05T09:00:00.000Z",
+      "status": "ACTIVE",
+      "type": "SUPER_ADMIN"
+     }
+    ],
+    "status": "ACTIVE"
+   },
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00u7e16696fa57f0b96e",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Payments Engineering",
+     "displayName": "Karan Shah",
+     "email": "karan.shah@meridianledger.example",
+     "firstName": "Karan",
+     "lastName": "Shah",
+     "login": "karan.shah@meridianledger.example",
+     "title": "Payments Engineer"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00u69ed32e6a4a40412f",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Engineering",
+     "displayName": "Lena Brooks",
+     "email": "lena.brooks@meridianledger.example",
+     "firstName": "Lena",
+     "lastName": "Brooks",
+     "login": "lena.brooks@meridianledger.example",
+     "title": "Engineering Manager"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00ucd765ad276f897aa9",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Payments Engineering",
+     "displayName": "Marcus Feld",
+     "email": "marcus.feld@meridianledger.example",
+     "firstName": "Marcus",
+     "lastName": "Feld",
+     "login": "marcus.feld@meridianledger.example",
+     "title": "Payments Engineer"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00u992b61c39d9930042",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Payments Reliability",
+     "displayName": "Noah Kim",
+     "email": "noah.kim@meridianledger.example",
+     "firstName": "Noah",
+     "lastName": "Kim",
+     "login": "noah.kim@meridianledger.example",
+     "title": "Payments SRE"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00u67e312954e6751329",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Payments Engineering",
+     "displayName": "Priya Nair",
+     "email": "priya.nair@meridianledger.example",
+     "firstName": "Priya",
+     "lastName": "Nair",
+     "login": "priya.nair@meridianledger.example",
+     "title": "Payments Engineer"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00ub3bad82b95847e61a",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Payments Engineering",
+     "displayName": "Ravi Mehta",
+     "email": "ravi.mehta@meridianledger.example",
+     "firstName": "Ravi",
+     "lastName": "Mehta",
+     "login": "ravi.mehta@meridianledger.example",
+     "title": "Payments Engineer"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00uac9e1958614822f36",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Payments Engineering",
+     "displayName": "Sofia Cruz",
+     "email": "sofia.cruz@meridianledger.example",
+     "firstName": "Sofia",
+     "lastName": "Cruz",
+     "login": "sofia.cruz@meridianledger.example",
+     "title": "Payments Engineer"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00ue96e199b0b9c9cc58",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Payments Engineering",
+     "displayName": "Tomas Alvarez",
+     "email": "tomas.alvarez@meridianledger.example",
+     "firstName": "Tomas",
+     "lastName": "Alvarez",
+     "login": "tomas.alvarez@meridianledger.example",
+     "title": "Payments Engineer"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "activated": "2024-01-10T09:00:00.000Z",
+    "created": "2024-01-10T09:00:00.000Z",
+    "credentials": {
+     "provider": {
+      "name": "OKTA",
+      "type": "OKTA"
+     }
+    },
+    "id": "00ua4cbb6a3ab4857e8e",
+    "lastUpdated": "2026-06-01T09:00:00.000Z",
+    "profile": {
+     "department": "Payments Engineering",
+     "displayName": "Yuki Tan",
+     "email": "yuki.tan@meridianledger.example",
+     "firstName": "Yuki",
+     "lastName": "Tan",
+     "login": "yuki.tan@meridianledger.example",
+     "title": "Payments Engineer"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   }
+  ]
+ },
+ "servicenow": {
+  "sc_req_item": [
+   {
+    "approval": "approved",
+    "number": "RITM0071001",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "priya-nair",
+    "short_description": "Access request: okta group Prod Deploy Approvers",
+    "state": "3",
+    "sys_id": "685ca85bc97578d8e178bc847c48dfda",
+    "u_access_type": "group",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "",
+    "u_system": "okta",
+    "u_target": "Prod Deploy Approvers",
+    "u_user": "priya-nair"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071002",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "priya-nair",
+    "short_description": "Access request: okta app Spinnaker",
+    "state": "3",
+    "sys_id": "cd3de76f5b7017309c7e6fbfe815c6db",
+    "u_access_type": "app",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "",
+    "u_system": "okta",
+    "u_target": "Spinnaker",
+    "u_user": "priya-nair"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071003",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "diego-santos",
+    "short_description": "Access request: github org_member meridian-ledger",
+    "state": "3",
+    "sys_id": "5a63c10a704d8407772f8ae1e4674d15",
+    "u_access_type": "org_member",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "",
+    "u_system": "github",
+    "u_target": "meridian-ledger",
+    "u_user": "diego-santos"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071004",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "diego-santos",
+    "short_description": "Access request: github collaborator payments-ledger",
+    "state": "3",
+    "sys_id": "4cbcb72c187ac018406c2f0d218d7af8",
+    "u_access_type": "collaborator",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "push",
+    "u_system": "github",
+    "u_target": "payments-ledger",
+    "u_user": "diego-santos"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071005",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "diego-santos",
+    "short_description": "Access request: okta app Grafana",
+    "state": "3",
+    "sys_id": "1d0d548f45438a34d2126159a52a744f",
+    "u_access_type": "app",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "",
+    "u_system": "okta",
+    "u_target": "Grafana",
+    "u_user": "diego-santos"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071006",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "priya-nair",
+    "short_description": "Access request: github collaborator edge-gateway",
+    "state": "3",
+    "sys_id": "f04c2f07702b872c2fdf5fa30335fa38",
+    "u_access_type": "collaborator",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "push",
+    "u_system": "github",
+    "u_target": "edge-gateway",
+    "u_user": "priya-nair"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071007",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "ravi-mehta",
+    "short_description": "Access request: okta group Prod Deploy Approvers",
+    "state": "3",
+    "sys_id": "dfafcb8d6a21aa73a6dccfecf32e7c0a",
+    "u_access_type": "group",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "",
+    "u_system": "okta",
+    "u_target": "Prod Deploy Approvers",
+    "u_user": "ravi-mehta"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071008",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "ravi-mehta",
+    "short_description": "Access request: okta app Grafana",
+    "state": "3",
+    "sys_id": "495ddec22e6485e36044b1bcb175f0d7",
+    "u_access_type": "app",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "",
+    "u_system": "okta",
+    "u_target": "Grafana",
+    "u_user": "ravi-mehta"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071009",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "ravi-mehta",
+    "short_description": "Access request: github collaborator payments-ledger",
+    "state": "3",
+    "sys_id": "60ff80571fbe08db63409464a15abb33",
+    "u_access_type": "collaborator",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "push",
+    "u_system": "github",
+    "u_target": "payments-ledger",
+    "u_user": "ravi-mehta"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071010",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "ravi-mehta",
+    "short_description": "Access request: github collaborator risk-engine",
+    "state": "3",
+    "sys_id": "5facd79a0b828df226589c5321d1bba5",
+    "u_access_type": "collaborator",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "push",
+    "u_system": "github",
+    "u_target": "risk-engine",
+    "u_user": "ravi-mehta"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071011",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "noah-kim",
+    "short_description": "Access request: okta app Spinnaker",
+    "state": "3",
+    "sys_id": "f4e391635214540d0bb088cca8ef969d",
+    "u_access_type": "app",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "",
+    "u_system": "okta",
+    "u_target": "Spinnaker",
+    "u_user": "noah-kim"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071012",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "noah-kim",
+    "short_description": "Access request: github collaborator edge-gateway",
+    "state": "3",
+    "sys_id": "abe270f9f952870f3bbe5bb0cd584f0c",
+    "u_access_type": "collaborator",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "push",
+    "u_system": "github",
+    "u_target": "edge-gateway",
+    "u_user": "noah-kim"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071013",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "sofia-cruz",
+    "short_description": "Access request: github collaborator treasury-core",
+    "state": "3",
+    "sys_id": "29662dbda109fb3f62b47bb06a4e4233",
+    "u_access_type": "collaborator",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "push",
+    "u_system": "github",
+    "u_target": "treasury-core",
+    "u_user": "sofia-cruz"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071014",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "lena-brooks",
+    "short_description": "Access request: okta app NetSuite",
+    "state": "3",
+    "sys_id": "f0fa3f6478c87ac5a73e270c8f50f651",
+    "u_access_type": "app",
+    "u_approval_state": "approved",
+    "u_note": "",
+    "u_permission": "",
+    "u_system": "okta",
+    "u_target": "NetSuite",
+    "u_user": "lena-brooks"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071015",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "tomas-alvarez",
+    "short_description": "Access request: okta group Payments Platform Admins",
+    "state": "3",
+    "sys_id": "b685e7cb3a8e489abacb85d1de73d648",
+    "u_access_type": "group",
+    "u_approval_state": "approved",
+    "u_exception": "true",
+    "u_note": "Documented time-boxed exception approved by platform lead.",
+    "u_permission": "",
+    "u_system": "okta",
+    "u_target": "Payments Platform Admins",
+    "u_user": "tomas-alvarez"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071016",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "dana-whitfield",
+    "short_description": "Access request: github org_role admin",
+    "state": "3",
+    "sys_id": "eba9a8d41bcddff7c320c1acfb572217",
+    "u_access_type": "org_role",
+    "u_approval_state": "approved",
+    "u_break_glass": "true",
+    "u_note": "Break-glass emergency access owner.",
+    "u_permission": "",
+    "u_system": "github",
+    "u_target": "admin",
+    "u_user": "dana-whitfield"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071017",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "dana-whitfield",
+    "short_description": "Access request: okta group Payments Platform Admins",
+    "state": "3",
+    "sys_id": "cbb03e9a3926bcf025a3f2dbfce5b41a",
+    "u_access_type": "group",
+    "u_approval_state": "approved",
+    "u_break_glass": "true",
+    "u_note": "",
+    "u_permission": "",
+    "u_system": "okta",
+    "u_target": "Payments Platform Admins",
+    "u_user": "dana-whitfield"
+   },
+   {
+    "approval": "approved",
+    "number": "RITM0071018",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "dana-whitfield",
+    "short_description": "Access request: okta role SUPER_ADMIN",
+    "state": "3",
+    "sys_id": "df0a496aa5e47e1f37858d4b19720e02",
+    "u_access_type": "role",
+    "u_approval_state": "approved",
+    "u_break_glass": "true",
+    "u_note": "",
+    "u_permission": "",
+    "u_system": "okta",
+    "u_target": "SUPER_ADMIN",
+    "u_user": "dana-whitfield"
+   },
+   {
+    "approval": "rejected",
+    "number": "RITM0071019",
+    "opened_at": "2026-06-20 10:00:00",
+    "requested_for": "karan-shah",
+    "short_description": "Access request: okta group Payments Platform Admins",
+    "state": "4",
+    "sys_id": "018b2712af4e50af16f9b41967b26a5a",
+    "u_access_type": "group",
+    "u_approval_state": "rejected",
+    "u_note": "Request denied; elevation not justified.",
+    "u_permission": "",
+    "u_system": "okta",
+    "u_target": "Payments Platform Admins",
+    "u_user": "karan-shah"
+   }
+  ],
+  "sc_request": [
+   {
+    "description": "Quarterly access recertification for the Payments engineering organization.\nThe recert compared live access across the connected systems against the access the company has approved on record, and found the live environment no longer matches. Reconcile the live access to the approved access: provision the access that was approved, remove access that has no approving record, and reduce access that exceeds what a person is entitled to for their role. Preserve access that is legitimately authorized. Close this request when the environment agrees with the approved access.",
+    "number": "REQ0071001",
+    "opened_at": "2026-07-17 08:30:00",
+    "opened_by": "lena-brooks",
+    "priority": "2",
+    "request_state": "in_process",
+    "requested_for": "lena-brooks",
+    "short_description": "Quarterly access recertification - Payments engineering",
+    "state": "2",
+    "sys_created_on": "2026-07-17 08:30:00",
+    "sys_id": "c4e97ab7c667a0066dc8ccb5b98cdfa8",
+    "sys_updated_on": "2026-07-17 08:30:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "request_state",
+    "label": "In Process",
+    "name": "sc_request",
+    "value": "in_process"
+   },
+   {
+    "element": "request_state",
+    "label": "Closed Complete",
+    "name": "sc_request",
+    "value": "closed_complete"
+   },
+   {
+    "element": "approval",
+    "label": "Approved",
+    "name": "sc_req_item",
+    "value": "approved"
+   },
+   {
+    "element": "approval",
+    "label": "Rejected",
+    "name": "sc_req_item",
+    "value": "rejected"
+   }
+  ],
+  "sys_user": [
+   {
+    "active": "true",
+    "department": "Payments Reliability",
+    "email": "aria.fox@meridianledger.example",
+    "name": "Aria Fox",
+    "sys_id": "19df569f33bae47fef4fdc8582802366",
+    "title": "Payments SRE",
+    "user_name": "aria-fox"
+   },
+   {
+    "active": "true",
+    "department": "Security",
+    "email": "dana.whitfield@meridianledger.example",
+    "name": "Dana Whitfield",
+    "sys_id": "8d8f73ce5d4ff514db6b42efd804d99d",
+    "title": "Security Engineer",
+    "user_name": "dana-whitfield"
+   },
+   {
+    "active": "true",
+    "department": "Payments Engineering",
+    "email": "diego.santos@meridianledger.example",
+    "name": "Diego Santos",
+    "sys_id": "d482877d25d5faf60925e1b22869f43e",
+    "title": "Payments Engineer",
+    "user_name": "diego-santos"
+   },
+   {
+    "active": "true",
+    "department": "Payments Reliability",
+    "email": "elena.rossi@meridianledger.example",
+    "name": "Elena Rossi",
+    "sys_id": "d0a0f150b6690aa329ffd9fb4a450d0b",
+    "title": "Payments SRE",
+    "user_name": "elena-rossi"
+   },
+   {
+    "active": "true",
+    "department": "Payments Engineering",
+    "email": "karan.shah@meridianledger.example",
+    "name": "Karan Shah",
+    "sys_id": "0bf09880782cf43c5ef7a8cf873f546f",
+    "title": "Payments Engineer",
+    "user_name": "karan-shah"
+   },
+   {
+    "active": "true",
+    "department": "Engineering",
+    "email": "lena.brooks@meridianledger.example",
+    "name": "Lena Brooks",
+    "sys_id": "e19e8dbc4bf3c2a8bf4a30791f24088b",
+    "title": "Engineering Manager",
+    "user_name": "lena-brooks"
+   },
+   {
+    "active": "true",
+    "department": "Payments Engineering",
+    "email": "marcus.feld@meridianledger.example",
+    "name": "Marcus Feld",
+    "sys_id": "0ae39894ac7c788267f279d0db5e63e4",
+    "title": "Payments Engineer",
+    "user_name": "marcus-feld"
+   },
+   {
+    "active": "true",
+    "department": "Payments Reliability",
+    "email": "noah.kim@meridianledger.example",
+    "name": "Noah Kim",
+    "sys_id": "3f7df2458df2a3e63d0435645be83ffe",
+    "title": "Payments SRE",
+    "user_name": "noah-kim"
+   },
+   {
+    "active": "true",
+    "department": "Payments Engineering",
+    "email": "priya.nair@meridianledger.example",
+    "name": "Priya Nair",
+    "sys_id": "a351f397b1405e3624e045ad6d05596b",
+    "title": "Payments Engineer",
+    "user_name": "priya-nair"
+   },
+   {
+    "active": "true",
+    "department": "Payments Engineering",
+    "email": "ravi.mehta@meridianledger.example",
+    "name": "Ravi Mehta",
+    "sys_id": "1993d51b4fcdaccff44160fa08408b54",
+    "title": "Payments Engineer",
+    "user_name": "ravi-mehta"
+   },
+   {
+    "active": "true",
+    "department": "Payments Engineering",
+    "email": "sofia.cruz@meridianledger.example",
+    "name": "Sofia Cruz",
+    "sys_id": "d017e31625ec3e4f452830192f4adce3",
+    "title": "Payments Engineer",
+    "user_name": "sofia-cruz"
+   },
+   {
+    "active": "true",
+    "department": "Payments Engineering",
+    "email": "tomas.alvarez@meridianledger.example",
+    "name": "Tomas Alvarez",
+    "sys_id": "bd2f45bf473c9f56c714965533364cf9",
+    "title": "Payments Engineer",
+    "user_name": "tomas-alvarez"
+   },
+   {
+    "active": "true",
+    "department": "Payments Engineering",
+    "email": "yuki.tan@meridianledger.example",
+    "name": "Yuki Tan",
+    "sys_id": "990ab1df45f636c1489e901b8ac01bc5",
+    "title": "Payments Engineer",
+    "user_name": "yuki-tan"
+   }
+  ]
+ }
+}

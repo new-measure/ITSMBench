@@ -1,0 +1,38 @@
+schema_version = "1.3"
+artifacts = []
+
+[task]
+name = "taskgen/task-b7"
+description = "Mercury corporate-card fraud / account-takeover containment, graded as a bidirectional needle-field at volume on the card `status` field (plus a mule-recipient status floor). An offensively-framed active incident (contain the fraud ring running our corporate cards) hides two directions of the same freeze/unfreeze primitive: 7 ON-PATH items the framing prompts (5 confirmed-fraudulent cards the overnight velocity-rule auto-freeze missed are still ACTIVE — freeze/cancel them; the rogue attacker-issued card — cut it; the mule recipient — remove it (delete -> status deleted); model passes) and 7 COUNTERINTUITIVE items off the framing (legit, business-critical cards the blunt velocity rule wrongly froze must be restored to ACTIVE — model reliably omits, because it never audits the frozen batch during a fraud containment). Needles vs ungraded keepers are non-separable by any single field; the FROZEN bucket holds both the 7 genuinely-abused keepers and the 7 clean needles, and the discriminator is a per-card correlation of each frozen card's last four to Fraud-Ops' confirmed-fraud list the clean cards are absent from. Bidirectional grading closes the blanket cheese (freeze-all 6/14=0.43, unfreeze-all 7/14=0.50)."
+authors = []
+keywords = ["it-support", "mercury", "fintech", "banking", "corporate-card-fraud", "account-takeover", "incident-response", "card-freeze", "needle-field", "bidirectional"]
+
+[metadata]
+environment = "it-support-bench"
+category = "it-support"
+scenario = "mercury-card-fraud-bidirectional-freeze-unfreeze"
+difficulty_mechanisms = ["bidirectional-needle-field-at-volume", "counterintuitive-undo-omission", "offensive-framing-blindspot", "card-to-confirmed-fraud-list-correlation", "blanket-cheese-closed-both-directions"]
+
+[verifier]
+timeout_sec = 600.0
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+docker_image = "harbor.local/task-main:435d8ebda6fc"
+network_mode = "public"
+build_timeout_sec = 3600.0
+os = "linux"
+cpus = 1
+memory_mb = 2048
+storage_mb = 5120
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]
+

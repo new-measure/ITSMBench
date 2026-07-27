@@ -1,0 +1,1414 @@
+{
+ "_now": "2026-07-18T09:00:00.000Z",
+ "okta": {
+  "apps": [
+   {
+    "features": [],
+    "groups": [],
+    "id": "0oaC10000000000000001",
+    "label": "Kilo Design Cloud",
+    "name": "oidc_client",
+    "settings": {},
+    "signOnMode": "OPENID_CONNECT",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "id": "00uEMP0000000000001",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     },
+     {
+      "id": "00uEMP0000000000002",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     },
+     {
+      "id": "00uEMP0000000000003",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     }
+    ]
+   },
+   {
+    "features": [],
+    "groups": [],
+    "id": "0oaC20000000000000002",
+    "label": "Lima Chat",
+    "name": "oidc_client",
+    "settings": {},
+    "signOnMode": "OPENID_CONNECT",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "id": "00uEMP0000000000001",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     },
+     {
+      "id": "00uEMP0000000000004",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     },
+     {
+      "id": "00uEMP0000000000005",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     }
+    ]
+   },
+   {
+    "features": [],
+    "groups": [],
+    "id": "0oaC30000000000000003",
+    "label": "Mango BI",
+    "name": "oidc_client",
+    "settings": {},
+    "signOnMode": "OPENID_CONNECT",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "id": "00uEMP0000000000002",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     },
+     {
+      "id": "00uEMP0000000000003",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     }
+    ]
+   },
+   {
+    "features": [],
+    "groups": [],
+    "id": "0oaC40000000000000004",
+    "label": "Nimbus e-Sign",
+    "name": "oidc_client",
+    "settings": {},
+    "signOnMode": "OPENID_CONNECT",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "id": "00uEMP0000000000004",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     },
+     {
+      "id": "00uEMP0000000000005",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     }
+    ]
+   },
+   {
+    "features": [],
+    "groups": [],
+    "id": "0oaOK50000000000000005",
+    "label": "Willow Wiki",
+    "name": "oidc_client",
+    "settings": {},
+    "signOnMode": "OPENID_CONNECT",
+    "status": "ACTIVE",
+    "users": [
+     {
+      "id": "00uEMP0000000000001",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     },
+     {
+      "id": "00uEMP0000000000005",
+      "scope": "USER",
+      "status": "PROVISIONED"
+     }
+    ]
+   }
+  ],
+  "groups": [],
+  "logs": [],
+  "users": [
+   {
+    "factors": [],
+    "id": "00uEMP0000000000001",
+    "profile": {
+     "email": "dana.li@northwind.example",
+     "firstName": "Dana",
+     "lastName": "Li",
+     "login": "dana.li@northwind.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uEMP0000000000002",
+    "profile": {
+     "email": "sam.ortega@northwind.example",
+     "firstName": "Sam",
+     "lastName": "Ortega",
+     "login": "sam.ortega@northwind.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uEMP0000000000003",
+    "profile": {
+     "email": "priya.nair@northwind.example",
+     "firstName": "Priya",
+     "lastName": "Nair",
+     "login": "priya.nair@northwind.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uEMP0000000000004",
+    "profile": {
+     "email": "tom.becker@northwind.example",
+     "firstName": "Tom",
+     "lastName": "Becker",
+     "login": "tom.becker@northwind.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   },
+   {
+    "factors": [],
+    "id": "00uEMP0000000000005",
+    "profile": {
+     "email": "mei.chen@northwind.example",
+     "firstName": "Mei",
+     "lastName": "Chen",
+     "login": "mei.chen@northwind.example"
+    },
+    "roleAssignments": [],
+    "status": "ACTIVE"
+   }
+  ]
+ },
+ "servicenow": {
+  "change_request": [],
+  "incident": [
+   {
+    "category": "compliance",
+    "close_code": "Solved (Permanently)",
+    "close_notes": "Last year's pre-board third-party review - CLOSED. Lesson we wrote down: the register's top-line status is a CLAIM, not proof. A vendor can sit there looking approved and current while the reality behind it has drifted. That year we were burned by carrying vendors as approved whose most recent review had actually come back negative; by an open high-severity issue nobody had ever closed out; by a tool our staff were already logged into every day that had never been through a security review at all; and by 'current' vendors whose review had quietly gone past due. None of it showed on the summary screen. The habit that saved us: for every vendor, check the status against what it stands on - the outcome of its latest review, whatever issues are still open against it, the access it actually holds, and whether its next review is genuinely still in date. Trust nothing just because it is green.",
+    "closed_at": "2025-06-19 17:00:00",
+    "description": "Prior-year vendor-risk review ahead of the board risk committee. See close notes.",
+    "number": "INC0028004",
+    "priority": "3",
+    "short_description": "Pre-board third-party risk review (prior year) - lessons learned",
+    "state": "7",
+    "sys_created_on": "2025-06-02 08:00:00",
+    "sys_id": "58ff535c92b2dd4509cee47796674cda",
+    "sys_updated_on": "2025-06-19 17:00:00"
+   },
+   {
+    "category": "compliance",
+    "description": "Our board risk committee signs off on the third-party register next week and I need it to be accurate before then. The register reads mostly green in our GRC tool, so I think we are in reasonable shape, but please do not just take the top-line status at face value.\nYour job: review the WHOLE third-party register and make sure each vendor's recorded risk posture actually reflects reality before the committee signs off. Handle anything that is genuinely a risk, and leave alone the vendors that are genuinely low-risk and current - do not stir up vendors that are fine. When the register is trustworthy, close this ticket.\nOne to sanity-check for me: 'Sable Payroll' came up in a hallway conversation, so give it a look.",
+    "number": "INC0031001",
+    "priority": "1",
+    "short_description": "Third-party register review before board risk-committee sign-off",
+    "state": "2",
+    "sys_created_on": "2026-07-18 09:00:00",
+    "sys_id": "be578f6b3f30029c11f83ab3ba492cb7",
+    "sys_updated_on": "2026-07-18 09:00:00"
+   }
+  ],
+  "sys_choice": [
+   {
+    "element": "state",
+    "label": "New",
+    "name": "incident",
+    "value": "1"
+   },
+   {
+    "element": "state",
+    "label": "In Progress",
+    "name": "incident",
+    "value": "2"
+   },
+   {
+    "element": "state",
+    "label": "Resolved",
+    "name": "incident",
+    "value": "6"
+   },
+   {
+    "element": "state",
+    "label": "Closed",
+    "name": "incident",
+    "value": "7"
+   }
+  ]
+ },
+ "vanta": {
+  "__relations": {
+   "controlDocuments": {},
+   "controlTests": {},
+   "documentFiles": {},
+   "frameworkControls": {},
+   "testEntities": {}
+  },
+  "computers": [],
+  "controls": [],
+  "documents": [],
+  "frameworks": [],
+  "integrations": [],
+  "libraryControls": [],
+  "people": [],
+  "riskControls": [],
+  "riskScenarios": [],
+  "testEntities": [],
+  "tests": [],
+  "vendorAssessments": [
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-06-15T00:00:00.000Z",
+    "createdDate": "2026-05-10T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-06-15T00:00:00.000Z",
+     "status": "NOT_APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-a1",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-05-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-a1"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2025-05-20T00:00:00.000Z",
+    "createdDate": "2025-05-01T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2025-05-20T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-a2-old",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2025-05-01T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-a2"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-06-15T00:00:00.000Z",
+    "createdDate": "2026-05-10T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-06-15T00:00:00.000Z",
+     "status": "NOT_APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-a2",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-05-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-a2"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-06-15T00:00:00.000Z",
+    "createdDate": "2026-05-10T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-06-15T00:00:00.000Z",
+     "status": "NOT_APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-a3",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-05-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-a3"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-06-15T00:00:00.000Z",
+    "createdDate": "2026-05-10T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-06-15T00:00:00.000Z",
+     "status": "NOT_APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-a4",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-05-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-a4"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-06-15T00:00:00.000Z",
+    "createdDate": "2026-05-10T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-06-15T00:00:00.000Z",
+     "status": "NOT_APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-a5",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-05-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-a5"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-04-20T00:00:00.000Z",
+    "createdDate": "2026-04-01T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-04-20T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-b1",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-b1"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-04-20T00:00:00.000Z",
+    "createdDate": "2026-04-01T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-04-20T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-b2",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-b2"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-04-20T00:00:00.000Z",
+    "createdDate": "2026-04-01T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-04-20T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-b3",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-b3"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-04-20T00:00:00.000Z",
+    "createdDate": "2026-04-01T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-04-20T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-b4",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-b4"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-04-20T00:00:00.000Z",
+    "createdDate": "2026-04-01T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-04-20T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-b5",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-b5"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": null,
+    "createdDate": "2026-06-01T00:00:00.000Z",
+    "decision": null,
+    "dueDate": "2026-07-30T00:00:00.000Z",
+    "id": "asmt-c2",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-06-01T00:00:00.000Z",
+    "status": "IN_PROGRESS",
+    "vendorId": "vendor-c2"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": null,
+    "createdDate": "2026-07-01T00:00:00.000Z",
+    "decision": null,
+    "dueDate": "2026-08-30T00:00:00.000Z",
+    "id": "asmt-c3",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-07-01T00:00:00.000Z",
+    "status": "NOT_STARTED",
+    "vendorId": "vendor-c3"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2025-02-01T00:00:00.000Z",
+    "createdDate": "2025-01-10T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2025-02-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-d1",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2025-01-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-d1"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2025-02-01T00:00:00.000Z",
+    "createdDate": "2025-01-10T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2025-02-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-d2",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2025-01-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-d2"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2025-02-01T00:00:00.000Z",
+    "createdDate": "2025-01-10T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2025-02-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-d3",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2025-01-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-d3"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2025-02-01T00:00:00.000Z",
+    "createdDate": "2025-01-10T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2025-02-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-d4",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2025-01-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-d4"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-03-20T00:00:00.000Z",
+    "createdDate": "2026-03-01T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-03-20T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-ok1",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-03-01T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-ok1"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2025-08-01T00:00:00.000Z",
+    "createdDate": "2025-07-10T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2025-08-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-ok2",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2025-07-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-ok2"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-04-15T00:00:00.000Z",
+    "createdDate": "2026-04-05T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-04-15T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-ok3",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-04-05T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-ok3"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-02-20T00:00:00.000Z",
+    "createdDate": "2026-02-01T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-02-20T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-ok4",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-02-01T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-ok4"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-03-25T00:00:00.000Z",
+    "createdDate": "2026-03-10T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-03-25T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-ok5",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-03-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-ok5"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2025-02-20T00:00:00.000Z",
+    "createdDate": "2025-02-01T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2025-02-20T00:00:00.000Z",
+     "status": "NOT_APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-ok7-old",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-ok7"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-05-01T00:00:00.000Z",
+    "createdDate": "2026-04-10T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-ok7-new",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-04-10T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-ok7"
+   },
+   {
+    "assessmentType": {
+     "description": null,
+     "id": "atype-secreview",
+     "name": "Security review"
+    },
+    "completedByUserId": null,
+    "completionDate": "2026-03-20T00:00:00.000Z",
+    "createdDate": "2026-03-01T00:00:00.000Z",
+    "decision": {
+     "comments": null,
+     "lastUpdatedAt": "2026-03-20T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "dueDate": null,
+    "id": "asmt-ok8",
+    "overrideDueDate": null,
+    "owner": null,
+    "startDate": "2026-03-01T00:00:00.000Z",
+    "status": "COMPLETED",
+    "vendorId": "vendor-ok8"
+   }
+  ],
+  "vendorDocuments": [],
+  "vendorFindings": [
+   {
+    "content": "SOC 2 report lists an exception: production database backups are not encrypted at rest. HIGH.",
+    "documentId": null,
+    "id": "finding-b1",
+    "remediation": {
+     "requirementNotes": "Vendor to provide remediation evidence before board sign-off.",
+     "state": "OPEN"
+    },
+    "riskStatus": "REMEDIATE",
+    "securityReviewId": null,
+    "vendorId": "vendor-b1"
+   },
+   {
+    "content": "Minor: logo asset served over HTTP on marketing site. Low impact.",
+    "documentId": null,
+    "id": "finding-b2-done",
+    "remediation": null,
+    "riskStatus": "ACCEPT",
+    "securityReviewId": null,
+    "vendorId": "vendor-b2"
+   },
+   {
+    "content": "Pen-test found an unauthenticated internal admin endpoint reachable from the shared tenant. HIGH.",
+    "documentId": null,
+    "id": "finding-b2",
+    "remediation": {
+     "requirementNotes": "Vendor to provide remediation evidence before board sign-off.",
+     "state": "OPEN"
+    },
+    "riskStatus": "REMEDIATE",
+    "securityReviewId": null,
+    "vendorId": "vendor-b2"
+   },
+   {
+    "content": "No documented incident-response plan and no breach-notification SLA in the contract. HIGH.",
+    "documentId": null,
+    "id": "finding-b3",
+    "remediation": {
+     "requirementNotes": "Vendor to provide remediation evidence before board sign-off.",
+     "state": "OPEN"
+    },
+    "riskStatus": "REMEDIATE",
+    "securityReviewId": null,
+    "vendorId": "vendor-b3"
+   },
+   {
+    "content": "Sub-processor list is out of date; an unlisted offshore sub-processor handles support data. HIGH.",
+    "documentId": null,
+    "id": "finding-b4",
+    "remediation": {
+     "requirementNotes": "Vendor to provide remediation evidence before board sign-off.",
+     "state": "OPEN"
+    },
+    "riskStatus": "REMEDIATE",
+    "securityReviewId": null,
+    "vendorId": "vendor-b4"
+   },
+   {
+    "content": "MFA is not enforced for the vendor's admin console that manages our tenant. HIGH.",
+    "documentId": null,
+    "id": "finding-b5",
+    "remediation": {
+     "requirementNotes": "Vendor to provide remediation evidence before board sign-off.",
+     "state": "OPEN"
+    },
+    "riskStatus": "REMEDIATE",
+    "securityReviewId": null,
+    "vendorId": "vendor-b5"
+   },
+   {
+    "content": "Vendor stores support attachments in a single region only (no geo-redundancy). Risk formally ACCEPTED by the CISO on 2026-02-25; rationale: no customer PII in attachments, low impact, revisited at renewal. Documented in the risk register.",
+    "documentId": null,
+    "id": "finding-ok4",
+    "remediation": null,
+    "riskStatus": "ACCEPT",
+    "securityReviewId": null,
+    "vendorId": "vendor-ok4"
+   },
+   {
+    "content": "Earlier pen-test flagged a missing security header; vendor deployed the fix and provided evidence. Remediation completed and closed.",
+    "documentId": null,
+    "id": "finding-ok8",
+    "remediation": {
+     "requirementNotes": "Fix verified 2026-04-02; closed.",
+     "state": "CLOSED"
+    },
+    "riskStatus": "REMEDIATE",
+    "securityReviewId": null,
+    "vendorId": "vendor-ok8"
+   }
+  ],
+  "vendors": [
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": "2027-05-01T00:00:00.000Z",
+    "contractTerminationDate": null,
+    "id": "vendor-a1",
+    "inherentRiskLevel": "CRITICAL",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Aperture Analytics",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "CRITICAL",
+    "servicesProvided": "Product analytics & event data processor",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": "2027-05-01T00:00:00.000Z",
+    "contractTerminationDate": null,
+    "id": "vendor-a2",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Beacon Payments",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "HIGH",
+    "servicesProvided": "Card payment gateway",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": "2027-05-01T00:00:00.000Z",
+    "contractTerminationDate": null,
+    "id": "vendor-a3",
+    "inherentRiskLevel": "CRITICAL",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Cirrus Data Warehouse",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "CRITICAL",
+    "servicesProvided": "Managed cloud data warehouse (customer PII)",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": "2027-05-01T00:00:00.000Z",
+    "contractTerminationDate": null,
+    "id": "vendor-a4",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Delta Mail Relay",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "HIGH",
+    "servicesProvided": "Transactional email delivery",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": "2027-05-01T00:00:00.000Z",
+    "contractTerminationDate": null,
+    "id": "vendor-a5",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Echo Session Replay",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "HIGH",
+    "servicesProvided": "Frontend session-replay / monitoring",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-b1",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Foxtrot HR Cloud",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "HIGH",
+    "servicesProvided": "HRIS / employee records",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-b2",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Gamma Logistics",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "HIGH",
+    "servicesProvided": "Shipping & fulfilment integration",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-b3",
+    "inherentRiskLevel": "CRITICAL",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Helix Object Storage",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "CRITICAL",
+    "servicesProvided": "Object storage for customer documents",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-b4",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Ionic CRM",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "HIGH",
+    "servicesProvided": "Customer relationship management",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-b5",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Juno Ledger",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "HIGH",
+    "servicesProvided": "Accounting / financial ledger",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-c1",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": null,
+    "latestDecision": null,
+    "name": "Kilo Design Cloud",
+    "nextSecurityReviewDueDate": "2026-11-15T00:00:00.000Z",
+    "residualRiskLevel": "HIGH",
+    "servicesProvided": "Design collaboration (SSO app)",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-c2",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": null,
+    "latestDecision": null,
+    "name": "Lima Chat",
+    "nextSecurityReviewDueDate": "2026-11-15T00:00:00.000Z",
+    "residualRiskLevel": "HIGH",
+    "servicesProvided": "Team messaging (SSO app)",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-c3",
+    "inherentRiskLevel": "CRITICAL",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": null,
+    "latestDecision": null,
+    "name": "Mango BI",
+    "nextSecurityReviewDueDate": "2026-11-15T00:00:00.000Z",
+    "residualRiskLevel": "CRITICAL",
+    "servicesProvided": "Business-intelligence dashboards over prod data (SSO app)",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-c4",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": null,
+    "latestDecision": null,
+    "name": "Nimbus e-Sign",
+    "nextSecurityReviewDueDate": "2026-11-15T00:00:00.000Z",
+    "residualRiskLevel": "HIGH",
+    "servicesProvided": "Electronic signature (SSO app)",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-d1",
+    "inherentRiskLevel": "CRITICAL",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2025-02-10T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2025-02-10T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Orion Edge Firewall",
+    "nextSecurityReviewDueDate": "2026-02-15T00:00:00.000Z",
+    "residualRiskLevel": "CRITICAL",
+    "servicesProvided": "Managed WAF / edge security",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-d2",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2025-02-10T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2025-02-10T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Papyrus DocSign",
+    "nextSecurityReviewDueDate": "2026-02-15T00:00:00.000Z",
+    "residualRiskLevel": "HIGH",
+    "servicesProvided": "Contract lifecycle & signing",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-d3",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2025-02-10T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2025-02-10T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Quasar Monitoring",
+    "nextSecurityReviewDueDate": "2026-02-15T00:00:00.000Z",
+    "residualRiskLevel": "HIGH",
+    "servicesProvided": "Infrastructure monitoring & alerting",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-d4",
+    "inherentRiskLevel": "CRITICAL",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2025-02-10T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2025-02-10T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Raven Threat Intel",
+    "nextSecurityReviewDueDate": "2026-02-15T00:00:00.000Z",
+    "residualRiskLevel": "CRITICAL",
+    "servicesProvided": "Threat-intelligence feed",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": "2027-06-01T00:00:00.000Z",
+    "contractTerminationDate": null,
+    "id": "vendor-ok1",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Sable Payroll",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "MEDIUM",
+    "servicesProvided": "Payroll processing",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-ok2",
+    "inherentRiskLevel": "MEDIUM",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2025-08-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2025-08-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Terra CDN",
+    "nextSecurityReviewDueDate": "2026-11-15T00:00:00.000Z",
+    "residualRiskLevel": "LOW",
+    "servicesProvided": "Content delivery network",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-ok3",
+    "inherentRiskLevel": "LOW",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Umbra Web Fonts",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "LOW",
+    "servicesProvided": "Web font hosting",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-ok4",
+    "inherentRiskLevel": "MEDIUM",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Vertex Support Desk",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "LOW",
+    "servicesProvided": "Customer support ticketing",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-ok5",
+    "inherentRiskLevel": "MEDIUM",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Willow Wiki",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "LOW",
+    "servicesProvided": "Internal knowledge base (SSO app)",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": "2026-01-31T00:00:00.000Z",
+    "id": "vendor-ok6",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2024-09-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2024-09-01T00:00:00.000Z",
+     "status": "NOT_APPROVED"
+    },
+    "name": "Zephyr Legacy Backup",
+    "nextSecurityReviewDueDate": null,
+    "residualRiskLevel": "LOW",
+    "servicesProvided": "(Decommissioned) legacy backup vault",
+    "status": "ARCHIVED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-ok7",
+    "inherentRiskLevel": "HIGH",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Sirius Cache",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "MEDIUM",
+    "servicesProvided": "Managed in-memory cache",
+    "status": "MANAGED"
+   },
+   {
+    "category": {
+     "displayName": "SaaS"
+    },
+    "contractRenewalDate": null,
+    "contractTerminationDate": null,
+    "id": "vendor-ok8",
+    "inherentRiskLevel": "MEDIUM",
+    "isVisibleToAuditors": true,
+    "lastSecurityReviewCompletionDate": "2026-05-01T00:00:00.000Z",
+    "latestDecision": {
+     "lastUpdatedAt": "2026-05-01T00:00:00.000Z",
+     "status": "APPROVED"
+    },
+    "name": "Tucana Queue",
+    "nextSecurityReviewDueDate": "2027-02-01T00:00:00.000Z",
+    "residualRiskLevel": "LOW",
+    "servicesProvided": "Managed message queue",
+    "status": "MANAGED"
+   }
+  ]
+ }
+}

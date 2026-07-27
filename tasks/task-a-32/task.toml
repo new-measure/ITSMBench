@@ -1,0 +1,32 @@
+schema_version = "1.3"
+artifacts = []
+
+[task]
+name = "abhishek203/task-a-32"
+description = ""
+authors = []
+keywords = []
+
+[metadata]
+
+[verifier]
+timeout_sec = 600.0
+
+[verifier.env]
+
+[agent]
+timeout_sec = 5400.0
+
+[environment]
+docker_image = "harbor.local/task-main:dfc6f4d357d9"
+network_mode = "public"
+build_timeout_sec = 600.0
+os = "linux"
+mcp_servers = []
+cpus = 1
+memory_mb = 2048
+storage_mb = 5120
+
+[environment.env]
+
+[solution.env]
