@@ -1,57 +1,28 @@
-# task-iam-17 — Unmanaged non-human identity estate
+# task-iam-17 — Unmanaged service and machine accounts
 
 ## What this task is
 
-A security review has raised a ServiceNow ticket: the service-account / machine-identity
-estate has grown without lifecycle management. An IT support agent on duty must bring
-non-human identities back to a managed, least-privilege state — retire what is no longer
-owned or in use, and strip administrative privileges and credentials that are not
-warranted — without disrupting identities a live pipeline still relies on, and without
-touching human accounts.
+A security review created a ServiceNow ticket. The service-account and machine-identity environment has grown without lifecycle management. The IT support agent on duty must return these non-human identities to a managed, least-privilege state. The agent must retire identities that are no longer owned or used. The agent must also remove administrative privileges and credentials that are not justified. The agent must not disrupt identities that a live pipeline still uses. The agent must not change human accounts.
 
-Risk is not visible from Okta alone. The CMDB service inventory is the machine-identity
-catalog: it links each identity's Okta login, its GitHub login (the only place that join
-lives), and the human owner. HR says whether that owner is still employed. Usage does
-not show up as a neat last-login field either — activity lives in system logs, including
-automation events that look nothing like interactive sessions.
+Okta alone does not show all the risk. The CMDB service inventory is the catalog for machine identities. It links each identity to its Okta login, GitHub login, and human owner. The link to the GitHub login exists only in the CMDB. HR shows whether the owner is still employed. Usage is not available as a simple last-login field. Activity appears in system logs. These logs include automation events that do not look like interactive sessions.
 
-Some identities are disguised with human-looking logins and titles and only appear in the
-CMDB inventory. GitHub residue (org owner, team maintainer, deploy keys) is reachable
-only by joining Okta → CMDB → GitHub. Peer baselines and a registered break-glass
-control define what "managed" looks like for the ones that must stay.
+Some identities use human-looking logins and titles. They can be identified as machine identities only through the CMDB inventory. GitHub access can include org owner, team maintainer, and deploy keys. This access can be found only by joining Okta → CMDB → GitHub. Peer baselines and a registered break-glass control define the managed state for identities that must remain active.
 
 ## What we expect the agent to do
 
-1. Read the ticket and inventory non-human identities from the CMDB service records —
-   not only accounts whose names look like `svc-*`.
-2. Correlate each identity to its owner in HR and to live usage in the identity logs;
-   treat orphaned or ownerless identities as retirement candidates.
-3. Retire genuinely orphaned machine identities end to end: deactivate the account,
-   revoke admin roles, remove privileged group seats, and clear related GitHub owner /
-   maintainer / deploy-key residue.
-4. Right-size active, owned identities that still hold unwarranted admin roles, group
-   seats, or GitHub privileges — without deactivating the account a pipeline needs.
-5. Rotate superseded credentials where a newer key already exists; keep the current key.
-6. Preserve sanctioned and still-in-use identities: break-glass automation, pipelines
-   that only show automation activity, sole-current keys, and benign disguised
-   machine accounts.
-7. Leave human user accounts alone, including risky departed humans that are out of
-   scope for this review.
-8. Close the ticket when the estate is managed and least-privilege.
+1. Read the ticket. Use the CMDB service records to inventory non-human identities. Do not limit the inventory to accounts with names that look like `svc-*`.
+2. Match each identity to its owner in HR and to live usage in the identity logs. Treat identities with no current owner or no owner record as retirement candidates.
+3. Fully retire machine identities that are genuinely orphaned. Deactivate the account, revoke admin roles, remove privileged group seats, and remove related GitHub org-owner, team-maintainer, and deploy-key access.
+4. Reduce privileges for active, owned identities that still have unjustified admin roles, group seats, or GitHub privileges. Do not deactivate an account that a pipeline still needs.
+5. Rotate credentials that have been replaced when a newer key already exists. Keep the current key.
+6. Preserve approved identities that are still in use. This includes break-glass automation, pipelines that show only automation activity, identities with only one current key, and benign disguised machine accounts.
+7. Do not change human user accounts. This includes risky departed humans, which are outside the scope of this review.
+8. Close the ticket after the identity environment is managed and follows least privilege.
 
 ## What agents often miss
 
-Retirement of the obvious `svc-*` orphans usually goes well. Completeness across
-surfaces and judgment on look-alikes is where runs fall short.
+Agents usually retire the obvious orphaned `svc-*` accounts correctly. They often fail to check every system and make correct decisions about accounts that only look human.
 
-A dormancy sweep that keys only on interactive login will retire accounts that look
-quiet but are actively used by automation — the invoice pipeline is the classic
-false positive. Age-based key deletion hits the sole-current key on a healthy
-identity. The disguised CMDB-only identities cut both ways: one is risky and must be
-retired; a sibling is benign and must be left alone. A name-pattern scan misses both.
+Do not identify dormant accounts by checking only interactive login activity. This can retire accounts that appear inactive but are actively used by automation. The invoice pipeline is the standard false positive. Do not delete keys based only on age. This can delete the only current key for a healthy identity. Some disguised identities can be found only in the CMDB. One is risky and must be retired. A similar identity is benign and must remain unchanged. A name-pattern scan will miss both.
 
-GitHub and admin-group residue is easy to under-finish. Org-owner and team-maintainer
-roles, and Okta admin-group seats, sit behind the CMDB join and a different API surface
-than the Okta user record. Deactivating the account without downgrading those grants
-leaves privilege live. Keeping a deployer's org-admin "because it needs deploy access"
-is not least privilege when a narrower role is enough for the pipeline.
+Agents often fail to remove all GitHub access and admin-group access. Org-owner roles, team-maintainer roles, and Okta admin-group seats require the CMDB join and appear in a different part of the API from the Okta user record. Deactivating an account without reducing these grants leaves active privileges behind. Do not keep a deployer’s org-admin role only because it needs deploy access. The pipeline can use a narrower role, so org-admin does not follow least privilege.

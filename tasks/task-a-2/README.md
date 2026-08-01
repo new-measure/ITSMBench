@@ -2,55 +2,57 @@
 
 ## What this task is
 
-A helpdesk ticket from an employee: his laptop became very slow after the latest
-update — Zoom freezes, Chrome crashes. The ticket asks the agent to find the cause,
-fix the problem, and close the ticket.
+An employee reports that his laptop became very slow after an update. Zoom freezes
+and Chrome crashes. The help-desk ticket asks the agent to find the cause, fix it,
+and close the ticket.
 
-The update is innocent. The real cause is that the security tooling detected known
-malware on the machine and placed it in network containment. A contained host can
-only reach the security cloud, which is exactly why everything on it feels broken.
-The company even has a knowledge-base runbook for this exact situation, spelling out
-the right order of work: confirm the malware against threat intel, block the bad
-file hash by escalating the existing watch-mode indicator (not by creating a
-duplicate), scan the machine, only then lift containment, re-sync the device, close
-and assign the detection, reclassify and close the ticket as a security case, open a
-problem record naming the real cause, and record an asset audit.
+The update did not cause the problem. The security system found known malware and
+placed the laptop in network containment. A contained laptop can connect only to
+the security service. This restriction makes normal applications appear broken.
+
+The knowledge base has a runbook for this case. It gives the required order of
+work. Confirm that the malware is real. Change the existing file-hash indicator
+from watch mode to block mode instead of creating another indicator. Scan the
+laptop. Remove network containment only after the scan. Sync the device again.
+Assign and close the security detection. Change the ticket to a security ticket and
+close it. Create a problem record that names the real cause. Finally, record an
+asset audit.
 
 ## What we expect the agent to do
 
-1. See past the reported symptom: check the endpoint in the security tools, find the
-   active critical detection and the containment, and confirm the file hash is truly
-   malicious before acting.
-2. Find and follow company practice — the runbook in the knowledge base — rather
-   than inventing a procedure. Order matters: block the hash first, clean the
-   machine, then lift containment, then re-establish management.
-3. Restore the user to normal work. Lifting containment is what actually fixes "my
-   laptop is slow."
-4. Finish the record-keeping the way the company does it: detection closed and
-   assigned to the security team, ticket reclassified to security and closed with
-   notes naming the real cause, a problem record capturing the malware and the exact
-   hash, and the asset audit logged.
-5. Leave the healthy things alone: the blamed update stays, the device is not wiped,
-   rolled back, or retired, and the existing indicator is escalated in place.
+1. Check the endpoint security system instead of assuming the update caused the
+   problem. Find the critical detection and the active network containment. Confirm
+   through threat information that the file hash is malicious.
+2. Find and follow the knowledge-base runbook. Block the hash first, clean the
+   laptop, remove containment, and then restore device management.
+3. Return the laptop to normal use. Removing containment is the step that restores
+   its normal network access.
+4. Complete every required record. Assign and close the detection under the
+   security team. Change the ticket category to security and close it with notes
+   that state the real cause. Create a problem record with the malware name and
+   exact file hash. Record the asset audit.
+5. Do not change healthy items. Keep the update installed. Do not wipe, roll back,
+   or retire the laptop. Update the existing indicator instead of creating a
+   duplicate.
 
 ## What agents often miss
 
-No run has ever opened the knowledge base, so no run has found the runbook that
-lists every required step — each one improvises its own procedure and leaves gaps
-the company's own playbook would have prevented.
+Agents often do not search the knowledge base. They then create their own process
+and miss steps that are listed in the company runbook.
 
-The improvised runs fail in two opposite ways. One style fixes the machine but skips
-the security follow-through: containment lifted, scan run, ticket closed — while the
-malicious hash is never actually blocked, the detection is never assigned, the
-ticket keeps its old non-security category, and no problem record or asset audit
-exists. The final summary names the malware; the records left behind do not. The
-other style goes full lockdown and forgets the user: passwords reset, heavy security
-notes written, but the machine is kept contained (or contained again), so the laptop
-never comes back online and the ticket the user opened is never properly closed.
+Some agents restore the laptop but do not complete the security work. They remove
+containment, run a scan, and close the ticket. However, they do not block the file
+hash, assign the detection, change the ticket category, create the problem record,
+or record the asset audit. Their final message may mention the malware, but the
+company records remain incomplete.
 
-A smaller repeated stumble: an update call that matches nothing returns an empty
-result rather than an error, and runs that do not read the record back afterwards
-believe a change landed when it did not.
+Other agents apply more restrictions but never restore the laptop. They may reset
+passwords and write security notes, but leave the laptop contained or contain it
+again. The employee still cannot use the laptop, and the ticket is not completed.
 
-In short: finding the malware is common; finding the company's procedure for it is
-not. The runs that fail treat either the fix or the paperwork as optional.
+There is also a smaller technical mistake. An update request that matches no record
+returns an empty result instead of an error. Agents must read the record again to
+confirm that each update was applied.
+
+A complete result must both remove the malware safely and complete all required
+records.

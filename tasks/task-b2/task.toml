@@ -8,11 +8,6 @@ authors = []
 keywords = ["it-support", "sharepoint", "access-control", "site-permissions", "data-exfiltration", "insider-threat", "incident-response", "bidirectional-needle-field"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "sharepoint-exfiltration-exposure-lockdown-bidirectional-access"
-tested_trait = "contain-the-over-exposed-sensitive-sites-and-restore-the-wrongly-revoked-collateral-access"
-difficulty_mechanisms = ["offensive-incident-framing-prompts-the-restrict-direction-on-path", "restore-set-is-named-nowhere-in-world-b10-vanta-off-path-structure", "restore-discoverable-only-by-a-full-inventory-sweep-of-every-site-permissions", "named-sites-carry-only-active-grants-so-auditing-them-never-surfaces-the-auto-lockdown", "counterintuitive-restore-runs-against-the-safety-prior-and-is-off-the-offensive-framing", "same-principal-rogue-active-on-sensitive-sites-but-legit-revoked-on-its-own-site", "revoked-bucket-holds-restore-needles-and-over-broad-keepers-with-identical-reason", "bidirectional-grading-caps-blanket-cutoff-all-and-restore-all-at-half", "volume-of-14-graded-access-end-states-collapses-run-to-run-variance"]
 
 [verifier]
 timeout_sec = 600.0

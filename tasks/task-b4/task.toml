@@ -8,11 +8,6 @@ authors = []
 keywords = ["it-support", "confluence", "access-control", "space-permissions", "data-exfiltration", "insider-threat", "incident-response", "bidirectional-needle-field"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "confluence-exfiltration-exposure-lockdown-bidirectional-access"
-tested_trait = "contain-the-over-exposed-sensitive-spaces-and-restore-the-wrongly-revoked-collateral-access"
-difficulty_mechanisms = ["offensive-incident-framing-prompts-the-restrict-direction-on-path", "counterintuitive-restore-direction-is-off-the-exfil-path-and-against-the-safety-prior", "same-principal-rogue-on-sensitive-spaces-but-legit-on-its-own-space", "rogue-grants-non-separable-from-legit-keepers-without-the-incident-scope", "wrongly-revoked-collateral-evidence-on-a-separate-off-path-surface", "bidirectional-grading-caps-blanket-revoke-all-and-restore-all-at-half", "volume-of-14-graded-access-end-states-collapses-run-to-run-variance"]
 
 [verifier]
 timeout_sec = 600.0

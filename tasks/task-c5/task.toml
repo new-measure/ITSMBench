@@ -8,10 +8,6 @@ authors = []
 keywords = ["it-support", "incident-response", "edr", "crowdstrike-falcon", "endpoint-detection-and-response", "network-containment", "over-containment", "blast-radius-policy", "beacon-telemetry-correlation", "custom-ioc", "active-intrusion", "business-continuity"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "falcon-intrusion-mixed-polarity-containment-reconciliation-release-clean-contain-missed-via-c2-telemetry"
-tested_trait = "reconciling-a-wrong-in-both-directions-auto-containment-state-against-c2-beacon-telemetry-at-volume-releasing-clean-hosts-and-containing-missed-ones"
 
 [verifier]
 timeout_sec = 600.0

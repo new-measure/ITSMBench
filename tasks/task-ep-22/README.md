@@ -2,48 +2,22 @@
 
 ## What this task is
 
-A ticket at a logistics company: the January move off the old ord1 datacenter was
-supposed to leave nothing pointing at those hosts, but an API hit a dead machine there
-today and returned errors. The on-call traffic engineer is asked to make sure nothing
-still routes to any decommissioned host, finish whatever the move left unfinished, and
-get to the bottom of how this slipped.
+A logistics company has a ticket. In January, the company planned to stop using the old ord1 datacenter. Nothing should still point to hosts in ord1. Today, an API request reached a dead machine there and returned errors. The on-call traffic engineer must make sure that nothing still routes to any decommissioned host. They must complete the unfinished parts of the move and find out why the move was not completed.
 
-The move was left half done. Dead hosts are still wired into the load balancer —
-including one hiding in a shared gateway pool that serves every service. Two services
-were cut over onto the wrong machines: one now runs on another service's host, and one
-points at the payment service's host. Some DNS names still resolve into the old
-datacenter. The service registry still routes two services at dead hosts. Half the
-cutover change tickets were never closed, and a stale alert is still open. One old
-machine is a permanent exception: a legacy reporting host that never moved and must
-keep working.
+The move was only partly completed. Dead hosts are still configured in the load balancer. One dead host is difficult to find because it is in a shared gateway pool that serves every service. Two services were moved to the wrong machines. One now runs on a host that belongs to another service. The other points to the payment service's host. Some DNS names still resolve to the old datacenter. The service registry still routes two services to dead hosts. Half of the cutover change tickets were never closed. An old alert is also still open. One old machine is a permanent exception. It is a legacy reporting host that was never moved. It must continue to work.
 
 ## What we expect the agent to do
 
-1. Fix the failing service everywhere it is wired — including the dead member hidden in
-   the shared gateway pool, not just its own backend.
-2. Sweep every place routing lives — the load balancer, DNS, and the service registry —
-   and remove or repoint everything that still targets a decommissioned host.
-3. Catch the two cross-wired services and point each at its own new host, without
-   breaking the services whose hosts they were borrowing.
-4. Leave the legacy reporting host alone: it stays routed, its records stay, and it must
-   not be retired.
-5. Close out the stranded change tickets and the stale alert honestly, and explain how
-   the move was left unfinished.
+1. Fix the failing service in every place where it is configured. This includes the dead member in the shared gateway pool, not only the service's own backend.
+2. Check every system that controls routing: the load balancer, DNS, and the service registry. Remove or update everything that still targets a decommissioned host.
+3. Find the two services that point to the wrong hosts. Point each service to its own new host. Do not break the services that own the hosts they were using.
+4. Do not change the legacy reporting host. It must remain routed, its records must remain, and it must not be retired.
+5. Close the unfinished change tickets and the old alert accurately. Explain how the move was left incomplete.
 
 ## What agents often miss
 
-Runs do the visible routing well. Every run fixed the failing service in both places,
-repointed the wrong-host services correctly, cleaned up DNS, spared the legacy host and
-every healthy service, closed the change tickets, and told the right root-cause story.
+Agents usually fix the visible routing correctly. Every run fixed the failing service in both places. Every run also corrected the services that pointed to the wrong hosts, cleaned up DNS, did not change the legacy host or any healthy service, closed the change tickets, and gave the correct root-cause explanation.
 
-What every run misses is the third place routing lives. The load balancer and DNS get
-audited; the service registry never does — even though it comes up in searches and two
-of the unfinished change tickets belong to exactly the services it still misroutes. One
-run identified the two dead addresses precisely and even released them in the IP
-records, but never asked what still pointed at them. Runs also closed the per-service
-cutover tickets as successful while the registry still routed those services at a dead
-host — the ticket got closed on the strength of the surfaces already fixed.
+Every run missed the third system that controls routing. The agents checked the load balancer and DNS, but they did not check the service registry. This happened even though the service registry appeared in searches, and two unfinished change tickets belonged to the same services that the registry still routed incorrectly. One run found the two dead addresses and released them in the IP records. However, it did not check what still pointed to those addresses. Agents also closed the cutover tickets for individual services as successful while the registry still routed those services to a dead host. They closed the tickets because the systems they had already fixed appeared correct.
 
-In short: the surfaces agents think of as "routing" get swept thoroughly; the one
-system they didn't think to count stays broken, and a clean-looking audit of the other
-two is taken as proof the whole estate is clean.
+In short, agents checked the load balancer and DNS because they recognized those systems as routing systems. They did not include the service registry. As a result, the service registry remained broken. The clean audit results from the other two systems were incorrectly treated as proof that the whole environment was clean.

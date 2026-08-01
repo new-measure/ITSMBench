@@ -8,10 +8,6 @@ authors = []
 keywords = ["it-support", "vanta", "grc", "third-party-risk", "vendor-management", "supply-chain-compromise", "token-abuse", "incident-response", "vendor-offboarding", "needle-field", "bidirectional"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "vanta-vendor-compromise-bidirectional-cutoff-restore"
-difficulty_mechanisms = ["bidirectional-needle-field-at-volume", "counterintuitive-undo-omission", "offensive-framing-blindspot", "vendor-to-compromised-list-join", "blanket-cheese-closed-both-directions"]
 
 [verifier]
 timeout_sec = 600.0

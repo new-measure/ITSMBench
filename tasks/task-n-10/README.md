@@ -2,60 +2,27 @@
 
 ## What this task is
 
-An online shop serves its website and its API from two cloud regions at the
-same time, with global DNS splitting traffic between them. Overnight, one of
-those regions lost network connectivity. That problem is over and the region is
-healthy again, but nobody undid the emergency steps taken to route around it.
-All traffic is still pinned to the surviving region, which is now running hot.
+An online shop serves its website and API from two cloud regions at the same time. Global DNS divides traffic between them. Overnight, one region lost network connectivity. The network problem is fixed, and the region is healthy again. However, nobody reversed the emergency changes that routed traffic away from it. All traffic still goes to the other region. That region is now under heavy load.
 
-A high-priority page describes the symptoms and guesses at a cause: either the
-content delivery network is failing, or the busy region is simply out of
-capacity. Both guesses are wrong. The real cause is unfinished cleanup after a
-failover, and the leftovers are spread across several different systems.
+A high-priority page describes the symptoms and suggests two possible causes. It says the content delivery network may be failing, or the busy region may not have enough capacity. Both suggestions are wrong. The real cause is incomplete cleanup after the failover. The remaining changes are spread across several systems.
 
 ## What we expect the agent to do
 
-1. Read the page, then test its guess instead of acting on it.
-2. Look around the whole environment, not just one tool. The DNS server, the
-   load balancer, the cloud network settings, the equipment inventory, and the
-   older tickets each hold a piece of the picture.
-3. Confirm the recovered region really is healthy before putting it back, and
-   use the healthy region as the reference for every setting.
-4. Bring the recovered region back all the way:
-   - return its website and API addresses to the DNS pool, at the same share of
-     traffic the healthy region gets;
-   - remove the leftover temporary DNS entry that points at an address nothing
-     serves any more;
-   - take its load balancer members out of maintenance and fix their health
-     checks;
-   - restore the network access its servers lost, which means the firewall
-     rules for the application and health check ports, the outbound path to
-     shared services, the subnet's allow rules in both directions, and a dead
-     route that still swallows traffic.
-5. Leave the third region alone. Its endpoint is an experiment that is genuinely
-   still failing, and it does not belong in production.
-6. Resolve the page once the region is actually back.
+1. Read the page. Test its suggested cause before taking action.
+2. Check the whole environment, not only one tool. The DNS server, load balancer, cloud network settings, equipment inventory, and older tickets each contain part of the needed information.
+3. Confirm that the recovered region is healthy before returning it to service. Use the healthy region as the reference for every setting.
+4. Fully restore the recovered region:
+   - Add its website and API addresses back to the DNS pool. Give them the same traffic share as the healthy region.
+   - Remove the temporary DNS entry that points to an address that no longer serves anything.
+   - Remove maintenance mode from its load balancer members and correct their health checks.
+   - Restore the network access that its servers lost. Restore the firewall rules for the application and health check ports. Restore the outbound path to shared services. Restore the subnet's allow rules in both directions. Remove the dead route that still drops traffic.
+5. Do not change the third region. Its endpoint is an experiment that is still failing. It must not be added to production.
+6. Resolve the page only after the region is fully restored.
 
 ## What agents often miss
 
-The visible half of the job goes well. Runs reliably notice that the recovered
-region is missing from DNS and that its load balancer members are parked in
-maintenance, and they repair both. They also spot the stale temporary DNS entry,
-and they correctly refuse to promote the failing experimental region.
+Agents usually complete the visible part of the task. They notice that the recovered region is missing from DNS. They also notice that its load balancer members are in maintenance mode. They repair both issues. They find the stale temporary DNS entry. They also correctly avoid promoting the failing experimental region.
 
-The network layer is what gets missed. The emergency isolation is still in
-place: the servers accept nothing on their application and health check ports,
-their outbound path to shared services is gone, the subnet's allow rules were
-stripped in both directions, and a dead route still blackholes traffic from the
-edge. A run that stops after DNS and the load balancer leaves the region
-advertised but unreachable, which is arguably worse than before, because
-customers are now being sent to servers that cannot answer.
+Agents often miss the network layer. The emergency isolation settings are still active. The servers do not accept traffic on their application or health check ports. Their outbound path to shared services is missing. The subnet's allow rules were removed in both directions. A dead route still drops traffic from the edge. If an agent stops after fixing DNS and the load balancer, the region will be advertised but unreachable. This can make the situation worse because customers will be sent to servers that cannot respond.
 
-Two habits separate the runs that finish. The first is reading the neighbouring
-tickets, not only the one they were paged for: an older, closed ticket spells
-out what a failover takes away and what a failback has to put back, network
-isolation included. The second is comparing the recovered region with its
-healthy twin, setting by setting, instead of assuming a region that "looks up"
-is reachable. One run poked at the cloud network service with a couple of
-unrelated commands, got an error, and concluded there was nothing there — the
-evidence it needed was one command away.
+Two practices help agents complete the task. First, read the related tickets, not only the ticket that caused the page. An older closed ticket explains what failover removes and what failback must restore, including network isolation settings. Second, compare every setting in the recovered region with the same setting in the healthy region. Do not assume that a region that appears to be running is reachable. In one run, an agent used a few unrelated commands against the cloud network service. The commands returned an error, so the agent concluded that the service contained nothing relevant. The required evidence was available through one additional command.

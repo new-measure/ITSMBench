@@ -2,57 +2,33 @@
 
 ## What this task is
 
-A payments company failed a PCI audit on its card-authorization environment. The
-auditor found that systems outside the cardholder zone can reach into it, and that
-systems inside it can reach places on the internet they should not. A high-priority
-incident asks the agent to fix it.
+A payments company failed a PCI audit of its card-authorization environment. The auditor found two problems. Systems outside the cardholder zone can reach systems inside it. Systems inside the cardholder zone can reach internet locations that they should not reach. A high-priority incident requires the agent to fix these problems.
 
-Two things make this harder than it looks. A rushed earlier change already tried to
-tighten the same environment and made things worse: it cut legitimate traffic while
-leaving the real problems in place. And one of the flagged paths is not a problem at
-all — it is a scanner access that an auditor already approved as a compensating
-control, recorded in the change register. There is also a second card environment
-next door that was left alone and is correctly segmented; it is the working example
-of what "right" looks like.
+An earlier rushed change tried to secure the same environment. It made the situation worse. It blocked legitimate traffic but did not fix the actual problems.
+
+One flagged path is not a problem. It gives a scanner access that an auditor approved as a compensating control. This approval is recorded in the change register.
+
+There is another card environment next to the affected environment. It was not changed and has correct segmentation. Use this healthy environment as the example of the correct configuration.
 
 ## What we expect the agent to do
 
-1. Read the incident and the earlier change, then find the healthy sibling
-   environment and use it as the reference for every tier.
-2. Compare tier by tier — application, database, tokenization — and map the healthy
-   environment's rules onto the broken environment's own subnets.
-3. Remove or narrow every path that lets corporate desktops or development machines
-   reach the card tiers, both on the host firewall rules and on the subnet rules.
-4. Put back the legitimate flows the rushed change removed: the web front end to the
-   application tier, the admin jump host to the application tier, the application
-   tier to the database, and the application tier to the tokenization service.
-5. Close the wide-open internet access out of the card environment down to the
-   approved payment-processor endpoints, drop the internet access the database tier
-   should never have had, and clear the leftover rule pointing at a retired
-   processor address.
-6. Check the flagged scanner access against the approved-exception record before
-   touching it. It is sanctioned, so keep it — and it belongs at the subnet layer
-   too, exactly as the healthy environment has it.
-7. Confirm that the shared list of approved processor addresses actually matches the
-   live equipment inventory, and correct it.
+1. Read the incident and the earlier change. Then find the healthy sibling environment. Use it as the reference for every tier.
+2. Compare the application, database, and tokenization tiers. Map the healthy environment's rules to the broken environment's own subnets.
+3. Remove or restrict every path that allows corporate desktops or development machines to reach the card tiers. Fix both the host firewall rules and the subnet rules.
+4. Restore the legitimate flows that the rushed change removed:
+   - The web front end to the application tier.
+   - The admin jump host to the application tier.
+   - The application tier to the database.
+   - The application tier to the tokenization service.
+5. Restrict the card environment's wide-open internet access to the approved payment-processor endpoints. Remove all internet access from the database tier because it should never have had that access. Remove the remaining rule that points to a retired processor address.
+6. Check the flagged scanner access against the approved-exception record before changing it. The access is approved, so keep it. It must also exist at the subnet layer, exactly as it does in the healthy environment.
+7. Confirm that the shared list of approved processor addresses matches the live equipment inventory. Correct the list if it does not match.
 8. Resolve the incident.
 
 ## What agents often miss
 
-Almost all of this goes well. Runs find the healthy peer, rebuild all three tiers
-against it, restore the four flows the earlier change had stripped, verify the
-scanner access against the approved exception and leave it alone, remove the dead
-processor rule, and close the incident.
+Agents usually complete almost all of this work correctly. They find the healthy peer and rebuild all three tiers based on it. They restore the four flows removed by the earlier change. They verify the scanner access against the approved exception and keep it. They remove the retired processor rule. They also close the incident.
 
-The failure is the same one every time, and it is the last step. Runs point the card
-environment's outbound rule at an address group named "Approved-Card-Processor" and
-treat the name as proof that its contents are correct. They never open the group. It
-holds one address that belongs to no live system, and it is missing one of the two
-processor gateways that the equipment inventory lists as live. So the tidy-looking
-fix quietly re-opens a route out of the cardholder zone to an unapproved destination,
-and leaves out a gateway that real card traffic uses.
+The same failure happens each time, during the last step. Agents point the card environment's outbound rule to an address group named "Approved-Card-Processor". They assume the name proves that the group's contents are correct. They do not inspect the group. The group contains one address that does not belong to any live system. It is also missing one of the two processor gateways that the equipment inventory identifies as live. As a result, the fix appears correct but allows traffic from the cardholder zone to an unapproved destination. It also blocks access to a gateway used by real card traffic.
 
-The information needed is plainly available: the inventory lists both gateways and
-marks them live, and the group's contents are one request away. Runs fetch both and
-still never compare them. Trusting a reassuring label instead of checking the thing
-it labels is the single miss that separates a passing run from a failing one.
+All required information is available. The inventory lists both gateways and marks them as live. The group's contents are available with one request. Agents fetch both sources but do not compare them. They trust the group's name instead of verifying its contents. This is the only missed step that causes an otherwise passing run to fail.

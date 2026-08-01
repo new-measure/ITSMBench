@@ -2,50 +2,41 @@
 
 ## What this task is
 
-The CISO at a logistics software company files a ticket ahead of next week's board
-risk-committee meeting: the third-party vendor register is about to be signed off, and
-it needs to be actually true. The agent is the vendor-risk manager and owns the whole
-register — every vendor, its risk rating, the security assessments behind it, the
-findings raised against it, and the access it really holds.
+The CISO at a logistics software company creates a ticket before next week's board risk-committee meeting. The third-party vendor register is about to be signed off. It must be accurate.
 
-The register looks mostly green, and most of it honestly is. Behind the green, though:
-five vendors whose most recent security review failed are still recorded as approved;
-five more are recorded as clean while carrying an open high-severity finding; four hold
-live access to company systems with no security diligence on file at all; four are
-months overdue for reassessment. Mixed in are vendors that only look suspicious — one
-was recently re-reviewed and passed, one has its risk formally accepted and documented,
-one is archived — and they must be left exactly as they are.
+The agent is the vendor-risk manager and is responsible for the entire register. This includes every vendor, its risk rating, its security assessments, its findings, and its actual access.
+
+Most of the register is green, and most entries are accurate. However, it contains these problems:
+
+- Five vendors failed their most recent security review but are still recorded as approved.
+- Five vendors are recorded as clean even though each has an open high-severity finding.
+- Four vendors have live access to company systems but have no security diligence on file.
+- Four vendors are months overdue for reassessment.
+
+Some vendors may look suspicious but must not be changed:
+
+- One vendor was recently reviewed again and passed.
+- One vendor has a formally accepted and documented risk.
+- One vendor is archived.
+
+These vendors must be left exactly as they are.
 
 ## What we expect the agent to do
 
-1. Read the ticket and review the whole register — every vendor, not just the ones
-   named or the ones that look bad.
-2. Verify each recorded status against what stands behind it: the actual assessments,
-   the findings, and the access the vendor really holds. A green status is a claim,
-   not a fact.
-3. Correct the record for the vendors whose latest review failed — they must no longer
-   read as cleanly approved.
-4. Make sure no vendor with an open high-severity finding is presented to the board as
-   a clean approved vendor.
-5. Put vendors with live access and no diligence on the record as a risk, and deal
-   with the overdue reassessments — flag them or genuinely reschedule them.
-6. Leave the healthy vendors alone: the re-approved one, the accepted-risk one, the
-   archived one, and everyone current and low-risk.
-7. Close the ticket once the register is trustworthy.
+1. Read the ticket and review the entire register. Review every vendor, not only the vendors named in the ticket or those that appear problematic.
+2. Check every recorded status against the supporting information. Review the actual assessments, findings, and access held by each vendor. Do not assume that a green status is accurate.
+3. Correct the records for vendors whose latest review failed. They must no longer be shown as fully approved.
+4. Ensure that no vendor with an open high-severity finding is shown to the board as clean and approved.
+5. Record vendors with live access and no diligence as risks. Also address overdue reassessments by flagging them or genuinely rescheduling them.
+6. Do not change healthy vendors. This includes the re-approved vendor, the accepted-risk vendor, the archived vendor, and all vendors that are current and low-risk.
+7. Close the ticket after the register is accurate and reliable.
 
 ## What agents often miss
 
-Runs that fall short show one consistent shape. They find the outright falsified
-records — failed review, still approved — and fix those correctly. They spare every
-trap vendor. They close the ticket. And then they describe the rest of the risk
-instead of recording it.
+Incomplete runs usually follow the same pattern. They identify and correct the clearly false records where a vendor failed its review but is still approved. They correctly leave all exception vendors unchanged. They then close the ticket. However, they describe the remaining risks without updating the register.
 
-A vendor carrying an open high finding stays recorded as clean-approved, on the
-reasoning that the finding is "already visible" to anyone who looks. Vendors with live
-access and no diligence get a sentence in the closing summary but no change in the
-register. Overdue reassessments are "noted for re-review" and left overdue. The
-write-up is accurate; the register still tells the board the old story.
+A vendor with an open high-severity finding remains recorded as clean and approved because the finding is already visible to anyone who reviews the details. Vendors with live access and no diligence are mentioned in the closing summary, but their register entries are not changed. Overdue reassessments are described as requiring another review, but they remain overdue.
 
-The gap is treating the recorded state as the deliverable. The board signs the
-register, not the ticket comment — a risk that is only in prose is a risk the sign-off
-will miss.
+The written explanation is accurate, but the register still gives the board the old information.
+
+The recorded state is the required deliverable. The board signs off on the register, not the ticket comment. If a risk appears only in written comments, the board may miss it during sign-off.

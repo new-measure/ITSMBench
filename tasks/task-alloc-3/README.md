@@ -2,29 +2,29 @@
 
 ## What this task is
 
-NetOps needs eight usable addresses in the prod-app-a subnet (`10.20.30.0/26`) for a checkout rollout, but IPAM shows the subnet full. Many addresses still sit on gear from a spring datacenter consolidation that was supposed to be retired.
+NetOps needs eight usable addresses in the prod-app-a subnet (`10.20.30.0/26`) for a checkout rollout. IPAM shows that the subnet is full. Many addresses are still assigned to equipment from a spring datacenter consolidation. That equipment was supposed to be retired.
 
-The work is not just “free anything marked decommissioned.” Some of those hosts still carry live traffic in the load balancer, including a payments VIP that only shows up as a frontend bind, and a pool member addressed by hostname rather than raw IP. Other candidates look live because they sit in an HAProxy backend that no frontend actually routes to. Reclaimed addresses also need stale DNS cleared so a new checkout host does not inherit an old name.
+The task is not simply to free every address marked decommissioned. Some decommissioned hosts still carry live traffic through the load balancer. This includes a payments VIP that appears only as a frontend bind. It also includes a pool member that uses a hostname instead of a raw IP address. Other candidates may appear live because they are in an HAProxy backend, but no frontend routes traffic to that backend. Stale DNS records must also be removed for reclaimed addresses. Otherwise, a new checkout host could receive an old name.
 
-This is a constrained-capacity task: exactly eight addresses are safely reclaimable, so under-reclaim misses the deployment goal and over-reclaim hits production.
+Capacity is limited. Exactly eight addresses can be safely reclaimed. Reclaiming fewer than eight does not meet the deployment goal. Reclaiming more than eight affects production.
 
 ## What we expect the agent to do
 
-1. Find the prod-app-a subnet in IPAM and list which addresses are held by decommissioned gear.
-2. Cross-check candidates against the live load balancer — not only backend servers, but whether those backends are actually routed from a frontend, and whether any frontend bind still listens on the address.
-3. Resolve hostname-addressed pool members before judging them dark.
+1. Find the prod-app-a subnet in IPAM. List the addresses assigned to decommissioned equipment.
+2. Check each candidate against the live load balancer. Check backend servers, whether a frontend routes to those backends, and whether a frontend bind still listens on the address.
+3. Resolve pool members that use hostnames before deciding whether they are inactive.
 4. Reclaim exactly the eight addresses that are safe to release in IPAM.
-5. Clear leftover forward DNS for each freed address, and leave live production names alone.
-6. Leave genuinely live traffic alone (payments backends, the payments VIP, ordinary in-service hosts).
+5. Remove leftover forward DNS records for every freed address. Do not remove live production names.
+6. Do not change anything that carries live traffic. This includes payments backends, the payments VIP, and normal in-service hosts.
 
 ## What agents often miss
 
-Agents usually get most of the reclaim set right and do clean up Infoblox for the addresses they free. Binary reward still fails because of a small, consistent swap.
+Agents usually identify most of the correct reclaim set. They also clean up Infoblox for the addresses they free. However, binary reward still fails because they consistently replace one correct address with one incorrect address.
 
-Where they fall short:
+Common mistakes include:
 
-- They treat any enabled HAProxy backend member as live production, so they spare an address that only sits in an unrouted legacy backend and end one short of a correct reclaim set.
-- They trust the ticket’s suggestion that `hv-edge-1` (`.40`) has been dark since May. A servers-only HAProxy check agrees it is absent from backends, so they reclaim it — and often delete the `payments` DNS record with it — without opening frontend binds, where that address is still the public HTTPS VIP.
-- When they do find the hostname-addressed payments member, one failure mode is the opposite mistake: calling it stale and removing a live pool entry.
+- They assume that every enabled HAProxy backend member is live production. As a result, they do not reclaim an address that exists only in an unrouted legacy backend. They finish with one fewer address than required.
+- They trust the ticket’s claim that `hv-edge-1` (`.40`) has been inactive since May. A check of HAProxy servers alone also shows that it is not in any backend. They then reclaim it and often delete the `payments` DNS record. They do this without checking frontend binds, where the address is still used as the public HTTPS VIP.
+- When they find the hostname-addressed payments member, they may make the opposite mistake. They may mark it as stale and remove a live pool entry.
 
-In short: agents expand past IPAM into HAProxy and DNS, but they stop on a shallow live-traffic rule (enabled server, or “not in any backend”) instead of auditing routing and binds end to end.
+Agents do check IPAM, HAProxy, and DNS. However, they often use an incomplete rule for deciding whether traffic is live. They may treat any enabled server as live, or assume that an address is inactive if it is not in a backend. Instead, they must check routing and binds from end to end.

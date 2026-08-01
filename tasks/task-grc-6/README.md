@@ -2,50 +2,33 @@
 
 ## What this task is
 
-A company is preparing for a SOC 2 and privacy review, and its compliance monitor is
-failing data-protection checks. A ticket asks the data-protection analyst to make the
-real exposure of the SharePoint estate correct: stop the genuine oversharing, leave
-legitimate sharing alone, and close the ticket out.
+A company is preparing for a SOC 2 and privacy review. Its compliance monitor is failing data-protection checks. A ticket asks the data-protection analyst to correct the actual exposure in SharePoint. The analyst must stop real oversharing, leave legitimate sharing unchanged, and close the ticket.
 
-Sensitive workspaces are leaking through four independent doors: a site-level setting
-that allows external sharing, external people holding write access, anonymous
-"anyone" links on documents, and document libraries whose default link type is
-anonymous. No door tells you about the others, and there is no clean list of what is
-wrong. Which workspaces count as sensitive, and which shares were formally approved,
-lives in two registers in the ticket system. The estate is full of look-alikes: a
-public workspace that is legitimately wide open, an approved external share, internal
-links and grants that only look risky, and one workspace that was half locked down —
-clean on the settings everyone checks, still leaking through its document links.
+Sensitive workspaces are exposed in four separate ways:
+
+- A site-level setting allows external sharing.
+- External people have write access.
+- Documents have anonymous "anyone" links.
+- Document libraries use anonymous links as their default link type.
+
+Each type of exposure is independent. One does not show whether the others exist. There is no complete list of the problems. Two registers in the ticket system define which workspaces are sensitive and which shares have formal approval.
+
+SharePoint contains many items that may appear risky but are legitimate. These include a public workspace that is intentionally open, an approved external share, and internal links and grants. One workspace is only partly locked down. Its commonly checked settings are safe, but its document links still expose data.
 
 ## What we expect the agent to do
 
-1. Work out what "sensitive" means here: read the classification register and the
-   approved-share register instead of judging by names or appearances.
-2. Sweep every workspace on all four doors: turn off external sharing where it
-   should not be on, remove or downgrade unapproved external write access, kill
-   anonymous document links (including ones whose approval expired or was rejected),
-   and fix libraries that hand out anonymous links by default.
-3. Trust state, not settings: a workspace locked down at the top can still leak
-   through its documents. Check what is actually exposed before calling it safe.
-4. Leave the right things alone: the public workspace, the approved unexpired
-   external share, and every internal grant and link.
-5. Close the ticket honestly.
+1. Determine what "sensitive" means by reading the classification register and the approved-share register. Do not decide based on names or appearances.
+2. Check every workspace for all four types of exposure. Disable external sharing where it should not be enabled. Remove or downgrade unapproved external write access. Remove anonymous document links, including links with expired or rejected approval. Change libraries that create anonymous links by default.
+3. Check actual exposure, not only settings. A workspace can be locked down at the top level and still expose data through its documents. Verify what is actually exposed before deciding that it is safe.
+4. Do not change legitimate access. Leave the public workspace, the approved and unexpired external share, and all internal grants and links unchanged.
+5. Close the ticket only after the work is actually complete.
 
 ## What agents often miss
 
-Judgment is consistently good. Every run reads the registers, spares the public
-workspace and the approved share, removes the unapproved external access and the
-anonymous links, and touches nothing it shouldn't.
+Agents consistently make good decisions. Every run reads the registers, leaves the public workspace and approved share unchanged, removes unapproved external access and anonymous links, and does not change anything that should remain unchanged.
 
-The recurring miss is the quietest of the four doors: the library default link type.
-Runs disable external sharing at the site level, clean up permissions and existing
-links, and then treat the estate as fixed — leaving three sensitive libraries still
-set to hand out anonymous links by default. This happens even with the proof on
-screen: runs have fetched every library's settings, had the anonymous defaults for
-the sensitive libraries in their own output, and still reported the estate verified.
-A lockdown at the top of the workspace reads as proof that everything under it is
-safe — which is exactly the assumption the task punishes.
+The repeated failure is the least obvious of the four exposure types: the library default link type. Agents disable external sharing at the site level, clean up permissions and existing links, and then consider all of SharePoint fixed. They leave three sensitive libraries configured to create anonymous links by default.
 
-In short: three of the four sharing surfaces get fixed reliably; the fourth —
-the default that quietly re-creates the problem for every future document — is what
-separates a finished run from an almost-finished one.
+This happens even when the evidence is visible. Agents fetch the settings for every library and see the anonymous defaults for the sensitive libraries in their own output. They still report that all of SharePoint is verified. They incorrectly treat a top-level workspace lockdown as proof that everything inside it is safe. This is the exact assumption the task is designed to catch.
+
+In summary, agents reliably fix three of the four sharing surfaces. The missing step is changing the default that will create the same problem again for every future document. Completing this step is the difference between a finished run and an almost-finished run.

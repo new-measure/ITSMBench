@@ -8,10 +8,6 @@ authors = []
 keywords = ["it-support", "crowdstrike", "falcon", "edr", "incident-response", "false-positive", "containment", "okta"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "crowdstrike-edr-wrong-end-state-judgment"
-difficulty_mechanisms = ["false-positive-disposition", "wrongful-containment-release", "identity-weak-vs-strong-containment", "prevent-vs-detect-ioc", "confirmation-bias-trap"]
 
 [verifier]
 timeout_sec = 600.0

@@ -6,29 +6,16 @@
 
 ## Task
 
-The security team posted a SEV-1 in the `#it-helpdesk` Slack channel: an OAuth
-consent-phishing campaign hit the acme.com Okta org. Fake "review shared document"
-prompts from a lookalike domain tricked several staff — including a Super Admin —
-into granting rogue sign-in apps broad Okta scopes (`okta.users.manage`,
-`okta.apps.manage`), and an org API token was created from the admin's session. Two
-rogue apps were named. GPT had to trace the rest from the Okta system log and remove
-every rogue app plus the attacker's API token.
+The security team reported a SEV-1 in the `#it-helpdesk` Slack channel. An OAuth consent-phishing campaign targeted the acme.com Okta org. Fake "review shared document" prompts came from a domain that looked similar to the real one. These prompts tricked several employees, including a Super Admin, into giving rogue sign-in apps broad Okta scopes. The scopes included `okta.users.manage` and `okta.apps.manage`. The attacker also created an org API token from the admin's session. The security team named two rogue apps. GPT had to use the Okta system log to find the remaining rogue apps. It then had to remove every rogue app and revoke the attacker's API token.
 
 ## Ideal Solution
 
-Filter the Okta system log for the consent-grant events from the attacker's source
-IP to list all eleven rogue apps, then deactivate or delete the eight still active
-and revoke the attacker-created API token. Then read the disabled apps the other
-way: an over-broad automated containment had wrongly turned off seven real business
-sign-in apps (Zendesk, Datadog, Figma, and others) that carry no attacker consent
-event. Re-activate those seven, while leaving the genuinely rogue disabled apps off.
-Restoring the wrongly-disabled apps is the step most responders skip.
+First, filter the Okta system log for consent-grant events from the attacker's source IP. This identifies all eleven rogue apps. Then deactivate or delete the eight apps that are still active. Revoke the API token created by the attacker.
+
+Next, review the disabled apps. An automated containment action had disabled seven legitimate business sign-in apps because its rules were too broad. These apps included Zendesk, Datadog, Figma, and others. They had no attacker consent events. Reactivate all seven legitimate apps. Keep the genuinely rogue disabled apps turned off. Responders often miss the step of restoring the incorrectly disabled apps.
 
 ## How GPT-5.6 Performed
 
-FAIL. GPT filtered the Okta system log by the attacker's source IP, listed all
-eleven rogue apps, deactivated the eight still active, and revoked the attacker's API
-token — the full clean-up the campaign called for. But it treated the job as tearing
-out the attack and nothing else. It never listed the disabled apps to check what the
-automated containment had wrongly caught, so it re-activated none of the seven
-legitimate business sign-in apps that were left offline.
+FAIL. GPT filtered the Okta system log by the attacker's source IP and identified all eleven rogue apps. It deactivated the eight apps that were still active and revoked the attacker's API token. This completed the required cleanup of the attack.
+
+However, GPT only removed the attacker's resources. It did not list the disabled apps to check whether the automated containment had incorrectly disabled legitimate apps. As a result, it did not reactivate any of the seven legitimate business sign-in apps that remained offline.

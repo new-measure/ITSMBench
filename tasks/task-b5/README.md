@@ -6,35 +6,28 @@
 
 ## Task
 
-An adversary-in-the-middle phishing attack with an info-stealer hit the Northgate
-region overnight. The SOC posted the confirmed-compromised account list in the
-`#it-helpdesk` Slack channel and opened Microsoft Sentinel incident #4471. GPT had
-to reconcile those accounts against enrolled devices in Microsoft Intune and make
-sure every compromised device was moved into the Security-Hold device category,
-which conditional access blocks from all corporate resources. An overnight
-risk-based auto-quarantine had already isolated the region's devices, but it keyed
-off who was on the Northgate network, so it was wrong in both directions.
+An adversary-in-the-middle phishing attack and an info-stealer affected the Northgate region overnight. The SOC posted a list of confirmed compromised accounts in the `#it-helpdesk` Slack channel. It also opened Microsoft Sentinel incident #4471.
+
+GPT had to compare those accounts with enrolled devices in Microsoft Intune. Every device owned by a compromised account had to be moved to the Security-Hold device category. Conditional access blocks devices in this category from all corporate resources.
+
+An overnight risk-based auto-quarantine had already isolated devices in the region. It selected devices based on who was connected to the Northgate network. As a result, it both missed devices that should have been isolated and isolated devices that should not have been isolated.
 
 ## Ideal Solution
 
-Read the nine compromised accounts from Sentinel and Slack, list the Intune managed
-devices, and match each device's owner against that list. Move every compromised
-account's device still sitting in a normal category into Security-Hold. Then look at
-Security-Hold the other way: find the clean devices the auto-quarantine wrongly swept
-in — three shared ward EHR kiosks with no owner, several ordinary staff laptops and
-phones, and a VP's laptop — and move each back to its correct home category to restore
-its access (shared EHR kiosks to Clinical, an individually-assigned phone to Mobile,
-laptops to Corporate — each device's class is readable from its name/OS/owner and the
-category descriptions state which class each category is for). Leave correctly placed
-devices alone.
+Read the nine compromised accounts from Sentinel and Slack. List the managed devices in Intune. Match each device owner with the compromised account list.
+
+Move every device owned by a compromised account from its normal category to Security-Hold.
+
+Then review all devices in Security-Hold. Find the clean devices that the auto-quarantine moved there by mistake. These include three shared ward EHR kiosks with no owner, several regular staff laptops and phones, and a VP's laptop.
+
+Move each clean device back to its correct category to restore its access. Move shared EHR kiosks to Clinical. Move an individually assigned phone to Mobile. Move laptops to Corporate. The device name, OS, and owner show each device's class. The category descriptions state which device class belongs in each category.
+
+Do not change devices that are already in the correct category.
 
 ## How GPT-5.6 Performed
 
-FAIL. GPT read the SOC brief and Sentinel #4471, pulled all nine compromised
-accounts, listed the 114 enrolled devices, and matched each account to its devices.
-It correctly moved every still-open compromised device, including Dana Okoro's laptop
-and phone, into Security-Hold and checked that none was missed. But it treated the
-job as containing the compromised accounts' devices only. It never examined the
-Security-Hold category from the other side, so it never found the clean ward kiosks
-and staff and VP laptops the overnight auto-quarantine had wrongly locked, and it
-restored none of them.
+FAIL. GPT read the SOC brief and Sentinel incident #4471. It retrieved all nine compromised accounts. It listed all 114 enrolled devices and matched each account to its devices.
+
+It correctly moved every compromised device that still had access into Security-Hold. This included Dana Okoro's laptop and phone. It also verified that it had not missed any compromised devices.
+
+However, GPT only handled devices owned by the compromised accounts. It did not review the Security-Hold category to find devices that did not belong there. Therefore, it did not find the clean ward kiosks, staff devices, or VP laptops that the overnight auto-quarantine had blocked by mistake. It did not restore access for any of them.

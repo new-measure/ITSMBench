@@ -6,14 +6,24 @@
 
 ## Task
 
-Tobias from the security team flagged an active intrusion in #it-helpdesk: unsigned malware on a contractor's still-enrolled laptop was beaconing to an outside server and had spread. GPT owned the Falcon side. An overnight automatic containment policy had reacted by network segment instead of by evidence, so containment was wrong both ways: it isolated a group of finance servers that included clean machines, and it missed compromised machines in other segments. The clean and compromised servers look identical except in the beacon record inside the malware detection, which lists the internal addresses that actually reached the outside server. GPT had to recover, from that record, which of about thirty look-alike servers were compromised.
+Tobias from the security team reported an active intrusion in #it-helpdesk. Unsigned malware on a contractor's still-enrolled laptop was connecting to an outside server. The malware had also spread. GPT was responsible for the Falcon response.
+
+An automatic containment policy had run overnight. It contained machines based on their network segment instead of evidence. This caused two errors. It isolated a group of finance servers that included clean machines. It also missed compromised machines in other network segments.
+
+The clean and compromised servers appeared identical. The only difference was in the beacon record inside the malware detection. This record listed the internal addresses that had connected to the outside server. GPT had to use this record to identify which of about thirty similar servers were compromised.
 
 ## Ideal Solution
 
-Contain the contractor laptop, block the outside server's address, and remove the allow entry the attacker planted so Falcon stops ignoring the malicious file. Read the beacon record, filter it to the connections that reached the outside server, and match each internal address to a machine. Contain the compromised machines that were still running. The decisive step is the other direction: even mid-attack, release the seven clean, business-critical servers the policy had isolated by mistake, so finance systems come back online.
+Contain the contractor laptop. Block the outside server's address. Remove the allow entry that the attacker added so Falcon no longer ignores the malicious file.
+
+Read the beacon record. Filter it to include only connections that reached the outside server. Match each internal address to a machine. Contain the compromised machines that were still running.
+
+The critical step is to reverse the incorrect containment. Even while the attack is active, release the seven clean, business-critical servers that the policy isolated by mistake. This restores the finance systems.
 
 ## How GPT-5.6 Performed
 
-Passed, 17/17. GPT ran a complete response: it contained the contractor laptop and every missed compromised server, blocked the outside server's address fleet-wide, and removed the attacker's allow entry so Falcon stops ignoring the malicious file. It read the beacon record, matched internal addresses to machines, and — the decisive step — released all seven clean, business-critical finance servers the policy had wrongly isolated, bringing them back online.
+Passed, 17/17. GPT completed the full response. It contained the contractor laptop and every compromised server that the policy had missed. It blocked the outside server's address across the fleet. It also removed the attacker's allow entry so Falcon no longer ignores the malicious file.
 
-This task is not reliably held in the intended difficulty range for gpt-5.6-sol: a contained server with no beacon reads as an obvious false positive, so the model reliably performs the counterintuitive release, which sits on its own investigation path, and scores about 1.0.
+GPT read the beacon record and matched the internal addresses to machines. Most importantly, it released all seven clean, business-critical finance servers that the policy had incorrectly isolated. This restored the finance systems.
+
+This task does not reliably stay within the intended difficulty range for gpt-5.6-sol. A contained server with no beacon activity is an obvious false positive. As a result, the model reliably takes the separate investigation path and performs the unexpected release. It scores about 1.0.

@@ -8,10 +8,6 @@ authors = []
 keywords = ["it-support", "device42", "cmdb", "asset-management", "supply-chain-compromise", "trojaned-firmware", "rogue-asset", "incident-response", "device-lifecycle", "decommission", "needle-field", "bidirectional"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "device42-supplychain-bidirectional-decommission-restore"
-difficulty_mechanisms = ["bidirectional-needle-field-at-volume", "counterintuitive-undo-omission", "offensive-framing-blindspot", "asset-to-confirmed-c2-list-join", "firmware-red-herring", "hostname-prefix-trap", "blanket-cheese-closed-both-directions"]
 
 [verifier]
 timeout_sec = 600.0

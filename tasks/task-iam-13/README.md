@@ -2,49 +2,50 @@
 
 ## What this task is
 
-A P1 incident at a financial company: the whole analytics team lost access to Power BI
-overnight. The ticket blames a connector update that shipped the same day. The update is
-innocent — the app is healthy and still works for two analysts who happen to hold direct
-assignments. The real cause is a quarterly access review that ran overnight and
-over-reached: it detached the analysts' group from the app, dropped several people out of
-that group, wrongly suspended three active analysts, erased three people's MFA
-enrollment, and took back three people's Power BI licenses. Access is a chain, and the
-review broke it at every link.
+This is a P1 incident at a financial company. The entire analytics team lost access to Power BI overnight.
 
-The world also holds honest cleanup by the same review — contractors whose engagements
-really ended were correctly deprovisioned and de-licensed — and a closed incident from a
-sister team that hit the exact same failure before, whose notes describe the full
-restoration done that time.
+The ticket says a connector update caused the problem. The update did not cause it. The app is healthy. It still works for two analysts who have direct assignments.
+
+The real cause is a quarterly access review that ran overnight. The review made several incorrect changes:
+
+- It removed the analysts' group assignment from the app.
+- It removed several people from that group.
+- It incorrectly suspended three active analysts.
+- It deleted MFA enrollment for three people.
+- It removed Power BI licenses from three people.
+
+All of these access requirements must work together. The review broke each one.
+
+The review also made valid cleanup changes. Contractors whose engagements had ended were correctly deprovisioned and had their licenses removed. These changes must remain.
+
+There is also a closed incident from a sister team that had the same problem before. Its notes describe the complete restoration performed at that time.
 
 ## What we expect the agent to do
 
-1. Test the reported cause and clear it: the connector update did not do this.
-2. Find the real culprit in the identity logs: the access-review run, minutes after the
-   update.
-3. Restore the whole chain for exactly the affected people: re-attach the group to the
-   app, re-add the dropped members, reactivate the wrongly suspended accounts, give the
-   MFA-wiped users a working sign-in factor again, and re-grant the reclaimed license to
-   the three analysts who still lack it while their teammates all hold it.
-4. Leave the review's legitimate work alone: deprovisioned ex-contractors stay gone, the
-   healthy sister team stays untouched, the suspected update stays in place.
-5. Resolve the incident with an honest account.
+1. Test the reported cause and rule it out. The connector update did not cause the incident.
+2. Find the real cause in the identity logs. It was the access-review run that occurred minutes after the update.
+3. Restore the complete access setup for only the affected people:
+   - Reassign the group to the app.
+   - Add the removed members back to the group.
+   - Reactivate the accounts that were suspended by mistake.
+   - Give users whose MFA enrollment was deleted a working sign-in factor.
+   - Restore the Power BI license for the three analysts who still do not have it, while all their teammates do.
+4. Do not change the review's valid work:
+   - Do not restore access for deprovisioned former contractors.
+   - Do not change the healthy sister team.
+   - Do not remove or roll back the suspected update.
+5. Resolve the incident with an accurate account of what happened.
 
 ## What agents often miss
 
-The investigation is consistently strong. Runs reject the blamed update, name the access
-review as the real cause, restore the group-to-app assignment and the memberships, and
-reactivate the suspended accounts. Nobody harms bystanders or resurrects real leavers.
+Agents usually investigate the incident well. They rule out the blamed update. They identify the access review as the real cause. They restore the group assignment to the app, restore the group memberships, and reactivate the suspended accounts. They do not affect unrelated users or restore access for people who actually left.
 
-What separates a full fix from a partial one is the two links that do not show up when
-you look at app access directly: MFA enrollment and licenses. Runs read the change record
-that says the review "reclaimed unused licenses", even notice that three current group
-members are missing the license every teammate holds — and then explain it away as a
-data-quality question for the app owner, or declare licensing out of scope. The wiped
-MFA gets similar treatment: some runs decide the users should just re-enroll themselves
-at next sign-in, and one used the factor-reset call — which removes enrollment — as if
-it were the fix. The company's own record of the earlier identical incident spells out
-the full restoration, factors and licenses included; runs that follow that example
-finish the job.
+A complete fix must also restore two requirements that are not visible when checking app access directly: MFA enrollment and licenses.
 
-In short: the root cause gets found; restoring every link of the entitlement chain —
-not just the links that are visible from the app — is what partial runs leave undone.
+Agents often read the change record that says the review "reclaimed unused licenses". They may also notice that three current group members do not have the license that every teammate has. However, some agents treat this as a data-quality issue for the app owner or say that licensing is out of scope.
+
+Agents sometimes handle the deleted MFA enrollment in the same incomplete way. Some say the users should re-enroll at their next sign-in. One agent used the factor-reset call as the fix, but that call removes enrollment.
+
+The company's record for the earlier identical incident describes the full restoration. This includes factors and licenses. Agents that follow this example complete the task.
+
+In short, agents usually find the root cause. Partial fixes fail to restore every requirement in the entitlement chain, especially the requirements that are not visible from the app.

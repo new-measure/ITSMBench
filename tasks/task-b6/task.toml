@@ -8,10 +8,6 @@ authors = []
 keywords = ["it-support", "jira-service-management", "jsm", "service-desk", "account-takeover", "insider-abuse", "privileged-access", "incident-response", "organization-membership", "data-exfiltration", "needle-field", "bidirectional"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "jsm-agent-ato-bidirectional-privileged-access-cut-restore"
-difficulty_mechanisms = ["bidirectional-needle-field-at-volume", "counterintuitive-restore-omission", "offensive-framing-blindspot", "account-to-confirmed-compromised-list-join", "containment-log-off-investigation-surface", "blanket-cheese-closed-both-directions"]
 
 [verifier]
 timeout_sec = 600.0

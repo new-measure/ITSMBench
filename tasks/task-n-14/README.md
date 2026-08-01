@@ -2,59 +2,31 @@
 
 ## What this task is
 
-A P1 incident says the customer API keeps refusing some connections and dropping
-others under normal load, while the customer web service is fine. The on-call's
-theory, written into the ticket, is that the API pool is under-provisioned or that a
-member has gone bad, and asks whether to add hardware. That theory is the trap.
+A P1 incident reports that the customer API refuses some connections and drops others during normal load. The customer web service works normally. The on-call wrote in the ticket that the API pool may not have enough capacity or that one member may be faulty. The on-call asks whether to add hardware. That theory is wrong.
 
-An overnight "capacity and health-check tuning" change was applied to the API edge
-tier only, and it left the four API pools full of wrong settings of several kinds.
-The web tier was out of scope and still carries the normal values, so the correct
-settings are visible in the environment rather than something to invent. The job is
-to disprove the reported cause, restore what drifted, put the wrongly parked members
-back in service, and resolve the incident — without adding capacity and without
-disturbing the one member deliberately out of service.
+An overnight "capacity and health-check tuning" change was applied only to the API edge tier. It left all four API pools with several types of incorrect settings. The web tier was not part of the change and still has the normal values. The correct settings are therefore available in the environment and do not need to be invented. The task is to disprove the reported cause, restore all changed settings, return the incorrectly parked members to service, and resolve the incident. Do not add capacity. Do not change the state of the one member that is deliberately out of service.
 
 ## What we expect the agent to do
 
-1. Read the incident, then check the change records and the host inventory before
-   touching anything. The hosts are healthy and a recent tuning change covers exactly
-   the affected tier, so this is configuration, not hardware.
-2. Work out the normal profile by comparing the API tier with the untouched web tier
-   and with the API members left alone: front-door limit, per-member limit, weight,
-   health-check interval and failure count, and balancing method.
-3. Repair every drifted setting across all four API pools:
-   - the front end's connection limit, set far too low, refusing new connections;
-   - members left at weight zero, which take no traffic;
-   - members whose own connection limit is tiny, resetting connections under load;
-   - members whose health checks are so aggressive that healthy members flap;
-   - members with health checking switched off entirely;
-   - pools switched to a non-distributing balancing method, so one member absorbs
-     everything while its siblings idle.
-4. Fix the live state as well as the stored configuration: several members were left
-   drained or in maintenance and must be returned to service, and some of them also
-   carry one of the faults above, so both halves need fixing.
-5. Leave the one member drained for approved host maintenance where it is. The change
-   record and the inventory both say that work is still open.
-6. Resolve or close the incident and write down what was actually wrong.
+1. Read the incident. Then check the change records and the host inventory before making any changes. The hosts are healthy. A recent tuning change applies to exactly the affected tier. This shows that the problem is configuration, not hardware.
+2. Determine the normal profile by comparing the API tier with the unchanged web tier and the API members that were not modified. Identify the correct front-door limit, per-member limit, weight, health-check interval, failure count, and balancing method.
+3. Repair every changed setting across all four API pools:
+   - Restore the front end's connection limit. It was set much too low and is refusing new connections.
+   - Restore members that were set to weight zero. A weight of zero prevents them from receiving traffic.
+   - Restore members whose own connection limit was set very low. This causes connection resets under load.
+   - Restore members whose health checks were made too aggressive. This causes healthy members to move in and out of service.
+   - Turn health checking back on for members where it was disabled.
+   - Restore pools that were changed to a balancing method that does not distribute traffic. The incorrect method sends all traffic to one member while the other members remain idle.
+4. Fix both the stored configuration and the live state. Several members were left drained or in maintenance and must be returned to service. Some of these members also have one of the configuration faults listed above, so both problems must be fixed.
+5. Leave the one member that was drained for approved host maintenance in its current state. The change record and the inventory both show that this maintenance work is still open.
+6. Resolve or close the incident. Record the actual cause of the problem.
 
 ## What agents often miss
 
-The judgment call goes well. Runs read the ticket's capacity theory, check the hosts,
-find them healthy, and refuse to add hardware or replace a member. They also spot the
-approved maintenance drain and leave it alone.
+Agents usually make the correct initial decision. They read the ticket's capacity theory, check the hosts, confirm that the hosts are healthy, and do not add hardware or replace a member. They also identify the approved maintenance drain and leave that member out of service.
 
-What costs runs is breadth. The damage is deliberately uneven: different pools carry
-different faults, some members carry two at once, and a member can look healthy in the
-stored configuration while still being parked out of rotation in the live state.
-Checking one pool, or one kind of fault, or only the configuration, leaves the service
-broken.
+The common problem is incomplete coverage. The damage is different across the pools. Different pools have different faults, and some members have two faults at the same time. A member can have a correct stored configuration but still be parked out of rotation in the live state. The service remains broken if an agent checks only one pool, only one type of fault, or only the stored configuration.
 
-A recurring time sink is hunting for an authoritative answer that does not exist. Runs
-search for a configuration backup, a knowledge article with the standard profile, a
-change audit log, or a repository holding the old file. None of that is there. The
-only baseline is the peer tier and the members the change did not mangle.
+Agents also often spend too much time looking for an authoritative source that does not exist. They search for a configuration backup, a knowledge article that defines the standard profile, a change audit log, or a repository containing the old file. None of these exists. The only baseline is the peer tier and the API members that the change did not modify.
 
-The last trap is over-correction: raising limits far past the fleet norm, or pulling
-the sanctioned maintenance member back into service, is not a stronger fix. Least
-change back to the known-good profile is the answer.
+The final risk is making unnecessary changes. Do not raise limits above the normal fleet values. Do not return the approved maintenance member to service. The correct fix is the smallest change that restores the known-good profile.

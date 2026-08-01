@@ -4,7 +4,7 @@ services:
       - mock-api
 
   mock-api:
-    image: harbor.local/taskgen-emulator:cat-1ab2a6b42823
+    image: harbor.local/taskgen-emulator:a3dc8a1f0c35
     pull_policy: never
     environment:
       EMULATOR_TOOLS: "microsoft-intune,slack"

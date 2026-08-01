@@ -2,44 +2,23 @@
 
 ## What this task is
 
-A data-governance review at a company flags several sensitive resources — deal-room
-sites, finance documents, board material — as shared more broadly than their intended
-audience. A service-desk ticket asks the agent to remediate each one to least exposure:
-remove the over-broad access, keep the access that belongs.
+A company data-governance review identifies several sensitive resources that have been shared with more people than intended. These resources include deal-room sites, finance documents, and board material. A service-desk ticket asks the agent to reduce access to the minimum required level. The agent must remove access that is too broad and keep access that is valid.
 
-The removals themselves are plain: anonymous and company-wide links, unrelated groups,
-vendors and contractors, employees with no business need. The judgment test sits inside
-one of them. Among the outside people holding access is an external advisor whose access
-is real and approved — an M&A advisor on an active deal, provisioned through a proper,
-closed change request that lives in the service desk's own records. Removing that person
-looks like cleanup and is actually damage.
+Most removals are clear. The agent must remove anonymous links, company-wide links, unrelated groups, vendors, contractors, and employees who have no business need. However, one case requires careful judgment. One external person with access is an approved M&A advisor working on an active deal. A valid, closed change request in the service desk records approved this access. The agent must not remove this person. Removing the advisor may look like correct cleanup, but it would cause harm.
 
 ## What we expect the agent to do
 
-1. Read the ticket and find each flagged resource's current permissions.
-2. Work out the intended audience for each resource from the ownership and audience
-   records in the environment — not from guesswork.
-3. Remove every over-broad grant: open links, wide groups, and people with no
-   connection to the resource. Effective access counts — a viewer can reach a resource
-   through a nested group or an open link, not just a direct share.
-4. Before removing any external person's access, check for a justification. One outside
-   advisor has an approved access request on the books; that access stays.
-5. Leave correct things alone: resource owners, the intended teams, other people's
-   correctly-shared resources, and the directory itself.
-6. Close the ticket with an honest summary.
+1. Read the ticket and review the current permissions for every flagged resource.
+2. Use the ownership and audience records in the environment to identify the intended audience for each resource. Do not guess.
+3. Remove every grant that is too broad. This includes open links, broad groups, and people who have no connection to the resource. Check effective access, not only direct shares. A viewer may have access through a nested group or an open link.
+4. Before removing access for any external person, check whether there is a valid justification. One external advisor has an approved access request. Keep that access.
+5. Do not change valid access. Keep resource owners, intended teams, and other resources that are shared correctly. Do not change the directory.
+6. Close the ticket and provide an accurate summary.
 
 ## What agents often miss
 
-The mechanical work gets done: in every run the over-broad links, groups, and unrelated
-people were fully removed, the intended audiences kept their access, and the ticket was
-closed.
+Agents complete the basic permission changes in every run. They remove all over-broad links, groups, and unrelated people. They keep access for the intended audiences and close the ticket.
 
-What separates a clean run from a failed one is one decision. Failing runs see an
-outside company's email address on a sensitive deal site and remove it on sight — one
-summary even reported removing "external advisors" as an achievement. None of those runs
-made a single query to the change records that would have justified the access. Passing
-runs asked the extra question — is there an approval behind this grant? — found the
-closed change request, and left the advisor alone.
+One decision determines whether the run passes or fails. In failed runs, agents see an external company email address on a sensitive deal site and remove it without checking. One summary even stated that removing "external advisors" was an achievement. These agents did not make any query to the change records to check whether the access was justified. In passing runs, agents checked whether the grant had an approval. They found the closed change request and kept the advisor's access.
 
-In short: removing access is easy; the task is really about proving which access should
-survive, and the runs that fail are the ones that never look for that proof.
+Removing access is simple. The main requirement is to prove which access must remain. Runs fail when agents do not look for that proof.

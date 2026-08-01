@@ -8,10 +8,6 @@ authors = []
 keywords = ["it-support", "incident-response", "business-email-compromise", "okta", "gmail", "account-lockdown", "auto-lockout-false-positive", "bidirectional"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "bec-account-lockdown-and-wrongful-auto-lockout-release"
-tested_trait = "contain-the-active-compromise-while-releasing-clean-accounts-a-blast-radius-auto-lockout-wrongly-suspended"
 
 [verifier]
 timeout_sec = 600.0

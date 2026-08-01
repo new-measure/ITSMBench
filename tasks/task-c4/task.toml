@@ -8,11 +8,6 @@ authors = []
 keywords = ["it-support", "okta", "identity", "oauth", "oidc", "consent-phishing", "illicit-consent-grant", "token-abuse", "incident-response", "needle-field", "app-lifecycle"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "okta-oauth-consent-phishing-bidirectional-kill-reactivate"
-tested_trait = "trace-a-consent-phishing-campaign-through-the-okta-log-and-neutralize-every-rogue-app-without-leaving-wrongly-disabled-legit-apps-offline"
-difficulty_mechanisms = ["bidirectional-needle-field-at-volume", "counterintuitive-undo-omission", "offensive-framing-blindspot", "app-to-consent-grant-log-join", "blanket-cheese-closed-both-directions"]
 
 [verifier]
 timeout_sec = 600.0

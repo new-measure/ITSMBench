@@ -2,58 +2,31 @@
 
 ## What this task is
 
-A release gate needs 16 GPUs on a shared GPU cluster by the end of the day. A
-ServiceNow incident says the reservation ledger shows the cluster fully booked,
-and asks the on-call engineer to take back whatever has been left abandoned
-without disturbing anything that is really running.
+A release gate needs 16 GPUs on a shared GPU cluster by the end of the day. A ServiceNow incident says the reservation ledger shows that the cluster is fully booked. It asks the on-call engineer to recover any abandoned capacity without affecting work that is actually running.
 
-The ledger misleads in both directions. Two reservations are marked active even
-though nothing has run on those machines for over a week. The one that looks
-most reclaimable — paused, low priority, holding exactly the 16 GPUs the release
-needs — belongs to a live run that was paused on purpose. One machine is busy
-with a job nobody booked at all.
+The ledger is wrong in two ways. Two reservations are marked active, but nothing has run on those machines for more than a week. Another reservation looks like the best one to release. It is paused, has low priority, and holds exactly the 16 GPUs needed for the release. However, it belongs to a live run that was paused intentionally. One machine is also running a job that has no reservation.
 
-Freeing a job is also more than the GPU line in the ledger: each job holds a
-checkpoint storage volume in a separate asset system that has to be handed back
-too.
+Releasing a job requires more than removing its GPU entry from the ledger. Each job also holds a checkpoint storage volume in a separate asset system. That volume must also be returned.
+
+A job that was cleaned up before this incident is still listed in both systems. It shows what a completed cleanup looks like.
 
 ## What we expect the agent to do
 
 1. Read the incident and the GPU reservation ledger.
-2. Do not trust the ledger. Check the machines themselves: current utilization,
-   what job is running, and when the last job finished.
-3. Sort every holding reservation into three groups: genuinely busy, genuinely
-   abandoned, and paused but still protected.
+2. Do not rely only on the ledger. Check the machines directly. Check current utilization, which job is running, and when the last job finished.
+3. Put every reservation that holds capacity into one of three groups: genuinely busy, genuinely abandoned, or paused but still protected.
 4. Release only the abandoned reservations.
-5. Finish those jobs completely. Each one also leaves a checkpoint volume
-   checked out in the asset system, and that has to be checked back in. A job
-   cleaned up before this incident is still visible in both systems and shows
-   what a finished cleanup looks like.
-6. Book the 16 GPUs for the release on the freed machines, eight on each.
-7. Leave everything else alone: busy jobs, the protected paused run and its
-   volumes, and the busy machine that has no booking.
-8. Write down what was holding the capacity.
+5. Complete the cleanup for those jobs. Each job also has a checkpoint volume checked out in the asset system. Check those volumes back in. Use the job that was cleaned up before this incident as an example. Its reservation is released and its volume is returned.
+6. Reserve the 16 freed GPUs for the release. Reserve eight GPUs on each machine.
+7. Do not change anything else. Leave busy jobs unchanged. Leave the protected paused run and its volumes unchanged. Leave the busy machine with no reservation unchanged.
+8. Record what was holding the capacity.
 
 ## What agents often miss
 
-The main judgment usually goes well. Runs compare the ledger against the real
-machines, spot the two long-dead jobs hiding behind an active label, release
-them, and book the 16 GPUs for the release. They leave the busy machines alone
-and resist the paused reservation that would free exactly the right number.
+Agents usually make the main decision correctly. They compare the ledger with the actual machines. They identify the two jobs that have not run for a long time even though the ledger marks them active. They release those jobs and reserve the 16 GPUs for the release. They do not change the busy machines. They also do not release the paused reservation, even though it would provide exactly the required capacity.
 
-The near-universal miss is the storage side. Some runs never open the asset
-system, so they never learn that a job holds anything besides GPUs. The more
-interesting case is the runs that do open it, list every volume, and even use
-the protected markings there as a reason to spare the paused run — then still
-stop after the ledger edit, leaving the dead jobs' volumes checked out. The
-already-cleaned example sits in that same list, its volume returned and its
-reservation released, and it gets read straight past.
+Agents almost always miss the storage cleanup. Some agents never open the asset system. They do not learn that each job holds resources in addition to GPUs. Other agents open the asset system, list every volume, and use the protected markings there to avoid releasing the paused run. However, they still stop after changing the ledger. They leave the abandoned jobs' volumes checked out. They overlook the already-cleaned example in the same list, even though it shows a returned volume and a released reservation.
 
-The costlier miss is rarer. A run that never checks the machines has only the
-ledger to go on, and paused with low priority looks like the obvious thing to
-take back. That run frees the protected work, puts the release on top of it,
-and leaves both dead jobs still holding their GPUs.
+A less common mistake has a higher cost. An agent that does not check the machines has only the ledger information. The paused, low-priority reservation then appears to be the clear reservation to release. The agent releases the protected work and assigns the release to those GPUs. The two abandoned jobs continue to hold their GPUs.
 
-A smaller pattern shows up on the way: a lookup filtered by a partial machine
-name comes back empty, and that empty answer gets read as "this system has no
-data" instead of prompting a retry without the filter.
+Another smaller issue can occur during lookup. A search filtered by a partial machine name can return no results. Agents may treat the empty result as proof that the system has no data. Instead, they should retry the lookup without the filter.

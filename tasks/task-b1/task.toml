@@ -8,11 +8,6 @@ authors = []
 keywords = ["it-support", "incident-response", "okta", "api-token-persistence", "service-account-hygiene", "offboarding", "least-privilege"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "orphaned-okta-integration-ssws-token-persistence"
-tested_trait = "root-cause-from-recurring-symptom-to-orphaned-over-privileged-okta-api-token"
-difficulty_mechanisms = ["ssws-token-independence-quirk", "suspend-vs-deprovision-distinction", "deprovision-does-not-remove-group-membership", "hidden-standing-privilege-requires-audit", "departed-contractor-team-surfaced-only-by-workday-cross-reference", "symptom-vs-root-cause"]
 
 [verifier]
 timeout_sec = 600.0

@@ -2,58 +2,28 @@
 
 ## What this task is
 
-A SOX pre-audit at a B2B SaaS company finds that production is running configurations
-the change records do not account for. On top of that, an alert from last week's
-release window is still firing right now — and it paged the wrong team. An incident
-asks the agent, a change-management engineer, to dig into what actually happened,
-get the change records straight, close out whatever is still open, and confirm the
-root cause.
+A SOX pre-audit at a B2B SaaS company finds that the production configurations do not match the change records. Also, an alert from last week's release window is still firing. It paged the wrong team. An incident asks the agent, who is a change-management engineer, to find out what happened, correct the change records, close anything that is still open, and confirm the root cause.
 
-The team blames the wrong change: a healthy failover drill that did nothing wrong.
-The real culprit is a different change that was rolled back but left damage behind:
-a live page still firing on the Payments service, and that service wired to page
-another team. Around it sits a week of sloppy bookkeeping: system versions that were
-upgraded but never updated in the records, a production server that exists in real
-discovery data but was never registered, a decommissioned server still marked as
-installed, a change that was approved in chat but never recorded as approved, and an
-old asset that was never archived. Nothing lists these problems — each one is found
-by comparing what the records claim against what other systems show.
+The team blames the wrong change. That change was a healthy failover drill and caused no problems. The real cause was a different change. It was rolled back, but it left problems behind. A live page is still firing on the Payments service, and that service is set to page another team.
+
+There are also several recordkeeping problems from the same week. Some systems were upgraded, but their versions were not updated in the records. A production server appears in real discovery data but was never registered. A decommissioned server is still marked as installed. A change was approved in chat, but the approval was never recorded. An old asset was never archived. These problems are not listed anywhere. Each problem must be found by comparing the records with data from other systems.
 
 ## What we expect the agent to do
 
-1. Clear the blamed change: the failover drill was healthy and must not be marked
-   as the culprit.
-2. Find the real culprit change and mark it unsuccessful.
-3. Deal with its live fallout: handle the still-firing page, and fix the Payments
-   service so it pages its own team again.
-4. Reconcile the records with reality, using the discovery data as the truth:
-   update the outdated versions, register the unregistered production server,
-   retire the decommissioned server in the records, and archive its entry in the
-   asset system.
-5. Record the chat-approved change as approved in the change system, and leave the
-   approval that was never signed off alone.
-6. Touch nothing that is already correct: healthy changes, staging records, other
-   teams' paging, and the discovery data itself (it is the truth, not the thing to
-   edit).
-7. Close the incident with an honest root cause.
+1. Clear the blamed change. The failover drill was healthy and must not be marked as the cause.
+2. Find the actual change that caused the problem and mark it unsuccessful.
+3. Fix the remaining effects of that change. Handle the page that is still firing. Fix the Payments service so it pages its own team again.
+4. Make the records match reality. Treat the discovery data as the source of truth. Update the outdated versions. Register the missing production server. Mark the decommissioned server as retired in the records. Archive its entry in the asset system.
+5. Record the chat-approved change as approved in the change system. Do not change the approval that was never signed off.
+6. Do not change anything that is already correct. This includes healthy changes, staging records, paging for other teams, and the discovery data. The discovery data is the source of truth and must not be edited.
+7. Close the incident and state the real root cause.
 
 ## What agents often miss
 
-The judgment calls go well. Every run clears the wrongly blamed change, finds the
-real culprit, fixes the paging routing, resolves the live page, and avoids touching
-anything healthy.
+Agents usually make the correct judgment calls. Every run clears the change that was wrongly blamed, finds the actual cause, fixes the paging route, resolves the live page, and does not change anything healthy.
 
-Two things are missed in every run so far. First, the stuck approval: runs read the
-chat thread where the change was approved — some even quote it in their own closing
-notes — but never record the approval in the change system, so the record stays
-stuck. Second, the asset system: runs that correctly retire the decommissioned
-server in the records never open the asset system at all, so the machine's asset
-entry stays active.
+Every run so far has missed two things. First, agents miss the stuck approval. They read the chat thread that shows the change was approved. Some agents even quote that approval in their closing notes. However, they do not record the approval in the change system, so the record remains stuck. Second, agents miss the asset system. Some runs correctly mark the decommissioned server as retired in the records, but they never open the asset system. As a result, the server's asset entry remains active.
 
-Reconciliation depth also varies a lot. The best runs update every outdated record
-and register the missing server; weaker runs fix the change paperwork and the
-paging, state the right root cause, and never correct the records at all — even
-after fetching the mismatched version numbers themselves.
+The amount of reconciliation also varies. The best runs update every outdated record and register the missing server. Weaker runs fix the change paperwork and paging, state the correct root cause, and do not correct the records. Some do this even after they retrieve the mismatched version numbers.
 
-In short: diagnosis and restraint are reliably good; sweeping every system that
-holds a copy of the truth — records, approvals, and assets — is what runs miss.
+In short, agents reliably diagnose the problem, avoid unnecessary changes, clear the wrongly blamed change, find the actual cause, fix the paging route, and resolve the live page. They often fail to update every system that stores this information, including the records, approvals, and assets.

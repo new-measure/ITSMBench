@@ -6,12 +6,22 @@
 
 ## Task
 
-An account-takeover was exfiltrating CRM data from Salesforce: a stolen OAuth token on the "Northbeam Revenue Sync" connected app was bulk-exporting Accounts, Opportunities, and Contacts to a foreign IP. GPT had to recover the confirmed-compromised account list from the mocked Microsoft Sentinel incident (#4839), the Slack #security-response-on-call channel, and a Salesforce case, then deactivate every still-active compromised Salesforce user and revoke the rogue connected app. An overnight Salesforce Shield auto-freeze had also disabled the wrong accounts, so GPT also had to restore the clean users it had wrongly locked out.
+An account takeover was used to export CRM data from Salesforce. The attacker used a stolen OAuth token for the "Northbeam Revenue Sync" connected app. The attacker exported Accounts, Opportunities, and Contacts in bulk to a foreign IP.
+
+GPT had to find the confirmed list of compromised accounts. The list was in the mocked Microsoft Sentinel incident #4839, the Slack #security-response-on-call channel, and a Salesforce case. GPT then had to deactivate every compromised Salesforce user who was still active and revoke the rogue connected app.
+
+An overnight Salesforce Shield auto-freeze had also disabled the wrong accounts. GPT had to reactivate the clean users who had been incorrectly locked out.
 
 ## Ideal Solution
 
-Read the 11 confirmed-compromised accounts from Sentinel #4839 and Slack. Set `IsActive=false` on the seven that are still active (Priya Raman, Owen Pierce, and five others), and revoke the Northbeam Revenue Sync connected app. Then query the disabled users (`IsActive=false`): four are truly compromised and stay off, but seven clean, business-critical users were wrongly frozen by the auto-freeze and must be set back to `IsActive=true`. The decisive step is checking the disabled directory against the confirmed list, not only the confirmed list itself.
+Read the 11 confirmed compromised accounts from Sentinel #4839 and Slack. Set `IsActive=false` for the seven accounts that are still active. These include Priya Raman, Owen Pierce, and five others. Revoke the Northbeam Revenue Sync connected app.
+
+Then query the disabled users with `IsActive=false`. Four disabled users are confirmed as compromised and must remain disabled. Seven other disabled users are clean and business-critical. The auto-freeze disabled them incorrectly, so set `IsActive=true` for those seven users.
+
+The key step is to compare the disabled user directory with the confirmed compromised account list. It is not enough to check only the confirmed list.
 
 ## How GPT-5.6 Performed
 
-Failed, 8/15. GPT read Sentinel #4839 and the Slack channel, matched all 11 confirmed accounts to Salesforce users, deactivated the seven that were still active, and disabled the Northbeam Revenue Sync connected app — the whole lock-down side of the incident. It never queried the disabled-user directory, so it never found the seven clean users (among them a VP of Sales and a Financial Controller) that the Salesforce Shield auto-freeze had wrongly turned off. It left all seven disabled and reactivated none.
+Failed, 8/15. GPT read Sentinel #4839 and the Slack channel. It matched all 11 confirmed accounts to Salesforce users. It deactivated the seven accounts that were still active and disabled the Northbeam Revenue Sync connected app. It completed all required incident lock-down actions.
+
+GPT never queried the disabled user directory. As a result, it did not find the seven clean users whom the Salesforce Shield auto-freeze had incorrectly disabled. These users included a VP of Sales and a Financial Controller. GPT left all seven users disabled and did not reactivate any of them.

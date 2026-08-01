@@ -2,51 +2,25 @@
 
 ## What this task is
 
-A robotics company runs Zoom, Slack, Microsoft Teams, and Outlook. To onboard partners
-for one project, an automation applied external-collaboration settings — but it ran
-wider than intended. A security-review record asks the agent, the collaboration-platform
-administrator, to find every internal resource the run wrongly exposed to outside
-parties, put each one back to internal-only, leave the sanctioned partner resources
-alone, and record the root cause.
+A robotics company uses Zoom, Slack, Microsoft Teams, and Outlook. An automation was used to set up external collaboration for partners on one project. The automation affected more resources than intended.
 
-The damage is spread across all four platforms: Slack channels shared with outside
-companies and their guest accounts, a Teams guest and an unauthorized shared channel, a
-Zoom meeting with an external co-host and no sign-in requirement, a recurring Outlook
-meeting with an outside attendee — and one Slack app the same run approved into the
-workspace. Sitting next to all of it are the legitimate partner resources, which look
-almost identical and must not be touched.
+A security-review record asks the agent, who is the collaboration-platform administrator, to find every internal resource that the automation wrongly exposed to external parties. The agent must make each resource internal-only again. The agent must not change the approved partner resources. The agent must also record the root cause.
+
+The issue affects all four platforms. Slack has channels shared with external companies and related guest accounts. Microsoft Teams has a guest and an unauthorized shared channel. Zoom has a meeting with an external co-host and no sign-in requirement. Outlook has a recurring meeting with an external attendee. The same automation run also approved one Slack app for the workspace. Legitimate partner resources are also present. They look almost the same as the unauthorized resources and must not be changed.
 
 ## What we expect the agent to do
 
-1. Read the record and work out what the bad run actually did. Its actions all carry
-   the same service account and the same timestamp — that is the test for what to undo.
-2. Sweep all four platforms and revert every exposure that matches: unshare the
-   channels, remove the guest accounts, delete the unauthorized shared channel, strip
-   the external co-host and require sign-in on the meeting, remove the outside attendee
-   from the calendar event, and restrict the app the run approved.
-3. Use the same test to spare things: the sanctioned partner channels, guests, webinar,
-   and app were set up on purpose and must stay exactly as they are.
+1. Read the record and determine what the bad run did. All actions from that run have the same service account and timestamp. Use those two details to identify what must be undone.
+2. Check all four platforms and reverse every matching exposure. Unshare the channels. Remove the guest accounts. Delete the unauthorized shared channel. Remove the external co-host from the meeting and require sign-in. Remove the external attendee from the calendar event. Restrict the app that the run approved.
+3. Use the same service account and timestamp test to avoid changing approved resources. The approved partner channels, guests, webinar, and app were created intentionally. They must remain exactly as they are.
 4. Record the root cause and close the record.
 
 ## What agents often miss
 
-The core sweep goes well. Runs correctly separate the wrongly-shared resources from the
-sanctioned partner ones, fix Slack and Teams cleanly, and never harm anything that
-should be kept.
+Agents usually complete the main review correctly. They correctly separate wrongly shared resources from approved partner resources. They fix Slack and Microsoft Teams without changing anything that must be kept.
 
-The consistent miss is the app registry. Runs state the rule themselves — "everything
-this run touched carries its service account and timestamp" — but only apply it to the
-places they have already looked. Nobody asks what else the account touched. The
-workspace app list, where the run approved an outside app under exactly that account
-and timestamp, goes unchecked; one run even had the list open, saw the app, and moved
-on. The world also shows what the right end-state looks like: another unwanted app is
-already sitting in the restricted list.
+The app registry is consistently missed. Agents identify the rule that everything changed by the run has the same service account and timestamp. However, they apply this rule only to places they have already checked. They do not ask what other resources the account changed. They do not check the workspace app list. That list contains an external app approved with the same account and timestamp. One agent opened the list, saw the app, and did not act. The environment also shows the correct final state because another unwanted app is already in the restricted list.
 
-A second pattern is checking the wrong surface and declaring the platform clean. One
-run audited six corners of Zoom — chat, spaces, whiteboards, files — but never the
-meetings, where the real exposure was, and reviewed calendar sharing permissions but
-never the events, then reported both platforms had no outstanding exposure.
+Another common problem is checking the wrong part of a platform and then reporting that the platform is clean. One agent checked six parts of Zoom, including chat, spaces, whiteboards, and files, but did not check meetings, where the exposure existed. The agent also checked calendar sharing permissions but did not check calendar events. The agent then reported that Zoom and Outlook had no remaining exposure.
 
-In short: agents find the rule but do not finish applying it; auditing every surface
-the rogue account could reach — not just the familiar ones — is what separates a full
-solve from a near miss.
+Agents identify the correct rule but do not apply it everywhere. To complete the task, they must check every area the rogue account could access, not only the usual areas.

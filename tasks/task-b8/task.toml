@@ -8,10 +8,6 @@ authors = []
 keywords = ["it-support", "haproxy", "load-balancer", "incident-response", "web-skimming", "magecart", "server-rotation", "runtime-admin-state", "microsoft-sentinel", "bidirectional-needle-field"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "haproxy-storefront-skimming-bidirectional-needle-field"
-difficulty_mechanisms = ["offensive-framing-cut-off-malicious-path", "on-path-take-out-needles-via-exfil-correlation", "counterintuitive-return-to-up-off-framing", "bidirectional-grading-closes-blanket-cheese", "needle-keeper-non-separable-without-correlation", "volume-collapses-run-to-run-variance"]
 
 [verifier]
 timeout_sec = 600.0

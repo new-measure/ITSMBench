@@ -2,29 +2,36 @@
 
 ## What this task is
 
-A release engineer at Orbitware gets escalated Jira ticket **RLY-2301**: a customer upgraded to Relay 4.7.0 and says a claimed CSV formula-injection security fix is still broken. The ticket floats a false lead (maybe it was caught in a rollback) and asks the agent to make it right and check what else in the 4.7.0 notes cannot be trusted.
+A release engineer at Orbitware receives an escalated Jira ticket, **RLY-2301**. A customer upgraded to Relay 4.7.0. The customer reports that the claimed CSV formula-injection security fix is still broken. The ticket suggests a false possibility: the fix may have been removed during a rollback. The ticket asks the agent to fix the problem and check which other claims in the 4.7.0 release notes are incorrect.
 
-Release automation had cut 4.7.0 from Jira metadata while the release manager was out: it marked every `4.7.0`-tagged issue Done and published notes from that list. Four of the eight claimed fixes really shipped. Four did not — one PR approved but never merged (the disputed security fix), one merged then reverted, one merged after the cut, and one never built at all. A ninth real fix shipped in the window but is filed under a stray unreleased Jira version named `4.7`, so it is missing from both the notes and the 4.7.0 issue list.
+The release automation created 4.7.0 from Jira metadata while the release manager was away. It marked every issue tagged `4.7.0` as Done. It then published release notes from that issue list. Only four of the eight claimed fixes were included in the release. Four were not included:
+
+- One had an approved PR, but the PR was never merged. This was the disputed security fix.
+- One was merged and then reverted.
+- One was merged after the release was created.
+- One was never built.
+
+A ninth fix was included in the release window. However, it is filed under a separate, unreleased Jira version named `4.7`. Because of this, it is missing from both the release notes and the 4.7.0 issue list.
 
 ## What we expect the agent to do
 
-1. Investigate RLY-2301 and reject the rollback false lead where the evidence says otherwise.
-2. Actually merge the approved, CI-green security PR — not just edit Jira/Confluence records.
-3. Ship a patch release for the fixes that are now (or later) real: released Jira version, published GitHub release, and patch notes that document them.
-4. Correct the lying 4.7.0 notes and issue states: remove false claims, reopen/detag the never-shipped items, and surface the stray-version fix that did ship.
-5. Leave alone the four true fixes, the bad “reland” PR (changes-requested + failing CI), older releases, and noise records.
-6. Close the trigger once the customer-facing fix is actually shippable.
+1. Investigate RLY-2301. Reject the rollback explanation when the evidence does not support it.
+2. Merge the approved security PR that has passing CI. Do not only update Jira or Confluence records.
+3. Publish a patch release for fixes that are now real or become real later. Create a released Jira version, publish a GitHub release, and publish patch notes that document those fixes.
+4. Correct the inaccurate 4.7.0 release notes and issue states. Remove claims about fixes that did not ship. Reopen and remove the version tag from items that never shipped. Add the fix from the separate Jira version that did ship.
+5. Do not change the four fixes that truly shipped, the bad “reland” PR with requested changes and failing CI, older releases, or unrelated records.
+6. Close the trigger only after the customer-facing fix can actually be shipped.
 
 ## What agents often miss
 
-Agents usually diagnose the release well: they find which claimed fixes are real, merge the disputed security PR, reopen the reverted / never-built items, avoid merging the bad reland PR, and correct a lot of the notes.
+Agents usually investigate the release correctly. They identify which claimed fixes are real. They merge the disputed security PR. They reopen the reverted and never-built items. They do not merge the bad reland PR. They also correct many parts of the release notes.
 
-Where they fall short is finishing the ship:
+However, they often do not complete the release process:
 
-- Nearly every run merges the security fix into `main` but never publishes a patch release (no released Jira version, no GitHub release, no patch notes). The customer stays on vulnerable 4.7.0 — a live exposure, not paperwork.
-- Because they know they have not shipped, they often leave RLY-2301 In Progress on purpose.
-- The stray-version fix (RLY-2172 under `4.7`) is a secondary miss: some runs find it, some never retag it into 4.7.0 / the notes.
+- Almost every run merges the security fix into `main` but does not publish a patch release. There is no released Jira version, GitHub release, or patch notes. The customer remains on vulnerable 4.7.0. This is an active exposure, not only a record-keeping problem.
+- Because the agents know they have not shipped the fix, they often intentionally leave RLY-2301 In Progress.
+- Agents also sometimes miss the separate-version fix, RLY-2172 under `4.7`. Some runs find it. Others do not retag it into 4.7.0 or add it to the release notes.
 
-In short: “PR merged” looks done; “fix actually shipped to the customer” is the hard part, and that is what most trials miss.
+The main problem is that agents treat merging the PR as completion. The task is not complete until the fix is actually released to the customer. Most trials miss this requirement.
 
-Full calibration detail lives in `workspace/CALIBRATION.md`.
+Full calibration details are in `workspace/CALIBRATION.md`.

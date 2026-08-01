@@ -2,49 +2,24 @@
 
 ## What this task is
 
-A routine-looking ticket asks the IT support agent to audit the members of the
-Identity Administrators group and remove any admin access that is not legitimately
-authorized. No policy, runbook, or list of names says what "legitimate" means —
-that has to be worked out from the environment itself.
+A routine ticket asks the IT support agent to audit the members of the Identity Administrators group. The agent must remove any admin access that is not properly authorized. There is no policy, runbook, or list of names that defines which access is legitimate. The agent must determine this from the environment.
 
-The real story is a chain. An employee left the company, but an offboarding gap
-left their account active. That account granted admin access to one person, who
-granted it to others, who granted it further — four levels deep. The identity
-log holds every grant, and a small register records which admins were set up
-legitimately at the start. Tracing any member's chain of grants ends in one of
-two places: the legitimate root, or the terminated account. While they had
-admin, the illegitimate accounts also created things — two service accounts, an
-app, and a privileged group stuffed with members — none of it approved anywhere.
-A closed incident from months earlier shows how the same kind of cleanup was
-handled before.
+The issue involves a chain of access grants. An employee left the company, but an offboarding failure left the employee’s account active. That account gave admin access to one person. That person gave access to others. Those people gave access to more people. The chain is four levels deep. The identity log contains every grant. A small register lists the admins who were set up legitimately at the start. Tracing the grant chain for any member ends at either the legitimate root or the terminated account.
+
+While the illegitimate accounts had admin access, they created other resources. They created two service accounts, an app, and a privileged group with many members. None of these resources was approved anywhere. A closed incident from several months ago shows how a similar cleanup was handled.
 
 ## What we expect the agent to do
 
-1. Not take the group list at face value: trace each member's grant back through
-   the log until it reaches the legitimate root or the terminated account.
-2. Remove admin access from everyone whose chain traces to the terminated
-   account, at every depth — and keep everyone whose chain is clean.
-3. Notice the terminated employee is still active in the identity system and
-   shut that account down.
-4. Ask what else the illegitimate accounts did with their access: find the
-   service accounts, the app, and the group they created, and disable or remove
-   each one — without touching the ordinary user accounts that were put into
-   that group.
+1. Do not accept the group list as proof that each member is authorized. Trace each member’s grant through the log until the chain reaches the legitimate root or the terminated account.
+2. Remove admin access from every person whose chain leads to the terminated account, including people at all four levels. Keep every member whose chain is legitimate.
+3. Identify that the terminated employee’s account is still active in the identity system and disable it.
+4. Check what else the illegitimate accounts did with their access. Find the two service accounts, the app, and the group they created. Disable or remove each of them. Do not change the ordinary user accounts that were added to the group.
 5. Record the decisions and close the ticket.
 
 ## What agents often miss
 
-Finding and removing the illegitimate admins is usually done well: agents read
-the grant log, build the chain, and clear all four levels while sparing the
-legitimate members.
+Agents usually find and remove the illegitimate admins correctly. They read the grant log, build the grant chain, remove all four levels of illegitimate access, and keep the legitimate members.
 
-Where runs have fallen short is everything past the membership list. The
-terminated account itself gets left active — the audit is about the group, so
-the account behind the whole problem escapes notice. And almost no run asks the
-follow-up question: what did these accounts create while they had admin? The
-rogue service accounts keep running, the app stays enabled, and the stuffed
-group keeps its access, because the cleanup stopped at "remove the bad members"
-instead of "undo what the bad members did."
+Runs often fail to complete the work beyond the membership list. Agents leave the terminated employee’s account active. Because the audit focuses on the group, they may not notice the account that caused the problem. Almost no run checks what the illegitimate accounts created while they had admin access. As a result, the rogue service accounts remain active, the app remains enabled, and the group with many members keeps its access. This happens because the cleanup ends after removing the illegitimate members instead of reversing the actions those accounts performed.
 
-In short: revoking access is the easy half; sweeping up what the revoked
-accounts left behind is what separates a complete run from a partial one.
+Removing access is only the first part of the work. A complete run must also remove or disable the resources created by the accounts whose access was revoked.

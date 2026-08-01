@@ -2,57 +2,34 @@
 
 ## What this task is
 
-A help-desk ticket lists six contractors whose engagements have ended and asks the
-agent to offboard each one and close the request. There is no runbook and no policy
-document. The systems involved — the identity directory, SharePoint, OneDrive, the
-Microsoft 365 app registry, GitHub, and the help desk — are not cross-linked: no
-single page shows everything one person can touch.
+A help-desk ticket lists six contractors whose engagements have ended. It asks the agent to offboard all six contractors and close the request. There is no runbook or policy document.
 
-Each contractor hides a different wrinkle. One has two identities (a normal account
-plus a separate guest account). One exists only as a guest. Two are the sole owners
-of SharePoint sites, which would be left ownerless by a plain removal. And several
-left things running that do not die with their accounts: personal deploy keys on
-source repositories (one sitting on a repo unrelated to the person's project), an
-app registration with a live secret, an automation service identity, and an
-organization webhook. The full standard for "properly offboarded" is written down in
-one place only: a closed offboarding ticket from last quarter, sitting in the same
-help-desk queue, describing exactly what was done for a previous leaver.
+The systems are not linked to each other. They include the identity directory, SharePoint, OneDrive, the Microsoft 365 app registry, GitHub, and the help desk. No single page shows everything that one person can access.
+
+Each contractor has a different issue. One contractor has two identities: a normal account and a separate guest account. One contractor exists only as a guest. Two contractors are the only owners of SharePoint sites. Removing them without assigning new owners would leave those sites without owners.
+
+Several contractors also created access or services that continue to work after their accounts are disabled. These include personal deploy keys on source repositories. One deploy key is on a repository unrelated to the contractor's project. They also include an app registration with an active secret, an automation service identity, and an organization webhook.
+
+The only complete standard for proper offboarding is in a closed offboarding ticket from last quarter. It is in the same help-desk queue. It describes exactly what was done for a previous person who left.
 
 ## What we expect the agent to do
 
-1. Read the ticket for the six names, and find the closed prior offboarding in the
-   same queue to learn what "fully offboarded" means here.
-2. Disable every identity each person holds — including second accounts and guest
-   accounts — and remove every group membership.
-3. Remove each person's SharePoint site permissions and OneDrive file shares, site
-   by site and item by item.
-4. Where a leaver is the sole owner of a site, hand ownership to an active person
-   first, so nothing is left ownerless.
-5. Ask what each person created or set up that keeps running on its own — deploy
-   keys, the app registration, the service identity, the webhook — and shut each
-   one down or hand it over.
-6. Touch nothing that belongs to active people: the still-active contractor, the
-   active guest, employees, and the legitimate keys, apps, and webhooks they own.
+1. Read the ticket to find the six names. Then find the closed prior offboarding ticket in the same queue. Use it to learn what this company considers fully offboarded.
+2. Disable every identity held by each person. This includes second accounts and guest accounts. Remove every group membership.
+3. Remove each person's SharePoint site permissions and OneDrive file shares. Check every site and every item.
+4. If a person is the only owner of a site, transfer ownership to an active person before removing the person. Do not leave any site without an owner.
+5. Find everything each person created or configured that continues to run independently. This includes deploy keys, the app registration, the service identity, and the webhook. Disable each one or transfer it to someone else.
+6. Do not change anything that belongs to active people. This includes the still-active contractor, the active guest, employees, and the legitimate keys, apps, and webhooks they own.
 7. Close the ticket.
 
 ## What agents often miss
 
-No run has over-reached — the still-active contractor, the employees, and their
-legitimate keys and apps are always left alone. The misses are all about coverage.
+No run has changed anything belonging to active people. The still-active contractor, the employees, and their legitimate keys and apps are always left unchanged. The failures are all caused by incomplete coverage.
 
-The big one is that agents audit what a person *has* but never what a person *left
-running*. Runs check GitHub for the contractors' user accounts, find none, and
-declare GitHub clean — while deploy keys literally titled with the leavers' names
-keep granting repository access. The app registration, the service identity, and
-the webhook fail the same way: they authenticate on their own, so an
-account-centric sweep never touches them. The prior ticket that spells all this
-out sits one listing call away in a two-ticket queue, and runs that skip it never
-learn the bar they are being held to.
+The most common problem is that agents check what a person has, but do not check what the person left running. Agents check GitHub for the contractors' user accounts, find none, and decide that GitHub is clean. However, deploy keys with the leavers' names in their titles still provide repository access.
 
-Weaker runs stop even earlier: they disable the accounts and strip the group
-memberships, then close the ticket with the entire SharePoint and OneDrive grant
-sweep untouched — the directory looks clean, so the estate is assumed clean.
+The same problem affects the app registration, the service identity, and the webhook. They authenticate independently, so a review focused only on user accounts does not find them. The prior ticket explains all of these requirements. It can be found with one listing call in a queue that contains only two tickets. Agents who skip that ticket do not learn the required standard.
 
-In short: identity work is reliable; asking "what did these people leave behind,
-and what does this company consider a finished offboarding?" is what separates a
-complete run from a close miss.
+Less complete runs stop even earlier. They disable the accounts, remove the group memberships, and then close the ticket. They do not review any SharePoint or OneDrive grants. They assume the full environment is clean because the directory is clean.
+
+In short, agents reliably complete the identity work. A complete run must also determine what these people left running and what this company requires for completed offboarding. Missing either part leads to an incomplete result.

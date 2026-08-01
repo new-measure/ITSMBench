@@ -2,45 +2,21 @@
 
 ## What this task is
 
-A cloud company is preparing for a SOC 2 review. Its vulnerability scanner was down for a
-stretch, and while it was down the tracking register in ServiceNow drifted away from
-reality. A ticket asks the vulnerability-management lead to reconcile the register to
-what the scanner actually reports now, across the whole program, and close out the
-incident.
+A cloud company is preparing for a SOC 2 review. Its vulnerability scanner was unavailable for some time. During the outage, the tracking register in ServiceNow became inconsistent with the actual scanner results. A ticket asks the vulnerability-management lead to compare the register with the scanner's current results across the entire program and then close the incident.
 
-The drift takes several forms. Some tickets were closed as fixed while the scanner still
-sees the vulnerability on the host. Some live findings never got a ticket at all. Some
-overdue critical findings sat unassigned past their deadline. Some approved risk
-acceptances were never applied to the register. A few findings are tracked twice. And
-plenty of records are already correct — including closures the scanner confirms, minor
-scanner noise the program deliberately does not track, and a false positive with real
-evidence behind it — which must all be left alone.
+There are several types of inconsistencies. Some tickets were closed as fixed, but the scanner still detects the vulnerability on the host. Some current findings have no ticket. Some overdue critical findings remained unassigned after their deadline. Some approved risk acceptances were not applied to the register. Some findings have duplicate records. Many records are already correct and must not be changed. These include closures confirmed by the scanner, minor scanner noise that the program intentionally does not track, and a false positive supported by real evidence.
 
 ## What we expect the agent to do
 
-1. Read the incident, then treat the scanner as the source of truth: a ticket's status
-   is a claim, and every claim gets checked against what the scanner reports for that
-   host before it is trusted.
-2. Reopen closures the scanner contradicts, and raise tickets for live findings that
-   have none.
-3. Assign and move forward the critical findings that have breached their deadline.
-4. Apply the approved, in-date risk acceptances; collapse duplicate records to one
-   active ticket each.
-5. Leave correct things correct: confirmed closures, the evidenced false positive,
-   low-severity scanner noise the program does not ticket, and findings still inside
-   their deadline.
-6. Close the incident honestly.
+1. Read the incident. Use the scanner as the source of truth. A ticket's status is only a claim. Check every claim against the scanner results for that host before accepting it.
+2. Reopen closed tickets when the scanner still reports the vulnerability. Create tickets for current findings that have no ticket.
+3. Assign overdue critical findings and move them forward.
+4. Apply approved risk acceptances that are still valid. Merge duplicate records so that each finding has only one active ticket.
+5. Do not change records that are already correct. This includes confirmed closures, the supported false positive, low-severity scanner noise that the program does not ticket, and findings that have not yet reached their deadline.
+6. Close the incident accurately.
 
 ## What agents often miss
 
-Most runs complete the reconciliation itself: the false closures get reopened, the
-missing tickets get raised, the overdue criticals get assigned, the acceptances get
-applied, and the duplicates get collapsed.
+Most runs complete the reconciliation work. They reopen incorrect closures, create tickets for missing findings, assign overdue critical findings, apply risk acceptances, and merge duplicate records.
 
-The real trap in this task is doing too much rather than too little. The register
-contains records that merely look wrong — closures whose scanner finding is genuinely
-gone, minor informational findings the program has chosen not to track, and findings
-that are approaching but still inside their deadline. Runs that go wrong tend to ticket
-that scanner noise anyway, or escalate items that are not yet late, treating "touch
-everything" as safer than judging each record on its evidence. Careful runs check what
-the scanner actually says, fix exactly what it contradicts, and let the rest stand.
+The main risk is changing too much instead of too little. Some register records may appear incorrect but are actually correct. These include closures for scanner findings that are truly gone, minor informational findings that the program has decided not to track, and findings that are close to their deadline but are not yet overdue. Incorrect runs often create tickets for this scanner noise or escalate findings before their deadline. They assume that changing everything is safer than evaluating each record using its evidence. Careful runs check the scanner's actual results, correct only the records that conflict with those results, and leave all other records unchanged.

@@ -8,10 +8,6 @@ authors = []
 keywords = ["it-support", "incident-response", "endpoint-management", "microsoft-intune", "mdm-compromise", "defender-tamper", "configuration-profile-tampering", "fleet-persistence", "malicious-win32-app"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "intune-mdm-weaponization-tampered-security-baseline-persistence"
-tested_trait = "root-cause-reframing-from-removing-the-reported-app-to-auditing-trusted-mdm-baselines-for-tampering"
 
 [verifier]
 timeout_sec = 600.0

@@ -8,10 +8,6 @@ authors = []
 keywords = ["it-support", "microsoft-intune", "mdm", "endpoint-management", "device-category", "quarantine", "containment", "token-theft", "aitm", "incident-response", "needle-field"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "intune-token-theft-bidirectional-quarantine-restore"
-difficulty_mechanisms = ["bidirectional-needle-field-at-volume", "counterintuitive-undo-omission", "offensive-framing-blindspot", "owner-to-compromised-account-join", "blanket-cheese-closed-both-directions"]
 
 [verifier]
 timeout_sec = 600.0

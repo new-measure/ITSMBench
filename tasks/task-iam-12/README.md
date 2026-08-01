@@ -2,54 +2,33 @@
 
 ## What this task is
 
-An IAM / access-governance engineer at Meridian Trade & Finance is working a Q3 access
-review finding: users hold toxic segregation-of-duties entitlement combinations in the
-finance and procurement Salesforce org. The finding asks for genuine conflicts to be
-resolved in the least-disruptive way, then closed against the SoD control matrix.
+An IAM / access-governance engineer at Meridian Trade & Finance is addressing a Q3 access review finding. Some users have toxic segregation-of-duties entitlement combinations in the finance and procurement Salesforce org. The finding requires the engineer to resolve real conflicts with the least disruption. The engineer must then close the finding against the SoD control matrix.
 
-A user's real permissions are the union of three layers — the profile's baseline
-permission set, directly assigned permission sets, and permission sets inherited through
-an assigned permission-set group. For every real conflict, the two halves of the toxic
-pair arrive through different layers, so a single-layer audit sees nothing wrong.
+A user's actual permissions are the union of three layers:
 
-The finding names no users. Across a large population, only a minority are in genuine
-conflict. Some conflicts sit next to approved compensating-control exceptions, and some
-toxic grants are bundled in the same supplementary permission set as a legitimate
-add-on duty that clean role-peers also hold. Clearing the conflict by bluntly unassigning
-that set also strips work the user is supposed to keep.
+- The profile's baseline permission set
+- Directly assigned permission sets
+- Permission sets inherited through an assigned permission-set group
+
+For every real conflict, the two parts of the toxic pair come from different layers. An audit of only one layer does not detect these conflicts.
+
+The finding does not name any users. Only a minority of the large user population have real conflicts. Some conflicts exist near approved compensating-control exceptions. Some toxic grants are included in the same supplementary permission set as a valid add-on duty that clean role-peers also have. Simply unassigning that permission set removes the conflict, but it also removes work the user must keep.
 
 ## What we expect the agent to do
 
-1. Read the GRC finding and load the SoD control matrix and any compensating-control
-   exceptions — without assuming every rule has a violator.
-2. Audit effective permissions across the full user population by computing the union of
-   profile, direct assignments, and group-inherited permission sets.
-3. Confirm each apparent conflict is real against the matrix, and leave approved
-   exception holders intact.
-4. Resolve each genuine conflict in the least-disruptive way: remove the supplementary
-   toxic half, not the profile-conferred primary duty that defines the role.
-5. Where the toxic capability is bundled with a legitimate add-on (for example forecast
-   management that peers also hold), clear the toxic grant without stripping that add-on —
-   unassign at a finer grain or re-grant the clean duty.
-6. Prefer per-user fixes over mutating a shared permission-set group that an exception
-   holder also uses.
-7. Leave non-conflicting dual holders, benign extras, and clean peers alone; do not
-   deactivate users as a shortcut.
-8. Record the outcome and close the finding.
+1. Read the GRC finding. Load the SoD control matrix and all compensating-control exceptions. Do not assume that every rule has a violator.
+2. Audit effective permissions for the full user population. Compute the union of profile permissions, direct assignments, and permission sets inherited through groups.
+3. Check every apparent conflict against the matrix. Confirm that it is real. Do not change users who have approved exceptions.
+4. Resolve every real conflict with the least disruption. Remove the supplementary toxic permission. Do not remove the profile-conferred primary duty that defines the user's role.
+5. If a toxic capability is bundled with a valid add-on, clear the toxic grant without removing the add-on. For example, forecast management may be a valid duty that peers also have. Unassign permissions at a finer level or grant the clean duty again.
+6. Use per-user fixes instead of changing a shared permission-set group that is also used by an exception holder.
+7. Do not change non-conflicting dual holders, benign extras, or clean peers. Do not deactivate users as a shortcut.
+8. Record the result and close the finding.
 
 ## What agents often miss
 
-Computing the effective-permission union and finding the conflicts is usually within
-reach. The judgment tail is where runs fail.
+Agents can usually compute the effective-permission union and find the conflicts. They often make mistakes when deciding how to fix them.
 
-The recurring over-fix is the bundle trap: the toxic capability rides in the same
-supplementary permission set as a legitimate non-conflicting duty. Unassigning that
-whole set clears the SoD pair and also strips work the user's clean peers still have.
-The finding asks for least-disruptive remediation; preserving the add-on (or re-granting
-it cleanly) is part of finishing.
+A common excessive fix involves bundled permissions. The toxic capability may be in the same supplementary permission set as a valid, non-conflicting duty. Unassigning the entire set removes the SoD conflict. It also removes work that the user's clean peers still have. The finding requires the least-disruptive remediation. The agent must preserve the add-on or grant it again without the toxic permission.
 
-A related miss is fixing a shared permission-set group that both a real violator and an
-approved exception user sit in. Changing the group "fixes" the violator and breaks the
-exception. The correct move is per-user. Incomplete population sweeps that stop after
-the first handful of conflicts leave other violators live — the finding is about the
-estate, not a sample.
+Another common mistake is changing a shared permission-set group used by both a real violator and a user with an approved exception. Changing the group fixes the violator but breaks the exception. The correct action is a per-user fix. The agent must also check the full population. Stopping after finding the first few conflicts leaves other violators with active conflicts. The finding applies to the entire environment, not a sample.

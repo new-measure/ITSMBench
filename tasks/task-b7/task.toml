@@ -8,10 +8,6 @@ authors = []
 keywords = ["it-support", "mercury", "fintech", "banking", "corporate-card-fraud", "account-takeover", "incident-response", "card-freeze", "needle-field", "bidirectional"]
 
 [metadata]
-environment = "it-support-bench"
-category = "it-support"
-scenario = "mercury-card-fraud-bidirectional-freeze-unfreeze"
-difficulty_mechanisms = ["bidirectional-needle-field-at-volume", "counterintuitive-undo-omission", "offensive-framing-blindspot", "card-to-confirmed-fraud-list-correlation", "blanket-cheese-closed-both-directions"]
 
 [verifier]
 timeout_sec = 600.0

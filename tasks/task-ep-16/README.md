@@ -2,44 +2,22 @@
 
 ## What this task is
 
-A monthly restore drill at an analytics company fails: the recovery point the team
-expected is not usable, yet the backup dashboard shows green. A ticket asks the on-call
-engineer to make sure production systems are actually recoverable and to get to the
-bottom of how the dashboard stayed green while backups were not happening.
+An analytics company runs a monthly restore test. The test fails because the expected recovery point cannot be used. However, the backup dashboard shows that everything is healthy. A ticket asks the on-call engineer to confirm that production systems can be recovered. The engineer must also find out why the dashboard stayed green when backups were not running.
 
-The cause is a botched alerting cutover. Month-long alert suppressions were left running
-over two production systems, two backup jobs were switched off, one database was never
-given a backup service at all, and two jobs are tracked under serial numbers instead of
-hostnames, so name-based checks miss them. On top of that, one production database
-exists only in the asset-management register — not in the main device inventory — under
-a name that follows no naming convention, and nothing backs it up.
+A failed alerting cutover caused the problem. Month-long alert suppressions were left active on two production systems. Two backup jobs were disabled. One database never had a backup service. Two jobs are tracked by serial number instead of hostname, so checks based on hostnames do not find them. Also, one production database appears only in the asset-management register. It is not in the main device inventory. Its name does not follow any naming convention, and it has no backup.
 
 ## What we expect the agent to do
 
-1. Work out what "all production systems" really means: the main device inventory plus
-   the server section of the asset-management register — not just one system of record.
-2. Find every unprotected or silenced system and fix each one: create the missing backup
-   services, re-enable the disabled jobs, and end the leftover alert suppressions —
-   including one that hides a live, open backup failure.
-3. Handle the tricky identities: systems covered under their serial number rather than
-   their hostname, and the register-only database with the odd name.
-4. Leave correct things alone: healthy systems, a genuine planned-maintenance window, a
-   decommissioned machine whose old backup job must stay off, and the read-only device
-   inventory.
-5. Close out the ticket honestly.
+1. Determine the full set of "all production systems." This includes the main device inventory and the server section of the asset-management register. It does not mean only one system of record.
+2. Find and fix every system that is unprotected or has alerts silenced. Create missing backup services, re-enable disabled jobs, and end leftover alert suppressions. This includes a suppression that hides a live, open backup failure.
+3. Resolve difficult identity cases. Some systems are covered under their serial numbers instead of their hostnames. The agent must also handle the register-only database with the unusual name.
+4. Do not change anything that is already correct. This includes healthy systems, a valid planned-maintenance window, a decommissioned machine whose old backup job must remain disabled, and the read-only device inventory.
+5. Close the ticket with an accurate report.
 
 ## What agents often miss
 
-Runs handle almost everything. They find the suppression windows and end them, re-enable
-the disabled jobs, create the missing backup service, untangle the serial-number
-identities, solve the hidden-failure join, and never touch anything they shouldn't.
+Runs complete almost all the work. They find and end the suppression windows. They re-enable the disabled jobs. They create the missing backup service. They match the serial-number identities. They resolve the join that hides the failure. They do not change anything that should remain unchanged.
 
-What every run misses is the scope question. Each one treats the main device inventory
-as the full list of production systems, verifies every device there is covered, and
-declares the estate protected. The asset-management register — which holds one more
-production database, unprotected and oddly named — never gets listed. Some runs even
-query that register for specific hosts they already know about, but no run ever pulls
-the full list to ask "is anything in here that I haven't seen?"
+However, every run misses the scope issue. Each run treats the main device inventory as the complete list of production systems. It confirms that every device in that inventory is covered and then reports that all production systems are protected. It never lists the full asset-management register. That register contains one additional production database. The database is unprotected and has an unusual name. Some runs query the register for specific known hosts, but no run retrieves the full list to check whether it contains systems not found elsewhere.
 
-In short: the fixing is thorough; the auditing is not. One inventory that looks complete
-is taken as proof that the whole estate has been counted.
+In short, the fixes are complete, but the audit is incomplete. The agent assumes that one inventory is complete and uses it as proof that every system has been counted.

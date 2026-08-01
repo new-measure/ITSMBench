@@ -2,54 +2,37 @@
 
 ## What this task is
 
-A P1 incident says payment processing is failing across the platform. The
-incident blames the previous evening's app deploy. The deploy is a decoy — the app
-is fine. Overnight, a maintenance window rebuilt the peering between the
-production network and the shared-services network and re-applied segmentation.
-Two app tiers were reconciled correctly as the reference; the payments tier was
-left half-connected.
+A P1 incident reports that payment processing is failing across the platform. The incident blames the app deploy from the previous evening. This is a decoy. The app is working correctly.
 
-The break is symmetric. A connection across the peering only works if every hop
-allows it — the near side's outbound rules and route, and the far side's inbound
-rules, return route, and both directions of the stateless network ACLs on both
-subnets. The incident names only payments, which tempts a run to fix the near side
-and stop, leaving the far side — the shared endpoints' inbound rules and the
-return path — still closed, so payments stays down. There are also a few DNS
-records left pointing at hosts the migration retired, which should be cleaned up.
+During an overnight maintenance window, the peering between the production network and the shared-services network was rebuilt. Segmentation was also re-applied. Two app tiers were fixed correctly and can be used as references. The payments tier was left only partly connected.
+
+The failure affects both directions. A connection across the peering works only if every hop allows it. The near side must have the correct outbound rules and route. The far side must have the correct inbound rules and return route. The stateless network ACLs on both subnets must also allow traffic in both directions.
+
+The incident mentions only payments. This may lead an agent to fix only the near side and stop. If the far side is not fixed, the shared endpoints' inbound rules and the return path remain blocked. Payments will still fail.
+
+Some DNS records also point to hosts that were retired during the migration. These records must be cleaned up.
 
 ## What we expect the agent to do
 
-1. Confirm the app deploy is not the cause and move on.
-2. Restore the full payments path in both directions: the outbound rules to each
-   dependency, the route off the dead peering, and both directions of the network
-   ACLs on the payments subnet.
-3. Fix the far side too: the return route to payments, the shared subnet's ACLs,
-   and each shared endpoint's inbound rule for the payments subnet.
-4. Model the fix on the reference tiers that already work, and grant payments only
-   what those tiers get — no wider.
-5. Clean up the DNS records left pointing at retired hosts.
-6. Leave the reference tiers, the decoy, and everything already correct untouched,
-   and resolve the incident.
+1. Confirm that the app deploy did not cause the incident, then move on.
+2. Restore the complete payments path in both directions. Add the outbound rules for each dependency, replace the route that uses the dead peering, and fix both directions of the network ACLs on the payments subnet.
+3. Fix the far side as well. Add the return route to payments, fix the shared subnet's ACLs, and add an inbound rule for the payments subnet to each shared endpoint.
+4. Use the working reference tiers as the model for the fix. Give payments only the access that those tiers have. Do not grant wider access.
+5. Clean up the DNS records that still point to retired hosts.
+6. Do not change the reference tiers, the decoy, or anything that is already correct. Resolve the incident.
 
 ## What agents often miss
 
-Current runs handle this well: they reject the blamed deploy, work out that the
-peering path is broken, and restore both sides of it.
+Current runs usually handle the main issue well. They reject the claim that the deploy caused the incident. They identify the broken peering path and restore both sides.
 
-What makes it hard is that the fix is symmetric while the incident is one-sided.
-The ticket is about payments, so the obvious work is the payments side — its
-outbound rules and its route. But a connection only completes if the destination
-allows it back: the shared endpoints have to admit the payments subnet, the
-shared network needs a return route, and because the network ACLs are stateless,
-both directions have to be opened on both subnets. Stop at the near side and
-payments still cannot complete a round trip, even though everything on the side
-the incident names now looks correct.
+The difficult part is that the fix must cover both directions, while the incident mentions only one side. The ticket is about payments, so the most obvious changes are on the payments side: its outbound rules and its route.
 
-The correct shape is not guesswork — the two reference tiers were reconciled
-properly during the same maintenance window, so they show exactly what payments
-should look like. The task is mirroring that onto payments in full, granting no
-more than the reference tiers get, and then clearing the DNS records the
-migration left pointing at retired hosts.
+However, the connection works only if the destination also allows the traffic and its return traffic. The shared endpoints must allow the payments subnet. The shared network must have a return route. The network ACLs are stateless, so both subnets must allow both directions.
 
-In short: the side the incident names is the visible half. Completing the
-symmetric path — the far side and the return direction — is what the task tests.
+If an agent stops after fixing the near side, payments still cannot complete a round trip. This remains true even if everything on the side named in the incident is correct.
+
+The required configuration does not need to be guessed. The two reference tiers were fixed correctly during the same maintenance window. They show exactly how payments should be configured.
+
+The task is to copy that configuration to payments completely, without giving payments more access than the reference tiers. The agent must then remove the DNS records that still point to retired hosts.
+
+In short, the incident names only the visible payments side. The task tests whether the agent also completes the far-side changes and the return path.
