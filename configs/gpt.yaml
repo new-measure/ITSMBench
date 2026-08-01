@@ -1,0 +1,123 @@
+
+
+job_name: gpt
+jobs_dir: jobs
+
+n_attempts: 5
+n_concurrent_trials: 240
+
+retry:
+  max_retries: 2
+
+datasets:
+  - path: tasks
+
+agents:
+  # --- pi + sol ---
+  - name: pi
+    model_name: openai/gpt-5.6-sol
+    kwargs:
+      thinking: "off"
+
+  - name: pi
+    model_name: openai/gpt-5.6-sol
+    kwargs:
+      thinking: low
+
+  - name: pi
+    model_name: openai/gpt-5.6-sol
+    kwargs:
+      thinking: medium
+
+  - name: pi
+    model_name: openai/gpt-5.6-sol
+    kwargs:
+      thinking: high
+
+  - name: pi
+    model_name: openai/gpt-5.6-sol
+    kwargs:
+      thinking: xhigh
+
+  # --- pi + terra ---
+  - name: pi
+    model_name: openai/gpt-5.6-terra
+    kwargs:
+      thinking: "off"
+
+  - name: pi
+    model_name: openai/gpt-5.6-terra
+    kwargs:
+      thinking: low
+
+  - name: pi
+    model_name: openai/gpt-5.6-terra
+    kwargs:
+      thinking: medium
+
+  - name: pi
+    model_name: openai/gpt-5.6-terra
+    kwargs:
+      thinking: high
+
+  - name: pi
+    model_name: openai/gpt-5.6-terra
+    kwargs:
+      thinking: xhigh
+
+  - name: codex
+    model_name: openai/gpt-5.6-sol
+    kwargs:
+      reasoning_effort: "none"
+
+  - name: codex
+    model_name: openai/gpt-5.6-sol
+    kwargs:
+      reasoning_effort: low
+
+  - name: codex
+    model_name: openai/gpt-5.6-sol
+    kwargs:
+      reasoning_effort: medium
+
+  - name: codex
+    model_name: openai/gpt-5.6-sol
+    kwargs:
+      reasoning_effort: high
+
+  - name: codex
+    model_name: openai/gpt-5.6-sol
+    kwargs:
+      reasoning_effort: xhigh
+
+  # --- codex + terra ---
+  - name: codex
+    model_name: openai/gpt-5.6-terra
+    kwargs:
+      reasoning_effort: "none"
+
+  - name: codex
+    model_name: openai/gpt-5.6-terra
+    kwargs:
+      reasoning_effort: low
+
+  - name: codex
+    model_name: openai/gpt-5.6-terra
+    kwargs:
+      reasoning_effort: medium
+
+  - name: codex
+    model_name: openai/gpt-5.6-terra
+    kwargs:
+      reasoning_effort: high
+
+  - name: codex
+    model_name: openai/gpt-5.6-terra
+    kwargs:
+      reasoning_effort: xhigh
+
+environment:
+  type: daytona
+  import_path: environments.reliable_daytona:ReliableDaytonaEnvironment
+  kwargs:
+    dind_snapshot: harbor-dind-emulator-1c2g5d-v4
