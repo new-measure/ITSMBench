@@ -1,6 +1,32 @@
 # ITSMBench
 
-## Setup
+<!-- Hero image placeholder — replace when ready:
+<p align="center">
+  <img src="docs/assets/itsmbench.png" alt="ITSMBench" width="760" />
+</p>
+-->
+
+<p align="center">
+  <a href="#"><img alt="Harbor Hub" src="https://img.shields.io/badge/Harbor%20Hub-coming%20soon-9E9E9E"></a>
+  <a href="#"><img alt="Leaderboard" src="https://img.shields.io/badge/Leaderboard-coming%20soon-9E9E9E"></a>
+  <a href="#"><img alt="License" src="https://img.shields.io/badge/License-TBD-lightgrey"></a>
+</p>
+
+ITSMBench measures how well coding agents handle real IT service-management
+work. Each task
+drops an agent into a containerized enterprise environment with a ticket-style
+instruction and a hidden verifier; the agent investigates systems, takes the
+right actions, and is scored on whether the environment matches the expected
+outcome. 
+
+
+- Dataset: _Harbor Hub URL TBD_
+- Leaderboard: _public leaderboard URL TBD_
+
+
+## Getting started
+
+
 
 ### Prerequisites
 
@@ -8,6 +34,20 @@
 - Add the required provider key to `.env` (see `.env.example`).
 - For Daytona runs, also add `DAYTONA_API_KEY` and ensure the configured snapshot exists.
 - For local runs, start Docker.
+
+### Setup
+
+The same tasks run in either environment, selected at run time:
+
+| Variant | Environment | What it isolates |
+|---|---|---|
+| Daytona (default in configs) | Remote Docker-in-Docker via Daytona | Scale-out runs with a shared snapshot |
+| Local Docker | Local Docker engine | Fully local debugging without Daytona |
+
+Running both is useful when you want remote throughput for full sweeps and a
+hermetic local path for developing or debugging a single task. Full-suite
+configs live under `configs/`; each schedules all 89 tasks across its
+configured agents, models, reasoning levels, and attempts.
 
 ## Run one task
 
