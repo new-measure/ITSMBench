@@ -8,7 +8,7 @@
   <a href="https://www.atomicwork.com/itsm-bench"><img alt="Leaderboard" src="https://img.shields.io/badge/Leaderboard-live-brightgreen"></a>
 </p>
 
-ITSMBench measures how well coding agents handle real IT service-management
+ITSMBench measures how well AI agents handle real IT service-management
 work. Each task
 drops an agent into a containerized enterprise environment with a ticket-style
 instruction and a hidden verifier; the agent investigates systems, takes the
