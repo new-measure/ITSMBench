@@ -4,10 +4,6 @@
   <img src="docs/assets/itsmbench.png" alt="ITSMBench" width="760" />
 </p>
 
-<p align="center">
-  <a href="https://www.atomicwork.com/itsm-bench"><img alt="Leaderboard" src="https://img.shields.io/badge/Leaderboard-live-brightgreen"></a>
-</p>
-
 ITSMBench measures how well AI agents handle real IT service-management
 work. Each task
 drops an agent into a containerized enterprise environment with a ticket-style
