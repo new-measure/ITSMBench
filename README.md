@@ -1,14 +1,11 @@
 # ITSMBench
 
-<!-- Hero image placeholder — replace when ready:
 <p align="center">
   <img src="docs/assets/itsmbench.png" alt="ITSMBench" width="760" />
 </p>
--->
 
 <p align="center">
-  <a href="#"><img alt="Harbor Hub" src="https://img.shields.io/badge/Harbor%20Hub-coming%20soon-9E9E9E"></a>
-  <a href="#"><img alt="Leaderboard" src="https://img.shields.io/badge/Leaderboard-coming%20soon-9E9E9E"></a>
+  <a href="https://www.atomicwork.com/itsm-bench"><img alt="Leaderboard" src="https://img.shields.io/badge/Leaderboard-live-brightgreen"></a>
   <a href="#"><img alt="License" src="https://img.shields.io/badge/License-TBD-lightgrey"></a>
 </p>
 
