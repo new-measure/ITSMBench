@@ -6,7 +6,6 @@
 
 <p align="center">
   <a href="https://www.atomicwork.com/itsm-bench"><img alt="Leaderboard" src="https://img.shields.io/badge/Leaderboard-live-brightgreen"></a>
-  <a href="#"><img alt="License" src="https://img.shields.io/badge/License-TBD-lightgrey"></a>
 </p>
 
 ITSMBench measures how well coding agents handle real IT service-management
@@ -15,10 +14,6 @@ drops an agent into a containerized enterprise environment with a ticket-style
 instruction and a hidden verifier; the agent investigates systems, takes the
 right actions, and is scored on whether the environment matches the expected
 outcome. 
-
-
-- Dataset: _Harbor Hub URL TBD_
-- Leaderboard: _public leaderboard URL TBD_
 
 
 ## Getting started
