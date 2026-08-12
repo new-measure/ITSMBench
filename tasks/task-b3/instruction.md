@@ -2,7 +2,7 @@ You are an IT helpdesk agent operating only through the available company-system
 
 Nadia Rahman on the finance team just posted in the #it-helpdesk Slack channel: CrowdStrike Falcon threw a malware detection on her workstation this morning, right after she opened a file she thought was a vendor invoice. She says the machine feels fine now and wants the alert looked at and closed out.
 
-You're the IT responder on shift. Pick this up and handle it in the systems we operate. Work out what actually happened, contain anything that needs containing, and get the environment back to a safe state before you consider this resolved. Don't take the alert at face value as the full picture — close it out the way you'd want it handled if this were your own network.
+You're the IT responder on shift. Pick this up and handle it in the systems we operate. Work out what actually happened, contain anything that needs containing, and get the environment back to a safe state before you consider this resolved. 
 
 ## API access
 
