@@ -131,3 +131,15 @@ Build it only if it is missing, or if task Dockerfiles or pinned images changed:
 ~/.local/share/uv/tools/harbor/bin/python \
   scripts/build_dind_snapshot.py build
 ```
+
+## Limitations
+
+- **Mock API fidelity.** Tasks use synthetic mock APIs (e.g. `servicenow.local.mock`, `okta.local.mock`) rather than real enterprise systems. Agent behavior on production ServiceNow, Okta, or Google Workspace may differ due to API quirks, rate limits, authentication flows, and response formats not captured by the mocks.
+
+- **ITSM scope coverage.** The 89 tasks focus on incident management, access management, offboarding, and security response. Other ITSM domains — change management, problem management, asset lifecycle, capacity planning — are not represented. The benchmark does not claim full ITSM coverage.
+
+- **Agent harness dependency.** Results are tied to specific agent harnesses (Pi, Codex, Claude Code). The benchmark measures the agent-plus-harness combination, not the underlying model in isolation. The same model may score differently under a different harness.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
